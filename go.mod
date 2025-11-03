@@ -1,4 +1,4 @@
-module github.com/yourname/yokai-finder-mcp
+module github.com/Takamasa045/Yokai-Finder-MCP
 
 go 1.24.0
 

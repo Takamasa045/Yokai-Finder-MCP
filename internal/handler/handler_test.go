@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yourname/yokai-finder-mcp/internal/cache"
-	"github.com/yourname/yokai-finder-mcp/internal/ndl"
-	"github.com/yourname/yokai-finder-mcp/pkg/types"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/cache"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/ndl"
+	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 )
 
 const sampleRSS = `<?xml version="1.0" encoding="UTF-8"?>
@@ -88,17 +88,3 @@ func TestNormaliseParams(t *testing.T) {
 		t.Errorf("expected limit clamp to 50, got %d", got.Limit)
 	}
 }
-
-const sampleRSS = `<?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xmlns:dcndl="http://ndl.go.jp/dcndl/terms/">
-  <channel>
-    <item>
-      <title>妖怪退治入門</title>
-      <dc:creator>山田 太郎</dc:creator>
-      <dc:identifier xsi:type="dcndl:ISBN">978-4-0000-0000-0</dc:identifier>
-    </item>
-  </channel>
-</rss>`

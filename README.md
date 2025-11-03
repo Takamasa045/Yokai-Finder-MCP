@@ -19,8 +19,8 @@ A Model Context Protocol (MCP) server for searching Japanese yokai (folklore cre
 ### Build from Source
 
 ```bash
-git clone https://github.com/yourname/yokai-finder-mcp.git
-cd yokai-finder-mcp
+git clone https://github.com/Takamasa045/Yokai-Finder-MCP.git
+cd Yokai-Finder-MCP
 go build -o yokai-finder-mcp cmd/server/server.go
 ```
 

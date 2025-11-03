@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/yourname/yokai-finder-mcp/pkg/types"
+	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 )
 
 const sampleRSS = `<?xml version="1.0" encoding="UTF-8"?>

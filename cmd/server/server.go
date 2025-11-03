@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
-	"github.com/yourname/yokai-finder-mcp/internal/cache"
-	"github.com/yourname/yokai-finder-mcp/internal/handler"
-	"github.com/yourname/yokai-finder-mcp/internal/ndl"
-	"github.com/yourname/yokai-finder-mcp/pkg/types"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/cache"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/handler"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/ndl"
+	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 )
 
 const (

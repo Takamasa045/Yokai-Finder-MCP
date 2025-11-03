@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yourname/yokai-finder-mcp/pkg/types"
+	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 )
 
 // Cache is a simple in-memory cache for search results

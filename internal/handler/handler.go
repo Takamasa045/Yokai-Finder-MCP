@@ -5,9 +5,9 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/yourname/yokai-finder-mcp/internal/cache"
-	"github.com/yourname/yokai-finder-mcp/internal/ndl"
-	"github.com/yourname/yokai-finder-mcp/pkg/types"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/cache"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/ndl"
+	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 )
 
 // Handler coordinates Yokai search requests against the NDL API with caching.

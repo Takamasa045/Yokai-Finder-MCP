@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yourname/yokai-finder-mcp/pkg/types"
+	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 )
 
 func TestCacheSetGet(t *testing.T) {

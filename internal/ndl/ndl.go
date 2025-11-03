@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yourname/yokai-finder-mcp/pkg/types"
+	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 	"golang.org/x/net/html"
 )
 
