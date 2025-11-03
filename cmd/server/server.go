@@ -6,11 +6,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/modelcontextprotocol/go-sdk/mcp"
 	"github.com/Takamasa045/Yokai-Finder-MCP/internal/cache"
 	"github.com/Takamasa045/Yokai-Finder-MCP/internal/handler"
 	"github.com/Takamasa045/Yokai-Finder-MCP/internal/ndl"
 	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
+	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
 const (
@@ -25,6 +25,14 @@ type searchArgs struct {
 	Region   string `json:"region,omitempty" description:"Region or place associated with the yokai"`
 	Category string `json:"category,omitempty" description:"Yokai category or theme"`
 	Limit    int    `json:"limit,omitempty" description:"Maximum number of books to return (default 10, max 50)"`
+}
+
+type yokaiOfTheDayArgs struct {
+	Name     string `json:"name,omitempty" description:"Exact yokai to highlight"`
+	Category string `json:"category,omitempty" description:"Filter curated yokai by category hint"`
+	Region   string `json:"region,omitempty" description:"Filter curated yokai by region hint"`
+	Seed     int64  `json:"seed,omitempty" description:"Deterministic selection seed"`
+	Limit    int    `json:"limit,omitempty" description:"Maximum number of book recommendations (default 5, max 10)"`
 }
 
 func main() {
@@ -63,6 +71,25 @@ func newServer(h *handler.Handler) *mcp.Server {
 		}
 
 		result, err := h.SearchYokai(ctx, params)
+		if err != nil {
+			return nil, nil, err
+		}
+		return nil, result, nil
+	})
+
+	mcp.AddTool(server, &mcp.Tool{
+		Name:        "yokai_of_the_day",
+		Description: "Surface a curated yokai profile with lore, creative hooks, and recommended reading",
+	}, func(ctx context.Context, _ *mcp.CallToolRequest, args yokaiOfTheDayArgs) (*mcp.CallToolResult, *types.YokaiOfTheDayResult, error) {
+		params := types.YokaiOfTheDayParams{
+			Name:     args.Name,
+			Category: args.Category,
+			Region:   args.Region,
+			Seed:     args.Seed,
+			Limit:    args.Limit,
+		}
+
+		result, err := h.YokaiOfTheDay(ctx, params)
 		if err != nil {
 			return nil, nil, err
 		}
