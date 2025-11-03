@@ -1,22 +1,22 @@
 # Yokai-Finder MCP
 
-A Model Context Protocol (MCP) server for searching Japanese yokai (folklore creatures) books in the National Diet Library.
+国立国会図書館の蔵書から日本の妖怪に関する書籍を検索するための Model Context Protocol (MCP) サーバーです。
 
-## Features
+## 特徴
 
-- **Search Yokai Books**: Search for books about yokai using the National Diet Library API
-- **Flexible Search**: Search by yokai name, region, or category
-- **Caching**: Built-in caching to reduce API calls and improve performance
-- **MCP Protocol**: Fully compliant with the Model Context Protocol
+- **妖怪書籍検索**: 国立国会図書館APIを使用して妖怪に関する書籍を検索
+- **柔軟な検索**: 妖怪名、地域、カテゴリーでの検索が可能
+- **キャッシュ機能**: API呼び出しを削減し、パフォーマンスを向上させる組み込みキャッシュ
+- **MCPプロトコル準拠**: Model Context Protocolに完全準拠
 
-## Installation
+## インストール
 
-### Prerequisites
+### 必要要件
 
-- Go 1.22 or higher
+- Go 1.22 以上
 - Git
 
-### Build from Source
+### ソースからのビルド
 
 ```bash
 git clone https://github.com/Takamasa045/Yokai-Finder-MCP.git
@@ -24,21 +24,21 @@ cd Yokai-Finder-MCP
 go build -o yokai-finder-mcp cmd/server/server.go
 ```
 
-## Usage
+## 使い方
 
-### As an MCP Server
+### MCPサーバーとして
 
-The server can be used as an MCP server by running it directly:
+サーバーを直接実行してMCPサーバーとして使用できます：
 
 ```bash
 ./yokai-finder-mcp
 ```
 
-The server communicates via stdin/stdout using JSON-RPC protocol.
+サーバーはJSON-RPCプロトコルを使用してstdin/stdoutで通信します。
 
-### Configuration for Claude Desktop
+### Claude Desktop での設定
 
-Add the following to your Claude Desktop MCP configuration:
+Claude Desktop の MCP 設定に以下を追加してください：
 
 ```json
 {
@@ -53,7 +53,7 @@ Add the following to your Claude Desktop MCP configuration:
 }
 ```
 
-Or use the built binary:
+または、ビルド済みのバイナリを使用：
 
 ```json
 {
@@ -67,19 +67,19 @@ Or use the built binary:
 }
 ```
 
-## Available Tools
+## 利用可能なツール
 
 ### search_yokai_books
 
-Search for books about yokai in the National Diet Library.
+国立国会図書館で妖怪に関する書籍を検索します。
 
-**Parameters:**
-- `name` (optional): Name of the yokai to search for (e.g., '河童', '天狗', '九尾の狐')
-- `region` (optional): Region or prefecture associated with the yokai (e.g., '岩手', '京都')
-- `category` (optional): Category of yokai (e.g., '水妖', '山妖', '動物妖怪')
-- `limit` (optional): Maximum number of results to return (default: 10, max: 100)
+**パラメータ:**
+- `name` (任意): 検索する妖怪の名前（例：'河童'、'天狗'、'九尾の狐'）
+- `region` (任意): 妖怪に関連する地域や都道府県（例：'岩手'、'京都'）
+- `category` (任意): 妖怪のカテゴリー（例：'水妖'、'山妖'、'動物妖怪'）
+- `limit` (任意): 返す結果の最大数（デフォルト：10、最大：100）
 
-**Example:**
+**使用例:**
 ```json
 {
   "name": "search_yokai_books",
@@ -90,37 +90,37 @@ Search for books about yokai in the National Diet Library.
 }
 ```
 
-## Development
+## 開発
 
-### Project Structure
+### プロジェクト構造
 
 ```
 yokai-finder-mcp/
 ├── cmd/
 │   └── server/
-│       └── server.go          # Main server entry point
+│       └── server.go          # メインサーバーエントリーポイント
 ├── internal/
 │   ├── cache/
-│   │   └── cache.go          # Caching functionality
+│   │   └── cache.go          # キャッシュ機能
 │   ├── handler/
-│   │   └── handler.go        # MCP request handlers
+│   │   └── handler.go        # MCPリクエストハンドラー
 │   └── ndl/
-│       └── ndl.go            # National Diet Library API client
+│       └── ndl.go            # 国立国会図書館APIクライアント
 ├── pkg/
 │   └── types/
-│       └── types.go          # Type definitions
+│       └── types.go          # 型定義
 ├── go.mod
-├── mcp.json                  # MCP configuration
+├── mcp.json                  # MCP設定
 └── README.md
 ```
 
-### Running Tests
+### テストの実行
 
 ```bash
 go test ./...
 ```
 
-### Building
+### ビルド
 
 ```bash
 go build -o yokai-finder-mcp cmd/server/server.go
@@ -128,28 +128,28 @@ go build -o yokai-finder-mcp cmd/server/server.go
 
 ## API
 
-The server implements the MCP protocol with the following methods:
+サーバーは以下のメソッドを持つMCPプロトコルを実装しています：
 
-- `initialize`: Initialize the MCP connection
-- `tools/list`: List available tools
-- `tools/call`: Execute a tool
+- `initialize`: MCP接続の初期化
+- `tools/list`: 利用可能なツールの一覧表示
+- `tools/call`: ツールの実行
 
-## Caching
+## キャッシュ
 
-The server includes a built-in cache with the following features:
-- TTL: 30 minutes
-- Max size: 100 entries
-- Automatic cleanup of expired entries
+サーバーには以下の機能を持つ組み込みキャッシュが含まれています：
+- TTL: 30分
+- 最大サイズ: 100エントリ
+- 期限切れエントリの自動クリーンアップ
 
-## License
+## ライセンス
 
 MIT
 
-## Contributing
+## コントリビューション
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+プルリクエストを歓迎します！お気軽にご貢献ください。
 
-## Acknowledgments
+## 謝辞
 
-- National Diet Library for providing the API
-- Model Context Protocol for the protocol specification
+- APIを提供してくださった国立国会図書館
+- プロトコル仕様を策定したModel Context Protocol
