@@ -30,3 +30,4 @@ tmp/
 
 # Kamui project-specific
 .kamui/
+.worktrees/
