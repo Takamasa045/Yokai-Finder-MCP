@@ -25,9 +25,9 @@ type RPCError struct {
 
 // MCP Protocol Messages
 type InitializeParams struct {
-	ProtocolVersion string                 `json:"protocolVersion"`
-	Capabilities    ClientCapabilities     `json:"capabilities"`
-	ClientInfo      Implementation         `json:"clientInfo"`
+	ProtocolVersion string             `json:"protocolVersion"`
+	Capabilities    ClientCapabilities `json:"capabilities"`
+	ClientInfo      Implementation     `json:"clientInfo"`
 }
 
 type ClientCapabilities struct {
@@ -79,9 +79,9 @@ type Tool struct {
 }
 
 type InputSchema struct {
-	Type       string                 `json:"type"`
-	Properties map[string]Property    `json:"properties,omitempty"`
-	Required   []string               `json:"required,omitempty"`
+	Type       string              `json:"type"`
+	Properties map[string]Property `json:"properties,omitempty"`
+	Required   []string            `json:"required,omitempty"`
 }
 
 type Property struct {
@@ -132,4 +132,37 @@ type YokaiSearchResult struct {
 	Query   string      `json:"query"`
 	Total   int         `json:"total"`
 	Results []YokaiBook `json:"results"`
+}
+
+// YokaiProfile captures curated lore for a yokai entry.
+type YokaiProfile struct {
+	Name          string   `json:"name"`
+	NativeName    string   `json:"nativeName,omitempty"`
+	Region        string   `json:"region,omitempty"`
+	Category      string   `json:"category,omitempty"`
+	Summary       string   `json:"summary"`
+	Legends       []string `json:"legends,omitempty"`
+	Traits        []string `json:"traits,omitempty"`
+	Motifs        []string `json:"motifs,omitempty"`
+	FunFact       string   `json:"funFact,omitempty"`
+	CreativeHooks []string `json:"creativeHooks,omitempty"`
+}
+
+// YokaiOfTheDayParams controls how the highlight tool selects a yokai.
+type YokaiOfTheDayParams struct {
+	Name     string `json:"name,omitempty"`
+	Category string `json:"category,omitempty"`
+	Region   string `json:"region,omitempty"`
+	Seed     int64  `json:"seed,omitempty"`
+	Limit    int    `json:"limit,omitempty"`
+}
+
+// YokaiOfTheDayResult combines curated lore with recommended reading.
+type YokaiOfTheDayResult struct {
+	Profile          YokaiProfile `json:"profile"`
+	Query            string       `json:"query"`
+	TotalBooks       int          `json:"totalBooks"`
+	RecommendedBooks []YokaiBook  `json:"recommendedBooks,omitempty"`
+	StoryPrompt      string       `json:"storyPrompt,omitempty"`
+	Notes            []string     `json:"notes,omitempty"`
 }
