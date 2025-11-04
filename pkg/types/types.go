@@ -166,3 +166,38 @@ type YokaiOfTheDayResult struct {
 	StoryPrompt      string       `json:"storyPrompt,omitempty"`
 	Notes            []string     `json:"notes,omitempty"`
 }
+
+// CuratedYokaiParams controls how curated yokai metadata is listed.
+type CuratedYokaiParams struct {
+	Term                 string `json:"term,omitempty"`
+	Category             string `json:"category,omitempty"`
+	Region               string `json:"region,omitempty"`
+	Seed                 int64  `json:"seed,omitempty"`
+	Limit                int    `json:"limit,omitempty"`
+	IncludeLegends       bool   `json:"includeLegends,omitempty"`
+	IncludeTraits        bool   `json:"includeTraits,omitempty"`
+	IncludeMotifs        bool   `json:"includeMotifs,omitempty"`
+	IncludeCreativeHooks bool   `json:"includeCreativeHooks,omitempty"`
+}
+
+// CuratedYokaiProfile surfaces curated lore in a lightweight shape for listings.
+type CuratedYokaiProfile struct {
+	Name          string   `json:"name"`
+	NativeName    string   `json:"nativeName,omitempty"`
+	Region        string   `json:"region,omitempty"`
+	Category      string   `json:"category,omitempty"`
+	Summary       string   `json:"summary,omitempty"`
+	Legends       []string `json:"legends,omitempty"`
+	Traits        []string `json:"traits,omitempty"`
+	Motifs        []string `json:"motifs,omitempty"`
+	CreativeHooks []string `json:"creativeHooks,omitempty"`
+}
+
+// CuratedYokaiResult returns curated profiles plus helpful context.
+type CuratedYokaiResult struct {
+	Query    string                `json:"query,omitempty"`
+	Total    int                   `json:"total"`
+	Returned int                   `json:"returned"`
+	Profiles []CuratedYokaiProfile `json:"profiles"`
+	Notes    []string              `json:"notes,omitempty"`
+}

@@ -4,6 +4,8 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"math/rand"
+	"sort"
 	"strings"
 
 	"github.com/Takamasa045/Yokai-Finder-MCP/internal/cache"
@@ -114,6 +116,46 @@ func (h *Handler) YokaiOfTheDay(ctx context.Context, params types.YokaiOfTheDayP
 	return result, nil
 }
 
+// ListCuratedYokai returns curated profiles filtered and shaped for quick browsing.
+func (h *Handler) ListCuratedYokai(_ context.Context, params types.CuratedYokaiParams) (*types.CuratedYokaiResult, error) {
+	cleaned := normaliseCuratedParams(params)
+
+	profiles := yokai.Profiles()
+	matches := filterCuratedProfiles(profiles, cleaned)
+
+	if len(matches) == 0 {
+		return &types.CuratedYokaiResult{
+			Query:    cleaned.Term,
+			Total:    0,
+			Returned: 0,
+			Profiles: nil,
+			Notes:    []string{"No curated yokai matched the provided filters."},
+		}, nil
+	}
+
+	ordered := orderCuratedProfiles(matches, cleaned.Seed)
+
+	limited := ordered
+	notes := []string{}
+	if cleaned.Limit > 0 && len(ordered) > cleaned.Limit {
+		limited = ordered[:cleaned.Limit]
+		notes = append(notes, fmt.Sprintf("Showing first %d of %d curated yokai.", cleaned.Limit, len(ordered)))
+	}
+
+	resultProfiles := make([]types.CuratedYokaiProfile, 0, len(limited))
+	for _, profile := range limited {
+		resultProfiles = append(resultProfiles, convertCuratedProfile(profile, cleaned))
+	}
+
+	return &types.CuratedYokaiResult{
+		Query:    cleaned.Term,
+		Total:    len(ordered),
+		Returned: len(resultProfiles),
+		Profiles: resultProfiles,
+		Notes:    notes,
+	}, nil
+}
+
 func normaliseParams(p types.YokaiSearchParams) types.YokaiSearchParams {
 	p.Name = strings.TrimSpace(p.Name)
 	p.Region = strings.TrimSpace(p.Region)
@@ -138,6 +180,20 @@ func normaliseHighlightParams(p types.YokaiOfTheDayParams) types.YokaiOfTheDayPa
 	}
 	if p.Limit > 10 {
 		p.Limit = 10
+	}
+	return p
+}
+
+func normaliseCuratedParams(p types.CuratedYokaiParams) types.CuratedYokaiParams {
+	p.Term = strings.TrimSpace(p.Term)
+	p.Category = strings.TrimSpace(p.Category)
+	p.Region = strings.TrimSpace(p.Region)
+
+	if p.Limit <= 0 {
+		p.Limit = 10
+	}
+	if p.Limit > 50 {
+		p.Limit = 50
 	}
 	return p
 }
@@ -258,4 +314,93 @@ func cloneStrings(values []string) []string {
 	out := make([]string, len(values))
 	copy(out, values)
 	return out
+}
+
+func filterCuratedProfiles(profiles []yokai.Profile, params types.CuratedYokaiParams) []yokai.Profile {
+	var filtered []yokai.Profile
+	term := strings.ToLower(params.Term)
+	category := strings.ToLower(params.Category)
+	region := strings.ToLower(params.Region)
+
+	for _, profile := range profiles {
+		if category != "" && !strings.Contains(strings.ToLower(profile.Category), category) {
+			continue
+		}
+		if region != "" && !strings.Contains(strings.ToLower(profile.Region), region) {
+			continue
+		}
+		if term != "" && !profileMatchesTerm(profile, term) {
+			continue
+		}
+		filtered = append(filtered, profile)
+	}
+	return filtered
+}
+
+func profileMatchesTerm(profile yokai.Profile, term string) bool {
+	fields := []string{
+		profile.Name,
+		profile.NativeName,
+		profile.Region,
+		profile.Category,
+		profile.Summary,
+		strings.Join(profile.Legends, " "),
+		strings.Join(profile.Traits, " "),
+		strings.Join(profile.Motifs, " "),
+		strings.Join(profile.CreativeHooks, " "),
+	}
+
+	for _, field := range fields {
+		if strings.Contains(strings.ToLower(field), term) {
+			return true
+		}
+	}
+	return false
+}
+
+func orderCuratedProfiles(profiles []yokai.Profile, seed int64) []yokai.Profile {
+	if len(profiles) <= 1 {
+		return profiles
+	}
+
+	ordered := make([]yokai.Profile, len(profiles))
+	copy(ordered, profiles)
+
+	if seed != 0 {
+		r := rand.New(rand.NewSource(seed))
+		r.Shuffle(len(ordered), func(i, j int) {
+			ordered[i], ordered[j] = ordered[j], ordered[i]
+		})
+		return ordered
+	}
+
+	sort.SliceStable(ordered, func(i, j int) bool {
+		return strings.ToLower(ordered[i].Name) < strings.ToLower(ordered[j].Name)
+	})
+	return ordered
+}
+
+func convertCuratedProfile(profile yokai.Profile, params types.CuratedYokaiParams) types.CuratedYokaiProfile {
+	result := types.CuratedYokaiProfile{
+		Name:       profile.Name,
+		NativeName: profile.NativeName,
+		Region:     profile.Region,
+		Category:   profile.Category,
+		Summary:    profile.Summary,
+	}
+
+	if params.IncludeLegends {
+		result.Legends = cloneStrings(profile.Legends)
+	}
+	if params.IncludeTraits {
+		result.Traits = cloneStrings(profile.Traits)
+	}
+	if params.IncludeMotifs {
+		result.Motifs = cloneStrings(profile.Motifs)
+	}
+	if params.IncludeCreativeHooks {
+		result.CreativeHooks = cloneStrings(profile.CreativeHooks)
+	}
+
+	return result
 }

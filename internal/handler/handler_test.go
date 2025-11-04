@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"net/http"
 	"net/http/httptest"
+	"reflect"
 	"strings"
 	"testing"
 	"time"
@@ -133,5 +134,81 @@ func TestHandlerYokaiOfTheDayFallback(t *testing.T) {
 	}
 	if result.TotalBooks != 0 {
 		t.Fatalf("expected total books to be zero on failure, got %d", result.TotalBooks)
+	}
+}
+
+func TestListCuratedYokaiFiltersAndShape(t *testing.T) {
+	t.Helper()
+
+	h := New(nil, nil)
+
+	result, err := h.ListCuratedYokai(context.Background(), types.CuratedYokaiParams{
+		Category:             "water",
+		IncludeLegends:       true,
+		IncludeCreativeHooks: true,
+		Limit:                3,
+	})
+	if err != nil {
+		t.Fatalf("ListCuratedYokai returned error: %v", err)
+	}
+	if result.Total == 0 {
+		t.Fatalf("expected filtered results")
+	}
+	if result.Returned == 0 || len(result.Profiles) == 0 {
+		t.Fatalf("expected at least one profile, got %+v", result)
+	}
+
+	for _, profile := range result.Profiles {
+		if !strings.Contains(strings.ToLower(profile.Category), "water") {
+			t.Fatalf("expected category to include 'water', got %q", profile.Category)
+		}
+		if len(profile.Legends) == 0 {
+			t.Fatalf("expected legends to be included when requested")
+		}
+		if profile.Traits != nil {
+			t.Fatalf("did not expect traits without IncludeTraits flag")
+		}
+		if profile.CreativeHooks == nil {
+			t.Fatalf("expected creative hooks when requested")
+		}
+	}
+	if len(result.Notes) != 0 {
+		t.Fatalf("expected no truncation notes when limit exceeds matches, got %v", result.Notes)
+	}
+}
+
+func TestListCuratedYokaiDeterministicShuffle(t *testing.T) {
+	t.Helper()
+
+	h := New(nil, nil)
+
+	params := types.CuratedYokaiParams{
+		Seed:  99,
+		Limit: 5,
+	}
+
+	first, err := h.ListCuratedYokai(context.Background(), params)
+	if err != nil {
+		t.Fatalf("ListCuratedYokai returned error: %v", err)
+	}
+
+	second, err := h.ListCuratedYokai(context.Background(), params)
+	if err != nil {
+		t.Fatalf("second run returned error: %v", err)
+	}
+
+	if !reflect.DeepEqual(first.Profiles, second.Profiles) {
+		t.Fatalf("expected deterministic ordering with seed, got\nfirst:  %+v\nsecond: %+v", first.Profiles, second.Profiles)
+	}
+
+	params.Seed = 0
+	sorted, err := h.ListCuratedYokai(context.Background(), params)
+	if err != nil {
+		t.Fatalf("expected sorted run to succeed: %v", err)
+	}
+	for i := 1; i < len(sorted.Profiles); i++ {
+		if strings.ToLower(sorted.Profiles[i-1].Name) > strings.ToLower(sorted.Profiles[i].Name) {
+			t.Fatalf("expected alphabetical order when no seed is provided")
+		}
 	}
 }
