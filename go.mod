@@ -1,12 +1,10 @@
 module github.com/Takamasa045/Yokai-Finder-MCP
 
-go 1.24.0
-
-toolchain go1.24.4
+go 1.23
 
 require (
 	github.com/modelcontextprotocol/go-sdk v1.1.0
-	golang.org/x/net v0.46.0
+	golang.org/x/net v0.43.0
 )
 
 require (
