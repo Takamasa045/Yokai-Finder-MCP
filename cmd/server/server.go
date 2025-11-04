@@ -35,6 +35,18 @@ type yokaiOfTheDayArgs struct {
 	Limit    int    `json:"limit,omitempty" description:"Maximum number of book recommendations (default 5, max 10)"`
 }
 
+type listCuratedArgs struct {
+	Term                 string `json:"term,omitempty" description:"Keyword to match name, lore, or motifs"`
+	Category             string `json:"category,omitempty" description:"Filter curated yokai by category hint"`
+	Region               string `json:"region,omitempty" description:"Filter curated yokai by region hint"`
+	Seed                 int64  `json:"seed,omitempty" description:"Shuffle results deterministically when provided"`
+	Limit                int    `json:"limit,omitempty" description:"Maximum number of curated entries to return (default 10, max 50)"`
+	IncludeLegends       bool   `json:"includeLegends,omitempty" description:"Include folkloric legend snippets"`
+	IncludeTraits        bool   `json:"includeTraits,omitempty" description:"Include notable traits"`
+	IncludeMotifs        bool   `json:"includeMotifs,omitempty" description:"Include thematic motifs"`
+	IncludeCreativeHooks bool   `json:"includeCreativeHooks,omitempty" description:"Include creative hook suggestions"`
+}
+
 func main() {
 	if err := run(context.Background()); err != nil {
 		log.Fatalf("server error: %v", err)
@@ -90,6 +102,29 @@ func newServer(h *handler.Handler) *mcp.Server {
 		}
 
 		result, err := h.YokaiOfTheDay(ctx, params)
+		if err != nil {
+			return nil, nil, err
+		}
+		return nil, result, nil
+	})
+
+	mcp.AddTool(server, &mcp.Tool{
+		Name:        "list_curated_yokai",
+		Description: "Browse curated yokai profiles with optional lore snippets and filters",
+	}, func(ctx context.Context, _ *mcp.CallToolRequest, args listCuratedArgs) (*mcp.CallToolResult, *types.CuratedYokaiResult, error) {
+		params := types.CuratedYokaiParams{
+			Term:                 args.Term,
+			Category:             args.Category,
+			Region:               args.Region,
+			Seed:                 args.Seed,
+			Limit:                args.Limit,
+			IncludeLegends:       args.IncludeLegends,
+			IncludeTraits:        args.IncludeTraits,
+			IncludeMotifs:        args.IncludeMotifs,
+			IncludeCreativeHooks: args.IncludeCreativeHooks,
+		}
+
+		result, err := h.ListCuratedYokai(ctx, params)
 		if err != nil {
 			return nil, nil, err
 		}
