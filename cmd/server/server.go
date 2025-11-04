@@ -1,135 +1,129 @@
 package main
 
 import (
-	"context"
+	"bufio"
+	"bytes"
+	"encoding/json"
+	"fmt"
+	"io"
 	"log"
 	"os"
-	"time"
+	"strconv"
+	"strings"
 
-	"github.com/Takamasa045/Yokai-Finder-MCP/internal/cache"
-	"github.com/Takamasa045/Yokai-Finder-MCP/internal/handler"
-	"github.com/Takamasa045/Yokai-Finder-MCP/internal/ndl"
-	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
-	"github.com/modelcontextprotocol/go-sdk/mcp"
+	"github.com/yourname/yokai-finder-mcp/internal/handler"
 )
 
-const (
-	serverName       = "yokai-finder-mcp"
-	defaultVersion   = "0.1.0"
-	defaultCacheTTL  = 5 * time.Minute
-	defaultCacheSize = 256
-)
+// ===== JSON-RPC 2.0 型 =====
 
-type searchArgs struct {
-	Name     string `json:"name,omitempty" description:"Yokai name or keyword to search for"`
-	Region   string `json:"region,omitempty" description:"Region or place associated with the yokai"`
-	Category string `json:"category,omitempty" description:"Yokai category or theme"`
-	Limit    int    `json:"limit,omitempty" description:"Maximum number of books to return (default 10, max 50)"`
+type request struct {
+	JSONRPC string          `json:"jsonrpc"`
+	ID      any             `json:"id"`
+	Method  string          `json:"method"`
+	Params  json.RawMessage `json:"params"`
 }
 
-type yokaiOfTheDayArgs struct {
-	Name     string `json:"name,omitempty" description:"Exact yokai to highlight"`
-	Category string `json:"category,omitempty" description:"Filter curated yokai by category hint"`
-	Region   string `json:"region,omitempty" description:"Filter curated yokai by region hint"`
-	Seed     int64  `json:"seed,omitempty" description:"Deterministic selection seed"`
-	Limit    int    `json:"limit,omitempty" description:"Maximum number of book recommendations (default 5, max 10)"`
+type response struct {
+	JSONRPC string     `json:"jsonrpc"`
+	ID      any        `json:"id"`
+	Result  any        `json:"result,omitempty"`
+	Error   *respError `json:"error,omitempty"`
 }
 
-type listCuratedArgs struct {
-	Term                 string `json:"term,omitempty" description:"Keyword to match name, lore, or motifs"`
-	Category             string `json:"category,omitempty" description:"Filter curated yokai by category hint"`
-	Region               string `json:"region,omitempty" description:"Filter curated yokai by region hint"`
-	Seed                 int64  `json:"seed,omitempty" description:"Shuffle results deterministically when provided"`
-	Limit                int    `json:"limit,omitempty" description:"Maximum number of curated entries to return (default 10, max 50)"`
-	IncludeLegends       bool   `json:"includeLegends,omitempty" description:"Include folkloric legend snippets"`
-	IncludeTraits        bool   `json:"includeTraits,omitempty" description:"Include notable traits"`
-	IncludeMotifs        bool   `json:"includeMotifs,omitempty" description:"Include thematic motifs"`
-	IncludeCreativeHooks bool   `json:"includeCreativeHooks,omitempty" description:"Include creative hook suggestions"`
+type respError struct {
+	Code    int    `json:"code"`
+	Message string `json:"message"`
 }
+
+// MCP params
+
+type initResult struct {
+	Capabilities map[string]any `json:"capabilities"`
+}
+
+var h = handler.New()
 
 func main() {
-	if err := run(context.Background()); err != nil {
-		log.Fatalf("server error: %v", err)
+	rd := bufio.NewReader(os.Stdin)
+	for {
+		req, err := readFramed(rd)
+		if err == io.EOF {
+			return
+		}
+		if err != nil {
+			log.Println("read err:", err)
+			return
+		}
+		go handle(req)
 	}
 }
 
-func run(ctx context.Context) error {
-	h := handler.New(ndl.NewClient(), cache.NewCache(defaultCacheTTL, defaultCacheSize))
-
-	server := newServer(h)
-	return server.Run(ctx, &mcp.StdioTransport{})
+func handle(b []byte) {
+	var req request
+	if err := json.Unmarshal(b, &req); err != nil {
+		writeResp(response{JSONRPC: "2.0", ID: nil, Error: &respError{Code: -32700, Message: "parse error"}})
+		return
+	}
+	switch req.Method {
+	case "initialize":
+		writeResp(response{JSONRPC: "2.0", ID: req.ID, Result: initResult{Capabilities: map[string]any{"tools": map[string]any{"list": true, "call": true}}}})
+	case "tools/list":
+		writeResp(response{JSONRPC: "2.0", ID: req.ID, Result: map[string]any{"tools": h.Tools()}})
+	case "tools/call":
+		// params: { name: string, arguments: object }
+		var p struct {
+			Name      string          `json:"name"`
+			Arguments json.RawMessage `json:"arguments"`
+		}
+		if err := json.Unmarshal(req.Params, &p); err != nil {
+			writeResp(response{JSONRPC: "2.0", ID: req.ID, Error: &respError{Code: -32602, Message: "invalid params"}})
+			return
+		}
+		res, err := h.Call(nil, p.Name, p.Arguments)
+		if err != nil {
+			writeResp(response{JSONRPC: "2.0", ID: req.ID, Error: &respError{Code: -32000, Message: err.Error()}})
+			return
+		}
+		writeResp(response{JSONRPC: "2.0", ID: req.ID, Result: map[string]any{"content": []any{map[string]any{"type": "json", "data": res}}}})
+	default:
+		writeResp(response{JSONRPC: "2.0", ID: req.ID, Error: &respError{Code: -32601, Message: "method not found"}})
+	}
 }
 
-func newServer(h *handler.Handler) *mcp.Server {
-	version := os.Getenv("YOKAI_FINDER_VERSION")
-	if version == "" {
-		version = defaultVersion
+// ===== Framing: Content-Length ヘッダ =====
+
+func readFramed(r *bufio.Reader) ([]byte, error) {
+	// ヘッダ部
+	var clen int
+	for {
+		line, err := r.ReadString('\n')
+		if err != nil {
+			return nil, err
+		}
+		line = strings.TrimRight(line, "\r\n")
+		if line == "" {
+			break // 空行でヘッダ終わり
+		}
+		if strings.HasPrefix(strings.ToLower(line), "content-length:") {
+			v := strings.TrimSpace(strings.SplitN(line, ":", 2)[1])
+			n, _ := strconv.Atoi(v)
+			clen = n
+		}
 	}
+	if clen <= 0 {
+		return nil, fmt.Errorf("missing content-length")
+	}
+	buf := make([]byte, clen)
+	if _, err := io.ReadFull(r, buf); err != nil {
+		return nil, err
+	}
+	return buf, nil
+}
 
-	server := mcp.NewServer(&mcp.Implementation{
-		Name:    serverName,
-		Version: version,
-	}, nil)
-
-	mcp.AddTool(server, &mcp.Tool{
-		Name:        "search_yokai_books",
-		Description: "Search the NDL OpenSearch API for yokai related literature",
-	}, func(ctx context.Context, _ *mcp.CallToolRequest, args searchArgs) (*mcp.CallToolResult, *types.YokaiSearchResult, error) {
-		params := types.YokaiSearchParams{
-			Name:     args.Name,
-			Region:   args.Region,
-			Category: args.Category,
-			Limit:    args.Limit,
-		}
-
-		result, err := h.SearchYokai(ctx, params)
-		if err != nil {
-			return nil, nil, err
-		}
-		return nil, result, nil
-	})
-
-	mcp.AddTool(server, &mcp.Tool{
-		Name:        "yokai_of_the_day",
-		Description: "Surface a curated yokai profile with lore, creative hooks, and recommended reading",
-	}, func(ctx context.Context, _ *mcp.CallToolRequest, args yokaiOfTheDayArgs) (*mcp.CallToolResult, *types.YokaiOfTheDayResult, error) {
-		params := types.YokaiOfTheDayParams{
-			Name:     args.Name,
-			Category: args.Category,
-			Region:   args.Region,
-			Seed:     args.Seed,
-			Limit:    args.Limit,
-		}
-
-		result, err := h.YokaiOfTheDay(ctx, params)
-		if err != nil {
-			return nil, nil, err
-		}
-		return nil, result, nil
-	})
-
-	mcp.AddTool(server, &mcp.Tool{
-		Name:        "list_curated_yokai",
-		Description: "Browse curated yokai profiles with optional lore snippets and filters",
-	}, func(ctx context.Context, _ *mcp.CallToolRequest, args listCuratedArgs) (*mcp.CallToolResult, *types.CuratedYokaiResult, error) {
-		params := types.CuratedYokaiParams{
-			Term:                 args.Term,
-			Category:             args.Category,
-			Region:               args.Region,
-			Seed:                 args.Seed,
-			Limit:                args.Limit,
-			IncludeLegends:       args.IncludeLegends,
-			IncludeTraits:        args.IncludeTraits,
-			IncludeMotifs:        args.IncludeMotifs,
-			IncludeCreativeHooks: args.IncludeCreativeHooks,
-		}
-
-		result, err := h.ListCuratedYokai(ctx, params)
-		if err != nil {
-			return nil, nil, err
-		}
-		return nil, result, nil
-	})
-
-	return server
+func writeResp(res response) {
+	b, _ := json.Marshal(res)
+	var out bytes.Buffer
+	fmt.Fprintf(&out, "Content-Length: %d\r\n\r\n", len(b))
+	out.Write(b)
+	os.Stdout.Write(out.Bytes())
 }

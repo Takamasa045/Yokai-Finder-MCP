@@ -1,18 +1,8 @@
 {
-  "name": "yokai-finder-mcp",
-  "version": "0.1.0",
-  "description": "MCP server for searching Japanese yokai (folklore) resources in the National Diet Library",
-  "author": "Your Name",
-  "license": "MIT",
-  "mcpServers": {
-    "yokai-finder": {
-      "type": "stdio",
-      "command": [
-        "go",
-        "run",
-        "./cmd/server"
-      ],
-      "env": {}
-    }
+  "transport": "stdio",
+  "server": {
+    "command": "go",
+    "args": ["run", "cmd/server/server.go"],
+    "env": {}
   }
 }
