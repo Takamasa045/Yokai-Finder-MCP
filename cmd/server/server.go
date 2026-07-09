@@ -17,7 +17,7 @@ import (
 
 const (
 	serverName       = "yokai-finder-mcp"
-	defaultVersion   = "0.1.0"
+	defaultVersion   = "0.2.0"
 	defaultCacheTTL  = 5 * time.Minute
 	defaultCacheSize = 256
 )
@@ -52,6 +52,13 @@ type listCuratedArgs struct {
 	IncludeTraits        bool   `json:"includeTraits,omitempty" jsonschema:"Include notable traits"`
 	IncludeMotifs        bool   `json:"includeMotifs,omitempty" jsonschema:"Include thematic motifs"`
 	IncludeCreativeHooks bool   `json:"includeCreativeHooks,omitempty" jsonschema:"Include creative hook suggestions"`
+}
+
+type listYokaiArgs struct {
+	Term     string `json:"term,omitempty" jsonschema:"Keyword to match name, category, region, or Japanese blurb"`
+	Category string `json:"category,omitempty" jsonschema:"Category hint (e.g. 水系, 付喪神, 狐狸)"`
+	Region   string `json:"region,omitempty" jsonschema:"Region hint (e.g. 東北, 九州, 海)"`
+	Limit    int    `json:"limit,omitempty" jsonschema:"Maximum entries to return (default 111, max 111)"`
 }
 
 func main() {
@@ -116,8 +123,26 @@ func newServer(h *handler.Handler) *mcp.Server {
 	})
 
 	mcp.AddTool(server, &mcp.Tool{
+		Name:        "list_yokai",
+		Description: "111体の妖怪索引をざっくり一覧・検索する。名前・一言紹介・カテゴリのみの軽量リスト。気になった名前は search_yokai_books で本を、hasProfile=true なら list_curated_yokai / yokai_of_the_day で深掘り。Browse a 111-entry yokai name index for discovery (compact blurbs; not full lore).",
+	}, func(ctx context.Context, _ *mcp.CallToolRequest, args listYokaiArgs) (*mcp.CallToolResult, *types.YokaiIndexResult, error) {
+		params := types.YokaiIndexParams{
+			Term:     args.Term,
+			Category: args.Category,
+			Region:   args.Region,
+			Limit:    args.Limit,
+		}
+
+		result, err := h.ListYokai(ctx, params)
+		if err != nil {
+			return nil, nil, err
+		}
+		return nil, result, nil
+	})
+
+	mcp.AddTool(server, &mcp.Tool{
 		Name:        "list_curated_yokai",
-		Description: "キュレーション済み妖怪図鑑を一覧・検索する。キーワード・カテゴリ・地域で絞り込み、伝承や創作フックの表示も選べる。どんな妖怪がいるか眺めたいときの入口。Browse the curated yokai encyclopedia with keyword/category/region filters and optional lore details.",
+		Description: "キュレーション済み妖怪図鑑（詳細プロフィール15体）を一覧・検索する。伝承・特徴・創作フック付き。ざっくり顔ぶれを知りたいときは list_yokai を先に使う。Browse the deep curated encyclopedia (15 full bilingual profiles); use list_yokai first for a broad roster.",
 	}, func(ctx context.Context, _ *mcp.CallToolRequest, args listCuratedArgs) (*mcp.CallToolResult, *types.CuratedYokaiResult, error) {
 		params := types.CuratedYokaiParams{
 			Term:                 args.Term,

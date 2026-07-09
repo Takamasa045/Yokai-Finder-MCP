@@ -246,3 +246,66 @@ func TestListCuratedYokaiDeterministicShuffle(t *testing.T) {
 		}
 	}
 }
+
+func TestListYokaiIndex(t *testing.T) {
+	t.Helper()
+
+	h := New(nil, nil)
+
+	all, err := h.ListYokai(context.Background(), types.YokaiIndexParams{})
+	if err != nil {
+		t.Fatalf("ListYokai returned error: %v", err)
+	}
+	if all.Total != 111 {
+		t.Fatalf("expected 111 indexed yokai, got total=%d", all.Total)
+	}
+	if all.Returned != 111 || len(all.Items) != 111 {
+		t.Fatalf("expected full roster returned by default, got returned=%d items=%d", all.Returned, len(all.Items))
+	}
+
+	var sawCurated bool
+	for _, item := range all.Items {
+		if item.NativeName == "河童" {
+			if !item.HasProfile {
+				t.Fatalf("河童 should have hasProfile=true")
+			}
+			if item.BlurbJA == "" {
+				t.Fatalf("expected blurbJa for 河童")
+			}
+			sawCurated = true
+		}
+	}
+	if !sawCurated {
+		t.Fatalf("expected 河童 in index")
+	}
+
+	filtered, err := h.ListYokai(context.Background(), types.YokaiIndexParams{
+		Category: "付喪神",
+		Limit:    5,
+	})
+	if err != nil {
+		t.Fatalf("filtered ListYokai error: %v", err)
+	}
+	if filtered.Total == 0 {
+		t.Fatalf("expected 付喪神 matches")
+	}
+	if filtered.Returned > 5 {
+		t.Fatalf("expected limit 5, got returned=%d", filtered.Returned)
+	}
+	for _, item := range filtered.Items {
+		if !strings.Contains(item.Category, "付喪神") {
+			t.Fatalf("unexpected category %q", item.Category)
+		}
+	}
+
+	none, err := h.ListYokai(context.Background(), types.YokaiIndexParams{Term: "zzzz-nope"})
+	if err != nil {
+		t.Fatalf("empty ListYokai error: %v", err)
+	}
+	if none.Total != 0 || len(none.Items) != 0 {
+		t.Fatalf("expected empty result, got %+v", none)
+	}
+	if len(none.Notes) == 0 {
+		t.Fatalf("expected a note when nothing matches")
+	}
+}

@@ -205,3 +205,30 @@ type CuratedYokaiResult struct {
 	Profiles []CuratedYokaiProfile `json:"profiles"`
 	Notes    []string              `json:"notes,omitempty"`
 }
+
+// YokaiIndexParams controls lightweight roster browsing via list_yokai.
+type YokaiIndexParams struct {
+	Term     string `json:"term,omitempty"`
+	Category string `json:"category,omitempty"`
+	Region   string `json:"region,omitempty"`
+	Limit    int    `json:"limit,omitempty"`
+}
+
+// YokaiIndexItem is a compact roster row for discovering yokai names.
+type YokaiIndexItem struct {
+	Name       string `json:"name"`
+	NativeName string `json:"nativeName,omitempty"`
+	Category   string `json:"category,omitempty"`
+	Region     string `json:"region,omitempty"`
+	BlurbJA    string `json:"blurbJa,omitempty"`
+	HasProfile bool   `json:"hasProfile"`
+}
+
+// YokaiIndexResult returns the filtered yokai roster.
+type YokaiIndexResult struct {
+	Query    string           `json:"query,omitempty"`
+	Total    int              `json:"total"`
+	Returned int              `json:"returned"`
+	Items    []YokaiIndexItem `json:"items"`
+	Notes    []string         `json:"notes,omitempty"`
+}

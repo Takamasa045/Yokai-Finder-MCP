@@ -5,8 +5,9 @@
 ## 特徴
 
 - **妖怪書籍検索**: NDL OpenSearch API で妖怪関連の書籍を検索。ISBN がある書籍には書影（表紙画像）URL候補を自動付与
+- **妖怪索引（111体）**: 名前・カテゴリ・一言紹介の軽量リスト。どんな妖怪がいるかざっくり眺める入口
 - **今日の妖怪**: 日付に連動して毎日1体をピックアップ。伝承・特徴・創作フック・おすすめ書籍・ストーリープロンプトをまとめて返却
-- **妖怪図鑑**: 15体のキュレーション済みプロフィール（河童・天狗・雪女・座敷童子・鵺・鎌鼬・一反木綿・天邪鬼など）。要約と豆知識は日英併記
+- **妖怪図鑑**: 15体のキュレーション済み詳細プロフィール（河童・天狗・雪女・座敷童子・鵺・鎌鼬・一反木綿・天邪鬼など）。要約と豆知識は日英併記
 - **書影ツール**: ISBN（10/13桁・ハイフン可）や全国書誌番号から書影URL候補を生成
 - **キャッシュ**: NDL API 呼び出しを削減する組み込みキャッシュ（TTL 5分・最大256件）
 - **公式 MCP Go SDK**: `modelcontextprotocol/go-sdk` ベースで、stdio トランスポートに完全準拠
@@ -61,6 +62,22 @@ go build -o yokai-finder-mcp ./cmd/server
 
 ## 利用可能なツール
 
+### list_yokai — 妖怪索引（111体）
+
+「どんな妖怪がいるか」を一覧するための軽量索引です。各エントリは名前・カテゴリ・地域・一言紹介（`blurbJa`）のみ。詳細伝承は図鑑、本は NDL 検索へつなげます。
+
+**パラメータ:**
+- `term` (任意): 名前・カテゴリ・地域・紹介文へのキーワード
+- `category` (任意): カテゴリ（例:「水系」「付喪神」「狐狸」）
+- `region` (任意): 地域のヒント（例:「東北」「九州」）
+- `limit` (任意): 最大件数（デフォルト: 111、最大: 111）
+
+```json
+{ "name": "list_yokai", "arguments": { "category": "付喪神" } }
+```
+
+`hasProfile: true` の妖怪は `list_curated_yokai` / `yokai_of_the_day` で深掘りできます。気になった名前は `search_yokai_books` の `name` に渡して書籍を探せます。
+
 ### yokai_of_the_day — 今日の妖怪
 
 引数なしで呼ぶと、日付から決まる「今日の1体」を紹介します（同じ日は必ず同じ妖怪）。プロフィール・伝承・創作フック・NDLのおすすめ書籍・ストーリープロンプトが一度に届きます。
@@ -92,9 +109,9 @@ NDL OpenSearch API で妖怪関連の書籍を検索します。ISBN が取得�
 { "name": "search_yokai_books", "arguments": { "name": "河童", "limit": 5 } }
 ```
 
-### list_curated_yokai — 妖怪図鑑
+### list_curated_yokai — 妖怪図鑑（詳細15体）
 
-15体のキュレーション済みプロフィールを一覧・検索します。`summaryJa` で日本語の要約も返ります。
+キュレーション済みの**詳細**プロフィールを一覧・検索します。`summaryJa` で日本語の要約も返ります。顔ぶれを広く知りたいときは先に `list_yokai` を使ってください。
 
 **パラメータ:**
 - `term` (任意): 名前・伝承・要約（日本語含む）へのキーワードマッチ
@@ -120,7 +137,13 @@ ISBN（10/13桁、ハイフン・スペース可）または全国書誌番号�
 { "name": "get_cover_thumbnail", "arguments": { "isbn": "4-04-883992-6" } }
 ```
 
-## 収録妖怪（15体）
+## 収録データ
+
+### 索引（111体）— `list_yokai`
+
+河童・天狗・雪女・九尾の狐・化け猫・のっぺらぼう・垢嘗・唐傘お化け・酒呑童子・ぬらりひょん・絡新婦・輪入道・口裂け女・テケテケ・牛頭馬頭 など、有名どころを111体。データは `internal/yokai/index_data.go`。
+
+### 詳細図鑑（15体）— `list_curated_yokai` / `yokai_of_the_day`
 
 河童 / 天狗 / 雪女 / 九尾の狐 / 化け猫 / ぬりかべ / ろくろ首 / 海坊主 / 餓者髑髏 / アマビエ / 座敷童子 / 鵺 / 鎌鼬 / 一反木綿 / 天邪鬼
 
@@ -137,7 +160,7 @@ yokai-finder-mcp/
 │   ├── cache/             # 検索結果キャッシュ
 │   ├── handler/           # ツールのビジネスロジック
 │   ├── ndl/               # NDL OpenSearch クライアント + 書影URL
-│   └── yokai/             # 妖怪図鑑（profiles_data.go にデータ）
+│   └── yokai/             # 索引 (index_data.go) + 図鑑 (profiles_data.go)
 ├── pkg/types/             # 共有型定義
 ├── go.mod
 ├── mcp.json
@@ -153,7 +176,11 @@ go test ./... -cover   # カバレッジ確認
 
 ### 妖怪を追加するには
 
-`internal/yokai/profiles_data.go` にエントリを1つ追記するだけです。`Summary`/`FunFact` は英語、`SummaryJA`/`FunFactJA` は日本語で書き、`SearchQuery` に NDL 検索に適した日本語キーワードを設定してください。
+**索引（ざっくり一覧）を増やす**  
+`internal/yokai/index_data.go` に `IndexEntry` を1つ追記します（`Name` / `NativeName` / `Category` / `Region` / `BlurbJA`）。
+
+**詳細図鑑を増やす**  
+`internal/yokai/profiles_data.go` にエントリを1つ追記します。`Summary`/`FunFact` は英語、`SummaryJA`/`FunFactJA` は日本語で書き、`SearchQuery` に NDL 検索に適した日本語キーワードを設定してください。索引側にも同名エントリがあると `hasProfile: true` になります。
 
 ## ライセンス
 

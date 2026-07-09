@@ -117,6 +117,49 @@ func (h *Handler) YokaiOfTheDay(ctx context.Context, params types.YokaiOfTheDayP
 	return result, nil
 }
 
+// ListYokai returns the lightweight 111-entry yokai roster for discovery.
+func (h *Handler) ListYokai(_ context.Context, params types.YokaiIndexParams) (*types.YokaiIndexResult, error) {
+	cleaned := normaliseIndexParams(params)
+
+	matches := yokai.FilterIndex(cleaned.Term, cleaned.Category, cleaned.Region)
+	if len(matches) == 0 {
+		return &types.YokaiIndexResult{
+			Query:    cleaned.Term,
+			Total:    0,
+			Returned: 0,
+			Items:    nil,
+			Notes:    []string{"No yokai in the index matched the provided filters."},
+		}, nil
+	}
+
+	limited := matches
+	notes := []string{}
+	if cleaned.Limit > 0 && len(matches) > cleaned.Limit {
+		limited = matches[:cleaned.Limit]
+		notes = append(notes, fmt.Sprintf("Showing first %d of %d indexed yokai.", cleaned.Limit, len(matches)))
+	}
+
+	items := make([]types.YokaiIndexItem, 0, len(limited))
+	for _, entry := range limited {
+		items = append(items, types.YokaiIndexItem{
+			Name:       entry.Name,
+			NativeName: entry.NativeName,
+			Category:   entry.Category,
+			Region:     entry.Region,
+			BlurbJA:    entry.BlurbJA,
+			HasProfile: entry.HasCuratedProfile(),
+		})
+	}
+
+	return &types.YokaiIndexResult{
+		Query:    cleaned.Term,
+		Total:    len(matches),
+		Returned: len(items),
+		Items:    items,
+		Notes:    notes,
+	}, nil
+}
+
 // ListCuratedYokai returns curated profiles filtered and shaped for quick browsing.
 func (h *Handler) ListCuratedYokai(_ context.Context, params types.CuratedYokaiParams) (*types.CuratedYokaiResult, error) {
 	cleaned := normaliseCuratedParams(params)
@@ -195,6 +238,20 @@ func normaliseCuratedParams(p types.CuratedYokaiParams) types.CuratedYokaiParams
 	}
 	if p.Limit > 50 {
 		p.Limit = 50
+	}
+	return p
+}
+
+func normaliseIndexParams(p types.YokaiIndexParams) types.YokaiIndexParams {
+	p.Term = strings.TrimSpace(p.Term)
+	p.Category = strings.TrimSpace(p.Category)
+	p.Region = strings.TrimSpace(p.Region)
+
+	if p.Limit <= 0 {
+		p.Limit = 111
+	}
+	if p.Limit > 111 {
+		p.Limit = 111
 	}
 	return p
 }
