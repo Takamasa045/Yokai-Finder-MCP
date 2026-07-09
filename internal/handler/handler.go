@@ -2,164 +2,415 @@ package handler
 
 import (
 	"context"
-	"encoding/json"
 	"errors"
-	"net/http"
-	"os"
+	"fmt"
+	"math/rand"
+	"sort"
+	"strings"
 	"time"
 
-	"github.com/yourname/yokai-finder-mcp/internal/ndl"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/cache"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/ndl"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/yokai"
+	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 )
 
+// Handler coordinates Yokai search requests against the NDL API with caching.
 type Handler struct {
-	HC *http.Client
+	ndlClient *ndl.Client
+	cache     *cache.Cache
 }
 
-func New() *Handler {
-	return &Handler{HC: &http.Client{Timeout: 25 * time.Second}}
-}
-
-// tools/list で返す定義（最簡素）
-func (h *Handler) Tools() []map[string]any {
-	return []map[string]any{
-		{
-			"name":        "search_bibliography",
-			"description": "NDLサーチ SRU（CQL）で書誌を検索",
-			"inputSchema": map[string]any{
-				"type": "object",
-				"properties": map[string]any{
-					"name":      map[string]any{"type": "string"},
-					"region":    map[string]any{"type": "string"},
-					"category":  map[string]any{"type": "string"},
-					"ndc":       map[string]any{"type": "string"},
-					"year_from": map[string]any{"type": "integer"},
-					"year_to":   map[string]any{"type": "integer"},
-					"limit":     map[string]any{"type": "integer"},
-				},
-			},
-		},
-		{
-			"name":        "get_cover_thumbnail",
-			"description": "ISBN/JP番号から書影URL候補を返す",
-			"inputSchema": map[string]any{"type": "object", "properties": map[string]any{
-				"isbn13": map[string]any{"type": "string"},
-				"jpec":   map[string]any{"type": "string"},
-			}},
-		},
-		{
-			"name":        "crop_iiif_region",
-			"description": "IIIFのpct座標で切り出しURLを合成",
-			"inputSchema": map[string]any{"type": "object", "properties": map[string]any{
-				"iiif_base": map[string]any{"type": "string"},
-				"bbox_pct":  map[string]any{"type": "string"},
-			}},
-		},
-		{"name": "search_fulltext", "description": "NDLラボ Book API 横断検索（要 base 設定）", "inputSchema": map[string]any{"type": "object", "properties": map[string]any{"query": map[string]any{"type": "string"}, "content_only": map[string]any{"type": "boolean"}, "from": map[string]any{"type": "integer"}, "size": map[string]any{"type": "integer"}}}},
-		{"name": "search_in_book", "description": "NDLラボ Page API 資料内検索（要 base 設定）", "inputSchema": map[string]any{"type": "object", "properties": map[string]any{"pid": map[string]any{"type": "string"}, "q": map[string]any{"type": "string"}, "from": map[string]any{"type": "integer"}, "size": map[string]any{"type": "integer"}}}},
-		{"name": "find_illustrations", "description": "NDLラボ Illustration API 類似画像（要 base 設定）", "inputSchema": map[string]any{"type": "object", "properties": map[string]any{"keyword": map[string]any{"type": "string"}, "limit": map[string]any{"type": "integer"}}}},
-		{"name": "resolve_ndl_authority", "description": "NDLSH 典拠（SPARQL、要 endpoint 設定）", "inputSchema": map[string]any{"type": "object", "properties": map[string]any{"term": map[string]any{"type": "string"}, "id": map[string]any{"type": "string"}}}},
+// New creates a handler with the provided dependencies.
+func New(ndlClient *ndl.Client, cache *cache.Cache) *Handler {
+	return &Handler{
+		ndlClient: ndlClient,
+		cache:     cache,
 	}
 }
 
-// tools/call で呼ばれる実体
-func (h *Handler) Call(ctx context.Context, name string, args json.RawMessage) (any, error) {
-	if ctx == nil {
-		ctx = context.Background()
+// SearchYokai finds yokai related literature via the NDL OpenSearch API.
+func (h *Handler) SearchYokai(ctx context.Context, params types.YokaiSearchParams) (*types.YokaiSearchResult, error) {
+	if h == nil || h.ndlClient == nil {
+		return nil, errors.New("handler not initialised")
 	}
 
-	switch name {
-	case "search_bibliography":
-		var p struct {
-			Name      string
-			Region    string
-			Category  string
-			Ndc       string
-			Year_from int
-			Year_to   int
-			Limit     int
-		}
-		if err := json.Unmarshal(args, &p); err != nil {
-			return nil, err
-		}
-		base := os.Getenv("NDL_SRU_BASE")
-		return ndl.SearchSRU(ctx, h.HC, base, p.Name, p.Region, p.Category, p.Ndc, p.Year_from, p.Year_to, max1(p.Limit, 10))
+	cleaned := normaliseParams(params)
 
-	case "get_cover_thumbnail":
-		var p struct {
-			Isbn13 string
-			Jpec   string
+	if h.cache != nil {
+		if result, ok := h.cache.Get(cleaned); ok {
+			return result, nil
 		}
-		if err := json.Unmarshal(args, &p); err != nil {
-			return nil, err
-		}
-		return ndl.BuildCoverURLs(p.Isbn13, p.Jpec), nil
-
-	case "crop_iiif_region":
-		var p struct {
-			IIIFBase string
-			Bbox_pct string
-		}
-		if err := json.Unmarshal(args, &p); err != nil {
-			return nil, err
-		}
-		return map[string]string{"url": ndl.BuildIIIFCropURL(p.IIIFBase, p.Bbox_pct)}, nil
-
-	case "search_fulltext":
-		var p struct {
-			Query        string
-			Content_only bool
-			From         int
-			Size         int
-		}
-		if err := json.Unmarshal(args, &p); err != nil {
-			return nil, err
-		}
-		base := os.Getenv("NDL_LAB_BASE")
-		hits, err := ndl.SearchFulltext(ctx, h.HC, base, p.Query, p.Content_only, p.From, max1(p.Size, 20))
-		return hits, err
-
-	case "search_in_book":
-		var p struct {
-			PID  string
-			Q    string
-			From int
-			Size int
-		}
-		if err := json.Unmarshal(args, &p); err != nil {
-			return nil, err
-		}
-		base := os.Getenv("NDL_LAB_BASE")
-		pages, err := ndl.SearchInBook(ctx, h.HC, base, p.PID, p.Q, p.From, max1(p.Size, 20))
-		return map[string]any{"pages": pages}, err
-
-	case "find_illustrations":
-		var p struct {
-			Keyword string
-			Limit   int
-		}
-		if err := json.Unmarshal(args, &p); err != nil {
-			return nil, err
-		}
-		base := os.Getenv("NDL_LAB_BASE")
-		return ndl.FindIllustrations(ctx, h.HC, base, p.Keyword, max1(p.Limit, 5))
-
-	case "resolve_ndl_authority":
-		var p struct {
-			Term string
-			Id   string
-		}
-		if err := json.Unmarshal(args, &p); err != nil {
-			return nil, err
-		}
-		ep := os.Getenv("NDLA_SPARQL_ENDPOINT")
-		return ndl.ResolveAuthority(ctx, h.HC, ep, p.Term, p.Id)
 	}
-	return nil, errors.New("unknown tool: " + name)
+
+	result, err := h.ndlClient.SearchYokaiBooks(ctx, cleaned)
+	if err != nil {
+		return nil, err
+	}
+	if result == nil {
+		return nil, errors.New("ndl returned no data")
+	}
+
+	if h.cache != nil {
+		h.cache.Set(cleaned, result)
+	}
+	return result, nil
 }
 
-func max1(v, d int) int {
-	if v <= 0 {
-		return d
+// YokaiOfTheDay returns a curated yokai profile with optional book recommendations.
+func (h *Handler) YokaiOfTheDay(ctx context.Context, params types.YokaiOfTheDayParams) (*types.YokaiOfTheDayResult, error) {
+	if h == nil || h.ndlClient == nil {
+		return nil, errors.New("handler not initialised")
 	}
-	return v
+
+	cleaned := normaliseHighlightParams(params)
+
+	profile, notes, err := selectCuratedProfile(cleaned)
+	if err != nil {
+		return nil, err
+	}
+
+	queryTerm := strings.TrimSpace(profile.SearchQuery)
+	if queryTerm == "" {
+		queryTerm = strings.TrimSpace(profile.NativeName)
+	}
+	if queryTerm == "" {
+		queryTerm = profile.Name
+	}
+
+	searchParams := types.YokaiSearchParams{
+		Name:     queryTerm,
+		Region:   cleaned.Region,
+		Category: cleaned.Category,
+		Limit:    cleaned.Limit,
+	}
+
+	var (
+		query      string
+		totalBooks int
+		recs       []types.YokaiBook
+	)
+
+	searchResult, searchErr := h.SearchYokai(ctx, searchParams)
+	if searchErr != nil {
+		notes = append(notes, fmt.Sprintf("NDL search unavailable (%v); showing curated lore only.", searchErr))
+		query = queryTerm
+	} else if searchResult != nil {
+		query = searchResult.Query
+		totalBooks = searchResult.Total
+		recs = takeBooks(searchResult.Results, cleaned.Limit)
+	}
+
+	result := &types.YokaiOfTheDayResult{
+		Profile:          convertProfile(profile),
+		Query:            query,
+		TotalBooks:       totalBooks,
+		RecommendedBooks: recs,
+		StoryPrompt:      buildStoryPrompt(profile, recs),
+		Notes:            notes,
+	}
+
+	if result.Query == "" {
+		result.Query = queryTerm
+	}
+
+	return result, nil
+}
+
+// ListCuratedYokai returns curated profiles filtered and shaped for quick browsing.
+func (h *Handler) ListCuratedYokai(_ context.Context, params types.CuratedYokaiParams) (*types.CuratedYokaiResult, error) {
+	cleaned := normaliseCuratedParams(params)
+
+	profiles := yokai.Profiles()
+	matches := filterCuratedProfiles(profiles, cleaned)
+
+	if len(matches) == 0 {
+		return &types.CuratedYokaiResult{
+			Query:    cleaned.Term,
+			Total:    0,
+			Returned: 0,
+			Profiles: nil,
+			Notes:    []string{"No curated yokai matched the provided filters."},
+		}, nil
+	}
+
+	ordered := orderCuratedProfiles(matches, cleaned.Seed)
+
+	limited := ordered
+	notes := []string{}
+	if cleaned.Limit > 0 && len(ordered) > cleaned.Limit {
+		limited = ordered[:cleaned.Limit]
+		notes = append(notes, fmt.Sprintf("Showing first %d of %d curated yokai.", cleaned.Limit, len(ordered)))
+	}
+
+	resultProfiles := make([]types.CuratedYokaiProfile, 0, len(limited))
+	for _, profile := range limited {
+		resultProfiles = append(resultProfiles, convertCuratedProfile(profile, cleaned))
+	}
+
+	return &types.CuratedYokaiResult{
+		Query:    cleaned.Term,
+		Total:    len(ordered),
+		Returned: len(resultProfiles),
+		Profiles: resultProfiles,
+		Notes:    notes,
+	}, nil
+}
+
+func normaliseParams(p types.YokaiSearchParams) types.YokaiSearchParams {
+	p.Name = strings.TrimSpace(p.Name)
+	p.Region = strings.TrimSpace(p.Region)
+	p.Category = strings.TrimSpace(p.Category)
+
+	if p.Limit <= 0 {
+		p.Limit = 10
+	}
+	if p.Limit > 50 {
+		p.Limit = 50
+	}
+	return p
+}
+
+func normaliseHighlightParams(p types.YokaiOfTheDayParams) types.YokaiOfTheDayParams {
+	p.Name = strings.TrimSpace(p.Name)
+	p.Category = strings.TrimSpace(p.Category)
+	p.Region = strings.TrimSpace(p.Region)
+
+	if p.Limit <= 0 {
+		p.Limit = 5
+	}
+	if p.Limit > 10 {
+		p.Limit = 10
+	}
+	return p
+}
+
+func normaliseCuratedParams(p types.CuratedYokaiParams) types.CuratedYokaiParams {
+	p.Term = strings.TrimSpace(p.Term)
+	p.Category = strings.TrimSpace(p.Category)
+	p.Region = strings.TrimSpace(p.Region)
+
+	if p.Limit <= 0 {
+		p.Limit = 10
+	}
+	if p.Limit > 50 {
+		p.Limit = 50
+	}
+	return p
+}
+
+func selectCuratedProfile(params types.YokaiOfTheDayParams) (yokai.Profile, []string, error) {
+	var notes []string
+
+	if params.Name != "" {
+		if profile, ok := yokai.FindByName(params.Name); ok {
+			if params.Category != "" && !strings.Contains(strings.ToLower(profile.Category), strings.ToLower(params.Category)) {
+				notes = append(notes, "Requested category did not match the curated profile; showing the requested yokai anyway.")
+			}
+			if params.Region != "" && !strings.Contains(strings.ToLower(profile.Region), strings.ToLower(params.Region)) {
+				notes = append(notes, "Requested region did not match the curated profile; showing the requested yokai anyway.")
+			}
+			return profile, notes, nil
+		}
+		return yokai.Profile{}, nil, fmt.Errorf("no curated data available for yokai %q", params.Name)
+	}
+
+	candidates := yokai.Filter(params.Category, params.Region)
+	if len(candidates) == 0 {
+		notes = append(notes, "No curated yokai matched the provided filters; offering a surprise pick instead.")
+		candidates = yokai.Profiles()
+	}
+
+	if params.Seed == 0 {
+		notes = append(notes, fmt.Sprintf("Daily pick for %s: the same yokai appears all day. Pass a seed (or name) for a different one.", time.Now().Format("2006-01-02")))
+	}
+
+	profile := yokai.RandomProfile(params.Seed, candidates)
+	return profile, notes, nil
+}
+
+func convertProfile(profile yokai.Profile) types.YokaiProfile {
+	return types.YokaiProfile{
+		Name:          profile.Name,
+		NativeName:    profile.NativeName,
+		Region:        profile.Region,
+		Category:      profile.Category,
+		Summary:       profile.Summary,
+		SummaryJA:     profile.SummaryJA,
+		Legends:       cloneStrings(profile.Legends),
+		Traits:        cloneStrings(profile.Traits),
+		Motifs:        cloneStrings(profile.Motifs),
+		FunFact:       profile.FunFact,
+		FunFactJA:     profile.FunFactJA,
+		CreativeHooks: cloneStrings(profile.CreativeHooks),
+	}
+}
+
+func takeBooks(books []types.YokaiBook, limit int) []types.YokaiBook {
+	if len(books) == 0 || limit <= 0 {
+		return nil
+	}
+	if len(books) > limit {
+		books = books[:limit]
+	}
+	out := make([]types.YokaiBook, len(books))
+	copy(out, books)
+	return out
+}
+
+func buildStoryPrompt(profile yokai.Profile, books []types.YokaiBook) string {
+	displayName := profile.Name
+	if profile.NativeName != "" {
+		displayName = fmt.Sprintf("%s (%s)", profile.Name, profile.NativeName)
+	}
+
+	region := profile.Region
+	if region == "" {
+		region = "Japan"
+	}
+
+	var motif string
+	if len(profile.Motifs) > 0 {
+		motif = profile.Motifs[0]
+	} else if len(profile.Traits) > 0 {
+		motif = profile.Traits[0]
+	} else {
+		motif = "their folklore presence"
+	}
+
+	var bookTitle string
+	for _, book := range books {
+		if strings.TrimSpace(book.Title) != "" {
+			bookTitle = book.Title
+			break
+		}
+	}
+
+	var hook string
+	if len(profile.CreativeHooks) > 0 {
+		hook = profile.CreativeHooks[0]
+	}
+
+	var builder strings.Builder
+	builder.WriteString("Craft a scene featuring ")
+	builder.WriteString(displayName)
+	builder.WriteString(" in ")
+	builder.WriteString(region)
+	builder.WriteString(", highlighting ")
+	builder.WriteString(motif)
+	builder.WriteString(".")
+
+	if bookTitle != "" {
+		builder.WriteString(" Let the tone draw inspiration from the book \"")
+		builder.WriteString(bookTitle)
+		builder.WriteString("\".")
+	}
+
+	if hook != "" {
+		builder.WriteString(" Bonus idea: ")
+		builder.WriteString(hook)
+	}
+
+	return builder.String()
+}
+
+func cloneStrings(values []string) []string {
+	if len(values) == 0 {
+		return nil
+	}
+	out := make([]string, len(values))
+	copy(out, values)
+	return out
+}
+
+func filterCuratedProfiles(profiles []yokai.Profile, params types.CuratedYokaiParams) []yokai.Profile {
+	var filtered []yokai.Profile
+	term := strings.ToLower(params.Term)
+	category := strings.ToLower(params.Category)
+	region := strings.ToLower(params.Region)
+
+	for _, profile := range profiles {
+		if category != "" && !strings.Contains(strings.ToLower(profile.Category), category) {
+			continue
+		}
+		if region != "" && !strings.Contains(strings.ToLower(profile.Region), region) {
+			continue
+		}
+		if term != "" && !profileMatchesTerm(profile, term) {
+			continue
+		}
+		filtered = append(filtered, profile)
+	}
+	return filtered
+}
+
+func profileMatchesTerm(profile yokai.Profile, term string) bool {
+	fields := []string{
+		profile.Name,
+		profile.NativeName,
+		profile.Region,
+		profile.Category,
+		profile.Summary,
+		profile.SummaryJA,
+		profile.FunFactJA,
+		strings.Join(profile.Legends, " "),
+		strings.Join(profile.Traits, " "),
+		strings.Join(profile.Motifs, " "),
+		strings.Join(profile.CreativeHooks, " "),
+	}
+
+	for _, field := range fields {
+		if strings.Contains(strings.ToLower(field), term) {
+			return true
+		}
+	}
+	return false
+}
+
+func orderCuratedProfiles(profiles []yokai.Profile, seed int64) []yokai.Profile {
+	if len(profiles) <= 1 {
+		return profiles
+	}
+
+	ordered := make([]yokai.Profile, len(profiles))
+	copy(ordered, profiles)
+
+	if seed != 0 {
+		r := rand.New(rand.NewSource(seed))
+		r.Shuffle(len(ordered), func(i, j int) {
+			ordered[i], ordered[j] = ordered[j], ordered[i]
+		})
+		return ordered
+	}
+
+	sort.SliceStable(ordered, func(i, j int) bool {
+		return strings.ToLower(ordered[i].Name) < strings.ToLower(ordered[j].Name)
+	})
+	return ordered
+}
+
+func convertCuratedProfile(profile yokai.Profile, params types.CuratedYokaiParams) types.CuratedYokaiProfile {
+	result := types.CuratedYokaiProfile{
+		Name:       profile.Name,
+		NativeName: profile.NativeName,
+		Region:     profile.Region,
+		Category:   profile.Category,
+		Summary:    profile.Summary,
+		SummaryJA:  profile.SummaryJA,
+	}
+
+	if params.IncludeLegends {
+		result.Legends = cloneStrings(profile.Legends)
+	}
+	if params.IncludeTraits {
+		result.Traits = cloneStrings(profile.Traits)
+	}
+	if params.IncludeMotifs {
+		result.Motifs = cloneStrings(profile.Motifs)
+	}
+	if params.IncludeCreativeHooks {
+		result.CreativeHooks = cloneStrings(profile.CreativeHooks)
+	}
+
+	return result
 }

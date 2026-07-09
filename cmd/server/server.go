@@ -1,129 +1,159 @@
 package main
 
 import (
-	"bufio"
-	"bytes"
-	"encoding/json"
-	"fmt"
-	"io"
+	"context"
+	"errors"
 	"log"
 	"os"
-	"strconv"
 	"strings"
+	"time"
 
-	"github.com/yourname/yokai-finder-mcp/internal/handler"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/cache"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/handler"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/ndl"
+	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
+	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
-// ===== JSON-RPC 2.0 型 =====
+const (
+	serverName       = "yokai-finder-mcp"
+	defaultVersion   = "0.1.0"
+	defaultCacheTTL  = 5 * time.Minute
+	defaultCacheSize = 256
+)
 
-type request struct {
-	JSONRPC string          `json:"jsonrpc"`
-	ID      any             `json:"id"`
-	Method  string          `json:"method"`
-	Params  json.RawMessage `json:"params"`
+type searchArgs struct {
+	Name     string `json:"name,omitempty" jsonschema:"Yokai name or keyword to search for"`
+	Region   string `json:"region,omitempty" jsonschema:"Region or place associated with the yokai"`
+	Category string `json:"category,omitempty" jsonschema:"Yokai category or theme"`
+	Limit    int    `json:"limit,omitempty" jsonschema:"Maximum number of books to return (default 10, max 50)"`
 }
 
-type response struct {
-	JSONRPC string     `json:"jsonrpc"`
-	ID      any        `json:"id"`
-	Result  any        `json:"result,omitempty"`
-	Error   *respError `json:"error,omitempty"`
+type yokaiOfTheDayArgs struct {
+	Name     string `json:"name,omitempty" jsonschema:"Exact yokai to highlight"`
+	Category string `json:"category,omitempty" jsonschema:"Filter curated yokai by category hint"`
+	Region   string `json:"region,omitempty" jsonschema:"Filter curated yokai by region hint"`
+	Seed     int64  `json:"seed,omitempty" jsonschema:"Deterministic selection seed"`
+	Limit    int    `json:"limit,omitempty" jsonschema:"Maximum number of book recommendations (default 5, max 10)"`
 }
 
-type respError struct {
-	Code    int    `json:"code"`
-	Message string `json:"message"`
+type coverThumbnailArgs struct {
+	ISBN string `json:"isbn,omitempty" jsonschema:"ISBN-10 or ISBN-13 (hyphens/spaces allowed)"`
+	JPNo string `json:"jpno,omitempty" jsonschema:"JP number (全国書誌番号) used as a fallback identifier"`
 }
 
-// MCP params
-
-type initResult struct {
-	Capabilities map[string]any `json:"capabilities"`
+type listCuratedArgs struct {
+	Term                 string `json:"term,omitempty" jsonschema:"Keyword to match name, lore, or motifs"`
+	Category             string `json:"category,omitempty" jsonschema:"Filter curated yokai by category hint"`
+	Region               string `json:"region,omitempty" jsonschema:"Filter curated yokai by region hint"`
+	Seed                 int64  `json:"seed,omitempty" jsonschema:"Shuffle results deterministically when provided"`
+	Limit                int    `json:"limit,omitempty" jsonschema:"Maximum number of curated entries to return (default 10, max 50)"`
+	IncludeLegends       bool   `json:"includeLegends,omitempty" jsonschema:"Include folkloric legend snippets"`
+	IncludeTraits        bool   `json:"includeTraits,omitempty" jsonschema:"Include notable traits"`
+	IncludeMotifs        bool   `json:"includeMotifs,omitempty" jsonschema:"Include thematic motifs"`
+	IncludeCreativeHooks bool   `json:"includeCreativeHooks,omitempty" jsonschema:"Include creative hook suggestions"`
 }
-
-var h = handler.New()
 
 func main() {
-	rd := bufio.NewReader(os.Stdin)
-	for {
-		req, err := readFramed(rd)
-		if err == io.EOF {
-			return
-		}
-		if err != nil {
-			log.Println("read err:", err)
-			return
-		}
-		go handle(req)
+	if err := run(context.Background()); err != nil {
+		log.Fatalf("server error: %v", err)
 	}
 }
 
-func handle(b []byte) {
-	var req request
-	if err := json.Unmarshal(b, &req); err != nil {
-		writeResp(response{JSONRPC: "2.0", ID: nil, Error: &respError{Code: -32700, Message: "parse error"}})
-		return
-	}
-	switch req.Method {
-	case "initialize":
-		writeResp(response{JSONRPC: "2.0", ID: req.ID, Result: initResult{Capabilities: map[string]any{"tools": map[string]any{"list": true, "call": true}}}})
-	case "tools/list":
-		writeResp(response{JSONRPC: "2.0", ID: req.ID, Result: map[string]any{"tools": h.Tools()}})
-	case "tools/call":
-		// params: { name: string, arguments: object }
-		var p struct {
-			Name      string          `json:"name"`
-			Arguments json.RawMessage `json:"arguments"`
-		}
-		if err := json.Unmarshal(req.Params, &p); err != nil {
-			writeResp(response{JSONRPC: "2.0", ID: req.ID, Error: &respError{Code: -32602, Message: "invalid params"}})
-			return
-		}
-		res, err := h.Call(nil, p.Name, p.Arguments)
-		if err != nil {
-			writeResp(response{JSONRPC: "2.0", ID: req.ID, Error: &respError{Code: -32000, Message: err.Error()}})
-			return
-		}
-		writeResp(response{JSONRPC: "2.0", ID: req.ID, Result: map[string]any{"content": []any{map[string]any{"type": "json", "data": res}}}})
-	default:
-		writeResp(response{JSONRPC: "2.0", ID: req.ID, Error: &respError{Code: -32601, Message: "method not found"}})
-	}
+func run(ctx context.Context) error {
+	h := handler.New(ndl.NewClient(), cache.NewCache(defaultCacheTTL, defaultCacheSize))
+
+	server := newServer(h)
+	return server.Run(ctx, &mcp.StdioTransport{})
 }
 
-// ===== Framing: Content-Length ヘッダ =====
+func newServer(h *handler.Handler) *mcp.Server {
+	version := os.Getenv("YOKAI_FINDER_VERSION")
+	if version == "" {
+		version = defaultVersion
+	}
 
-func readFramed(r *bufio.Reader) ([]byte, error) {
-	// ヘッダ部
-	var clen int
-	for {
-		line, err := r.ReadString('\n')
+	server := mcp.NewServer(&mcp.Implementation{
+		Name:    serverName,
+		Version: version,
+	}, nil)
+
+	mcp.AddTool(server, &mcp.Tool{
+		Name:        "search_yokai_books",
+		Description: "国立国会図書館（NDL）で妖怪関連の書籍を検索する。妖怪名・地域・カテゴリで絞り込め、ISBNがある書籍には書影URL候補（coverImageCandidates）も付く。Search the National Diet Library for yokai-related books; results include cover-image URL candidates when an ISBN is available.",
+	}, func(ctx context.Context, _ *mcp.CallToolRequest, args searchArgs) (*mcp.CallToolResult, *types.YokaiSearchResult, error) {
+		params := types.YokaiSearchParams{
+			Name:     args.Name,
+			Region:   args.Region,
+			Category: args.Category,
+			Limit:    args.Limit,
+		}
+
+		result, err := h.SearchYokai(ctx, params)
 		if err != nil {
-			return nil, err
+			return nil, nil, err
 		}
-		line = strings.TrimRight(line, "\r\n")
-		if line == "" {
-			break // 空行でヘッダ終わり
-		}
-		if strings.HasPrefix(strings.ToLower(line), "content-length:") {
-			v := strings.TrimSpace(strings.SplitN(line, ":", 2)[1])
-			n, _ := strconv.Atoi(v)
-			clen = n
-		}
-	}
-	if clen <= 0 {
-		return nil, fmt.Errorf("missing content-length")
-	}
-	buf := make([]byte, clen)
-	if _, err := io.ReadFull(r, buf); err != nil {
-		return nil, err
-	}
-	return buf, nil
-}
+		return nil, result, nil
+	})
 
-func writeResp(res response) {
-	b, _ := json.Marshal(res)
-	var out bytes.Buffer
-	fmt.Fprintf(&out, "Content-Length: %d\r\n\r\n", len(b))
-	out.Write(b)
-	os.Stdout.Write(out.Bytes())
+	mcp.AddTool(server, &mcp.Tool{
+		Name:        "yokai_of_the_day",
+		Description: "「今日の妖怪」を紹介する。引数なしなら日替わりで1体を選び、伝承・特徴・創作フック・おすすめ書籍・ストーリープロンプトをまとめて返す。特定の妖怪は name、別の妖怪を引きたいときは seed を指定。Daily featured yokai with lore, creative hooks, recommended reading, and a story prompt; deterministic per calendar day unless a seed or name is given.",
+	}, func(ctx context.Context, _ *mcp.CallToolRequest, args yokaiOfTheDayArgs) (*mcp.CallToolResult, *types.YokaiOfTheDayResult, error) {
+		params := types.YokaiOfTheDayParams{
+			Name:     args.Name,
+			Category: args.Category,
+			Region:   args.Region,
+			Seed:     args.Seed,
+			Limit:    args.Limit,
+		}
+
+		result, err := h.YokaiOfTheDay(ctx, params)
+		if err != nil {
+			return nil, nil, err
+		}
+		return nil, result, nil
+	})
+
+	mcp.AddTool(server, &mcp.Tool{
+		Name:        "list_curated_yokai",
+		Description: "キュレーション済み妖怪図鑑を一覧・検索する。キーワード・カテゴリ・地域で絞り込み、伝承や創作フックの表示も選べる。どんな妖怪がいるか眺めたいときの入口。Browse the curated yokai encyclopedia with keyword/category/region filters and optional lore details.",
+	}, func(ctx context.Context, _ *mcp.CallToolRequest, args listCuratedArgs) (*mcp.CallToolResult, *types.CuratedYokaiResult, error) {
+		params := types.CuratedYokaiParams{
+			Term:                 args.Term,
+			Category:             args.Category,
+			Region:               args.Region,
+			Seed:                 args.Seed,
+			Limit:                args.Limit,
+			IncludeLegends:       args.IncludeLegends,
+			IncludeTraits:        args.IncludeTraits,
+			IncludeMotifs:        args.IncludeMotifs,
+			IncludeCreativeHooks: args.IncludeCreativeHooks,
+		}
+
+		result, err := h.ListCuratedYokai(ctx, params)
+		if err != nil {
+			return nil, nil, err
+		}
+		return nil, result, nil
+	})
+
+	mcp.AddTool(server, &mcp.Tool{
+		Name:        "get_cover_thumbnail",
+		Description: "ISBN または全国書誌番号（JP番号）から書影（表紙画像）のURL候補を返す。候補は上から順に試すこと（資料により提供有無が異なる）。Build cover-image URL candidates from an ISBN (10 or 13) or JP number; try candidates in order.",
+	}, func(_ context.Context, _ *mcp.CallToolRequest, args coverThumbnailArgs) (*mcp.CallToolResult, *ndl.CoverURLs, error) {
+		isbn := strings.TrimSpace(args.ISBN)
+		jpno := strings.TrimSpace(args.JPNo)
+		if isbn == "" && jpno == "" {
+			return nil, nil, errors.New("provide at least one of isbn or jpno")
+		}
+		if isbn != "" && ndl.NormalizeISBN13(isbn) == "" {
+			return nil, nil, errors.New("isbn could not be parsed: use ISBN-10 or ISBN-13, hyphens allowed")
+		}
+
+		covers := ndl.BuildCoverURLs(isbn, jpno)
+		return nil, &covers, nil
+	})
+
+	return server
 }
