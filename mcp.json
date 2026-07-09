@@ -1,7 +1,7 @@
 {
   "name": "yokai-finder-mcp",
-  "version": "0.2.0",
-  "description": "MCP server for browsing a 111-yokai index, curated folklore profiles, and National Diet Library book search",
+  "version": "0.3.0",
+  "description": "MCP server: suggest yokai from vague vibes, 161-entry tagged index, 50 profiles, NDL book search",
   "author": "Your Name",
   "license": "MIT",
   "mcpServers": {

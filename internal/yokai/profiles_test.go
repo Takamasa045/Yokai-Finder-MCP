@@ -62,11 +62,11 @@ func TestProfilesHaveJapaneseLore(t *testing.T) {
 }
 
 func TestCuratedRosterIncludesNewYokai(t *testing.T) {
-	if got := len(Profiles()); got < 15 {
-		t.Fatalf("expected at least 15 curated yokai, got %d", got)
+	if got := len(Profiles()); got != 50 {
+		t.Fatalf("expected 50 curated yokai, got %d", got)
 	}
 
-	for _, name := range []string{"座敷童子", "鵺", "鎌鼬", "一反木綿", "天邪鬼"} {
+	for _, name := range []string{"座敷童子", "鵺", "鎌鼬", "一反木綿", "天邪鬼", "のっぺらぼう", "酒呑童子", "玉藻前", "口裂け女", "付喪神"} {
 		if _, ok := FindByName(name); !ok {
 			t.Errorf("expected curated profile for %s", name)
 		}

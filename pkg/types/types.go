@@ -216,12 +216,15 @@ type YokaiIndexParams struct {
 
 // YokaiIndexItem is a compact roster row for discovering yokai names.
 type YokaiIndexItem struct {
-	Name       string `json:"name"`
-	NativeName string `json:"nativeName,omitempty"`
-	Category   string `json:"category,omitempty"`
-	Region     string `json:"region,omitempty"`
-	BlurbJA    string `json:"blurbJa,omitempty"`
-	HasProfile bool   `json:"hasProfile"`
+	Name       string   `json:"name"`
+	NativeName string   `json:"nativeName,omitempty"`
+	Category   string   `json:"category,omitempty"`
+	Region     string   `json:"region,omitempty"`
+	BlurbJA    string   `json:"blurbJa,omitempty"`
+	Tags       []string `json:"tags,omitempty"`
+	Tone       string   `json:"tone,omitempty"`
+	FamousRank int      `json:"famousRank,omitempty"`
+	HasProfile bool     `json:"hasProfile"`
 }
 
 // YokaiIndexResult returns the filtered yokai roster.
@@ -231,4 +234,52 @@ type YokaiIndexResult struct {
 	Returned int              `json:"returned"`
 	Items    []YokaiIndexItem `json:"items"`
 	Notes    []string         `json:"notes,omitempty"`
+}
+
+// SuggestYokaiParams controls vibe/theme-based yokai discovery.
+type SuggestYokaiParams struct {
+	Vibe     string `json:"vibe,omitempty"`
+	Theme    string `json:"theme,omitempty"`
+	Setting  string `json:"setting,omitempty"`
+	Audience string `json:"audience,omitempty"`
+	Term     string `json:"term,omitempty"`
+	Limit    int    `json:"limit,omitempty"`
+	Seed     int64  `json:"seed,omitempty"`
+}
+
+// SuggestYokaiItem is one discovery candidate with a brief rationale.
+type SuggestYokaiItem struct {
+	Name         string   `json:"name"`
+	NativeName   string   `json:"nativeName,omitempty"`
+	Category     string   `json:"category,omitempty"`
+	Region       string   `json:"region,omitempty"`
+	BlurbJA      string   `json:"blurbJa,omitempty"`
+	Tags         []string `json:"tags,omitempty"`
+	Tone         string   `json:"tone,omitempty"`
+	FamousRank   int      `json:"famousRank,omitempty"`
+	HasProfile   bool     `json:"hasProfile"`
+	WhySuggested string   `json:"whySuggested,omitempty"`
+}
+
+// SuggestYokaiResult returns discovery candidates for vague queries.
+type SuggestYokaiResult struct {
+	Query    string            `json:"query,omitempty"`
+	Total    int               `json:"total"`
+	Returned int               `json:"returned"`
+	Items    []SuggestYokaiItem `json:"items"`
+	Notes    []string          `json:"notes,omitempty"`
+}
+
+// GetYokaiParams looks up a single yokai by Japanese or English name.
+type GetYokaiParams struct {
+	Name string `json:"name"`
+}
+
+// GetYokaiResult returns either a full curated profile, an index card, or not-found.
+type GetYokaiResult struct {
+	Found   bool            `json:"found"`
+	Source  string          `json:"source,omitempty"` // "profile" | "index" | ""
+	Profile *YokaiProfile   `json:"profile,omitempty"`
+	Index   *YokaiIndexItem `json:"index,omitempty"`
+	Notes   []string        `json:"notes,omitempty"`
 }

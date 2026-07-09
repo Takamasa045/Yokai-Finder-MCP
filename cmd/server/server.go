@@ -17,7 +17,7 @@ import (
 
 const (
 	serverName       = "yokai-finder-mcp"
-	defaultVersion   = "0.2.0"
+	defaultVersion   = "0.3.0"
 	defaultCacheTTL  = 5 * time.Minute
 	defaultCacheSize = 256
 )
@@ -58,7 +58,21 @@ type listYokaiArgs struct {
 	Term     string `json:"term,omitempty" jsonschema:"Keyword to match name, category, region, or Japanese blurb"`
 	Category string `json:"category,omitempty" jsonschema:"Category hint (e.g. 水系, 付喪神, 狐狸)"`
 	Region   string `json:"region,omitempty" jsonschema:"Region hint (e.g. 東北, 九州, 海)"`
-	Limit    int    `json:"limit,omitempty" jsonschema:"Maximum entries to return (default 111, max 111)"`
+	Limit    int    `json:"limit,omitempty" jsonschema:"Maximum entries to return (default 200, max 200)"`
+}
+
+type suggestYokaiArgs struct {
+	Vibe     string `json:"vibe,omitempty" jsonschema:"Mood or feeling (e.g. 怖い, かわいい, 不気味, ほのぼの)"`
+	Theme    string `json:"theme,omitempty" jsonschema:"Theme or motif (e.g. 水, 狐, 付喪神, 呪い)"`
+	Setting  string `json:"setting,omitempty" jsonschema:"Setting or place vibe (e.g. 山, 川, 夜の町, 学校)"`
+	Audience string `json:"audience,omitempty" jsonschema:"Intended audience or use (e.g. 子ども, 創作向け, ホラー)"`
+	Term     string `json:"term,omitempty" jsonschema:"Free-form keyword when vibe/theme are hard to pin down"`
+	Limit    int    `json:"limit,omitempty" jsonschema:"Maximum suggestions to return (default 6, max 20)"`
+	Seed     int64  `json:"seed,omitempty" jsonschema:"Deterministic shuffle seed for alternate suggestions"`
+}
+
+type getYokaiArgs struct {
+	Name string `json:"name" jsonschema:"Japanese or English yokai name to look up (e.g. 河童, Kappa, 八岐大蛇)"`
 }
 
 func main() {
@@ -124,7 +138,7 @@ func newServer(h *handler.Handler) *mcp.Server {
 
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "list_yokai",
-		Description: "111体の妖怪索引をざっくり一覧・検索する。名前・一言紹介・カテゴリのみの軽量リスト。気になった名前は search_yokai_books で本を、hasProfile=true なら list_curated_yokai / yokai_of_the_day で深掘り。Browse a 111-entry yokai name index for discovery (compact blurbs; not full lore).",
+		Description: "妖怪索引（160体超）をざっくり一覧・検索する。名前・一言紹介・カテゴリ・タグの軽量リスト。雰囲気や曖昧な希望（「怖い妖怪」「水のやつ」など）なら suggest_yokai を使う。気になった名前は get_yokai で詳細、search_yokai_books で本を、hasProfile=true なら list_curated_yokai / yokai_of_the_day で深掘り。Browse the yokai name index (compact blurbs); use suggest_yokai for vague discovery.",
 	}, func(ctx context.Context, _ *mcp.CallToolRequest, args listYokaiArgs) (*mcp.CallToolResult, *types.YokaiIndexResult, error) {
 		params := types.YokaiIndexParams{
 			Term:     args.Term,
@@ -141,8 +155,44 @@ func newServer(h *handler.Handler) *mcp.Server {
 	})
 
 	mcp.AddTool(server, &mcp.Tool{
+		Name:        "suggest_yokai",
+		Description: "曖昧な条件から妖怪を提案する。例: 「怖い妖怪」「水のやつ」「創作向け」「かわいいが不気味」。vibe/theme/setting/audience や自由語 term で候補と短い理由（whySuggested）を返す。名前が分かったら get_yokai、網羅一覧は list_yokai。Suggest yokai from vague queries (scary, water-y, for fiction); returns short rationales.",
+	}, func(ctx context.Context, _ *mcp.CallToolRequest, args suggestYokaiArgs) (*mcp.CallToolResult, *types.SuggestYokaiResult, error) {
+		params := types.SuggestYokaiParams{
+			Vibe:     args.Vibe,
+			Theme:    args.Theme,
+			Setting:  args.Setting,
+			Audience: args.Audience,
+			Term:     args.Term,
+			Limit:    args.Limit,
+			Seed:     args.Seed,
+		}
+
+		result, err := h.SuggestYokai(ctx, params)
+		if err != nil {
+			return nil, nil, err
+		}
+		return nil, result, nil
+	})
+
+	mcp.AddTool(server, &mcp.Tool{
+		Name:        "get_yokai",
+		Description: "妖怪を日本語名または英語名で1体取得する。キュレーション済みなら詳細プロフィール（source=profile）、索引のみなら軽いカード（source=index）。見つからないときは list_yokai / suggest_yokai / search_yokai_books を案内。Look up one yokai by Japanese or English name (full profile or index card).",
+	}, func(ctx context.Context, _ *mcp.CallToolRequest, args getYokaiArgs) (*mcp.CallToolResult, *types.GetYokaiResult, error) {
+		params := types.GetYokaiParams{
+			Name: args.Name,
+		}
+
+		result, err := h.GetYokai(ctx, params)
+		if err != nil {
+			return nil, nil, err
+		}
+		return nil, result, nil
+	})
+
+	mcp.AddTool(server, &mcp.Tool{
 		Name:        "list_curated_yokai",
-		Description: "キュレーション済み妖怪図鑑（詳細プロフィール15体）を一覧・検索する。伝承・特徴・創作フック付き。ざっくり顔ぶれを知りたいときは list_yokai を先に使う。Browse the deep curated encyclopedia (15 full bilingual profiles); use list_yokai first for a broad roster.",
+		Description: "キュレーション済み妖怪図鑑（詳細プロフィール50体）を一覧・検索する。伝承・特徴・創作フック付き。ざっくり顔ぶれを知りたいときは list_yokai を先に使う。Browse the deep curated encyclopedia (50 full bilingual profiles); use list_yokai first for a broad roster.",
 	}, func(ctx context.Context, _ *mcp.CallToolRequest, args listCuratedArgs) (*mcp.CallToolResult, *types.CuratedYokaiResult, error) {
 		params := types.CuratedYokaiParams{
 			Term:                 args.Term,

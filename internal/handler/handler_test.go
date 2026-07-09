@@ -256,11 +256,11 @@ func TestListYokaiIndex(t *testing.T) {
 	if err != nil {
 		t.Fatalf("ListYokai returned error: %v", err)
 	}
-	if all.Total != 111 {
-		t.Fatalf("expected 111 indexed yokai, got total=%d", all.Total)
+	if all.Total < 160 {
+		t.Fatalf("expected at least 160 indexed yokai, got total=%d", all.Total)
 	}
-	if all.Returned != 111 || len(all.Items) != 111 {
-		t.Fatalf("expected full roster returned by default, got returned=%d items=%d", all.Returned, len(all.Items))
+	if all.Returned != all.Total || len(all.Items) != all.Total {
+		t.Fatalf("expected full roster returned by default, got returned=%d items=%d total=%d", all.Returned, len(all.Items), all.Total)
 	}
 
 	var sawCurated bool
@@ -307,5 +307,134 @@ func TestListYokaiIndex(t *testing.T) {
 	}
 	if len(none.Notes) == 0 {
 		t.Fatalf("expected a note when nothing matches")
+	}
+}
+
+func TestSuggestYokaiWaterOrDefault(t *testing.T) {
+	t.Helper()
+
+	h := New(nil, nil)
+
+	water, err := h.SuggestYokai(context.Background(), types.SuggestYokaiParams{
+		Vibe:  "水",
+		Limit: 6,
+	})
+	if err != nil {
+		t.Fatalf("SuggestYokai(水) error: %v", err)
+	}
+	if water.Returned == 0 || len(water.Items) == 0 {
+		t.Fatalf("expected suggestions for vibe 水, got %+v", water)
+	}
+	if water.Returned > 6 {
+		t.Fatalf("expected limit 6, got returned=%d", water.Returned)
+	}
+	for _, item := range water.Items {
+		if item.Name == "" {
+			t.Fatalf("expected non-empty name in suggestion: %+v", item)
+		}
+		if item.WhySuggested == "" {
+			t.Fatalf("expected WhySuggested for %s", item.Name)
+		}
+	}
+
+	defaults, err := h.SuggestYokai(context.Background(), types.SuggestYokaiParams{})
+	if err != nil {
+		t.Fatalf("SuggestYokai(empty) error: %v", err)
+	}
+	if defaults.Returned == 0 || len(defaults.Items) == 0 {
+		t.Fatalf("expected well-known default suggestions, got %+v", defaults)
+	}
+	if defaults.Returned > 6 {
+		t.Fatalf("expected default limit 6, got returned=%d", defaults.Returned)
+	}
+}
+
+func TestGetYokaiProfileSource(t *testing.T) {
+	t.Helper()
+
+	h := New(nil, nil)
+
+	result, err := h.GetYokai(context.Background(), types.GetYokaiParams{Name: "河童"})
+	if err != nil {
+		t.Fatalf("GetYokai(河童) error: %v", err)
+	}
+	if !result.Found {
+		t.Fatalf("expected Found=true for 河童")
+	}
+	if result.Source != "profile" {
+		t.Fatalf("expected source=profile, got %q", result.Source)
+	}
+	if result.Profile == nil {
+		t.Fatalf("expected Profile to be set")
+	}
+	if result.Profile.NativeName != "河童" && result.Profile.Name != "Kappa" {
+		t.Fatalf("unexpected profile: %+v", result.Profile)
+	}
+	if result.Index != nil {
+		t.Fatalf("did not expect Index when source=profile")
+	}
+}
+
+func TestGetYokaiUnknown(t *testing.T) {
+	t.Helper()
+
+	h := New(nil, nil)
+
+	result, err := h.GetYokai(context.Background(), types.GetYokaiParams{Name: "存在しない妖怪xyz"})
+	if err != nil {
+		t.Fatalf("GetYokai(unknown) error: %v", err)
+	}
+	if result.Found {
+		t.Fatalf("expected Found=false, got %+v", result)
+	}
+	if result.Source != "" {
+		t.Fatalf("expected empty source, got %q", result.Source)
+	}
+	if result.Profile != nil || result.Index != nil {
+		t.Fatalf("expected no profile/index payload")
+	}
+	if len(result.Notes) == 0 {
+		t.Fatalf("expected notes suggesting alternatives")
+	}
+}
+
+func TestGetYokaiIndexOnly(t *testing.T) {
+	t.Helper()
+
+	h := New(nil, nil)
+
+	// 八岐大蛇 is expected to be index-only (no curated profile).
+	result, err := h.GetYokai(context.Background(), types.GetYokaiParams{Name: "八岐大蛇"})
+	if err != nil {
+		t.Fatalf("GetYokai(八岐大蛇) error: %v", err)
+	}
+	if !result.Found {
+		t.Fatalf("expected Found=true for index entry 八岐大蛇")
+	}
+	if result.Source != "index" {
+		t.Fatalf("expected source=index, got %q (profile may have been added)", result.Source)
+	}
+	if result.Index == nil {
+		t.Fatalf("expected Index card")
+	}
+	if result.Index.NativeName != "八岐大蛇" && result.Index.Name != "Yamata-no-Orochi" {
+		t.Fatalf("unexpected index item: %+v", result.Index)
+	}
+	if result.Profile != nil {
+		t.Fatalf("did not expect Profile for index-only entry")
+	}
+	if len(result.Notes) == 0 {
+		t.Fatalf("expected notes about limited lore / next steps")
+	}
+}
+
+func TestGetYokaiEmptyName(t *testing.T) {
+	t.Helper()
+
+	h := New(nil, nil)
+
+	_, err := h.GetYokai(context.Background(), types.GetYokaiParams{Name: "  "})
+	if err == nil {
+		t.Fatalf("expected error for empty name")
 	}
 }

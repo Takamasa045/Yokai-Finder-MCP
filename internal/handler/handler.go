@@ -117,7 +117,7 @@ func (h *Handler) YokaiOfTheDay(ctx context.Context, params types.YokaiOfTheDayP
 	return result, nil
 }
 
-// ListYokai returns the lightweight 111-entry yokai roster for discovery.
+// ListYokai returns the lightweight yokai roster for discovery.
 func (h *Handler) ListYokai(_ context.Context, params types.YokaiIndexParams) (*types.YokaiIndexResult, error) {
 	cleaned := normaliseIndexParams(params)
 
@@ -141,14 +141,7 @@ func (h *Handler) ListYokai(_ context.Context, params types.YokaiIndexParams) (*
 
 	items := make([]types.YokaiIndexItem, 0, len(limited))
 	for _, entry := range limited {
-		items = append(items, types.YokaiIndexItem{
-			Name:       entry.Name,
-			NativeName: entry.NativeName,
-			Category:   entry.Category,
-			Region:     entry.Region,
-			BlurbJA:    entry.BlurbJA,
-			HasProfile: entry.HasCuratedProfile(),
-		})
+		items = append(items, convertIndexEntry(entry))
 	}
 
 	return &types.YokaiIndexResult{
@@ -157,6 +150,99 @@ func (h *Handler) ListYokai(_ context.Context, params types.YokaiIndexParams) (*
 		Returned: len(items),
 		Items:    items,
 		Notes:    notes,
+	}, nil
+}
+
+// SuggestYokai recommends yokai for vague vibe/theme/setting queries.
+func (h *Handler) SuggestYokai(_ context.Context, params types.SuggestYokaiParams) (*types.SuggestYokaiResult, error) {
+	cleaned := normaliseSuggestParams(params)
+
+	matches := yokai.Suggest(yokai.SuggestQuery{
+		Vibe:     cleaned.Vibe,
+		Theme:    cleaned.Theme,
+		Setting:  cleaned.Setting,
+		Audience: cleaned.Audience,
+		Term:     cleaned.Term,
+		Limit:    cleaned.Limit,
+		Seed:     cleaned.Seed,
+	})
+
+	query := buildSuggestQueryLabel(cleaned)
+	if len(matches) == 0 {
+		return &types.SuggestYokaiResult{
+			Query:    query,
+			Total:    0,
+			Returned: 0,
+			Items:    nil,
+			Notes: []string{
+				"条件に合う妖怪が見つかりませんでした。vibe/theme/setting を緩めるか list_yokai・search_yokai_books をお試しください。",
+			},
+		}, nil
+	}
+
+	items := make([]types.SuggestYokaiItem, 0, len(matches))
+	for _, entry := range matches {
+		items = append(items, types.SuggestYokaiItem{
+			Name:         entry.Name,
+			NativeName:   entry.NativeName,
+			Category:     entry.Category,
+			Region:       entry.Region,
+			BlurbJA:      entry.BlurbJA,
+			Tags:         cloneStrings(entry.Tags),
+			Tone:         entry.Tone,
+			FamousRank:   entry.FamousRank,
+			HasProfile:   entry.HasCuratedProfile(),
+			WhySuggested: buildWhySuggested(entry, cleaned),
+		})
+	}
+
+	return &types.SuggestYokaiResult{
+		Query:    query,
+		Total:    len(items),
+		Returned: len(items),
+		Items:    items,
+		Notes:    nil,
+	}, nil
+}
+
+// GetYokai looks up one yokai by Japanese or English name (profile first, then index).
+func (h *Handler) GetYokai(_ context.Context, params types.GetYokaiParams) (*types.GetYokaiResult, error) {
+	name := strings.TrimSpace(params.Name)
+	if name == "" {
+		return nil, errors.New("name is required")
+	}
+
+	if profile, ok := yokai.FindByName(name); ok {
+		converted := convertProfile(profile)
+		return &types.GetYokaiResult{
+			Found:   true,
+			Source:  "profile",
+			Profile: &converted,
+			Notes:   nil,
+		}, nil
+	}
+
+	if entry, ok := yokai.FindIndexByName(name); ok {
+		indexItem := convertIndexEntry(entry)
+		notes := []string{
+			"索引カードのみです。詳細な伝承・創作フックは未整備の可能性があります。",
+			"深掘りするなら search_yokai_books で関連書籍を探すか、list_curated_yokai / yokai_of_the_day で近いキュレーション済み妖怪を参照してください。",
+		}
+		return &types.GetYokaiResult{
+			Found:  true,
+			Source: "index",
+			Index:  &indexItem,
+			Notes:  notes,
+		}, nil
+	}
+
+	return &types.GetYokaiResult{
+		Found:  false,
+		Source: "",
+		Notes: []string{
+			fmt.Sprintf("「%s」に一致する妖怪が見つかりませんでした。", name),
+			"list_yokai で一覧を見る、suggest_yokai で雰囲気から探す、search_yokai_books で文献検索をお試しください。",
+		},
 	}, nil
 }
 
@@ -248,12 +334,119 @@ func normaliseIndexParams(p types.YokaiIndexParams) types.YokaiIndexParams {
 	p.Region = strings.TrimSpace(p.Region)
 
 	if p.Limit <= 0 {
-		p.Limit = 111
+		p.Limit = 200
 	}
-	if p.Limit > 111 {
-		p.Limit = 111
+	if p.Limit > 200 {
+		p.Limit = 200
 	}
 	return p
+}
+
+func normaliseSuggestParams(p types.SuggestYokaiParams) types.SuggestYokaiParams {
+	p.Vibe = strings.TrimSpace(p.Vibe)
+	p.Theme = strings.TrimSpace(p.Theme)
+	p.Setting = strings.TrimSpace(p.Setting)
+	p.Audience = strings.TrimSpace(p.Audience)
+	p.Term = strings.TrimSpace(p.Term)
+
+	if p.Limit <= 0 {
+		p.Limit = 6
+	}
+	if p.Limit > 20 {
+		p.Limit = 20
+	}
+	return p
+}
+
+func convertIndexEntry(entry yokai.IndexEntry) types.YokaiIndexItem {
+	return types.YokaiIndexItem{
+		Name:       entry.Name,
+		NativeName: entry.NativeName,
+		Category:   entry.Category,
+		Region:     entry.Region,
+		BlurbJA:    entry.BlurbJA,
+		Tags:       cloneStrings(entry.Tags),
+		Tone:       entry.Tone,
+		FamousRank: entry.FamousRank,
+		HasProfile: entry.HasCuratedProfile(),
+	}
+}
+
+func buildSuggestQueryLabel(p types.SuggestYokaiParams) string {
+	parts := make([]string, 0, 5)
+	if p.Vibe != "" {
+		parts = append(parts, "vibe="+p.Vibe)
+	}
+	if p.Theme != "" {
+		parts = append(parts, "theme="+p.Theme)
+	}
+	if p.Setting != "" {
+		parts = append(parts, "setting="+p.Setting)
+	}
+	if p.Audience != "" {
+		parts = append(parts, "audience="+p.Audience)
+	}
+	if p.Term != "" {
+		parts = append(parts, "term="+p.Term)
+	}
+	return strings.Join(parts, " ")
+}
+
+func buildWhySuggested(entry yokai.IndexEntry, p types.SuggestYokaiParams) string {
+	reasons := make([]string, 0, 4)
+
+	if p.Vibe != "" && fieldMentions(entry, p.Vibe) {
+		reasons = append(reasons, fmt.Sprintf("雰囲気「%s」に合いそう", p.Vibe))
+	}
+	if p.Theme != "" && fieldMentions(entry, p.Theme) {
+		reasons = append(reasons, fmt.Sprintf("テーマ「%s」と関連", p.Theme))
+	}
+	if p.Setting != "" && fieldMentions(entry, p.Setting) {
+		reasons = append(reasons, fmt.Sprintf("舞台「%s」に近い", p.Setting))
+	}
+	if p.Term != "" && fieldMentions(entry, p.Term) {
+		reasons = append(reasons, fmt.Sprintf("キーワード「%s」にヒット", p.Term))
+	}
+	if p.Audience != "" {
+		reasons = append(reasons, fmt.Sprintf("想定読者「%s」向けの候補", p.Audience))
+	}
+
+	// Tag overlap is a strong discovery signal even without query field hits.
+	if len(reasons) == 0 && len(entry.Tags) > 0 {
+		reasons = append(reasons, fmt.Sprintf("タグ: %s", strings.Join(entry.Tags, "・")))
+	}
+	if len(reasons) == 0 {
+		if entry.Tone != "" {
+			return fmt.Sprintf("トーン「%s」の代表的な候補", entry.Tone)
+		}
+		if entry.Category != "" {
+			return fmt.Sprintf("カテゴリ「%s」からのおすすめ", entry.Category)
+		}
+		return "索引からのおすすめ"
+	}
+	return strings.Join(reasons, "／")
+}
+
+func fieldMentions(entry yokai.IndexEntry, needle string) bool {
+	needle = strings.ToLower(strings.TrimSpace(needle))
+	if needle == "" {
+		return false
+	}
+	fields := []string{
+		entry.Name,
+		entry.NativeName,
+		entry.Category,
+		entry.Region,
+		entry.BlurbJA,
+		entry.Tone,
+		strings.Join(entry.Tags, " "),
+	}
+	for _, field := range fields {
+		if strings.Contains(strings.ToLower(field), needle) {
+			return true
+		}
+	}
+	return false
 }
 
 func selectCuratedProfile(params types.YokaiOfTheDayParams) (yokai.Profile, []string, error) {
