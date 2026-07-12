@@ -1,0 +1,61 @@
+name: Release binaries
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Build and publish this existing tag (for example v0.3.0)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out release tools
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          path: release-tools
+          persist-credentials: false
+
+      - name: Check out the release source
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          ref: ${{ inputs.tag || github.ref }}
+          path: source
+          persist-credentials: false
+
+      - name: Set up Go
+        uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5
+        with:
+          go-version-file: source/go.mod
+
+      - name: Test
+        run: go test ./...
+        working-directory: source
+
+      - name: Build release archives
+        env:
+          VERSION: ${{ inputs.tag || github.ref_name }}
+        run: bash release-tools/scripts/build-release.sh "$VERSION" dist source
+
+      - name: Verify release archives
+        env:
+          VERSION: ${{ inputs.tag || github.ref_name }}
+        run: bash release-tools/scripts/verify-release-assets.sh "$VERSION" source/dist
+
+      - name: Create or update GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ inputs.tag || github.ref_name }}
+        run: |
+          if ! gh release view "$VERSION" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release create "$VERSION" --repo "$GITHUB_REPOSITORY" --verify-tag --generate-notes
+          fi
+          gh release upload "$VERSION" source/dist/* --repo "$GITHUB_REPOSITORY" --clobber

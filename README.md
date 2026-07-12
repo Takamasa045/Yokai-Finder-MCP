@@ -42,12 +42,38 @@ NDL の蔵書はローカルにコピーしていません。書籍ツールは�
 
 ## インストール
 
-### 必要要件
+### ダウンロード版（Go不要）
+
+1. [最新Release](https://github.com/Takamasa045/Yokai-Finder-MCP/releases/latest) から自分の環境に合うファイルをダウンロードします。
+
+   | 環境 | ファイル名の末尾 |
+   |------|------------------|
+   | Mac（Apple Silicon: M1/M2/M3/M4） | `darwin_arm64.tar.gz` |
+   | Mac（Intel） | `darwin_amd64.tar.gz` |
+   | Linux（Intel/AMD） | `linux_amd64.tar.gz` |
+   | Linux（ARM64） | `linux_arm64.tar.gz` |
+   | Windows（Intel/AMD） | `windows_amd64.zip` |
+   | Windows（ARM64） | `windows_arm64.zip` |
+
+2. 展開します。macOS / Linux の例:
+
+   ```bash
+   tar -xzf yokai-finder-mcp_vX.Y.Z_darwin_arm64.tar.gz
+   cd yokai-finder-mcp_vX.Y.Z_darwin_arm64
+   ```
+
+   WindowsではZIPを展開します。各アーカイブには実行ファイルとこのREADMEが入っています。macOSで実行をブロックされた場合は、展開後のフォルダで `xattr -d com.apple.quarantine yokai-finder-mcp` を一度だけ実行してください。
+
+3. 次の「Codexでの最短登録」または「Claude Desktop / Claude Codeでの設定」で、展開した実行ファイルを指定します。Goのインストールやビルドは不要です。
+
+Release内の`checksums.txt`も一緒にダウンロードすれば、ダウンロードファイルのSHA-256を照合できます。macOS / Linuxでは、展開前のフォルダで `shasum -a 256 -c checksums.txt` を実行してください。
+
+### 必要要件（ソースからビルドする場合）
 
 - Go 1.23 以上
 - Git
 
-### ソースからのビルド
+### ソースからのビルド（開発者向け）
 
 ```bash
 git clone https://github.com/Takamasa045/Yokai-Finder-MCP.git
@@ -83,7 +109,7 @@ AIが依頼内容に応じて、提案・図鑑・書籍検索などのツール
 
 ### Codexでの最短登録
 
-ビルドした実行ファイルを、絶対パスで一度登録します。
+ダウンロード版またはビルドした実行ファイルを、絶対パスで一度登録します。
 
 ```bash
 codex mcp add yokai-finder -- /absolute/path/to/yokai-finder-mcp
@@ -325,6 +351,7 @@ yokai-finder-mcp/
 ```bash
 go test ./...
 go test ./... -cover
+bash scripts/test-release-build.sh
 ```
 
 ### 妖怪を追加する
