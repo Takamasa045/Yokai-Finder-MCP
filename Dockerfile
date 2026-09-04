@@ -5,7 +5,7 @@ RUN go mod download
 COPY . .
 RUN CGO_ENABLED=0 GOOS=linux go build -trimpath -ldflags="-s -w" -o yokai-finder-mcp ./cmd/server
 
-FROM alpine:3.21
+FROM alpine:3.24
 RUN apk --no-cache add ca-certificates \
     && adduser -D -H -u 65532 nonroot
 WORKDIR /app
