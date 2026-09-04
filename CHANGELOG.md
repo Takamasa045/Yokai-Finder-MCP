@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.9.0
+
+- Encyclopedia and index are both 207. Every roster row now has a bilingual card.
+- `list_yokai` / `list_curated_yokai` limits raised from 200 to 400.
+- New names include 大天狗, 木葉天狗, 山姫, 川姫, 団三郎狸, 金長狸, 善狐, 白蛇, 安達ヶ原, 飛頭蛮, 人面魚, 面霊気.
+- Remaining obscure roster cards filled (わいら, 煙羅煙羅, 海座頭, 瀬戸大将, 琴古主, ガタロ, and others).
+
 ## 0.8.0
 
 - Encyclopedia grew to 172 bilingual cards; the index is now 191 names.

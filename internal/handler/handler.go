@@ -15,6 +15,8 @@ import (
 	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 )
 
+const maxRosterLimit = 400
+
 // Handler coordinates Yokai search requests against the NDL API with caching.
 type Handler struct {
 	ndlClient *ndl.Client
@@ -348,8 +350,8 @@ func normaliseCuratedParams(p types.CuratedYokaiParams) types.CuratedYokaiParams
 	if p.Limit <= 0 {
 		p.Limit = 10
 	}
-	if p.Limit > 200 {
-		p.Limit = 200
+	if p.Limit > maxRosterLimit {
+		p.Limit = maxRosterLimit
 	}
 	return p
 }
@@ -362,10 +364,10 @@ func normaliseIndexParams(p types.YokaiIndexParams) types.YokaiIndexParams {
 	p.Tone = strings.TrimSpace(p.Tone)
 
 	if p.Limit <= 0 {
-		p.Limit = 200
+		p.Limit = maxRosterLimit
 	}
-	if p.Limit > 200 {
-		p.Limit = 200
+	if p.Limit > maxRosterLimit {
+		p.Limit = maxRosterLimit
 	}
 	return p
 }

@@ -12,6 +12,7 @@ func TestPriorityRankThreeHaveProfiles(t *testing.T) {
 		"牛鬼", "疫病神", "件", "アマビコ", "白澤", "骨女", "累", "管狐",
 		"二口女", "手の目", "山童", "鉄鼠", "ぬっぺふほふ", "赤いマント", "きさらぎ駅",
 		"貉", "お歯黒べったり", "八百比丘尼", "烏天狗", "白蔵主", "七人みさき", "逆柱",
+		"大天狗", "白蛇", "安達ヶ原", "団三郎狸", "海座頭", "わいら",
 	} {
 		if _, ok := FindByName(name); !ok {
 			t.Errorf("expected profile for %s", name)

@@ -18,6 +18,8 @@ go build -o yokai-finder-mcp ./cmd/server
 
 Canonical categories are Japanese keys such as `水系`, `付喪神`, `現代伝承`. English hints (`water`, `tsukumogami`) are mapped in code.
 
+`list_yokai` default and max limit is 400. Raise `maxRosterLimit` in `internal/handler/handler.go` if the roster grows past that.
+
 ## HTTP
 
 Loopback is allowed without a token:

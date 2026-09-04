@@ -5587,5 +5587,1165 @@
       "Snow-country yokai",
       "Related to yuki-onna"
     ]
+  },
+  {
+    "name": "Abura-akago",
+    "nativeName": "油赤子",
+    "region": "Lamp oil and night roads",
+    "category": "霊火",
+    "categoryEn": "Oil baby",
+    "summary": "An infant fire-spirit that licks lamp oil, kin to himamushi-nyudo and abura-sumashi.",
+    "summaryJa": "灯油を舐める赤子の火。火間虫入道や油すましの近縁。",
+    "legends": [
+      "A lamp dies as a child's laugh passes the eaves",
+      "Oil footprints lead to no cradle"
+    ],
+    "traits": [
+      "Infant glow",
+      "Oil thief",
+      "Night"
+    ],
+    "motifs": [
+      "Stolen light",
+      "Household economy",
+      "Kyushu oil cycle"
+    ],
+    "funFact": "Oil was expensive; the baby is a bill, not a cherub.",
+    "funFactJa": "油は高かった。赤子は天使ではなく請求書。",
+    "searchQuery": "油赤子 妖怪",
+    "creativeHooks": [
+      "A night-light that invoices you.",
+      "The nursery smells of lamp oil."
+    ],
+    "sources": [
+      "Oil-stealing yokai types"
+    ]
+  },
+  {
+    "name": "Oshiroi-baba",
+    "nativeName": "白粉婆",
+    "region": "Night makeup",
+    "category": "屋敷",
+    "categoryEn": "Face-powder hag",
+    "summary": "An old woman who begs for oshiroi, then shows a face already painted for a funeral or a farce.",
+    "summaryJa": "白粉を乞う婆。顔はすでに葬礼か道化の化粧である。",
+    "legends": [
+      "A voice at the door asks only for powder",
+      "The white face does not come off in rain"
+    ],
+    "traits": [
+      "Begs cosmetics",
+      "White face",
+      "Old woman"
+    ],
+    "motifs": [
+      "Makeup",
+      "Aging",
+      "Night house"
+    ],
+    "funFact": "The scare is vanity's leftover, not a jump-scare mask.",
+    "funFactJa": "怖さは虚栄の残り物であって、ただの仮面ではない。",
+    "searchQuery": "白粉婆 妖怪",
+    "creativeHooks": [
+      "A cosmetics sample that ages the wearer.",
+      "The powder is the face."
+    ],
+    "sources": [
+      "Edo hag types"
+    ]
+  },
+  {
+    "name": "Tenko",
+    "nativeName": "天狐",
+    "region": "Highest fox rank",
+    "category": "狐狸",
+    "categoryEn": "Heaven fox",
+    "summary": "The highest rank of kitsune, celestial and long-lived, contrast to yako and zenko.",
+    "summaryJa": "狐の最高位。天に通じ、長命。野狐や善狐と対になる。",
+    "legends": [
+      "A white light on the ridge is not a shrine lamp",
+      "Nine tails are rumoured, none confirmed"
+    ],
+    "traits": [
+      "Celestial fox",
+      "High rank",
+      "Rare"
+    ],
+    "motifs": [
+      "Fox hierarchy",
+      "Sky",
+      "Not Tamamo by default"
+    ],
+    "funFact": "Tenko is a rank, not a celebrity. Do not auto-cast Tamamo-no-Mae.",
+    "funFactJa": "天狐は位階であって固有名詞ではない。すぐ玉藻前にしない。",
+    "searchQuery": "天狐 狐 妖怪",
+    "creativeHooks": [
+      "An org chart of foxes.",
+      "The summit is a tail."
+    ],
+    "sources": [
+      "Fox-rank lore"
+    ]
+  },
+  {
+    "name": "Nozuchi",
+    "nativeName": "野槌",
+    "region": "Grassy fields",
+    "category": "山系",
+    "categoryEn": "Field mallet",
+    "summary": "A legless, mallet-shaped field yokai that rolls and bites, later mixed with tsuchinoko rumours.",
+    "summaryJa": "足のない槌型の野の妖怪。転がって噛む。後世のツチノコ噂と混ざる。",
+    "legends": [
+      "A rolling log has a mouth",
+      "Dogs refuse a certain grassy bank"
+    ],
+    "traits": [
+      "Mallet body",
+      "Rolls",
+      "Bite"
+    ],
+    "motifs": [
+      "Field",
+      "Tsuchinoko neighbour",
+      "Sekien"
+    ],
+    "funFact": "Keep nozuchi older than the tsuchinoko boom; they share a silhouette, not a passport.",
+    "funFactJa": "野槌はツチノコブームより古い。シルエットは共有するが戸籍は別。",
+    "searchQuery": "野槌 ツチノコ 妖怪",
+    "creativeHooks": [
+      "A rolling pin that hunts.",
+      "The field's USB stick is alive."
+    ],
+    "sources": [
+      "Field yokai",
+      "Later tsuchinoko overlap"
+    ]
+  },
+  {
+    "name": "Onmoraki",
+    "nativeName": "陰摩羅鬼",
+    "region": "Funeral fires",
+    "category": "死霊",
+    "categoryEn": "Onmoraki",
+    "summary": "A bird-like demon born from a corpse's unburied qi, crying with a human voice.",
+    "summaryJa": "葬られぬ気から生まれる鳥形の鬼。人の声で鳴く。",
+    "legends": [
+      "A funeral delayed one night too long",
+      "A bird calls the deceased's name"
+    ],
+    "traits": [
+      "Bird demon",
+      "Corpse qi",
+      "Human cry"
+    ],
+    "motifs": [
+      "Funeral delay",
+      "Buddhist demon",
+      "Night temple"
+    ],
+    "funFact": "The moral is burial timing, not birdwatching.",
+    "funFactJa": "教訓は野鳥観察ではなく、葬りの遅れである。",
+    "searchQuery": "陰摩羅鬼 妖怪",
+    "creativeHooks": [
+      "A morgue schedule that grows feathers.",
+      "The wake has a choir of one."
+    ],
+    "sources": [
+      "Buddhist funeral demon lore"
+    ]
+  },
+  {
+    "name": "Waira",
+    "nativeName": "わいら",
+    "region": "Mountain paths",
+    "category": "異形",
+    "categoryEn": "Waira",
+    "summary": "A hulking, ox-like mountain brute in Sekien's pictures, more silhouette than story.",
+    "summaryJa": "石燕図の、牛めいた巨体の山の獣。物語より絵の印象が先に立つ。",
+    "legends": [
+      "A pass is blocked by something that is all shoulder",
+      "Hoofprints too wide for cattle"
+    ],
+    "traits": [
+      "Bulk",
+      "Ox-like",
+      "Sparse lore"
+    ],
+    "motifs": [
+      "Picture-scroll first",
+      "Mountain mass",
+      "Obscure"
+    ],
+    "funFact": "Honest about the thin dossier: waira is a drawing that learned to walk.",
+    "funFactJa": "資料の薄さを隠さない。わいらは歩き出した絵である。",
+    "searchQuery": "わいら 妖怪 石燕",
+    "creativeHooks": [
+      "A boss fight with almost no quest text.",
+      "The mountain's leftover sketch."
+    ],
+    "sources": [
+      "Toriyama Sekien"
+    ]
+  },
+  {
+    "name": "Enraenra",
+    "nativeName": "煙羅煙羅",
+    "region": "Hearth smoke",
+    "category": "気象",
+    "categoryEn": "Smoke yokai",
+    "summary": "Smoke that gathers a face above the hearth or a pipe, then tears apart on a draft.",
+    "summaryJa": "炉や煙管の煙が顔になる。風が来るとほどける。",
+    "legends": [
+      "A smoker sees a companion in the cloud",
+      "Kitchen smoke refuses to leave the rafters"
+    ],
+    "traits": [
+      "Smoke body",
+      "Brief face",
+      "Draft-killed"
+    ],
+    "motifs": [
+      "Hearth",
+      "Impermanence",
+      "Sekien pun"
+    ],
+    "funFact": "The name is smoke plus gauze; it is weather in the house.",
+    "funFactJa": "名は煙と羅。家の中の気象である。",
+    "searchQuery": "煙羅煙羅 えんらえんら 妖怪",
+    "creativeHooks": [
+      "A vape cloud with opinions.",
+      "The kitchen fan is an exorcism."
+    ],
+    "sources": [
+      "Toriyama Sekien"
+    ]
+  },
+  {
+    "name": "Hitotsume-ren",
+    "nativeName": "一目連",
+    "region": "Wind and Ise",
+    "category": "気象",
+    "categoryEn": "One-eyed wind",
+    "summary": "A one-eyed wind kami/yokai of Ise, later drawn as a whirlwind with a single pupil.",
+    "summaryJa": "伊勢の一目の風神・妖怪。後に一つ目の旋風として描かれる。",
+    "legends": [
+      "A gale that watches you",
+      "Boats fail when a single light sits in the storm"
+    ],
+    "traits": [
+      "One eye",
+      "Wind",
+      "Ise"
+    ],
+    "motifs": [
+      "Weather kami",
+      "Cyclone",
+      "Not hitotsume-kozo"
+    ],
+    "funFact": "Do not confuse with the one-eyed boy; this one is climate.",
+    "funFactJa": "一つ目小僧と混ぜない。こちらは気候である。",
+    "searchQuery": "一目連 風神 伊勢",
+    "creativeHooks": [
+      "A weather app with one pixel.",
+      "The typhoon blinks."
+    ],
+    "sources": [
+      "Ise wind lore",
+      "Sekien pictures"
+    ]
+  },
+  {
+    "name": "Hoko",
+    "nativeName": "彭侯",
+    "region": "Tree spirits from honzo",
+    "category": "山系",
+    "categoryEn": "Penghou",
+    "summary": "A dog-like tree spirit from Chinese honzo, said to live in a thousand-year tree's essence.",
+    "summaryJa": "本草の、犬に似た木の精。千年の木の精気に棲むという。",
+    "legends": [
+      "A felled camphor bleeds and barks",
+      "Woodcutters hear a dog inside the trunk"
+    ],
+    "traits": [
+      "Tree-dog",
+      "Imported honzo",
+      "Old wood"
+    ],
+    "motifs": [
+      "Kodama neighbour",
+      "Materia medica",
+      "Felling taboo"
+    ],
+    "funFact": "Kodama is Japanese tree-soul; hoko is the imported dog in the grain.",
+    "funFactJa": "木霊が日本の木の魂なら、彭侯は木目に棲む輸入の犬。",
+    "searchQuery": "彭侯 ほうこう 妖怪",
+    "creativeHooks": [
+      "A timber mill that barks.",
+      "The grain is a kennel."
+    ],
+    "sources": [
+      "Honzo / Chinese tree-spirit lore"
+    ]
+  },
+  {
+    "name": "Kappa-no-kawataro",
+    "nativeName": "川太郎",
+    "region": "Western Japan rivers",
+    "category": "水系",
+    "categoryEn": "Kawataro",
+    "summary": "A western and Kyushu name for kappa; same cucumber politics, local pronunciation.",
+    "summaryJa": "西日本・九州で河童を川太郎と呼ぶ。キュウリ外交は同じ、呼び名が土地のもの。",
+    "legends": [
+      "A child by the weir answers to Kawataro, not Kappa",
+      "The sara is the same dish"
+    ],
+    "traits": [
+      "Regional kappa",
+      "River child",
+      "Local name"
+    ],
+    "motifs": [
+      "Kyushu/Chugoku",
+      "Alias with a body",
+      "Do not split the mythology"
+    ],
+    "funFact": "Treat as a dialect of kappa, not a new species.",
+    "funFactJa": "新種にせず、河童の方言として扱う。",
+    "searchQuery": "川太郎 河童",
+    "creativeHooks": [
+      "A river census with two columns for one being.",
+      "Name tags that say Kawataro."
+    ],
+    "sources": [
+      "Regional kappa names"
+    ]
+  },
+  {
+    "name": "Seto-taisho",
+    "nativeName": "瀬戸大将",
+    "region": "Broken crockery",
+    "category": "付喪神",
+    "categoryEn": "Seto general",
+    "summary": "A tsukumogami general assembled from cracked Seto ware, leading a tiny ceramic army.",
+    "summaryJa": "瀬戸の欠け皿でできた付喪神の大将。小さな陶磁の軍を率いる。",
+    "legends": [
+      "A kitchen crash at midnight with no cat",
+      "Shards walk in formation"
+    ],
+    "traits": [
+      "Ceramic armour",
+      "General of fragments",
+      "Kitchen night"
+    ],
+    "motifs": [
+      "Seto ware",
+      "Tsukumogami",
+      "Comic war"
+    ],
+    "funFact": "The crime is throwing away bowls without thanks.",
+    "funFactJa": "罪は、礼もなく皿を捨てたこと。",
+    "searchQuery": "瀬戸大将 付喪神",
+    "creativeHooks": [
+      "A dishwasher that drafts an army.",
+      "The chipped mug is a colonel."
+    ],
+    "sources": [
+      "Tsukumogami ceramic types"
+    ]
+  },
+  {
+    "name": "Ouni",
+    "nativeName": "苧うに",
+    "region": "Mountain hemp",
+    "category": "山系",
+    "categoryEn": "Hemp hag",
+    "summary": "A mountain woman covered in hemp-like hair who spins or startles travellers.",
+    "summaryJa": "苧のような毛に包まれた山の女。紡ぎ、または旅人を驚かす。",
+    "legends": [
+      "A spinner on a night pass has no lamp and needs none",
+      "Hemp fibres move against the wind"
+    ],
+    "traits": [
+      "Hairy",
+      "Hemp",
+      "Mountain woman"
+    ],
+    "motifs": [
+      "Textile labour",
+      "Yamauba neighbour",
+      "Obscure"
+    ],
+    "funFact": "Closer to a work-spirit than to a man-eater.",
+    "funFactJa": "人食いより仕事の精に近い。",
+    "searchQuery": "苧うに おうに 妖怪",
+    "creativeHooks": [
+      "A spinning wheel on the ridge.",
+      "The rope is her hair."
+    ],
+    "sources": [
+      "Mountain textile yokai"
+    ]
+  },
+  {
+    "name": "Umizatō",
+    "nativeName": "海座頭",
+    "region": "Western seas",
+    "category": "海",
+    "categoryEn": "Blind sea lute",
+    "summary": "A blind biwa-playing sea monk who capsizes boats, cousin to umibozu with a lute.",
+    "summaryJa": "琵琶を弾く盲目の海の座頭。船を覆す。海坊主の、楽器付きの近縁。",
+    "legends": [
+      "A biwa from fog with no deck to sit on",
+      "Sailors who listen too long list to port"
+    ],
+    "traits": [
+      "Blind lute",
+      "Sea",
+      "Capsizes"
+    ],
+    "motifs": [
+      "Biwa-hoshi at sea",
+      "Umibozu neighbour",
+      "Sound as lure"
+    ],
+    "funFact": "The music is the hook; the wave is the punchline.",
+    "funFactJa": "フックは音楽、オチは波。",
+    "searchQuery": "海座頭 海坊主 妖怪",
+    "creativeHooks": [
+      "A foghorn that is a lute.",
+      "The set list sinks ships."
+    ],
+    "sources": [
+      "Sea biwa-hoshi yokai"
+    ]
+  },
+  {
+    "name": "Akashita",
+    "nativeName": "赤舌",
+    "region": "Floodgates and clouds",
+    "category": "異形",
+    "categoryEn": "Red tongue",
+    "summary": "A huge red tongue and claws in a black cloud, said to drain ponds or floodgates.",
+    "summaryJa": "黒雲から赤い舌と爪。池や水門の水を抜くとも。",
+    "legends": [
+      "A reservoir fails with a lick, not a crack",
+      "The cloud has a mouth"
+    ],
+    "traits": [
+      "Giant tongue",
+      "Black cloud",
+      "Water theft"
+    ],
+    "motifs": [
+      "Sekien",
+      "Infrastructure fear",
+      "Obscure"
+    ],
+    "funFact": "A picture of thirst: the sky drinks the town's water.",
+    "funFactJa": "渇きの絵。空が町の水を飲む。",
+    "searchQuery": "赤舌 あかした 妖怪",
+    "creativeHooks": [
+      "A drought with a tongue.",
+      "The sluice is a palate."
+    ],
+    "sources": [
+      "Toriyama Sekien"
+    ]
+  },
+  {
+    "name": "Narikama",
+    "nativeName": "鳴釜",
+    "region": "Hearth kettles",
+    "category": "付喪神",
+    "categoryEn": "Crying kettle",
+    "summary": "A kettle that cries or prophesies from the hearth, a tsukumogami of the kitchen fire.",
+    "summaryJa": "炉の釜が鳴き、または予言する。台所の火の付喪神。",
+    "legends": [
+      "The kettle sings a name before a guest arrives",
+      "A cracked pot refuses to boil until thanked"
+    ],
+    "traits": [
+      "Kettle",
+      "Voice",
+      "Hearth"
+    ],
+    "motifs": [
+      "Kitchen omen",
+      "Tsukumogami",
+      "Sound"
+    ],
+    "funFact": "Related to narukama oracles; the yokai is the utensil that will not stay mute.",
+    "funFactJa": "鳴釜神事の近縁。黙っていられない道具が妖怪になる。",
+    "searchQuery": "鳴釜 付喪神",
+    "creativeHooks": [
+      "A smart kettle that gossips.",
+      "Boiling is a verdict."
+    ],
+    "sources": [
+      "Hearth tsukumogami",
+      "Narukama rites"
+    ]
+  },
+  {
+    "name": "Biwa-bokuboku",
+    "nativeName": "琵琶牧々",
+    "region": "Unused lutes",
+    "category": "付喪神",
+    "categoryEn": "Biwa priest",
+    "summary": "A neglected biwa that grows a priestly body and walks, playing itself.",
+    "summaryJa": "放置された琵琶が僧の体を得て歩き、自ら弾く。",
+    "legends": [
+      "A storehouse lute tunes at midnight",
+      "Footsteps in 4/4"
+    ],
+    "traits": [
+      "Biwa body",
+      "Priest silhouette",
+      "Self-playing"
+    ],
+    "motifs": [
+      "Tsukumogami",
+      "Unused art",
+      "Sound"
+    ],
+    "funFact": "Instruments want ears. This one grew legs to find them.",
+    "funFactJa": "楽器は耳を欲する。これは耳を探すために足が生えた。",
+    "searchQuery": "琵琶牧々 付喪神",
+    "creativeHooks": [
+      "A forgotten playlist that walks the hall.",
+      "The case is a cassock."
+    ],
+    "sources": [
+      "Toriyama Sekien instrument tsukumogami"
+    ]
+  },
+  {
+    "name": "Koto-furunushi",
+    "nativeName": "琴古主",
+    "region": "Unused koto",
+    "category": "付喪神",
+    "categoryEn": "Old koto master",
+    "summary": "A neglected koto that becomes an old master and plays ghost pieces at night.",
+    "summaryJa": "放置された琴が老いた主になり、夜に誰も作曲していない曲を弾く。",
+    "legends": [
+      "Thirteen strings, fourteen footsteps",
+      "A dusty koto has calluses"
+    ],
+    "traits": [
+      "Koto body",
+      "Old man",
+      "Night repertoire"
+    ],
+    "motifs": [
+      "Tsukumogami",
+      "Court music leftover",
+      "Neglect"
+    ],
+    "funFact": "Pair with biwa-bokuboku: lute and zither as abandoned staff.",
+    "funFactJa": "琵琶牧々と対。琵琶と琴が、捨てられた職員になる。",
+    "searchQuery": "琴古主 付喪神",
+    "creativeHooks": [
+      "A koto that books its own recital.",
+      "The dust is rosin."
+    ],
+    "sources": [
+      "Toriyama Sekien instrument tsukumogami"
+    ]
+  },
+  {
+    "name": "Tenaga-ashi",
+    "nativeName": "手長足長",
+    "region": "Coasts and mountains in pairs",
+    "category": "異形",
+    "categoryEn": "Long-arms long-legs",
+    "summary": "A pair: one with long arms, one with long legs, fishing or hunting as a two-person tool.",
+    "summaryJa": "手長と足長のペア。片方は長い手、片方は長い足で漁や狩りをする。",
+    "legends": [
+      "A fish is taken from a cliff no human reach can explain",
+      "Two silhouettes share one job"
+    ],
+    "traits": [
+      "Long arms",
+      "Long legs",
+      "Always a pair"
+    ],
+    "motifs": [
+      "Division of labour",
+      "Coast",
+      "Comic anatomy"
+    ],
+    "funFact": "Write them as a team, not as one mutant.",
+    "funFactJa": "一体の突然変異ではなく、二人一組の道具として書く。",
+    "searchQuery": "手長足長 妖怪",
+    "creativeHooks": [
+      "A startup with two employees and four-metre limbs.",
+      "The net is a handshake."
+    ],
+    "sources": [
+      "Paired long-limb yokai"
+    ]
+  },
+  {
+    "name": "Gataro",
+    "nativeName": "ガタロ",
+    "region": "Hokuriku rivers",
+    "category": "水系",
+    "categoryEn": "Gataro",
+    "summary": "A Hokuriku kappa name; same river politics, heavier local accent.",
+    "summaryJa": "北陸で河童をガタロと呼ぶ。川の外交は同じ、なまりが土地のもの。",
+    "legends": [
+      "A cucumber left at a weir in Kaga is gone by dawn",
+      "Children are told not to swim where Gataro sits"
+    ],
+    "traits": [
+      "Regional kappa",
+      "River",
+      "Local name"
+    ],
+    "motifs": [
+      "Hokuriku",
+      "Kawataro neighbour",
+      "Dialect not species"
+    ],
+    "funFact": "Same rule as kawataro: a name, not a new monster.",
+    "funFactJa": "川太郎と同じ規則。新モンスターではなく呼び名。",
+    "searchQuery": "ガタロ 河童 北陸",
+    "creativeHooks": [
+      "A river sign in two scripts for one creature.",
+      "The dialect has webbed feet."
+    ],
+    "sources": [
+      "Hokuriku kappa names"
+    ]
+  },
+  {
+    "name": "Daitengu",
+    "nativeName": "大天狗",
+    "region": "Sacred mountains of shugendo",
+    "category": "山系",
+    "categoryEn": "Great tengu",
+    "summary": "The long-nosed lord of tengu, a mountain hierarch over karasu-tengu and lesser scouts.",
+    "summaryJa": "鼻高の天狗の棟梁。烏天狗や小天狗の上に立つ山の法王。",
+    "legends": [
+      "A yamabushi is promoted or broken on a ridge",
+      "The fan moves weather, not just air"
+    ],
+    "traits": [
+      "Long nose",
+      "Feather fan",
+      "Command"
+    ],
+    "motifs": [
+      "Hierarchy",
+      "Pride",
+      "Mountain law"
+    ],
+    "funFact": "Use daitengu when tengu must be a government, not a duel.",
+    "funFactJa": "天狗が決闘ではなく政権であるときに使う。",
+    "searchQuery": "大天狗 天狗",
+    "creativeHooks": [
+      "A mountain org chart with a nose for a gavel.",
+      "The fan is policy."
+    ],
+    "sources": [
+      "Shugendo tengu ranks"
+    ]
+  },
+  {
+    "name": "Konoha-tengu",
+    "nativeName": "木葉天狗",
+    "region": "Foothills",
+    "category": "山系",
+    "categoryEn": "Leaf tengu",
+    "summary": "A small tengu of the foothills, messenger or prankster under a daitengu.",
+    "summaryJa": "里山の小天狗。大天狗の使い、または悪戯者。",
+    "legends": [
+      "Leaves swirl into a tiny winged shape",
+      "A child's kite is returned with a lecture"
+    ],
+    "traits": [
+      "Small",
+      "Winged",
+      "Messenger"
+    ],
+    "motifs": [
+      "Lower rank",
+      "Foothill",
+      "Comic tengu"
+    ],
+    "funFact": "The leaf is the scale: this tengu fits in a rumour, not a throne.",
+    "funFactJa": "葉が尺度。玉座ではなく噂に収まる天狗。",
+    "searchQuery": "木葉天狗 天狗",
+    "creativeHooks": [
+      "An intern with wings.",
+      "The memo is a leaf."
+    ],
+    "sources": [
+      "Tengu rank typology"
+    ]
+  },
+  {
+    "name": "Yamahime",
+    "nativeName": "山姫",
+    "region": "Inner mountains",
+    "category": "山系",
+    "categoryEn": "Mountain princess",
+    "summary": "A mountain princess, beautiful and dangerous, a noble cousin to yamauba rather than a crone.",
+    "summaryJa": "山の姫。美しく危うい。山姥の貴種のいとこであって、婆ではない。",
+    "legends": [
+      "A hunter is feasted and forbidden to speak of the hall",
+      "Cherry trees bloom on a slope with no village"
+    ],
+    "traits": [
+      "Noble mountain woman",
+      "Hospitality test",
+      "Taboo speech"
+    ],
+    "motifs": [
+      "Not yamauba",
+      "Hidden hall",
+      "Love as geography"
+    ],
+    "funFact": "Do not age her into yamauba by default; some tellings keep the title.",
+    "funFactJa": "すぐ山姥に老化させない。称号のまま残る話もある。",
+    "searchQuery": "山姫 山姥 妖怪",
+    "creativeHooks": [
+      "A ryokan with no road.",
+      "The guest book is a slope."
+    ],
+    "sources": [
+      "Mountain-princess lore"
+    ]
+  },
+  {
+    "name": "Kawahime",
+    "nativeName": "川姫",
+    "region": "Deep pools",
+    "category": "水系",
+    "categoryEn": "River princess",
+    "summary": "A river princess who invites humans into the current, kin to nure-onna and kawahime tales.",
+    "summaryJa": "人を流れへ誘う川の姫。濡女や川姫譚の貴人型。",
+    "legends": [
+      "A lantern on the water is a doorway",
+      "Dowries of fish scales"
+    ],
+    "traits": [
+      "River noble",
+      "Drowning invitation",
+      "Beauty"
+    ],
+    "motifs": [
+      "Water marriage",
+      "Iso-onna neighbour",
+      "Current as palace"
+    ],
+    "funFact": "The palace is the pool. There is no dry audience chamber.",
+    "funFactJa": "宮殿は淵である。乾いた謁見の間はない。",
+    "searchQuery": "川姫 妖怪",
+    "creativeHooks": [
+      "A wedding at the weir.",
+      "The engagement ring is a whirlpool."
+    ],
+    "sources": [
+      "River-princess tales"
+    ]
+  },
+  {
+    "name": "Danzaburo-tanuki",
+    "nativeName": "団三郎狸",
+    "region": "Sado island",
+    "category": "狐狸",
+    "categoryEn": "Danzaburo of Sado",
+    "summary": "The chief tanuki of Sado, tied to gold mines and island politics, a feudal tanuki not a prankster only.",
+    "summaryJa": "佐渡の化け狸の棟梁。金山と島の政治に絡む。悪戯者というより領主。",
+    "legends": [
+      "Mine lights that are not lamps",
+      "A tax of fried tofu that is treated as tribute"
+    ],
+    "traits": [
+      "Island lord",
+      "Gold",
+      "Tanuki polity"
+    ],
+    "motifs": [
+      "Sado",
+      "Inugami-gyobu neighbour",
+      "Regional tanuki daimyo"
+    ],
+    "funFact": "Yashima has Gyobu, Awaji has Shibaemon, Sado has Danzaburo.",
+    "funFactJa": "屋島に刑部、淡路に芝右衛門、佐渡に団三郎。",
+    "searchQuery": "団三郎狸 佐渡",
+    "creativeHooks": [
+      "A mine tour whose guide is the ore.",
+      "The island mascot collects tax."
+    ],
+    "sources": [
+      "Sado tanuki lore"
+    ]
+  },
+  {
+    "name": "Kincho-tanuki",
+    "nativeName": "金長狸",
+    "region": "Awa",
+    "category": "狐狸",
+    "categoryEn": "Kincho of Awa",
+    "summary": "An Awa tanuki of vendetta tales, loyal and tragic rather than comic.",
+    "summaryJa": "阿波の金長狸。仇討ちで知られる義侠の化け狸で、滑稽さより悲劇。",
+    "legends": [
+      "A revenge is carried by something too furry for a samurai",
+      "A grave on the ridge is tended by no human"
+    ],
+    "traits": [
+      "Vendetta",
+      "Loyalty",
+      "Awa"
+    ],
+    "motifs": [
+      "Giri",
+      "Tanuki as retainer",
+      "Not a joke transformation"
+    ],
+    "funFact": "Write bushido leaking into a tanuki hide.",
+    "funFactJa": "武士道が狸の毛皮に漏れた話として書く。",
+    "searchQuery": "金長狸 阿波",
+    "creativeHooks": [
+      "A revenge plot with a tail.",
+      "The family crest is pawprints."
+    ],
+    "sources": [
+      "Awa tanuki vendetta cycle"
+    ]
+  },
+  {
+    "name": "Zenko",
+    "nativeName": "善狐",
+    "region": "Inari shrines",
+    "category": "狐狸",
+    "categoryEn": "Good fox",
+    "summary": "A benevolent fox rank that guides humans, contrast to yako field foxes.",
+    "summaryJa": "人を導く善い狐の位。野狐と対。",
+    "legends": [
+      "A lost pilgrim is walked to the torii by a white shape",
+      "A lie at the shrine is politely undone overnight"
+    ],
+    "traits": [
+      "Guide",
+      "Auspicious",
+      "Shrine-aligned"
+    ],
+    "motifs": [
+      "Fox ranks",
+      "Inari staff",
+      "Yako contrast"
+    ],
+    "funFact": "Zenko is HR. Yako is the intern who steals lunch.",
+    "funFactJa": "善狐は人事部。野狐は弁当を盗むインターン。",
+    "searchQuery": "善狐 稲荷 狐",
+    "creativeHooks": [
+      "A shrine FAQ with paws.",
+      "The lost-and-found is a fox."
+    ],
+    "sources": [
+      "Fox-rank and Inari lore"
+    ]
+  },
+  {
+    "name": "Yakan",
+    "nativeName": "野干",
+    "region": "Fields and translated sutras",
+    "category": "狐狸",
+    "categoryEn": "Yakan",
+    "summary": "A wild fox-name from Buddhist Chinese, harsher than yako, known for cries at dusk.",
+    "summaryJa": "漢訳経典由来の野の狐。野狐より棘があり、黄昏の鳴き声で知られる。",
+    "legends": [
+      "A cry that is not a fox and not a human",
+      "Translators arguing in the margin"
+    ],
+    "traits": [
+      "Imported name",
+      "Dusk cry",
+      "Leaner than kitsune glamour"
+    ],
+    "motifs": [
+      "Sutra vocabulary",
+      "Field",
+      "Uncanny animal"
+    ],
+    "funFact": "Keep the bookish origin; yakan is a glossary entry that grew teeth.",
+    "funFactJa": "経典語彙を残す。野干は歯が生えた用語集である。",
+    "searchQuery": "野干 やかん 狐",
+    "creativeHooks": [
+      "A footnote that hunts.",
+      "The dusk is a dictionary."
+    ],
+    "sources": [
+      "Buddhist Chinese fox names"
+    ]
+  },
+  {
+    "name": "Hitouban",
+    "nativeName": "飛頭蛮",
+    "region": "Southern imported head-flight",
+    "category": "変化",
+    "categoryEn": "Flying-head",
+    "summary": "A southern or continental flying-head being; the imported cousin of nukekubi.",
+    "summaryJa": "首が飛んで歩く南方・大陸の怪。抜け首の輸入いとこ。",
+    "legends": [
+      "A sleeping body is too still",
+      "A head inspects the rafters like a lantern"
+    ],
+    "traits": [
+      "Detached head",
+      "Flight",
+      "Night"
+    ],
+    "motifs": [
+      "Nukekubi neighbour",
+      "Imported name",
+      "Neck vs head"
+    ],
+    "funFact": "Rokurokubi stretches; nukekubi unscrews; hitouban is the passport stamp.",
+    "funFactJa": "ろくろ首は伸ばし、抜け首は外れ、飛頭蛮はパスポートの印。",
+    "searchQuery": "飛頭蛮 抜け首",
+    "creativeHooks": [
+      "A drone that is a relative.",
+      "Immigration for necks."
+    ],
+    "sources": [
+      "Chinese/southern flying-head lore",
+      "Related to nukekubi"
+    ]
+  },
+  {
+    "name": "Shirohebi",
+    "nativeName": "白蛇",
+    "region": "Shrines, wells, storehouses",
+    "category": "古典",
+    "categoryEn": "White snake",
+    "summary": "A white snake as kami-messenger or household guardian, often tied to Benzaiten.",
+    "summaryJa": "白い蛇を神の使い、家の守りとする。弁才天と結びつくことも多い。",
+    "legends": [
+      "A white snake on the kura beam is not killed",
+      "A well is left a saucer of sake"
+    ],
+    "traits": [
+      "White body",
+      "Guardian",
+      "Taboo against harm"
+    ],
+    "motifs": [
+      "Benzaiten",
+      "Storehouse luck",
+      "Not Orochi"
+    ],
+    "funFact": "Do not scale this up to Yamata-no-Orochi; it is a household treaty.",
+    "funFactJa": "八岐大蛇に巨大化しない。家との条約である。",
+    "searchQuery": "白蛇 弁才天",
+    "creativeHooks": [
+      "A landlord that is a snake.",
+      "The insurance policy sheds."
+    ],
+    "sources": [
+      "White-snake shrine and household lore"
+    ]
+  },
+  {
+    "name": "Adachigahara",
+    "nativeName": "安達ヶ原",
+    "region": "Mutsu moors",
+    "category": "鬼",
+    "categoryEn": "Adachigahara",
+    "summary": "The oni-hag of Adachigahara / Kurozuka who lodges travellers and murders them.",
+    "summaryJa": "安達ヶ原・黒塚の鬼婆。旅人を宿し、人を食う。",
+    "legends": [
+      "A kind old woman offers a bed on the moor",
+      "A servant is told not to look in the inner room"
+    ],
+    "traits": [
+      "Hag",
+      "False hospitality",
+      "Moor"
+    ],
+    "motifs": [
+      "Kurozuka",
+      "Onibaba neighbour",
+      "Noh and kaidan"
+    ],
+    "funFact": "Place-name as monster: the moor is the appetite.",
+    "funFactJa": "地名が怪物。原が食欲である。",
+    "searchQuery": "安達ヶ原 黒塚 鬼婆",
+    "creativeHooks": [
+      "A B&B with a locked pantry.",
+      "The noh mask is a map."
+    ],
+    "sources": [
+      "Adachigahara / Kurozuka cycle"
+    ]
+  },
+  {
+    "name": "Numa-gozen",
+    "nativeName": "沼御前",
+    "region": "Marsh palaces",
+    "category": "水系",
+    "categoryEn": "Marsh lady",
+    "summary": "A lady of the marsh who floods or loves with equal excess.",
+    "summaryJa": "沼の主の姫。怒りも恋も、水を溢らせて表現する。",
+    "legends": [
+      "A village that skipped a rite wakes to a new shoreline",
+      "A bride-price of lotuses"
+    ],
+    "traits": [
+      "Marsh noble",
+      "Flood",
+      "Jealousy"
+    ],
+    "motifs": [
+      "Water marriage",
+      "Kawahime neighbour",
+      "Rite neglected"
+    ],
+    "funFact": "The disaster is etiquette; hydrology is the language.",
+    "funFactJa": "災害は礼儀。水文学は言語。",
+    "searchQuery": "沼御前 妖怪",
+    "creativeHooks": [
+      "A flood warning signed with a title.",
+      "The marsh has a waiting room."
+    ],
+    "sources": [
+      "Marsh-lady tales"
+    ]
+  },
+  {
+    "name": "Jinmengyo",
+    "nativeName": "人面魚",
+    "region": "Ponds and modern rumour",
+    "category": "現代伝承",
+    "categoryEn": "Human-faced fish",
+    "summary": "A fish with a human face in pond urban legends; looking too long is unlucky.",
+    "summaryJa": "人の顔の魚。池の都市伝説で、長く見るな、放せ、と命じられる。",
+    "legends": [
+      "A night carp has eyelids",
+      "A photo refuses to focus on the mouth"
+    ],
+    "traits": [
+      "Human face",
+      "Fish body",
+      "Pond"
+    ],
+    "motifs": [
+      "Urban legend",
+      "Forbidden look",
+      "Jinmensou neighbour"
+    ],
+    "funFact": "Body-horror of the water margin; not mermaid glamour.",
+    "funFactJa": "人魚の華やかさではなく、水際のボディホラー。",
+    "searchQuery": "人面魚 都市伝説",
+    "creativeHooks": [
+      "A koi show with a caption contest that is a curse.",
+      "Do not feed the reflection."
+    ],
+    "sources": [
+      "Modern pond rumours"
+    ]
+  },
+  {
+    "name": "Aonyobo",
+    "nativeName": "青女房",
+    "region": "Abandoned inner rooms",
+    "category": "屋敷",
+    "categoryEn": "Blue lady-in-waiting",
+    "summary": "A pale court lady left in a ruined interior, still serving a house that ended.",
+    "summaryJa": "廃れた奥に残る青白い女房。終わった家に仕え続ける。",
+    "legends": [
+      "A servant answers in a wing that has no lord",
+      "Makeup the colour of old paper"
+    ],
+    "traits": [
+      "Court dress",
+      "Stopped time",
+      "Inner rooms"
+    ],
+    "motifs": [
+      "Heian leftover",
+      "Service after death",
+      "House memory"
+    ],
+    "funFact": "The horror is HR that outlived the company.",
+    "funFactJa": "怖さは、会社より長生きした人事である。",
+    "searchQuery": "青女房 妖怪",
+    "creativeHooks": [
+      "An inbox that still CCs a dead domain.",
+      "The waiting room is the whole house."
+    ],
+    "sources": [
+      "Medieval leftover-lady tales"
+    ]
+  },
+  {
+    "name": "Menreiki",
+    "nativeName": "面霊気",
+    "region": "Noh masks",
+    "category": "付喪神",
+    "categoryEn": "Mask spirit",
+    "summary": "A spirit in a noh or ritual mask that chooses, or refuses, its actor.",
+    "summaryJa": "能面や仮面に棲む霊気。役者が面を選ぶのではなく、面が役者を選ぶ。",
+    "legends": [
+      "A mask is heavier on some faces",
+      "The role continues after the play"
+    ],
+    "traits": [
+      "Mask",
+      "Possesses the wearer",
+      "Theatre"
+    ],
+    "motifs": [
+      "Noh",
+      "Tsukumogami of faces",
+      "Role as trap"
+    ],
+    "funFact": "Costume drama as possession: the prop has tenure.",
+    "funFactJa": "衣装部が憑きもの。小道具に任期がある。",
+    "searchQuery": "面霊気 能面 妖怪",
+    "creativeHooks": [
+      "A dressing room that interviews you.",
+      "The understudy is the mask."
+    ],
+    "sources": [
+      "Noh mask lore",
+      "Tsukumogami of faces"
+    ]
+  },
+  {
+    "name": "Hikeshi-baba",
+    "nativeName": "火消婆",
+    "region": "Lamps at night",
+    "category": "屋敷",
+    "categoryEn": "Flame-snuffing hag",
+    "summary": "An old woman who goes about snuffing people's lights, enemy of lamps and late work.",
+    "summaryJa": "人の灯を消してまわる婆。灯火と夜業の敵。",
+    "legends": [
+      "A study lamp dies when a shadow bows in the shoji",
+      "The last lantern on the street goes first"
+    ],
+    "traits": [
+      "Snuffs flame",
+      "Old woman",
+      "Hates late light"
+    ],
+    "motifs": [
+      "Household fire",
+      "Night labour",
+      "Abura-akago neighbour"
+    ],
+    "funFact": "She is the opposite of a night-light. Write her as policy against overtime.",
+    "funFactJa": "常夜灯の反対。残業禁止の政策として書く。",
+    "searchQuery": "火消婆 妖怪",
+    "creativeHooks": [
+      "A power-saving mode with a grudge.",
+      "The curfew is a person."
+    ],
+    "sources": [
+      "Lamp-snuffing hag types"
+    ]
   }
 ]

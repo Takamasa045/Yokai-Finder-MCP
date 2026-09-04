@@ -3,21 +3,21 @@
 日本の妖怪を「知らない状態から出会う → 詳しく読む → 関連書籍を探す」までつなぐ [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) サーバーです。
 
 - **提案** … 「怖い」「水のやつ」など曖昧な希望から候補を出す（`suggest_yokai`）
-- **索引 191体** … タグ・トーン付きの軽量名簿（`list_yokai`）
+- **索引 207体** … タグ・トーン付きの軽量名簿（`list_yokai`）
 - **1体取得** … 名前で図鑑 or 索引カード（`get_yokai`）
-- **詳細図鑑 172体** … 日英バイリンガルの伝承・創作フック（出典付きの増補分あり）
+- **詳細図鑑 207体** … 日英バイリンガルの伝承・創作フック（出典付きの増補分あり）
 - **国立国会図書館（NDL）** … 蔵書のリアルタイム検索と書影URL候補
 
-現在のバージョン: **v0.8.0**
+現在のバージョン: **v0.9.0**
 
 ## 特徴
 
 | レイヤー | 内容 |
 |----------|------|
 | 提案 (`suggest_yokai`) | 雰囲気・題材・場所・用途から候補＋短い推薦理由 |
-| 索引 (`list_yokai`) | 191体の名簿（カテゴリ・タグ・トーン・一言紹介） |
+| 索引 (`list_yokai`) | 207体の名簿（カテゴリ・タグ・トーン・一言紹介） |
 | 1体取得 (`get_yokai`) | 日英名で1件。図鑑ありなら詳細、なければ索引カード |
-| 図鑑 (`list_yokai` + `hasProfile` / `yokai_of_the_day`) | 172体の詳細プロフィール。`list_curated_yokai` は非推奨 |
+| 図鑑 (`list_yokai` + `hasProfile` / `yokai_of_the_day`) | 207体の詳細プロフィール。`list_curated_yokai` は非推奨 |
 | 近傍 (`related_yokai`) | タグ・カテゴリ・トーンが近い妖怪 |
 | 比較 (`compare_yokai`) | 2体を並べて共通点・相違点 |
 | 書籍 (`search_yokai_books`) | NDL のキーワード検索（`any`）。件名に妖怪・民話がある資料を優先。`verifyCovers` で書影の生存確認 |
@@ -154,7 +154,7 @@ codex mcp add yokai-finder -- /absolute/path/to/yokai-finder-mcp
 
 | 変数 | 説明 |
 |------|------|
-| `YOKAI_FINDER_VERSION` | サーバーが報告するバージョン文字列（未設定時はビルド時の `0.8.0`） |
+| `YOKAI_FINDER_VERSION` | サーバーが報告するバージョン文字列（未設定時はビルド時の `0.9.0`） |
 | `YOKAI_FINDER_TOKEN` | `-http` でループバック以外に bind するときの Bearer トークン |
 
 stdio のほか、Streamable HTTP でも起動できます。既定ではループバックのみ、トークンなしで許可します。
@@ -213,7 +213,7 @@ stdio のほか、Streamable HTTP でも起動できます。既定ではルー�
 { "name": "get_yokai", "arguments": { "name": "八岐大蛇" } }
 ```
 
-### 3. `list_yokai` — 妖怪索引（191体）
+### 3. `list_yokai` — 妖怪索引（207体）
 
 網羅一覧・カテゴリ閲覧用の軽量索引です。名前・カテゴリ・地域・一言紹介（`blurbJa`）・`tags` / `tone` / `famousRank`・`hasProfile` を返します。  
 **雰囲気だけの質問には `suggest_yokai` を優先**してください。
@@ -229,7 +229,7 @@ stdio のほか、Streamable HTTP でも起動できます。既定ではルー�
 | `tone` | 任意 | `gentle` / `comic` / `horror` / `solemn` / `tragic` / `mysterious` / `playful` |
 | `famousRankMin` / `famousRankMax` | 任意 | 有名度 1（有名）〜5（マイナー） |
 | `hasProfile` | 任意 | `true` なら図鑑カードがあるものだけ |
-| `limit` | 任意 | 最大件数（デフォルト・最大とも **200**。全191体を一度に返せる） |
+| `limit` | 任意 | 最大件数（デフォルト・最大とも **400**。全207体を一度に返せる） |
 
 ```json
 { "name": "list_yokai", "arguments": {} }
@@ -259,7 +259,7 @@ stdio のほか、Streamable HTTP でも起動できます。既定ではルー�
 | `category` | 任意 | カテゴリ（日英可。例: `水系` `water`） |
 | `region` | 任意 | 地域ヒント（例: `tohoku` `kyoto`） |
 | `seed` | 任意 | 指定すると並びを決定的にシャッフル |
-| `limit` | 任意 | 最大件数（デフォルト 10、最大 200） |
+| `limit` | 任意 | 最大件数（デフォルト 10、最大 400） |
 | `includeLegends` | 任意 | 伝承スニペットを含める |
 | `includeTraits` | 任意 | 特徴を含める |
 | `includeMotifs` | 任意 | モチーフを含める |
@@ -275,7 +275,7 @@ stdio のほか、Streamable HTTP でも起動できます。既定ではルー�
 
 ### 5. `yokai_of_the_day` — 今日の妖怪
 
-引数なしだと、**JST の日付**から決まる「今日の1体」（詳細図鑑172体から）を紹介します。同じ日は同じ妖怪。プロフィール・伝承・創作フック・NDLのおすすめ書籍・ストーリープロンプトを一度に返します。
+引数なしだと、**JST の日付**から決まる「今日の1体」（詳細図鑑207体から）を紹介します。同じ日は同じ妖怪。プロフィール・伝承・創作フック・NDLのおすすめ書籍・ストーリープロンプトを一度に返します。
 
 **パラメータ**
 
@@ -347,15 +347,15 @@ Prompts: `yokai_story` / `yokai_character_sheet`（名前は completion で補�
 
 ## 収録データ
 
-### 詳細図鑑（172体）
+### 詳細図鑑（207体）
 
 `yokai_of_the_day` と `list_yokai`（`hasProfile: true`）の対象。データ: `internal/yokai/data/profiles.json`  
-いずれも索引にも載ります。代表例: 河童、天狗、雪女、アマビエ、口裂け女、八尺様、二口女、貉、八百比丘尼、きさらぎ駅。全件は `yokai://catalog` または `get_yokai` / `list_yokai` で確認できます。
+いずれも索引にも載ります。代表例: 河童、天狗、雪女、アマビエ、口裂け女、八尺様、二口女、貉、八百比丘尼、大天狗、白蛇、安達ヶ原、きさらぎ駅。索引の全件に図鑑カードがあります。全件は `yokai://catalog` または `get_yokai` / `list_yokai` で確認できます。
 
-### 索引（191体）
+### 索引（207体）
 
 `list_yokai` の対象。データ: `internal/yokai/data/index.json`  
-図鑑172体に加え、古典・地方伝承・都市伝説・付喪神・瑞獣などを広く収録。別名は `internal/yokai/data/aliases.json` です。
+索引207体と同じ数の図鑑カードがあります。古典・地方伝承・都市伝説・付喪神・瑞獣などを広く収録。別名は `internal/yokai/data/aliases.json` です。
 
 ## 開発
 
@@ -372,8 +372,8 @@ yokai-finder-mcp/
 │   ├── handler/             # ツールのビジネスロジック
 │   ├── ndl/                 # NDL OpenSearch クライアント + 書影URL
 │   └── yokai/
-│       ├── data/index.json     # 索引 191体
-│       ├── data/profiles.json  # 詳細図鑑 172体
+│       ├── data/index.json     # 索引 207体
+│       ├── data/profiles.json  # 詳細図鑑 207体
 │       ├── data/aliases.json   # カッパ / かわっぱ などの別名
 │       ├── index.go            # 索引 API
 │       └── profiles.go         # 図鑑 API
@@ -398,7 +398,7 @@ bash scripts/test-release-build.sh
 `internal/yokai/data/index.json` にエントリを追記します。
 
 - 必須イメージ: `Name` / `NativeName` / `Category` / `Region` / `BlurbJA`
-- 件数が 200 を超える場合は `list_yokai` の limit 上限も合わせて見直してください
+- 件数が 400 を超える場合は `list_yokai` の limit 上限も合わせて見直してください
 
 **詳細図鑑を増やす（伝承付きにする）**
 
@@ -408,7 +408,7 @@ bash scripts/test-release-build.sh
 - `SummaryJA` / `FunFactJA` … 日本語
 - `SearchQuery` … NDL 向け日本語キーワード
 - 索引に同名（`Name` または `NativeName`）があると `hasProfile: true` になります
-- 件数が 200 を超える場合は `list_curated_yokai` の limit 上限も合わせて見直してください
+- 件数が 400 を超える場合は `list_curated_yokai` の limit 上限も合わせて見直してください
 
 ### MCP レジストリ
 

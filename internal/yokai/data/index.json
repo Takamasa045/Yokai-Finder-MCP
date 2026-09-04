@@ -3127,5 +3127,261 @@
     ],
     "tone": "horror",
     "famousRank": 3
+  },
+  {
+    "name": "Daitengu",
+    "nativeName": "大天狗",
+    "category": "山系",
+    "region": "修験の霊山",
+    "blurbJa": "鼻高の天狗の棟梁。山の法と慢心を司る。",
+    "tags": [
+      "山",
+      "翼",
+      "修行",
+      "古典",
+      "護り"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Konoha-tengu",
+    "nativeName": "木葉天狗",
+    "category": "山系",
+    "region": "低山・里山",
+    "blurbJa": "木の葉ほどの小天狗。大天狗の使い、または里に降りる下級天狗。",
+    "tags": [
+      "山",
+      "翼",
+      "小さい",
+      "悪戯",
+      "古典"
+    ],
+    "tone": "playful",
+    "famousRank": 3
+  },
+  {
+    "name": "Yamahime",
+    "nativeName": "山姫",
+    "category": "山系",
+    "region": "山中の姫",
+    "blurbJa": "山の姫。美しさと危険が同居し、山姥とは別の貴種として語られる。",
+    "tags": [
+      "山",
+      "女",
+      "恋",
+      "怖い",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Kawahime",
+    "nativeName": "川姫",
+    "category": "水系",
+    "region": "川の深み",
+    "blurbJa": "川の姫。人を水へ誘う。河童や濡女と隣り合う水の貴人。",
+    "tags": [
+      "水",
+      "女",
+      "川",
+      "怖い",
+      "恋"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Danzaburo-tanuki",
+    "nativeName": "団三郎狸",
+    "category": "狐狸",
+    "region": "佐渡",
+    "blurbJa": "佐渡の化け狸の棟梁。金掘りと島の政治に絡む大狸。",
+    "tags": [
+      "狸",
+      "佐渡",
+      "金",
+      "変化",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Kincho-tanuki",
+    "nativeName": "金長狸",
+    "category": "狐狸",
+    "region": "阿波",
+    "blurbJa": "阿波の金長狸。仇討ち譚で知られる義侠の化け狸。",
+    "tags": [
+      "狸",
+      "阿波",
+      "義",
+      "変化",
+      "戦い"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Zenko",
+    "nativeName": "善狐",
+    "category": "狐狸",
+    "region": "稲荷・社",
+    "blurbJa": "人を導く善い狐。野狐や野干と対になる位階。",
+    "tags": [
+      "狐",
+      "稲荷",
+      "護り",
+      "入門",
+      "白い"
+    ],
+    "tone": "gentle",
+    "famousRank": 3
+  },
+  {
+    "name": "Yakan",
+    "nativeName": "野干",
+    "category": "狐狸",
+    "region": "野・漢訳経典",
+    "blurbJa": "経典経由の野の狐。野狐より一段あやしく、叫声で知られる。",
+    "tags": [
+      "狐",
+      "古典",
+      "怖い",
+      "野",
+      "経典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Hitouban",
+    "nativeName": "飛頭蛮",
+    "category": "変化",
+    "region": "中国由来・首の怪",
+    "blurbJa": "首が胴を離れて飛ぶ南方の怪。抜け首の大陸側の名。",
+    "tags": [
+      "変化",
+      "首",
+      "怖い",
+      "古典",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Shirohebi",
+    "nativeName": "白蛇",
+    "category": "古典",
+    "region": "社・井戸・蔵",
+    "blurbJa": "白い蛇を神の使い、または家の守りとする。弁才天とも結びつく。",
+    "tags": [
+      "蛇",
+      "白い",
+      "護り",
+      "古典",
+      "入門"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Adachigahara",
+    "nativeName": "安達ヶ原",
+    "category": "鬼",
+    "region": "陸奥・安達ヶ原",
+    "blurbJa": "安達ヶ原の鬼婆の地。旅人を宿し、人を食う黒塚の話。",
+    "tags": [
+      "鬼",
+      "婆",
+      "怖い",
+      "東北",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Numa-gozen",
+    "nativeName": "沼御前",
+    "category": "水系",
+    "region": "沼の姫",
+    "blurbJa": "沼の主である姫。怒りと恋で水を溢らせる。",
+    "tags": [
+      "水",
+      "女",
+      "沼",
+      "恋",
+      "怖い"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Jinmengyo",
+    "nativeName": "人面魚",
+    "category": "現代伝承",
+    "region": "池・都市伝説",
+    "blurbJa": "人の顔をした魚。見るな、放せ、という近代の池の噂。",
+    "tags": [
+      "現代",
+      "魚",
+      "顔",
+      "怖い",
+      "都市伝説"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Aonyobo",
+    "nativeName": "青女房",
+    "category": "屋敷",
+    "region": "廃れた奥・中世",
+    "blurbJa": "古い奥に残る青白い女房。時が止まった侍女の怪異。",
+    "tags": [
+      "屋敷",
+      "女",
+      "怖い",
+      "古典",
+      "廃屋"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Menreiki",
+    "nativeName": "面霊気",
+    "category": "付喪神",
+    "region": "能面・仮面",
+    "blurbJa": "能面や仮面に憑く霊気。面が役者を選ぶ。",
+    "tags": [
+      "面",
+      "能",
+      "憑きもの",
+      "古典",
+      "怖い"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Hikeshi-baba",
+    "nativeName": "火消婆",
+    "category": "屋敷",
+    "region": "灯火・夜",
+    "blurbJa": "人の灯を消してまわる婆。夜道の火を憎む。",
+    "tags": [
+      "屋敷",
+      "火",
+      "夜",
+      "婆",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
   }
 ]

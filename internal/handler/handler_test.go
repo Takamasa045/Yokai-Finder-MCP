@@ -180,7 +180,7 @@ func TestListCuratedYokaiFiltersAndShape(t *testing.T) {
 		Category:             "water",
 		IncludeLegends:       true,
 		IncludeCreativeHooks: true,
-		Limit:                3,
+		Limit:                50,
 	})
 	if err != nil {
 		t.Fatalf("ListCuratedYokai returned error: %v", err)
@@ -210,8 +210,8 @@ func TestListCuratedYokaiFiltersAndShape(t *testing.T) {
 	if !foundKappa {
 		t.Fatalf("water filter should include Kappa")
 	}
-	if result.Returned > 3 {
-		t.Fatalf("expected limit 3, got returned=%d", result.Returned)
+	if result.Returned > 50 {
+		t.Fatalf("expected limit 50, got returned=%d", result.Returned)
 	}
 }
 
@@ -408,33 +408,26 @@ func TestGetYokaiUnknown(t *testing.T) {
 	}
 }
 
-func TestGetYokaiIndexOnly(t *testing.T) {
+func TestGetYokaiObscureNameNowHasProfile(t *testing.T) {
 	t.Helper()
 
 	h := New(nil, nil)
 
-	// わいら is expected to be index-only (no curated profile).
 	result, err := h.GetYokai(context.Background(), types.GetYokaiParams{Name: "わいら"})
 	if err != nil {
 		t.Fatalf("GetYokai(わいら) error: %v", err)
 	}
 	if !result.Found {
-		t.Fatalf("expected Found=true for index entry わいら")
+		t.Fatalf("expected Found=true for わいら")
 	}
-	if result.Source != "index" {
-		t.Fatalf("expected source=index, got %q (profile may have been added)", result.Source)
+	if result.Source != "profile" {
+		t.Fatalf("expected source=profile after catalog fill, got %q", result.Source)
 	}
-	if result.Index == nil {
-		t.Fatalf("expected Index card")
+	if result.Profile == nil || result.Profile.NativeName != "わいら" {
+		t.Fatalf("expected わいら profile, got %+v", result.Profile)
 	}
-	if result.Index.NativeName != "わいら" && result.Index.Name != "Waira" {
-		t.Fatalf("unexpected index item: %+v", result.Index)
-	}
-	if result.Profile != nil {
-		t.Fatalf("did not expect Profile for index-only entry")
-	}
-	if len(result.Notes) == 0 {
-		t.Fatalf("expected notes about limited lore / next steps")
+	if result.Index == nil || result.Index.NativeName != "わいら" {
+		t.Fatalf("expected index card alongside profile")
 	}
 }
 

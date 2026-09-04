@@ -63,7 +63,7 @@ type listCuratedArgs struct {
 	Category             string `json:"category,omitempty" jsonschema:"Filter curated yokai by category hint"`
 	Region               string `json:"region,omitempty" jsonschema:"Filter curated yokai by region hint"`
 	Seed                 int64  `json:"seed,omitempty" jsonschema:"Shuffle results deterministically when provided"`
-	Limit                int    `json:"limit,omitempty" jsonschema:"Maximum number of curated entries to return (default 10, max 200)"`
+	Limit                int    `json:"limit,omitempty" jsonschema:"Maximum number of curated entries to return (default 10, max 400)"`
 	IncludeLegends       bool   `json:"includeLegends,omitempty" jsonschema:"Include folkloric legend snippets"`
 	IncludeTraits        bool   `json:"includeTraits,omitempty" jsonschema:"Include notable traits"`
 	IncludeMotifs        bool   `json:"includeMotifs,omitempty" jsonschema:"Include thematic motifs"`
@@ -79,7 +79,7 @@ type listYokaiArgs struct {
 	FamousRankMin int    `json:"famousRankMin,omitempty" jsonschema:"Minimum famousRank (1=iconic, 5=obscure)"`
 	FamousRankMax int    `json:"famousRankMax,omitempty" jsonschema:"Maximum famousRank"`
 	HasProfile    *bool  `json:"hasProfile,omitempty" jsonschema:"If true, only yokai with full encyclopedia cards"`
-	Limit         int    `json:"limit,omitempty" jsonschema:"Maximum entries to return (default 200, max 200)"`
+	Limit         int    `json:"limit,omitempty" jsonschema:"Maximum entries to return (default 400, max 400)"`
 }
 
 type relatedYokaiArgs struct {
