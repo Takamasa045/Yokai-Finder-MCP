@@ -3105,5 +3105,1181 @@
     "sources": [
       "Tohoku tsukimono studies"
     ]
+  },
+  {
+    "name": "Futakuchi-onna",
+    "nativeName": "二口女",
+    "region": "Northern Honshu household tales",
+    "category": "変化",
+    "categoryEn": "Two-mouthed woman",
+    "summary": "A woman whose second mouth, hidden in her hair, demands extra rice and may punish stingy husbands.",
+    "summaryJa": "後頭部に第二の口を隠し、髪がスプーンのように飯を運ぶ女の妖怪。吝嗇な家を罰するという話もある。",
+    "legends": [
+      "A husband notices his rice vanishing though his wife barely eats",
+      "Hair moves by itself toward the bowl"
+    ],
+    "traits": [
+      "Second mouth under the hair",
+      "Insatiable appetite",
+      "Domestic unease"
+    ],
+    "motifs": [
+      "Hunger",
+      "Hidden labour",
+      "Marriage bargain"
+    ],
+    "funFact": "Later pop culture often pairs her with rokurokubi as a 'cursed wife' type, but older tellings are about food and neglect.",
+    "funFactJa": "後世の創作ではろくろ首と並ぶ『呪われた妻』型になりやすいが、古い話は食と仕打ちの問題である。",
+    "searchQuery": "二口女 妖怪 民話",
+    "creativeHooks": [
+      "A nutrition label that is also a mouth.",
+      "The hair clocks overtime the wife cannot admit."
+    ],
+    "sources": [
+      "Tohoku household tales",
+      "Later Hyakki pictorial types"
+    ]
+  },
+  {
+    "name": "Tenome",
+    "nativeName": "手の目",
+    "region": "Hyakki yagyo picture scrolls",
+    "category": "異形",
+    "categoryEn": "Eyes on the palms",
+    "summary": "A blind old man with eyes in his palms, groping the night as if sight had migrated to his hands.",
+    "summaryJa": "盲目の老人の手のひらに目がある。夜道を掌で探るように歩く。",
+    "legends": [
+      "He reaches out and the palms look back",
+      "Travellers feel watched from waist height"
+    ],
+    "traits": [
+      "Eyes in the hands",
+      "Blind face",
+      "Groping gait"
+    ],
+    "motifs": [
+      "Inverted senses",
+      "Night road",
+      "Picture-scroll yokai"
+    ],
+    "funFact": "Sekien and earlier night-parade scrolls made the palm-eyes unforgettable; later games kept the silhouette.",
+    "funFactJa": "鳥山石燕やそれ以前の百鬼夜行絵で掌の目が印象に残り、後世のゲームでもシルエットが使われる。",
+    "searchQuery": "手の目 妖怪 百鬼夜行",
+    "creativeHooks": [
+      "A searchlight that only turns on when he claps.",
+      "Braille that reads you instead."
+    ],
+    "sources": [
+      "Hyakki yagyo iconography",
+      "Toriyama Sekien tradition"
+    ]
+  },
+  {
+    "name": "Buruburu",
+    "nativeName": "震々",
+    "region": "Personified cowardice",
+    "category": "屋敷",
+    "categoryEn": "Shivering spirit",
+    "summary": "A yokai that rides the spine and makes the body shake; fear given a name.",
+    "summaryJa": "背中に取りついて身を震わせる妖怪。臆病そのものに名を付けた存在。",
+    "legends": [
+      "A brave errand ends in unexplained shivering",
+      "The more you pretend calm, the harder it rattles you"
+    ],
+    "traits": [
+      "Clings to the back",
+      "Causes trembling",
+      "Feeds on fear of fear"
+    ],
+    "motifs": [
+      "Cowardice",
+      "Cold sweat",
+      "Comic horror"
+    ],
+    "funFact": "Some tellings treat buruburu as the leftover of a coward's death; others as a prank spirit of winter rooms.",
+    "funFactJa": "臆病者の死に残滓とする話も、冬の部屋の悪戯とする話もある。",
+    "searchQuery": "震々 ぶるぶる 妖怪",
+    "creativeHooks": [
+      "A fitness tracker that only counts heartbeats of dread.",
+      "Exorcism is just standing still until it gets bored."
+    ],
+    "sources": [
+      "Personified emotion yokai",
+      "Edo pictorial types"
+    ]
+  },
+  {
+    "name": "Tenjo-sagari",
+    "nativeName": "天井下",
+    "region": "Old houses and abandoned rooms",
+    "category": "屋敷",
+    "categoryEn": "Ceiling-hanger",
+    "summary": "A long-faced or long-tongued being that hangs from the ceiling to lick or startle sleepers.",
+    "summaryJa": "天井から長い顔や舌を下げ、寝ている者を舐めたり驚かしたりする屋敷の妖怪。",
+    "legends": [
+      "A sleeper feels a wet touch from above",
+      "The stain on the ceiling is said to be a face"
+    ],
+    "traits": [
+      "Hangs from beams",
+      "Long tongue or face",
+      "Night visitor"
+    ],
+    "motifs": [
+      "Ceilings",
+      "Sleep",
+      "Household unease"
+    ],
+    "funFact": "Close cousin to tenjoname: one licks dirt from the ceiling, the other comes down to you.",
+    "funFactJa": "天井嘗の近縁。あちらは天井の汚れを舐め、こちらは下の人まで降りてくる。",
+    "searchQuery": "天井下 妖怪",
+    "creativeHooks": [
+      "A smoke alarm that licks before it beeps.",
+      "The loft hatch is a mouth."
+    ],
+    "sources": [
+      "House yokai types",
+      "Related to tenjoname"
+    ]
+  },
+  {
+    "name": "Kanedama",
+    "nativeName": "金霊",
+    "region": "Merchant storehouses",
+    "category": "町",
+    "categoryEn": "Money spirit",
+    "summary": "A glowing orb of wealth-luck that flies from a storehouse. Catching it brings riches; losing it ruins a house.",
+    "summaryJa": "蔵から飛び出す金運の光の玉。掴めば富、逃せば家が傾くという。",
+    "legends": [
+      "A merchant sees a golden ball leave the kura on a windless night",
+      "The family that tried to trap it went bankrupt anyway"
+    ],
+    "traits": [
+      "Orb of light",
+      "Tied to a household's fortune",
+      "Hard to hold"
+    ],
+    "motifs": [
+      "Money",
+      "Luck leaving",
+      "Merchant anxiety"
+    ],
+    "funFact": "Unlike binbogami, kanedama is the fortune itself taking a walk.",
+    "funFactJa": "貧乏神が『不運の客』なら、金霊は『財産そのものが散歩する』話である。",
+    "searchQuery": "金霊 妖怪 金運",
+    "creativeHooks": [
+      "A wallet that glows when it wants to leave.",
+      "Accounting software that shows a ball rolling off the spreadsheet."
+    ],
+    "sources": [
+      "Merchant folklore",
+      "Lucky-orb types"
+    ]
+  },
+  {
+    "name": "Aka-manto",
+    "nativeName": "赤いマント",
+    "region": "School toilets",
+    "category": "現代伝承",
+    "categoryEn": "Red cape",
+    "summary": "An urban-legend figure who asks a stall occupant to choose a red cape or a blue cape; both answers are said to end badly.",
+    "summaryJa": "学校の個室から、赤いマントか青いマントかを問う都市伝説。どちらを選んでも無事では済まないとされる。",
+    "legends": [
+      "A voice from the next stall offers two colours",
+      "Refusing to answer is also a wrong answer in some tellings"
+    ],
+    "traits": [
+      "Bathroom threshold",
+      "Forced choice",
+      "School after hours"
+    ],
+    "motifs": [
+      "Urban legend",
+      "School",
+      "Binary trap"
+    ],
+    "funFact": "Variants swap cape for paper; the engine is the same: a polite question with no safe option.",
+    "funFactJa": "紙の色に差し替わる話もある。仕組みは同じで、丁寧な質問に安全な答えがない。",
+    "searchQuery": "赤いマント 都市伝説",
+    "creativeHooks": [
+      "A UI with only two buttons, both labelled 'yes'.",
+      "The school festival map that includes stall 4."
+    ],
+    "sources": [
+      "Japanese school urban legends"
+    ]
+  },
+  {
+    "name": "Mary-san",
+    "nativeName": "メリーさん",
+    "region": "Phone calls and night roads",
+    "category": "現代伝承",
+    "categoryEn": "Miss Mary",
+    "summary": "A caller who reports her position with increasing closeness: the station, the corner, the front door.",
+    "summaryJa": "電話の向こうが『今、駅にいるよ』『家の前だよ』と距離を詰めてくる怪異。",
+    "legends": [
+      "The voice is sweet and the timestamps match the listener's route home",
+      "Hanging up does not stop the next call"
+    ],
+    "traits": [
+      "Closing distance",
+      "Telephone",
+      "Uninvited intimacy"
+    ],
+    "motifs": [
+      "Urban legend",
+      "Phone horror",
+      "Home threshold"
+    ],
+    "funFact": "Often told as a chain-forwarded mobile story; the dread is cartography, not a visible monster.",
+    "funFactJa": "携帯のチェーンメール型で語られやすい。怖さは姿ではなく地図である。",
+    "searchQuery": "メリーさん 都市伝説 電話",
+    "creativeHooks": [
+      "A rideshare pin that is the passenger.",
+      "Read receipts that arrive from the porch."
+    ],
+    "sources": [
+      "Mobile-era Japanese urban legends"
+    ]
+  },
+  {
+    "name": "Kashima-san",
+    "nativeName": "カシマさん",
+    "region": "Schools and mirrors",
+    "category": "現代伝承",
+    "categoryEn": "Kashima-san",
+    "summary": "A schoolyard or bathroom spirit who asks if you know her; saying yes is said to let her follow you home.",
+    "summaryJa": "学校や鏡の前で『カシマさんを知ってる？』と問われ、知っていると答えると後を追ってくる都市伝説。",
+    "legends": [
+      "A classmate repeats the question too cheerfully",
+      "Mirrors in the old wing are covered at dusk"
+    ],
+    "traits": [
+      "Name-trap",
+      "School",
+      "Following"
+    ],
+    "motifs": [
+      "Urban legend",
+      "Names have power",
+      "Kuchisake-onna neighbour"
+    ],
+    "funFact": "Often grouped with slit-mouthed woman cycles; Kashima Reiko is a later named variant.",
+    "funFactJa": "口裂け女系の派生として語られることも多く、カシマレイコは後から固有名が付いた型。",
+    "searchQuery": "カシマさん 都市伝説",
+    "creativeHooks": [
+      "A yearbook that asks if you remember her.",
+      "Opting out of the question is the only ritual."
+    ],
+    "sources": [
+      "School ghost cycles",
+      "Related to kuchisake-onna tellings"
+    ]
+  },
+  {
+    "name": "Kisaragi Station",
+    "nativeName": "きさらぎ駅",
+    "region": "Internet folklore since the 2000s",
+    "category": "現代伝承",
+    "categoryEn": "Kisaragi Station",
+    "summary": "A February night train stops at a station that should not exist; leaving the car strands the passenger in a wrong Japan.",
+    "summaryJa": "2月の夜、時刻表にない『きさらぎ駅』で降りてしまうネット発の怪異。車を降りると、ずれた日本に置いていかれる。",
+    "legends": [
+      "The destination sign flickers to a name nobody booked",
+      "Phone maps show a road that ends in forest"
+    ],
+    "traits": [
+      "Nonexistent station",
+      "Night train",
+      "No return timetable"
+    ],
+    "motifs": [
+      "Liminal travel",
+      "Internet legend",
+      "February"
+    ],
+    "funFact": "The 2004 2channel account became a template for 'wrong stop' stories; later tellings add rescue parties that also vanish.",
+    "funFactJa": "2004年頃の2ちゃんねる投稿が原型。後の話では救出に向かった人も消える。",
+    "searchQuery": "きさらぎ駅 都市伝説",
+    "creativeHooks": [
+      "A transit app whose only stop is unnamed.",
+      "The platform clock is always 2:00 in February."
+    ],
+    "sources": [
+      "2channel-era net lore"
+    ]
+  },
+  {
+    "name": "Jinmensou",
+    "nativeName": "人面瘡",
+    "region": "Illness lore and later horror",
+    "category": "現代伝承",
+    "categoryEn": "Human-faced sore",
+    "summary": "A boil or tumour that grows a human face and begs for food; harming it harms the host.",
+    "summaryJa": "腫れ物に人の顔が浮かび、食べ物をねだる。傷つけると宿主も苦しむという病の怪異。",
+    "legends": [
+      "A doctor hears the sore answer a question",
+      "Feeding it keeps the patient alive a little longer"
+    ],
+    "traits": [
+      "Face on the skin",
+      "Speaks and eats",
+      "Bound to the host"
+    ],
+    "motifs": [
+      "Disease",
+      "Parasite self",
+      "Forbidden surgery"
+    ],
+    "funFact": "Older medical folklore and modern body-horror overlap here; treat it as legend, not diagnosis.",
+    "funFactJa": "古い民間の病気譚と現代のボディホラーが重なる。診療ではなく伝承として扱う。",
+    "searchQuery": "人面瘡 民間療法 怪談",
+    "creativeHooks": [
+      "A skincare ad whose mascot lives on the customer.",
+      "Consent forms signed by the boil."
+    ],
+    "sources": [
+      "Folk illness tales",
+      "Later kaidan retellings"
+    ]
+  },
+  {
+    "name": "Kawauso",
+    "nativeName": "獺",
+    "region": "Rivers and fishing villages",
+    "category": "水系",
+    "categoryEn": "River otter",
+    "summary": "A shapeshifting river otter that impersonates monks or children to cadge sake and fish.",
+    "summaryJa": "人や坊主に化ける川獺。酒と魚をねだる悪戯者で、狸に近い変化譚が多い。",
+    "legends": [
+      "A helpful child by the weir is gone at dawn, leaving wet footprints",
+      "A drunken 'priest' smells of river"
+    ],
+    "traits": [
+      "Otter body",
+      "Mimicry",
+      "Loves sake and fish"
+    ],
+    "motifs": [
+      "River labour",
+      "Shapeshift",
+      "Comic theft"
+    ],
+    "funFact": "In some regions kawauso tales blur with kappa; in others they are clearly mustelid tricksters.",
+    "funFactJa": "土地によっては河童譚と混ざる。別の土地では明確に鼬・獺の変化である。",
+    "searchQuery": "獺 かわうそ 妖怪",
+    "creativeHooks": [
+      "A sake brewery intern who only works at high tide.",
+      "A fishing app that logs catches in someone else's name."
+    ],
+    "sources": [
+      "Riverine shapeshifter tales",
+      "Related to tanuki/kappa cycles"
+    ]
+  },
+  {
+    "name": "Yamajijii",
+    "nativeName": "山爺",
+    "region": "Mountains of Shikoku and Kyushu",
+    "category": "山系",
+    "categoryEn": "Mountain old man",
+    "summary": "An old man of the hills, sometimes one-eyed or one-legged, a male counterpart to yamauba in some provinces.",
+    "summaryJa": "山の爺。一つ目や一本足の土地もあり、山姥と対になる伝承もある。",
+    "legends": [
+      "Woodcutters share a fire with an old man who has only one eye",
+      "His laugh carries farther than a human chest allows"
+    ],
+    "traits": [
+      "Elder of the mountain",
+      "Odd limbs or eyes",
+      "Tests travellers"
+    ],
+    "motifs": [
+      "Mountain labour",
+      "Hospitality test",
+      "Wild old age"
+    ],
+    "funFact": "Do not collapse him into oni: the mood is closer to a dangerous neighbour than a demon raid.",
+    "funFactJa": "鬼に潰さないこと。山の危険な隣人、という温度感の方が近い。",
+    "searchQuery": "山爺 山男 妖怪",
+    "creativeHooks": [
+      "A trail volunteer whose nametag is older than the park.",
+      "GPS that only works if you offer tea."
+    ],
+    "sources": [
+      "Shikoku/Kyushu mountain lore",
+      "Paired with yamauba in some districts"
+    ]
+  },
+  {
+    "name": "Amikiri",
+    "nativeName": "網切",
+    "region": "Fishing coasts and mosquito nets",
+    "category": "付喪神",
+    "categoryEn": "Net-cutter",
+    "summary": "A small, snip-clawed yokai that cuts fishing nets and mosquito nets in the night.",
+    "summaryJa": "鋏のような爪で漁網や蚊帳を切る、虫に似た小型の妖怪。",
+    "legends": [
+      "A new net is found in ribbons at dawn",
+      "The sound of scissors with no tailor in the house"
+    ],
+    "traits": [
+      "Shears for hands",
+      "Insect or shrimp silhouette",
+      "Petty sabotage"
+    ],
+    "motifs": [
+      "Labour undone",
+      "Sekien bestiary",
+      "Tiny menace"
+    ],
+    "funFact": "Sekien drew it as almost cute; fishermen did not think so.",
+    "funFactJa": "石燕図では愛らしく見えるが、網を生業にする側には災難である。",
+    "searchQuery": "網切 妖怪 石燕",
+    "creativeHooks": [
+      "A gig-economy cutter that only snips safety nets.",
+      "The mosquito net is a contract."
+    ],
+    "sources": [
+      "Toriyama Sekien Gazu Hyakki Yagyo"
+    ]
+  },
+  {
+    "name": "Warai-onna",
+    "nativeName": "笑い女",
+    "region": "Mountain paths at night",
+    "category": "死霊",
+    "categoryEn": "Laughing woman",
+    "summary": "A woman's laugh in the woods; answering it with laughter is said to steal your mind.",
+    "summaryJa": "山で女の笑い声がする。釣り合わされて笑うと気が触れるという。",
+    "legends": [
+      "A woodcutter laughs back and cannot stop until dawn",
+      "The laugh comes from several directions at once"
+    ],
+    "traits": [
+      "Disembodied laugh",
+      "Contagious",
+      "Night forest"
+    ],
+    "motifs": [
+      "Echo of joy as trap",
+      "Mountain path",
+      "Lost self"
+    ],
+    "funFact": "Cousin to yamabiko and to kage-onna: sound without a safe body.",
+    "funFactJa": "山彦や影女の近縁で、安全な本体のない声の話である。",
+    "searchQuery": "笑い女 妖怪",
+    "creativeHooks": [
+      "A podcast that laughs one beat after you.",
+      "Forest Wi-Fi whose only packet is a giggle."
+    ],
+    "sources": [
+      "Mountain auditory yokai"
+    ]
+  },
+  {
+    "name": "Tsuchikorobi",
+    "nativeName": "土転び",
+    "region": "Mountain roads",
+    "category": "山系",
+    "categoryEn": "Rolling earth",
+    "summary": "A ball or bale of earth that rolls into travellers and knocks them flying.",
+    "summaryJa": "土俵や団子のように転がって旅人を弾き飛ばす山道の妖怪。",
+    "legends": [
+      "A round shadow gathers speed on a slope with no wind",
+      "The bruise is packed with grit"
+    ],
+    "traits": [
+      "Rolling mass",
+      "Sudden impact",
+      "Slope ambush"
+    ],
+    "motifs": [
+      "Road hazard",
+      "Earth made wilful",
+      "Comic violence"
+    ],
+    "funFact": "Sometimes drawn as a tanned, tumbling figure; the core image is the mountain throwing its own soil.",
+    "funFactJa": "人型に描く絵もあるが、核は山が自分の土を投げてくるイメージ。",
+    "searchQuery": "土転び 妖怪",
+    "creativeHooks": [
+      "A delivery robot that is just a landslide with a tracking number.",
+      "Trail running against the grain of the hill."
+    ],
+    "sources": [
+      "Mountain-path yokai types"
+    ]
+  },
+  {
+    "name": "Shokera",
+    "nativeName": "しょうけら",
+    "region": "Rooftops looking in",
+    "category": "屋敷",
+    "categoryEn": "Peeping roof spirit",
+    "summary": "A yokai that peers through the roof or skylight and catches hidden misdeeds.",
+    "summaryJa": "屋根から家の中を覗き、隠した悪事を見とがめる妖怪。",
+    "legends": [
+      "A secret meal or affair is commented on from the rafters",
+      "Paper screens are no cover"
+    ],
+    "traits": [
+      "Roof-level gaze",
+      "Moral inspector",
+      "Hard to hide from"
+    ],
+    "motifs": [
+      "Surveillance",
+      "Household shame",
+      "Sekien"
+    ],
+    "funFact": "Less a monster to fight than a reminder that Edo houses were never fully private.",
+    "funFactJa": "討伐対象というより、江戸の家に完全な密室はないという注意書きに近い。",
+    "searchQuery": "しょうけら しょけら 妖怪",
+    "creativeHooks": [
+      "A smart-home camera that only records hypocrisy.",
+      "The attic is HR."
+    ],
+    "sources": [
+      "Toriyama Sekien",
+      "Roof-peeping types"
+    ]
+  },
+  {
+    "name": "Yamawaro",
+    "nativeName": "山童",
+    "region": "Kyushu hills, cousin to kappa",
+    "category": "山系",
+    "categoryEn": "Mountain child",
+    "summary": "A child-sized mountain spirit of western Japan, often treated as a kappa that moved uphill.",
+    "summaryJa": "九州などの山にいる童形の妖怪。河童が山へ上がった姿とされる土地が多い。",
+    "legends": [
+      "Woodcutters leave a rice ball on a stump and find it gone, neatly unwrapped",
+      "A small figure helps with timber, then demands a cucumber inland"
+    ],
+    "traits": [
+      "Child stature",
+      "Hairy or shelled depending on district",
+      "Labour bargain"
+    ],
+    "motifs": [
+      "Kappa inland",
+      "Mountain work",
+      "West Japan"
+    ],
+    "funFact": "In some Kyushu tellings yamawaro and kappa swap places with the seasons.",
+    "funFactJa": "九州の一部では、季節で山童と河童が入れ替わると話す。",
+    "searchQuery": "山童 やまわろ 妖怪",
+    "creativeHooks": [
+      "A logging co-op whose youngest member never ages.",
+      "Cucumbers sold at a mountain pass."
+    ],
+    "sources": [
+      "Kyushu yamawaro lore",
+      "Related to kappa"
+    ]
+  },
+  {
+    "name": "Onyudo",
+    "nativeName": "大入道",
+    "region": "Roads and temple gates",
+    "category": "異形",
+    "categoryEn": "Giant monk",
+    "summary": "A towering monk-shaped apparition that grows as you look up; kin to mikoshi-nyudo.",
+    "summaryJa": "見上げるほど大きくなる入道姿の巨大妖怪。見越入道と同系。",
+    "legends": [
+      "A traveller looks up at a priest and the priest fills the sky",
+      "Looking down or naming it is said to shrink it"
+    ],
+    "traits": [
+      "Giant monk",
+      "Grows with the gaze",
+      "Night road"
+    ],
+    "motifs": [
+      "Scale",
+      "Pride of looking up",
+      "Temple silhouette"
+    ],
+    "funFact": "Mikoshi-nyudo is the 'look over' trick; onyudo is the same fear with more bulk.",
+    "funFactJa": "見越入道が見上げの罠なら、大入道は同じ怖さに質量を足した型。",
+    "searchQuery": "大入道 妖怪",
+    "creativeHooks": [
+      "A billboard priest that scales with the zoom.",
+      "The temple gate is a throat."
+    ],
+    "sources": [
+      "Mikoshi-nyudo cycle"
+    ]
+  },
+  {
+    "name": "Sunakake-baba",
+    "nativeName": "砂かけ婆",
+    "region": "Village edges and alleys",
+    "category": "屋敷",
+    "categoryEn": "Sand-throwing hag",
+    "summary": "An old woman who flings sand into eyes, laundry, or houses as a petty, stinging haunting.",
+    "summaryJa": "目や洗濯物、家の中へ砂を投げつける婆の妖怪。小さく痛い嫌がらせ。",
+    "legends": [
+      "Clean laundry is full of grit by dusk",
+      "A walker is blinded for a few steps in an empty lane"
+    ],
+    "traits": [
+      "Throws sand",
+      "Old woman",
+      "Petty malice"
+    ],
+    "motifs": [
+      "Eyes",
+      "Household chores",
+      "Alley"
+    ],
+    "funFact": "Often a neighbourly nuisance rather than a killer; the sand is the signature.",
+    "funFactJa": "殺す話というより近隣の嫌がらせ。砂が署名である。",
+    "searchQuery": "砂かけ婆 妖怪",
+    "creativeHooks": [
+      "A sandbox that aims.",
+      "Smart doorbell footage of dust with a laugh."
+    ],
+    "sources": [
+      "Village hag types"
+    ]
+  },
+  {
+    "name": "Iso-onna",
+    "nativeName": "磯女",
+    "region": "Rocky coasts",
+    "category": "海",
+    "categoryEn": "Shore woman",
+    "summary": "A beautiful woman on the rocks who drags fishermen into the surf; cousin to nure-onna.",
+    "summaryJa": "磯の岩にいる美しい女。漁師を海へ引き込む。濡女の近縁。",
+    "legends": [
+      "A lone woman waves from a reef where no boat should land",
+      "Her hair is heavier than water"
+    ],
+    "traits": [
+      "Coastal beauty",
+      "Drowning pull",
+      "Night tide"
+    ],
+    "motifs": [
+      "Shore labour",
+      "Seduction trap",
+      "Western Japan seas"
+    ],
+    "funFact": "Nure-onna is often snakelike; iso-onna is more strictly a woman of the rocks.",
+    "funFactJa": "濡女が蛇身になりやすいのに対し、磯女は岩場の女という形が残る。",
+    "searchQuery": "磯女 妖怪 海",
+    "creativeHooks": [
+      "A tide chart that is also a face.",
+      "Life jackets that refuse her shoreline."
+    ],
+    "sources": [
+      "Coastal drowning-woman tales",
+      "Related to nure-onna"
+    ]
+  },
+  {
+    "name": "Tsurube-otoshi",
+    "nativeName": "釣瓶落とし",
+    "region": "Trees over mountain paths",
+    "category": "山系",
+    "categoryEn": "Well-bucket drop",
+    "summary": "A head or fiery mass that drops from a tree like a well-bucket onto travellers, then reels back up.",
+    "summaryJa": "木の上から釣瓶のように頭や火の塊が落ち、旅人を襲ってまた引き上げられる。",
+    "legends": [
+      "A round shadow falls faster than fruit",
+      "The branch springs back as if a rope were attached"
+    ],
+    "traits": [
+      "Drops from canopy",
+      "Retracts",
+      "Path ambush"
+    ],
+    "motifs": [
+      "Well imagery in the forest",
+      "Sudden vertical threat",
+      "Night road"
+    ],
+    "funFact": "Related to tsurube-bi: one is the falling strike, the other the hanging fire.",
+    "funFactJa": "つるべ火の近縁。こちらは落ちて打つ、あちらは吊られた火。",
+    "searchQuery": "釣瓶落とし 妖怪",
+    "creativeHooks": [
+      "A zip-line that is a neck.",
+      "The well in the forest has no stone rim, only leaves."
+    ],
+    "sources": [
+      "Mountain-path yokai",
+      "Related to tsurube-bi"
+    ]
+  },
+  {
+    "name": "Hyosube",
+    "nativeName": "ひょうすべ",
+    "region": "Kyushu rivers",
+    "category": "水系",
+    "categoryEn": "Hyosube",
+    "summary": "A hairy, kappa-like river child of Kyushu who loves eggplant and leaves a greasy bath.",
+    "summaryJa": "九州の河童系。毛深く、茄子を好み、入った風呂が油で汚れるという。",
+    "legends": [
+      "A bath is found filthy though the house was empty",
+      "Eggplants vanish from the field nearest the river"
+    ],
+    "traits": [
+      "Hairy kappa cousin",
+      "Loves eggplant",
+      "Spoils baths"
+    ],
+    "motifs": [
+      "Kyushu",
+      "Water child",
+      "Domestic mess"
+    ],
+    "funFact": "Treat as a regional kappa, not a separate species with a new mythology.",
+    "funFactJa": "別種の新神話を作らず、土地の河童として扱うのが安全。",
+    "searchQuery": "ひょうすべ 河童 九州",
+    "creativeHooks": [
+      "A sento whose last customer was not on camera.",
+      "Eggplant thieves with webbed feet."
+    ],
+    "sources": [
+      "Kyushu kappa variants"
+    ]
+  },
+  {
+    "name": "Bakezori",
+    "nativeName": "化け草履",
+    "region": "Households after midnight",
+    "category": "付喪神",
+    "categoryEn": "Sandal tsukumogami",
+    "summary": "A worn straw sandal that grows a face and hops through the house singing a nonsense song.",
+    "summaryJa": "使い古した草履が顔を持ち、夜の家を跳ねて歌い歩く付喪神。",
+    "legends": [
+      "A slap-slap of one sandal in the corridor",
+      "The song names the owner who threw it away too soon"
+    ],
+    "traits": [
+      "One sandal",
+      "Face on the sole",
+      "Hopping"
+    ],
+    "motifs": [
+      "Discarded tools",
+      "Night house",
+      "Comic tsukumogami"
+    ],
+    "funFact": "Classic 'tools of 99 years' logic: neglect becomes a roommate.",
+    "funFactJa": "九十九年の道具の論理。放置が同居人になる。",
+    "searchQuery": "化け草履 付喪神",
+    "creativeHooks": [
+      "A sneaker brand haunted by last season.",
+      "The genkan keeps score."
+    ],
+    "sources": [
+      "Tsukumogami picture books",
+      "Sekien sandal types"
+    ]
+  },
+  {
+    "name": "Abura-sumashi",
+    "nativeName": "油すまし",
+    "region": "Amakusa and Kyushu roads",
+    "category": "山系",
+    "categoryEn": "Oil presser",
+    "summary": "A squash-headed mountain yokai of Amakusa, said to be the ghost of an oil thief or an oil seller.",
+    "summaryJa": "天草などの山道に出る、頭が潰れたような妖怪。油を盗んだ者の成れの果て、とも油売りとも。",
+    "legends": [
+      "A round pale head waits on a night pass",
+      "The smell of lamp oil with no lantern"
+    ],
+    "traits": [
+      "Flattened head",
+      "Oil association",
+      "Mountain pass"
+    ],
+    "motifs": [
+      "Amakusa",
+      "Stolen light",
+      "Road scare"
+    ],
+    "funFact": "Mizuki's popular image is later; older fragments are thinner and oil-scented.",
+    "funFactJa": "水木しげる以後の顔が強い。古い話は断片的で、油の匂いが残る。",
+    "searchQuery": "油すまし 天草 妖怪",
+    "creativeHooks": [
+      "A fuel gauge that accuses you.",
+      "The pass toll is a cup of oil."
+    ],
+    "sources": [
+      "Amakusa regional lore",
+      "Later Mizuki popularisation"
+    ]
+  },
+  {
+    "name": "Nukekubi",
+    "nativeName": "抜け首",
+    "region": "Households at night",
+    "category": "変化",
+    "categoryEn": "Detachable head",
+    "summary": "A person whose head detaches at night and flies off, unlike rokurokubi's stretching neck.",
+    "summaryJa": "夜に首が抜けて飛ぶ変化。ろくろ首が首を伸ばすのに対し、こちらは首が離れる。",
+    "legends": [
+      "A sleeping body has no head under the quilt",
+      "A flying head is caught on a clothesline"
+    ],
+    "traits": [
+      "Detaching head",
+      "Night flight",
+      "Human by day"
+    ],
+    "motifs": [
+      "Double life",
+      "Neck vs head",
+      "Household secret"
+    ],
+    "funFact": "Edo illustrators sometimes mixed the two; keep the mechanics distinct in new work.",
+    "funFactJa": "江戸の絵では混同されやすい。創作では機構を分けておくとわかりやすい。",
+    "searchQuery": "抜け首 ろくろ首 妖怪",
+    "creativeHooks": [
+      "A video call where the camera is the head.",
+      "The pillow knows the difference."
+    ],
+    "sources": [
+      "Edo kaidan types",
+      "Contrast with rokurokubi"
+    ]
+  },
+  {
+    "name": "Tesso",
+    "nativeName": "鉄鼠",
+    "region": "Miidera / Raigo cycle",
+    "category": "変化",
+    "categoryEn": "Iron rats",
+    "summary": "The priest Raigo's grudge becoming a plague of iron-fanged rats that chewed through temple and sutra.",
+    "summaryJa": "頼豪の怨みが鉄の牙を持つ鼠の大群となり、寺も経も食い破ったという。",
+    "legends": [
+      "Rats gnaw metal as if it were wood",
+      "A temple's library is dust and tooth-marks"
+    ],
+    "traits": [
+      "Iron teeth",
+      "Swarm",
+      "Priest's curse"
+    ],
+    "motifs": [
+      "Temple politics",
+      "Vengeance",
+      "Miidera"
+    ],
+    "funFact": "The story is as much about broken imperial promises as it is about rats.",
+    "funFactJa": "鼠の話であると同時に、破られた約束の話でもある。",
+    "searchQuery": "鉄鼠 頼豪 三井寺",
+    "creativeHooks": [
+      "A budget cut that grows incisors.",
+      "Archives that have to be fed."
+    ],
+    "sources": [
+      "Raigo / Mii-dera cycle"
+    ]
+  },
+  {
+    "name": "Tanuki-bayashi",
+    "nativeName": "狸囃子",
+    "region": "Village nights",
+    "category": "狐狸",
+    "categoryEn": "Tanuki festival music",
+    "summary": "Phantom festival drums and flutes at night with no parade, attributed to tanuki.",
+    "summaryJa": "祭りの笛太鼓が夜に聞こえるのに行列がない。狸の仕業とされる。",
+    "legends": [
+      "Villagers follow the music and find only grass",
+      "The beat is a little too regular for drunk humans"
+    ],
+    "traits": [
+      "Invisible musicians",
+      "Night festival",
+      "Tanuki credit"
+    ],
+    "motifs": [
+      "Sound without source",
+      "Village calendar",
+      "Fox-and-tanuki neighbour"
+    ],
+    "funFact": "Related to kitsune-no-yomeiri: foxes get lanterns, tanuki get the band.",
+    "funFactJa": "狐の嫁入りが提灯なら、狸囃子は楽隊の担当である。",
+    "searchQuery": "狸囃子 妖怪",
+    "creativeHooks": [
+      "A festival livestream with no camera.",
+      "The drum machine in the bamboo."
+    ],
+    "sources": [
+      "Village auditory folklore",
+      "Tanuki cycles"
+    ]
+  },
+  {
+    "name": "Shiranui",
+    "nativeName": "不知火",
+    "region": "Yatsushiro Sea / Kyushu",
+    "category": "霊火",
+    "categoryEn": "Unknown fire",
+    "summary": "Mysterious lights on the sea, later named as a yokai; also a real optical phenomenon of the coast.",
+    "summaryJa": "海に並ぶ謎の火。妖怪とも、沿岸の光学現象とも説明される。",
+    "legends": [
+      "Fishermen count lights that outnumber boats",
+      "The fires recede if you row toward them"
+    ],
+    "traits": [
+      "Sea lights",
+      "Hard to approach",
+      "Kyushu coast"
+    ],
+    "motifs": [
+      "Horizon",
+      "Navigation",
+      "Named mystery"
+    ],
+    "funFact": "Keep both layers: the meteorological name and the folklore name share a shoreline.",
+    "funFactJa": "気象の名と妖怪の名が同じ岸を共有している。両方残す。",
+    "searchQuery": "不知火 妖怪 八代海",
+    "creativeHooks": [
+      "A lighthouse that is a choir.",
+      "Charts that plot fires instead of depths."
+    ],
+    "sources": [
+      "Yatsushiro Sea lore",
+      "Optical-phenomenon explanations"
+    ]
+  },
+  {
+    "name": "Nuppeppo",
+    "nativeName": "ぬっぺふほふ",
+    "region": "Temple precincts and alleys",
+    "category": "異形",
+    "categoryEn": "Flabby flesh",
+    "summary": "A faceless, flabby lump of flesh that wanders at twilight, smelling of rotting meat and sometimes of fortune.",
+    "summaryJa": "黄昏時に歩く、顔のない肉塊。腐肉の匂いがし、触ると福が来る話もある。",
+    "legends": [
+      "A pale blob rounds a temple corner after vespers",
+      "The smell arrives before the shape"
+    ],
+    "traits": [
+      "Formless fat",
+      "Twilight walker",
+      "Ambiguous omen"
+    ],
+    "motifs": [
+      "Body without person",
+      "Temple edge",
+      "Comic disgust"
+    ],
+    "funFact": "Some Edo jokes treat eating it as a longevity medicine. Do not try this at home.",
+    "funFactJa": "食べると長寿という江戸の冗談もある。実行しないこと。",
+    "searchQuery": "ぬっぺふほふ ぬっぺっぽう 妖怪",
+    "creativeHooks": [
+      "A mascot with no face on purpose.",
+      "The alley is made of leftover festival food."
+    ],
+    "sources": [
+      "Edo pictorial yokai",
+      "Later game popularisation"
+    ]
+  },
+  {
+    "name": "Dodomeki",
+    "nativeName": "百々目鬼",
+    "region": "Thieves' karma",
+    "category": "異形",
+    "categoryEn": "Hundred-eyed demon",
+    "summary": "A woman whose arms sprout countless eyes, said to be the mark of a long career of theft, especially of money.",
+    "summaryJa": "長い盗み、ことに金銭の盗みの報いで腕に無数の目が開いた女。",
+    "legends": [
+      "Coins she stole become pupils",
+      "She cannot hide her hands in sleeves anymore"
+    ],
+    "traits": [
+      "Many eyes on the arms",
+      "Thief's karma",
+      "Unable to look away from money"
+    ],
+    "motifs": [
+      "Guilt made visible",
+      "Sleeves",
+      "Sekien"
+    ],
+    "funFact": "Sekien's dodomeki is a moral picture: surveillance grows on the criminal.",
+    "funFactJa": "石燕の百々目鬼は教訓画でもある。監視が罪人の体に生える。",
+    "searchQuery": "百々目鬼 妖怪 石燕",
+    "creativeHooks": [
+      "A pickpocket whose tattoos are CCTV.",
+      "Every coin is an iris."
+    ],
+    "sources": [
+      "Toriyama Sekien Konjaku Gazu Zoku Hyakki"
+    ]
+  },
+  {
+    "name": "Keukegen",
+    "nativeName": "毛羽毛現",
+    "region": "Damp houses",
+    "category": "屋敷",
+    "categoryEn": "Hairy appearance",
+    "summary": "A small, totally hair-covered house spirit; seeing it is sometimes read as a sickness omen.",
+    "summaryJa": "全身毛だらけの小さな屋敷の妖怪。見ると病気の前触れとする話もある。",
+    "legends": [
+      "A dusty mop under the veranda blinks",
+      "Illness follows a sighting by a week"
+    ],
+    "traits": [
+      "Entirely furred",
+      "Low to the floor",
+      "Omen of disease"
+    ],
+    "motifs": [
+      "Damp wood",
+      "Hygiene anxiety",
+      "Sekien joke-name"
+    ],
+    "funFact": "The name is a wordplay on 'appearing hairy'; Sekien enjoyed the pun as much as the monster.",
+    "funFactJa": "名は『毛が多く見える』洒落。石燕は怪物と同じくらい駄洒落を楽しんでいる。",
+    "searchQuery": "毛羽毛現 妖怪",
+    "creativeHooks": [
+      "A humidifier with a pulse.",
+      "Cleaning day vs omen day."
+    ],
+    "sources": [
+      "Toriyama Sekien"
+    ]
+  },
+  {
+    "name": "Otoroshi",
+    "nativeName": "おとろし",
+    "region": "Temple and shrine gates",
+    "category": "屋敷",
+    "categoryEn": "Gate terror",
+    "summary": "A mossy, bird-eating brute that squats on gates and punishes the impure who pass under.",
+    "summaryJa": "門の上に蹲る、苔むした鳥を食うような異形。不浄な者がくぐると罰する。",
+    "legends": [
+      "Pigeons vanish from a gate overnight",
+      "A drunk is found outside the shrine unable to enter"
+    ],
+    "traits": [
+      "Perches on gates",
+      "Moss and hair",
+      "Eats birds"
+    ],
+    "motifs": [
+      "Threshold",
+      "Purity",
+      "Temple architecture"
+    ],
+    "funFact": "A gatekeeper more than a wanderer: the building is the habitat.",
+    "funFactJa": "徘徊者というより門番。建物が生息地。",
+    "searchQuery": "おとろし 妖怪",
+    "creativeHooks": [
+      "A security camera that eats drones.",
+      "The torii is a jaw."
+    ],
+    "sources": [
+      "Shrine-gate yokai types"
+    ]
+  },
+  {
+    "name": "Ippon-datara",
+    "nativeName": "一本だたら",
+    "region": "Kumano / Kii mountains",
+    "category": "山系",
+    "categoryEn": "One-legged smith",
+    "summary": "A one-legged, one-eyed mountain smith of the Kii peninsula who stamps a single hole in the snow.",
+    "summaryJa": "紀伊の山の一本足・一つ目の鍛冶の妖怪。雪に一つの足跡だけを残す。",
+    "legends": [
+      "A single deep print follows a traveller up a pass",
+      "Hammer-sounds with no forge in sight"
+    ],
+    "traits": [
+      "One leg",
+      "One eye",
+      "Smithcraft"
+    ],
+    "motifs": [
+      "Kumano",
+      "Snow",
+      "Craft and curse"
+    ],
+    "funFact": "Sometimes identified with a cursed smith; sometimes just the mountain's odd foot.",
+    "funFactJa": "呪われた鍛冶とする土地と、山の奇妙な足とする土地がある。",
+    "searchQuery": "一本だたら 熊野 妖怪",
+    "creativeHooks": [
+      "A blacksmith whose timesheet is one column.",
+      "Ski tracks that are only left feet."
+    ],
+    "sources": [
+      "Kumano regional lore"
+    ]
+  },
+  {
+    "name": "Suiko",
+    "nativeName": "水虎",
+    "region": "Chinese-origin water lore in Japan",
+    "category": "水系",
+    "categoryEn": "Water tiger",
+    "summary": "A kappa-adjacent water tiger from continental lore, scaled and fierce, adopted into Japanese bestiaries.",
+    "summaryJa": "大陸由来の水の虎。鱗があり河童に近いが、より猛い。日本の図鑑にも取り込まれた。",
+    "legends": [
+      "A striped wake in a still pond",
+      "Cattle drunk dry at the water's edge"
+    ],
+    "traits": [
+      "Tiger-like water beast",
+      "Scales",
+      "Fierce cousin of kappa"
+    ],
+    "motifs": [
+      "Imported lore",
+      "River danger",
+      "Bestiary"
+    ],
+    "funFact": "Useful when a story needs kappa energy without the cucumber comedy.",
+    "funFactJa": "河童の悪戯ではなく、水の危険だけが欲しいときに使いやすい。",
+    "searchQuery": "水虎 河童 妖怪",
+    "creativeHooks": [
+      "A nature documentary that refuses to call it a kappa.",
+      "Life buoys printed with stripes."
+    ],
+    "sources": [
+      "Honzo and kaiju compilations",
+      "Kappa comparative lore"
+    ]
+  },
+  {
+    "name": "Shinjahime",
+    "nativeName": "神社姫",
+    "region": "Hizen coastal prophecy",
+    "category": "予言",
+    "categoryEn": "Shrine princess",
+    "summary": "A mermaid-like prophetic being with a long body, kin to amabie, who foretells harvest and plague.",
+    "summaryJa": "長い体の人魚に近い予言者。アマビエと同系で、豊作ののち疫病を告げる。",
+    "legends": [
+      "A shining form at the shore asks to be drawn",
+      "Seven fat years, then sickness, unless the picture is shown"
+    ],
+    "traits": [
+      "Mermaid torso",
+      "Prophetic speech",
+      "Wants to be pictured"
+    ],
+    "motifs": [
+      "Epidemic",
+      "Print culture",
+      "Amabie cousin"
+    ],
+    "funFact": "Amabie became the 2020 mascot; jinja-hime is the same engine with a different silhouette.",
+    "funFactJa": "アマビエが2020年の顔になった同型。神社姫はシルエットが違うだけの同じ装置。",
+    "searchQuery": "神社姫 アマビエ 予言",
+    "creativeHooks": [
+      "A public-health poster that arrived by sea.",
+      "Seven stickers, then one blackout."
+    ],
+    "sources": [
+      "Hizen prophetic mermaid prints",
+      "Related to amabie/amabiko"
+    ]
   }
 ]

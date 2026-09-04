@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.0
+
+- Encyclopedia grew to 133 bilingual cards; the index is now 177 names.
+- New well-known entries include 二口女, 手の目, 赤いマント, きさらぎ駅, メリーさん, カシマさん, 金霊, 獺, 山爺.
+- Rank-3/4 cards added for names already on the roster (山童, 大入道, 磯女, 釣瓶落とし, ひょうすべ, 抜け首, 鉄鼠, ぬっぺふほふ, 百々目鬼, 一本だたら, 神社姫, and others).
+
 ## 0.6.1
 
 - Catalog is validated at process start (required fields, unique names, canonical categories, profiles ⊆ index).

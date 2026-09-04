@@ -2647,5 +2647,261 @@
     ],
     "tone": "gentle",
     "famousRank": 1
+  },
+  {
+    "name": "Futakuchi-onna",
+    "nativeName": "二口女",
+    "category": "変化",
+    "region": "東北・全国の民話",
+    "blurbJa": "頭の後ろに第二の口があり、髪が飯を運ぶ女の妖怪。",
+    "tags": [
+      "女",
+      "変化",
+      "食事",
+      "怖い",
+      "髪",
+      "入門"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Tenome",
+    "nativeName": "手の目",
+    "category": "異形",
+    "region": "百鬼夜行絵巻",
+    "blurbJa": "手のひらに目がある盲目の老人。掌で周囲を探るように歩く。",
+    "tags": [
+      "異形",
+      "目",
+      "古典",
+      "怖い",
+      "絵巻"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Buruburu",
+    "nativeName": "震々",
+    "category": "屋敷",
+    "region": "全国",
+    "blurbJa": "人の背に取りついて震えを起こす、臆病そのものの妖怪。",
+    "tags": [
+      "屋敷",
+      "怖い",
+      "臆病",
+      "入門"
+    ],
+    "tone": "comic",
+    "famousRank": 3
+  },
+  {
+    "name": "Tenjo-sagari",
+    "nativeName": "天井下",
+    "category": "屋敷",
+    "region": "古民家・廃屋",
+    "blurbJa": "天井から長い舌や顔を下げ、寝ている者を舐める・驚かす。",
+    "tags": [
+      "屋敷",
+      "怖い",
+      "夜",
+      "舌",
+      "廃屋"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Kanedama",
+    "nativeName": "金霊",
+    "category": "町",
+    "region": "商家・蔵",
+    "blurbJa": "金運を運ぶ光の玉。蔵を飛び、拾えば富、逃がせば落ちぶれる。",
+    "tags": [
+      "町",
+      "金",
+      "福",
+      "光",
+      "商家"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Aka-manto",
+    "nativeName": "赤いマント",
+    "category": "現代伝承",
+    "region": "学校のトイレ",
+    "blurbJa": "個室から赤いマントか青いマントかを問う都市伝説。",
+    "tags": [
+      "現代",
+      "学校",
+      "怖い",
+      "都市伝説",
+      "入門"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Mary-san",
+    "nativeName": "メリーさん",
+    "category": "現代伝承",
+    "region": "電話・夜道",
+    "blurbJa": "「今、家の前にいるよ」と距離を詰めてくる電話の怪異。",
+    "tags": [
+      "現代",
+      "怖い",
+      "都市伝説",
+      "電話",
+      "夜道"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Kashima-san",
+    "nativeName": "カシマさん",
+    "category": "現代伝承",
+    "region": "学校・鏡",
+    "blurbJa": "名前を問われ、知っていると答えると後を追ってくる都市伝説。",
+    "tags": [
+      "現代",
+      "学校",
+      "怖い",
+      "都市伝説",
+      "鏡"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Kisaragi Station",
+    "nativeName": "きさらぎ駅",
+    "category": "現代伝承",
+    "region": "ネット都市伝説",
+    "blurbJa": "2月の夜、存在しない駅に降りてしまうインターネットの怪異。",
+    "tags": [
+      "現代",
+      "都市伝説",
+      "夜",
+      "鉄道",
+      "怖い"
+    ],
+    "tone": "mysterious",
+    "famousRank": 2
+  },
+  {
+    "name": "Jinmensou",
+    "nativeName": "人面瘡",
+    "category": "現代伝承",
+    "region": "病・民間療法譚",
+    "blurbJa": "腫れ物に人の顔が浮かび、食べ物をねだる病の怪異。",
+    "tags": [
+      "現代",
+      "病気",
+      "怖い",
+      "顔",
+      "民間療法"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Kawauso",
+    "nativeName": "獺",
+    "category": "水系",
+    "region": "川・漁村",
+    "blurbJa": "川獺が人や坊主に化け、酒と魚をねだる悪戯者。",
+    "tags": [
+      "水",
+      "川",
+      "変化",
+      "悪戯",
+      "かわいい"
+    ],
+    "tone": "playful",
+    "famousRank": 3
+  },
+  {
+    "name": "Yamajijii",
+    "nativeName": "山爺",
+    "category": "山系",
+    "region": "四国・九州の山",
+    "blurbJa": "一本足や一つ目の山の爺。山姥と対になる土地もある。",
+    "tags": [
+      "山",
+      "老人",
+      "一つ目",
+      "古典",
+      "怖い"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Amikiri",
+    "nativeName": "網切",
+    "category": "付喪神",
+    "region": "漁村・蚊帳",
+    "blurbJa": "鋏のような爪で漁網や蚊帳を切る、虫に似た小型の妖怪。",
+    "tags": [
+      "道具",
+      "海",
+      "虫",
+      "悪戯",
+      "絵巻"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Warai-onna",
+    "nativeName": "笑い女",
+    "category": "死霊",
+    "region": "山道・夜の森",
+    "blurbJa": "森で女の笑い声がし、釣り合わされると狂うという。",
+    "tags": [
+      "女",
+      "山",
+      "怖い",
+      "夜",
+      "笑い声"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Tsuchikorobi",
+    "nativeName": "土転び",
+    "category": "山系",
+    "region": "山道",
+    "blurbJa": "俵や団子のように転がって旅人を弾き飛ばす土の妖怪。",
+    "tags": [
+      "山",
+      "道中",
+      "悪戯",
+      "土",
+      "怖い"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Shokera",
+    "nativeName": "しょうけら",
+    "category": "屋敷",
+    "region": "屋根・覗き",
+    "blurbJa": "屋根から家の中を覗き、隠した悪事を見とがめる妖怪。",
+    "tags": [
+      "屋敷",
+      "覗き",
+      "古典",
+      "怖い",
+      "絵巻"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
   }
 ]

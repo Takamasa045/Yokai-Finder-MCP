@@ -10,6 +10,7 @@ func TestPriorityRankThreeHaveProfiles(t *testing.T) {
 	for _, name := range []string{
 		"山彦", "磯撫", "大百足", "火車", "枕返し", "天井嘗", "一つ目入道",
 		"牛鬼", "疫病神", "件", "アマビコ", "白澤", "骨女", "累", "管狐",
+		"二口女", "手の目", "山童", "鉄鼠", "ぬっぺふほふ", "赤いマント", "きさらぎ駅",
 	} {
 		if _, ok := FindByName(name); !ok {
 			t.Errorf("expected profile for %s", name)
