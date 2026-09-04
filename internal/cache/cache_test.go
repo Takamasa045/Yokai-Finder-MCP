@@ -9,21 +9,45 @@ import (
 
 func TestCacheSetGet(t *testing.T) {
 	c := NewCache(time.Minute, 10)
+	t.Cleanup(c.Stop)
+
 	params := types.YokaiSearchParams{Name: "天狗", Limit: 5}
-	expected := &types.YokaiSearchResult{Total: 1}
+	expected := &types.YokaiSearchResult{
+		Total:   1,
+		Results: []types.YokaiBook{{Title: "天狗大全", Subjects: []string{"妖怪"}}},
+	}
 
 	c.Set(params, expected)
 	got, ok := c.Get(params)
 	if !ok {
 		t.Fatalf("expected cache hit")
 	}
-	if got != expected {
-		t.Fatalf("cache returned unexpected pointer")
+	if got.Total != expected.Total || got.Results[0].Title != "天狗大全" {
+		t.Fatalf("cache returned unexpected result: %+v", got)
 	}
+	got.Results[0].Title = "MUTATED"
+	expected.Results[0].Subjects[0] = "MUTATED"
+	again, ok := c.Get(params)
+	if !ok {
+		t.Fatalf("expected cache hit after mutation")
+	}
+	if again.Results[0].Title != "天狗大全" {
+		t.Fatalf("cache should return a defensive copy, got %q", again.Results[0].Title)
+	}
+	if again.Results[0].Subjects[0] != "妖怪" {
+		t.Fatalf("cache should deep-copy subjects, got %q", again.Results[0].Subjects[0])
+	}
+}
+
+func TestCacheStopIdempotent(t *testing.T) {
+	c := NewCache(time.Minute, 4)
+	c.Stop()
+	c.Stop()
 }
 
 func TestCacheExpiry(t *testing.T) {
 	c := NewCache(10*time.Millisecond, 10)
+	t.Cleanup(c.Stop)
 	params := types.YokaiSearchParams{Name: "雪女"}
 	c.Set(params, &types.YokaiSearchResult{Total: 2})
 
@@ -46,6 +70,7 @@ func TestCacheDisabledWhenTTLZero(t *testing.T) {
 
 func TestCacheEvictsOldestWhenFull(t *testing.T) {
 	c := NewCache(time.Minute, 2)
+	t.Cleanup(c.Stop)
 
 	first := types.YokaiSearchParams{Name: "河童"}
 	second := types.YokaiSearchParams{Name: "天狗"}
@@ -70,6 +95,7 @@ func TestCacheEvictsOldestWhenFull(t *testing.T) {
 
 func TestCacheClearAndSize(t *testing.T) {
 	c := NewCache(time.Minute, 10)
+	t.Cleanup(c.Stop)
 	c.Set(types.YokaiSearchParams{Name: "化け猫"}, &types.YokaiSearchResult{Total: 1})
 	c.Set(types.YokaiSearchParams{Name: "雪女"}, &types.YokaiSearchResult{Total: 2})
 

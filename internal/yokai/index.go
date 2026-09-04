@@ -17,6 +17,7 @@ type IndexEntry struct {
 	Tags       []string // e.g. 水 家 付喪神 入門 怖い かわいい 恋 予言 古典 現代
 	Tone       string   // one of: gentle, comic, horror, solemn, tragic, mysterious, playful
 	FamousRank int      // 1=iconic/well-known ... 5=obscure; default 3 if unsure
+	Aliases    []string `json:"aliases,omitempty"`
 }
 
 // SuggestQuery drives tag/vibe-based discovery for users who don't know names.
@@ -30,6 +31,9 @@ type SuggestQuery struct {
 	Seed     int64  // 0 = stable by famous rank; non-zero = shuffle among top candidates
 }
 
+// yokaiIndex is populated from the embedded catalog at init.
+var yokaiIndex []IndexEntry
+
 // Index returns a defensive copy of the yokai name index.
 func Index() []IndexEntry {
 	out := make([]IndexEntry, len(yokaiIndex))
@@ -39,22 +43,53 @@ func Index() []IndexEntry {
 	return out
 }
 
+// IndexFilter controls roster browsing.
+type IndexFilter struct {
+	Term          string
+	Category      string
+	Region        string
+	Tag           string
+	Tone          string
+	FamousRankMin int
+	FamousRankMax int
+	HasProfile    *bool
+}
+
 // FilterIndex returns index entries matching term / category / region hints.
-// Matching is case-insensitive substring search across name fields, blurb, tags, and tone.
 func FilterIndex(term, category, region string) []IndexEntry {
-	term = strings.TrimSpace(strings.ToLower(term))
-	category = strings.TrimSpace(strings.ToLower(category))
-	region = strings.TrimSpace(strings.ToLower(region))
+	return FilterIndexOpts(IndexFilter{Term: term, Category: category, Region: region})
+}
+
+// FilterIndexOpts applies the full roster filter.
+func FilterIndexOpts(f IndexFilter) []IndexEntry {
+	term := strings.TrimSpace(strings.ToLower(f.Term))
+	tag := strings.TrimSpace(strings.ToLower(f.Tag))
+	tone := strings.TrimSpace(strings.ToLower(f.Tone))
 
 	var filtered []IndexEntry
 	for _, entry := range yokaiIndex {
-		if category != "" && !strings.Contains(strings.ToLower(entry.Category), category) {
+		if !categoryMatches(entry.Category, f.Category) {
 			continue
 		}
-		if region != "" && !strings.Contains(strings.ToLower(entry.Region), region) {
+		if !regionMatches(entry.Region, f.Region) {
 			continue
 		}
 		if term != "" && !indexMatchesTerm(entry, term) {
+			continue
+		}
+		if tag != "" && !tagMatches(entry, tag) {
+			continue
+		}
+		if tone != "" && !strings.EqualFold(entry.Tone, tone) {
+			continue
+		}
+		if f.FamousRankMin > 0 && entry.FamousRank < f.FamousRankMin {
+			continue
+		}
+		if f.FamousRankMax > 0 && entry.FamousRank > f.FamousRankMax {
+			continue
+		}
+		if f.HasProfile != nil && entry.HasCuratedProfile() != *f.HasProfile {
 			continue
 		}
 		filtered = append(filtered, copyIndexEntry(entry))
@@ -62,19 +97,9 @@ func FilterIndex(term, category, region string) []IndexEntry {
 	return filtered
 }
 
-// FindIndexByName looks up an index entry by English Name (case-insensitive)
-// or exact NativeName, mirroring FindByName for profiles.
+// FindIndexByName looks up an index entry by English name, native name, or alias.
 func FindIndexByName(name string) (IndexEntry, bool) {
-	trimmed := strings.TrimSpace(name)
-	if trimmed == "" {
-		return IndexEntry{}, false
-	}
-	for _, entry := range yokaiIndex {
-		if strings.EqualFold(entry.Name, trimmed) || entry.NativeName == trimmed {
-			return copyIndexEntry(entry), true
-		}
-	}
-	return IndexEntry{}, false
+	return LookupIndex(name)
 }
 
 // Suggest ranks and returns index entries matching vibe/theme/setting/audience.
@@ -182,15 +207,7 @@ func Suggest(query SuggestQuery) []IndexEntry {
 
 // HasCuratedProfile reports whether a full bilingual Profile exists for this entry.
 func (e IndexEntry) HasCuratedProfile() bool {
-	if _, ok := FindByName(e.Name); ok {
-		return true
-	}
-	if e.NativeName != "" {
-		if _, ok := FindByName(e.NativeName); ok {
-			return true
-		}
-	}
-	return false
+	return hasProfileName(e.Name, e.NativeName)
 }
 
 func copyIndexEntry(e IndexEntry) IndexEntry {
@@ -199,7 +216,20 @@ func copyIndexEntry(e IndexEntry) IndexEntry {
 		out.Tags = make([]string, len(e.Tags))
 		copy(out.Tags, e.Tags)
 	}
+	if len(e.Aliases) > 0 {
+		out.Aliases = make([]string, len(e.Aliases))
+		copy(out.Aliases, e.Aliases)
+	}
 	return out
+}
+
+func tagMatches(entry IndexEntry, tag string) bool {
+	for _, candidate := range entry.Tags {
+		if strings.Contains(strings.ToLower(candidate), tag) || NormalizeQuery(candidate) == NormalizeQuery(tag) {
+			return true
+		}
+	}
+	return false
 }
 
 func normalizeQuery(s string) string {
@@ -376,37 +406,37 @@ func entryMatchPool(entry IndexEntry) string {
 
 // synonymMap expands Japanese free-text queries to related tokens present in tags/fields.
 var synonymMap = map[string][]string{
-	"水":   {"水", "水系", "海", "川", "沼", "河童", "雨"},
-	"海":   {"海", "水", "船", "波", "海岸"},
-	"川":   {"水", "水系", "川", "河童"},
-	"怖い":  {"怖い", "horror", "恐怖", "死霊", "怨霊", "都市伝説", "現代"},
-	"恐怖":  {"怖い", "horror", "死霊", "怨霊"},
+	"水":    {"水", "水系", "海", "川", "沼", "河童", "雨"},
+	"海":    {"海", "水", "船", "波", "海岸"},
+	"川":    {"水", "水系", "川", "河童"},
+	"怖い":   {"怖い", "horror", "恐怖", "死霊", "怨霊", "都市伝説", "現代"},
+	"恐怖":   {"怖い", "horror", "死霊", "怨霊"},
 	"かわいい": {"かわいい", "gentle", "comic", "playful", "入門", "童子"},
-	"可愛い": {"かわいい", "gentle", "comic", "playful"},
-	"夜道":  {"夜道", "道中", "夜", "街道"},
-	"家":   {"家", "屋敷", "座敷", "廃屋", "障子"},
-	"屋敷":  {"家", "屋敷", "座敷"},
-	"山":   {"山", "山系", "森", "峠"},
-	"森":   {"山", "森", "木", "木霊"},
-	"恋":   {"恋", "恋情", "嫉妬", "tragic", "女"},
-	"予言":  {"予言", "疫病", "瑞獣"},
-	"古典":  {"古典", "神話", "絵巻", "平家"},
-	"現代":  {"現代", "都市伝説", "現代伝承", "horror"},
-	"付喪神": {"付喪神", "道具", "器物"},
-	"狐":   {"狐", "狐狸", "稲荷"},
-	"狸":   {"狸", "狐狸"},
-	"猫":   {"猫", "化け猫", "猫又"},
-	"鬼":   {"鬼", "鬼婆", "大江山"},
-	"火":   {"火", "霊火", "炎", "雷"},
-	"雪":   {"雪", "氷", "北国", "気象"},
-	"子ども": {"かわいい", "入門", "童子", "gentle", "playful", "comic"},
-	"子供":  {"かわいい", "入門", "童子", "gentle", "playful"},
-	"入門":  {"入門", "有名", "かわいい"},
-	"創作":  {"創作", "変化", "異形"},
-	"学術":  {"古典", "神話", "絵巻", "solemn"},
-	"夜":   {"夜", "夜道", "闇"},
-	"学校":  {"学校", "現代", "都市伝説"},
-	"田畑":  {"田畑", "農村", "田"},
+	"可愛い":  {"かわいい", "gentle", "comic", "playful"},
+	"夜道":   {"夜道", "道中", "夜", "街道"},
+	"家":    {"家", "屋敷", "座敷", "廃屋", "障子"},
+	"屋敷":   {"家", "屋敷", "座敷"},
+	"山":    {"山", "山系", "森", "峠"},
+	"森":    {"山", "森", "木", "木霊"},
+	"恋":    {"恋", "恋情", "嫉妬", "tragic", "女"},
+	"予言":   {"予言", "疫病", "瑞獣"},
+	"古典":   {"古典", "神話", "絵巻", "平家"},
+	"現代":   {"現代", "都市伝説", "現代伝承", "horror"},
+	"付喪神":  {"付喪神", "道具", "器物"},
+	"狐":    {"狐", "狐狸", "稲荷"},
+	"狸":    {"狸", "狐狸"},
+	"猫":    {"猫", "化け猫", "猫又"},
+	"鬼":    {"鬼", "鬼婆", "大江山"},
+	"火":    {"火", "霊火", "炎", "雷"},
+	"雪":    {"雪", "氷", "北国", "気象"},
+	"子ども":  {"かわいい", "入門", "童子", "gentle", "playful", "comic"},
+	"子供":   {"かわいい", "入門", "童子", "gentle", "playful"},
+	"入門":   {"入門", "有名", "かわいい"},
+	"創作":   {"創作", "変化", "異形"},
+	"学術":   {"古典", "神話", "絵巻", "solemn"},
+	"夜":    {"夜", "夜道", "闇"},
+	"学校":   {"学校", "現代", "都市伝説"},
+	"田畑":   {"田畑", "農村", "田"},
 }
 
 func scoreToneForVibe(entry IndexEntry, vibe string) int {

@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"errors"
+	"flag"
 	"log"
 	"os"
 	"strings"
@@ -11,15 +12,26 @@ import (
 	"github.com/Takamasa045/Yokai-Finder-MCP/internal/cache"
 	"github.com/Takamasa045/Yokai-Finder-MCP/internal/handler"
 	"github.com/Takamasa045/Yokai-Finder-MCP/internal/ndl"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/version"
 	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
 const (
-	serverName       = "yokai-finder-mcp"
-	defaultVersion   = "0.3.0"
-	defaultCacheTTL  = 5 * time.Minute
-	defaultCacheSize = 256
+	serverName        = "yokai-finder-mcp"
+	defaultCacheTTL   = 5 * time.Minute
+	defaultCacheSize  = 256
+	agentInstructions = `Yokai Finder helps users discover Japanese yokai, read folklore, and find related books.
+
+Tool choice:
+- Vague mood/theme ("scary", "water-y", "for kids") → suggest_yokai
+- A specific name (河童, Kappa, カッパ) → get_yokai
+- Browse/filter the roster → list_yokai (category 水系/water, tag, tone, famousRank all work)
+- Featured daily pick → yokai_of_the_day
+- Books from the National Diet Library → search_yokai_books
+- Related or side-by-side entries → related_yokai / compare_yokai
+
+Prefer Japanese names in answers. hasProfile=true means a full bilingual encyclopedia card is available via get_yokai.`
 )
 
 type searchArgs struct {
@@ -55,10 +67,25 @@ type listCuratedArgs struct {
 }
 
 type listYokaiArgs struct {
-	Term     string `json:"term,omitempty" jsonschema:"Keyword to match name, category, region, or Japanese blurb"`
-	Category string `json:"category,omitempty" jsonschema:"Category hint (e.g. 水系, 付喪神, 狐狸)"`
-	Region   string `json:"region,omitempty" jsonschema:"Region hint (e.g. 東北, 九州, 海)"`
-	Limit    int    `json:"limit,omitempty" jsonschema:"Maximum entries to return (default 200, max 200)"`
+	Term          string `json:"term,omitempty" jsonschema:"Keyword to match name, category, region, or Japanese blurb"`
+	Category      string `json:"category,omitempty" jsonschema:"Category hint (e.g. 水系, water, 付喪神, 狐狸)"`
+	Region        string `json:"region,omitempty" jsonschema:"Region hint (e.g. 東北, tohoku, 九州, 海)"`
+	Tag           string `json:"tag,omitempty" jsonschema:"Tag filter (e.g. 怖い, かわいい, 入門)"`
+	Tone          string `json:"tone,omitempty" jsonschema:"Tone filter: gentle, comic, horror, solemn, tragic, mysterious, playful"`
+	FamousRankMin int    `json:"famousRankMin,omitempty" jsonschema:"Minimum famousRank (1=iconic, 5=obscure)"`
+	FamousRankMax int    `json:"famousRankMax,omitempty" jsonschema:"Maximum famousRank"`
+	HasProfile    *bool  `json:"hasProfile,omitempty" jsonschema:"If true, only yokai with full encyclopedia cards"`
+	Limit         int    `json:"limit,omitempty" jsonschema:"Maximum entries to return (default 200, max 200)"`
+}
+
+type relatedYokaiArgs struct {
+	Name  string `json:"name" jsonschema:"Japanese or English yokai name"`
+	Limit int    `json:"limit,omitempty" jsonschema:"Maximum neighbours to return (default 6, max 20)"`
+}
+
+type compareYokaiArgs struct {
+	Left  string `json:"left" jsonschema:"First yokai name"`
+	Right string `json:"right" jsonschema:"Second yokai name"`
 }
 
 type suggestYokaiArgs struct {
@@ -76,32 +103,44 @@ type getYokaiArgs struct {
 }
 
 func main() {
-	if err := run(context.Background()); err != nil {
+	listen := flag.String("http", "", "optional streamable HTTP address (example: 127.0.0.1:8080). Empty means stdio.")
+	flag.Parse()
+
+	if err := run(context.Background(), *listen); err != nil {
 		log.Fatalf("server error: %v", err)
 	}
 }
 
-func run(ctx context.Context) error {
-	h := handler.New(ndl.NewClient(), cache.NewCache(defaultCacheTTL, defaultCacheSize))
+func run(ctx context.Context, listen string) error {
+	c := cache.NewCache(defaultCacheTTL, defaultCacheSize)
+	defer c.Stop()
+	h := handler.New(ndl.NewClient(), c)
 
 	server := newServer(h)
+	if listen != "" {
+		return serveHTTP(ctx, listen, server)
+	}
 	return server.Run(ctx, &mcp.StdioTransport{})
 }
 
 func newServer(h *handler.Handler) *mcp.Server {
-	version := os.Getenv("YOKAI_FINDER_VERSION")
-	if version == "" {
-		version = defaultVersion
+	ver := os.Getenv("YOKAI_FINDER_VERSION")
+	if ver == "" {
+		ver = version.Version
 	}
 
 	server := mcp.NewServer(&mcp.Implementation{
 		Name:    serverName,
-		Version: version,
-	}, nil)
+		Version: ver,
+		Title:   "Yokai Finder",
+	}, &mcp.ServerOptions{
+		Instructions: agentInstructions,
+	})
 
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "search_yokai_books",
 		Description: "国立国会図書館（NDL）で妖怪関連の書籍を検索する。妖怪名・地域・カテゴリで絞り込め、ISBNがある書籍には書影URL候補（coverImageCandidates）も付く。Search the National Diet Library for yokai-related books; results include cover-image URL candidates when an ISBN is available.",
+		Annotations: openWorldTool(),
 	}, func(ctx context.Context, _ *mcp.CallToolRequest, args searchArgs) (*mcp.CallToolResult, *types.YokaiSearchResult, error) {
 		params := types.YokaiSearchParams{
 			Name:     args.Name,
@@ -119,7 +158,8 @@ func newServer(h *handler.Handler) *mcp.Server {
 
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "yokai_of_the_day",
-		Description: "「今日の妖怪」を紹介する。引数なしなら日替わりで1体を選び、伝承・特徴・創作フック・おすすめ書籍・ストーリープロンプトをまとめて返す。特定の妖怪は name、別の妖怪を引きたいときは seed を指定。Daily featured yokai with lore, creative hooks, recommended reading, and a story prompt; deterministic per calendar day unless a seed or name is given.",
+		Description: "「今日の妖怪」を紹介する。引数なしなら日替わり（JST）で1体を選び、伝承・特徴・創作フック・おすすめ書籍・ストーリープロンプトをまとめて返す。特定の妖怪は name、別の妖怪を引きたいときは seed を指定。Daily featured yokai (JST) with lore, creative hooks, recommended reading, and a story prompt.",
+		Annotations: openWorldTool(),
 	}, func(ctx context.Context, _ *mcp.CallToolRequest, args yokaiOfTheDayArgs) (*mcp.CallToolResult, *types.YokaiOfTheDayResult, error) {
 		params := types.YokaiOfTheDayParams{
 			Name:     args.Name,
@@ -138,13 +178,19 @@ func newServer(h *handler.Handler) *mcp.Server {
 
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "list_yokai",
-		Description: "妖怪索引（160体超）をざっくり一覧・検索する。名前・一言紹介・カテゴリ・タグの軽量リスト。雰囲気や曖昧な希望（「怖い妖怪」「水のやつ」など）なら suggest_yokai を使う。気になった名前は get_yokai で詳細、search_yokai_books で本を、hasProfile=true なら list_curated_yokai / yokai_of_the_day で深掘り。Browse the yokai name index (compact blurbs); use suggest_yokai for vague discovery.",
+		Description: "妖怪索引（160体超）を一覧・検索する。category は 水系 でも water でも可。tag / tone / famousRank / hasProfile で絞り込み。雰囲気だけの質問は suggest_yokai。Browse the yokai roster; Japanese and English category hints both work.",
+		Annotations: localTool(),
 	}, func(ctx context.Context, _ *mcp.CallToolRequest, args listYokaiArgs) (*mcp.CallToolResult, *types.YokaiIndexResult, error) {
 		params := types.YokaiIndexParams{
-			Term:     args.Term,
-			Category: args.Category,
-			Region:   args.Region,
-			Limit:    args.Limit,
+			Term:          args.Term,
+			Category:      args.Category,
+			Region:        args.Region,
+			Tag:           args.Tag,
+			Tone:          args.Tone,
+			FamousRankMin: args.FamousRankMin,
+			FamousRankMax: args.FamousRankMax,
+			HasProfile:    args.HasProfile,
+			Limit:         args.Limit,
 		}
 
 		result, err := h.ListYokai(ctx, params)
@@ -157,6 +203,7 @@ func newServer(h *handler.Handler) *mcp.Server {
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "suggest_yokai",
 		Description: "曖昧な条件から妖怪を提案する。例: 「怖い妖怪」「水のやつ」「創作向け」「かわいいが不気味」。vibe/theme/setting/audience や自由語 term で候補と短い理由（whySuggested）を返す。名前が分かったら get_yokai、網羅一覧は list_yokai。Suggest yokai from vague queries (scary, water-y, for fiction); returns short rationales.",
+		Annotations: localTool(),
 	}, func(ctx context.Context, _ *mcp.CallToolRequest, args suggestYokaiArgs) (*mcp.CallToolResult, *types.SuggestYokaiResult, error) {
 		params := types.SuggestYokaiParams{
 			Vibe:     args.Vibe,
@@ -177,7 +224,8 @@ func newServer(h *handler.Handler) *mcp.Server {
 
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "get_yokai",
-		Description: "妖怪を日本語名または英語名で1体取得する。キュレーション済みなら詳細プロフィール（source=profile）、索引のみなら軽いカード（source=index）。見つからないときは list_yokai / suggest_yokai / search_yokai_books を案内。Look up one yokai by Japanese or English name (full profile or index card).",
+		Description: "妖怪を日本語名・英語名・別名（カッパ、かわっぱ など）で1体取得する。図鑑があれば source=profile。見つからないときは suggestions（もしかして）を返す。Look up one yokai by Japanese, English, or alias.",
+		Annotations: localTool(),
 	}, func(ctx context.Context, _ *mcp.CallToolRequest, args getYokaiArgs) (*mcp.CallToolResult, *types.GetYokaiResult, error) {
 		params := types.GetYokaiParams{
 			Name: args.Name,
@@ -192,7 +240,8 @@ func newServer(h *handler.Handler) *mcp.Server {
 
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "list_curated_yokai",
-		Description: "キュレーション済み妖怪図鑑（詳細プロフィール50体）を一覧・検索する。伝承・特徴・創作フック付き。ざっくり顔ぶれを知りたいときは list_yokai を先に使う。Browse the deep curated encyclopedia (50 full bilingual profiles); use list_yokai first for a broad roster.",
+		Description: "キュレーション済み妖怪図鑑（詳細プロフィール80体）を一覧・検索する。伝承・特徴・創作フック付き。ざっくり顔ぶれは list_yokai。Browse the deep bilingual encyclopedia; prefer list_yokai for the full roster.",
+		Annotations: localTool(),
 	}, func(ctx context.Context, _ *mcp.CallToolRequest, args listCuratedArgs) (*mcp.CallToolResult, *types.CuratedYokaiResult, error) {
 		params := types.CuratedYokaiParams{
 			Term:                 args.Term,
@@ -216,6 +265,7 @@ func newServer(h *handler.Handler) *mcp.Server {
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "get_cover_thumbnail",
 		Description: "ISBN または全国書誌番号（JP番号）から書影（表紙画像）のURL候補を返す。候補は上から順に試すこと（資料により提供有無が異なる）。Build cover-image URL candidates from an ISBN (10 or 13) or JP number; try candidates in order.",
+		Annotations: localTool(),
 	}, func(_ context.Context, _ *mcp.CallToolRequest, args coverThumbnailArgs) (*mcp.CallToolResult, *ndl.CoverURLs, error) {
 		isbn := strings.TrimSpace(args.ISBN)
 		jpno := strings.TrimSpace(args.JPNo)
@@ -230,5 +280,42 @@ func newServer(h *handler.Handler) *mcp.Server {
 		return nil, &covers, nil
 	})
 
+	mcp.AddTool(server, &mcp.Tool{
+		Name:        "related_yokai",
+		Description: "指定した妖怪に近い索引エントリを返す。タグ・カテゴリ・トーンの重なりで近傍を探す。Find neighbouring yokai by shared tags, category, and tone.",
+		Annotations: localTool(),
+	}, func(ctx context.Context, _ *mcp.CallToolRequest, args relatedYokaiArgs) (*mcp.CallToolResult, *types.RelatedYokaiResult, error) {
+		result, err := h.RelatedYokai(ctx, types.RelatedYokaiParams{Name: args.Name, Limit: args.Limit})
+		if err != nil {
+			return nil, nil, err
+		}
+		return nil, result, nil
+	})
+
+	mcp.AddTool(server, &mcp.Tool{
+		Name:        "compare_yokai",
+		Description: "2体の妖怪を並べて共通点・相違点を返す。Compare two yokai side by side.",
+		Annotations: localTool(),
+	}, func(ctx context.Context, _ *mcp.CallToolRequest, args compareYokaiArgs) (*mcp.CallToolResult, *types.CompareYokaiResult, error) {
+		result, err := h.CompareYokai(ctx, types.CompareYokaiParams{Left: args.Left, Right: args.Right})
+		if err != nil {
+			return nil, nil, err
+		}
+		return nil, result, nil
+	})
+
+	registerResources(server, h)
+	registerPrompts(server)
+
 	return server
+}
+
+func localTool() *mcp.ToolAnnotations {
+	open := false
+	return &mcp.ToolAnnotations{ReadOnlyHint: true, IdempotentHint: true, OpenWorldHint: &open}
+}
+
+func openWorldTool() *mcp.ToolAnnotations {
+	open := true
+	return &mcp.ToolAnnotations{ReadOnlyHint: true, IdempotentHint: true, OpenWorldHint: &open}
 }

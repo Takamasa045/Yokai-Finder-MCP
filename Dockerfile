@@ -1,11 +1,14 @@
-FROM golang:1.22 AS builder
+FROM golang:1.23-alpine AS builder
 WORKDIR /app
-COPY . .
+COPY go.mod go.sum ./
 RUN go mod download
-RUN CGO_ENABLED=0 GOOS=linux go build -o yokai-finder-mcp cmd/server/server.go
+COPY . .
+RUN CGO_ENABLED=0 GOOS=linux go build -trimpath -ldflags="-s -w" -o yokai-finder-mcp ./cmd/server
 
-FROM alpine:latest
-RUN apk --no-cache add ca-certificates
-WORKDIR /root/
+FROM alpine:3.21
+RUN apk --no-cache add ca-certificates \
+    && adduser -D -H -u 65532 nonroot
+WORKDIR /app
 COPY --from=builder /app/yokai-finder-mcp .
-CMD ["./yokai-finder-mcp"]
+USER 65532:65532
+ENTRYPOINT ["./yokai-finder-mcp"]

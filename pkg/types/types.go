@@ -1,114 +1,5 @@
 package types
 
-import "encoding/json"
-
-// MCP Protocol types
-type JSONRPCRequest struct {
-	JSONRPC string          `json:"jsonrpc"`
-	ID      interface{}     `json:"id,omitempty"`
-	Method  string          `json:"method"`
-	Params  json.RawMessage `json:"params,omitempty"`
-}
-
-type JSONRPCResponse struct {
-	JSONRPC string      `json:"jsonrpc"`
-	ID      interface{} `json:"id,omitempty"`
-	Result  interface{} `json:"result,omitempty"`
-	Error   *RPCError   `json:"error,omitempty"`
-}
-
-type RPCError struct {
-	Code    int         `json:"code"`
-	Message string      `json:"message"`
-	Data    interface{} `json:"data,omitempty"`
-}
-
-// MCP Protocol Messages
-type InitializeParams struct {
-	ProtocolVersion string             `json:"protocolVersion"`
-	Capabilities    ClientCapabilities `json:"capabilities"`
-	ClientInfo      Implementation     `json:"clientInfo"`
-}
-
-type ClientCapabilities struct {
-	Roots    *RootsCapability    `json:"roots,omitempty"`
-	Sampling *SamplingCapability `json:"sampling,omitempty"`
-}
-
-type RootsCapability struct {
-	ListChanged bool `json:"listChanged,omitempty"`
-}
-
-type SamplingCapability struct{}
-
-type Implementation struct {
-	Name    string `json:"name"`
-	Version string `json:"version"`
-}
-
-type InitializeResult struct {
-	ProtocolVersion string             `json:"protocolVersion"`
-	Capabilities    ServerCapabilities `json:"capabilities"`
-	ServerInfo      Implementation     `json:"serverInfo"`
-}
-
-type ServerCapabilities struct {
-	Tools     *ToolsCapability     `json:"tools,omitempty"`
-	Resources *ResourcesCapability `json:"resources,omitempty"`
-	Prompts   *PromptsCapability   `json:"prompts,omitempty"`
-}
-
-type ToolsCapability struct {
-	ListChanged bool `json:"listChanged,omitempty"`
-}
-
-type ResourcesCapability struct {
-	Subscribe   bool `json:"subscribe,omitempty"`
-	ListChanged bool `json:"listChanged,omitempty"`
-}
-
-type PromptsCapability struct {
-	ListChanged bool `json:"listChanged,omitempty"`
-}
-
-// Tool types
-type Tool struct {
-	Name        string      `json:"name"`
-	Description string      `json:"description"`
-	InputSchema InputSchema `json:"inputSchema"`
-}
-
-type InputSchema struct {
-	Type       string              `json:"type"`
-	Properties map[string]Property `json:"properties,omitempty"`
-	Required   []string            `json:"required,omitempty"`
-}
-
-type Property struct {
-	Type        string   `json:"type"`
-	Description string   `json:"description,omitempty"`
-	Enum        []string `json:"enum,omitempty"`
-}
-
-type ListToolsResult struct {
-	Tools []Tool `json:"tools"`
-}
-
-type CallToolParams struct {
-	Name      string                 `json:"name"`
-	Arguments map[string]interface{} `json:"arguments,omitempty"`
-}
-
-type CallToolResult struct {
-	Content []ContentItem `json:"content"`
-	IsError bool          `json:"isError,omitempty"`
-}
-
-type ContentItem struct {
-	Type string `json:"type"`
-	Text string `json:"text"`
-}
-
 // Yokai search types
 type YokaiSearchParams struct {
 	Name     string `json:"name,omitempty"`
@@ -149,6 +40,7 @@ type YokaiProfile struct {
 	FunFact       string   `json:"funFact,omitempty"`
 	FunFactJA     string   `json:"funFactJa,omitempty"`
 	CreativeHooks []string `json:"creativeHooks,omitempty"`
+	Sources       []string `json:"sources,omitempty"`
 }
 
 // YokaiOfTheDayParams controls how the highlight tool selects a yokai.
@@ -208,10 +100,15 @@ type CuratedYokaiResult struct {
 
 // YokaiIndexParams controls lightweight roster browsing via list_yokai.
 type YokaiIndexParams struct {
-	Term     string `json:"term,omitempty"`
-	Category string `json:"category,omitempty"`
-	Region   string `json:"region,omitempty"`
-	Limit    int    `json:"limit,omitempty"`
+	Term          string `json:"term,omitempty"`
+	Category      string `json:"category,omitempty"`
+	Region        string `json:"region,omitempty"`
+	Tag           string `json:"tag,omitempty"`
+	Tone          string `json:"tone,omitempty"`
+	FamousRankMin int    `json:"famousRankMin,omitempty"`
+	FamousRankMax int    `json:"famousRankMax,omitempty"`
+	HasProfile    *bool  `json:"hasProfile,omitempty"`
+	Limit         int    `json:"limit,omitempty"`
 }
 
 // YokaiIndexItem is a compact roster row for discovering yokai names.
@@ -263,11 +160,11 @@ type SuggestYokaiItem struct {
 
 // SuggestYokaiResult returns discovery candidates for vague queries.
 type SuggestYokaiResult struct {
-	Query    string            `json:"query,omitempty"`
-	Total    int               `json:"total"`
-	Returned int               `json:"returned"`
+	Query    string             `json:"query,omitempty"`
+	Total    int                `json:"total"`
+	Returned int                `json:"returned"`
 	Items    []SuggestYokaiItem `json:"items"`
-	Notes    []string          `json:"notes,omitempty"`
+	Notes    []string           `json:"notes,omitempty"`
 }
 
 // GetYokaiParams looks up a single yokai by Japanese or English name.
@@ -277,9 +174,55 @@ type GetYokaiParams struct {
 
 // GetYokaiResult returns either a full curated profile, an index card, or not-found.
 type GetYokaiResult struct {
+	Found       bool             `json:"found"`
+	Source      string           `json:"source,omitempty"` // "profile" | "index" | ""
+	Profile     *YokaiProfile    `json:"profile,omitempty"`
+	Index       *YokaiIndexItem  `json:"index,omitempty"`
+	Suggestions []YokaiIndexItem `json:"suggestions,omitempty"`
+	Notes       []string         `json:"notes,omitempty"`
+}
+
+// RelatedYokaiParams finds nearby yokai by tags/category/tone.
+type RelatedYokaiParams struct {
+	Name  string `json:"name"`
+	Limit int    `json:"limit,omitempty"`
+}
+
+// RelatedYokaiItem is a neighbour in the roster.
+type RelatedYokaiItem struct {
+	YokaiIndexItem
+	Score  int      `json:"score"`
+	Shared []string `json:"shared,omitempty"`
+}
+
+// RelatedYokaiResult lists similar yokai.
+type RelatedYokaiResult struct {
+	Name     string             `json:"name"`
+	Total    int                `json:"total"`
+	Returned int                `json:"returned"`
+	Items    []RelatedYokaiItem `json:"items"`
+	Notes    []string           `json:"notes,omitempty"`
+}
+
+// CompareYokaiParams compares two yokai by name.
+type CompareYokaiParams struct {
+	Left  string `json:"left"`
+	Right string `json:"right"`
+}
+
+// CompareYokaiSide is one side of a comparison.
+type CompareYokaiSide struct {
 	Found   bool            `json:"found"`
-	Source  string          `json:"source,omitempty"` // "profile" | "index" | ""
+	Source  string          `json:"source,omitempty"`
 	Profile *YokaiProfile   `json:"profile,omitempty"`
 	Index   *YokaiIndexItem `json:"index,omitempty"`
-	Notes   []string        `json:"notes,omitempty"`
+}
+
+// CompareYokaiResult places two yokai side by side.
+type CompareYokaiResult struct {
+	Left     CompareYokaiSide `json:"left"`
+	Right    CompareYokaiSide `json:"right"`
+	Shared   []string         `json:"shared,omitempty"`
+	Contrast []string         `json:"contrast,omitempty"`
+	Notes    []string         `json:"notes,omitempty"`
 }

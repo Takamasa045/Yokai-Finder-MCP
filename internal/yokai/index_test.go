@@ -76,6 +76,31 @@ func TestIndexIncludesCuratedRoster(t *testing.T) {
 	}
 }
 
+func TestFilterIndexTohokuIncludesNamahage(t *testing.T) {
+	hits := FilterIndex("", "", "tohoku")
+	found := false
+	for _, e := range hits {
+		if e.NativeName == "なまはげ" {
+			found = true
+			break
+		}
+	}
+	if !found {
+		t.Fatalf("tohoku should include なまはげ, got %d hits", len(hits))
+	}
+}
+
+func TestFilterIndexEnglishCategory(t *testing.T) {
+	ja := FilterIndex("", "水系", "")
+	en := FilterIndex("", "water", "")
+	if len(ja) == 0 || len(en) == 0 {
+		t.Fatalf("expected 水系 and water to match, got ja=%d en=%d", len(ja), len(en))
+	}
+	if len(ja) != len(en) {
+		t.Fatalf("水系 (%d) and water (%d) should return the same roster", len(ja), len(en))
+	}
+}
+
 func TestFilterIndex(t *testing.T) {
 	water := FilterIndex("", "水系", "")
 	if len(water) == 0 {

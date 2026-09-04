@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: "Build and publish this existing tag (for example v0.3.0)"
+        description: "Build and publish this existing tag (for example v0.4.0)"
         required: true
         type: string
 

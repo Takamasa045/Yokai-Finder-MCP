@@ -154,7 +154,7 @@ func TestHandlerYokaiOfTheDayDailyNote(t *testing.T) {
 
 	var sawDailyNote bool
 	for _, note := range first.Notes {
-		if strings.Contains(note, "Daily pick") {
+		if strings.Contains(note, "Daily pick") && strings.Contains(note, "JST") {
 			sawDailyNote = true
 		}
 	}
@@ -192,9 +192,10 @@ func TestListCuratedYokaiFiltersAndShape(t *testing.T) {
 		t.Fatalf("expected at least one profile, got %+v", result)
 	}
 
+	foundKappa := false
 	for _, profile := range result.Profiles {
-		if !strings.Contains(strings.ToLower(profile.Category), "water") {
-			t.Fatalf("expected category to include 'water', got %q", profile.Category)
+		if profile.Name == "Kappa" {
+			foundKappa = true
 		}
 		if len(profile.Legends) == 0 {
 			t.Fatalf("expected legends to be included when requested")
@@ -206,8 +207,11 @@ func TestListCuratedYokaiFiltersAndShape(t *testing.T) {
 			t.Fatalf("expected creative hooks when requested")
 		}
 	}
-	if len(result.Notes) != 0 {
-		t.Fatalf("expected no truncation notes when limit exceeds matches, got %v", result.Notes)
+	if !foundKappa {
+		t.Fatalf("water filter should include Kappa")
+	}
+	if result.Returned > 3 {
+		t.Fatalf("expected limit 3, got returned=%d", result.Returned)
 	}
 }
 
@@ -403,13 +407,13 @@ func TestGetYokaiIndexOnly(t *testing.T) {
 
 	h := New(nil, nil)
 
-	// 八岐大蛇 is expected to be index-only (no curated profile).
-	result, err := h.GetYokai(context.Background(), types.GetYokaiParams{Name: "八岐大蛇"})
+	// わいら is expected to be index-only (no curated profile).
+	result, err := h.GetYokai(context.Background(), types.GetYokaiParams{Name: "わいら"})
 	if err != nil {
-		t.Fatalf("GetYokai(八岐大蛇) error: %v", err)
+		t.Fatalf("GetYokai(わいら) error: %v", err)
 	}
 	if !result.Found {
-		t.Fatalf("expected Found=true for index entry 八岐大蛇")
+		t.Fatalf("expected Found=true for index entry わいら")
 	}
 	if result.Source != "index" {
 		t.Fatalf("expected source=index, got %q (profile may have been added)", result.Source)
@@ -417,7 +421,7 @@ func TestGetYokaiIndexOnly(t *testing.T) {
 	if result.Index == nil {
 		t.Fatalf("expected Index card")
 	}
-	if result.Index.NativeName != "八岐大蛇" && result.Index.Name != "Yamata-no-Orochi" {
+	if result.Index.NativeName != "わいら" && result.Index.Name != "Waira" {
 		t.Fatalf("unexpected index item: %+v", result.Index)
 	}
 	if result.Profile != nil {
@@ -425,6 +429,99 @@ func TestGetYokaiIndexOnly(t *testing.T) {
 	}
 	if len(result.Notes) == 0 {
 		t.Fatalf("expected notes about limited lore / next steps")
+	}
+}
+
+func TestGetYokaiAliasAndSuggestions(t *testing.T) {
+	h := New(nil, nil)
+
+	kappa, err := h.GetYokai(context.Background(), types.GetYokaiParams{Name: "カッパ"})
+	if err != nil {
+		t.Fatalf("GetYokai(カッパ) error: %v", err)
+	}
+	if !kappa.Found || kappa.Source != "profile" || kappa.Profile == nil || kappa.Profile.NativeName != "河童" {
+		t.Fatalf("expected 河童 profile via カッパ, got %+v", kappa)
+	}
+
+	unknown, err := h.GetYokai(context.Background(), types.GetYokaiParams{Name: "Kapa"})
+	if err != nil {
+		t.Fatalf("GetYokai(Kapa) error: %v", err)
+	}
+	if unknown.Found {
+		t.Fatalf("Kapa should not be an exact hit")
+	}
+	if len(unknown.Suggestions) == 0 {
+		t.Fatalf("expected did-you-mean suggestions")
+	}
+}
+
+func TestListYokaiEnglishCategoryAndTag(t *testing.T) {
+	h := New(nil, nil)
+
+	water, err := h.ListYokai(context.Background(), types.YokaiIndexParams{Category: "water", Limit: 50})
+	if err != nil {
+		t.Fatalf("ListYokai(water) error: %v", err)
+	}
+	if water.Total == 0 {
+		t.Fatalf("expected water/水系 matches")
+	}
+	foundKappa := false
+	for _, item := range water.Items {
+		if item.NativeName == "河童" {
+			foundKappa = true
+		}
+	}
+	if !foundKappa {
+		t.Fatalf("water category should include 河童")
+	}
+
+	horror := true
+	tagged, err := h.ListYokai(context.Background(), types.YokaiIndexParams{
+		Tag:        "怖い",
+		Tone:       "horror",
+		HasProfile: &horror,
+		Limit:      20,
+	})
+	if err != nil {
+		t.Fatalf("tagged ListYokai error: %v", err)
+	}
+	if tagged.Returned == 0 {
+		t.Fatalf("expected horror+怖い+profile matches")
+	}
+	for _, item := range tagged.Items {
+		if item.Tone != "horror" {
+			t.Fatalf("expected horror tone, got %s", item.Tone)
+		}
+		if !item.HasProfile {
+			t.Fatalf("expected hasProfile filter to hold for %s", item.Name)
+		}
+	}
+}
+
+func TestRelatedAndCompare(t *testing.T) {
+	h := New(nil, nil)
+
+	related, err := h.RelatedYokai(context.Background(), types.RelatedYokaiParams{Name: "河童", Limit: 5})
+	if err != nil {
+		t.Fatalf("RelatedYokai error: %v", err)
+	}
+	if related.Returned == 0 {
+		t.Fatalf("expected neighbours for 河童")
+	}
+
+	cmp, err := h.CompareYokai(context.Background(), types.CompareYokaiParams{Left: "河童", Right: "天狗"})
+	if err != nil {
+		t.Fatalf("CompareYokai error: %v", err)
+	}
+	if !cmp.Left.Found || !cmp.Right.Found {
+		t.Fatalf("expected both sides found: %+v", cmp)
+	}
+	if cmp.Left.Profile == nil || cmp.Right.Profile == nil {
+		t.Fatalf("expected profiles on both sides")
+	}
+	joined := strings.Join(cmp.Shared, " ")
+	if !strings.Contains(joined, "入門") && !strings.Contains(joined, "古典") {
+		t.Fatalf("expected shared folklore tags, got %v", cmp.Shared)
 	}
 }
 

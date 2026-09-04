@@ -1,0 +1,13 @@
+.git
+.github
+.kamui
+.worktrees
+.DS_Store
+yokai-finder-mcp
+*.exe
+*.test
+*.out
+dist
+tmp
+.vscode
+.idea

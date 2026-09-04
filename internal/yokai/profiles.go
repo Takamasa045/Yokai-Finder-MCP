@@ -2,12 +2,11 @@ package yokai
 
 import (
 	"math/rand"
-	"strings"
 	"time"
 )
 
 // Profile represents a curated yokai entry with lore and creative hooks.
-// The curated entries themselves live in profiles_data.go.
+// The curated entries themselves live in data/profiles.json.
 type Profile struct {
 	Name          string
 	NativeName    string
@@ -22,7 +21,11 @@ type Profile struct {
 	FunFactJA     string
 	SearchQuery   string
 	CreativeHooks []string
+	Sources       []string
 }
+
+// curatedProfiles is populated from the embedded catalog at init.
+var curatedProfiles []Profile
 
 // Profiles returns a defensive copy of the curated profile list.
 func Profiles() []Profile {
@@ -33,36 +36,35 @@ func Profiles() []Profile {
 
 // FindByName looks up a profile by English or native name (case-insensitive for English).
 func FindByName(name string) (Profile, bool) {
-	trimmed := strings.TrimSpace(name)
-	if trimmed == "" {
-		return Profile{}, false
-	}
-
-	for _, profile := range curatedProfiles {
-		if strings.EqualFold(profile.Name, trimmed) || profile.NativeName == trimmed {
-			return profile, true
-		}
-	}
-	return Profile{}, false
+	return LookupProfile(name)
 }
 
 // Filter returns profiles matching the provided category and region hints.
 func Filter(category, region string) []Profile {
-	category = strings.TrimSpace(strings.ToLower(category))
-	region = strings.TrimSpace(strings.ToLower(region))
-
 	var filtered []Profile
 	for _, profile := range curatedProfiles {
-		if matchesHint(profile.Category, category) && matchesHint(profile.Region, region) {
-			filtered = append(filtered, profile)
+		catHit := categoryMatches(profile.Category, category)
+		regOK := regionMatches(profile.Region, region)
+		if entry, ok := LookupIndex(profile.Name); ok {
+			catHit = catHit || categoryMatches(entry.Category, category)
+			regOK = regOK || regionMatches(entry.Region, region)
 		}
+		if !catHit || !regOK {
+			continue
+		}
+		filtered = append(filtered, profile)
 	}
 	return filtered
 }
 
-// DailySeed derives a deterministic seed from the calendar date so the
-// "yokai of the day" stays the same until midnight in the given location.
+// JST is Japan Standard Time, used for the daily yokai pick.
+var JST = time.FixedZone("JST", 9*60*60)
+
+// DailySeed derives a deterministic seed from the calendar date in JST so the
+// "yokai of the day" stays the same until midnight in Japan, regardless of
+// the host timezone.
 func DailySeed(t time.Time) int64 {
+	t = t.In(JST)
 	return int64(t.Year()*10000 + int(t.Month())*100 + t.Day())
 }
 
@@ -83,11 +85,4 @@ func RandomProfile(seed int64, candidates []Profile) Profile {
 	}
 	r := rand.New(rand.NewSource(seed))
 	return list[r.Intn(len(list))]
-}
-
-func matchesHint(value string, hint string) bool {
-	if hint == "" {
-		return true
-	}
-	return strings.Contains(strings.ToLower(value), hint)
 }

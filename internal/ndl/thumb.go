@@ -14,6 +14,21 @@ type CoverURLs struct {
 
 // NormalizeISBN13 strips hyphens/spaces and converts ISBN-10 input to
 // ISBN-13. It returns "" when the value cannot be read as an ISBN.
+func sanitizeJPNo(raw string) string {
+	var digits strings.Builder
+	for _, r := range strings.TrimSpace(raw) {
+		if r < '0' || r > '9' {
+			return ""
+		}
+		digits.WriteRune(r)
+	}
+	s := digits.String()
+	if len(s) < 8 || len(s) > 10 {
+		return ""
+	}
+	return s
+}
+
 func NormalizeISBN13(raw string) string {
 	var cleaned strings.Builder
 	for _, r := range raw {
@@ -75,7 +90,7 @@ func BuildCoverURLs(isbn, jpno string) CoverURLs {
 			fmt.Sprintf("https://iss.ndl.go.jp/thumbnail/%s", isbn13),
 		)
 	}
-	if jpno = strings.TrimSpace(jpno); jpno != "" {
+	if jpno = sanitizeJPNo(jpno); jpno != "" {
 		urls = append(urls,
 			fmt.Sprintf("https://iss.ndl.go.jp/thumbnail/%s", jpno),
 		)

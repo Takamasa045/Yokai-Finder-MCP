@@ -121,7 +121,16 @@ func (h *Handler) YokaiOfTheDay(ctx context.Context, params types.YokaiOfTheDayP
 func (h *Handler) ListYokai(_ context.Context, params types.YokaiIndexParams) (*types.YokaiIndexResult, error) {
 	cleaned := normaliseIndexParams(params)
 
-	matches := yokai.FilterIndex(cleaned.Term, cleaned.Category, cleaned.Region)
+	matches := yokai.FilterIndexOpts(yokai.IndexFilter{
+		Term:          cleaned.Term,
+		Category:      cleaned.Category,
+		Region:        cleaned.Region,
+		Tag:           cleaned.Tag,
+		Tone:          cleaned.Tone,
+		FamousRankMin: cleaned.FamousRankMin,
+		FamousRankMax: cleaned.FamousRankMax,
+		HasProfile:    cleaned.HasProfile,
+	})
 	if len(matches) == 0 {
 		return &types.YokaiIndexResult{
 			Query:    cleaned.Term,
@@ -226,7 +235,7 @@ func (h *Handler) GetYokai(_ context.Context, params types.GetYokaiParams) (*typ
 		indexItem := convertIndexEntry(entry)
 		notes := []string{
 			"索引カードのみです。詳細な伝承・創作フックは未整備の可能性があります。",
-			"深掘りするなら search_yokai_books で関連書籍を探すか、list_curated_yokai / yokai_of_the_day で近いキュレーション済み妖怪を参照してください。",
+			"深掘りするなら search_yokai_books で関連書籍を探すか、related_yokai で近い図鑑エントリを参照してください。",
 		}
 		return &types.GetYokaiResult{
 			Found:  true,
@@ -236,13 +245,23 @@ func (h *Handler) GetYokai(_ context.Context, params types.GetYokaiParams) (*typ
 		}, nil
 	}
 
+	suggestions := yokai.SuggestNames(name, 5)
+	items := make([]types.YokaiIndexItem, 0, len(suggestions))
+	for _, entry := range suggestions {
+		items = append(items, convertIndexEntry(entry))
+	}
+	notes := []string{
+		fmt.Sprintf("「%s」に一致する妖怪が見つかりませんでした。", name),
+		"list_yokai で一覧を見る、suggest_yokai で雰囲気から探す、search_yokai_books で文献検索をお試しください。",
+	}
+	if len(items) > 0 {
+		notes = append([]string{"もしかして、次の候補ですか？"}, notes...)
+	}
 	return &types.GetYokaiResult{
-		Found:  false,
-		Source: "",
-		Notes: []string{
-			fmt.Sprintf("「%s」に一致する妖怪が見つかりませんでした。", name),
-			"list_yokai で一覧を見る、suggest_yokai で雰囲気から探す、search_yokai_books で文献検索をお試しください。",
-		},
+		Found:       false,
+		Source:      "",
+		Suggestions: items,
+		Notes:       notes,
 	}, nil
 }
 
@@ -322,8 +341,8 @@ func normaliseCuratedParams(p types.CuratedYokaiParams) types.CuratedYokaiParams
 	if p.Limit <= 0 {
 		p.Limit = 10
 	}
-	if p.Limit > 50 {
-		p.Limit = 50
+	if p.Limit > 200 {
+		p.Limit = 200
 	}
 	return p
 }
@@ -332,6 +351,8 @@ func normaliseIndexParams(p types.YokaiIndexParams) types.YokaiIndexParams {
 	p.Term = strings.TrimSpace(p.Term)
 	p.Category = strings.TrimSpace(p.Category)
 	p.Region = strings.TrimSpace(p.Region)
+	p.Tag = strings.TrimSpace(p.Tag)
+	p.Tone = strings.TrimSpace(p.Tone)
 
 	if p.Limit <= 0 {
 		p.Limit = 200
@@ -472,7 +493,7 @@ func selectCuratedProfile(params types.YokaiOfTheDayParams) (yokai.Profile, []st
 	}
 
 	if params.Seed == 0 {
-		notes = append(notes, fmt.Sprintf("Daily pick for %s: the same yokai appears all day. Pass a seed (or name) for a different one.", time.Now().Format("2006-01-02")))
+		notes = append(notes, fmt.Sprintf("Daily pick for %s JST: the same yokai appears all day. Pass a seed (or name) for a different one.", time.Now().In(yokai.JST).Format("2006-01-02")))
 	}
 
 	profile := yokai.RandomProfile(params.Seed, candidates)
@@ -493,6 +514,7 @@ func convertProfile(profile yokai.Profile) types.YokaiProfile {
 		FunFact:       profile.FunFact,
 		FunFactJA:     profile.FunFactJA,
 		CreativeHooks: cloneStrings(profile.CreativeHooks),
+		Sources:       cloneStrings(profile.Sources),
 	}
 }
 
@@ -576,15 +598,20 @@ func cloneStrings(values []string) []string {
 func filterCuratedProfiles(profiles []yokai.Profile, params types.CuratedYokaiParams) []yokai.Profile {
 	var filtered []yokai.Profile
 	term := strings.ToLower(params.Term)
-	category := strings.ToLower(params.Category)
-	region := strings.ToLower(params.Region)
+
+	allowed := map[string]struct{}{}
+	useAllow := params.Category != "" || params.Region != ""
+	if useAllow {
+		for _, profile := range yokai.Filter(params.Category, params.Region) {
+			allowed[profile.Name] = struct{}{}
+		}
+	}
 
 	for _, profile := range profiles {
-		if category != "" && !strings.Contains(strings.ToLower(profile.Category), category) {
-			continue
-		}
-		if region != "" && !strings.Contains(strings.ToLower(profile.Region), region) {
-			continue
+		if useAllow {
+			if _, ok := allowed[profile.Name]; !ok {
+				continue
+			}
 		}
 		if term != "" && !profileMatchesTerm(profile, term) {
 			continue
@@ -663,4 +690,121 @@ func convertCuratedProfile(profile yokai.Profile, params types.CuratedYokaiParam
 	}
 
 	return result
+}
+
+// RelatedYokai returns roster neighbours that share tags, category, or tone.
+func (h *Handler) RelatedYokai(_ context.Context, params types.RelatedYokaiParams) (*types.RelatedYokaiResult, error) {
+	name := strings.TrimSpace(params.Name)
+	if name == "" {
+		return nil, errors.New("name is required")
+	}
+	origin, matches, shared, _ := yokai.Related(name, params.Limit)
+	if origin.Name == "" {
+		return &types.RelatedYokaiResult{
+			Name:  name,
+			Notes: []string{fmt.Sprintf("「%s」に一致する妖怪が見つかりませんでした。", name)},
+		}, nil
+	}
+	items := make([]types.RelatedYokaiItem, 0, len(matches))
+	for i, entry := range matches {
+		item := types.RelatedYokaiItem{
+			YokaiIndexItem: convertIndexEntry(entry),
+			Shared:         cloneStrings(shared[i]),
+			Score:          len(shared[i]),
+		}
+		items = append(items, item)
+	}
+	return &types.RelatedYokaiResult{
+		Name:     origin.NativeName,
+		Total:    len(items),
+		Returned: len(items),
+		Items:    items,
+	}, nil
+}
+
+// CompareYokai places two yokai side by side.
+func (h *Handler) CompareYokai(ctx context.Context, params types.CompareYokaiParams) (*types.CompareYokaiResult, error) {
+	leftName := strings.TrimSpace(params.Left)
+	rightName := strings.TrimSpace(params.Right)
+	if leftName == "" || rightName == "" {
+		return nil, errors.New("left and right names are required")
+	}
+
+	left, err := h.GetYokai(ctx, types.GetYokaiParams{Name: leftName})
+	if err != nil {
+		return nil, err
+	}
+	right, err := h.GetYokai(ctx, types.GetYokaiParams{Name: rightName})
+	if err != nil {
+		return nil, err
+	}
+
+	result := &types.CompareYokaiResult{
+		Left:  compareSide(left),
+		Right: compareSide(right),
+	}
+	if !left.Found || !right.Found {
+		result.Notes = append(result.Notes, "片方または両方の名前が索引にありません。")
+		return result, nil
+	}
+
+	leftTags := sideTags(left)
+	rightTags := sideTags(right)
+	leftSet := map[string]struct{}{}
+	for _, tag := range leftTags {
+		leftSet[tag] = struct{}{}
+	}
+	rightSet := map[string]struct{}{}
+	for _, tag := range rightTags {
+		rightSet[tag] = struct{}{}
+	}
+	for _, tag := range leftTags {
+		if _, ok := rightSet[tag]; ok {
+			result.Shared = append(result.Shared, tag)
+		} else {
+			result.Contrast = append(result.Contrast, "left:"+tag)
+		}
+	}
+	for _, tag := range rightTags {
+		if _, ok := leftSet[tag]; !ok {
+			result.Contrast = append(result.Contrast, "right:"+tag)
+		}
+	}
+	return result, nil
+}
+
+func compareSide(result *types.GetYokaiResult) types.CompareYokaiSide {
+	return types.CompareYokaiSide{
+		Found:   result.Found,
+		Source:  result.Source,
+		Profile: result.Profile,
+		Index:   result.Index,
+	}
+}
+
+func sideTags(result *types.GetYokaiResult) []string {
+	name := ""
+	native := ""
+	if result.Index != nil {
+		name = result.Index.Name
+		native = result.Index.NativeName
+	} else if result.Profile != nil {
+		name = result.Profile.Name
+		native = result.Profile.NativeName
+	}
+	entry, ok := yokai.FindIndexByName(name)
+	if !ok {
+		entry, ok = yokai.FindIndexByName(native)
+	}
+	if !ok {
+		return nil
+	}
+	tags := append([]string{}, entry.Tags...)
+	if entry.Category != "" {
+		tags = append(tags, "category:"+entry.Category)
+	}
+	if entry.Tone != "" {
+		tags = append(tags, "tone:"+entry.Tone)
+	}
+	return tags
 }

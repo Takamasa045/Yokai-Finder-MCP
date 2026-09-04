@@ -1,0 +1,14 @@
+# Smithery / MCP registry helper. The published artifact is the Go binary;
+# this file describes a stdio start command for hosted listings.
+runtime: container
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({
+      command: "./yokai-finder-mcp",
+      args: [],
+      env: {}
+    })

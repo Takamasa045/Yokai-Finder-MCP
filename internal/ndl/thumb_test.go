@@ -50,4 +50,9 @@ func TestBuildCoverURLs(t *testing.T) {
 	if len(jpno.Candidates) == 0 {
 		t.Fatalf("expected JP number fallback candidates")
 	}
+
+	junk := BuildCoverURLs("", "../../../etc/passwd")
+	if len(junk.Candidates) != 0 {
+		t.Fatalf("expected invalid jpno to be rejected")
+	}
 }

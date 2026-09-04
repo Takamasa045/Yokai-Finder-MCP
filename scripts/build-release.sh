@@ -42,8 +42,11 @@ for target in "${targets[@]}"; do
   [[ "$goos" == "windows" ]] && binary_name+=".exe"
 
   mkdir -p "$package_dir"
+  version_plain="${version#v}"
   CGO_ENABLED=0 GOOS="$goos" GOARCH="$goarch" \
-    go build -trimpath -ldflags="-s -w" -o "$package_dir/$binary_name" ./cmd/server
+    go build -trimpath \
+      -ldflags="-s -w -X github.com/Takamasa045/Yokai-Finder-MCP/internal/version.Version=${version_plain}" \
+      -o "$package_dir/$binary_name" ./cmd/server
   cp README.md "$package_dir/README.md"
 
   if [[ "$archive_type" == "zip" ]]; then

@@ -11,6 +11,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/version"
 	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 	"golang.org/x/net/html"
 )
@@ -19,6 +20,7 @@ const (
 	ndlSearchURL = "https://ndlsearch.ndl.go.jp/api/opensearch"
 	defaultLimit = 10
 	maxLimit     = 100
+	maxBodyBytes = 2 << 20
 )
 
 // Client wraps access to the NDL OpenSearch endpoint.
@@ -29,12 +31,26 @@ type Client struct {
 
 // NewClient returns a client with sane defaults.
 func NewClient() *Client {
+	client := &http.Client{Timeout: 10 * time.Second}
+	client.CheckRedirect = sameHostRedirect
 	return &Client{
-		baseURL: ndlSearchURL,
-		httpClient: &http.Client{
-			Timeout: 10 * time.Second,
-		},
+		baseURL:    ndlSearchURL,
+		httpClient: client,
 	}
+}
+
+func sameHostRedirect(req *http.Request, via []*http.Request) error {
+	if len(via) >= 5 {
+		return fmt.Errorf("stopped after 5 redirects")
+	}
+	if len(via) == 0 {
+		return nil
+	}
+	origin := via[0].URL
+	if req.URL.Host != origin.Host || req.URL.Scheme != origin.Scheme {
+		return fmt.Errorf("refusing redirect from %s to %s", origin.Host, req.URL.Host)
+	}
+	return nil
 }
 
 // WithHTTPClient allows injecting a custom http.Client (useful for testing).
@@ -103,6 +119,8 @@ func (c *Client) SearchYokaiBooks(ctx context.Context, params types.YokaiSearchP
 	if err != nil {
 		return nil, fmt.Errorf("create request: %w", err)
 	}
+	req.Header.Set("User-Agent", userAgent())
+	req.Header.Set("Accept", "application/rss+xml, application/xml, text/xml")
 
 	resp, err := c.httpClient.Do(req)
 	if err != nil {
@@ -111,13 +129,16 @@ func (c *Client) SearchYokaiBooks(ctx context.Context, params types.YokaiSearchP
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		body, _ := io.ReadAll(io.LimitReader(resp.Body, 1024))
-		return nil, fmt.Errorf("ndl api status %d: %s", resp.StatusCode, string(body))
+		return nil, fmt.Errorf("ndl api status %d", resp.StatusCode)
 	}
 
-	body, err := io.ReadAll(resp.Body)
+	limited := io.LimitReader(resp.Body, maxBodyBytes+1)
+	body, err := io.ReadAll(limited)
 	if err != nil {
 		return nil, fmt.Errorf("read response: %w", err)
+	}
+	if len(body) > maxBodyBytes {
+		return nil, fmt.Errorf("ndl response exceeded %d bytes", maxBodyBytes)
 	}
 
 	result, err := parseRSS(body)
@@ -134,6 +155,10 @@ func (c *Client) buildAPIURL(query string, limit int) string {
 	params.Set("title", query)
 	params.Set("cnt", fmt.Sprintf("%d", limit))
 	return fmt.Sprintf("%s?%s", c.baseURL, params.Encode())
+}
+
+func userAgent() string {
+	return fmt.Sprintf("yokai-finder-mcp/%s (+https://github.com/Takamasa045/Yokai-Finder-MCP)", version.Version)
 }
 
 func buildQuery(params types.YokaiSearchParams) string {

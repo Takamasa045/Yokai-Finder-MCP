@@ -62,8 +62,8 @@ func TestProfilesHaveJapaneseLore(t *testing.T) {
 }
 
 func TestCuratedRosterIncludesNewYokai(t *testing.T) {
-	if got := len(Profiles()); got != 50 {
-		t.Fatalf("expected 50 curated yokai, got %d", got)
+	if got := len(Profiles()); got < 80 {
+		t.Fatalf("expected at least 80 curated yokai, got %d", got)
 	}
 
 	for _, name := range []string{"座敷童子", "鵺", "鎌鼬", "一反木綿", "天邪鬼", "のっぺらぼう", "酒呑童子", "玉藻前", "口裂け女", "付喪神"} {
@@ -78,6 +78,12 @@ func TestDailySeed(t *testing.T) {
 	seed := DailySeed(time.Date(2026, 7, 9, 23, 59, 0, 0, jst))
 	if seed != 20260709 {
 		t.Fatalf("expected daily seed 20260709, got %d", seed)
+	}
+
+	// 15:00 UTC on 9 July is already 00:00 JST on 10 July.
+	utc := time.Date(2026, 7, 9, 15, 0, 0, 0, time.UTC)
+	if got := DailySeed(utc); got != 20260710 {
+		t.Fatalf("expected UTC evening to roll to next JST day, got %d", got)
 	}
 
 	morning := DailySeed(time.Date(2026, 7, 9, 0, 0, 1, 0, jst))

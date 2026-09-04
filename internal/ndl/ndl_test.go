@@ -5,6 +5,7 @@ import (
 	"io"
 	"net/http"
 	"net/http/httptest"
+	"strings"
 	"testing"
 
 	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
@@ -37,6 +38,9 @@ func TestSearchYokaiBooks(t *testing.T) {
 	var requestCount int
 	mockServer := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		requestCount++
+		if ua := r.Header.Get("User-Agent"); !strings.Contains(ua, "yokai-finder-mcp/") {
+			t.Errorf("expected yokai-finder-mcp User-Agent, got %q", ua)
+		}
 		w.Header().Set("Content-Type", "application/rss+xml")
 		_, _ = w.Write([]byte(sampleRSS))
 	}))
@@ -81,6 +85,23 @@ func TestSearchYokaiBooks(t *testing.T) {
 
 	if requestCount != 1 {
 		t.Fatalf("expected 1 request, got %d", requestCount)
+	}
+}
+
+func TestSearchYokaiBooksRejectsHugeBody(t *testing.T) {
+	mockServer := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/rss+xml")
+		_, _ = w.Write(make([]byte, maxBodyBytes+2))
+	}))
+	defer mockServer.Close()
+
+	client := NewClient().WithBaseURL(mockServer.URL).WithHTTPClient(mockServer.Client())
+	_, err := client.SearchYokaiBooks(context.Background(), types.YokaiSearchParams{Name: "天狗"})
+	if err == nil {
+		t.Fatal("expected error for oversized NDL body")
+	}
+	if !strings.Contains(err.Error(), "exceeded") {
+		t.Fatalf("unexpected error: %v", err)
 	}
 }
 
