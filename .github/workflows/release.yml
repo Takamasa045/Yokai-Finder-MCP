@@ -19,13 +19,13 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Check out release tools
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           path: release-tools
           persist-credentials: false
 
       - name: Check out the release source
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           ref: ${{ inputs.tag || github.ref }}
           path: source
