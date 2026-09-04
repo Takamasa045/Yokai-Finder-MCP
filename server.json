@@ -2,12 +2,12 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
   "name": "io.github.takamasa045/yokai-finder",
   "title": "Yokai Finder",
-  "description": "Suggest Japanese yokai from vague vibes, browse a 177-entry tagged index, read 133 bilingual encyclopedia cards, and search the National Diet Library.",
+  "description": "Suggest Japanese yokai from vague vibes, browse a 191-entry tagged index, read 172 bilingual encyclopedia cards, and search the National Diet Library.",
   "repository": {
     "url": "https://github.com/Takamasa045/Yokai-Finder-MCP",
     "source": "github"
   },
-  "version": "0.7.0",
+  "version": "0.8.0",
   "packages": [
     {
       "registryType": "mcpb",

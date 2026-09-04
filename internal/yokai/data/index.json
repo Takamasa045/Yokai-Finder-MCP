@@ -2903,5 +2903,229 @@
     ],
     "tone": "solemn",
     "famousRank": 4
+  },
+  {
+    "name": "Mujina",
+    "nativeName": "貉",
+    "category": "狐狸",
+    "region": "江戸・全国",
+    "blurbJa": "人に化け、のっぺらぼうと混同されやすい穴居の変化。",
+    "tags": [
+      "狸",
+      "変化",
+      "入門",
+      "怖い",
+      "江戸"
+    ],
+    "tone": "mysterious",
+    "famousRank": 2
+  },
+  {
+    "name": "Ohaguro-bettari",
+    "nativeName": "お歯黒べったり",
+    "category": "異形",
+    "region": "夜道・屋敷",
+    "blurbJa": "美しい女に見えて振り返ると、お歯黒の口だけの顔。",
+    "tags": [
+      "女",
+      "怖い",
+      "夜道",
+      "入門",
+      "異形"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Karasu-tengu",
+    "nativeName": "烏天狗",
+    "category": "山系",
+    "region": "修験の山",
+    "blurbJa": "烏の顔と翼を持つ天狗。大天狗の部下として描かれることも多い。",
+    "tags": [
+      "山",
+      "翼",
+      "烏",
+      "修行",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Guhin",
+    "nativeName": "狗賓",
+    "category": "山系",
+    "region": "中国地方の山",
+    "blurbJa": "天狗に近い山の神・妖怪。犬を連れる、または犬顔とも。",
+    "tags": [
+      "山",
+      "犬",
+      "天狗",
+      "古典",
+      "護り"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Izuna",
+    "nativeName": "飯綱",
+    "category": "憑きもの",
+    "region": "信州・修験",
+    "blurbJa": "管狐に近い使役狐。飯綱権現の法と結びつく。",
+    "tags": [
+      "狐",
+      "憑きもの",
+      "修験",
+      "信州",
+      "使役"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Yaobikuni",
+    "nativeName": "八百比丘尼",
+    "category": "海",
+    "region": "若狭・越前",
+    "blurbJa": "人魚の肉を食べ八百歳まで生きた尼。不老の代償を語る。",
+    "tags": [
+      "人魚",
+      "不老",
+      "尼",
+      "古典",
+      "海"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Inugami-gyobu",
+    "nativeName": "隠神刑部",
+    "category": "狐狸",
+    "region": "讃岐・屋島",
+    "blurbJa": "屋島の化け狸の棟梁。源平の戦場を棲みかとする大狸。",
+    "tags": [
+      "狸",
+      "四国",
+      "古典",
+      "変化",
+      "戦い"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Shibaemon-tanuki",
+    "nativeName": "芝右衛門狸",
+    "category": "狐狸",
+    "region": "淡路",
+    "blurbJa": "淡路の大狸。芝居見物に化けていき、最後は正体を見破られる。",
+    "tags": [
+      "狸",
+      "変化",
+      "芝居",
+      "淡路",
+      "悲劇"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Hienma",
+    "nativeName": "飛縁魔",
+    "category": "死霊",
+    "region": "色恋の災い",
+    "blurbJa": "男に取りついて色欲を煽り、身を滅ぼす女の魔。",
+    "tags": [
+      "女",
+      "恋",
+      "怖い",
+      "呪い",
+      "死霊"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Himamushi-nyudo",
+    "nativeName": "火間虫入道",
+    "category": "屋敷",
+    "region": "台所・灯火",
+    "blurbJa": "灯の油を舐める細長い入道。夜の台所に出る。",
+    "tags": [
+      "屋敷",
+      "油",
+      "灯火",
+      "怖い",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Aoi-fuku-no-onna",
+    "nativeName": "青い服の女",
+    "category": "現代伝承",
+    "region": "学校・夜道",
+    "blurbJa": "青い服の女が後をつける都市伝説。口裂け女の色違い型。",
+    "tags": [
+      "現代",
+      "学校",
+      "怖い",
+      "都市伝説",
+      "女"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Yagyo-san",
+    "nativeName": "夜行さん",
+    "category": "道中",
+    "region": "夜の往来",
+    "blurbJa": "夜に行列する神や妖怪の通行。出会うと道を譲れと言われる。",
+    "tags": [
+      "夜道",
+      "行列",
+      "神",
+      "道中",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Byakko",
+    "nativeName": "白狐",
+    "category": "狐狸",
+    "region": "稲荷・全国",
+    "blurbJa": "白い狐。稲荷の使いとも、歳を経た善狐ともされる。",
+    "tags": [
+      "狐",
+      "稲荷",
+      "白い",
+      "護り",
+      "入門"
+    ],
+    "tone": "gentle",
+    "famousRank": 2
+  },
+  {
+    "name": "Yonaki-baba",
+    "nativeName": "夜泣き婆",
+    "category": "屋敷",
+    "region": "産室・夜",
+    "blurbJa": "夜に乳飲み子のように泣く婆。産女や子泣き爺と隣り合う。",
+    "tags": [
+      "屋敷",
+      "夜",
+      "泣く",
+      "怖い",
+      "子"
+    ],
+    "tone": "horror",
+    "famousRank": 3
   }
 ]

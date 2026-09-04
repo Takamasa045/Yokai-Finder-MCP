@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.8.0
+
+- Encyclopedia grew to 172 bilingual cards; the index is now 191 names.
+- New entries include 貉, お歯黒べったり, 烏天狗, 狗賓, 飯綱, 八百比丘尼, 隠神刑部, 芝右衛門狸, 白狐, 夜行さん, 青い服の女.
+- Roster cards added for 白蔵主, 野狐, 大首, 七人みさき, 逆柱, 朧車, ぼろぼろとん, 波山, オサキ, 目競, 牛頭, 馬頭, and others.
+
 ## 0.7.0
 
 - Encyclopedia grew to 133 bilingual cards; the index is now 177 names.

@@ -4281,5 +4281,1311 @@
       "Hizen prophetic mermaid prints",
       "Related to amabie/amabiko"
     ]
+  },
+  {
+    "name": "Mujina",
+    "nativeName": "貉",
+    "region": "Edo streets and dens",
+    "category": "狐狸",
+    "categoryEn": "Badger shapeshifter",
+    "summary": "A burrowing shapeshifter often blamed for faceless-stranger scares; later mixed up with nopperabou.",
+    "summaryJa": "穴に棲む変化。人に化けてのっぺらぼう譚と混同されやすい。",
+    "legends": [
+      "A helpful stranger on a dark bank has no face when you thank them",
+      "A den under the temple leaks human clothes"
+    ],
+    "traits": [
+      "Badger body",
+      "Faceless prank",
+      "Edo setting"
+    ],
+    "motifs": [
+      "Mistaken identity",
+      "Riverbank",
+      "Nopperabou neighbour"
+    ],
+    "funFact": "Lafcadio Hearn's 'Mujina' is really a nopperabou tale; keep the animal and the faceless scare distinct when you can.",
+    "funFactJa": "ハーンの『Mujina』は実質のっぺらぼう話。動物の貉と顔なしを分けて書くとわかりやすい。",
+    "searchQuery": "貉 むじな のっぺらぼう",
+    "creativeHooks": [
+      "A wildlife cam that only records human backs.",
+      "The riverbank apology with no face to accept it."
+    ],
+    "sources": [
+      "Edo kaidan",
+      "Hearn's Kwaidan as later overlay"
+    ]
+  },
+  {
+    "name": "Ohaguro-bettari",
+    "nativeName": "お歯黒べったり",
+    "region": "Night roads and parlours",
+    "category": "異形",
+    "categoryEn": "Black-toothed blank face",
+    "summary": "A beautiful woman who, when you look back, is only a mouth of ohaguro on a blank face.",
+    "summaryJa": "美しい女に見えて振り返ると、お歯黒の大きな口だけの顔。",
+    "legends": [
+      "A courteous invitation to walk together",
+      "The smile is all teeth and no eyes"
+    ],
+    "traits": [
+      "Ohaguro mouth",
+      "Otherwise featureless",
+      "Looks back scare"
+    ],
+    "motifs": [
+      "Makeup as trap",
+      "Night road",
+      "Related to nopperabou"
+    ],
+    "funFact": "Ohaguro marked adult women; the yokai turns a beauty sign into the only remaining feature.",
+    "funFactJa": "お歯黒は成人女性のしるし。妖怪化すると、それが顔の唯一の部品になる。",
+    "searchQuery": "お歯黒べったり 妖怪",
+    "creativeHooks": [
+      "A dating profile that is only a smile.",
+      "The lantern lights teeth, nothing else."
+    ],
+    "sources": [
+      "Edo pictorial yokai",
+      "Nopperabou family"
+    ]
+  },
+  {
+    "name": "Karasu-tengu",
+    "nativeName": "烏天狗",
+    "region": "Shugendo mountains",
+    "category": "山系",
+    "categoryEn": "Crow tengu",
+    "summary": "A crow-headed, winged tengu, often drawn as the working martial subordinate of a long-nosed daitengu.",
+    "summaryJa": "烏の頭と翼の天狗。鼻高の大天狗の部下として描かれることが多い。",
+    "legends": [
+      "A black wing knocks a boastful swordsman into a ravine",
+      "Yamabushi hear crows speaking in verse"
+    ],
+    "traits": [
+      "Crow face",
+      "Wings",
+      "Martial drill"
+    ],
+    "motifs": [
+      "Hierarchy of tengu",
+      "Mountain austerity",
+      "Bird omen"
+    ],
+    "funFact": "Use this when you need tengu as a flock or a scout, not as a lone mountain lord.",
+    "funFactJa": "一匹狼の山の主ではなく、群れや斥候としての天狗が欲しいときに使う。",
+    "searchQuery": "烏天狗 天狗",
+    "creativeHooks": [
+      "A dojo whose senpai never remove their masks.",
+      "Drone scouts with feathers."
+    ],
+    "sources": [
+      "Shugendo tengu typology"
+    ]
+  },
+  {
+    "name": "Guhin",
+    "nativeName": "狗賓",
+    "region": "Chugoku-region mountains",
+    "category": "山系",
+    "categoryEn": "Dog-guest tengu",
+    "summary": "A mountain power close to tengu, sometimes dog-faced or leading dogs, treated as a dangerous guest-god.",
+    "summaryJa": "天狗に近い山の存在。犬顔、または犬を連れる。賓客であり危険な神でもある。",
+    "legends": [
+      "Hunters leave a share of the kill at a pass",
+      "A pack of dogs walks ahead of an unseen master"
+    ],
+    "traits": [
+      "Canine companion",
+      "Mountain guest",
+      "Tengu cousin"
+    ],
+    "motifs": [
+      "Hospitality",
+      "Hunting",
+      "Western Honshu"
+    ],
+    "funFact": "The name is 'dog guest': treat it as a being you host carefully, not a mascot wolf.",
+    "funFactJa": "名は『狗の賓客』。マスコットの狼ではなく、丁寧に宿す相手。",
+    "searchQuery": "狗賓 天狗 妖怪",
+    "creativeHooks": [
+      "A hunting app that demands an offering pin.",
+      "The guest room is a cave."
+    ],
+    "sources": [
+      "Regional tengu/guhin lore"
+    ]
+  },
+  {
+    "name": "Izuna",
+    "nativeName": "飯綱",
+    "region": "Shinano shugendo",
+    "category": "憑きもの",
+    "categoryEn": "Izuna fox",
+    "summary": "A employed fox spirit bound to Izuna Gongen practice, kin to kudagitsune and osaki.",
+    "summaryJa": "飯綱権現の法と結びつく使役狐。管狐やオサキと同系。",
+    "legends": [
+      "A mountain ascetic keeps a fox for errands",
+      "A household's luck is too precise to be chance"
+    ],
+    "traits": [
+      "Familiar fox",
+      "Ritual employment",
+      "Shinshu"
+    ],
+    "motifs": [
+      "Shugendo",
+      "Possession families",
+      "Pipe-fox neighbour"
+    ],
+    "funFact": "Izuna is the doctrinal name; kudagitsune is the household gadget. They overlap on the ground.",
+    "funFactJa": "飯綱は教義側の名、管狐は家の道具側の名。現場では重なる。",
+    "searchQuery": "飯綱 いずな 管狐",
+    "creativeHooks": [
+      "A shrine API whose tokens are foxes.",
+      "The mountain licence is a living animal."
+    ],
+    "sources": [
+      "Izuna Gongen",
+      "Tsukimono studies"
+    ]
+  },
+  {
+    "name": "Yaobikuni",
+    "nativeName": "八百比丘尼",
+    "region": "Wakasa and Echizen coasts",
+    "category": "海",
+    "categoryEn": "Eight-hundred nun",
+    "summary": "A nun who ate mermaid flesh and lived eight centuries, watching everyone she loved die.",
+    "summaryJa": "人魚の肉を食べ、八百歳まで生きた尼。愛する者を先に送る不老の話。",
+    "legends": [
+      "A child tastes a forbidden meat at a fishermen's feast",
+      "An ageless nun walks out of a village that has forgotten her name"
+    ],
+    "traits": [
+      "Unaging face",
+      "Nun's robes",
+      "Mermaid meal"
+    ],
+    "motifs": [
+      "Cost of longevity",
+      "Coastal food taboo",
+      "Witness"
+    ],
+    "funFact": "The horror is not the mermaid; it is outliving the ledger of the town.",
+    "funFactJa": "怖さは人魚そのものより、町の台帳より長く生きてしまうことにある。",
+    "searchQuery": "八百比丘尼 人魚 若狭",
+    "creativeHooks": [
+      "A census form that never closes.",
+      "The mermaid sashimi is a contract."
+    ],
+    "sources": [
+      "Wakasa/Echizen nun legends",
+      "Ningyo flesh cycle"
+    ]
+  },
+  {
+    "name": "Inugami-gyobu",
+    "nativeName": "隠神刑部",
+    "region": "Yashima, Sanuki",
+    "category": "狐狸",
+    "categoryEn": "Gyobu tanuki",
+    "summary": "The chief of the shapeshifting tanuki of Yashima, said to haunt the old Genpei battlefield.",
+    "summaryJa": "屋島の化け狸の棟梁。源平の古戦場を棲みかとする。",
+    "legends": [
+      "Lanterns move on the ridge with no festival",
+      "A samurai's helmet is worn by something too short"
+    ],
+    "traits": [
+      "Great tanuki",
+      "Battlefield den",
+      "Leader of a pack"
+    ],
+    "motifs": [
+      "Yashima",
+      "War memory",
+      "Tanuki polity"
+    ],
+    "funFact": "A local rival to Shibaemon of Awaji: regional tanuki as feudal lords, not just tricksters.",
+    "funFactJa": "淡路の芝右衛門と対になる土地の大狸。悪戯者というより領主。",
+    "searchQuery": "隠神刑部 屋島 狸",
+    "creativeHooks": [
+      "A tourist tram whose conductor remembers 1185.",
+      "The castle mascot is the landlord."
+    ],
+    "sources": [
+      "Sanuki tanuki lore",
+      "Yashima"
+    ]
+  },
+  {
+    "name": "Shibaemon-tanuki",
+    "nativeName": "芝右衛門狸",
+    "region": "Awaji",
+    "category": "狐狸",
+    "categoryEn": "Shibaemon of Awaji",
+    "summary": "An Awaji tanuki who disguised himself to watch kabuki in Osaka and died when a dog, or a sharp eye, exposed him.",
+    "summaryJa": "淡路の大狸。大坂の芝居見物に化けていき、犬や見抜く目で正体がバレて死ぬ。",
+    "legends": [
+      "A generous patron never ages in the same seat",
+      "A dog barks at an empty box"
+    ],
+    "traits": [
+      "Theatre-going tanuki",
+      "Fatal exposure",
+      "Awaji origin"
+    ],
+    "motifs": [
+      "Performance",
+      "Homesickness",
+      "Death of a disguise"
+    ],
+    "funFact": "The tragedy is urban entertainment: the countryside spirit cannot survive the city gaze.",
+    "funFactJa": "悲劇は都会の見物にある。里の精は都会の眼差しに弱い。",
+    "searchQuery": "芝右衛門狸 淡路",
+    "creativeHooks": [
+      "A streaming account that is a tanuki.",
+      "The interval snack is the last scene."
+    ],
+    "sources": [
+      "Awaji tanuki tales",
+      "Kamigata theatre lore"
+    ]
+  },
+  {
+    "name": "Hienma",
+    "nativeName": "飛縁魔",
+    "region": "Affairs and ruined houses",
+    "category": "死霊",
+    "categoryEn": "Flying-bond demon",
+    "summary": "A female spirit that inflames lust, attaches to a man, and burns through his household.",
+    "summaryJa": "男に取りついて色欲を煽り、家を傾ける女の魔。",
+    "legends": [
+      "A respectable merchant ruins himself for a woman no neighbour can describe",
+      "Divorce papers write themselves"
+    ],
+    "traits": [
+      "Attachment",
+      "Inflamed desire",
+      "Household collapse"
+    ],
+    "motifs": [
+      "Erotic doom",
+      "Flying bond",
+      "Moral picture"
+    ],
+    "funFact": "Closer to a didactic kaidan than to a succubus import; keep the household, not just the bedroom.",
+    "funFactJa": "輸入サキュバスより教訓怪談に近い。寝室だけでなく家全体を書く。",
+    "searchQuery": "飛縁魔 妖怪",
+    "creativeHooks": [
+      "A dating app whose match is a lien on the house.",
+      "The family altar counts the nights."
+    ],
+    "sources": [
+      "Edo moral kaidan types"
+    ]
+  },
+  {
+    "name": "Himamushi-nyudo",
+    "nativeName": "火間虫入道",
+    "region": "Kitchens and lamps",
+    "category": "屋敷",
+    "categoryEn": "Hearth-insect monk",
+    "summary": "A long, licking nyudo that steals lamp oil from the hearth, a cousin to abura-akago.",
+    "summaryJa": "灯の油を舐める細長い入道。油赤子の近縁で、夜の台所に出る。",
+    "legends": [
+      "The lamp dies though the oil was full at dusk",
+      "A long tongue between the floorboards"
+    ],
+    "traits": [
+      "Oil thief",
+      "Elongated monk",
+      "Kitchen night"
+    ],
+    "motifs": [
+      "Stolen light",
+      "Household economy",
+      "Related to abura-akago"
+    ],
+    "funFact": "Oil was expensive; this yokai is a utility bill with teeth.",
+    "funFactJa": "油は高かった。この妖怪は歯のある光熱費である。",
+    "searchQuery": "火間虫入道 油赤子 妖怪",
+    "creativeHooks": [
+      "A smart bulb that sips the meter.",
+      "The hearth is a mouth."
+    ],
+    "sources": [
+      "Oil-stealing yokai types",
+      "Sekien-adjacent kitchen lore"
+    ]
+  },
+  {
+    "name": "Aoi-fuku-no-onna",
+    "nativeName": "青い服の女",
+    "region": "Schools and night roads",
+    "category": "現代伝承",
+    "categoryEn": "Woman in blue",
+    "summary": "An urban-legend woman in blue who follows students; a colour-variant of kuchisake-onna cycles.",
+    "summaryJa": "青い服の女が後をつける都市伝説。口裂け女系の色違い。",
+    "legends": [
+      "A student is asked whether blue suits them",
+      "The figure is always just one streetlight behind"
+    ],
+    "traits": [
+      "Blue clothes",
+      "Following",
+      "School road"
+    ],
+    "motifs": [
+      "Urban legend",
+      "Colour choice",
+      "Kuchisake neighbour"
+    ],
+    "funFact": "Red cape, blue clothes, slit mouth: the engine is the forced question on the way home.",
+    "funFactJa": "赤いマント、青い服、口裂け。仕組みは帰り道の強制質問である。",
+    "searchQuery": "青い服の女 都市伝説",
+    "creativeHooks": [
+      "A uniform code that is a curse.",
+      "The last bus is always one seat blue."
+    ],
+    "sources": [
+      "School urban-legend cycles"
+    ]
+  },
+  {
+    "name": "Yagyo-san",
+    "nativeName": "夜行さん",
+    "region": "Night roads",
+    "category": "道中",
+    "categoryEn": "Night procession",
+    "summary": "A night procession of gods or yokai; travellers are told to step aside or be taken along.",
+    "summaryJa": "夜に神や妖怪の行列が通る。出会ったら道を譲れ、さもないと連れていかれる。",
+    "legends": [
+      "Horses and lights with no festival permit",
+      "A voice says 'down in the ditch' and is correct"
+    ],
+    "traits": [
+      "Invisible parade",
+      "Right of way",
+      "Night calendar"
+    ],
+    "motifs": [
+      "Kami procession",
+      "Road etiquette",
+      "Dangerous honour"
+    ],
+    "funFact": "Related to hyakki yagyo, but yagyo-san is the local traffic rule, not the picture-scroll riot.",
+    "funFactJa": "百鬼夜行の絵巻騒ぎというより、土地の交通ルールとしての夜の行列。",
+    "searchQuery": "夜行さん 百鬼夜行",
+    "creativeHooks": [
+      "A detour sign that is theology.",
+      "Ride-share surge at 2 a.m. with no cars."
+    ],
+    "sources": [
+      "Night-procession folklore",
+      "Related to hyakki yagyo"
+    ]
+  },
+  {
+    "name": "Byakko",
+    "nativeName": "白狐",
+    "region": "Inari shrines nationwide",
+    "category": "狐狸",
+    "categoryEn": "White fox",
+    "summary": "A white fox, often the Inari messenger or an aged benevolent kitsune, distinct from the nine-tailed court fox.",
+    "summaryJa": "白い狐。稲荷の使い、または年経た善狐。九尾の宮中狐とは別の顔。",
+    "legends": [
+      "A white animal leads a lost child to the torii",
+      "Offerings vanish in a straight line of pawprints"
+    ],
+    "traits": [
+      "White coat",
+      "Shrine messenger",
+      "Auspicious"
+    ],
+    "motifs": [
+      "Inari",
+      "Guidance",
+      "Not Tamamo-no-Mae"
+    ],
+    "funFact": "Do not collapse every white fox into Tamamo; most shrine foxes are staff, not courtesans.",
+    "funFactJa": "白い狐をすべて玉藻前にしない。社の狐は多くの場合、職員である。",
+    "searchQuery": "白狐 稲荷 狐",
+    "creativeHooks": [
+      "A shrine map whose pins are pawprints.",
+      "The staff badge is a white tail."
+    ],
+    "sources": [
+      "Inari messenger lore"
+    ]
+  },
+  {
+    "name": "Yonaki-baba",
+    "nativeName": "夜泣き婆",
+    "region": "Birth rooms and night houses",
+    "category": "屋敷",
+    "categoryEn": "Night-crying hag",
+    "summary": "An old woman who cries like an infant at night, neighbour to ubume and konaki-jiji.",
+    "summaryJa": "夜に乳飲み子のように泣く婆。産女や子泣き爺と隣り合う屋敷の怪異。",
+    "legends": [
+      "A house with no baby still needs rocking",
+      "The cry moves from the closet to the well"
+    ],
+    "traits": [
+      "Infant cry from an old throat",
+      "Night",
+      "Unsettles parents"
+    ],
+    "motifs": [
+      "Care labour",
+      "False child",
+      "Household sleep"
+    ],
+    "funFact": "The scare is misdirected care: you go to soothe, and the thing that needed you is not a child.",
+    "funFactJa": "怖さは世話の取り違え。なだめに行く先が子どもではない。",
+    "searchQuery": "夜泣き婆 妖怪",
+    "creativeHooks": [
+      "A baby monitor that prefers the attic.",
+      "Lullabies that age the singer."
+    ],
+    "sources": [
+      "Night-crying hag types",
+      "Related to ubume/konaki-jiji"
+    ]
+  },
+  {
+    "name": "Hakuzosu",
+    "nativeName": "白蔵主",
+    "region": "Temple foxes",
+    "category": "狐狸",
+    "categoryEn": "Hakuzosu",
+    "summary": "A fox that impersonates the priest Hakuzosu, a classic 'fox as holy man' trick.",
+    "summaryJa": "僧・白蔵主に化けた狐。聖者に化ける狐譚の代表。",
+    "legends": [
+      "A learned sermon is a little too interested in fried mice",
+      "The abbot's shadow has a tail"
+    ],
+    "traits": [
+      "Priest disguise",
+      "Fox appetite",
+      "Temple comedy"
+    ],
+    "motifs": [
+      "Kyogen and kaidan",
+      "False holiness",
+      "Fox"
+    ],
+    "funFact": "Often staged as kyogen: the audience knows before the disciples do.",
+    "funFactJa": "狂言でも知られる。観客は弟子より先にバレている。",
+    "searchQuery": "白蔵主 狐 狂言",
+    "creativeHooks": [
+      "A livestreamed sermon with one glitching ear.",
+      "The offertory is fried tofu."
+    ],
+    "sources": [
+      "Hakuzosu kyogen/kaidan cycle"
+    ]
+  },
+  {
+    "name": "Yako",
+    "nativeName": "野狐",
+    "region": "Fields and low ranks of foxes",
+    "category": "狐狸",
+    "categoryEn": "Field fox",
+    "summary": "A low-ranking, mischievous field fox, contrast to tenko and zenko shrine foxes.",
+    "summaryJa": "位の低い野の狐。天狐や善狐より悪戯が先に立つ。",
+    "legends": [
+      "Travellers are led in circles in a millet field",
+      "A wedding lantern is only one fox"
+    ],
+    "traits": [
+      "Low rank",
+      "Field",
+      "Cheap illusion"
+    ],
+    "motifs": [
+      "Fox hierarchy",
+      "Rural night",
+      "Not Inari staff"
+    ],
+    "funFact": "Useful when you need a kitsune that is not wise and not nine-tailed.",
+    "funFactJa": "賢くも九尾でもない狐が欲しいときに使う。",
+    "searchQuery": "野狐 狐 妖怪",
+    "creativeHooks": [
+      "A GPS spoof in the barley.",
+      "The illusion budget is small."
+    ],
+    "sources": [
+      "Fox-rank folklore"
+    ]
+  },
+  {
+    "name": "Okubi",
+    "nativeName": "大首",
+    "region": "Sky over towns",
+    "category": "異形",
+    "categoryEn": "Giant head",
+    "summary": "A huge human head that fills the sky or the gate, an omen or a shock with no body attached.",
+    "summaryJa": "空や門いっぱいに巨大な人の首が現れる。本体のない驚き、または前兆。",
+    "legends": [
+      "The moon is replaced by a face",
+      "A gate cannot be closed because the head is the gate"
+    ],
+    "traits": [
+      "Disembodied giant head",
+      "Sky or threshold",
+      "Omen"
+    ],
+    "motifs": [
+      "Scale",
+      "Portrait as monster",
+      "Urban scare"
+    ],
+    "funFact": "Cousin to nukekubi, but this one never had a convenient body to return to.",
+    "funFactJa": "抜け首の近縁だが、戻るべき体を最初から持たない。",
+    "searchQuery": "大首 妖怪",
+    "creativeHooks": [
+      "A billboard that inhales.",
+      "Weather reports of facial cloud."
+    ],
+    "sources": [
+      "Giant-head kaidan types"
+    ]
+  },
+  {
+    "name": "Sodehiki-kozo",
+    "nativeName": "袖引き小僧",
+    "region": "Town alleys at night",
+    "category": "町",
+    "categoryEn": "Sleeve-tugging boy",
+    "summary": "A child who tugs a sleeve in the dark and vanishes; a town cousin of zashiki-warashi with worse timing.",
+    "summaryJa": "暗がりで袖を引いて消える小僧。座敷童子の町版で、タイミングが悪い。",
+    "legends": [
+      "A drunk feels a small pull toward a ditch",
+      "The sleeve is wet though there was no rain"
+    ],
+    "traits": [
+      "Child stature",
+      "Tugs clothing",
+      "Alley"
+    ],
+    "motifs": [
+      "Urban night",
+      "False guide",
+      "Petty fright"
+    ],
+    "funFact": "Not always malicious; sometimes it only wants you to notice the hole in the street.",
+    "funFactJa": "悪意ばかりではない。道の穴に気づけ、というだけの話もある。",
+    "searchQuery": "袖引き小僧 妖怪",
+    "creativeHooks": [
+      "A notification that is a tug.",
+      "The alley has a child-shaped pothole."
+    ],
+    "sources": [
+      "Town-child yokai types"
+    ]
+  },
+  {
+    "name": "Azuki-hakari",
+    "nativeName": "小豆はかり",
+    "region": "Houses after midnight",
+    "category": "屋敷",
+    "categoryEn": "Bean-weighing",
+    "summary": "The sound of azuki beans being measured in an empty house, kin to azuki-arai.",
+    "summaryJa": "誰もいない家で小豆を量る音がする。小豆洗いの屋敷版。",
+    "legends": [
+      "The counting never makes a round number",
+      "Opening the store-room stops the sound, which then starts in the ceiling"
+    ],
+    "traits": [
+      "Invisible merchant",
+      "Bean-counting",
+      "Empty house"
+    ],
+    "motifs": [
+      "Domestic economy",
+      "Sound without source",
+      "Azuki-arai neighbour"
+    ],
+    "funFact": "If azuki-arai is the river, azuki-hakari is the pantry doing the same work.",
+    "funFactJa": "小豆洗いが川なら、小豆はかりは台所で同じ仕事をしている。",
+    "searchQuery": "小豆はかり 小豆洗い 妖怪",
+    "creativeHooks": [
+      "A smart scale that inventories ghosts.",
+      "The recipe never finishes."
+    ],
+    "sources": [
+      "Household sound yokai",
+      "Related to azuki-arai"
+    ]
+  },
+  {
+    "name": "Okuchi-no-makami",
+    "nativeName": "大口真神",
+    "region": "Mountain wolves",
+    "category": "山系",
+    "categoryEn": "Great-mouthed true god",
+    "summary": "A wolf deity of the mountains, later folded into yokai lists; both protector of travellers and devourer.",
+    "summaryJa": "山の狼神。後に妖怪図鑑にも入る。旅人の守りでもあり、食らう神でもある。",
+    "legends": [
+      "A pack escorts a lost pilgrim to the pass, then vanishes",
+      "A child who mocks the shrine is gone at dawn"
+    ],
+    "traits": [
+      "Wolf god",
+      "Huge mouth",
+      "Ambiguous protection"
+    ],
+    "motifs": [
+      "Okuchiyama / mountain faith",
+      "Travel",
+      "Not just a monster wolf"
+    ],
+    "funFact": "Makami is a kami first. If you write hunger, write it as a rite, not a slasher beat.",
+    "funFactJa": "真神はまず神である。飢えを書くなら儀式として書き、ただの殺人鬼にしない。",
+    "searchQuery": "大口真神 狼 神",
+    "creativeHooks": [
+      "A trail guardian whose fee is silence.",
+      "The shrine's ema are all teeth."
+    ],
+    "sources": [
+      "Wolf-kami mountain faith"
+    ]
+  },
+  {
+    "name": "Kawa-akago",
+    "nativeName": "川赤子",
+    "region": "Rivers and irrigation",
+    "category": "水系",
+    "categoryEn": "River infant",
+    "summary": "A baby crying in the current; pick it up and it becomes heavy as stone, a kappa-adjacent trap.",
+    "summaryJa": "流れで泣く赤子。抱き上げると石のように重くなる。河童に近い罠。",
+    "legends": [
+      "A kind traveller wades in and cannot stand up",
+      "The cry is perfectly timed for dusk chores"
+    ],
+    "traits": [
+      "Infant shape",
+      "Sudden weight",
+      "River"
+    ],
+    "motifs": [
+      "False child",
+      "Irrigation",
+      "Kappa neighbour"
+    ],
+    "funFact": "Same engine as konaki-jiji: compassion is the hook.",
+    "funFactJa": "子泣き爺と同じ装置。慈悲がフック。",
+    "searchQuery": "川赤子 河童 妖怪",
+    "creativeHooks": [
+      "A rescue drone that gets heavier with kindness.",
+      "The irrigation schedule includes a lullaby."
+    ],
+    "sources": [
+      "River-child yokai",
+      "Related to kappa/konaki-jiji"
+    ]
+  },
+  {
+    "name": "Kamikiri",
+    "nativeName": "髪切り",
+    "region": "Towns at dusk",
+    "category": "町",
+    "categoryEn": "Hair-cutter",
+    "summary": "An unseen snip that cuts a lock of hair in a crowd or a dark street, leaving the victim unharmed but marked.",
+    "summaryJa": "人混みや暗がりで髪だけが切られる。怪我はないが印が残る。",
+    "legends": [
+      "A woman finds her mage shortened between two lanterns",
+      "Scissors with no tailor"
+    ],
+    "traits": [
+      "Invisible shears",
+      "Hair as target",
+      "Town dusk"
+    ],
+    "motifs": [
+      "Honour and hair",
+      "Petty violation",
+      "Amikiri cousin"
+    ],
+    "funFact": "Amikiri cuts nets; kamikiri cuts status you wear on your head.",
+    "funFactJa": "網切が網なら、髪切りは頭に載せた体面を切る。",
+    "searchQuery": "髪切り 妖怪",
+    "creativeHooks": [
+      "A salon appointment you did not book.",
+      "CCTV of a snip and empty air."
+    ],
+    "sources": [
+      "Edo town rumours",
+      "Related to amikiri"
+    ]
+  },
+  {
+    "name": "Mezu",
+    "nativeName": "馬頭",
+    "region": "Hell's gate in temple art",
+    "category": "死霊",
+    "categoryEn": "Horse-headed jailer",
+    "summary": "The horse-headed jailer of Buddhist hell, paired with gozu; listed among yokai when hell leaks into the living world.",
+    "summaryJa": "地獄の馬頭の獄卒。牛頭と対。地獄が現世に漏れた話で妖怪名簿に入る。",
+    "legends": [
+      "A deathbed vision of a horse-headed officer with a ledger",
+      "Temple paintings that seem to look back"
+    ],
+    "traits": [
+      "Horse head",
+      "Jailer",
+      "Paired with ox-head"
+    ],
+    "motifs": [
+      "Jigoku",
+      "Judgement",
+      "Temple icon"
+    ],
+    "funFact": "These are officers, not random beasts. Keep the clipboard.",
+    "funFactJa": "無作為の獣ではなく吏員である。台帳を残す。",
+    "searchQuery": "馬頭 牛頭 地獄",
+    "creativeHooks": [
+      "A hospital night shift whose supervisor has a muzzle.",
+      "The intake form is a sutra."
+    ],
+    "sources": [
+      "Buddhist hell iconography"
+    ]
+  },
+  {
+    "name": "Gozu",
+    "nativeName": "牛頭",
+    "region": "Hell's gate in temple art",
+    "category": "死霊",
+    "categoryEn": "Ox-headed jailer",
+    "summary": "The ox-headed jailer of hell, paired with mezu; appears in living-world omens and temple scares.",
+    "summaryJa": "地獄の牛頭の獄卒。馬頭と対。現世の前兆や寺の怖い話に出る。",
+    "legends": [
+      "The smell of a byre in a hall with no cattle",
+      "A pair of silhouettes at the enma gate"
+    ],
+    "traits": [
+      "Ox head",
+      "Jailer",
+      "Paired with horse-head"
+    ],
+    "motifs": [
+      "Jigoku",
+      "Judgement",
+      "Temple icon"
+    ],
+    "funFact": "Always write gozu with mezu; splitting them is like splitting a pair of scissors.",
+    "funFactJa": "牛頭は馬頭と組で書く。ばらすのは鋏を半分にすることに近い。",
+    "searchQuery": "牛頭 馬頭 地獄",
+    "creativeHooks": [
+      "Customs at the afterlife with livestock masks.",
+      "The stamp is a hoof."
+    ],
+    "sources": [
+      "Buddhist hell iconography"
+    ]
+  },
+  {
+    "name": "Andon-obake",
+    "nativeName": "行灯お化け",
+    "region": "Paper lanterns",
+    "category": "付喪神",
+    "categoryEn": "Andon tsukumogami",
+    "summary": "A paper-and-wood andon that grows a face, cousin to chochin-obake with a heavier, indoor body.",
+    "summaryJa": "木と紙の行灯が顔を持つ。提灯お化けの室内版で、少し重い。",
+    "legends": [
+      "The reading lamp leans in to look at the page",
+      "Oil smoke arranges itself into an eye"
+    ],
+    "traits": [
+      "Wooden frame",
+      "Paper glow",
+      "Indoor lantern"
+    ],
+    "motifs": [
+      "Tsukumogami",
+      "Reading at night",
+      "Chochin cousin"
+    ],
+    "funFact": "Chochin is portable festival; andon is the furniture that watched you study.",
+    "funFactJa": "提灯が祭りの携帯なら、行灯は勉強を見ていた家具。",
+    "searchQuery": "行灯お化け 提灯お化け 付喪神",
+    "creativeHooks": [
+      "A desk lamp with opinions.",
+      "The night-study stream has a third viewer."
+    ],
+    "sources": [
+      "Tsukumogami lantern types"
+    ]
+  },
+  {
+    "name": "Shichinin-misaki",
+    "nativeName": "七人みさき",
+    "region": "Tosa and other coasts",
+    "category": "死霊",
+    "categoryEn": "Seven-person misaki",
+    "summary": "A band of seven vengeful dead who wander until they add an eighth, then release one.",
+    "summaryJa": "七人の死霊がさまよい、八人目を足すと一人を放す。土佐などで語る。",
+    "legends": [
+      "A ferry with seven quiet passengers wants one more",
+      "A village death is followed by a feeling of being counted"
+    ],
+    "traits": [
+      "Group of seven",
+      "Recruiting the living",
+      "Coastal"
+    ],
+    "motifs": [
+      "Chain haunting",
+      "Tosa",
+      "Quota of the dead"
+    ],
+    "funFact": "The cruelty is arithmetic: someone must fill the number.",
+    "funFactJa": "残酷さは算術。誰かが数を満たさねばならない。",
+    "searchQuery": "七人みさき 土佐 妖怪",
+    "creativeHooks": [
+      "A group chat that always needs one more member.",
+      "The boat's capacity is a curse."
+    ],
+    "sources": [
+      "Tosa misaki lore"
+    ]
+  },
+  {
+    "name": "Rasetsu",
+    "nativeName": "羅刹",
+    "region": "Buddhist demon lore in Japan",
+    "category": "鬼",
+    "categoryEn": "Raksasa",
+    "summary": "A raksasa imported through Buddhist texts, fierce man-eaters later painted among oni and yasha.",
+    "summaryJa": "仏典経由の羅刹。人を食う荒ぶる者として、鬼や夜叉の隣に描かれた。",
+    "legends": [
+      "A temple mural's demon steps one foot off the wall",
+      "A vow not to eat flesh that does not hold at dusk"
+    ],
+    "traits": [
+      "Fierce eater",
+      "Imported name",
+      "Beside yasha"
+    ],
+    "motifs": [
+      "Buddhist cosmology",
+      "Appetite",
+      "Oni neighbour"
+    ],
+    "funFact": "Keep the sutra context; a rasetsu is not just 'another oni with a cooler name'.",
+    "funFactJa": "経典の文脈を残す。単なる『かっこいい鬼』にしない。",
+    "searchQuery": "羅刹 夜叉 鬼",
+    "creativeHooks": [
+      "A diet that is a vow.",
+      "The mural restoration uncovers a census."
+    ],
+    "sources": [
+      "Buddhist demonology in Japan"
+    ]
+  },
+  {
+    "name": "Sakabashira",
+    "nativeName": "逆柱",
+    "region": "Houses built wrong",
+    "category": "屋敷",
+    "categoryEn": "Inverted pillar",
+    "summary": "A pillar set upside-down on purpose or by mistake, said to groan and unluck the house.",
+    "summaryJa": "逆さに立てられた柱。うなり、家の運を下げるという。意図的な魔除けとする土地もある。",
+    "legends": [
+      "The house ticks like a clock with no clock",
+      "Carpenters argue whether the inversion was a ward"
+    ],
+    "traits": [
+      "Upside-down timber",
+      "Groaning",
+      "Carpentry taboo"
+    ],
+    "motifs": [
+      "Building ritual",
+      "Apotropaic error",
+      "Household fate"
+    ],
+    "funFact": "Some shrines invert a pillar on purpose. The yokai is the same fact told as dread.",
+    "funFactJa": "社では意図的に逆柱を入れることもある。同じ事実を恐怖として語ると妖怪になる。",
+    "searchQuery": "逆柱 建築 妖怪",
+    "creativeHooks": [
+      "A BIM model that refuses one beam.",
+      "The groan is structural and personal."
+    ],
+    "sources": [
+      "Carpentry folklore",
+      "Shrine building practice"
+    ]
+  },
+  {
+    "name": "Oboroguruma",
+    "nativeName": "朧車",
+    "region": "Capital nights",
+    "category": "道中",
+    "categoryEn": "Hazy ox-cart",
+    "summary": "A misty ox-cart with a huge face in the canopy, an ox-cart grudge of the Heian capital.",
+    "summaryJa": "巨大な顔を廂に付けた、霞む牛車。平安京の牛車の怨み。",
+    "legends": [
+      "An empty cart has right of way and uses it",
+      "The face in the awning blinks once per block"
+    ],
+    "traits": [
+      "Ox-cart",
+      "Giant face",
+      "Capital mist"
+    ],
+    "motifs": [
+      "Heian traffic",
+      "Status grudge",
+      "Wanyudo neighbour"
+    ],
+    "funFact": "Wanyudo is a burning wheel monk; oboroguruma is aristocratic traffic that never yielded.",
+    "funFactJa": "輪入道が燃える車輪の僧なら、朧車は譲らなかった貴族の交通である。",
+    "searchQuery": "朧車 妖怪 平安",
+    "creativeHooks": [
+      "A rideshare with a face for a roof.",
+      "Night bus of the retired court."
+    ],
+    "sources": [
+      "Heian capital yokai",
+      "Related to wanyudo"
+    ]
+  },
+  {
+    "name": "Boroboroton",
+    "nativeName": "ぼろぼろとん",
+    "region": "Bedding at night",
+    "category": "付喪神",
+    "categoryEn": "Tattered futon",
+    "summary": "A worn-out futon that wraps and suffocates, or flops through the room as a ragged tsukumogami.",
+    "summaryJa": "使い古した布団が人を包んで苦しめる、または部屋をのたうつ付喪神。",
+    "legends": [
+      "The guest futon is heavier at 3 a.m.",
+      "Rags crawl toward the warmer sleeper"
+    ],
+    "traits": [
+      "Tattered bedding",
+      "Wraps the sleeper",
+      "Neglect"
+    ],
+    "motifs": [
+      "Hospitality",
+      "Tsukumogami",
+      "Sleep"
+    ],
+    "funFact": "Throwing away bedding without thanks is the usual crime; the futon remembers the winters.",
+    "funFactJa": "礼もなく捨てられた寝具の話。布団は冬を覚えている。",
+    "searchQuery": "ぼろぼろとん 付喪神",
+    "creativeHooks": [
+      "A hotel review written by the mattress.",
+      "The extra blanket is a decision."
+    ],
+    "sources": [
+      "Tsukumogami bedding types"
+    ]
+  },
+  {
+    "name": "Basan",
+    "nativeName": "波山",
+    "region": "Iyo / Ehime mountains",
+    "category": "異形",
+    "categoryEn": "Fire-breathing fowl",
+    "summary": "A large fowl of Iyo that breathes a pale fire which illuminates without burning.",
+    "summaryJa": "伊予の山の大型の鳥。燃やさず照らす薄い火を吐く。",
+    "legends": [
+      "A night woodcutter is lit as if by paper lanterns with no paper",
+      "Chickens go silent when the larger cousin passes"
+    ],
+    "traits": [
+      "Fowl body",
+      "Pale flame",
+      "Iyo"
+    ],
+    "motifs": [
+      "Illumination without heat",
+      "Mountain night",
+      "Bird yokai"
+    ],
+    "funFact": "The fire is the point: a light that does not cook, so you cannot treat it as a campfire.",
+    "funFactJa": "火が要点。煮炊きできない光なので、焚き火扱いできない。",
+    "searchQuery": "波山 ばさん 伊予 妖怪",
+    "creativeHooks": [
+      "A headlamp that is a chicken.",
+      "The forest is briefly readable."
+    ],
+    "sources": [
+      "Iyo regional yokai"
+    ]
+  },
+  {
+    "name": "Osaki",
+    "nativeName": "オサキ",
+    "region": "Kanto possession foxes",
+    "category": "憑きもの",
+    "categoryEn": "Osaki fox",
+    "summary": "A tiny possession fox of Kanto households, kin to kudagitsune; luck and scandal travel with the family.",
+    "summaryJa": "関東の家に付く小型の憑き狐。管狐と同系。運も噂も家ごと移動する。",
+    "legends": [
+      "A family is too lucky at the market and is shunned",
+      "A small animal is said to ride in a sleeve"
+    ],
+    "traits": [
+      "Tiny fox",
+      "Household lineage",
+      "Kanto"
+    ],
+    "motifs": [
+      "Tsukimono",
+      "Social exclusion",
+      "Kudagitsune neighbour"
+    ],
+    "funFact": "Osaki accusations were also village politics. Write the neighbours, not only the fox.",
+    "funFactJa": "オサキの非難は村の政治でもあった。狐だけでなく隣人を書く。",
+    "searchQuery": "オサキ 管狐 憑きもの",
+    "creativeHooks": [
+      "A credit score that is a fox.",
+      "The moving van includes a sleeve."
+    ],
+    "sources": [
+      "Kanto tsukimono studies"
+    ]
+  },
+  {
+    "name": "Mekurabe",
+    "nativeName": "目競",
+    "region": "Heike skull lore",
+    "category": "死霊",
+    "categoryEn": "Staring skulls",
+    "summary": "Skulls that pile and stare, associated with Taira no Kiyomori's vision of the dead Heike.",
+    "summaryJa": "髑髏が積まれてにらみ合う。平清盛が見た平家の死霊のイメージと結びつく。",
+    "legends": [
+      "A sick politician sees a mound of faces on the pillow",
+      "Empty eye-sockets still choose a winner"
+    ],
+    "traits": [
+      "Many skulls",
+      "Contest of gazes",
+      "Heike"
+    ],
+    "motifs": [
+      "War dead",
+      "Fever vision",
+      "Gashadokuro neighbour"
+    ],
+    "funFact": "Gashadokuro is one giant; mekurabe is the crowd still arguing.",
+    "funFactJa": "餓者髑髏が一体の巨人なら、目競はまだ議論している群衆。",
+    "searchQuery": "目競 平家 髑髏",
+    "creativeHooks": [
+      "A comment section made of bone.",
+      "The fever is a quorum."
+    ],
+    "sources": [
+      "Heike kaidan",
+      "Kiyomori cycle"
+    ]
+  },
+  {
+    "name": "Nuribotoke",
+    "nativeName": "塗仏",
+    "region": "Household butsudan",
+    "category": "屋敷",
+    "categoryEn": "Lacquered buddha",
+    "summary": "A fleshy, dripping mock-buddha that crawls from the butsudan, a parody of household piety.",
+    "summaryJa": "仏壇から這い出す、塗ったように濡れた肉の仏。家の信心のパロディ。",
+    "legends": [
+      "The altar figure is glossier than lacquer should be",
+      "It bows incorrectly"
+    ],
+    "traits": [
+      "Flabby buddha",
+      "Dripping",
+      "Altar escapee"
+    ],
+    "motifs": [
+      "Domestic religion",
+      "Uncanny icon",
+      "Sekien"
+    ],
+    "funFact": "Not a real honzon. The joke-horror is that devotion grew a body that wants out.",
+    "funFactJa": "本物の本尊ではない。信心が、出たがる体を持ったという冗談の怖さ。",
+    "searchQuery": "塗仏 妖怪 石燕",
+    "creativeHooks": [
+      "A smart altar with too much moisture.",
+      "The morning offering is returned."
+    ],
+    "sources": [
+      "Toriyama Sekien",
+      "Household Buddhist folklore"
+    ]
+  },
+  {
+    "name": "Tsurube-bi",
+    "nativeName": "つるべ火",
+    "region": "Trees over paths",
+    "category": "霊火",
+    "categoryEn": "Well-bucket fire",
+    "summary": "A fire that hangs in a tree like a well-bucket, cousin to tsurube-otoshi without the crushing drop.",
+    "summaryJa": "木に釣瓶のように吊られる火。釣瓶落としの近縁で、落ちて打つより照らして待つ。",
+    "legends": [
+      "A round flame rises and falls on a rope of nothing",
+      "Horses shy under a tree with no lantern"
+    ],
+    "traits": [
+      "Hanging fire",
+      "Tree",
+      "Night path"
+    ],
+    "motifs": [
+      "Well imagery",
+      "Illumination as lure",
+      "Tsurube-otoshi neighbour"
+    ],
+    "funFact": "If you need impact, use tsurube-otoshi; if you need a wrong star in the branches, use this.",
+    "funFactJa": "衝撃が要るなら釣瓶落とし。枝の中の間違った星が要るならつるべ火。",
+    "searchQuery": "つるべ火 釣瓶落とし 妖怪",
+    "creativeHooks": [
+      "A well in the canopy.",
+      "The flame keeps shift hours."
+    ],
+    "sources": [
+      "Tree-fire yokai",
+      "Related to tsurube-otoshi"
+    ]
+  },
+  {
+    "name": "Aosaginohi",
+    "nativeName": "青鷺火",
+    "region": "Rivers at night",
+    "category": "霊火",
+    "categoryEn": "Blue heron fire",
+    "summary": "A heron whose feathers or breath glow with a pale fire over the water.",
+    "summaryJa": "川面で羽や息が青白く光る鷺。妖怪とも、老いた鷺の生態とも説明される。",
+    "legends": [
+      "A fisherman follows a lantern that takes off",
+      "The light smells faintly of river-bird"
+    ],
+    "traits": [
+      "Heron",
+      "Pale fire",
+      "Water"
+    ],
+    "motifs": [
+      "Bird and light",
+      "Night fishing",
+      "Natural-history overlay"
+    ],
+    "funFact": "Like shiranui, keep both the zoological excuse and the yokai name.",
+    "funFactJa": "不知火と同じで、博物の言い訳と妖怪の名を両方残す。",
+    "searchQuery": "青鷺火 妖怪",
+    "creativeHooks": [
+      "A wildlife documentary that admits a ghost.",
+      "The lure is a bird."
+    ],
+    "sources": [
+      "River-heron fire lore"
+    ]
+  },
+  {
+    "name": "Ushirogami",
+    "nativeName": "後神",
+    "region": "Walking at night",
+    "category": "道中",
+    "categoryEn": "Spirit behind you",
+    "summary": "A being that walks just behind you, tugging hair or stealing courage; you turn and it is still behind.",
+    "summaryJa": "すぐ後ろを歩き、髪を引き、勇気を奪う。振り返っても、また後ろにいる。",
+    "legends": [
+      "Hair lifts on a windless road",
+      "The companion you counted is one too many"
+    ],
+    "traits": [
+      "Always dorsal",
+      "Hair tug",
+      "Courage drain"
+    ],
+    "motifs": [
+      "Paranoia",
+      "Night walk",
+      "Unseeable escort"
+    ],
+    "funFact": "Not a jump-scare face. The geometry is the monster: it occupies 'behind'.",
+    "funFactJa": "顔の飛び出しではない。怪物は幾何で、『後ろ』という位置を占有する。",
+    "searchQuery": "後神 妖怪",
+    "creativeHooks": [
+      "A selfie stick that never finds the extra person.",
+      "The courage meter is a neck hair."
+    ],
+    "sources": [
+      "Behind-you yokai types"
+    ]
+  },
+  {
+    "name": "Katawaguruma",
+    "nativeName": "片輪車",
+    "region": "Capital and town nights",
+    "category": "道中",
+    "categoryEn": "One-wheel cart",
+    "summary": "A burning single wheel with a woman's face, a more intimate cousin of wanyudo.",
+    "summaryJa": "女の顔を付けた片輪の燃える車。輪入道の、より個人的な近縁。",
+    "legends": [
+      "A one-wheeled fire chases a particular house",
+      "The face is someone the town wronged"
+    ],
+    "traits": [
+      "Single wheel",
+      "Woman's face",
+      "Fire"
+    ],
+    "motifs": [
+      "Gendered wanyudo",
+      "Personal grudge",
+      "Night capital"
+    ],
+    "funFact": "Wanyudo is the public monk-wheel; katawaguruma often carries a named woman's anger.",
+    "funFactJa": "輪入道が公の僧の輪なら、片輪車はしばしば固有の女の怒りを乗せる。",
+    "searchQuery": "片輪車 輪入道 妖怪",
+    "creativeHooks": [
+      "A unicycle of a lawsuit.",
+      "The fire knows an address."
+    ],
+    "sources": [
+      "Wanyudo cycle",
+      "Sekien and later pictures"
+    ]
+  },
+  {
+    "name": "Yuki-nyudo",
+    "nativeName": "雪入道",
+    "region": "Snow country roads",
+    "category": "気象",
+    "categoryEn": "Snow monk",
+    "summary": "A giant monk-shape of snow that looms in blizzards, kin to yuki-onna without the seduction.",
+    "summaryJa": "吹雪の中に立つ雪の入道。雪女の近縁だが、色香ではなく質量。",
+    "legends": [
+      "A wall of snow has a face for one gust",
+      "Footprints end in a drift the height of a gate"
+    ],
+    "traits": [
+      "Snow bulk",
+      "Monk silhouette",
+      "Blizzard"
+    ],
+    "motifs": [
+      "Winter labour",
+      "Scale",
+      "Yuki-onna neighbour"
+    ],
+    "funFact": "Use when winter should crush, not kiss.",
+    "funFactJa": "冬に口づけではなく、押し潰してほしいときに使う。",
+    "searchQuery": "雪入道 雪女 妖怪",
+    "creativeHooks": [
+      "A snowplough that is the snow.",
+      "The whiteout has shoulders."
+    ],
+    "sources": [
+      "Snow-country yokai",
+      "Related to yuki-onna"
+    ]
   }
 ]
