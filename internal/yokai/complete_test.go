@@ -41,7 +41,7 @@ func TestCompleteNamesAlias(t *testing.T) {
 
 func TestCatalogOverview(t *testing.T) {
 	info := CatalogOverview()
-	if info.IndexCount < 160 || info.ProfileCount < 83 {
+	if info.IndexCount < 160 || info.ProfileCount < 98 {
 		t.Fatalf("unexpected catalog size %+v", info)
 	}
 	if info.Categories["水系"] == 0 {

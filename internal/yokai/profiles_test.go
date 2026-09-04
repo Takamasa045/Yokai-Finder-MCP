@@ -6,6 +6,17 @@ import (
 	"time"
 )
 
+func TestPriorityRankThreeHaveProfiles(t *testing.T) {
+	for _, name := range []string{
+		"山彦", "磯撫", "大百足", "火車", "枕返し", "天井嘗", "一つ目入道",
+		"牛鬼", "疫病神", "件", "アマビコ", "白澤", "骨女", "累", "管狐",
+	} {
+		if _, ok := FindByName(name); !ok {
+			t.Errorf("expected profile for %s", name)
+		}
+	}
+}
+
 func TestFamousRankOneTwoHaveProfiles(t *testing.T) {
 	for _, e := range Index() {
 		if e.FamousRank <= 2 && !e.HasCuratedProfile() {
@@ -70,8 +81,8 @@ func TestProfilesHaveJapaneseLore(t *testing.T) {
 }
 
 func TestCuratedRosterIncludesNewYokai(t *testing.T) {
-	if got := len(Profiles()); got < 83 {
-		t.Fatalf("expected at least 83 curated yokai, got %d", got)
+	if got := len(Profiles()); got < 98 {
+		t.Fatalf("expected at least 98 curated yokai, got %d", got)
 	}
 
 	for _, name := range []string{"座敷童子", "鵺", "鎌鼬", "一反木綿", "天邪鬼", "のっぺらぼう", "酒呑童子", "玉藻前", "口裂け女", "付喪神"} {

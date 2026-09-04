@@ -83,6 +83,23 @@ func TestServerListsExpectedToolsAndPrompts(t *testing.T) {
 		t.Fatalf("expected 河童 in completions, got %v", completed.Completion.Values)
 	}
 
+	uriComplete, err := session.Complete(ctx, &mcp.CompleteParams{
+		Ref:      &mcp.CompleteReference{Type: "ref/resource", URI: "yokai://yokai/{name}"},
+		Argument: mcp.CompleteParamsArgument{Name: "name", Value: "yokai://yokai/河"},
+	})
+	if err != nil {
+		t.Fatalf("URI Complete: %v", err)
+	}
+	foundURI := false
+	for _, v := range uriComplete.Completion.Values {
+		if v == "yokai://yokai/河童" {
+			foundURI = true
+		}
+	}
+	if !foundURI {
+		t.Fatalf("expected yokai://yokai/河童, got %v", uriComplete.Completion.Values)
+	}
+
 	catalog, err := session.ReadResource(ctx, &mcp.ReadResourceParams{URI: "yokai://catalog"})
 	if err != nil {
 		t.Fatalf("catalog resource: %v", err)

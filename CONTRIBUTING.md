@@ -27,6 +27,8 @@ Loopback is allowed without a token:
 
 Binding a public address requires `YOKAI_FINDER_TOKEN`. Clients send `Authorization: Bearer <token>` to `/mcp`. `/healthz` stays open.
 
+See `CHANGELOG.md` for release notes.
+
 ## Registry metadata
 
 - `server.json` — MCP Registry schema

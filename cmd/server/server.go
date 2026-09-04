@@ -31,7 +31,7 @@ Tool choice:
 - Featured daily pick → yokai_of_the_day
 - Books from the National Diet Library → search_yokai_books
 - Related or side-by-side entries → related_yokai / compare_yokai
-- list_curated_yokai is deprecated; use list_yokai with hasProfile=true
+Do not call list_curated_yokai or get_cover_thumbnail unless the user asks for those exact tools. Prefer list_yokai with hasProfile=true, and coverImageCandidates on book results.
 
 Prefer Japanese names in answers. Category values are Japanese keys (水系, 山系). hasProfile=true means a full bilingual encyclopedia card is available via get_yokai.`
 )
@@ -244,48 +244,6 @@ func newServer(h *handler.Handler) *mcp.Server {
 	})
 
 	mcp.AddTool(server, &mcp.Tool{
-		Name:        "list_curated_yokai",
-		Description: "非推奨。詳細図鑑の一覧は list_yokai に hasProfile=true を付けてください。Deprecated: use list_yokai with hasProfile=true. Still returns bilingual encyclopedia cards for compatibility.",
-		Annotations: localTool(),
-	}, func(ctx context.Context, _ *mcp.CallToolRequest, args listCuratedArgs) (*mcp.CallToolResult, *types.CuratedYokaiResult, error) {
-		params := types.CuratedYokaiParams{
-			Term:                 args.Term,
-			Category:             args.Category,
-			Region:               args.Region,
-			Seed:                 args.Seed,
-			Limit:                args.Limit,
-			IncludeLegends:       args.IncludeLegends,
-			IncludeTraits:        args.IncludeTraits,
-			IncludeMotifs:        args.IncludeMotifs,
-			IncludeCreativeHooks: args.IncludeCreativeHooks,
-		}
-
-		result, err := h.ListCuratedYokai(ctx, params)
-		if err != nil {
-			return nil, nil, err
-		}
-		return nil, result, nil
-	})
-
-	mcp.AddTool(server, &mcp.Tool{
-		Name:        "get_cover_thumbnail",
-		Description: "ISBN または全国書誌番号（JP番号）から書影（表紙画像）のURL候補を返す。候補は上から順に試すこと（資料により提供有無が異なる）。Build cover-image URL candidates from an ISBN (10 or 13) or JP number; try candidates in order.",
-		Annotations: localTool(),
-	}, func(_ context.Context, _ *mcp.CallToolRequest, args coverThumbnailArgs) (*mcp.CallToolResult, *ndl.CoverURLs, error) {
-		isbn := strings.TrimSpace(args.ISBN)
-		jpno := strings.TrimSpace(args.JPNo)
-		if isbn == "" && jpno == "" {
-			return nil, nil, errors.New("provide at least one of isbn or jpno")
-		}
-		if isbn != "" && ndl.NormalizeISBN13(isbn) == "" {
-			return nil, nil, errors.New("isbn could not be parsed: use ISBN-10 or ISBN-13, hyphens allowed")
-		}
-
-		covers := ndl.BuildCoverURLs(isbn, jpno)
-		return nil, &covers, nil
-	})
-
-	mcp.AddTool(server, &mcp.Tool{
 		Name:        "related_yokai",
 		Description: "指定した妖怪に近い索引エントリを返す。タグ・カテゴリ・トーンの重なりで近傍を探す。Find neighbouring yokai by shared tags, category, and tone.",
 		Annotations: localTool(),
@@ -309,6 +267,46 @@ func newServer(h *handler.Handler) *mcp.Server {
 		return nil, result, nil
 	})
 
+	mcp.AddTool(server, &mcp.Tool{
+		Name:        "list_curated_yokai",
+		Description: "非推奨。使わないでください。詳細図鑑は list_yokai に hasProfile=true。Deprecated compatibility wrapper.",
+		Annotations: localTool(),
+	}, func(ctx context.Context, _ *mcp.CallToolRequest, args listCuratedArgs) (*mcp.CallToolResult, *types.CuratedYokaiResult, error) {
+		params := types.CuratedYokaiParams{
+			Term:                 args.Term,
+			Category:             args.Category,
+			Region:               args.Region,
+			Seed:                 args.Seed,
+			Limit:                args.Limit,
+			IncludeLegends:       args.IncludeLegends,
+			IncludeTraits:        args.IncludeTraits,
+			IncludeMotifs:        args.IncludeMotifs,
+			IncludeCreativeHooks: args.IncludeCreativeHooks,
+		}
+		result, err := h.ListCuratedYokai(ctx, params)
+		if err != nil {
+			return nil, nil, err
+		}
+		return nil, result, nil
+	})
+
+	mcp.AddTool(server, &mcp.Tool{
+		Name:        "get_cover_thumbnail",
+		Description: "非推奨。書影は search_yokai_books の coverImageCandidates を使ってください。Deprecated: ISBN/JP cover URL candidates only if you already have an identifier.",
+		Annotations: localTool(),
+	}, func(_ context.Context, _ *mcp.CallToolRequest, args coverThumbnailArgs) (*mcp.CallToolResult, *ndl.CoverURLs, error) {
+		isbn := strings.TrimSpace(args.ISBN)
+		jpno := strings.TrimSpace(args.JPNo)
+		if isbn == "" && jpno == "" {
+			return nil, nil, errors.New("provide at least one of isbn or jpno")
+		}
+		if isbn != "" && ndl.NormalizeISBN13(isbn) == "" {
+			return nil, nil, errors.New("isbn could not be parsed: use ISBN-10 or ISBN-13, hyphens allowed")
+		}
+		covers := ndl.BuildCoverURLs(isbn, jpno)
+		return nil, &covers, nil
+	})
+
 	registerResources(server, h)
 	registerPrompts(server)
 
@@ -327,10 +325,26 @@ func openWorldTool() *mcp.ToolAnnotations {
 
 func completeYokaiNames(_ context.Context, req *mcp.CompleteRequest) (*mcp.CompleteResult, error) {
 	prefix := ""
-	if req != nil && req.Params.Argument.Name != "" {
+	argName := ""
+	if req != nil {
 		prefix = req.Params.Argument.Value
+		argName = req.Params.Argument.Name
 	}
-	values := yokai.CompleteNames(prefix, 20)
+
+	const uriPrefix = "yokai://yokai/"
+	asURI := strings.HasPrefix(prefix, "yokai://") || argName == "uri"
+	namePrefix := prefix
+	if strings.HasPrefix(prefix, uriPrefix) {
+		namePrefix = strings.TrimPrefix(prefix, uriPrefix)
+		asURI = true
+	}
+
+	values := yokai.CompleteNames(namePrefix, 20)
+	if asURI {
+		for i, name := range values {
+			values[i] = uriPrefix + name
+		}
+	}
 	return &mcp.CompleteResult{
 		Completion: mcp.CompletionResultDetails{
 			Values:  values,

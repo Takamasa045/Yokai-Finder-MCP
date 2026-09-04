@@ -19,22 +19,23 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Check out release tools
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        uses: actions/checkout@v5
         with:
           path: release-tools
           persist-credentials: false
 
       - name: Check out the release source
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ inputs.tag || github.ref }}
           path: source
           persist-credentials: false
 
       - name: Set up Go
-        uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5
+        uses: actions/setup-go@v6
         with:
           go-version-file: source/go.mod
+          cache-dependency-path: source/go.sum
 
       - name: Test
         run: go test ./...

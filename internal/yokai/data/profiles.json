@@ -2603,5 +2603,507 @@
       "Modern Japanese urban folklore",
       "Comparative death-spirit studies"
     ]
+  },
+  {
+    "name": "Yamabiko",
+    "nativeName": "山彦",
+    "region": "Mountain valleys",
+    "category": "山系",
+    "categoryEn": "Echo spirit",
+    "summary": "The spirit that throws a voice back through the hills, often overlapping with kodama lore.",
+    "summaryJa": "山で声を返す怪異。木霊と同一視されることもある。",
+    "legends": [
+      "A shout across a gorge returns as if someone answered",
+      "Woodcutters treat an unanswered echo as a warning"
+    ],
+    "traits": [
+      "Voice without a body",
+      "Valley-bound",
+      "Easily confused with kodama"
+    ],
+    "motifs": [
+      "Echo",
+      "Mountain labour",
+      "Misheard company"
+    ],
+    "funFact": "Some dialects use yamabiko for the phenomenon and kodama for the tree spirit.",
+    "funFactJa": "方言では、現象を山彦、木の精を木霊と呼び分ける土地もある。",
+    "searchQuery": "山彦 妖怪 伝承",
+    "creativeHooks": [
+      "A rescue team follows an echo that is one word ahead of them.",
+      "The mountain answers only questions, never names."
+    ],
+    "sources": [
+      "Mountain echo folklore"
+    ]
+  },
+  {
+    "name": "Isonade",
+    "nativeName": "磯撫",
+    "region": "Seas of western Japan",
+    "category": "海",
+    "categoryEn": "Shore-stroking shark",
+    "summary": "A huge shark-like sea yokai that strokes ships with a barb-hooked tail and sinks them.",
+    "summaryJa": "巨大な鮫のような海の妖怪。尾で船を撫でて沈める。",
+    "legends": [
+      "Fishermen feel a caress along the hull before the boat goes under",
+      "The tail is said to be as hooked as a sickle"
+    ],
+    "traits": [
+      "Shark bulk",
+      "Sickle tail",
+      "Coastal hunting"
+    ],
+    "motifs": [
+      "False gentleness",
+      "Shipwreck",
+      "Western Japan seas"
+    ],
+    "funFact": "The name literally means stroking the rocky shore.",
+    "funFactJa": "名前は磯を撫でることに由来する。",
+    "searchQuery": "磯撫 妖怪 海",
+    "creativeHooks": [
+      "A ferry's sonar maps a caress, not a collision.",
+      "The tail prefers painted hulls."
+    ],
+    "sources": [
+      "Western Japan maritime kaidan"
+    ]
+  },
+  {
+    "name": "Omukade",
+    "nativeName": "大百足",
+    "region": "Mountains and lakes of classical Japan",
+    "category": "異形",
+    "categoryEn": "Giant centipede",
+    "summary": "A centipede large enough to gird a mountain, famously slain in the tale of Fujiwara no Hidesato.",
+    "summaryJa": "山を覆うほどの巨大な百足。藤原秀郷の百足退治が名高い。",
+    "legends": [
+      "It drinks from a lake until the waterline drops",
+      "A spit-wetted arrow is the only thing that pierces it"
+    ],
+    "traits": [
+      "Mountain-scale",
+      "Armoured segments",
+      "Hates human saliva in some tellings"
+    ],
+    "motifs": [
+      "Dragon's enemy",
+      "Lake ecology",
+      "Heroic archery"
+    ],
+    "funFact": "Mukade were already feared as venomous; the giant is that fear written at landscape size.",
+    "funFactJa": "百足への忌避が、地形サイズの怪物として語られた形でもある。",
+    "searchQuery": "大百足 藤原秀郷",
+    "creativeHooks": [
+      "A hiking trail is actually one shed skin.",
+      "A biologist is asked to count the legs."
+    ],
+    "sources": [
+      "Fujiwara no Hidesato cycle"
+    ]
+  },
+  {
+    "name": "Kasha",
+    "nativeName": "火車",
+    "region": "Funeral processions and graveyards",
+    "category": "死霊",
+    "categoryEn": "Fire cart",
+    "summary": "A fiery cart or cat-like demon that snatches corpses from funerals if rites are thin.",
+    "summaryJa": "死体を奪う炎の車、または猫のような妖怪。供養が薄い葬列を襲う。",
+    "legends": [
+      "A coffin is empty by the time it reaches the grave",
+      "Priests chant louder when they hear wheels in the sky"
+    ],
+    "traits": [
+      "Flame wheel",
+      "Corpse theft",
+      "Funeral weather"
+    ],
+    "motifs": [
+      "Unfinished rites",
+      "Cat and fire",
+      "Sky road"
+    ],
+    "funFact": "Some pictures show kasha as a two-tailed cat riding a burning oxcart.",
+    "funFactJa": "絵では、燃える車に乗る二尾の猫として描かれることもある。",
+    "searchQuery": "火車 妖怪 葬",
+    "creativeHooks": [
+      "A crematorium that bargains with the cart.",
+      "The stolen body still has a train to catch."
+    ],
+    "sources": [
+      "Funeral kaidan",
+      "Edo yokai pictures"
+    ]
+  },
+  {
+    "name": "Makura-gaeshi",
+    "nativeName": "枕返し",
+    "region": "Bedrooms nationwide",
+    "category": "屋敷",
+    "categoryEn": "Pillow flipper",
+    "summary": "A bedroom spirit that turns your pillow while you sleep, leaving you facing the wrong way at dawn.",
+    "summaryJa": "寝ている間に枕の向きを変える寝室の怪異。",
+    "legends": [
+      "Guests wake with their head where their feet were",
+      "Inns blame a mischievous child who is never seen"
+    ],
+    "traits": [
+      "Night-only",
+      "No violence",
+      "Obsessed with orientation"
+    ],
+    "motifs": [
+      "Sleep",
+      "Hospitality",
+      "Small household dread"
+    ],
+    "funFact": "It is one of the gentlest hauntings: the harm is confusion, not injury.",
+    "funFactJa": "害は怪我ではなく、朝の混乱にとどまる、穏やかな部類の怪異である。",
+    "searchQuery": "枕返し 妖怪",
+    "creativeHooks": [
+      "A sleep clinic that maps pillow angles as a census.",
+      "It only turns pillows of people who lied that day."
+    ],
+    "sources": [
+      "Household kaidan"
+    ]
+  },
+  {
+    "name": "Tenjoname",
+    "nativeName": "天井嘗",
+    "region": "Dusty houses",
+    "category": "屋敷",
+    "categoryEn": "Ceiling licker",
+    "summary": "A long-tongued house yokai that licks filthy ceilings, kin to the akaname of the bath.",
+    "summaryJa": "長い舌で天井の汚れを嘗める妖怪。垢嘗の親戚筋。",
+    "legends": [
+      "A stain on the plaster is a tongue-print",
+      "It prefers houses where no one looks up"
+    ],
+    "traits": [
+      "Absurd tongue",
+      "Ceiling-bound",
+      "Filth appetite"
+    ],
+    "motifs": [
+      "Neglected architecture",
+      "Domestic hygiene",
+      "Comic horror"
+    ],
+    "funFact": "Toriyama Sekien drew it as a lanky figure craning toward the rafters.",
+    "funFactJa": "鳥山石燕の絵では、梁に舌を伸ばす細長い姿である。",
+    "searchQuery": "天井嘗 妖怪",
+    "creativeHooks": [
+      "A restorer finds saliva, not water damage.",
+      "It will not lick a ceiling that has been praised."
+    ],
+    "sources": [
+      "Toriyama Sekien",
+      "Household yokai prints"
+    ]
+  },
+  {
+    "name": "Hitotsume-nyudo",
+    "nativeName": "一つ目入道",
+    "region": "Night roads nationwide",
+    "category": "異形",
+    "categoryEn": "One-eyed monk",
+    "summary": "A giant one-eyed priest-form, overlapping with mikoshi-nyudo, that grows as you look up.",
+    "summaryJa": "巨大な一つ目の入道。見越入道と混同されることもある。",
+    "legends": [
+      "Saying you saw through it makes it shrink",
+      "It blocks a lane like a temple gate"
+    ],
+    "traits": [
+      "Single eye",
+      "Priest robes",
+      "Size that answers pride"
+    ],
+    "motifs": [
+      "Night travel",
+      "Buddhist costume",
+      "Looking up"
+    ],
+    "funFact": "Hitotsume-kozo is the child version; this is the grown, less comic one.",
+    "funFactJa": "一つ目小僧が童子なら、これは大人で、笑いにくい方である。",
+    "searchQuery": "一つ目入道 妖怪",
+    "creativeHooks": [
+      "A surveyor's theodolite refuses to tilt past the eye.",
+      "It collects glances, not souls."
+    ],
+    "sources": [
+      "Road yokai lore"
+    ]
+  },
+  {
+    "name": "Ushi-oni",
+    "nativeName": "牛鬼",
+    "region": "Coasts of western Japan",
+    "category": "海",
+    "categoryEn": "Ox demon",
+    "summary": "A cruel sea beast with an ox head, often paired with nure-onna in shore attacks.",
+    "summaryJa": "牛の頭を持つ残酷な海の妖怪。濡女と組んで岸を襲う話もある。",
+    "legends": [
+      "It waits in the surf while a woman offers a baby",
+      "Fishermen nail ox skulls as a ward"
+    ],
+    "traits": [
+      "Ox head",
+      "Coastal ambush",
+      "Blood appetite"
+    ],
+    "motifs": [
+      "False infant",
+      "Tide line",
+      "Western Japan"
+    ],
+    "funFact": "Ushi-oni festivals in Ehime turn the monster into a portable shrine beast.",
+    "funFactJa": "愛媛などでは、牛鬼が祭りの出し物としても歩く。",
+    "searchQuery": "牛鬼 妖怪 海岸",
+    "creativeHooks": [
+      "A festival float that remembers being hungry.",
+      "The ox head is a mask the sea still wants back."
+    ],
+    "sources": [
+      "Western Japan coastal lore",
+      "Ushi-oni matsuri"
+    ]
+  },
+  {
+    "name": "Yakubyogami",
+    "nativeName": "疫病神",
+    "region": "Japan-wide",
+    "category": "死霊",
+    "categoryEn": "Plague god",
+    "summary": "A god or yokai that walks with epidemic, expelled by beans, fire, or a better feast elsewhere.",
+    "summaryJa": "疫病を振りまく神・妖怪的存在。豆や火、他所への饗応で送り出す。",
+    "legends": [
+      "A shabby guest who leaves sickness behind",
+      "Villages prepare a palanquin to carry it out of town"
+    ],
+    "traits": [
+      "Illness trail",
+      "Invited-then-expelled",
+      "Paired with binbogami"
+    ],
+    "motifs": [
+      "Epidemic",
+      "Rites of sending",
+      "Unwelcome guest"
+    ],
+    "funFact": "Amabie and kudan are the prophetic counterweights to this walker.",
+    "funFactJa": "アマビエや件は、この歩き病に対する予言側の存在でもある。",
+    "searchQuery": "疫病神 民俗",
+    "creativeHooks": [
+      "A public-health office that still keeps a palanquin.",
+      "It prefers towns that stopped saying thank you."
+    ],
+    "sources": [
+      "Epidemic folklore",
+      "Rites of expulsion"
+    ]
+  },
+  {
+    "name": "Kudan",
+    "nativeName": "件",
+    "region": "Western Japan",
+    "category": "予言",
+    "categoryEn": "Prophetic calf",
+    "summary": "A human-faced calf that speaks one prophecy, often of famine or plague, then dies.",
+    "summaryJa": "人面牛身で予言を残して死ぬ瑞祥・妖怪。",
+    "legends": [
+      "It is born after an earthquake and speaks at dawn",
+      "Newspapers of the late Edo printed kudan broadsheets"
+    ],
+    "traits": [
+      "Human face",
+      "Ox body",
+      "One speech only"
+    ],
+    "motifs": [
+      "Omen livestock",
+      "Print culture",
+      "Epidemic warning"
+    ],
+    "funFact": "Kudan broadsheets were a news medium as much as a miracle.",
+    "funFactJa": "件の瓦版は、奇跡であると同時にニュース媒体でもあった。",
+    "searchQuery": "件 予言獣",
+    "creativeHooks": [
+      "A vet is asked to take dictation.",
+      "The prophecy is true only if someone writes it down."
+    ],
+    "sources": [
+      "Kudan kawaraban",
+      "Prophetic beast studies"
+    ]
+  },
+  {
+    "name": "Amabiko",
+    "nativeName": "アマビコ",
+    "region": "Kyushu seas",
+    "category": "予言",
+    "categoryEn": "Amabiko prophet",
+    "summary": "A cousin of amabie: a three-legged or hairy sea prophet that asks to have its picture copied against plague.",
+    "summaryJa": "アマビエに似た予言獣。海から現れ病を告げ、姿を写せと言う。",
+    "legends": [
+      "It surfaces glowing and counts three legs",
+      "Copying it is the charm, not eating it"
+    ],
+    "traits": [
+      "Sea-born",
+      "Image-as-ward",
+      "Plague forecast"
+    ],
+    "motifs": [
+      "Amabie cluster",
+      "Print magic",
+      "Kyushu"
+    ],
+    "funFact": "Amabiko, amabie, and arie are a family of names more than one zoology.",
+    "funFactJa": "アマビコ・アマビエ・アリエは、一種というより名前の一族である。",
+    "searchQuery": "アマビコ 予言獣",
+    "creativeHooks": [
+      "A copier shop that became a shrine in 2020.",
+      "It is offended when drawn with the wrong number of legs."
+    ],
+    "sources": [
+      "Kyushu prophetic beast prints"
+    ]
+  },
+  {
+    "name": "Hakutaku",
+    "nativeName": "白澤",
+    "region": "Chinese-derived omen lore in Japan",
+    "category": "古典",
+    "categoryEn": "Bai ze",
+    "summary": "A wise chimera that knows every spirit and is the patron of yokai encyclopedias.",
+    "summaryJa": "万物の精を知る瑞獣。妖怪図鑑の守護的存在。",
+    "legends": [
+      "The Yellow Emperor recorded its catalogue of spirits",
+      "Japanese hakutaku prints watch over sickrooms"
+    ],
+    "traits": [
+      "Many eyes or horns in some pictures",
+      "Speech",
+      "Encyclopedic memory"
+    ],
+    "motifs": [
+      "Imported sage-beast",
+      "Knowledge as ward",
+      "The book of yokai"
+    ],
+    "funFact": "A hakutaku image was itself a charm against epidemic, like amabie later.",
+    "funFactJa": "白澤の図そのものが、後のアマビエと同様、疫病除けでもあった。",
+    "searchQuery": "白澤 瑞獣",
+    "creativeHooks": [
+      "The beast that is tired of being used as a frontispiece.",
+      "It will only speak to someone who has misfiled a yokai."
+    ],
+    "sources": [
+      "Bai ze tu tradition",
+      "Japanese hakutaku prints"
+    ]
+  },
+  {
+    "name": "Hone-onna",
+    "nativeName": "骨女",
+    "region": "Classical love kaidan",
+    "category": "死霊",
+    "categoryEn": "Bone woman",
+    "summary": "A beautiful woman whose true form is bone, revealed by a lamp or a priest's eye.",
+    "summaryJa": "美しい女に化け、骨の正体を現す。",
+    "legends": [
+      "A lover sees her skeleton in the lantern light",
+      "She still keeps the appointment after death"
+    ],
+    "traits": [
+      "Beauty then bone",
+      "Night visits",
+      "Lamp test"
+    ],
+    "motifs": [
+      "Love and decay",
+      "Peony lantern kin",
+      "Seeing through"
+    ],
+    "funFact": "She overlaps Otsuyu of Botan Doro but is a type, not one named ghost.",
+    "funFactJa": "牡丹灯籠のお露と重なるが、固有名というより類型である。",
+    "searchQuery": "骨女 妖怪 怪談",
+    "creativeHooks": [
+      "An X-ray that falls in love first.",
+      "She borrows flesh from the wardrobe."
+    ],
+    "sources": [
+      "Classical kaidan types"
+    ]
+  },
+  {
+    "name": "Kasane",
+    "nativeName": "累",
+    "region": "Shimosa and later kabuki",
+    "category": "死霊",
+    "categoryEn": "Kasane",
+    "summary": "A woman of accumulated karmic injury whose haunting became a famous Edo ghost play.",
+    "summaryJa": "累世の因縁を背負う女の怨霊譚。歌舞伎でも知られる。",
+    "legends": [
+      "Violence repeats across a household",
+      "A priest's confession unknots the chain"
+    ],
+    "traits": [
+      "Layered grudge",
+      "Disfigured in some tellings",
+      "Family curse"
+    ],
+    "motifs": [
+      "Karma",
+      "Domestic violence remembered",
+      "Kabuki ghost"
+    ],
+    "funFact": "Kasane means piled up: the name is the structure of the story.",
+    "funFactJa": "『累』は積み重なること。名前が話の構造そのものでもある。",
+    "searchQuery": "累 怪談",
+    "creativeHooks": [
+      "A family legal file that is also a sutra.",
+      "Each generation adds one page she can still read."
+    ],
+    "sources": [
+      "Kasane ga fuchi cycle",
+      "Kabuki adaptations"
+    ]
+  },
+  {
+    "name": "Kudagitsune",
+    "nativeName": "管狐",
+    "region": "Tohoku possession lore",
+    "category": "憑きもの",
+    "categoryEn": "Pipe fox",
+    "summary": "A tiny fox kept in a bamboo pipe and sent as a familiar, kin to osaki and izuna.",
+    "summaryJa": "管に収まる小型の狐を使役する憑きもの。オサキや飯綱と同系。",
+    "legends": [
+      "A household's luck is the fox's work",
+      "Letting it out without a job brings chaos"
+    ],
+    "traits": [
+      "Fits in a tube",
+      "Familiar labour",
+      "Lineage secret"
+    ],
+    "motifs": [
+      "Possession families",
+      "Tohoku",
+      "Small gods of errands"
+    ],
+    "funFact": "The pipe is both cage and shrine.",
+    "funFactJa": "管は檻であると同時に祠でもある。",
+    "searchQuery": "管狐 憑きもの",
+    "creativeHooks": [
+      "A courier app whose riders are foxes.",
+      "The pipe is empty and the house is too lucky."
+    ],
+    "sources": [
+      "Tohoku tsukimono studies"
+    ]
   }
 ]
