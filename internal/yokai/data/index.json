@@ -1,11 +1,11 @@
 [
   {
-    "Name": "Kappa",
-    "NativeName": "河童",
-    "Category": "水系",
-    "Region": "全国の川・沼",
-    "BlurbJA": "皿を頭に載せた水の妖怪。キュウリと相撲が好物。",
-    "Tags": [
+    "name": "Kappa",
+    "nativeName": "河童",
+    "category": "水系",
+    "region": "全国の川・沼",
+    "blurbJa": "皿を頭に載せた水の妖怪。キュウリと相撲が好物。",
+    "tags": [
       "水",
       "川",
       "入門",
@@ -13,16 +13,16 @@
       "古典",
       "相撲"
     ],
-    "Tone": "playful",
-    "FamousRank": 1
+    "tone": "playful",
+    "famousRank": 1
   },
   {
-    "Name": "Tengu",
-    "NativeName": "天狗",
-    "Category": "山系",
-    "Region": "全国の山",
-    "BlurbJA": "高い鼻と翼を持つ山の護り手。慢心した者を戒める。",
-    "Tags": [
+    "name": "Tengu",
+    "nativeName": "天狗",
+    "category": "山系",
+    "region": "全国の山",
+    "blurbJa": "高い鼻と翼を持つ山の護り手。慢心した者を戒める。",
+    "tags": [
       "山",
       "翼",
       "入門",
@@ -30,16 +30,16 @@
       "修行",
       "護り"
     ],
-    "Tone": "solemn",
-    "FamousRank": 1
+    "tone": "solemn",
+    "famousRank": 1
   },
   {
-    "Name": "Yuki-onna",
-    "NativeName": "雪女",
-    "Category": "気象",
-    "Region": "北国・雪山",
-    "BlurbJA": "吹雪の夜に現れる氷のように美しい女性の妖怪。",
-    "Tags": [
+    "name": "Yuki-onna",
+    "nativeName": "雪女",
+    "category": "気象",
+    "region": "北国・雪山",
+    "blurbJa": "吹雪の夜に現れる氷のように美しい女性の妖怪。",
+    "tags": [
       "雪",
       "氷",
       "女",
@@ -47,16 +47,16 @@
       "怖い",
       "北国"
     ],
-    "Tone": "tragic",
-    "FamousRank": 1
+    "tone": "tragic",
+    "famousRank": 1
   },
   {
-    "Name": "Kitsune",
-    "NativeName": "九尾の狐",
-    "Category": "狐狸",
-    "Region": "全国・稲荷",
-    "BlurbJA": "変化と幻術を操る狐の霊。知恵と悪戯の両方を持つ。",
-    "Tags": [
+    "name": "Kitsune",
+    "nativeName": "九尾の狐",
+    "category": "狐狸",
+    "region": "全国・稲荷",
+    "blurbJa": "変化と幻術を操る狐の霊。知恵と悪戯の両方を持つ。",
+    "tags": [
       "狐",
       "変化",
       "入門",
@@ -64,16 +64,16 @@
       "知恵",
       "稲荷"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 1
+    "tone": "mysterious",
+    "famousRank": 1
   },
   {
-    "Name": "Bakeneko",
-    "NativeName": "化け猫",
-    "Category": "変化",
-    "Region": "城下町・茶屋",
-    "BlurbJA": "長年生きた猫が人語を話し、人の姿にも化ける。",
-    "Tags": [
+    "name": "Bakeneko",
+    "nativeName": "化け猫",
+    "category": "変化",
+    "region": "城下町・茶屋",
+    "blurbJa": "長年生きた猫が人語を話し、人の姿にも化ける。",
+    "tags": [
       "猫",
       "変化",
       "入門",
@@ -81,16 +81,16 @@
       "家",
       "夜"
     ],
-    "Tone": "horror",
-    "FamousRank": 1
+    "tone": "horror",
+    "famousRank": 1
   },
   {
-    "Name": "Nurikabe",
-    "NativeName": "ぬりかべ",
-    "Category": "道中",
-    "Region": "九州など",
-    "BlurbJA": "夜道に壁となって立ちはだかり、進めなくする妖怪。",
-    "Tags": [
+    "name": "Nurikabe",
+    "nativeName": "ぬりかべ",
+    "category": "道中",
+    "region": "九州など",
+    "blurbJa": "夜道に壁となって立ちはだかり、進めなくする妖怪。",
+    "tags": [
       "夜道",
       "壁",
       "入門",
@@ -98,16 +98,16 @@
       "道中",
       "妨害"
     ],
-    "Tone": "comic",
-    "FamousRank": 2
+    "tone": "comic",
+    "famousRank": 2
   },
   {
-    "Name": "Rokurokubi",
-    "NativeName": "ろくろ首",
-    "Category": "変化",
-    "Region": "全国",
-    "BlurbJA": "夜に首が伸び、または飛ぶとされる怪異。",
-    "Tags": [
+    "name": "Rokurokubi",
+    "nativeName": "ろくろ首",
+    "category": "変化",
+    "region": "全国",
+    "blurbJa": "夜に首が伸び、または飛ぶとされる怪異。",
+    "tags": [
       "首",
       "変化",
       "怖い",
@@ -115,16 +115,16 @@
       "入門",
       "女"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Umibozu",
-    "NativeName": "海坊主",
-    "Category": "海",
-    "Region": "沿海",
-    "BlurbJA": "荒れた海に巨大な坊主頭として現れ、船を襲う。",
-    "Tags": [
+    "name": "Umibozu",
+    "nativeName": "海坊主",
+    "category": "海",
+    "region": "沿海",
+    "blurbJa": "荒れた海に巨大な坊主頭として現れ、船を襲う。",
+    "tags": [
       "海",
       "水",
       "怖い",
@@ -132,16 +132,16 @@
       "巨大",
       "入門"
     ],
-    "Tone": "horror",
-    "FamousRank": 1
+    "tone": "horror",
+    "famousRank": 1
   },
   {
-    "Name": "Gashadokuro",
-    "NativeName": "餓者髑髏",
-    "Category": "死霊",
-    "Region": "戦場・荒野",
-    "BlurbJA": "飢え死にした者の骨が集まった巨大な骸骨の妖怪。",
-    "Tags": [
+    "name": "Gashadokuro",
+    "nativeName": "餓者髑髏",
+    "category": "死霊",
+    "region": "戦場・荒野",
+    "blurbJa": "飢え死にした者の骨が集まった巨大な骸骨の妖怪。",
+    "tags": [
       "骸骨",
       "死霊",
       "怖い",
@@ -149,16 +149,16 @@
       "戦場",
       "入門"
     ],
-    "Tone": "horror",
-    "FamousRank": 1
+    "tone": "horror",
+    "famousRank": 1
   },
   {
-    "Name": "Amabie",
-    "NativeName": "アマビエ",
-    "Category": "予言",
-    "Region": "熊本・海辺",
-    "BlurbJA": "疫病を予言し、姿を写せば病が治ると伝えられた。",
-    "Tags": [
+    "name": "Amabie",
+    "nativeName": "アマビエ",
+    "category": "予言",
+    "region": "熊本・海辺",
+    "blurbJa": "疫病を予言し、姿を写せば病が治ると伝えられた。",
+    "tags": [
       "予言",
       "海",
       "疫病",
@@ -166,16 +166,16 @@
       "入門",
       "現代"
     ],
-    "Tone": "gentle",
-    "FamousRank": 1
+    "tone": "gentle",
+    "famousRank": 1
   },
   {
-    "Name": "Zashiki-warashi",
-    "NativeName": "座敷童子",
-    "Category": "屋敷",
-    "Region": "東北・岩手",
-    "BlurbJA": "家に宿る童子の霊。いる家は栄え、去ると衰えるという。",
-    "Tags": [
+    "name": "Zashiki-warashi",
+    "nativeName": "座敷童子",
+    "category": "屋敷",
+    "region": "東北・岩手",
+    "blurbJa": "家に宿る童子の霊。いる家は栄え、去ると衰えるという。",
+    "tags": [
       "家",
       "童子",
       "入門",
@@ -183,16 +183,16 @@
       "東北",
       "福"
     ],
-    "Tone": "gentle",
-    "FamousRank": 1
+    "tone": "gentle",
+    "famousRank": 1
   },
   {
-    "Name": "Nue",
-    "NativeName": "鵺",
-    "Category": "異形",
-    "Region": "京都・古典",
-    "BlurbJA": "頭は猿・胴は狸などの合成獣。平家物語の怪物。",
-    "Tags": [
+    "name": "Nue",
+    "nativeName": "鵺",
+    "category": "異形",
+    "region": "京都・古典",
+    "blurbJa": "頭は猿・胴は狸などの合成獣。平家物語の怪物。",
+    "tags": [
       "異形",
       "古典",
       "京都",
@@ -200,16 +200,16 @@
       "怖い",
       "入門"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 2
+    "tone": "mysterious",
+    "famousRank": 2
   },
   {
-    "Name": "Kamaitachi",
-    "NativeName": "鎌鼬",
-    "Category": "気象",
-    "Region": "信州など",
-    "BlurbJA": "つむじ風に乗り、見えぬ鎌で人を斬る鼬の妖怪。",
-    "Tags": [
+    "name": "Kamaitachi",
+    "nativeName": "鎌鼬",
+    "category": "気象",
+    "region": "信州など",
+    "blurbJa": "つむじ風に乗り、見えぬ鎌で人を斬る鼬の妖怪。",
+    "tags": [
       "風",
       "鼬",
       "怖い",
@@ -217,16 +217,16 @@
       "気象",
       "入門"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Ittan-momen",
-    "NativeName": "一反木綿",
-    "Category": "付喪神",
-    "Region": "九州・鹿児島",
-    "BlurbJA": "一反の木綿が夜空を舞い、人に巻きつく。",
-    "Tags": [
+    "name": "Ittan-momen",
+    "nativeName": "一反木綿",
+    "category": "付喪神",
+    "region": "九州・鹿児島",
+    "blurbJa": "一反の木綿が夜空を舞い、人に巻きつく。",
+    "tags": [
       "付喪神",
       "布",
       "空",
@@ -234,16 +234,16 @@
       "九州",
       "入門"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Amanojaku",
-    "NativeName": "天邪鬼",
-    "Category": "鬼",
-    "Region": "全国",
-    "BlurbJA": "人の心を読み、わざと逆のことをさせるひねくれ鬼。",
-    "Tags": [
+    "name": "Amanojaku",
+    "nativeName": "天邪鬼",
+    "category": "鬼",
+    "region": "全国",
+    "blurbJa": "人の心を読み、わざと逆のことをさせるひねくれ鬼。",
+    "tags": [
       "鬼",
       "心読",
       "悪戯",
@@ -251,16 +251,16 @@
       "ひねくれ",
       "古典"
     ],
-    "Tone": "playful",
-    "FamousRank": 2
+    "tone": "playful",
+    "famousRank": 2
   },
   {
-    "Name": "Nopperabou",
-    "NativeName": "のっぺらぼう",
-    "Category": "異形",
-    "Region": "全国",
-    "BlurbJA": "顔のない人型の妖怪。道で出会った人を驚かせる。",
-    "Tags": [
+    "name": "Nopperabou",
+    "nativeName": "のっぺらぼう",
+    "category": "異形",
+    "region": "全国",
+    "blurbJa": "顔のない人型の妖怪。道で出会った人を驚かせる。",
+    "tags": [
       "顔なし",
       "怖い",
       "道中",
@@ -268,16 +268,16 @@
       "異形",
       "夜"
     ],
-    "Tone": "horror",
-    "FamousRank": 1
+    "tone": "horror",
+    "famousRank": 1
   },
   {
-    "Name": "Akaname",
-    "NativeName": "垢嘗",
-    "Category": "屋敷",
-    "Region": "全国",
-    "BlurbJA": "風呂や不潔な所の垢を舐める舌の長い妖怪。",
-    "Tags": [
+    "name": "Akaname",
+    "nativeName": "垢嘗",
+    "category": "屋敷",
+    "region": "全国",
+    "blurbJa": "風呂や不潔な所の垢を舐める舌の長い妖怪。",
+    "tags": [
       "家",
       "風呂",
       "舌",
@@ -285,16 +285,16 @@
       "入門",
       "不潔"
     ],
-    "Tone": "comic",
-    "FamousRank": 2
+    "tone": "comic",
+    "famousRank": 2
   },
   {
-    "Name": "Chochin-obake",
-    "NativeName": "提灯お化け",
-    "Category": "付喪神",
-    "Region": "全国",
-    "BlurbJA": "古びた提灯が目と舌を生やして化けた姿。",
-    "Tags": [
+    "name": "Chochin-obake",
+    "nativeName": "提灯お化け",
+    "category": "付喪神",
+    "region": "全国",
+    "blurbJa": "古びた提灯が目と舌を生やして化けた姿。",
+    "tags": [
       "付喪神",
       "灯火",
       "かわいい",
@@ -302,16 +302,16 @@
       "道具",
       "夜"
     ],
-    "Tone": "playful",
-    "FamousRank": 1
+    "tone": "playful",
+    "famousRank": 1
   },
   {
-    "Name": "Karakasa-obake",
-    "NativeName": "唐傘お化け",
-    "Category": "付喪神",
-    "Region": "全国",
-    "BlurbJA": "一本足で跳ねる古い和傘の付喪神。",
-    "Tags": [
+    "name": "Karakasa-obake",
+    "nativeName": "唐傘お化け",
+    "category": "付喪神",
+    "region": "全国",
+    "blurbJa": "一本足で跳ねる古い和傘の付喪神。",
+    "tags": [
       "付喪神",
       "傘",
       "かわいい",
@@ -319,16 +319,16 @@
       "一本足",
       "道具"
     ],
-    "Tone": "comic",
-    "FamousRank": 1
+    "tone": "comic",
+    "famousRank": 1
   },
   {
-    "Name": "Bake-danuki",
-    "NativeName": "化け狸",
-    "Category": "狐狸",
-    "Region": "四国・全国",
-    "BlurbJA": "変化得意の狸。徳島の金長狸などが有名。",
-    "Tags": [
+    "name": "Bake-danuki",
+    "nativeName": "化け狸",
+    "category": "狐狸",
+    "region": "四国・全国",
+    "blurbJa": "変化得意の狸。徳島の金長狸などが有名。",
+    "tags": [
       "狸",
       "変化",
       "入門",
@@ -336,16 +336,16 @@
       "悪戯",
       "四国"
     ],
-    "Tone": "playful",
-    "FamousRank": 1
+    "tone": "playful",
+    "famousRank": 1
   },
   {
-    "Name": "Nekomata",
-    "NativeName": "猫又",
-    "Category": "変化",
-    "Region": "山・町",
-    "BlurbJA": "尻尾が二股に裂け、死者を操るとも言われる猫の妖怪。",
-    "Tags": [
+    "name": "Nekomata",
+    "nativeName": "猫又",
+    "category": "変化",
+    "region": "山・町",
+    "blurbJa": "尻尾が二股に裂け、死者を操るとも言われる猫の妖怪。",
+    "tags": [
       "猫",
       "変化",
       "怖い",
@@ -353,16 +353,16 @@
       "山",
       "入門"
     ],
-    "Tone": "horror",
-    "FamousRank": 1
+    "tone": "horror",
+    "famousRank": 1
   },
   {
-    "Name": "Inugami",
-    "NativeName": "犬神",
-    "Category": "憑きもの",
-    "Region": "四国・中国地方",
-    "BlurbJA": "犬の霊を使役する憑きもの。家系に付く伝承がある。",
-    "Tags": [
+    "name": "Inugami",
+    "nativeName": "犬神",
+    "category": "憑きもの",
+    "region": "四国・中国地方",
+    "blurbJa": "犬の霊を使役する憑きもの。家系に付く伝承がある。",
+    "tags": [
       "犬",
       "憑きもの",
       "怖い",
@@ -370,16 +370,16 @@
       "四国",
       "入門"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Kodama",
-    "NativeName": "木霊",
-    "Category": "山系",
-    "Region": "深山の森",
-    "BlurbJA": "古木に宿る精霊。木を伐ると祟りがあるとされる。",
-    "Tags": [
+    "name": "Kodama",
+    "nativeName": "木霊",
+    "category": "山系",
+    "region": "深山の森",
+    "blurbJa": "古木に宿る精霊。木を伐ると祟りがあるとされる。",
+    "tags": [
       "山",
       "森",
       "木",
@@ -387,16 +387,16 @@
       "入門",
       "自然"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 1
+    "tone": "mysterious",
+    "famousRank": 1
   },
   {
-    "Name": "Yamauba",
-    "NativeName": "山姥",
-    "Category": "山系",
-    "Region": "深山",
-    "BlurbJA": "山に住む老女の妖怪。人を喰らうとも、助けるとも。",
-    "Tags": [
+    "name": "Yamauba",
+    "nativeName": "山姥",
+    "category": "山系",
+    "region": "深山",
+    "blurbJa": "山に住む老女の妖怪。人を喰らうとも、助けるとも。",
+    "tags": [
       "山",
       "老婆",
       "怖い",
@@ -404,16 +404,16 @@
       "両義",
       "入門"
     ],
-    "Tone": "horror",
-    "FamousRank": 1
+    "tone": "horror",
+    "famousRank": 1
   },
   {
-    "Name": "Oni",
-    "NativeName": "鬼",
-    "Category": "鬼",
-    "Region": "全国",
-    "BlurbJA": "角と虎皮のパンツが典型。悪行の象徴であり守護でもある。",
-    "Tags": [
+    "name": "Oni",
+    "nativeName": "鬼",
+    "category": "鬼",
+    "region": "全国",
+    "blurbJa": "角と虎皮のパンツが典型。悪行の象徴であり守護でもある。",
+    "tags": [
       "鬼",
       "入門",
       "古典",
@@ -421,16 +421,16 @@
       "節分",
       "怖い"
     ],
-    "Tone": "solemn",
-    "FamousRank": 1
+    "tone": "solemn",
+    "famousRank": 1
   },
   {
-    "Name": "Shuten-doji",
-    "NativeName": "酒呑童子",
-    "Category": "鬼",
-    "Region": "大江山・京都",
-    "BlurbJA": "酒を好む大鬼。源頼光らに討たれた鬼の頭領。",
-    "Tags": [
+    "name": "Shuten-doji",
+    "nativeName": "酒呑童子",
+    "category": "鬼",
+    "region": "大江山・京都",
+    "blurbJa": "酒を好む大鬼。源頼光らに討たれた鬼の頭領。",
+    "tags": [
       "鬼",
       "酒",
       "古典",
@@ -438,16 +438,16 @@
       "頭領",
       "入門"
     ],
-    "Tone": "horror",
-    "FamousRank": 1
+    "tone": "horror",
+    "famousRank": 1
   },
   {
-    "Name": "Ibaraki-doji",
-    "NativeName": "茨木童子",
-    "Category": "鬼",
-    "Region": "京都・大江山",
-    "BlurbJA": "酒呑童子の配下。羅生門で渡辺綱と闘った鬼。",
-    "Tags": [
+    "name": "Ibaraki-doji",
+    "nativeName": "茨木童子",
+    "category": "鬼",
+    "region": "京都・大江山",
+    "blurbJa": "酒呑童子の配下。羅生門で渡辺綱と闘った鬼。",
+    "tags": [
       "鬼",
       "京都",
       "古典",
@@ -455,16 +455,16 @@
       "怖い",
       "入門"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Nurarihyon",
-    "NativeName": "ぬらりひょん",
-    "Category": "異形",
-    "Region": "瀬戸内など",
-    "BlurbJA": "いつの間にか上がり込む妖怪の総大将とも称される。",
-    "Tags": [
+    "name": "Nurarihyon",
+    "nativeName": "ぬらりひょん",
+    "category": "異形",
+    "region": "瀬戸内など",
+    "blurbJa": "いつの間にか上がり込む妖怪の総大将とも称される。",
+    "tags": [
       "総大将",
       "家",
       "入門",
@@ -472,16 +472,16 @@
       "悪戯",
       "古典"
     ],
-    "Tone": "playful",
-    "FamousRank": 1
+    "tone": "playful",
+    "famousRank": 1
   },
   {
-    "Name": "Hitotsume-kozo",
-    "NativeName": "一つ目小僧",
-    "Category": "異形",
-    "Region": "全国",
-    "BlurbJA": "一つ目の童子姿。突然現れて人を驚かす。",
-    "Tags": [
+    "name": "Hitotsume-kozo",
+    "nativeName": "一つ目小僧",
+    "category": "異形",
+    "region": "全国",
+    "blurbJa": "一つ目の童子姿。突然現れて人を驚かす。",
+    "tags": [
       "一つ目",
       "童子",
       "かわいい",
@@ -489,16 +489,16 @@
       "町",
       "驚かし"
     ],
-    "Tone": "playful",
-    "FamousRank": 2
+    "tone": "playful",
+    "famousRank": 2
   },
   {
-    "Name": "Mikoshi-nyudo",
-    "NativeName": "見越入道",
-    "Category": "道中",
-    "Region": "全国",
-    "BlurbJA": "見上げるほど高く伸びる入道。『見越した』と言うと消える。",
-    "Tags": [
+    "name": "Mikoshi-nyudo",
+    "nativeName": "見越入道",
+    "category": "道中",
+    "region": "全国",
+    "blurbJa": "見上げるほど高く伸びる入道。『見越した』と言うと消える。",
+    "tags": [
       "夜道",
       "入道",
       "巨大",
@@ -506,16 +506,16 @@
       "入門",
       "対処"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Tofu-kozo",
-    "NativeName": "豆腐小僧",
-    "Category": "町",
-    "Region": "江戸・町方",
-    "BlurbJA": "豆腐を持った童子の妖怪。悪さはせず愛嬌がある。",
-    "Tags": [
+    "name": "Tofu-kozo",
+    "nativeName": "豆腐小僧",
+    "category": "町",
+    "region": "江戸・町方",
+    "blurbJa": "豆腐を持った童子の妖怪。悪さはせず愛嬌がある。",
+    "tags": [
       "町",
       "童子",
       "かわいい",
@@ -523,16 +523,16 @@
       "豆腐",
       "江戸"
     ],
-    "Tone": "gentle",
-    "FamousRank": 2
+    "tone": "gentle",
+    "famousRank": 2
   },
   {
-    "Name": "Azuki-arai",
-    "NativeName": "小豆洗い",
-    "Category": "水系",
-    "Region": "川辺・各地",
-    "BlurbJA": "川辺で小豆を洗う音を立て、人を不安にさせる。",
-    "Tags": [
+    "name": "Azuki-arai",
+    "nativeName": "小豆洗い",
+    "category": "水系",
+    "region": "川辺・各地",
+    "blurbJa": "川辺で小豆を洗う音を立て、人を不安にさせる。",
+    "tags": [
       "水",
       "川",
       "音",
@@ -540,16 +540,16 @@
       "入門",
       "夜"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 2
+    "tone": "mysterious",
+    "famousRank": 2
   },
   {
-    "Name": "Konaki-jiji",
-    "NativeName": "子泣き爺",
-    "Category": "山系",
-    "Region": "四国など",
-    "BlurbJA": "赤ん坊に化けて背負われ、重くなって押し潰す。",
-    "Tags": [
+    "name": "Konaki-jiji",
+    "nativeName": "子泣き爺",
+    "category": "山系",
+    "region": "四国など",
+    "blurbJa": "赤ん坊に化けて背負われ、重くなって押し潰す。",
+    "tags": [
       "山",
       "赤ん坊",
       "怖い",
@@ -557,16 +557,16 @@
       "入門",
       "変化"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Ubume",
-    "NativeName": "産女",
-    "Category": "死霊",
-    "Region": "全国",
-    "BlurbJA": "産で死んだ女の霊。赤子を託し、銭を残す話が多い。",
-    "Tags": [
+    "name": "Ubume",
+    "nativeName": "産女",
+    "category": "死霊",
+    "region": "全国",
+    "blurbJa": "産で死んだ女の霊。赤子を託し、銭を残す話が多い。",
+    "tags": [
       "死霊",
       "産",
       "女",
@@ -574,16 +574,16 @@
       "悲しい",
       "入門"
     ],
-    "Tone": "tragic",
-    "FamousRank": 2
+    "tone": "tragic",
+    "famousRank": 2
   },
   {
-    "Name": "Nure-onna",
-    "NativeName": "濡女",
-    "Category": "水系",
-    "Region": "海岸・川",
-    "BlurbJA": "濡れた長い髪の女。蛇体とも言われ、赤子を持たせる。",
-    "Tags": [
+    "name": "Nure-onna",
+    "nativeName": "濡女",
+    "category": "水系",
+    "region": "海岸・川",
+    "blurbJa": "濡れた長い髪の女。蛇体とも言われ、赤子を持たせる。",
+    "tags": [
       "水",
       "女",
       "蛇",
@@ -591,16 +591,16 @@
       "海岸",
       "入門"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Jorogumo",
-    "NativeName": "絡新婦",
-    "Category": "変化",
-    "Region": "山中・滝",
-    "BlurbJA": "美しい女に化けた巨大な蜘蛛。男を誘って喰らう。",
-    "Tags": [
+    "name": "Jorogumo",
+    "nativeName": "絡新婦",
+    "category": "変化",
+    "region": "山中・滝",
+    "blurbJa": "美しい女に化けた巨大な蜘蛛。男を誘って喰らう。",
+    "tags": [
       "蜘蛛",
       "女",
       "変化",
@@ -608,16 +608,16 @@
       "恋",
       "入門"
     ],
-    "Tone": "horror",
-    "FamousRank": 1
+    "tone": "horror",
+    "famousRank": 1
   },
   {
-    "Name": "Tsuchigumo",
-    "NativeName": "土蜘蛛",
-    "Category": "古典",
-    "Region": "大和・古典",
-    "BlurbJA": "古くから朝廷に逆らった者や異形の蜘蛛の名。",
-    "Tags": [
+    "name": "Tsuchigumo",
+    "nativeName": "土蜘蛛",
+    "category": "古典",
+    "region": "大和・古典",
+    "blurbJa": "古くから朝廷に逆らった者や異形の蜘蛛の名。",
+    "tags": [
       "蜘蛛",
       "古典",
       "大和",
@@ -625,16 +625,16 @@
       "歴史",
       "入門"
     ],
-    "Tone": "solemn",
-    "FamousRank": 2
+    "tone": "solemn",
+    "famousRank": 2
   },
   {
-    "Name": "Raiju",
-    "NativeName": "雷獣",
-    "Category": "気象",
-    "Region": "全国",
-    "BlurbJA": "雷とともに落ちる獣。木に宿り、犬に似るとも。",
-    "Tags": [
+    "name": "Raiju",
+    "nativeName": "雷獣",
+    "category": "気象",
+    "region": "全国",
+    "blurbJa": "雷とともに落ちる獣。木に宿り、犬に似るとも。",
+    "tags": [
       "雷",
       "獣",
       "気象",
@@ -642,16 +642,16 @@
       "入門",
       "自然"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 2
+    "tone": "mysterious",
+    "famousRank": 2
   },
   {
-    "Name": "Wanyudo",
-    "NativeName": "輪入道",
-    "Category": "道中",
-    "Region": "京・街道",
-    "BlurbJA": "炎の車輪に人の顔。見る者の魂を奪うとも。",
-    "Tags": [
+    "name": "Wanyudo",
+    "nativeName": "輪入道",
+    "category": "道中",
+    "region": "京・街道",
+    "blurbJa": "炎の車輪に人の顔。見る者の魂を奪うとも。",
+    "tags": [
       "車輪",
       "火",
       "怖い",
@@ -659,16 +659,16 @@
       "京都",
       "入門"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Satori",
-    "NativeName": "覚",
-    "Category": "山系",
-    "Region": "飛騨・甲斐など",
-    "BlurbJA": "人の心を読み上げる山の妖怪。考えを読まれると怖い。",
-    "Tags": [
+    "name": "Satori",
+    "nativeName": "覚",
+    "category": "山系",
+    "region": "飛騨・甲斐など",
+    "blurbJa": "人の心を読み上げる山の妖怪。考えを読まれると怖い。",
+    "tags": [
       "山",
       "心読",
       "怖い",
@@ -676,16 +676,16 @@
       "心理",
       "創作"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 2
+    "tone": "mysterious",
+    "famousRank": 2
   },
   {
-    "Name": "Dorotabo",
-    "NativeName": "泥田坊",
-    "Category": "田畑",
-    "Region": "農村",
-    "BlurbJA": "荒れた田から「田を返せ」と出てくる三つ目の姿。",
-    "Tags": [
+    "name": "Dorotabo",
+    "nativeName": "泥田坊",
+    "category": "田畑",
+    "region": "農村",
+    "blurbJa": "荒れた田から「田を返せ」と出てくる三つ目の姿。",
+    "tags": [
       "田畑",
       "三つ目",
       "農村",
@@ -693,16 +693,16 @@
       "土",
       "恨み"
     ],
-    "Tone": "tragic",
-    "FamousRank": 2
+    "tone": "tragic",
+    "famousRank": 2
   },
   {
-    "Name": "Mokumokuren",
-    "NativeName": "目目連",
-    "Category": "屋敷",
-    "Region": "廃屋の障子",
-    "BlurbJA": "破れた障子に無数の目が浮かぶ怪異。",
-    "Tags": [
+    "name": "Mokumokuren",
+    "nativeName": "目目連",
+    "category": "屋敷",
+    "region": "廃屋の障子",
+    "blurbJa": "破れた障子に無数の目が浮かぶ怪異。",
+    "tags": [
       "家",
       "目",
       "障子",
@@ -710,16 +710,16 @@
       "廃屋",
       "入門"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Aoandon",
-    "NativeName": "青行燈",
-    "Category": "古典",
-    "Region": "百物語の席",
-    "BlurbJA": "百物語の最後に現れるという青い炎の女の妖怪。",
-    "Tags": [
+    "name": "Aoandon",
+    "nativeName": "青行燈",
+    "category": "古典",
+    "region": "百物語の席",
+    "blurbJa": "百物語の最後に現れるという青い炎の女の妖怪。",
+    "tags": [
       "古典",
       "火",
       "女",
@@ -727,16 +727,16 @@
       "百物語",
       "入門"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Tamamo-no-Mae",
-    "NativeName": "玉藻前",
-    "Category": "狐狸",
-    "Region": "宮中・那須",
-    "BlurbJA": "美人に化けた白面金毛九尾の狐。殺生石の伝説へ続く。",
-    "Tags": [
+    "name": "Tamamo-no-Mae",
+    "nativeName": "玉藻前",
+    "category": "狐狸",
+    "region": "宮中・那須",
+    "blurbJa": "美人に化けた白面金毛九尾の狐。殺生石の伝説へ続く。",
+    "tags": [
       "狐",
       "変化",
       "古典",
@@ -744,16 +744,16 @@
       "宮中",
       "入門"
     ],
-    "Tone": "tragic",
-    "FamousRank": 1
+    "tone": "tragic",
+    "famousRank": 1
   },
   {
-    "Name": "Kiyohime",
-    "NativeName": "清姫",
-    "Category": "古典",
-    "Region": "紀州・道成寺",
-    "BlurbJA": "安珍を追い、蛇体となって鐘に巻きついた女の物語。",
-    "Tags": [
+    "name": "Kiyohime",
+    "nativeName": "清姫",
+    "category": "古典",
+    "region": "紀州・道成寺",
+    "blurbJa": "安珍を追い、蛇体となって鐘に巻きついた女の物語。",
+    "tags": [
       "恋",
       "蛇",
       "古典",
@@ -761,16 +761,16 @@
       "嫉妬",
       "入門"
     ],
-    "Tone": "tragic",
-    "FamousRank": 1
+    "tone": "tragic",
+    "famousRank": 1
   },
   {
-    "Name": "Hashihime",
-    "NativeName": "橋姫",
-    "Category": "古典",
-    "Region": "宇治など",
-    "BlurbJA": "橋にまつわる女の霊・神。嫉妬や呪いの物語で知られる。",
-    "Tags": [
+    "name": "Hashihime",
+    "nativeName": "橋姫",
+    "category": "古典",
+    "region": "宇治など",
+    "blurbJa": "橋にまつわる女の霊・神。嫉妬や呪いの物語で知られる。",
+    "tags": [
       "橋",
       "女",
       "恋",
@@ -778,16 +778,16 @@
       "古典",
       "入門"
     ],
-    "Tone": "tragic",
-    "FamousRank": 2
+    "tone": "tragic",
+    "famousRank": 2
   },
   {
-    "Name": "Funa-yurei",
-    "NativeName": "船幽霊",
-    "Category": "海",
-    "Region": "沿海各地",
-    "BlurbJA": "海難の霊。柄杓で船に水を汲み入れようとする。",
-    "Tags": [
+    "name": "Funa-yurei",
+    "nativeName": "船幽霊",
+    "category": "海",
+    "region": "沿海各地",
+    "blurbJa": "海難の霊。柄杓で船に水を汲み入れようとする。",
+    "tags": [
       "海",
       "死霊",
       "船",
@@ -795,16 +795,16 @@
       "水",
       "入門"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Kuchisake-onna",
-    "NativeName": "口裂け女",
-    "Category": "現代伝承",
-    "Region": "全国（昭和以降）",
-    "BlurbJA": "マスクの下に裂けた口。都市伝説として広まった。",
-    "Tags": [
+    "name": "Kuchisake-onna",
+    "nativeName": "口裂け女",
+    "category": "現代伝承",
+    "region": "全国（昭和以降）",
+    "blurbJa": "マスクの下に裂けた口。都市伝説として広まった。",
+    "tags": [
       "現代",
       "怖い",
       "女",
@@ -812,16 +812,16 @@
       "入門",
       "学校"
     ],
-    "Tone": "horror",
-    "FamousRank": 1
+    "tone": "horror",
+    "famousRank": 1
   },
   {
-    "Name": "Ningyo",
-    "NativeName": "人魚",
-    "Category": "海",
-    "Region": "沿海・古典",
-    "BlurbJA": "人面魚体。肉を食べると不老長寿という八百比丘尼伝説。",
-    "Tags": [
+    "name": "Ningyo",
+    "nativeName": "人魚",
+    "category": "海",
+    "region": "沿海・古典",
+    "blurbJa": "人面魚体。肉を食べると不老長寿という八百比丘尼伝説。",
+    "tags": [
       "海",
       "人魚",
       "古典",
@@ -829,16 +829,16 @@
       "長寿",
       "入門"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 1
+    "tone": "mysterious",
+    "famousRank": 1
   },
   {
-    "Name": "Tsukumogami",
-    "NativeName": "付喪神",
-    "Category": "付喪神",
-    "Region": "全国",
-    "BlurbJA": "百年使った道具が魂を得て化けたものの総称。",
-    "Tags": [
+    "name": "Tsukumogami",
+    "nativeName": "付喪神",
+    "category": "付喪神",
+    "region": "全国",
+    "blurbJa": "百年使った道具が魂を得て化けたものの総称。",
+    "tags": [
       "付喪神",
       "道具",
       "入門",
@@ -846,224 +846,224 @@
       "総称",
       "かわいい"
     ],
-    "Tone": "playful",
-    "FamousRank": 1
+    "tone": "playful",
+    "famousRank": 1
   },
   {
-    "Name": "Yamabiko",
-    "NativeName": "山彦",
-    "Category": "山系",
-    "Region": "山中",
-    "BlurbJA": "山で声を返す怪異。木霊と同一視されることも。",
-    "Tags": [
+    "name": "Yamabiko",
+    "nativeName": "山彦",
+    "category": "山系",
+    "region": "山中",
+    "blurbJa": "山で声を返す怪異。木霊と同一視されることも。",
+    "tags": [
       "山",
       "音",
       "反響",
       "自然",
       "森"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 3
+    "tone": "mysterious",
+    "famousRank": 3
   },
   {
-    "Name": "Yamawaro",
-    "NativeName": "山童",
-    "Category": "山系",
-    "Region": "九州など",
-    "BlurbJA": "山の河童的存在。頭に皿があり、季節で河童と入れ替わる話も。",
-    "Tags": [
+    "name": "Yamawaro",
+    "nativeName": "山童",
+    "category": "山系",
+    "region": "九州など",
+    "blurbJa": "山の河童的存在。頭に皿があり、季節で河童と入れ替わる話も。",
+    "tags": [
       "山",
       "水",
       "河童",
       "九州",
       "皿"
     ],
-    "Tone": "playful",
-    "FamousRank": 3
+    "tone": "playful",
+    "famousRank": 3
   },
   {
-    "Name": "Hitotsume-nyudo",
-    "NativeName": "一つ目入道",
-    "Category": "異形",
-    "Region": "全国",
-    "BlurbJA": "巨大な一つ目の入道。見越入道と混同されることも。",
-    "Tags": [
+    "name": "Hitotsume-nyudo",
+    "nativeName": "一つ目入道",
+    "category": "異形",
+    "region": "全国",
+    "blurbJa": "巨大な一つ目の入道。見越入道と混同されることも。",
+    "tags": [
       "一つ目",
       "入道",
       "怖い",
       "巨大",
       "夜道"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Onyudo",
-    "NativeName": "大入道",
-    "Category": "異形",
-    "Region": "各地",
-    "BlurbJA": "異常に大きな僧形の妖怪。地方ごとに姿が異なる。",
-    "Tags": [
+    "name": "Onyudo",
+    "nativeName": "大入道",
+    "category": "異形",
+    "region": "各地",
+    "blurbJa": "異常に大きな僧形の妖怪。地方ごとに姿が異なる。",
+    "tags": [
       "入道",
       "巨大",
       "僧",
       "怖い",
       "地方"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Sunakake-baba",
-    "NativeName": "砂かけ婆",
-    "Category": "屋敷",
-    "Region": "関西など",
-    "BlurbJA": "人に砂をかけて困らせる老婆の妖怪。",
-    "Tags": [
+    "name": "Sunakake-baba",
+    "nativeName": "砂かけ婆",
+    "category": "屋敷",
+    "region": "関西など",
+    "blurbJa": "人に砂をかけて困らせる老婆の妖怪。",
+    "tags": [
       "家",
       "老婆",
       "砂",
       "悪戯",
       "町"
     ],
-    "Tone": "comic",
-    "FamousRank": 3
+    "tone": "comic",
+    "famousRank": 3
   },
   {
-    "Name": "Iso-onna",
-    "NativeName": "磯女",
-    "Category": "海",
-    "Region": "九州の海岸",
-    "BlurbJA": "磯に現れる女の妖怪。血を吸うとも伝わる。",
-    "Tags": [
+    "name": "Iso-onna",
+    "nativeName": "磯女",
+    "category": "海",
+    "region": "九州の海岸",
+    "blurbJa": "磯に現れる女の妖怪。血を吸うとも伝わる。",
+    "tags": [
       "海",
       "女",
       "怖い",
       "海岸",
       "血"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Isonade",
-    "NativeName": "磯撫",
-    "Category": "海",
-    "Region": "西日本の海",
-    "BlurbJA": "巨大な鮫のような海の妖怪。尾で船を撫でて沈める。",
-    "Tags": [
+    "name": "Isonade",
+    "nativeName": "磯撫",
+    "category": "海",
+    "region": "西日本の海",
+    "blurbJa": "巨大な鮫のような海の妖怪。尾で船を撫でて沈める。",
+    "tags": [
       "海",
       "鮫",
       "船",
       "怖い",
       "巨大"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Omukade",
-    "NativeName": "大百足",
-    "Category": "異形",
-    "Region": "山・湖",
-    "BlurbJA": "山を覆うほどの巨大な百足。藤原秀郷の百足退治が有名。",
-    "Tags": [
+    "name": "Omukade",
+    "nativeName": "大百足",
+    "category": "異形",
+    "region": "山・湖",
+    "blurbJa": "山を覆うほどの巨大な百足。藤原秀郷の百足退治が有名。",
+    "tags": [
       "百足",
       "巨大",
       "古典",
       "山",
       "怖い"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Onibi",
-    "NativeName": "鬼火",
-    "Category": "霊火",
-    "Region": "墓・野原",
-    "BlurbJA": "夜に漂う怪火。死霊や動物の霊とされることが多い。",
-    "Tags": [
+    "name": "Onibi",
+    "nativeName": "鬼火",
+    "category": "霊火",
+    "region": "墓・野原",
+    "blurbJa": "夜に漂う怪火。死霊や動物の霊とされることが多い。",
+    "tags": [
       "火",
       "霊火",
       "夜",
       "死霊",
       "墓"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 2
+    "tone": "mysterious",
+    "famousRank": 2
   },
   {
-    "Name": "Kitsunebi",
-    "NativeName": "狐火",
-    "Category": "霊火",
-    "Region": "野道・田畑",
-    "BlurbJA": "狐がともすとされる怪しい火。行列になって進む話も。",
-    "Tags": [
+    "name": "Kitsunebi",
+    "nativeName": "狐火",
+    "category": "霊火",
+    "region": "野道・田畑",
+    "blurbJa": "狐がともすとされる怪しい火。行列になって進む話も。",
+    "tags": [
       "火",
       "狐",
       "霊火",
       "夜道",
       "田畑"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 2
+    "tone": "mysterious",
+    "famousRank": 2
   },
   {
-    "Name": "Hitodama",
-    "NativeName": "人魂",
-    "Category": "霊火",
-    "Region": "全国",
-    "BlurbJA": "死人の魂が火の玉となって飛び去る現象・怪異。",
-    "Tags": [
+    "name": "Hitodama",
+    "nativeName": "人魂",
+    "category": "霊火",
+    "region": "全国",
+    "blurbJa": "死人の魂が火の玉となって飛び去る現象・怪異。",
+    "tags": [
       "火",
       "魂",
       "死霊",
       "夜",
       "霊火"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 2
+    "tone": "mysterious",
+    "famousRank": 2
   },
   {
-    "Name": "Tsurube-otoshi",
-    "NativeName": "釣瓶落とし",
-    "Category": "山系",
-    "Region": "山道の木",
-    "BlurbJA": "大木の上から頭や釣瓶を落として人を襲う。",
-    "Tags": [
+    "name": "Tsurube-otoshi",
+    "nativeName": "釣瓶落とし",
+    "category": "山系",
+    "region": "山道の木",
+    "blurbJa": "大木の上から頭や釣瓶を落として人を襲う。",
+    "tags": [
       "山",
       "木",
       "怖い",
       "落下",
       "夜道"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Tsurube-bi",
-    "NativeName": "つるべ火",
-    "Category": "霊火",
-    "Region": "木の上など",
-    "BlurbJA": "釣瓶のような火が木々の間を行き来する怪火。",
-    "Tags": [
+    "name": "Tsurube-bi",
+    "nativeName": "つるべ火",
+    "category": "霊火",
+    "region": "木の上など",
+    "blurbJa": "釣瓶のような火が木々の間を行き来する怪火。",
+    "tags": [
       "火",
       "霊火",
       "木",
       "夜",
       "山"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 4
+    "tone": "mysterious",
+    "famousRank": 4
   },
   {
-    "Name": "Oboroguruma",
-    "NativeName": "朧車",
-    "Category": "道中",
-    "Region": "京都",
-    "BlurbJA": "夜の京を走る、巨大な顔を付けた牛車の妖怪。",
-    "Tags": [
+    "name": "Oboroguruma",
+    "nativeName": "朧車",
+    "category": "道中",
+    "region": "京都",
+    "blurbJa": "夜の京を走る、巨大な顔を付けた牛車の妖怪。",
+    "tags": [
       "車",
       "京都",
       "夜",
@@ -1071,16 +1071,16 @@
       "古典",
       "顔"
     ],
-    "Tone": "horror",
-    "FamousRank": 4
+    "tone": "horror",
+    "famousRank": 4
   },
   {
-    "Name": "Kasha",
-    "NativeName": "火車",
-    "Category": "死霊",
-    "Region": "葬列・墓地",
-    "BlurbJA": "死体を奪う炎の車または猫のような妖怪。",
-    "Tags": [
+    "name": "Kasha",
+    "nativeName": "火車",
+    "category": "死霊",
+    "region": "葬列・墓地",
+    "blurbJa": "死体を奪う炎の車または猫のような妖怪。",
+    "tags": [
       "死霊",
       "火",
       "猫",
@@ -1088,208 +1088,208 @@
       "葬",
       "死体"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Hyosube",
-    "NativeName": "ひょうすべ",
-    "Category": "水系",
-    "Region": "九州",
-    "BlurbJA": "河童に近い毛むくじゃらの水辺の妖怪。",
-    "Tags": [
+    "name": "Hyosube",
+    "nativeName": "ひょうすべ",
+    "category": "水系",
+    "region": "九州",
+    "blurbJa": "河童に近い毛むくじゃらの水辺の妖怪。",
+    "tags": [
       "水",
       "河童",
       "九州",
       "毛",
       "川"
     ],
-    "Tone": "playful",
-    "FamousRank": 3
+    "tone": "playful",
+    "famousRank": 3
   },
   {
-    "Name": "Makura-gaeshi",
-    "NativeName": "枕返し",
-    "Category": "屋敷",
-    "Region": "全国",
-    "BlurbJA": "寝ている間に枕の向きを変える寝室の怪異。",
-    "Tags": [
+    "name": "Makura-gaeshi",
+    "nativeName": "枕返し",
+    "category": "屋敷",
+    "region": "全国",
+    "blurbJa": "寝ている間に枕の向きを変える寝室の怪異。",
+    "tags": [
       "家",
       "枕",
       "夜",
       "寝室",
       "悪戯"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 3
+    "tone": "mysterious",
+    "famousRank": 3
   },
   {
-    "Name": "Tenjoname",
-    "NativeName": "天井嘗",
-    "Category": "屋敷",
-    "Region": "家屋",
-    "BlurbJA": "長い舌で天井の汚れを嘗める妖怪。",
-    "Tags": [
+    "name": "Tenjoname",
+    "nativeName": "天井嘗",
+    "category": "屋敷",
+    "region": "家屋",
+    "blurbJa": "長い舌で天井の汚れを嘗める妖怪。",
+    "tags": [
       "家",
       "舌",
       "天井",
       "かわいい",
       "不潔"
     ],
-    "Tone": "comic",
-    "FamousRank": 3
+    "tone": "comic",
+    "famousRank": 3
   },
   {
-    "Name": "Keukegen",
-    "NativeName": "毛羽毛現",
-    "Category": "屋敷",
-    "Region": "湿った家",
-    "BlurbJA": "病や汚れから生じる、毛だらけの正体不明の妖怪。",
-    "Tags": [
+    "name": "Keukegen",
+    "nativeName": "毛羽毛現",
+    "category": "屋敷",
+    "region": "湿った家",
+    "blurbJa": "病や汚れから生じる、毛だらけの正体不明の妖怪。",
+    "tags": [
       "家",
       "毛",
       "病",
       "不潔",
       "異形"
     ],
-    "Tone": "horror",
-    "FamousRank": 4
+    "tone": "horror",
+    "famousRank": 4
   },
   {
-    "Name": "Bakezori",
-    "NativeName": "化け草履",
-    "Category": "付喪神",
-    "Region": "全国",
-    "BlurbJA": "古い草履が夜に走り回り「カラリン」と歌う。",
-    "Tags": [
+    "name": "Bakezori",
+    "nativeName": "化け草履",
+    "category": "付喪神",
+    "region": "全国",
+    "blurbJa": "古い草履が夜に走り回り「カラリン」と歌う。",
+    "tags": [
       "付喪神",
       "草履",
       "かわいい",
       "夜",
       "道具"
     ],
-    "Tone": "comic",
-    "FamousRank": 3
+    "tone": "comic",
+    "famousRank": 3
   },
   {
-    "Name": "Aosaginohi",
-    "NativeName": "青鷺火",
-    "Category": "霊火",
-    "Region": "水辺",
-    "BlurbJA": "青鷺が放つ怪しい青い火、またはその姿の怪異。",
-    "Tags": [
+    "name": "Aosaginohi",
+    "nativeName": "青鷺火",
+    "category": "霊火",
+    "region": "水辺",
+    "blurbJa": "青鷺が放つ怪しい青い火、またはその姿の怪異。",
+    "tags": [
       "火",
       "鳥",
       "水",
       "霊火",
       "青"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 4
+    "tone": "mysterious",
+    "famousRank": 4
   },
   {
-    "Name": "Abura-sumashi",
-    "NativeName": "油すまし",
-    "Category": "山系",
-    "Region": "熊本など",
-    "BlurbJA": "峠に現れ、大きな頭の老人のような姿で人を見る。",
-    "Tags": [
+    "name": "Abura-sumashi",
+    "nativeName": "油すまし",
+    "category": "山系",
+    "region": "熊本など",
+    "blurbJa": "峠に現れ、大きな頭の老人のような姿で人を見る。",
+    "tags": [
       "山",
       "峠",
       "油",
       "老人",
       "九州"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 3
+    "tone": "mysterious",
+    "famousRank": 3
   },
   {
-    "Name": "Abura-akago",
-    "NativeName": "油赤子",
-    "Category": "霊火",
-    "Region": "関西など",
-    "BlurbJA": "油を舐めた罰で火の玉の赤子となったという怪異。",
-    "Tags": [
+    "name": "Abura-akago",
+    "nativeName": "油赤子",
+    "category": "霊火",
+    "region": "関西など",
+    "blurbJa": "油を舐めた罰で火の玉の赤子となったという怪異。",
+    "tags": [
       "火",
       "赤子",
       "油",
       "罰",
       "霊火"
     ],
-    "Tone": "tragic",
-    "FamousRank": 4
+    "tone": "tragic",
+    "famousRank": 4
   },
   {
-    "Name": "Oshiroi-baba",
-    "NativeName": "白粉婆",
-    "Category": "屋敷",
-    "Region": "京・町",
-    "BlurbJA": "白粉を塗った老婆。白粉をねだるとも伝える。",
-    "Tags": [
+    "name": "Oshiroi-baba",
+    "nativeName": "白粉婆",
+    "category": "屋敷",
+    "region": "京・町",
+    "blurbJa": "白粉を塗った老婆。白粉をねだるとも伝える。",
+    "tags": [
       "家",
       "老婆",
       "白粉",
       "町",
       "京"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 4
+    "tone": "mysterious",
+    "famousRank": 4
   },
   {
-    "Name": "Hakuzosu",
-    "NativeName": "白蔵主",
-    "Category": "狐狸",
-    "Region": "和泉など",
-    "BlurbJA": "僧に化けた狐。勧進帳や狂言でも知られる。",
-    "Tags": [
+    "name": "Hakuzosu",
+    "nativeName": "白蔵主",
+    "category": "狐狸",
+    "region": "和泉など",
+    "blurbJa": "僧に化けた狐。勧進帳や狂言でも知られる。",
+    "tags": [
       "狐",
       "僧",
       "変化",
       "古典",
       "狂言"
     ],
-    "Tone": "playful",
-    "FamousRank": 3
+    "tone": "playful",
+    "famousRank": 3
   },
   {
-    "Name": "Yako",
-    "NativeName": "野狐",
-    "Category": "狐狸",
-    "Region": "全国",
-    "BlurbJA": "位の低い狐。人を化かす野の狐、または憑きもの。",
-    "Tags": [
+    "name": "Yako",
+    "nativeName": "野狐",
+    "category": "狐狸",
+    "region": "全国",
+    "blurbJa": "位の低い狐。人を化かす野の狐、または憑きもの。",
+    "tags": [
       "狐",
       "変化",
       "憑きもの",
       "野",
       "悪戯"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 3
+    "tone": "mysterious",
+    "famousRank": 3
   },
   {
-    "Name": "Tenko",
-    "NativeName": "天狐",
-    "Category": "狐狸",
-    "Region": "古典",
-    "BlurbJA": "千年を経て天に通じる最高位の狐とされる。",
-    "Tags": [
+    "name": "Tenko",
+    "nativeName": "天狐",
+    "category": "狐狸",
+    "region": "古典",
+    "blurbJa": "千年を経て天に通じる最高位の狐とされる。",
+    "tags": [
       "狐",
       "古典",
       "天",
       "高位",
       "神秘"
     ],
-    "Tone": "solemn",
-    "FamousRank": 4
+    "tone": "solemn",
+    "famousRank": 4
   },
   {
-    "Name": "Mizuchi",
-    "NativeName": "蛟",
-    "Category": "水系",
-    "Region": "川・古典",
-    "BlurbJA": "水に棲む龍的な蛇神・妖怪。生贄の伝承もある。",
-    "Tags": [
+    "name": "Mizuchi",
+    "nativeName": "蛟",
+    "category": "水系",
+    "region": "川・古典",
+    "blurbJa": "水に棲む龍的な蛇神・妖怪。生贄の伝承もある。",
+    "tags": [
       "水",
       "蛇",
       "龍",
@@ -1297,32 +1297,32 @@
       "川",
       "神"
     ],
-    "Tone": "solemn",
-    "FamousRank": 3
+    "tone": "solemn",
+    "famousRank": 3
   },
   {
-    "Name": "Nozuchi",
-    "NativeName": "野槌",
-    "Category": "山系",
-    "Region": "山野",
-    "BlurbJA": "頭も尾もはっきりしない槌のような怪物。",
-    "Tags": [
+    "name": "Nozuchi",
+    "nativeName": "野槌",
+    "category": "山系",
+    "region": "山野",
+    "blurbJa": "頭も尾もはっきりしない槌のような怪物。",
+    "tags": [
       "山",
       "異形",
       "古典",
       "槌",
       "謎"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 4
+    "tone": "mysterious",
+    "famousRank": 4
   },
   {
-    "Name": "Dodomeki",
-    "NativeName": "百々目鬼",
-    "Category": "異形",
-    "Region": "古典",
-    "BlurbJA": "腕に無数の目を持つ女鬼。盗癖の報いとも。",
-    "Tags": [
+    "name": "Dodomeki",
+    "nativeName": "百々目鬼",
+    "category": "異形",
+    "region": "古典",
+    "blurbJa": "腕に無数の目を持つ女鬼。盗癖の報いとも。",
+    "tags": [
       "目",
       "鬼",
       "女",
@@ -1330,144 +1330,144 @@
       "怖い",
       "罰"
     ],
-    "Tone": "horror",
-    "FamousRank": 4
+    "tone": "horror",
+    "famousRank": 4
   },
   {
-    "Name": "Onmoraki",
-    "NativeName": "陰摩羅鬼",
-    "Category": "死霊",
-    "Region": "寺・葬",
-    "BlurbJA": "死体から生じる鳥のような鬼。供養不足の祟り。",
-    "Tags": [
+    "name": "Onmoraki",
+    "nativeName": "陰摩羅鬼",
+    "category": "死霊",
+    "region": "寺・葬",
+    "blurbJa": "死体から生じる鳥のような鬼。供養不足の祟り。",
+    "tags": [
       "死霊",
       "鳥",
       "寺",
       "怖い",
       "葬"
     ],
-    "Tone": "horror",
-    "FamousRank": 4
+    "tone": "horror",
+    "famousRank": 4
   },
   {
-    "Name": "Nukekubi",
-    "NativeName": "抜け首",
-    "Category": "変化",
-    "Region": "全国",
-    "BlurbJA": "首だけが体から離れて飛ぶろくろ首の一類。",
-    "Tags": [
+    "name": "Nukekubi",
+    "nativeName": "抜け首",
+    "category": "変化",
+    "region": "全国",
+    "blurbJa": "首だけが体から離れて飛ぶろくろ首の一類。",
+    "tags": [
       "首",
       "変化",
       "怖い",
       "夜",
       "女"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Okubi",
-    "NativeName": "大首",
-    "Category": "異形",
-    "Region": "空・町",
-    "BlurbJA": "空中や闇に巨大な顔だけが現れる怪異。",
-    "Tags": [
+    "name": "Okubi",
+    "nativeName": "大首",
+    "category": "異形",
+    "region": "空・町",
+    "blurbJa": "空中や闇に巨大な顔だけが現れる怪異。",
+    "tags": [
       "顔",
       "巨大",
       "怖い",
       "空",
       "夜"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Kage-onna",
-    "NativeName": "影女",
-    "Category": "屋敷",
-    "Region": "障子・窓",
-    "BlurbJA": "障子に女の影だけが映るが、中には誰もいない。",
-    "Tags": [
+    "name": "Kage-onna",
+    "nativeName": "影女",
+    "category": "屋敷",
+    "region": "障子・窓",
+    "blurbJa": "障子に女の影だけが映るが、中には誰もいない。",
+    "tags": [
       "家",
       "影",
       "女",
       "障子",
       "怖い"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 3
+    "tone": "mysterious",
+    "famousRank": 3
   },
   {
-    "Name": "Sakabashira",
-    "NativeName": "逆柱",
-    "Category": "屋敷",
-    "Region": "建築",
-    "BlurbJA": "上下逆に組まれた柱がもたらす家の怪異。",
-    "Tags": [
+    "name": "Sakabashira",
+    "nativeName": "逆柱",
+    "category": "屋敷",
+    "region": "建築",
+    "blurbJa": "上下逆に組まれた柱がもたらす家の怪異。",
+    "tags": [
       "家",
       "建築",
       "柱",
       "呪い",
       "怪異"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 4
+    "tone": "mysterious",
+    "famousRank": 4
   },
   {
-    "Name": "Sodehiki-kozo",
-    "NativeName": "袖引き小僧",
-    "Category": "町",
-    "Region": "夜道",
-    "BlurbJA": "夜道で袖を引く童子。振り向くと誰もいない。",
-    "Tags": [
+    "name": "Sodehiki-kozo",
+    "nativeName": "袖引き小僧",
+    "category": "町",
+    "region": "夜道",
+    "blurbJa": "夜道で袖を引く童子。振り向くと誰もいない。",
+    "tags": [
       "町",
       "童子",
       "夜道",
       "悪戯",
       "袖"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 3
+    "tone": "mysterious",
+    "famousRank": 3
   },
   {
-    "Name": "Azuki-hakari",
-    "NativeName": "小豆はかり",
-    "Category": "屋敷",
-    "Region": "天井裏",
-    "BlurbJA": "天井裏で小豆を量るような音がする怪異。",
-    "Tags": [
+    "name": "Azuki-hakari",
+    "nativeName": "小豆はかり",
+    "category": "屋敷",
+    "region": "天井裏",
+    "blurbJa": "天井裏で小豆を量るような音がする怪異。",
+    "tags": [
       "家",
       "音",
       "小豆",
       "天井裏",
       "怖い"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 3
+    "tone": "mysterious",
+    "famousRank": 3
   },
   {
-    "Name": "Gaki",
-    "NativeName": "餓鬼",
-    "Category": "死霊",
-    "Region": "仏教説話",
-    "BlurbJA": "飢えに苦しむ亡者。仏教の六道の存在が民間に定着。",
-    "Tags": [
+    "name": "Gaki",
+    "nativeName": "餓鬼",
+    "category": "死霊",
+    "region": "仏教説話",
+    "blurbJa": "飢えに苦しむ亡者。仏教の六道の存在が民間に定着。",
+    "tags": [
       "死霊",
       "仏教",
       "飢え",
       "古典",
       "六道"
     ],
-    "Tone": "tragic",
-    "FamousRank": 2
+    "tone": "tragic",
+    "famousRank": 2
   },
   {
-    "Name": "Yurei",
-    "NativeName": "幽霊",
-    "Category": "死霊",
-    "Region": "全国",
-    "BlurbJA": "死者の霊の総称。足のない白い姿が近世以降の典型。",
-    "Tags": [
+    "name": "Yurei",
+    "nativeName": "幽霊",
+    "category": "死霊",
+    "region": "全国",
+    "blurbJa": "死者の霊の総称。足のない白い姿が近世以降の典型。",
+    "tags": [
       "死霊",
       "怖い",
       "総称",
@@ -1475,32 +1475,32 @@
       "白",
       "怨念"
     ],
-    "Tone": "horror",
-    "FamousRank": 1
+    "tone": "horror",
+    "famousRank": 1
   },
   {
-    "Name": "Ayakashi",
-    "NativeName": "あやかし",
-    "Category": "海",
-    "Region": "西日本の海",
-    "BlurbJA": "海の怪異の総称、または海上に現れる怪しい気配。",
-    "Tags": [
+    "name": "Ayakashi",
+    "nativeName": "あやかし",
+    "category": "海",
+    "region": "西日本の海",
+    "blurbJa": "海の怪異の総称、または海上に現れる怪しい気配。",
+    "tags": [
       "海",
       "総称",
       "水",
       "怖い",
       "西日本"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 2
+    "tone": "mysterious",
+    "famousRank": 2
   },
   {
-    "Name": "Waira",
-    "NativeName": "わいら",
-    "Category": "異形",
-    "Region": "百鬼夜行絵巻",
-    "BlurbJA": "大きな爪を持つ獣型。正体は絵巻でも謎が多い。",
-    "Tags": [
+    "name": "Waira",
+    "nativeName": "わいら",
+    "category": "異形",
+    "region": "百鬼夜行絵巻",
+    "blurbJa": "大きな爪を持つ獣型。正体は絵巻でも謎が多い。",
+    "tags": [
       "異形",
       "絵巻",
       "古典",
@@ -1508,64 +1508,64 @@
       "獣",
       "謎"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 5
+    "tone": "mysterious",
+    "famousRank": 5
   },
   {
-    "Name": "Enraenra",
-    "NativeName": "煙羅煙羅",
-    "Category": "気象",
-    "Region": "煙・空",
-    "BlurbJA": "煙の中に人の形が浮かぶ妖怪。",
-    "Tags": [
+    "name": "Enraenra",
+    "nativeName": "煙羅煙羅",
+    "category": "気象",
+    "region": "煙・空",
+    "blurbJa": "煙の中に人の形が浮かぶ妖怪。",
+    "tags": [
       "煙",
       "気象",
       "空",
       "人影",
       "絵巻"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 5
+    "tone": "mysterious",
+    "famousRank": 5
   },
   {
-    "Name": "Hitotsume-ren",
-    "NativeName": "一目連",
-    "Category": "気象",
-    "Region": "伊勢など",
-    "BlurbJA": "高空を飛ぶ一つ目の火の玉・気象の怪異。",
-    "Tags": [
+    "name": "Hitotsume-ren",
+    "nativeName": "一目連",
+    "category": "気象",
+    "region": "伊勢など",
+    "blurbJa": "高空を飛ぶ一つ目の火の玉・気象の怪異。",
+    "tags": [
       "一つ目",
       "火",
       "気象",
       "空",
       "伊勢"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 4
+    "tone": "mysterious",
+    "famousRank": 4
   },
   {
-    "Name": "Okuchi-no-makami",
-    "NativeName": "大口真神",
-    "Category": "山系",
-    "Region": "奥山",
-    "BlurbJA": "狼の神格・妖怪。山の神の使いとも恐れられる。",
-    "Tags": [
+    "name": "Okuchi-no-makami",
+    "nativeName": "大口真神",
+    "category": "山系",
+    "region": "奥山",
+    "blurbJa": "狼の神格・妖怪。山の神の使いとも恐れられる。",
+    "tags": [
       "山",
       "狼",
       "神",
       "恐れ",
       "奥山"
     ],
-    "Tone": "solemn",
-    "FamousRank": 3
+    "tone": "solemn",
+    "famousRank": 3
   },
   {
-    "Name": "Hakutaku",
-    "NativeName": "白澤",
-    "Category": "古典",
-    "Region": "中国由来",
-    "BlurbJA": "万物の精を知る瑞獣。妖怪図鑑の守護的存在。",
-    "Tags": [
+    "name": "Hakutaku",
+    "nativeName": "白澤",
+    "category": "古典",
+    "region": "中国由来",
+    "blurbJa": "万物の精を知る瑞獣。妖怪図鑑の守護的存在。",
+    "tags": [
       "古典",
       "瑞獣",
       "知恵",
@@ -1573,16 +1573,16 @@
       "守護",
       "学術"
     ],
-    "Tone": "solemn",
-    "FamousRank": 3
+    "tone": "solemn",
+    "famousRank": 3
   },
   {
-    "Name": "Hoko",
-    "NativeName": "彭侯",
-    "Category": "山系",
-    "Region": "古木",
-    "BlurbJA": "千年の木に宿る犬のような精。中国由来の木の精。",
-    "Tags": [
+    "name": "Hoko",
+    "nativeName": "彭侯",
+    "category": "山系",
+    "region": "古木",
+    "blurbJa": "千年の木に宿る犬のような精。中国由来の木の精。",
+    "tags": [
       "木",
       "山",
       "犬",
@@ -1590,32 +1590,32 @@
       "精",
       "古典"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 5
+    "tone": "mysterious",
+    "famousRank": 5
   },
   {
-    "Name": "Teketeke",
-    "NativeName": "テケテケ",
-    "Category": "現代伝承",
-    "Region": "全国（都市伝説）",
-    "BlurbJA": "下半身のない霊が腕で這い、斬りつけるという話。",
-    "Tags": [
+    "name": "Teketeke",
+    "nativeName": "テケテケ",
+    "category": "現代伝承",
+    "region": "全国（都市伝説）",
+    "blurbJa": "下半身のない霊が腕で這い、斬りつけるという話。",
+    "tags": [
       "現代",
       "怖い",
       "都市伝説",
       "霊",
       "夜道"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Hanako-san",
-    "NativeName": "トイレの花子さん",
-    "Category": "現代伝承",
-    "Region": "学校",
-    "BlurbJA": "学校のトイレに棲む少女の霊という学校奇譚。",
-    "Tags": [
+    "name": "Hanako-san",
+    "nativeName": "トイレの花子さん",
+    "category": "現代伝承",
+    "region": "学校",
+    "blurbJa": "学校のトイレに棲む少女の霊という学校奇譚。",
+    "tags": [
       "現代",
       "学校",
       "怖い",
@@ -1623,224 +1623,224 @@
       "少女",
       "トイレ"
     ],
-    "Tone": "horror",
-    "FamousRank": 1
+    "tone": "horror",
+    "famousRank": 1
   },
   {
-    "Name": "Jinmenken",
-    "NativeName": "人面犬",
-    "Category": "現代伝承",
-    "Region": "都市部",
-    "BlurbJA": "人の顔をした犬。夜の道路に現れる都市伝説。",
-    "Tags": [
+    "name": "Jinmenken",
+    "nativeName": "人面犬",
+    "category": "現代伝承",
+    "region": "都市部",
+    "blurbJa": "人の顔をした犬。夜の道路に現れる都市伝説。",
+    "tags": [
       "現代",
       "犬",
       "都市伝説",
       "怖い",
       "夜"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Kappa-no-kawataro",
-    "NativeName": "川太郎",
-    "Category": "水系",
-    "Region": "西日本など",
-    "BlurbJA": "河童の別名・地方名。川童とも書く。",
-    "Tags": [
+    "name": "Kappa-no-kawataro",
+    "nativeName": "川太郎",
+    "category": "水系",
+    "region": "西日本など",
+    "blurbJa": "河童の別名・地方名。川童とも書く。",
+    "tags": [
       "水",
       "河童",
       "川",
       "地方名",
       "別名"
     ],
-    "Tone": "playful",
-    "FamousRank": 3
+    "tone": "playful",
+    "famousRank": 3
   },
   {
-    "Name": "Seto-taisho",
-    "NativeName": "瀬戸大将",
-    "Category": "付喪神",
-    "Region": "厨房",
-    "BlurbJA": "割れた食器が集まって武者姿になった付喪神。",
-    "Tags": [
+    "name": "Seto-taisho",
+    "nativeName": "瀬戸大将",
+    "category": "付喪神",
+    "region": "厨房",
+    "blurbJa": "割れた食器が集まって武者姿になった付喪神。",
+    "tags": [
       "付喪神",
       "食器",
       "厨房",
       "武者",
       "道具"
     ],
-    "Tone": "playful",
-    "FamousRank": 4
+    "tone": "playful",
+    "famousRank": 4
   },
   {
-    "Name": "Boroboroton",
-    "NativeName": "ぼろぼろとん",
-    "Category": "付喪神",
-    "Region": "寝室",
-    "BlurbJA": "古びた布団が人に巻きつき襲う付喪神。",
-    "Tags": [
+    "name": "Boroboroton",
+    "nativeName": "ぼろぼろとん",
+    "category": "付喪神",
+    "region": "寝室",
+    "blurbJa": "古びた布団が人に巻きつき襲う付喪神。",
+    "tags": [
       "付喪神",
       "布団",
       "寝室",
       "怖い",
       "道具"
     ],
-    "Tone": "horror",
-    "FamousRank": 4
+    "tone": "horror",
+    "famousRank": 4
   },
   {
-    "Name": "Kawa-akago",
-    "NativeName": "川赤子",
-    "Category": "水系",
-    "Region": "川辺",
-    "BlurbJA": "川に現れる赤子の姿の妖怪。拾うと危険な話も。",
-    "Tags": [
+    "name": "Kawa-akago",
+    "nativeName": "川赤子",
+    "category": "水系",
+    "region": "川辺",
+    "blurbJa": "川に現れる赤子の姿の妖怪。拾うと危険な話も。",
+    "tags": [
       "水",
       "川",
       "赤子",
       "怖い",
       "罠"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Basan",
-    "NativeName": "波山",
-    "Category": "異形",
-    "Region": "四国",
-    "BlurbJA": "夜に火の息を吐く鶏のような妖怪。害はないとも。",
-    "Tags": [
+    "name": "Basan",
+    "nativeName": "波山",
+    "category": "異形",
+    "region": "四国",
+    "blurbJa": "夜に火の息を吐く鶏のような妖怪。害はないとも。",
+    "tags": [
       "鳥",
       "火",
       "四国",
       "夜",
       "無害"
     ],
-    "Tone": "playful",
-    "FamousRank": 4
+    "tone": "playful",
+    "famousRank": 4
   },
   {
-    "Name": "Otoroshi",
-    "NativeName": "おとろし",
-    "Category": "屋敷",
-    "Region": "寺社の門",
-    "BlurbJA": "門の上に蹲る毛むくじゃらの妖怪。悪を威嚇する。",
-    "Tags": [
+    "name": "Otoroshi",
+    "nativeName": "おとろし",
+    "category": "屋敷",
+    "region": "寺社の門",
+    "blurbJa": "門の上に蹲る毛むくじゃらの妖怪。悪を威嚇する。",
+    "tags": [
       "寺社",
       "門",
       "毛",
       "守護",
       "異形"
     ],
-    "Tone": "solemn",
-    "FamousRank": 4
+    "tone": "solemn",
+    "famousRank": 4
   },
   {
-    "Name": "Uwan",
-    "NativeName": "うわん",
-    "Category": "屋敷",
-    "Region": "廃屋",
-    "BlurbJA": "空き家で突然「うわん！」と大声を上げる妖怪。",
-    "Tags": [
+    "name": "Uwan",
+    "nativeName": "うわん",
+    "category": "屋敷",
+    "region": "廃屋",
+    "blurbJa": "空き家で突然「うわん！」と大声を上げる妖怪。",
+    "tags": [
       "家",
       "廃屋",
       "声",
       "驚かし",
       "音"
     ],
-    "Tone": "comic",
-    "FamousRank": 3
+    "tone": "comic",
+    "famousRank": 3
   },
   {
-    "Name": "Nuribotoke",
-    "NativeName": "塗仏",
-    "Category": "屋敷",
-    "Region": "仏間",
-    "BlurbJA": "漆黒の仏像が目や腹を開けて現れる不気味な付喪神。",
-    "Tags": [
+    "name": "Nuribotoke",
+    "nativeName": "塗仏",
+    "category": "屋敷",
+    "region": "仏間",
+    "blurbJa": "漆黒の仏像が目や腹を開けて現れる不気味な付喪神。",
+    "tags": [
       "家",
       "仏",
       "怖い",
       "付喪神",
       "漆黒"
     ],
-    "Tone": "horror",
-    "FamousRank": 4
+    "tone": "horror",
+    "famousRank": 4
   },
   {
-    "Name": "Ouni",
-    "NativeName": "苧うに",
-    "Category": "山系",
-    "Region": "山中",
-    "BlurbJA": "口から苧（麻）を吐き出す山の鬼女のような存在。",
-    "Tags": [
+    "name": "Ouni",
+    "nativeName": "苧うに",
+    "category": "山系",
+    "region": "山中",
+    "blurbJa": "口から苧（麻）を吐き出す山の鬼女のような存在。",
+    "tags": [
       "山",
       "鬼女",
       "麻",
       "絵巻",
       "古典"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 5
+    "tone": "mysterious",
+    "famousRank": 5
   },
   {
-    "Name": "Kamikiri",
-    "NativeName": "髪切り",
-    "Category": "町",
-    "Region": "江戸など",
-    "BlurbJA": "気づかないうちに人の髪を切り取る怪異。",
-    "Tags": [
+    "name": "Kamikiri",
+    "nativeName": "髪切り",
+    "category": "町",
+    "region": "江戸など",
+    "blurbJa": "気づかないうちに人の髪を切り取る怪異。",
+    "tags": [
       "町",
       "髪",
       "江戸",
       "怖い",
       "怪異"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Mezu",
-    "NativeName": "馬頭",
-    "Category": "死霊",
-    "Region": "冥界説話",
-    "BlurbJA": "地獄の獄卒。牛頭と対になり亡者を責める。",
-    "Tags": [
+    "name": "Mezu",
+    "nativeName": "馬頭",
+    "category": "死霊",
+    "region": "冥界説話",
+    "blurbJa": "地獄の獄卒。牛頭と対になり亡者を責める。",
+    "tags": [
       "地獄",
       "仏教",
       "馬",
       "死霊",
       "古典"
     ],
-    "Tone": "solemn",
-    "FamousRank": 3
+    "tone": "solemn",
+    "famousRank": 3
   },
   {
-    "Name": "Gozu",
-    "NativeName": "牛頭",
-    "Category": "死霊",
-    "Region": "冥界説話",
-    "BlurbJA": "馬頭と対の地獄の獄卒。鬼の顔に牛の頭。",
-    "Tags": [
+    "name": "Gozu",
+    "nativeName": "牛頭",
+    "category": "死霊",
+    "region": "冥界説話",
+    "blurbJa": "馬頭と対の地獄の獄卒。鬼の顔に牛の頭。",
+    "tags": [
       "地獄",
       "仏教",
       "牛",
       "死霊",
       "古典"
     ],
-    "Tone": "solemn",
-    "FamousRank": 3
+    "tone": "solemn",
+    "famousRank": 3
   },
   {
-    "Name": "Yamata-no-Orochi",
-    "NativeName": "八岐大蛇",
-    "Category": "古典",
-    "Region": "出雲神話",
-    "BlurbJA": "スサノオに討たれた八つの頭を持つ大蛇。",
-    "Tags": [
+    "name": "Yamata-no-Orochi",
+    "nativeName": "八岐大蛇",
+    "category": "古典",
+    "region": "出雲神話",
+    "blurbJa": "スサノオに討たれた八つの頭を持つ大蛇。",
+    "tags": [
       "古典",
       "神話",
       "蛇",
@@ -1848,128 +1848,128 @@
       "出雲",
       "入門"
     ],
-    "Tone": "solemn",
-    "FamousRank": 1
+    "tone": "solemn",
+    "famousRank": 1
   },
   {
-    "Name": "Ushi-oni",
-    "NativeName": "牛鬼",
-    "Category": "海",
-    "Region": "西日本の海岸",
-    "BlurbJA": "牛の頭を持つ残酷な海の妖怪。",
-    "Tags": [
+    "name": "Ushi-oni",
+    "nativeName": "牛鬼",
+    "category": "海",
+    "region": "西日本の海岸",
+    "blurbJa": "牛の頭を持つ残酷な海の妖怪。",
+    "tags": [
       "海",
       "牛",
       "怖い",
       "海岸",
       "西日本"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Daidarabotchi",
-    "NativeName": "だいだらぼっち",
-    "Category": "山系",
-    "Region": "全国",
-    "BlurbJA": "山を造ったとも伝わる超巨大な巨人。",
-    "Tags": [
+    "name": "Daidarabotchi",
+    "nativeName": "だいだらぼっち",
+    "category": "山系",
+    "region": "全国",
+    "blurbJa": "山を造ったとも伝わる超巨大な巨人。",
+    "tags": [
       "山",
       "巨人",
       "巨大",
       "伝説",
       "地形"
     ],
-    "Tone": "solemn",
-    "FamousRank": 3
+    "tone": "solemn",
+    "famousRank": 3
   },
   {
-    "Name": "Nuppeppo",
-    "NativeName": "ぬっぺふほふ",
-    "Category": "異形",
-    "Region": "古典絵巻",
-    "BlurbJA": "肉塊のような不定形の妖怪。臭気を放つとも。",
-    "Tags": [
+    "name": "Nuppeppo",
+    "nativeName": "ぬっぺふほふ",
+    "category": "異形",
+    "region": "古典絵巻",
+    "blurbJa": "肉塊のような不定形の妖怪。臭気を放つとも。",
+    "tags": [
       "異形",
       "絵巻",
       "古典",
       "不定形",
       "臭い"
     ],
-    "Tone": "comic",
-    "FamousRank": 4
+    "tone": "comic",
+    "famousRank": 4
   },
   {
-    "Name": "Betobeto-san",
-    "NativeName": "べとべとさん",
-    "Category": "道中",
-    "Region": "関西など",
-    "BlurbJA": "夜道の背後に足音だけがついてくる怪異。",
-    "Tags": [
+    "name": "Betobeto-san",
+    "nativeName": "べとべとさん",
+    "category": "道中",
+    "region": "関西など",
+    "blurbJa": "夜道の背後に足音だけがついてくる怪異。",
+    "tags": [
       "夜道",
       "足音",
       "怖い",
       "道中",
       "見えない"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Okuri-inu",
-    "NativeName": "送り犬",
-    "Category": "山系",
-    "Region": "各地の山道",
-    "BlurbJA": "夜道について来る犬。振り向かぬが吉とも。",
-    "Tags": [
+    "name": "Okuri-inu",
+    "nativeName": "送り犬",
+    "category": "山系",
+    "region": "各地の山道",
+    "blurbJa": "夜道について来る犬。振り向かぬが吉とも。",
+    "tags": [
       "山",
       "犬",
       "夜道",
       "護衛",
       "恐れ"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 3
+    "tone": "mysterious",
+    "famousRank": 3
   },
   {
-    "Name": "Binbogami",
-    "NativeName": "貧乏神",
-    "Category": "屋敷",
-    "Region": "全国",
-    "BlurbJA": "貧乏を招く神的妖怪。祓い方の話が多い。",
-    "Tags": [
+    "name": "Binbogami",
+    "nativeName": "貧乏神",
+    "category": "屋敷",
+    "region": "全国",
+    "blurbJa": "貧乏を招く神的妖怪。祓い方の話が多い。",
+    "tags": [
       "家",
       "貧乏",
       "神",
       "祓い",
       "福運"
     ],
-    "Tone": "comic",
-    "FamousRank": 2
+    "tone": "comic",
+    "famousRank": 2
   },
   {
-    "Name": "Yakubyogami",
-    "NativeName": "疫病神",
-    "Category": "死霊",
-    "Region": "全国",
-    "BlurbJA": "疫病を振りまく神・妖怪的存在。",
-    "Tags": [
+    "name": "Yakubyogami",
+    "nativeName": "疫病神",
+    "category": "死霊",
+    "region": "全国",
+    "blurbJa": "疫病を振りまく神・妖怪的存在。",
+    "tags": [
       "疫病",
       "神",
       "病",
       "怖い",
       "祓い"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Ikiryo",
-    "NativeName": "生霊",
-    "Category": "死霊",
-    "Region": "全国",
-    "BlurbJA": "生きた人の魂が抜け出て祟る現象・存在。",
-    "Tags": [
+    "name": "Ikiryo",
+    "nativeName": "生霊",
+    "category": "死霊",
+    "region": "全国",
+    "blurbJa": "生きた人の魂が抜け出て祟る現象・存在。",
+    "tags": [
       "死霊",
       "生",
       "祟り",
@@ -1977,32 +1977,32 @@
       "怖い",
       "古典"
     ],
-    "Tone": "tragic",
-    "FamousRank": 2
+    "tone": "tragic",
+    "famousRank": 2
   },
   {
-    "Name": "Onryo",
-    "NativeName": "怨霊",
-    "Category": "死霊",
-    "Region": "全国",
-    "BlurbJA": "恨みを残して祟る死者の霊。",
-    "Tags": [
+    "name": "Onryo",
+    "nativeName": "怨霊",
+    "category": "死霊",
+    "region": "全国",
+    "blurbJa": "恨みを残して祟る死者の霊。",
+    "tags": [
       "死霊",
       "恨み",
       "怖い",
       "総称",
       "祟り"
     ],
-    "Tone": "horror",
-    "FamousRank": 1
+    "tone": "horror",
+    "famousRank": 1
   },
   {
-    "Name": "Oiwa",
-    "NativeName": "お岩",
-    "Category": "死霊",
-    "Region": "江戸・四谷",
-    "BlurbJA": "四谷怪談の怨霊。顔に傷を負った妻の霊。",
-    "Tags": [
+    "name": "Oiwa",
+    "nativeName": "お岩",
+    "category": "死霊",
+    "region": "江戸・四谷",
+    "blurbJa": "四谷怪談の怨霊。顔に傷を負った妻の霊。",
+    "tags": [
       "死霊",
       "恋",
       "怖い",
@@ -2010,16 +2010,16 @@
       "怪談",
       "女"
     ],
-    "Tone": "tragic",
-    "FamousRank": 1
+    "tone": "tragic",
+    "famousRank": 1
   },
   {
-    "Name": "Okiku",
-    "NativeName": "お菊",
-    "Category": "死霊",
-    "Region": "播州など",
-    "BlurbJA": "皿屋敷伝説の女中の霊。皿を数えて泣く。",
-    "Tags": [
+    "name": "Okiku",
+    "nativeName": "お菊",
+    "category": "死霊",
+    "region": "播州など",
+    "blurbJa": "皿屋敷伝説の女中の霊。皿を数えて泣く。",
+    "tags": [
       "死霊",
       "皿",
       "女",
@@ -2027,16 +2027,16 @@
       "怪談",
       "数"
     ],
-    "Tone": "tragic",
-    "FamousRank": 1
+    "tone": "tragic",
+    "famousRank": 1
   },
   {
-    "Name": "Baku",
-    "NativeName": "獏",
-    "Category": "古典",
-    "Region": "中国由来",
-    "BlurbJA": "悪夢を喰う瑞獣。枕元に呼ばれる。",
-    "Tags": [
+    "name": "Baku",
+    "nativeName": "獏",
+    "category": "古典",
+    "region": "中国由来",
+    "blurbJa": "悪夢を喰う瑞獣。枕元に呼ばれる。",
+    "tags": [
       "古典",
       "夢",
       "瑞獣",
@@ -2044,176 +2044,176 @@
       "守護",
       "かわいい"
     ],
-    "Tone": "gentle",
-    "FamousRank": 2
+    "tone": "gentle",
+    "famousRank": 2
   },
   {
-    "Name": "Kudan",
-    "NativeName": "件",
-    "Category": "予言",
-    "Region": "西日本など",
-    "BlurbJA": "人面牛身で予言を残して死ぬ瑞祥・妖怪。",
-    "Tags": [
+    "name": "Kudan",
+    "nativeName": "件",
+    "category": "予言",
+    "region": "西日本など",
+    "blurbJa": "人面牛身で予言を残して死ぬ瑞祥・妖怪。",
+    "tags": [
       "予言",
       "牛",
       "人面",
       "疫病",
       "瑞祥"
     ],
-    "Tone": "solemn",
-    "FamousRank": 3
+    "tone": "solemn",
+    "famousRank": 3
   },
   {
-    "Name": "Amabiko",
-    "NativeName": "アマビコ",
-    "Category": "予言",
-    "Region": "九州など",
-    "BlurbJA": "アマビエに似た予言獣。海から現れ病を告げる。",
-    "Tags": [
+    "name": "Amabiko",
+    "nativeName": "アマビコ",
+    "category": "予言",
+    "region": "九州など",
+    "blurbJa": "アマビエに似た予言獣。海から現れ病を告げる。",
+    "tags": [
       "予言",
       "海",
       "疫病",
       "九州",
       "似姿"
     ],
-    "Tone": "gentle",
-    "FamousRank": 3
+    "tone": "gentle",
+    "famousRank": 3
   },
   {
-    "Name": "Shinjahime",
-    "NativeName": "神社姫",
-    "Category": "予言",
-    "Region": "海",
-    "BlurbJA": "長い黒髪の人魚的予言者。豊作や疫病を告げる。",
-    "Tags": [
+    "name": "Shinjahime",
+    "nativeName": "神社姫",
+    "category": "予言",
+    "region": "海",
+    "blurbJa": "長い黒髪の人魚的予言者。豊作や疫病を告げる。",
+    "tags": [
       "予言",
       "海",
       "人魚",
       "疫病",
       "黒髪"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 4
+    "tone": "mysterious",
+    "famousRank": 4
   },
   {
-    "Name": "Umizatō",
-    "NativeName": "海座頭",
-    "Category": "海",
-    "Region": "西日本",
-    "BlurbJA": "琵琶を持つ座頭姿で海に現れる妖怪。",
-    "Tags": [
+    "name": "Umizatō",
+    "nativeName": "海座頭",
+    "category": "海",
+    "region": "西日本",
+    "blurbJa": "琵琶を持つ座頭姿で海に現れる妖怪。",
+    "tags": [
       "海",
       "琵琶",
       "座頭",
       "音楽",
       "怖い"
     ],
-    "Tone": "horror",
-    "FamousRank": 4
+    "tone": "horror",
+    "famousRank": 4
   },
   {
-    "Name": "Akashita",
-    "NativeName": "赤舌",
-    "Category": "異形",
-    "Region": "雲・百鬼絵巻",
-    "BlurbJA": "黒雲から赤い舌を垂らす妖怪。",
-    "Tags": [
+    "name": "Akashita",
+    "nativeName": "赤舌",
+    "category": "異形",
+    "region": "雲・百鬼絵巻",
+    "blurbJa": "黒雲から赤い舌を垂らす妖怪。",
+    "tags": [
       "舌",
       "雲",
       "絵巻",
       "古典",
       "異形"
     ],
-    "Tone": "horror",
-    "FamousRank": 5
+    "tone": "horror",
+    "famousRank": 5
   },
   {
-    "Name": "Narikama",
-    "NativeName": "鳴釜",
-    "Category": "付喪神",
-    "Region": "古典",
-    "BlurbJA": "古いけが鳴って人を驚かす付喪神。",
-    "Tags": [
+    "name": "Narikama",
+    "nativeName": "鳴釜",
+    "category": "付喪神",
+    "region": "古典",
+    "blurbJa": "古いけが鳴って人を驚かす付喪神。",
+    "tags": [
       "付喪神",
       "釜",
       "音",
       "道具",
       "古典"
     ],
-    "Tone": "comic",
-    "FamousRank": 5
+    "tone": "comic",
+    "famousRank": 5
   },
   {
-    "Name": "Biwa-bokuboku",
-    "NativeName": "琵琶牧々",
-    "Category": "付喪神",
-    "Region": "古典",
-    "BlurbJA": "古い琵琶が僧形になって歩き出す。",
-    "Tags": [
+    "name": "Biwa-bokuboku",
+    "nativeName": "琵琶牧々",
+    "category": "付喪神",
+    "region": "古典",
+    "blurbJa": "古い琵琶が僧形になって歩き出す。",
+    "tags": [
       "付喪神",
       "琵琶",
       "音楽",
       "僧",
       "古典"
     ],
-    "Tone": "playful",
-    "FamousRank": 4
+    "tone": "playful",
+    "famousRank": 4
   },
   {
-    "Name": "Koto-furunushi",
-    "NativeName": "琴古主",
-    "Category": "付喪神",
-    "Region": "古典",
-    "BlurbJA": "古琴が化けた老人姿の付喪神。",
-    "Tags": [
+    "name": "Koto-furunushi",
+    "nativeName": "琴古主",
+    "category": "付喪神",
+    "region": "古典",
+    "blurbJa": "古琴が化けた老人姿の付喪神。",
+    "tags": [
       "付喪神",
       "琴",
       "音楽",
       "老人",
       "古典"
     ],
-    "Tone": "gentle",
-    "FamousRank": 5
+    "tone": "gentle",
+    "famousRank": 5
   },
   {
-    "Name": "Andon-obake",
-    "NativeName": "行灯お化け",
-    "Category": "付喪神",
-    "Region": "家屋",
-    "BlurbJA": "古びた行灯が怪異を起こす灯火の付喪神。",
-    "Tags": [
+    "name": "Andon-obake",
+    "nativeName": "行灯お化け",
+    "category": "付喪神",
+    "region": "家屋",
+    "blurbJa": "古びた行灯が怪異を起こす灯火の付喪神。",
+    "tags": [
       "付喪神",
       "灯火",
       "家",
       "道具",
       "夜"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 3
+    "tone": "mysterious",
+    "famousRank": 3
   },
   {
-    "Name": "Katawaguruma",
-    "NativeName": "片輪車",
-    "Category": "道中",
-    "Region": "京など",
-    "BlurbJA": "片輪の車に女が乗って走る恐怖の怪異。",
-    "Tags": [
+    "name": "Katawaguruma",
+    "nativeName": "片輪車",
+    "category": "道中",
+    "region": "京など",
+    "blurbJa": "片輪の車に女が乗って走る恐怖の怪異。",
+    "tags": [
       "車",
       "女",
       "怖い",
       "道中",
       "京都"
     ],
-    "Tone": "horror",
-    "FamousRank": 4
+    "tone": "horror",
+    "famousRank": 4
   },
   {
-    "Name": "Hone-onna",
-    "NativeName": "骨女",
-    "Category": "死霊",
-    "Region": "古典",
-    "BlurbJA": "美しい女に化け、骨の正体を現す。",
-    "Tags": [
+    "name": "Hone-onna",
+    "nativeName": "骨女",
+    "category": "死霊",
+    "region": "古典",
+    "blurbJa": "美しい女に化け、骨の正体を現す。",
+    "tags": [
       "死霊",
       "女",
       "骨",
@@ -2221,112 +2221,112 @@
       "怖い",
       "変化"
     ],
-    "Tone": "tragic",
-    "FamousRank": 3
+    "tone": "tragic",
+    "famousRank": 3
   },
   {
-    "Name": "Ushirogami",
-    "NativeName": "後神",
-    "Category": "道中",
-    "Region": "全国",
-    "BlurbJA": "人の後ろ髪を引く小さな神的妖怪。",
-    "Tags": [
+    "name": "Ushirogami",
+    "nativeName": "後神",
+    "category": "道中",
+    "region": "全国",
+    "blurbJa": "人の後ろ髪を引く小さな神的妖怪。",
+    "tags": [
       "髪",
       "道中",
       "小さな",
       "悪戯",
       "神"
     ],
-    "Tone": "playful",
-    "FamousRank": 4
+    "tone": "playful",
+    "famousRank": 4
   },
   {
-    "Name": "Shichinin-misaki",
-    "NativeName": "七人みさき",
-    "Category": "死霊",
-    "Region": "四国など",
-    "BlurbJA": "七人組の死霊。数を保つため犠牲を増やす。",
-    "Tags": [
+    "name": "Shichinin-misaki",
+    "nativeName": "七人みさき",
+    "category": "死霊",
+    "region": "四国など",
+    "blurbJa": "七人組の死霊。数を保つため犠牲を増やす。",
+    "tags": [
       "死霊",
       "七人",
       "怖い",
       "四国",
       "呪い"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Ippon-datara",
-    "NativeName": "一本だたら",
-    "Category": "山系",
-    "Region": "熊野など",
-    "BlurbJA": "一本足で山を歩く職人・鬼的存在。",
-    "Tags": [
+    "name": "Ippon-datara",
+    "nativeName": "一本だたら",
+    "category": "山系",
+    "region": "熊野など",
+    "blurbJa": "一本足で山を歩く職人・鬼的存在。",
+    "tags": [
       "山",
       "一本足",
       "職人",
       "熊野",
       "鬼"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 4
+    "tone": "mysterious",
+    "famousRank": 4
   },
   {
-    "Name": "Tenaga-ashi",
-    "NativeName": "手長足長",
-    "Category": "異形",
-    "Region": "山・海",
-    "BlurbJA": "異常に長い手や足を持つ巨人的妖怪。",
-    "Tags": [
+    "name": "Tenaga-ashi",
+    "nativeName": "手長足長",
+    "category": "異形",
+    "region": "山・海",
+    "blurbJa": "異常に長い手や足を持つ巨人的妖怪。",
+    "tags": [
       "異形",
       "長い手足",
       "山",
       "海",
       "巨人"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 4
+    "tone": "mysterious",
+    "famousRank": 4
   },
   {
-    "Name": "Yuki-nyudo",
-    "NativeName": "雪入道",
-    "Category": "気象",
-    "Region": "北国",
-    "BlurbJA": "雪中に現れる入道姿の妖怪。",
-    "Tags": [
+    "name": "Yuki-nyudo",
+    "nativeName": "雪入道",
+    "category": "気象",
+    "region": "北国",
+    "blurbJa": "雪中に現れる入道姿の妖怪。",
+    "tags": [
       "雪",
       "入道",
       "北国",
       "気象",
       "怖い"
     ],
-    "Tone": "horror",
-    "FamousRank": 4
+    "tone": "horror",
+    "famousRank": 4
   },
   {
-    "Name": "Shiranui",
-    "NativeName": "不知火",
-    "Category": "霊火",
-    "Region": "九州の海",
-    "BlurbJA": "海上に無数に見える謎の火。自然現象とも。",
-    "Tags": [
+    "name": "Shiranui",
+    "nativeName": "不知火",
+    "category": "霊火",
+    "region": "九州の海",
+    "blurbJa": "海上に無数に見える謎の火。自然現象とも。",
+    "tags": [
       "火",
       "海",
       "九州",
       "霊火",
       "自然"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 3
+    "tone": "mysterious",
+    "famousRank": 3
   },
   {
-    "Name": "Kitsune-no-yomeiri",
-    "NativeName": "狐の嫁入り",
-    "Category": "狐狸",
-    "Region": "全国",
-    "BlurbJA": "日中の雨や夜の提灯行列と結びつく狐の婚儀。",
-    "Tags": [
+    "name": "Kitsune-no-yomeiri",
+    "nativeName": "狐の嫁入り",
+    "category": "狐狸",
+    "region": "全国",
+    "blurbJa": "日中の雨や夜の提灯行列と結びつく狐の婚儀。",
+    "tags": [
       "狐",
       "雨",
       "婚儀",
@@ -2334,64 +2334,64 @@
       "天気",
       "かわいい"
     ],
-    "Tone": "gentle",
-    "FamousRank": 2
+    "tone": "gentle",
+    "famousRank": 2
   },
   {
-    "Name": "Tanuki-bayashi",
-    "NativeName": "狸囃子",
-    "Category": "狐狸",
-    "Region": "関東など",
-    "BlurbJA": "どこからともなく聞こえる祭囃子の怪異。",
-    "Tags": [
+    "name": "Tanuki-bayashi",
+    "nativeName": "狸囃子",
+    "category": "狐狸",
+    "region": "関東など",
+    "blurbJa": "どこからともなく聞こえる祭囃子の怪異。",
+    "tags": [
       "狸",
       "音",
       "祭",
       "関東",
       "不思議"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 3
+    "tone": "mysterious",
+    "famousRank": 3
   },
   {
-    "Name": "Kudagitsune",
-    "NativeName": "管狐",
-    "Category": "憑きもの",
-    "Region": "東北など",
-    "BlurbJA": "管に収まる小型の狐を使役する憑きもの。",
-    "Tags": [
+    "name": "Kudagitsune",
+    "nativeName": "管狐",
+    "category": "憑きもの",
+    "region": "東北など",
+    "blurbJa": "管に収まる小型の狐を使役する憑きもの。",
+    "tags": [
       "狐",
       "憑きもの",
       "東北",
       "小型",
       "使役"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 3
+    "tone": "mysterious",
+    "famousRank": 3
   },
   {
-    "Name": "Osaki",
-    "NativeName": "オサキ",
-    "Category": "憑きもの",
-    "Region": "関東・中部",
-    "BlurbJA": "オサキ狐による憑きもの信仰。",
-    "Tags": [
+    "name": "Osaki",
+    "nativeName": "オサキ",
+    "category": "憑きもの",
+    "region": "関東・中部",
+    "blurbJa": "オサキ狐による憑きもの信仰。",
+    "tags": [
       "狐",
       "憑きもの",
       "関東",
       "信仰",
       "家系"
     ],
-    "Tone": "mysterious",
-    "FamousRank": 4
+    "tone": "mysterious",
+    "famousRank": 4
   },
   {
-    "Name": "Kuzunoha",
-    "NativeName": "葛の葉",
-    "Category": "狐狸",
-    "Region": "和泉など",
-    "BlurbJA": "人の子を生んだ白狐。安倍晴明伝説と結びつく。",
-    "Tags": [
+    "name": "Kuzunoha",
+    "nativeName": "葛の葉",
+    "category": "狐狸",
+    "region": "和泉など",
+    "blurbJa": "人の子を生んだ白狐。安倍晴明伝説と結びつく。",
+    "tags": [
       "狐",
       "恋",
       "母",
@@ -2399,16 +2399,16 @@
       "晴明",
       "変化"
     ],
-    "Tone": "tragic",
-    "FamousRank": 2
+    "tone": "tragic",
+    "famousRank": 2
   },
   {
-    "Name": "Tesso",
-    "NativeName": "鉄鼠",
-    "Category": "変化",
-    "Region": "比叡山など",
-    "BlurbJA": "僧が鼠の大群と化した怨霊譚。",
-    "Tags": [
+    "name": "Tesso",
+    "nativeName": "鉄鼠",
+    "category": "変化",
+    "region": "比叡山など",
+    "blurbJa": "僧が鼠の大群と化した怨霊譚。",
+    "tags": [
       "鼠",
       "怨霊",
       "寺",
@@ -2416,32 +2416,32 @@
       "変化",
       "怖い"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Mekurabe",
-    "NativeName": "目競",
-    "Category": "死霊",
-    "Region": "平家物語周辺",
-    "BlurbJA": "髑髏が集まって競い合うような怪異。",
-    "Tags": [
+    "name": "Mekurabe",
+    "nativeName": "目競",
+    "category": "死霊",
+    "region": "平家物語周辺",
+    "blurbJa": "髑髏が集まって競い合うような怪異。",
+    "tags": [
       "髑髏",
       "死霊",
       "古典",
       "平家",
       "怖い"
     ],
-    "Tone": "horror",
-    "FamousRank": 4
+    "tone": "horror",
+    "famousRank": 4
   },
   {
-    "Name": "Namahage",
-    "NativeName": "なまはげ",
-    "Category": "鬼",
-    "Region": "秋田",
-    "BlurbJA": "年中行事で訪れる鬼面の来訪神的存在。",
-    "Tags": [
+    "name": "Namahage",
+    "nativeName": "なまはげ",
+    "category": "鬼",
+    "region": "秋田",
+    "blurbJa": "年中行事で訪れる鬼面の来訪神的存在。",
+    "tags": [
       "鬼",
       "秋田",
       "行事",
@@ -2449,112 +2449,112 @@
       "入門",
       "叱咤"
     ],
-    "Tone": "solemn",
-    "FamousRank": 1
+    "tone": "solemn",
+    "famousRank": 1
   },
   {
-    "Name": "Kirin",
-    "NativeName": "麒麟",
-    "Category": "古典",
-    "Region": "中国由来",
-    "BlurbJA": "聖なる瑞獣。徳のある治世に現れるという。",
-    "Tags": [
+    "name": "Kirin",
+    "nativeName": "麒麟",
+    "category": "古典",
+    "region": "中国由来",
+    "blurbJa": "聖なる瑞獣。徳のある治世に現れるという。",
+    "tags": [
       "古典",
       "瑞獣",
       "中国",
       "聖",
       "吉兆"
     ],
-    "Tone": "solemn",
-    "FamousRank": 2
+    "tone": "solemn",
+    "famousRank": 2
   },
   {
-    "Name": "Yasha",
-    "NativeName": "夜叉",
-    "Category": "鬼",
-    "Region": "仏教説話",
-    "BlurbJA": "仏教の鬼神。護法とも暴悪ともなる。",
-    "Tags": [
+    "name": "Yasha",
+    "nativeName": "夜叉",
+    "category": "鬼",
+    "region": "仏教説話",
+    "blurbJa": "仏教の鬼神。護法とも暴悪ともなる。",
+    "tags": [
       "鬼",
       "仏教",
       "鬼神",
       "古典",
       "両義"
     ],
-    "Tone": "solemn",
-    "FamousRank": 2
+    "tone": "solemn",
+    "famousRank": 2
   },
   {
-    "Name": "Rasetsu",
-    "NativeName": "羅刹",
-    "Category": "鬼",
-    "Region": "仏教説話",
-    "BlurbJA": "人を害する鬼神。夜叉と並んで語られる。",
-    "Tags": [
+    "name": "Rasetsu",
+    "nativeName": "羅刹",
+    "category": "鬼",
+    "region": "仏教説話",
+    "blurbJa": "人を害する鬼神。夜叉と並んで語られる。",
+    "tags": [
       "鬼",
       "仏教",
       "鬼神",
       "怖い",
       "古典"
     ],
-    "Tone": "horror",
-    "FamousRank": 3
+    "tone": "horror",
+    "famousRank": 3
   },
   {
-    "Name": "Onibaba",
-    "NativeName": "鬼婆",
-    "Category": "鬼",
-    "Region": "山・古典",
-    "BlurbJA": "人を喰らう鬼の老女。山姥と重なる面も。",
-    "Tags": [
+    "name": "Onibaba",
+    "nativeName": "鬼婆",
+    "category": "鬼",
+    "region": "山・古典",
+    "blurbJa": "人を喰らう鬼の老女。山姥と重なる面も。",
+    "tags": [
       "鬼",
       "老婆",
       "山",
       "怖い",
       "古典"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Gataro",
-    "NativeName": "ガタロ",
-    "Category": "水系",
-    "Region": "北陸など",
-    "BlurbJA": "河童の地方名のひとつ。",
-    "Tags": [
+    "name": "Gataro",
+    "nativeName": "ガタロ",
+    "category": "水系",
+    "region": "北陸など",
+    "blurbJa": "河童の地方名のひとつ。",
+    "tags": [
       "水",
       "河童",
       "地方名",
       "北陸",
       "川"
     ],
-    "Tone": "playful",
-    "FamousRank": 4
+    "tone": "playful",
+    "famousRank": 4
   },
   {
-    "Name": "Suiko",
-    "NativeName": "水虎",
-    "Category": "水系",
-    "Region": "古典・中国由来",
-    "BlurbJA": "河童類の別称として文献に現れる。",
-    "Tags": [
+    "name": "Suiko",
+    "nativeName": "水虎",
+    "category": "水系",
+    "region": "古典・中国由来",
+    "blurbJa": "河童類の別称として文献に現れる。",
+    "tags": [
       "水",
       "河童",
       "古典",
       "中国",
       "学術"
     ],
-    "Tone": "solemn",
-    "FamousRank": 4
+    "tone": "solemn",
+    "famousRank": 4
   },
   {
-    "Name": "Hasshaku-sama",
-    "NativeName": "八尺様",
-    "Category": "現代伝承",
-    "Region": "都市伝説",
-    "BlurbJA": "八尺の高さの白い女。声で呼ぶ都市伝説。",
-    "Tags": [
+    "name": "Hasshaku-sama",
+    "nativeName": "八尺様",
+    "category": "現代伝承",
+    "region": "都市伝説",
+    "blurbJa": "八尺の高さの白い女。声で呼ぶ都市伝説。",
+    "tags": [
       "現代",
       "怖い",
       "都市伝説",
@@ -2562,48 +2562,48 @@
       "巨大",
       "声"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Kunekune",
-    "NativeName": "くねくね",
-    "Category": "現代伝承",
-    "Region": "田畑・都市伝説",
-    "BlurbJA": "田の向こうでくねくね動く白い人影。",
-    "Tags": [
+    "name": "Kunekune",
+    "nativeName": "くねくね",
+    "category": "現代伝承",
+    "region": "田畑・都市伝説",
+    "blurbJa": "田の向こうでくねくね動く白い人影。",
+    "tags": [
       "現代",
       "怖い",
       "都市伝説",
       "田畑",
       "人影"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Shinigami",
-    "NativeName": "死神",
-    "Category": "現代伝承",
-    "Region": "近代以降",
-    "BlurbJA": "死を運ぶ存在。民間俗信と創作が混交。",
-    "Tags": [
+    "name": "Shinigami",
+    "nativeName": "死神",
+    "category": "現代伝承",
+    "region": "近代以降",
+    "blurbJa": "死を運ぶ存在。民間俗信と創作が混交。",
+    "tags": [
       "現代",
       "死",
       "創作",
       "怖い",
       "近代"
     ],
-    "Tone": "horror",
-    "FamousRank": 2
+    "tone": "horror",
+    "famousRank": 2
   },
   {
-    "Name": "Otsuyu",
-    "NativeName": "お露",
-    "Category": "死霊",
-    "Region": "江戸",
-    "BlurbJA": "牡丹灯籠の恋の因縁に登場する女の霊。",
-    "Tags": [
+    "name": "Otsuyu",
+    "nativeName": "お露",
+    "category": "死霊",
+    "region": "江戸",
+    "blurbJa": "牡丹灯籠の恋の因縁に登場する女の霊。",
+    "tags": [
       "死霊",
       "恋",
       "江戸",
@@ -2611,16 +2611,16 @@
       "女",
       "灯籠"
     ],
-    "Tone": "tragic",
-    "FamousRank": 2
+    "tone": "tragic",
+    "famousRank": 2
   },
   {
-    "Name": "Kasane",
-    "NativeName": "累",
-    "Category": "死霊",
-    "Region": "下総など",
-    "BlurbJA": "累世の因縁を背負う女の怨霊譚。",
-    "Tags": [
+    "name": "Kasane",
+    "nativeName": "累",
+    "category": "死霊",
+    "region": "下総など",
+    "blurbJa": "累世の因縁を背負う女の怨霊譚。",
+    "tags": [
       "死霊",
       "因縁",
       "女",
@@ -2628,16 +2628,16 @@
       "怪談",
       "呪い"
     ],
-    "Tone": "tragic",
-    "FamousRank": 3
+    "tone": "tragic",
+    "famousRank": 3
   },
   {
-    "Name": "Bunbuku-chagama",
-    "NativeName": "分福茶釜",
-    "Category": "狐狸",
-    "Region": "栃木など",
-    "BlurbJA": "茶釜に化けた狸の名高い御伽話。",
-    "Tags": [
+    "name": "Bunbuku-chagama",
+    "nativeName": "分福茶釜",
+    "category": "狐狸",
+    "region": "栃木など",
+    "blurbJa": "茶釜に化けた狸の名高い御伽話。",
+    "tags": [
       "狸",
       "茶釜",
       "かわいい",
@@ -2645,7 +2645,7 @@
       "御伽話",
       "変化"
     ],
-    "Tone": "gentle",
-    "FamousRank": 1
+    "tone": "gentle",
+    "famousRank": 1
   }
 ]

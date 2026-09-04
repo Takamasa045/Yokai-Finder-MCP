@@ -3,10 +3,13 @@ package ndl
 import (
 	"context"
 	"encoding/xml"
+	"errors"
 	"fmt"
 	"io"
+	"net"
 	"net/http"
 	"net/url"
+	"sort"
 	"strconv"
 	"strings"
 	"time"
@@ -21,6 +24,7 @@ const (
 	defaultLimit = 10
 	maxLimit     = 100
 	maxBodyBytes = 2 << 20
+	maxAttempts  = 3
 )
 
 // Client wraps access to the NDL OpenSearch endpoint.
@@ -113,6 +117,33 @@ func (c *Client) SearchYokaiBooks(ctx context.Context, params types.YokaiSearchP
 		limit = maxLimit
 	}
 
+	var lastErr error
+	for attempt := 1; attempt <= maxAttempts; attempt++ {
+		if attempt > 1 {
+			delay := time.Duration(attempt-1) * 200 * time.Millisecond
+			select {
+			case <-ctx.Done():
+				return nil, ctx.Err()
+			case <-time.After(delay):
+			}
+		}
+		result, err := c.doSearch(ctx, query, limit)
+		if err == nil {
+			rankYokaiBooks(result.Results)
+			if params.VerifyCovers {
+				verifyCoverCandidates(ctx, result.Results, c.httpClient)
+			}
+			return result, nil
+		}
+		lastErr = err
+		if !retryable(err) {
+			return nil, err
+		}
+	}
+	return nil, lastErr
+}
+
+func (c *Client) doSearch(ctx context.Context, query string, limit int) (*types.YokaiSearchResult, error) {
 	apiURL := c.buildAPIURL(query, limit)
 
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, apiURL, nil)
@@ -129,7 +160,11 @@ func (c *Client) SearchYokaiBooks(ctx context.Context, params types.YokaiSearchP
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("ndl api status %d", resp.StatusCode)
+		err := fmt.Errorf("ndl api status %d", resp.StatusCode)
+		if resp.StatusCode >= 500 {
+			return nil, retryableError{err}
+		}
+		return nil, err
 	}
 
 	limited := io.LimitReader(resp.Body, maxBodyBytes+1)
@@ -145,16 +180,51 @@ func (c *Client) SearchYokaiBooks(ctx context.Context, params types.YokaiSearchP
 	if err != nil {
 		return nil, err
 	}
-
 	result.Query = query
 	return result, nil
 }
 
 func (c *Client) buildAPIURL(query string, limit int) string {
 	params := url.Values{}
-	params.Set("title", query)
+	params.Set("any", query)
 	params.Set("cnt", fmt.Sprintf("%d", limit))
 	return fmt.Sprintf("%s?%s", c.baseURL, params.Encode())
+}
+
+type retryableError struct{ error }
+
+func (e retryableError) Unwrap() error { return e.error }
+
+func retryable(err error) bool {
+	if err == nil {
+		return false
+	}
+	var re retryableError
+	if errors.As(err, &re) {
+		return true
+	}
+	var netErr net.Error
+	if errors.As(err, &netErr) && netErr.Timeout() {
+		return true
+	}
+	return errors.Is(err, context.DeadlineExceeded)
+}
+
+func rankYokaiBooks(books []types.YokaiBook) {
+	sort.SliceStable(books, func(i, j int) bool {
+		return yokaiBookScore(books[i]) > yokaiBookScore(books[j])
+	})
+}
+
+func yokaiBookScore(book types.YokaiBook) int {
+	pool := strings.ToLower(book.Title + " " + strings.Join(book.Subjects, " ") + " " + book.Description)
+	score := 0
+	for _, token := range []string{"妖怪", "民話", "伝承", "民俗", "怪談", "yokai"} {
+		if strings.Contains(pool, token) {
+			score += 3
+		}
+	}
+	return score
 }
 
 func userAgent() string {

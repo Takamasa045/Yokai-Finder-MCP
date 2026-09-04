@@ -1,8 +1,13 @@
 package ndl
 
 import (
+	"context"
+	"net/http"
+	"net/http/httptest"
 	"strings"
 	"testing"
+
+	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 )
 
 func TestNormalizeISBN13(t *testing.T) {
@@ -54,5 +59,33 @@ func TestBuildCoverURLs(t *testing.T) {
 	junk := BuildCoverURLs("", "../../../etc/passwd")
 	if len(junk.Candidates) != 0 {
 		t.Fatalf("expected invalid jpno to be rejected")
+	}
+}
+
+func TestVerifyCoverCandidates(t *testing.T) {
+	var sawHead bool
+	ts := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if r.Method == http.MethodHead && r.URL.Path == "/ok.jpg" {
+			sawHead = true
+			w.WriteHeader(http.StatusOK)
+			return
+		}
+		if r.Method == http.MethodHead {
+			w.WriteHeader(http.StatusNotFound)
+			return
+		}
+		w.WriteHeader(http.StatusMethodNotAllowed)
+	}))
+	defer ts.Close()
+
+	books := []types.YokaiBook{{
+		CoverImageCandidates: []string{ts.URL + "/ok.jpg", ts.URL + "/missing.jpg"},
+	}}
+	verifyCoverCandidates(context.Background(), books, ts.Client())
+	if !sawHead {
+		t.Fatal("expected HEAD probe")
+	}
+	if len(books[0].CoverImageCandidates) != 1 || !strings.HasSuffix(books[0].CoverImageCandidates[0], "/ok.jpg") {
+		t.Fatalf("unexpected candidates %v", books[0].CoverImageCandidates)
 	}
 }

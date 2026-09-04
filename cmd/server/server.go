@@ -13,6 +13,7 @@ import (
 	"github.com/Takamasa045/Yokai-Finder-MCP/internal/handler"
 	"github.com/Takamasa045/Yokai-Finder-MCP/internal/ndl"
 	"github.com/Takamasa045/Yokai-Finder-MCP/internal/version"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/yokai"
 	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
@@ -30,15 +31,17 @@ Tool choice:
 - Featured daily pick → yokai_of_the_day
 - Books from the National Diet Library → search_yokai_books
 - Related or side-by-side entries → related_yokai / compare_yokai
+- list_curated_yokai is deprecated; use list_yokai with hasProfile=true
 
-Prefer Japanese names in answers. hasProfile=true means a full bilingual encyclopedia card is available via get_yokai.`
+Prefer Japanese names in answers. Category values are Japanese keys (水系, 山系). hasProfile=true means a full bilingual encyclopedia card is available via get_yokai.`
 )
 
 type searchArgs struct {
-	Name     string `json:"name,omitempty" jsonschema:"Yokai name or keyword to search for"`
-	Region   string `json:"region,omitempty" jsonschema:"Region or place associated with the yokai"`
-	Category string `json:"category,omitempty" jsonschema:"Yokai category or theme"`
-	Limit    int    `json:"limit,omitempty" jsonschema:"Maximum number of books to return (default 10, max 50)"`
+	Name         string `json:"name,omitempty" jsonschema:"Yokai name or keyword to search for"`
+	Region       string `json:"region,omitempty" jsonschema:"Region or place associated with the yokai"`
+	Category     string `json:"category,omitempty" jsonschema:"Yokai category or theme"`
+	Limit        int    `json:"limit,omitempty" jsonschema:"Maximum number of books to return (default 10, max 50)"`
+	VerifyCovers bool   `json:"verifyCovers,omitempty" jsonschema:"If true, HEAD-check cover URLs and drop dead links (slower)"`
 }
 
 type yokaiOfTheDayArgs struct {
@@ -134,7 +137,8 @@ func newServer(h *handler.Handler) *mcp.Server {
 		Version: ver,
 		Title:   "Yokai Finder",
 	}, &mcp.ServerOptions{
-		Instructions: agentInstructions,
+		Instructions:      agentInstructions,
+		CompletionHandler: completeYokaiNames,
 	})
 
 	mcp.AddTool(server, &mcp.Tool{
@@ -143,10 +147,11 @@ func newServer(h *handler.Handler) *mcp.Server {
 		Annotations: openWorldTool(),
 	}, func(ctx context.Context, _ *mcp.CallToolRequest, args searchArgs) (*mcp.CallToolResult, *types.YokaiSearchResult, error) {
 		params := types.YokaiSearchParams{
-			Name:     args.Name,
-			Region:   args.Region,
-			Category: args.Category,
-			Limit:    args.Limit,
+			Name:         args.Name,
+			Region:       args.Region,
+			Category:     args.Category,
+			Limit:        args.Limit,
+			VerifyCovers: args.VerifyCovers,
 		}
 
 		result, err := h.SearchYokai(ctx, params)
@@ -240,7 +245,7 @@ func newServer(h *handler.Handler) *mcp.Server {
 
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "list_curated_yokai",
-		Description: "キュレーション済み妖怪図鑑（詳細プロフィール80体）を一覧・検索する。伝承・特徴・創作フック付き。ざっくり顔ぶれは list_yokai。Browse the deep bilingual encyclopedia; prefer list_yokai for the full roster.",
+		Description: "非推奨。詳細図鑑の一覧は list_yokai に hasProfile=true を付けてください。Deprecated: use list_yokai with hasProfile=true. Still returns bilingual encyclopedia cards for compatibility.",
 		Annotations: localTool(),
 	}, func(ctx context.Context, _ *mcp.CallToolRequest, args listCuratedArgs) (*mcp.CallToolResult, *types.CuratedYokaiResult, error) {
 		params := types.CuratedYokaiParams{
@@ -318,4 +323,19 @@ func localTool() *mcp.ToolAnnotations {
 func openWorldTool() *mcp.ToolAnnotations {
 	open := true
 	return &mcp.ToolAnnotations{ReadOnlyHint: true, IdempotentHint: true, OpenWorldHint: &open}
+}
+
+func completeYokaiNames(_ context.Context, req *mcp.CompleteRequest) (*mcp.CompleteResult, error) {
+	prefix := ""
+	if req != nil && req.Params.Argument.Name != "" {
+		prefix = req.Params.Argument.Value
+	}
+	values := yokai.CompleteNames(prefix, 20)
+	return &mcp.CompleteResult{
+		Completion: mcp.CompletionResultDetails{
+			Values:  values,
+			Total:   len(values),
+			HasMore: false,
+		},
+	}, nil
 }

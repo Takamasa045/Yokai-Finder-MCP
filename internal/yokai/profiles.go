@@ -1,27 +1,28 @@
 package yokai
 
 import (
-	"math/rand"
+	"math/rand/v2"
 	"time"
 )
 
 // Profile represents a curated yokai entry with lore and creative hooks.
 // The curated entries themselves live in data/profiles.json.
 type Profile struct {
-	Name          string
-	NativeName    string
-	Region        string
-	Category      string
-	Summary       string
-	SummaryJA     string
-	Legends       []string
-	Traits        []string
-	Motifs        []string
-	FunFact       string
-	FunFactJA     string
-	SearchQuery   string
-	CreativeHooks []string
-	Sources       []string
+	Name          string   `json:"name"`
+	NativeName    string   `json:"nativeName"`
+	Region        string   `json:"region"`
+	Category      string   `json:"category"`
+	CategoryEN    string   `json:"categoryEn,omitempty"`
+	Summary       string   `json:"summary"`
+	SummaryJA     string   `json:"summaryJa"`
+	Legends       []string `json:"legends,omitempty"`
+	Traits        []string `json:"traits,omitempty"`
+	Motifs        []string `json:"motifs,omitempty"`
+	FunFact       string   `json:"funFact,omitempty"`
+	FunFactJA     string   `json:"funFactJa,omitempty"`
+	SearchQuery   string   `json:"searchQuery,omitempty"`
+	CreativeHooks []string `json:"creativeHooks,omitempty"`
+	Sources       []string `json:"sources,omitempty"`
 }
 
 // curatedProfiles is populated from the embedded catalog at init.
@@ -83,6 +84,6 @@ func RandomProfile(seed int64, candidates []Profile) Profile {
 	if seed == 0 {
 		seed = DailySeed(time.Now())
 	}
-	r := rand.New(rand.NewSource(seed))
-	return list[r.Intn(len(list))]
+	r := rand.New(rand.NewPCG(uint64(seed), uint64(^seed)))
+	return list[r.IntN(len(list))]
 }

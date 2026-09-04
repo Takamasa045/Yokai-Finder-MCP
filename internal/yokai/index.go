@@ -1,7 +1,7 @@
 package yokai
 
 import (
-	"math/rand"
+	"math/rand/v2"
 	"sort"
 	"strings"
 )
@@ -9,14 +9,14 @@ import (
 // IndexEntry is a lightweight yokai roster row for browsing.
 // Full lore lives in curated Profile entries; books come from NDL search.
 type IndexEntry struct {
-	Name       string
-	NativeName string
-	Category   string
-	Region     string
-	BlurbJA    string
-	Tags       []string // e.g. 水 家 付喪神 入門 怖い かわいい 恋 予言 古典 現代
-	Tone       string   // one of: gentle, comic, horror, solemn, tragic, mysterious, playful
-	FamousRank int      // 1=iconic/well-known ... 5=obscure; default 3 if unsure
+	Name       string   `json:"name"`
+	NativeName string   `json:"nativeName"`
+	Category   string   `json:"category"`
+	Region     string   `json:"region"`
+	BlurbJA    string   `json:"blurbJa"`
+	Tags       []string `json:"tags"`
+	Tone       string   `json:"tone"`
+	FamousRank int      `json:"famousRank"`
 	Aliases    []string `json:"aliases,omitempty"`
 }
 
@@ -176,7 +176,7 @@ func Suggest(query SuggestQuery) []IndexEntry {
 	pool := candidates[:poolSize]
 
 	if query.Seed != 0 && poolSize > 1 {
-		r := rand.New(rand.NewSource(query.Seed))
+		r := rand.New(rand.NewPCG(uint64(query.Seed), uint64(^query.Seed)))
 		// Weighted shuffle: keep score influence but randomize among top
 		r.Shuffle(len(pool), func(i, j int) {
 			pool[i], pool[j] = pool[j], pool[i]

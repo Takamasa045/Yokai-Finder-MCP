@@ -41,6 +41,12 @@ func TestSearchYokaiBooks(t *testing.T) {
 		if ua := r.Header.Get("User-Agent"); !strings.Contains(ua, "yokai-finder-mcp/") {
 			t.Errorf("expected yokai-finder-mcp User-Agent, got %q", ua)
 		}
+		if got := r.URL.Query().Get("any"); got == "" {
+			t.Errorf("expected any= keyword search, query=%s", r.URL.RawQuery)
+		}
+		if r.URL.Query().Get("title") != "" {
+			t.Errorf("title= search is deprecated, query=%s", r.URL.RawQuery)
+		}
 		w.Header().Set("Content-Type", "application/rss+xml")
 		_, _ = w.Write([]byte(sampleRSS))
 	}))
@@ -102,6 +108,43 @@ func TestSearchYokaiBooksRejectsHugeBody(t *testing.T) {
 	}
 	if !strings.Contains(err.Error(), "exceeded") {
 		t.Fatalf("unexpected error: %v", err)
+	}
+}
+
+func TestSearchRetriesThenSucceeds(t *testing.T) {
+	var n int
+	mock := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		n++
+		if n == 1 {
+			http.Error(w, "boom", http.StatusBadGateway)
+			return
+		}
+		w.Header().Set("Content-Type", "application/rss+xml")
+		_, _ = w.Write([]byte(sampleRSS))
+	}))
+	defer mock.Close()
+
+	client := NewClient().WithBaseURL(mock.URL).WithHTTPClient(mock.Client())
+	result, err := client.SearchYokaiBooks(context.Background(), types.YokaiSearchParams{Name: "天狗"})
+	if err != nil {
+		t.Fatalf("after retry: %v", err)
+	}
+	if n != 2 {
+		t.Fatalf("expected 2 attempts, got %d", n)
+	}
+	if result.Total != 1 {
+		t.Fatalf("total %d", result.Total)
+	}
+}
+
+func TestRankYokaiBooksPrefersFolkloreSubjects(t *testing.T) {
+	books := []types.YokaiBook{
+		{Title: "河川工学", Subjects: []string{"土木"}},
+		{Title: "河童の民俗", Subjects: []string{"妖怪", "民話"}},
+	}
+	rankYokaiBooks(books)
+	if books[0].Title != "河童の民俗" {
+		t.Fatalf("expected folklore title first, got %s", books[0].Title)
 	}
 }
 

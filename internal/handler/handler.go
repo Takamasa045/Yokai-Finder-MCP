@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"math/rand"
+	"math/rand/v2"
 	"sort"
 	"strings"
 	"time"
@@ -506,6 +506,7 @@ func convertProfile(profile yokai.Profile) types.YokaiProfile {
 		NativeName:    profile.NativeName,
 		Region:        profile.Region,
 		Category:      profile.Category,
+		CategoryEN:    profile.CategoryEN,
 		Summary:       profile.Summary,
 		SummaryJA:     profile.SummaryJA,
 		Legends:       cloneStrings(profile.Legends),
@@ -653,7 +654,7 @@ func orderCuratedProfiles(profiles []yokai.Profile, seed int64) []yokai.Profile 
 	copy(ordered, profiles)
 
 	if seed != 0 {
-		r := rand.New(rand.NewSource(seed))
+		r := rand.New(rand.NewPCG(uint64(seed), uint64(^seed)))
 		r.Shuffle(len(ordered), func(i, j int) {
 			ordered[i], ordered[j] = ordered[j], ordered[i]
 		})
@@ -672,6 +673,7 @@ func convertCuratedProfile(profile yokai.Profile, params types.CuratedYokaiParam
 		NativeName: profile.NativeName,
 		Region:     profile.Region,
 		Category:   profile.Category,
+		CategoryEN: profile.CategoryEN,
 		Summary:    profile.Summary,
 		SummaryJA:  profile.SummaryJA,
 	}

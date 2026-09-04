@@ -6,6 +6,14 @@ import (
 	"time"
 )
 
+func TestFamousRankOneTwoHaveProfiles(t *testing.T) {
+	for _, e := range Index() {
+		if e.FamousRank <= 2 && !e.HasCuratedProfile() {
+			t.Errorf("%s (%s) famousRank %d is missing a profile", e.Name, e.NativeName, e.FamousRank)
+		}
+	}
+}
+
 func TestFindByName(t *testing.T) {
 	profile, ok := FindByName("kappa")
 	if !ok {
@@ -62,8 +70,8 @@ func TestProfilesHaveJapaneseLore(t *testing.T) {
 }
 
 func TestCuratedRosterIncludesNewYokai(t *testing.T) {
-	if got := len(Profiles()); got < 80 {
-		t.Fatalf("expected at least 80 curated yokai, got %d", got)
+	if got := len(Profiles()); got < 83 {
+		t.Fatalf("expected at least 83 curated yokai, got %d", got)
 	}
 
 	for _, name := range []string{"座敷童子", "鵺", "鎌鼬", "一反木綿", "天邪鬼", "のっぺらぼう", "酒呑童子", "玉藻前", "口裂け女", "付喪神"} {

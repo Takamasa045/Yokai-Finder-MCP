@@ -8,11 +8,32 @@ import (
 	"strings"
 
 	"github.com/Takamasa045/Yokai-Finder-MCP/internal/handler"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/yokai"
 	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
 func registerResources(server *mcp.Server, h *handler.Handler) {
+	server.AddResource(&mcp.Resource{
+		Name:        "catalog",
+		Title:       "Yokai catalog overview",
+		MIMEType:    "application/json",
+		URI:         "yokai://catalog",
+		Description: "Counts, categories, and tones in the local yokai index and encyclopedia.",
+	}, func(_ context.Context, req *mcp.ReadResourceRequest) (*mcp.ReadResourceResult, error) {
+		payload, err := json.MarshalIndent(yokai.CatalogOverview(), "", "  ")
+		if err != nil {
+			return nil, err
+		}
+		return &mcp.ReadResourceResult{
+			Contents: []*mcp.ResourceContents{{
+				URI:      req.Params.URI,
+				MIMEType: "application/json",
+				Text:     string(payload),
+			}},
+		}, nil
+	})
+
 	server.AddResourceTemplate(&mcp.ResourceTemplate{
 		Name:        "yokai-card",
 		Title:       "Yokai card",

@@ -2,10 +2,11 @@ package types
 
 // Yokai search types
 type YokaiSearchParams struct {
-	Name     string `json:"name,omitempty"`
-	Region   string `json:"region,omitempty"`
-	Category string `json:"category,omitempty"`
-	Limit    int    `json:"limit,omitempty"`
+	Name         string `json:"name,omitempty"`
+	Region       string `json:"region,omitempty"`
+	Category     string `json:"category,omitempty"`
+	Limit        int    `json:"limit,omitempty"`
+	VerifyCovers bool   `json:"verifyCovers,omitempty"`
 }
 
 type YokaiBook struct {
@@ -32,6 +33,7 @@ type YokaiProfile struct {
 	NativeName    string   `json:"nativeName,omitempty"`
 	Region        string   `json:"region,omitempty"`
 	Category      string   `json:"category,omitempty"`
+	CategoryEN    string   `json:"categoryEn,omitempty"`
 	Summary       string   `json:"summary"`
 	SummaryJA     string   `json:"summaryJa,omitempty"`
 	Legends       []string `json:"legends,omitempty"`
@@ -81,6 +83,7 @@ type CuratedYokaiProfile struct {
 	NativeName    string   `json:"nativeName,omitempty"`
 	Region        string   `json:"region,omitempty"`
 	Category      string   `json:"category,omitempty"`
+	CategoryEN    string   `json:"categoryEn,omitempty"`
 	Summary       string   `json:"summary,omitempty"`
 	SummaryJA     string   `json:"summaryJa,omitempty"`
 	Legends       []string `json:"legends,omitempty"`

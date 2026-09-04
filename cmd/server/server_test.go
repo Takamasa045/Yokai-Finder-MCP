@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"strings"
 	"testing"
 
 	"github.com/Takamasa045/Yokai-Finder-MCP/internal/handler"
@@ -63,6 +64,31 @@ func TestServerListsExpectedToolsAndPrompts(t *testing.T) {
 	}
 	if gotKappa.IsError {
 		t.Fatalf("get_yokai returned error: %+v", gotKappa)
+	}
+
+	completed, err := session.Complete(ctx, &mcp.CompleteParams{
+		Ref:      &mcp.CompleteReference{Type: "ref/prompt", Name: "yokai_story"},
+		Argument: mcp.CompleteParamsArgument{Name: "name", Value: "河"},
+	})
+	if err != nil {
+		t.Fatalf("Complete: %v", err)
+	}
+	found := false
+	for _, v := range completed.Completion.Values {
+		if v == "河童" {
+			found = true
+		}
+	}
+	if !found {
+		t.Fatalf("expected 河童 in completions, got %v", completed.Completion.Values)
+	}
+
+	catalog, err := session.ReadResource(ctx, &mcp.ReadResourceParams{URI: "yokai://catalog"})
+	if err != nil {
+		t.Fatalf("catalog resource: %v", err)
+	}
+	if len(catalog.Contents) == 0 || !strings.Contains(catalog.Contents[0].Text, "indexCount") {
+		t.Fatalf("unexpected catalog payload %+v", catalog)
 	}
 }
 
