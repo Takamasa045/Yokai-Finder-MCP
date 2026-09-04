@@ -3,10 +3,11 @@
 ## Develop
 
 ```bash
-go test ./...
-go vet ./...
+make check
 go build -o yokai-finder-mcp ./cmd/server
 ```
+
+`make check` runs gofmt, `go vet`, and `go test -race`. The embedded catalog is validated when the process starts.
 
 ## Add a yokai
 

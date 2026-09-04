@@ -1,10 +1,14 @@
 package main
 
 import (
+	"io"
 	"net/http"
 	"net/http/httptest"
+	"strings"
 	"testing"
 	"time"
+
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/handler"
 )
 
 func TestCheckListenAddr(t *testing.T) {
@@ -63,5 +67,27 @@ func TestIPLimiter(t *testing.T) {
 	}
 	if !l.allow("2.2.2.2") {
 		t.Fatal("other IP should pass")
+	}
+}
+
+func TestHealthzAndLoopbackGuard(t *testing.T) {
+	h := newHTTPHandler(newServer(handler.New(nil, nil)), "", true)
+
+	rec := httptest.NewRecorder()
+	h.ServeHTTP(rec, httptest.NewRequest(http.MethodGet, "/healthz", nil))
+	if rec.Code != http.StatusOK {
+		t.Fatalf("healthz status %d", rec.Code)
+	}
+	body, _ := io.ReadAll(rec.Body)
+	if strings.TrimSpace(string(body)) != "ok" {
+		t.Fatalf("healthz body %q", body)
+	}
+
+	blocked := httptest.NewRequest(http.MethodPost, "/mcp", nil)
+	blocked.Host = "example.com"
+	rec = httptest.NewRecorder()
+	h.ServeHTTP(rec, blocked)
+	if rec.Code != http.StatusForbidden {
+		t.Fatalf("non-loopback host should be forbidden, got %d", rec.Code)
 	}
 }

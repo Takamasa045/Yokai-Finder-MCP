@@ -50,6 +50,10 @@ for target in "${targets[@]}"; do
     echo "Missing README in $archive" >&2
     exit 1
   }
+  grep -Fxq "$package_name/LICENSE" <<<"$entries" || {
+    echo "Missing LICENSE in $archive" >&2
+    exit 1
+  }
 done
 
 actual_files=()

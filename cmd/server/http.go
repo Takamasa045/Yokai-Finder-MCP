@@ -23,26 +23,9 @@ func serveHTTP(ctx context.Context, addr string, server *mcp.Server) error {
 		return err
 	}
 
-	mcpHandler := mcp.NewStreamableHTTPHandler(func(*http.Request) *mcp.Server {
-		return server
-	}, &mcp.StreamableHTTPOptions{
-		Stateless:      true,
-		JSONResponse:   true,
-		SessionTimeout: 5 * time.Minute,
-	})
-
-	mux := http.NewServeMux()
-	guarded := withHTTPGuards(http.MaxBytesHandler(mcpHandler, maxMCPBodyBytes), token, isLoopbackHost(listenHost(addr)))
-	mux.Handle("/mcp", guarded)
-	mux.Handle("/mcp/", guarded)
-	mux.HandleFunc("/healthz", func(w http.ResponseWriter, _ *http.Request) {
-		w.Header().Set("Content-Type", "text/plain; charset=utf-8")
-		_, _ = w.Write([]byte("ok\n"))
-	})
-
 	httpServer := &http.Server{
 		Addr:              addr,
-		Handler:           mux,
+		Handler:           newHTTPHandler(server, token, isLoopbackHost(listenHost(addr))),
 		ReadHeaderTimeout: 10 * time.Second,
 		ReadTimeout:       30 * time.Second,
 		WriteTimeout:      60 * time.Second,
@@ -62,6 +45,26 @@ func serveHTTP(ctx context.Context, addr string, server *mcp.Server) error {
 		return err
 	}
 	return nil
+}
+
+func newHTTPHandler(server *mcp.Server, token string, loopbackOnly bool) http.Handler {
+	mcpHandler := mcp.NewStreamableHTTPHandler(func(*http.Request) *mcp.Server {
+		return server
+	}, &mcp.StreamableHTTPOptions{
+		Stateless:      true,
+		JSONResponse:   true,
+		SessionTimeout: 5 * time.Minute,
+	})
+
+	mux := http.NewServeMux()
+	guarded := withHTTPGuards(http.MaxBytesHandler(mcpHandler, maxMCPBodyBytes), token, loopbackOnly)
+	mux.Handle("/mcp", guarded)
+	mux.Handle("/mcp/", guarded)
+	mux.HandleFunc("/healthz", func(w http.ResponseWriter, _ *http.Request) {
+		w.Header().Set("Content-Type", "text/plain; charset=utf-8")
+		_, _ = w.Write([]byte("ok\n"))
+	})
+	return mux
 }
 
 func listenHost(addr string) string {

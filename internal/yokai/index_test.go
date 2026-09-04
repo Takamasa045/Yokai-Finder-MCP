@@ -15,10 +15,6 @@ func TestIndexSize(t *testing.T) {
 func TestIndexHasRequiredFields(t *testing.T) {
 	seenName := make(map[string]bool)
 	seenNative := make(map[string]bool)
-	validTones := map[string]bool{
-		"gentle": true, "comic": true, "horror": true,
-		"solemn": true, "tragic": true, "mysterious": true, "playful": true,
-	}
 
 	for _, e := range Index() {
 		if strings.TrimSpace(e.Name) == "" {
@@ -41,7 +37,7 @@ func TestIndexHasRequiredFields(t *testing.T) {
 				t.Errorf("%s has empty tag", e.Name)
 			}
 		}
-		if !validTones[e.Tone] {
+		if _, ok := ValidTones[e.Tone]; !ok {
 			t.Errorf("%s invalid Tone %q", e.Name, e.Tone)
 		}
 		if e.FamousRank < 1 || e.FamousRank > 5 {

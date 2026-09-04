@@ -47,7 +47,7 @@ for target in "${targets[@]}"; do
     go build -trimpath \
       -ldflags="-s -w -X github.com/Takamasa045/Yokai-Finder-MCP/internal/version.Version=${version_plain}" \
       -o "$package_dir/$binary_name" ./cmd/server
-  cp README.md "$package_dir/README.md"
+  cp README.md LICENSE "$package_dir/"
 
   if [[ "$archive_type" == "zip" ]]; then
     (

@@ -34,13 +34,7 @@ func registerResources(server *mcp.Server, h *handler.Handler) {
 		}, nil
 	})
 
-	server.AddResourceTemplate(&mcp.ResourceTemplate{
-		Name:        "yokai-card",
-		Title:       "Yokai card",
-		MIMEType:    "application/json",
-		URITemplate: "yokai://yokai/{name}",
-		Description: "Encyclopedia or index card for one yokai. Example: yokai://yokai/河童",
-	}, func(ctx context.Context, req *mcp.ReadResourceRequest) (*mcp.ReadResourceResult, error) {
+	readCard := func(ctx context.Context, req *mcp.ReadResourceRequest) (*mcp.ReadResourceResult, error) {
 		name, err := yokaiNameFromURI(req.Params.URI)
 		if err != nil {
 			return nil, err
@@ -63,7 +57,28 @@ func registerResources(server *mcp.Server, h *handler.Handler) {
 				Text:     string(payload),
 			}},
 		}, nil
-	})
+	}
+
+	server.AddResourceTemplate(&mcp.ResourceTemplate{
+		Name:        "yokai-card",
+		Title:       "Yokai card",
+		MIMEType:    "application/json",
+		URITemplate: "yokai://yokai/{name}",
+		Description: "Encyclopedia or index card for one yokai. Japanese names are also listed as concrete resources (URI templates only match ASCII or percent-encoding). Example: yokai://yokai/河童",
+	}, readCard)
+
+	// The SDK's URI-template matcher is ASCII/percent-encoding only, so
+	// yokai://yokai/河童 must be an exact resource to be readable.
+	for _, entry := range yokai.Index() {
+		uri := "yokai://yokai/" + entry.NativeName
+		server.AddResource(&mcp.Resource{
+			Name:        "yokai-" + entry.NativeName,
+			Title:       entry.NativeName,
+			MIMEType:    "application/json",
+			URI:         uri,
+			Description: "Card for " + entry.NativeName,
+		}, readCard)
+	}
 }
 
 func registerPrompts(server *mcp.Server) {
@@ -102,6 +117,9 @@ func registerPrompts(server *mcp.Server) {
 		}},
 	}, func(_ context.Context, req *mcp.GetPromptRequest) (*mcp.GetPromptResult, error) {
 		name := strings.TrimSpace(req.Params.Arguments["name"])
+		if name == "" {
+			name = "河童"
+		}
 		text := fmt.Sprintf("get_yokai で「%s」を取得し、外見・動機・弱点・現代での居場所・やってはいけないこと、の5項目でキャラクターシートを作ってください。図鑑にない点は推測と書いてください。", name)
 		return &mcp.GetPromptResult{
 			Description: "Character sheet from folklore",
@@ -122,10 +140,16 @@ func yokaiNameFromURI(raw string) (string, error) {
 		return "", mcp.ResourceNotFoundError(raw)
 	}
 	name := strings.TrimPrefix(u.Path, "/")
+	if decoded, err := url.PathUnescape(name); err == nil {
+		name = decoded
+	}
 	if u.Host == "yokai" && name != "" {
 		return name, nil
 	}
 	if u.Host != "" && u.Host != "yokai" {
+		if decoded, err := url.PathUnescape(u.Host); err == nil {
+			return decoded, nil
+		}
 		return u.Host, nil
 	}
 	if name != "" {

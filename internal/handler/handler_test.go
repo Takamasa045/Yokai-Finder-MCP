@@ -374,8 +374,14 @@ func TestGetYokaiProfileSource(t *testing.T) {
 	if result.Profile.NativeName != "河童" && result.Profile.Name != "Kappa" {
 		t.Fatalf("unexpected profile: %+v", result.Profile)
 	}
-	if result.Index != nil {
-		t.Fatalf("did not expect Index when source=profile")
+	if result.Index == nil {
+		t.Fatalf("expected Index card (tags/tone) alongside profile")
+	}
+	if result.Index.NativeName != "河童" {
+		t.Fatalf("unexpected index native name: %+v", result.Index)
+	}
+	if len(result.Index.Tags) == 0 {
+		t.Fatalf("expected tags on index card")
 	}
 }
 

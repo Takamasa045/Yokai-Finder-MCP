@@ -4,6 +4,7 @@ import (
 	"context"
 	"errors"
 	"flag"
+	"fmt"
 	"log"
 	"os"
 	"strings"
@@ -62,7 +63,7 @@ type listCuratedArgs struct {
 	Category             string `json:"category,omitempty" jsonschema:"Filter curated yokai by category hint"`
 	Region               string `json:"region,omitempty" jsonschema:"Filter curated yokai by region hint"`
 	Seed                 int64  `json:"seed,omitempty" jsonschema:"Shuffle results deterministically when provided"`
-	Limit                int    `json:"limit,omitempty" jsonschema:"Maximum number of curated entries to return (default 10, max 50)"`
+	Limit                int    `json:"limit,omitempty" jsonschema:"Maximum number of curated entries to return (default 10, max 200)"`
 	IncludeLegends       bool   `json:"includeLegends,omitempty" jsonschema:"Include folkloric legend snippets"`
 	IncludeTraits        bool   `json:"includeTraits,omitempty" jsonschema:"Include notable traits"`
 	IncludeMotifs        bool   `json:"includeMotifs,omitempty" jsonschema:"Include thematic motifs"`
@@ -132,6 +133,8 @@ func newServer(h *handler.Handler) *mcp.Server {
 		ver = version.Version
 	}
 
+	catalog := yokai.CatalogOverview()
+
 	server := mcp.NewServer(&mcp.Implementation{
 		Name:    serverName,
 		Version: ver,
@@ -163,7 +166,7 @@ func newServer(h *handler.Handler) *mcp.Server {
 
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "yokai_of_the_day",
-		Description: "「今日の妖怪」を紹介する。引数なしなら日替わり（JST）で1体を選び、伝承・特徴・創作フック・おすすめ書籍・ストーリープロンプトをまとめて返す。特定の妖怪は name、別の妖怪を引きたいときは seed を指定。Daily featured yokai (JST) with lore, creative hooks, recommended reading, and a story prompt.",
+		Description: fmt.Sprintf("「今日の妖怪」を紹介する。引数なしなら日替わり（JST）で詳細図鑑%d体から1体を選び、伝承・特徴・創作フック・おすすめ書籍・ストーリープロンプトをまとめて返す。特定の妖怪は name、別の妖怪を引きたいときは seed を指定。Daily featured yokai (JST) with lore, creative hooks, recommended reading, and a story prompt.", catalog.ProfileCount),
 		Annotations: openWorldTool(),
 	}, func(ctx context.Context, _ *mcp.CallToolRequest, args yokaiOfTheDayArgs) (*mcp.CallToolResult, *types.YokaiOfTheDayResult, error) {
 		params := types.YokaiOfTheDayParams{
@@ -183,7 +186,7 @@ func newServer(h *handler.Handler) *mcp.Server {
 
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "list_yokai",
-		Description: "妖怪索引（160体超）を一覧・検索する。category は 水系 でも water でも可。tag / tone / famousRank / hasProfile で絞り込み。雰囲気だけの質問は suggest_yokai。Browse the yokai roster; Japanese and English category hints both work.",
+		Description: fmt.Sprintf("妖怪索引（%d体）を一覧・検索する。category は 水系 でも water でも可。tag / tone / famousRank / hasProfile で絞り込み。雰囲気だけの質問は suggest_yokai。Browse the yokai roster; Japanese and English category hints both work.", catalog.IndexCount),
 		Annotations: localTool(),
 	}, func(ctx context.Context, _ *mcp.CallToolRequest, args listYokaiArgs) (*mcp.CallToolResult, *types.YokaiIndexResult, error) {
 		params := types.YokaiIndexParams{
@@ -229,7 +232,7 @@ func newServer(h *handler.Handler) *mcp.Server {
 
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "get_yokai",
-		Description: "妖怪を日本語名・英語名・別名（カッパ、かわっぱ など）で1体取得する。図鑑があれば source=profile。見つからないときは suggestions（もしかして）を返す。Look up one yokai by Japanese, English, or alias.",
+		Description: "妖怪を日本語名・英語名・別名（カッパ、かわっぱ など）で1体取得する。図鑑があれば source=profile（index にタグ・トーンも付く）。見つからないときは suggestions（もしかして）を返す。Look up one yokai by Japanese, English, or alias.",
 		Annotations: localTool(),
 	}, func(ctx context.Context, _ *mcp.CallToolRequest, args getYokaiArgs) (*mcp.CallToolResult, *types.GetYokaiResult, error) {
 		params := types.GetYokaiParams{

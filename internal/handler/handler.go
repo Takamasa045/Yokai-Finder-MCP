@@ -223,12 +223,19 @@ func (h *Handler) GetYokai(_ context.Context, params types.GetYokaiParams) (*typ
 
 	if profile, ok := yokai.FindByName(name); ok {
 		converted := convertProfile(profile)
-		return &types.GetYokaiResult{
+		result := &types.GetYokaiResult{
 			Found:   true,
 			Source:  "profile",
 			Profile: &converted,
-			Notes:   nil,
-		}, nil
+		}
+		if entry, ok := yokai.FindIndexByName(profile.NativeName); ok {
+			item := convertIndexEntry(entry)
+			result.Index = &item
+		} else if entry, ok := yokai.FindIndexByName(profile.Name); ok {
+			item := convertIndexEntry(entry)
+			result.Index = &item
+		}
+		return result, nil
 	}
 
 	if entry, ok := yokai.FindIndexByName(name); ok {

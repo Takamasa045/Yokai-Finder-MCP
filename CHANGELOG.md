@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.6.1
+
+- Catalog is validated at process start (required fields, unique names, canonical categories, profiles ⊆ index).
+- `yokai://yokai/河童` style URIs resolve: Japanese names are registered as concrete resources because URI templates only match ASCII.
+- `get_yokai` includes the index card (tags, tone, famousRank) even when a full encyclopedia profile is present.
+- Tool descriptions use live catalog counts so they no longer drift to “160+”.
+- Release archives include LICENSE. CI runs gofmt and `go test -race`.
+
 ## 0.6.0
 
 - Encyclopedia grew to 98 bilingual cards. Famous-rank 1–2 stay complete; 15 well-known rank-3 names now have profiles (山彦, 磯撫, 大百足, 火車, 枕返し, 天井嘗, 一つ目入道, 牛鬼, 疫病神, 件, アマビコ, 白澤, 骨女, 累, 管狐).

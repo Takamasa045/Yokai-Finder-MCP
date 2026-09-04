@@ -24,7 +24,20 @@ var categoryAliases = map[string]string{
 	"霊火": "霊火", "fire": "霊火",
 	"憑きもの": "憑きもの", "possession": "憑きもの", "dogspiritpossession": "憑きもの",
 	"予言": "予言", "prophecy": "予言", "propheticbeing": "予言",
-	"水系 ": "水系",
+}
+
+// ValidTones are the allowed index tone values.
+var ValidTones = map[string]struct{}{
+	"gentle": {}, "comic": {}, "horror": {},
+	"solemn": {}, "tragic": {}, "mysterious": {}, "playful": {},
+}
+
+func canonicalCategorySet() map[string]struct{} {
+	out := make(map[string]struct{}, len(categoryAliases))
+	for _, canon := range categoryAliases {
+		out[canon] = struct{}{}
+	}
+	return out
 }
 
 var regionAliases = map[string]string{
