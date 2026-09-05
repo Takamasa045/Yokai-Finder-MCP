@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.12.0
+
+- Catalog grew to 267 index rows and 267 bilingual cards.
+- New names include 荒神, 田の神, 道祖神, 水神, 山の神, 雨女, 日照り女, 雪ん子, 恵比寿, 弁財天, 稲荷, 風狸, 食わず女.
+
 ## 0.11.0
 
 - Catalog grew to 247 index rows and 247 bilingual cards.

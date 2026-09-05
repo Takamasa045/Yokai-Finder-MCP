@@ -4023,5 +4023,325 @@
     ],
     "tone": "solemn",
     "famousRank": 3
+  },
+  {
+    "name": "Kojin",
+    "nativeName": "荒神",
+    "category": "屋敷",
+    "region": "台所・炉",
+    "blurbJa": "荒ぶる火の神。竈を守り、汚すと崇る。",
+    "tags": [
+      "火",
+      "家",
+      "祟り",
+      "護り",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Ta-no-kami",
+    "nativeName": "田の神",
+    "category": "田畑",
+    "region": "田植え・収穫",
+    "blurbJa": "田を守る神。山の神が里へ降りるともいう。",
+    "tags": [
+      "田畑",
+      "収穫",
+      "入門",
+      "護り",
+      "農村"
+    ],
+    "tone": "gentle",
+    "famousRank": 2
+  },
+  {
+    "name": "Dosojin",
+    "nativeName": "道祖神",
+    "category": "道中",
+    "region": "村境・道端",
+    "blurbJa": "境の石の神。旅と縁結びを守り、疫を塞ぐ。",
+    "tags": [
+      "道中",
+      "石",
+      "護り",
+      "入門",
+      "村"
+    ],
+    "tone": "gentle",
+    "famousRank": 2
+  },
+  {
+    "name": "Suijin",
+    "nativeName": "水神",
+    "category": "水系",
+    "region": "井・川・堰",
+    "blurbJa": "水を司る神。汚すと病み、祀れば雨と飲み水が続く。",
+    "tags": [
+      "水",
+      "井戸",
+      "護り",
+      "祟り",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Yama-no-kami",
+    "nativeName": "山の神",
+    "category": "山系",
+    "region": "入山・林業",
+    "blurbJa": "山の主。女人禁制の土地もあり、勝手に入ると罰する。",
+    "tags": [
+      "山",
+      "護り",
+      "禁忌",
+      "古典",
+      "林業"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Kamado-gami",
+    "nativeName": "竃神",
+    "category": "屋敷",
+    "region": "竈",
+    "blurbJa": "竈そのものの神。荒神と重なり、火と食を見張る。",
+    "tags": [
+      "火",
+      "竈",
+      "家",
+      "食",
+      "護り"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Amaonna",
+    "nativeName": "雨女",
+    "category": "気象",
+    "region": "長雨",
+    "blurbJa": "雨を連れて歩く女。婚礼に呼ばれると空が泣く、とも。",
+    "tags": [
+      "雨",
+      "女",
+      "気象",
+      "入門",
+      "不吉"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Hiderime",
+    "nativeName": "日照り女",
+    "category": "気象",
+    "region": "旱魃",
+    "blurbJa": "日照りを呼ぶ女。雨女と対になる旱の人格。",
+    "tags": [
+      "旱",
+      "女",
+      "気象",
+      "怖い",
+      "対"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Yukinoko",
+    "nativeName": "雪ん子",
+    "category": "気象",
+    "region": "雪国の夜",
+    "blurbJa": "雪の童。置いてけぼりにすると雪が深くなる。",
+    "tags": [
+      "雪",
+      "子ども",
+      "北国",
+      "かわいい",
+      "怖い"
+    ],
+    "tone": "gentle",
+    "famousRank": 2
+  },
+  {
+    "name": "Yuki-baba",
+    "nativeName": "雪婆",
+    "category": "気象",
+    "region": "吹雪",
+    "blurbJa": "雪女の老いた顔。吹雪そのものが婆になる。",
+    "tags": [
+      "雪",
+      "婆",
+      "怖い",
+      "北国",
+      "吹雪"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Ebisu",
+    "nativeName": "恵比寿",
+    "category": "町",
+    "region": "漁村・商家",
+    "blurbJa": "漁と商売の福神。七福神の顔として妖怪図鑑にも載る。",
+    "tags": [
+      "福",
+      "海",
+      "商売",
+      "入門",
+      "町"
+    ],
+    "tone": "gentle",
+    "famousRank": 1
+  },
+  {
+    "name": "Benzaiten",
+    "nativeName": "弁財天",
+    "category": "古典",
+    "region": "水辺の社",
+    "blurbJa": "弁才・財の女神。白蛇や琵琶と結びつき、図鑑では妖怪の隣に置かれる。",
+    "tags": [
+      "水",
+      "蛇",
+      "音楽",
+      "福",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Inari",
+    "nativeName": "稲荷",
+    "category": "狐狸",
+    "region": "稲荷社・全国",
+    "blurbJa": "稲と狐の神。白狐を使いとし、商家の守りでもある。",
+    "tags": [
+      "狐",
+      "稲荷",
+      "護り",
+      "入門",
+      "商売"
+    ],
+    "tone": "solemn",
+    "famousRank": 1
+  },
+  {
+    "name": "Rokuemon-tanuki",
+    "nativeName": "六右衛門狸",
+    "category": "狐狸",
+    "region": "阿波",
+    "blurbJa": "阿波の化け狸。金長譚の相手方として語られる大狸。",
+    "tags": [
+      "狸",
+      "阿波",
+      "戦い",
+      "変化",
+      "義"
+    ],
+    "tone": "tragic",
+    "famousRank": 4
+  },
+  {
+    "name": "Furi",
+    "nativeName": "風狸",
+    "category": "山系",
+    "region": "中国由来の山",
+    "blurbJa": "風を呼び、木から木へ飛ぶ狸に似た獣。本草の風狸。",
+    "tags": [
+      "風",
+      "獣",
+      "山",
+      "古典",
+      "飛"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Narukami",
+    "nativeName": "鳴神",
+    "category": "気象",
+    "region": "雷鳴",
+    "blurbJa": "雷そのものの人格。鳴る神、怒る空。",
+    "tags": [
+      "雷",
+      "気象",
+      "怖い",
+      "古典",
+      "入門"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Daikokuten",
+    "nativeName": "大黒天",
+    "category": "町",
+    "region": "台所・財",
+    "blurbJa": "大黒様。袋と槌の福神で、荒神や竃と重なる顔もある。",
+    "tags": [
+      "福",
+      "財",
+      "入門",
+      "家",
+      "町"
+    ],
+    "tone": "gentle",
+    "famousRank": 1
+  },
+  {
+    "name": "Nekogami",
+    "nativeName": "猫神",
+    "category": "変化",
+    "region": "猫の社",
+    "blurbJa": "猫を神として祀る。化け猫の裏にある、恩と鼠除けの顔。",
+    "tags": [
+      "猫",
+      "護り",
+      "鼠",
+      "社",
+      "入門"
+    ],
+    "tone": "gentle",
+    "famousRank": 3
+  },
+  {
+    "name": "Yamanari",
+    "nativeName": "山鳴り",
+    "category": "山系",
+    "region": "山中",
+    "blurbJa": "山が理由なく鳴る。山彦と違い、返事ではなく山自体の声。",
+    "tags": [
+      "山",
+      "音",
+      "前兆",
+      "怖い",
+      "気象"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Kuwanu-onna",
+    "nativeName": "食わず女",
+    "category": "変化",
+    "region": "食事の禁忌",
+    "blurbJa": "食事を見せない女。二口女譚の手前で、隠す口の話。",
+    "tags": [
+      "女",
+      "食事",
+      "怖い",
+      "変化",
+      "秘密"
+    ],
+    "tone": "horror",
+    "famousRank": 3
   }
 ]

@@ -1,7 +1,7 @@
 {
   "name": "yokai-finder-mcp",
-  "version": "0.11.0",
-  "description": "MCP server: suggest yokai from vague vibes, 247-entry tagged index, 247 profiles, NDL keyword search",
+  "version": "0.12.0",
+  "description": "MCP server: suggest yokai from vague vibes, 267-entry tagged index, 267 profiles, NDL keyword search",
   "author": "Takamasa045",
   "license": "MIT",
   "mcpServers": {

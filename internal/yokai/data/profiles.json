@@ -8067,5 +8067,665 @@
     "sources": [
       "Omine / En no Gyoja attendants"
     ]
+  },
+  {
+    "name": "Kojin",
+    "nativeName": "荒神",
+    "region": "Hearth and kitchen",
+    "category": "屋敷",
+    "categoryEn": "Wild fire kami",
+    "summary": "A fierce fire kami of the hearth; it guards the stove and curses filth.",
+    "summaryJa": "荒ぶる火の神。竈を守り、汚すと崇る。",
+    "legends": [
+      "A neglected stove sickens the house",
+      "Offerings of salt and sake quiet the flame"
+    ],
+    "traits": [
+      "Fire",
+      "Kitchen",
+      "Taboo of dirt"
+    ],
+    "motifs": [
+      "Kamado-gami neighbour",
+      "Household",
+      "Onmyodo-adjacent"
+    ],
+    "funFact": "Write hygiene as theology. The monster is a dirty pot.",
+    "funFactJa": "衛生が神学。怪物は汚れた鍋である。",
+    "searchQuery": "荒神 竈 神",
+    "creativeHooks": [
+      "A fire alarm that is a kami.",
+      "The stove has HR."
+    ],
+    "sources": [
+      "Kojin hearth lore"
+    ]
+  },
+  {
+    "name": "Ta-no-kami",
+    "nativeName": "田の神",
+    "region": "Rice fields",
+    "category": "田畑",
+    "categoryEn": "Field kami",
+    "summary": "The kami of the paddies; in some lands the mountain kami walks down for the harvest.",
+    "summaryJa": "田を守る神。土地によっては山の神が里へ降りる。",
+    "legends": [
+      "A stone in the levee is dressed for planting",
+      "The mountain empties when the rice is in"
+    ],
+    "traits": [
+      "Paddy",
+      "Seasonal descent",
+      "Stone body"
+    ],
+    "motifs": [
+      "Yama-no-kami pair",
+      "Agriculture",
+      "Dorotabo neighbour"
+    ],
+    "funFact": "Dorotabo is the angry field; ta-no-kami is the employed one.",
+    "funFactJa": "泥田坊が怒った田なら、田の神は雇用された田。",
+    "searchQuery": "田の神 山の神",
+    "creativeHooks": [
+      "A crop calendar with a commute.",
+      "The scarecrow is staff."
+    ],
+    "sources": [
+      "Ta-no-kami / seasonal descent"
+    ]
+  },
+  {
+    "name": "Dosojin",
+    "nativeName": "道祖神",
+    "region": "Village edges",
+    "category": "道中",
+    "categoryEn": "Road ancestor kami",
+    "summary": "Stone couple or marker at the boundary; guards travel, marriage, and plague.",
+    "summaryJa": "境の石の神。旅と縁結びを守り、疫を塞ぐ。",
+    "legends": [
+      "A pair of stones watches the road out of town",
+      "Epidemics stop at the marker in old tellings"
+    ],
+    "traits": [
+      "Boundary stone",
+      "Often a couple",
+      "Averter of disease"
+    ],
+    "motifs": [
+      "Tsujigami neighbour",
+      "Village gate",
+      "Travel"
+    ],
+    "funFact": "Tsujigami possesses; dosojin stands still and works the border.",
+    "funFactJa": "辻神が憑くなら、道祖神は立ったまま国境で働く。",
+    "searchQuery": "道祖神 道祖 神",
+    "creativeHooks": [
+      "A passport stamp that is a marriage.",
+      "The village VPN is a stone."
+    ],
+    "sources": [
+      "Dosojin roadside lore"
+    ]
+  },
+  {
+    "name": "Suijin",
+    "nativeName": "水神",
+    "region": "Wells and weirs",
+    "category": "水系",
+    "categoryEn": "Water kami",
+    "summary": "Kami of wells and rivers; pollute them and illness follows, tend them and rain stays.",
+    "summaryJa": "井や川の神。汚すと病み、祀れば雨と水が続く。",
+    "legends": [
+      "A well is closed after a disrespect",
+      "Eels and snakes as messengers"
+    ],
+    "traits": [
+      "Well",
+      "Purity",
+      "Rain"
+    ],
+    "motifs": [
+      "Kappa neighbour",
+      "Ryujin neighbour",
+      "Infrastructure as rite"
+    ],
+    "funFact": "Not a kappa. Write plumbing and taboo.",
+    "funFactJa": "河童ではない。配管と禁忌を書く。",
+    "searchQuery": "水神 井戸 神",
+    "creativeHooks": [
+      "A water bill that is a shrine.",
+      "The tap has a priest."
+    ],
+    "sources": [
+      "Suijin well and river lore"
+    ]
+  },
+  {
+    "name": "Yama-no-kami",
+    "nativeName": "山の神",
+    "region": "Forestry and entry rites",
+    "category": "山系",
+    "categoryEn": "Mountain kami",
+    "summary": "The owner of the mountain; some slopes forbid women, all slopes punish casual entry.",
+    "summaryJa": "山の主。女人禁制の土地もあり、勝手に入ると罰する。",
+    "legends": [
+      "A woodcutter greets the slope before the first axe",
+      "Game animals vanish after a rude picnic"
+    ],
+    "traits": [
+      "Owner",
+      "Entry rite",
+      "Gendered taboos in some districts"
+    ],
+    "motifs": [
+      "Ta-no-kami pair",
+      "Tengu neighbour",
+      "Labour"
+    ],
+    "funFact": "Tengu is staff; yama-no-kami is the landlord.",
+    "funFactJa": "天狗が職員なら、山の神は地主。",
+    "searchQuery": "山の神 入山",
+    "creativeHooks": [
+      "A trailhead TOS.",
+      "The mountain collects rent in silence."
+    ],
+    "sources": [
+      "Yama-no-kami forestry lore"
+    ]
+  },
+  {
+    "name": "Kamado-gami",
+    "nativeName": "竃神",
+    "region": "The stove itself",
+    "category": "屋敷",
+    "categoryEn": "Stove kami",
+    "summary": "The kami of the kamado, overlapping kojin, watching fire and food.",
+    "summaryJa": "竈そのものの神。荒神と重なり、火と食を見張る。",
+    "legends": [
+      "New Year soot is a report",
+      "A cracked stove is a quarrel in the house"
+    ],
+    "traits": [
+      "Stove body",
+      "Food",
+      "Overlap with kojin"
+    ],
+    "motifs": [
+      "Kojin",
+      "Kitchen",
+      "Year-end cleaning"
+    ],
+    "funFact": "Kojin is the temper; kamado-gami is the appliance.",
+    "funFactJa": "荒神が気性なら、竃神は家電。",
+    "searchQuery": "竃神 竈 荒神",
+    "creativeHooks": [
+      "A smart stove with a parish.",
+      "Cleaning day is mass."
+    ],
+    "sources": [
+      "Kamado kami lore"
+    ]
+  },
+  {
+    "name": "Amaonna",
+    "nativeName": "雨女",
+    "region": "Long rains",
+    "category": "気象",
+    "categoryEn": "Rain woman",
+    "summary": "A woman who brings rain; invited to a wedding, the sky is said to cry.",
+    "summaryJa": "雨を連れて歩く女。婚礼に呼ぶと空が泣く、という。",
+    "legends": [
+      "A guest whose umbrella is the weather",
+      "A marriage delayed by a person-shaped front"
+    ],
+    "traits": [
+      "Rain",
+      "Female",
+      "Unlucky invitation"
+    ],
+    "motifs": [
+      "Hiderime pair",
+      "Wedding",
+      "Climate as character"
+    ],
+    "funFact": "Not a villain. She is a forecast with a name.",
+    "funFactJa": "悪役ではない。名前のついた予報である。",
+    "searchQuery": "雨女 日照り女",
+    "creativeHooks": [
+      "A plus-one who is a low-pressure system.",
+      "The seating chart includes the sky."
+    ],
+    "sources": [
+      "Amaonna rain-woman lore"
+    ]
+  },
+  {
+    "name": "Hiderime",
+    "nativeName": "日照り女",
+    "region": "Drought",
+    "category": "気象",
+    "categoryEn": "Drought woman",
+    "summary": "The drought counterpart of amaonna; her presence is a clear, cruel sky.",
+    "summaryJa": "雨女と対の旱の女。いるだけで空が容赦なくなる。",
+    "legends": [
+      "Wells fail after she passes",
+      "A village hides the rain-woman and the fields split"
+    ],
+    "traits": [
+      "Drought",
+      "Female",
+      "Opposite of amaonna"
+    ],
+    "motifs": [
+      "Amaonna pair",
+      "Agriculture",
+      "Climate dual"
+    ],
+    "funFact": "Write them as a pair of policies, not two costumes.",
+    "funFactJa": "衣装違いではなく、一対の政策として書く。",
+    "searchQuery": "日照り女 雨女 旱魃",
+    "creativeHooks": [
+      "A heatwave with a guest list.",
+      "The reservoir files a missing-person report."
+    ],
+    "sources": [
+      "Drought-woman lore"
+    ]
+  },
+  {
+    "name": "Yukinoko",
+    "nativeName": "雪ん子",
+    "region": "Snow country nights",
+    "category": "気象",
+    "categoryEn": "Snow child",
+    "summary": "A snow child; abandon it and the snow deepens.",
+    "summaryJa": "雪の童。置いてけぼりにすると雪が深くなる。",
+    "legends": [
+      "A child at the door with no footprints out",
+      "Kindness thaws a room, cruelty buries a road"
+    ],
+    "traits": [
+      "Child of snow",
+      "Hospitality test",
+      "North"
+    ],
+    "motifs": [
+      "Yuki-onna neighbour",
+      "Yuki-baba neighbour",
+      "Care labour"
+    ],
+    "funFact": "Yuki-onna seduces; yukinoko asks to be taken in.",
+    "funFactJa": "雪女が誘うなら、雪ん子は泊めてと頼む。",
+    "searchQuery": "雪ん子 雪女",
+    "creativeHooks": [
+      "A foster form that is weather.",
+      "The extra futon is a treaty."
+    ],
+    "sources": [
+      "Yukinko / snow-child tales"
+    ]
+  },
+  {
+    "name": "Yuki-baba",
+    "nativeName": "雪婆",
+    "region": "Blizzards",
+    "category": "気象",
+    "categoryEn": "Snow hag",
+    "summary": "The old face of yuki-onna: the blizzard as a hag, not a bride.",
+    "summaryJa": "雪女の老いた顔。吹雪そのものが婆になる。",
+    "legends": [
+      "A white wall with a mouth",
+      "Kindling stolen by a laugh in the gale"
+    ],
+    "traits": [
+      "Hag",
+      "Blizzard body",
+      "No seduction"
+    ],
+    "motifs": [
+      "Yuki-onna",
+      "Yuki-nyudo neighbour",
+      "Winter labour"
+    ],
+    "funFact": "Use when winter should scold, not kiss or crush.",
+    "funFactJa": "冬に口づけでも圧殺でもなく、叱ってほしいときに使う。",
+    "searchQuery": "雪婆 雪女 吹雪",
+    "creativeHooks": [
+      "A weather warning with a cane.",
+      "The whiteout is a grandmother."
+    ],
+    "sources": [
+      "Snow-hag variants"
+    ]
+  },
+  {
+    "name": "Ebisu",
+    "nativeName": "恵比寿",
+    "region": "Fishing towns and shops",
+    "category": "町",
+    "categoryEn": "Ebisu",
+    "summary": "Kami of the catch and of trade; a Seven Lucky Gods face that yokai books still list.",
+    "summaryJa": "漁と商売の福神。七福神の顔として妖怪図鑑にも残る。",
+    "legends": [
+      "A deaf-looking smile at the harbour",
+      "Shops hang him where money should hear"
+    ],
+    "traits": [
+      "Sea bream and rod",
+      "Luck of the catch",
+      "Shop guardian"
+    ],
+    "motifs": [
+      "Daikokuten neighbour",
+      "Town",
+      "Popular kami in yokai lists"
+    ],
+    "funFact": "Not a yokai to exorcise. He is the ledger's mascot with a shrine.",
+    "funFactJa": "祓う対象ではない。社のある台帳のマスコット。",
+    "searchQuery": "恵比寿 七福神",
+    "creativeHooks": [
+      "A till that is a harbour.",
+      "The lucky cat's uncle works docks."
+    ],
+    "sources": [
+      "Ebisu popular worship"
+    ]
+  },
+  {
+    "name": "Benzaiten",
+    "nativeName": "弁財天",
+    "region": "Water shrines",
+    "category": "古典",
+    "categoryEn": "Benzaiten",
+    "summary": "Goddess of eloquence and wealth, tied to white snakes and the biwa, sat beside yokai in encyclopedias.",
+    "summaryJa": "弁才と財の女神。白蛇と琵琶に結び、図鑑では妖怪の隣に座らされる。",
+    "legends": [
+      "A biwa from a lake shrine",
+      "White snakes as attendants"
+    ],
+    "traits": [
+      "Water",
+      "Music",
+      "Snake"
+    ],
+    "motifs": [
+      "Shirohebi neighbour",
+      "Bentensama",
+      "Island shrines"
+    ],
+    "funFact": "Do not flatten her into a party member. Write the lake.",
+    "funFactJa": "パーティメンバーに潰さない。湖を書け。",
+    "searchQuery": "弁財天 弁才天 白蛇",
+    "creativeHooks": [
+      "A grant application that is a hymn.",
+      "The island is an instrument."
+    ],
+    "sources": [
+      "Benzaiten / Benten worship"
+    ]
+  },
+  {
+    "name": "Inari",
+    "nativeName": "稲荷",
+    "region": "Inari shrines nationwide",
+    "category": "狐狸",
+    "categoryEn": "Inari",
+    "summary": "Kami of rice and foxes; white foxes as staff, merchants as congregation.",
+    "summaryJa": "稲と狐の神。白狐を使い、商家の守りでもある。",
+    "legends": [
+      "A thousand torii and one job: rice and mail",
+      "Fried tofu as payroll"
+    ],
+    "traits": [
+      "Fox messengers",
+      "Rice",
+      "Commerce"
+    ],
+    "motifs": [
+      "Byakko",
+      "Zenko",
+      "Kitsune ranks"
+    ],
+    "funFact": "The foxes are employees. Inari is the company.",
+    "funFactJa": "狐は社員。稲荷は会社。",
+    "searchQuery": "稲荷 狐 神",
+    "creativeHooks": [
+      "A logistics firm with ears.",
+      "The brand is a torii."
+    ],
+    "sources": [
+      "Inari worship"
+    ]
+  },
+  {
+    "name": "Rokuemon-tanuki",
+    "nativeName": "六右衛門狸",
+    "region": "Awa",
+    "category": "狐狸",
+    "categoryEn": "Rokuemon of Awa",
+    "summary": "An Awa tanuki named opposite Kincho in vendetta cycles.",
+    "summaryJa": "阿波の大狸。金長譚の相手方として語られる。",
+    "legends": [
+      "Two names split a valley",
+      "A grave that answers another grave"
+    ],
+    "traits": [
+      "Rival tanuki",
+      "Awa",
+      "Vendetta"
+    ],
+    "motifs": [
+      "Kincho-tanuki",
+      "Tanuki daimyo",
+      "Giri"
+    ],
+    "funFact": "Do not make a second Kincho. Write the other office.",
+    "funFactJa": "金長の複製にしない。相手方の局を書く。",
+    "searchQuery": "六右衛門狸 金長狸 阿波",
+    "creativeHooks": [
+      "A feud with two mascots.",
+      "The prefecture has a cold war."
+    ],
+    "sources": [
+      "Awa tanuki cycles"
+    ]
+  },
+  {
+    "name": "Furi",
+    "nativeName": "風狸",
+    "region": "Honzo mountains",
+    "category": "山系",
+    "categoryEn": "Wind tanuki",
+    "summary": "A honzo beast like a tanuki that rides wind from tree to tree.",
+    "summaryJa": "風を呼び、木から木へ飛ぶ、狸に似た本草の獣。",
+    "legends": [
+      "A gust that has a tail",
+      "Canopy traffic with no birds"
+    ],
+    "traits": [
+      "Wind",
+      "Tree-to-tree",
+      "Tanuki-like"
+    ],
+    "motifs": [
+      "Imported honzo",
+      "Not a Sado lord",
+      "Weather animal"
+    ],
+    "funFact": "Not Danzaburo. This is a glossary mammal that learned parkour.",
+    "funFactJa": "団三郎ではない。パルクールを覚えた用語集の哺乳類。",
+    "searchQuery": "風狸 ふうり 本草",
+    "creativeHooks": [
+      "A drone that is fur.",
+      "The canopy has a timetable."
+    ],
+    "sources": [
+      "Honzo furi / wind-tanuki"
+    ]
+  },
+  {
+    "name": "Narukami",
+    "nativeName": "鳴神",
+    "region": "Thunder",
+    "category": "気象",
+    "categoryEn": "Thunder kami",
+    "summary": "Thunder given a person: the sounding god, the angry sky.",
+    "summaryJa": "雷そのものの人格。鳴る神、怒る空。",
+    "legends": [
+      "A drum with no festival",
+      "Trees split as if named"
+    ],
+    "traits": [
+      "Thunder",
+      "Sky anger",
+      "Drum"
+    ],
+    "motifs": [
+      "Raiju neighbour",
+      "Weather kami",
+      "Not a cute spark"
+    ],
+    "funFact": "Raiju is the animal; narukami is the office of the noise.",
+    "funFactJa": "雷獣が動物なら、鳴神は騒音の官職。",
+    "searchQuery": "鳴神 雷神 雷",
+    "creativeHooks": [
+      "A weather alert with a temper.",
+      "The sky files complaints in lightning."
+    ],
+    "sources": [
+      "Narukami thunder lore"
+    ]
+  },
+  {
+    "name": "Daikokuten",
+    "nativeName": "大黒天",
+    "region": "Kitchens and wealth",
+    "category": "町",
+    "categoryEn": "Daikokuten",
+    "summary": "Daikoku of the sack and mallet; a luck kami who also overlaps the hearth.",
+    "summaryJa": "大黒様。袋と槌の福神で、荒神や竃と重なる顔もある。",
+    "legends": [
+      "Rice overflows a sack in the dirt kitchen",
+      "Mice are employees, not pests"
+    ],
+    "traits": [
+      "Sack",
+      "Mallet",
+      "Kitchen luck"
+    ],
+    "motifs": [
+      "Ebisu pair",
+      "Kojin overlap",
+      "Seven Lucky Gods"
+    ],
+    "funFact": "Shop mascot and stove politician in one body.",
+    "funFactJa": "商店のマスコットと竈の政治家が一体。",
+    "searchQuery": "大黒天 大黒 七福神",
+    "creativeHooks": [
+      "A rice cooker that is a bank.",
+      "The mallet is monetary policy."
+    ],
+    "sources": [
+      "Daikokuten popular worship"
+    ]
+  },
+  {
+    "name": "Nekogami",
+    "nativeName": "猫神",
+    "region": "Cat shrines",
+    "category": "変化",
+    "categoryEn": "Cat kami",
+    "summary": "The cat worshipped as kami: gratitude and rodent control behind the bakeneko scare.",
+    "summaryJa": "猫を神として祀る。化け猫の裏にある、恩と鼠除け。",
+    "legends": [
+      "A shrine for a cat that killed a snake",
+      "Mice decline after a funeral for a pet"
+    ],
+    "traits": [
+      "Cat as kami",
+      "Gratitude",
+      "Pest control made sacred"
+    ],
+    "motifs": [
+      "Bakeneko neighbour",
+      "Nekomata neighbour",
+      "Gotoku-neko"
+    ],
+    "funFact": "Bakeneko is the scandal. Nekogami is the pension.",
+    "funFactJa": "化け猫が不祥事なら、猫神は年金。",
+    "searchQuery": "猫神 猫 神社",
+    "creativeHooks": [
+      "A pest-control contract with incense.",
+      "The graveyard has a staff cat."
+    ],
+    "sources": [
+      "Nekogami / cat shrines"
+    ]
+  },
+  {
+    "name": "Yamanari",
+    "nativeName": "山鳴り",
+    "region": "Mountain interiors",
+    "category": "山系",
+    "categoryEn": "Mountain rumble",
+    "summary": "The mountain sounding with no echo-partner; not yamabiko's reply, but the slope's own voice.",
+    "summaryJa": "山が理由なく鳴る。山彦の返事ではなく、山自体の声。",
+    "legends": [
+      "A boom with no thunderhead",
+      "Woodcutters sit until the hill finishes speaking"
+    ],
+    "traits": [
+      "Rumble",
+      "No interlocutor",
+      "Omen"
+    ],
+    "motifs": [
+      "Yamabiko contrast",
+      "Weather-adjacent",
+      "Entry rite"
+    ],
+    "funFact": "Yamabiko answers you. Yamanari does not care that you spoke.",
+    "funFactJa": "山彦は答える。山鳴りは、あなたが話したことを気にしない。",
+    "searchQuery": "山鳴り 山彦",
+    "creativeHooks": [
+      "A notification from geology.",
+      "The slope has a throat."
+    ],
+    "sources": [
+      "Yamanari mountain-rumble lore"
+    ]
+  },
+  {
+    "name": "Kuwanu-onna",
+    "nativeName": "食わず女",
+    "region": "Hidden meals",
+    "category": "変化",
+    "categoryEn": "Woman who will not eat",
+    "summary": "A woman who hides her eating; the foyer to futakuchi-onna, a mouth that must not be seen.",
+    "summaryJa": "食事を見せない女。二口女の手前で、隠す口の話。",
+    "legends": [
+      "A wife who never joins dinner",
+      "A locked room at mealtime"
+    ],
+    "traits": [
+      "Hidden appetite",
+      "Secrecy",
+      "Domestic"
+    ],
+    "motifs": [
+      "Futakuchi-onna",
+      "Food taboo",
+      "Marriage"
+    ],
+    "funFact": "Do not skip to the second mouth. The horror is the locked dining room.",
+    "funFactJa": "すぐ第二の口に飛ばない。怖さは施錠した食堂。",
+    "searchQuery": "食わず女 二口女",
+    "creativeHooks": [
+      "A calorie app with a vault.",
+      "The family table has a vacancy policy."
+    ],
+    "sources": [
+      "Kuwanu-onna / hidden-eating tales"
+    ]
   }
 ]
