@@ -3383,5 +3383,325 @@
     ],
     "tone": "horror",
     "famousRank": 4
+  },
+  {
+    "name": "Yosuzume",
+    "nativeName": "夜雀",
+    "category": "山系",
+    "region": "峠・夜道",
+    "blurbJa": "夜の峠で鳴く雀。出会うと火難や盗難の前兆とされる。",
+    "tags": [
+      "山",
+      "鳥",
+      "夜",
+      "前兆",
+      "道中"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Kazenbo",
+    "nativeName": "火前坊",
+    "category": "死霊",
+    "region": "鳥辺野・京都",
+    "blurbJa": "鳥辺野で燃え続ける僧の亡者。生前の業が火になる。",
+    "tags": [
+      "火",
+      "僧",
+      "京都",
+      "怖い",
+      "古典"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Narike",
+    "nativeName": "鳴家",
+    "category": "屋敷",
+    "region": "空き家",
+    "blurbJa": "誰もいない家が夜に鳴る。柱や戸が自分で咳をする。",
+    "tags": [
+      "屋敷",
+      "音",
+      "空き家",
+      "怖い",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Mokugyo-daruma",
+    "nativeName": "木魚達磨",
+    "category": "付喪神",
+    "region": "仏具",
+    "blurbJa": "打たれなくなった木魚が達磨の体を得て歩く。",
+    "tags": [
+      "仏具",
+      "付喪神",
+      "音",
+      "寺",
+      "古典"
+    ],
+    "tone": "comic",
+    "famousRank": 4
+  },
+  {
+    "name": "Berobero",
+    "nativeName": "べろべろ",
+    "category": "異形",
+    "region": "夜道",
+    "blurbJa": "長い舌だけで道に立ち、通行人を舐めて驚く。",
+    "tags": [
+      "舌",
+      "夜道",
+      "怖い",
+      "異形",
+      "入門"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Kakurezato",
+    "nativeName": "隠れ里",
+    "category": "古典",
+    "region": "山の奥",
+    "blurbJa": "山奥の隠れ里。時が遅く、一度出ると戻れないこともある。",
+    "tags": [
+      "山",
+      "里",
+      "古典",
+      "時間",
+      "神秘"
+    ],
+    "tone": "mysterious",
+    "famousRank": 2
+  },
+  {
+    "name": "Tsujigami",
+    "nativeName": "辻神",
+    "category": "道中",
+    "region": "辻・四つ角",
+    "blurbJa": "辻にいる神でも妖怪でもある者。出会う時刻を誤ると憑く。",
+    "tags": [
+      "道中",
+      "辻",
+      "夜",
+      "怖い",
+      "神"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Gotoku-neko",
+    "nativeName": "五徳猫",
+    "category": "変化",
+    "region": "炉辺",
+    "blurbJa": "頭に五徳を乗せた猫の変化。炉の火と猫又の間にいる。",
+    "tags": [
+      "猫",
+      "火",
+      "変化",
+      "かわいい",
+      "屋敷"
+    ],
+    "tone": "playful",
+    "famousRank": 3
+  },
+  {
+    "name": "Chinzuka-kaio",
+    "nativeName": "塵塚怪王",
+    "category": "付喪神",
+    "region": "ゴミ塚",
+    "blurbJa": "捨てられた道具の王。塵の山から付喪神を統べる。",
+    "tags": [
+      "付喪神",
+      "ゴミ",
+      "王",
+      "古典",
+      "道具"
+    ],
+    "tone": "comic",
+    "famousRank": 4
+  },
+  {
+    "name": "Kejoro",
+    "nativeName": "毛倡妓",
+    "category": "変化",
+    "region": "遊里・夜",
+    "blurbJa": "顔の代わりに長い髪が垂れる遊女の妖怪。",
+    "tags": [
+      "女",
+      "髪",
+      "怖い",
+      "夜",
+      "変化"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Ubaga-bi",
+    "nativeName": "姥ヶ火",
+    "category": "霊火",
+    "region": "川原・塚",
+    "blurbJa": "姥の霊が火になって飛ぶ。拾うと禍、避ければ無事。",
+    "tags": [
+      "火",
+      "婆",
+      "川",
+      "怖い",
+      "前兆"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Soso-bi",
+    "nativeName": "叢原火",
+    "category": "霊火",
+    "region": "原・湿地",
+    "blurbJa": "草叢をはう火。狐火や鬼火と区別される土地の火。",
+    "tags": [
+      "火",
+      "原",
+      "夜",
+      "怖い",
+      "気象"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Ho-o",
+    "nativeName": "鳳凰",
+    "category": "古典",
+    "region": "瑞兆",
+    "blurbJa": "聖なる鳥。麒麟と対になる瑞獣で、治世のしるし。",
+    "tags": [
+      "鳥",
+      "瑞獣",
+      "古典",
+      "入門",
+      "吉兆"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Otohime",
+    "nativeName": "乙姫",
+    "category": "海",
+    "region": "竜宮",
+    "blurbJa": "竜宮の姫。浦島を歓待し、玉手箱を渡す海の貴人。",
+    "tags": [
+      "海",
+      "姫",
+      "竜宮",
+      "時間",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 1
+  },
+  {
+    "name": "Amanozako",
+    "nativeName": "天逆毎",
+    "category": "鬼",
+    "region": "神話の辺縁",
+    "blurbJa": "スサノオの怒りから生まれたという荒ぶる女神・鬼女。",
+    "tags": [
+      "鬼",
+      "女",
+      "神話",
+      "怒り",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Kidomaru",
+    "nativeName": "鬼童丸",
+    "category": "鬼",
+    "region": "大江山周辺",
+    "blurbJa": "酒呑童子系の鬼童。源頼光の鬼退治譚に出る。",
+    "tags": [
+      "鬼",
+      "戦い",
+      "古典",
+      "京都",
+      "童子"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Hoshikuma-doji",
+    "nativeName": "星熊童子",
+    "category": "鬼",
+    "region": "大江山",
+    "blurbJa": "酒呑童子の四天王の一人。星と熊を負う鬼。",
+    "tags": [
+      "鬼",
+      "戦い",
+      "古典",
+      "山",
+      "四天王"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Nyunai-suzume",
+    "nativeName": "入内雀",
+    "category": "屋敷",
+    "region": "宮中・御所",
+    "blurbJa": "御所に入り込む雀の精。秘事を見て鳴く。",
+    "tags": [
+      "鳥",
+      "宮中",
+      "覗き",
+      "古典",
+      "屋敷"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Azuki-baba",
+    "nativeName": "小豆婆",
+    "category": "屋敷",
+    "region": "夜の家",
+    "blurbJa": "小豆を洗う音の主を婆とする土地の話。小豆洗いの家側。",
+    "tags": [
+      "屋敷",
+      "小豆",
+      "婆",
+      "音",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Konjin",
+    "nativeName": "金神",
+    "category": "道中",
+    "region": "方違え",
+    "blurbJa": "金気の荒ぶる神。方角を誤ると崇る。陰陽道の旅行禁忌。",
+    "tags": [
+      "方角",
+      "祟り",
+      "道中",
+      "古典",
+      "怖い"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
   }
 ]

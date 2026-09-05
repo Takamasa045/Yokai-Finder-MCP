@@ -6747,5 +6747,665 @@
     "sources": [
       "Lamp-snuffing hag types"
     ]
+  },
+  {
+    "name": "Yosuzume",
+    "nativeName": "夜雀",
+    "region": "Mountain passes at night",
+    "category": "山系",
+    "categoryEn": "Night sparrow",
+    "summary": "Sparrows that cry on night passes; meeting them is an omen of fire or theft.",
+    "summaryJa": "夜の峠で鳴く雀。出会うと火事や盗難の前兆という。",
+    "legends": [
+      "A flock answers when no village is near",
+      "Travellers cover lanterns until the crying stops"
+    ],
+    "traits": [
+      "Night birds",
+      "Pass omen",
+      "Unlucky meeting"
+    ],
+    "motifs": [
+      "Travel",
+      "Fire warning",
+      "Mountain road"
+    ],
+    "funFact": "Not a cute mascot sparrow. The cry is a traffic sign.",
+    "funFactJa": "マスコットの雀ではない。鳴き声は交通標識である。",
+    "searchQuery": "夜雀 妖怪 峠",
+    "creativeHooks": [
+      "A navigation ping that is a bird.",
+      "The pass has a curfew in chirps."
+    ],
+    "sources": [
+      "Mountain-pass bird omens"
+    ]
+  },
+  {
+    "name": "Kazenbo",
+    "nativeName": "火前坊",
+    "region": "Toribeno, Kyoto",
+    "category": "死霊",
+    "categoryEn": "Burning monk",
+    "summary": "A monk of Toribeno whose corpse-fire never goes out, a Buddhist picture of leftover karma.",
+    "summaryJa": "鳥辺野で燃え続ける僧。業が火になった亡者。",
+    "legends": [
+      "A burning figure walks where funerals used to be",
+      "The flame smells of incense and regret"
+    ],
+    "traits": [
+      "Burning monk",
+      "Funeral ground",
+      "Karma as fire"
+    ],
+    "motifs": [
+      "Kyoto",
+      "Cremation fields",
+      "Nenbutsu leftover"
+    ],
+    "funFact": "Keep it local to Toribeno; this is not a generic flaming skeleton.",
+    "funFactJa": "鳥辺野に固定する。汎用の燃える骸骨にしない。",
+    "searchQuery": "火前坊 鳥辺野 妖怪",
+    "creativeHooks": [
+      "A cemetery lamp that used to be a person.",
+      "The fire is a sermon."
+    ],
+    "sources": [
+      "Kyoto funeral-ground lore"
+    ]
+  },
+  {
+    "name": "Narike",
+    "nativeName": "鳴家",
+    "region": "Empty houses",
+    "category": "屋敷",
+    "categoryEn": "Crying house",
+    "summary": "A vacant house that coughs, ticks, or weeps at night with no tenants.",
+    "summaryJa": "空き家が夜に鳴る。柱や戸が咳をする。",
+    "legends": [
+      "Neighbours hear a family in a boarded house",
+      "The sound stops if you knock, then moves to the roof"
+    ],
+    "traits": [
+      "Empty rooms",
+      "Self-voicing timber",
+      "Night"
+    ],
+    "motifs": [
+      "Vacancy",
+      "Architecture as throat",
+      "Sakabashira neighbour"
+    ],
+    "funFact": "The monster is the building's unemployment.",
+    "funFactJa": "怪物は、建物の失業である。",
+    "searchQuery": "鳴家 空き家 妖怪",
+    "creativeHooks": [
+      "A listing that reviews its own tenants.",
+      "The cough is structural."
+    ],
+    "sources": [
+      "Empty-house sound lore"
+    ]
+  },
+  {
+    "name": "Mokugyo-daruma",
+    "nativeName": "木魚達磨",
+    "region": "Unused temple instruments",
+    "category": "付喪神",
+    "categoryEn": "Wooden-fish daruma",
+    "summary": "A neglected mokugyo that grows a daruma body and walks, still looking for a beat.",
+    "summaryJa": "打たれなくなった木魚が達磨になって歩く。拍を探し続ける。",
+    "legends": [
+      "A storehouse thumps in 4/4 with no monk",
+      "The round body will not sit still"
+    ],
+    "traits": [
+      "Wooden fish",
+      "Daruma silhouette",
+      "Wants to be struck"
+    ],
+    "motifs": [
+      "Tsukumogami",
+      "Temple labour",
+      "Unused ritual"
+    ],
+    "funFact": "Pair with biwa-bokuboku: instruments that refuse retirement.",
+    "funFactJa": "琵琶牧々と対。引退を拒否する仏具。",
+    "searchQuery": "木魚達磨 付喪神",
+    "creativeHooks": [
+      "A metronome that left the temple.",
+      "The beat is a pilgrimage."
+    ],
+    "sources": [
+      "Temple-instrument tsukumogami"
+    ]
+  },
+  {
+    "name": "Berobero",
+    "nativeName": "べろべろ",
+    "region": "Night roads",
+    "category": "異形",
+    "categoryEn": "Tongue-only",
+    "summary": "Little more than a standing tongue that licks passers-by, a comic-horror fragment.",
+    "summaryJa": "長い舌が道に立って通行人を舐める。短い冗談のような怪異。",
+    "legends": [
+      "A wet stripe on a sleeve with no rain",
+      "The tongue bows like a person"
+    ],
+    "traits": [
+      "Tongue body",
+      "Lick",
+      "Road"
+    ],
+    "motifs": [
+      "Comic horror",
+      "Incomplete anatomy",
+      "Night walk"
+    ],
+    "funFact": "Do not over-explain. The joke is the anatomy.",
+    "funFactJa": "説明しすぎない。冗談は解剖である。",
+    "searchQuery": "べろべろ 妖怪",
+    "creativeHooks": [
+      "A greeting that is a taste test.",
+      "The sidewalk has a palate."
+    ],
+    "sources": [
+      "Comic road yokai"
+    ]
+  },
+  {
+    "name": "Kakurezato",
+    "nativeName": "隠れ里",
+    "region": "Deep mountains",
+    "category": "古典",
+    "categoryEn": "Hidden village",
+    "summary": "A hidden mountain village where time runs slow; leaving once may close the way forever.",
+    "summaryJa": "時の遅い山の隠れ里。一度出ると道が消えることもある。",
+    "legends": [
+      "A woodcutter feasts three days and returns to a grave with his name",
+      "Smoke without a census"
+    ],
+    "traits": [
+      "Hidden settlement",
+      "Slow time",
+      "Hospitality trap"
+    ],
+    "motifs": [
+      "Rip van Winkle of the hills",
+      "Forbidden return",
+      "Mountain utopia"
+    ],
+    "funFact": "Closer to Tokoyo than to a haunted house. The gift is the problem.",
+    "funFactJa": "化け屋敷より常世に近い。贈り物が問題である。",
+    "searchQuery": "隠れ里 常世 山",
+    "creativeHooks": [
+      "A calendar that skips decades.",
+      "The souvenir is a locked map."
+    ],
+    "sources": [
+      "Hidden-village mountain lore"
+    ]
+  },
+  {
+    "name": "Tsujigami",
+    "nativeName": "辻神",
+    "region": "Crossroads",
+    "category": "道中",
+    "categoryEn": "Crossroads kami",
+    "summary": "A being of the crossing, god or yokai by hour; meet it at the wrong time and it possesses you.",
+    "summaryJa": "辻の神でも妖怪でもある者。時刻を誤ると憑く。",
+    "legends": [
+      "A four-way silence at midnight",
+      "Offerings left at the kerb vanish inward"
+    ],
+    "traits": [
+      "Crossroads",
+      "Hour-bound",
+      "Possession"
+    ],
+    "motifs": [
+      "Travel taboo",
+      "Kami/yokai overlap",
+      "Night geometry"
+    ],
+    "funFact": "The place is the person. Do not give it a long biography.",
+    "funFactJa": "場所が人格。長い伝記を与えない。",
+    "searchQuery": "辻神 妖怪 四つ角",
+    "creativeHooks": [
+      "A traffic light that judges you.",
+      "The crossing has office hours."
+    ],
+    "sources": [
+      "Crossroads possession lore"
+    ]
+  },
+  {
+    "name": "Gotoku-neko",
+    "nativeName": "五徳猫",
+    "region": "Hearthside",
+    "category": "変化",
+    "categoryEn": "Trivet cat",
+    "summary": "A cat yokai wearing an iron trivet as a crown, between bakeneko and the kitchen fire.",
+    "summaryJa": "五徳を頭に乗せた猫の変化。化け猫と炉のあいだ。",
+    "legends": [
+      "The kettle stands on something that purrs",
+      "A trivet walks away at dawn"
+    ],
+    "traits": [
+      "Cat",
+      "Iron trivet",
+      "Hearth"
+    ],
+    "motifs": [
+      "Kitchen",
+      "Bakeneko neighbour",
+      "Comic crown"
+    ],
+    "funFact": "The hat is the job description: this cat clocks in at the fire.",
+    "funFactJa": "帽子が職務記述書。この猫は火に出勤する。",
+    "searchQuery": "五徳猫 化け猫 妖怪",
+    "creativeHooks": [
+      "A stove mascot with seniority.",
+      "The crown is cookware."
+    ],
+    "sources": [
+      "Hearth cat yokai"
+    ]
+  },
+  {
+    "name": "Chinzuka-kaio",
+    "nativeName": "塵塚怪王",
+    "region": "Refuse heaps",
+    "category": "付喪神",
+    "categoryEn": "Dust-heap king",
+    "summary": "A king of discarded tools who rules tsukumogami from a rubbish mound.",
+    "summaryJa": "捨てられた道具の王。塵の山から付喪神を統べる。",
+    "legends": [
+      "A dump bows",
+      "Broken tools assemble into a court"
+    ],
+    "traits": [
+      "Heap-body",
+      "Commands junk",
+      "King"
+    ],
+    "motifs": [
+      "Waste",
+      "Tsukumogami polity",
+      "Sekien"
+    ],
+    "funFact": "Seto-taisho is a ceramic colonel; this is the ministry of trash.",
+    "funFactJa": "瀬戸大将が陶磁の大佐なら、これはゴミの官庁。",
+    "searchQuery": "塵塚怪王 付喪神",
+    "creativeHooks": [
+      "A recycling centre with a throne.",
+      "The landfill has protocol."
+    ],
+    "sources": [
+      "Toriyama Sekien junk tsukumogami"
+    ]
+  },
+  {
+    "name": "Kejoro",
+    "nativeName": "毛倡妓",
+    "region": "Pleasure quarters at night",
+    "category": "変化",
+    "categoryEn": "Hair courtesan",
+    "summary": "A courtesan yokai whose face is replaced by hanging hair.",
+    "summaryJa": "顔の代わりに長い髪が垂れる遊女の妖怪。",
+    "legends": [
+      "A beautiful silhouette until the lantern hits the face",
+      "The hair drinks first"
+    ],
+    "traits": [
+      "Hair instead of a face",
+      "Night quarter",
+      "Courtesan dress"
+    ],
+    "motifs": [
+      "Ohaguro-bettari neighbour",
+      "Beauty trap",
+      "Yoshiwara-adjacent"
+    ],
+    "funFact": "The horror is the missing interview: no eyes to meet.",
+    "funFactJa": "怖さは、目を合わせる面接がないこと。",
+    "searchQuery": "毛倡妓 けじょうろ 妖怪",
+    "creativeHooks": [
+      "A profile photo that is only bangs.",
+      "The okiya has a drainage problem."
+    ],
+    "sources": [
+      "Pleasure-quarter hair yokai"
+    ]
+  },
+  {
+    "name": "Ubaga-bi",
+    "nativeName": "姥ヶ火",
+    "region": "Rivers and burial mounds",
+    "category": "霊火",
+    "categoryEn": "Hag fire",
+    "summary": "A hag's spirit as a drifting fire; picking it up invites misfortune.",
+    "summaryJa": "姥の霊が火になって飛ぶ。拾うと禍。",
+    "legends": [
+      "A fire at the waterline has a woman's posture",
+      "Children are told not to pocket the light"
+    ],
+    "traits": [
+      "Drifting flame",
+      "Old woman remnant",
+      "River"
+    ],
+    "motifs": [
+      "Onibi neighbour",
+      "Funeral leftover",
+      "Do not collect"
+    ],
+    "funFact": "Unlike kitsunebi, this one remembers a specific old age.",
+    "funFactJa": "狐火と違い、特定の老を覚えている。",
+    "searchQuery": "姥ヶ火 妖怪",
+    "creativeHooks": [
+      "A lantern that is a biography.",
+      "Do not put it in your bag."
+    ],
+    "sources": [
+      "Hag-fire river lore"
+    ]
+  },
+  {
+    "name": "Soso-bi",
+    "nativeName": "叢原火",
+    "region": "Grassy wetlands",
+    "category": "霊火",
+    "categoryEn": "Grass-field fire",
+    "summary": "A fire that crawls through grass, locally distinguished from fox-fire and oni-bi.",
+    "summaryJa": "草叢をはう火。狐火とも鬼火とも別の名が付く土地の火。",
+    "legends": [
+      "The meadow stitches itself in light",
+      "Horses will not graze a glowing strip"
+    ],
+    "traits": [
+      "Crawling flame",
+      "Grass",
+      "Wet field"
+    ],
+    "motifs": [
+      "Local taxonomy of fires",
+      "Night pasture",
+      "Weather-adjacent"
+    ],
+    "funFact": "Keep the local name; do not merge every field-light into kitsunebi.",
+    "funFactJa": "土地の名を残す。野の火を全部狐火にしない。",
+    "searchQuery": "叢原火 妖怪",
+    "creativeHooks": [
+      "A crop circle that burns politely.",
+      "The pasture has a night shift."
+    ],
+    "sources": [
+      "Regional field-fire names"
+    ]
+  },
+  {
+    "name": "Ho-o",
+    "nativeName": "鳳凰",
+    "region": "Auspicious skies",
+    "category": "古典",
+    "categoryEn": "Phoenix",
+    "summary": "A sacred bird paired with the kirin; appears as an omen of just rule, not a dungeon boss.",
+    "summaryJa": "麒麟と対の瑞鳥。正しい治世のしるしであって、討伐対象ではない。",
+    "legends": [
+      "Music in the air before a peaceful succession",
+      "A nest no hunter is allowed to map"
+    ],
+    "traits": [
+      "Rainbow plumage",
+      "Rare appearance",
+      "Omen"
+    ],
+    "motifs": [
+      "Kirin neighbour",
+      "Kingship",
+      "Chinese-Japanese auspicious beasts"
+    ],
+    "funFact": "Same rule as kirin: write ceremony, not a loot table.",
+    "funFactJa": "麒麟と同じ規則。ルート表ではなく儀礼として書く。",
+    "searchQuery": "鳳凰 麒麟 瑞獣",
+    "creativeHooks": [
+      "A weather report of virtue.",
+      "The national anthem has wings."
+    ],
+    "sources": [
+      "Auspicious-beast compilations"
+    ]
+  },
+  {
+    "name": "Otohime",
+    "nativeName": "乙姫",
+    "region": "Ryugu under the sea",
+    "category": "海",
+    "categoryEn": "Princess of Ryugu",
+    "summary": "The princess of the dragon palace who hosted Urashima and gave him the forbidden box.",
+    "summaryJa": "竜宮の姫。浦島を歓待し、開けるなという箱を渡す。",
+    "legends": [
+      "Three years of music that are centuries on land",
+      "A box that is a clock"
+    ],
+    "traits": [
+      "Sea palace",
+      "Hospitality",
+      "Time gift"
+    ],
+    "motifs": [
+      "Urashima",
+      "Hidden world",
+      "Kakurezato neighbour at sea"
+    ],
+    "funFact": "She is not a villain. The tragedy is the souvenir.",
+    "funFactJa": "悪役ではない。悲劇は土産である。",
+    "searchQuery": "乙姫 竜宮 浦島",
+    "creativeHooks": [
+      "A resort whose checkout is gerontology.",
+      "The gift shop sells duration."
+    ],
+    "sources": [
+      "Urashima / Ryugu cycle"
+    ]
+  },
+  {
+    "name": "Amanozako",
+    "nativeName": "天逆毎",
+    "region": "Mythic fringe",
+    "category": "鬼",
+    "categoryEn": "Amanozako",
+    "summary": "A fierce goddess-oni said to be born from Susanoo's spit of rage, contrary by nature.",
+    "summaryJa": "スサノオの怒りの唾から生まれたという荒ぶる女神。逆らうことが本性。",
+    "legends": [
+      "A contrary wind on a clear day",
+      "A shrine that answers no with yes"
+    ],
+    "traits": [
+      "Rage-born",
+      "Contrary",
+      "Female oni-kami"
+    ],
+    "motifs": [
+      "Susanoo cycle",
+      "Amanojaku neighbour",
+      "Myth as yokai"
+    ],
+    "funFact": "Amanojaku is the small contrarian; Amanozako is the weather system.",
+    "funFactJa": "天邪鬼が小さな逆らいなら、天逆毎は気象である。",
+    "searchQuery": "天逆毎 あまのざこ 天邪鬼",
+    "creativeHooks": [
+      "A veto with a genealogy.",
+      "The storm has a mother."
+    ],
+    "sources": [
+      "Wakan Sansai Zue and mythic oni-goddess lore"
+    ]
+  },
+  {
+    "name": "Kidomaru",
+    "nativeName": "鬼童丸",
+    "region": "Oe-yama cycle",
+    "category": "鬼",
+    "categoryEn": "Kidomaru",
+    "summary": "A young oni of the Shuten-doji cycle, opposed to Yorimitsu's band.",
+    "summaryJa": "酒呑童子系の鬼童。頼光四天王の鬼退治譚に出る。",
+    "legends": [
+      "A child-shaped oni on the mountain road",
+      "A duel that is also a recruitment"
+    ],
+    "traits": [
+      "Young oni",
+      "Warrior",
+      "Oe-yama"
+    ],
+    "motifs": [
+      "Shuten-doji court",
+      "Minamoto cycle",
+      "Coming-of-age as raid"
+    ],
+    "funFact": "Keep him in the Heian warrior cycle, not as a generic kid-demon skin.",
+    "funFactJa": "平成の子供鬼スキンにせず、平安の武勇譚に置く。",
+    "searchQuery": "鬼童丸 酒呑童子",
+    "creativeHooks": [
+      "An intern at the oni palace.",
+      "The coming-of-age gift is a raid."
+    ],
+    "sources": [
+      "Shuten-doji / Yorimitsu cycle"
+    ]
+  },
+  {
+    "name": "Hoshikuma-doji",
+    "nativeName": "星熊童子",
+    "region": "Oe-yama",
+    "category": "鬼",
+    "categoryEn": "Star-bear page",
+    "summary": "One of Shuten-doji's four kings, named for star and bear, a lieutenant not a mascot.",
+    "summaryJa": "酒呑童子の四天王の一人。星と熊を負う鬼の副官。",
+    "legends": [
+      "A banner with a bear that is not heraldry only",
+      "The lieutenant keeps the mountain's accounts"
+    ],
+    "traits": [
+      "Oni lieutenant",
+      "Star-bear name",
+      "Four kings"
+    ],
+    "motifs": [
+      "Shuten-doji staff",
+      "Oe-yama",
+      "Not the boss"
+    ],
+    "funFact": "Ibaraki-doji is the famous deputy; Hoshikuma is the other office.",
+    "funFactJa": "茨木童子が有名な副官なら、星熊はもう一つの局。",
+    "searchQuery": "星熊童子 酒呑童子 四天王",
+    "creativeHooks": [
+      "An org chart under the mountain.",
+      "The bear is a rank."
+    ],
+    "sources": [
+      "Shuten-doji four kings"
+    ]
+  },
+  {
+    "name": "Nyunai-suzume",
+    "nativeName": "入内雀",
+    "region": "Palace eaves",
+    "category": "屋敷",
+    "categoryEn": "Palace sparrow",
+    "summary": "A sparrow spirit that slips into the palace and sings what it saw.",
+    "summaryJa": "御所に入り込む雀の精。秘事を見て鳴く。",
+    "legends": [
+      "A sparrow repeats a forbidden name in the garden",
+      "Eaves that leak in chirps"
+    ],
+    "traits": [
+      "Court sparrow",
+      "Witness",
+      "Small spy"
+    ],
+    "motifs": [
+      "Palace",
+      "Yosuzume neighbour",
+      "Gossip as omen"
+    ],
+    "funFact": "Night sparrows warn travellers; palace sparrows leak minutes.",
+    "funFactJa": "夜雀が旅人に警告するなら、入内雀は議事録を漏らす。",
+    "searchQuery": "入内雀 雀 妖怪",
+    "creativeHooks": [
+      "A whistleblower with wings.",
+      "The minutes are a nest."
+    ],
+    "sources": [
+      "Court sparrow tales"
+    ]
+  },
+  {
+    "name": "Azuki-baba",
+    "nativeName": "小豆婆",
+    "region": "Night houses",
+    "category": "屋敷",
+    "categoryEn": "Bean-washing hag",
+    "summary": "The hag credited with the sound of washing azuki, the household face of azuki-arai.",
+    "summaryJa": "小豆を洗う音の主を婆とする。小豆洗いの家側の顔。",
+    "legends": [
+      "The counting never finishes",
+      "An old woman by a basin with no beans in the morning"
+    ],
+    "traits": [
+      "Hag",
+      "Bean-washing",
+      "Sound"
+    ],
+    "motifs": [
+      "Azuki-arai neighbour",
+      "Azuki-hakari neighbour",
+      "Domestic night"
+    ],
+    "funFact": "Same soundtrack, different casting: river child vs house hag.",
+    "funFactJa": "同じサウンドトラック、配役が違う。川の童と家の婆。",
+    "searchQuery": "小豆婆 小豆洗い",
+    "creativeHooks": [
+      "A recipe that is a haunting.",
+      "The pantry does shift work."
+    ],
+    "sources": [
+      "Azuki-washing hag variants"
+    ]
+  },
+  {
+    "name": "Konjin",
+    "nativeName": "金神",
+    "region": "Directional taboos",
+    "category": "道中",
+    "categoryEn": "Metal-direction kami",
+    "summary": "A fierce metal-direction kami of onmyodo; travel the wrong way and it curses the house.",
+    "summaryJa": "陰陽道の金気の荒神。方角を誤ると家が崇られる。",
+    "legends": [
+      "A move postponed for a calendar",
+      "Illness after a forbidden bearing"
+    ],
+    "traits": [
+      "Direction",
+      "Metal ki",
+      "Taboo travel"
+    ],
+    "motifs": [
+      "Onmyodo",
+      "Katatagae",
+      "Kami as yokai in popular lists"
+    ],
+    "funFact": "This is a timetable, not a monster to punch. Write the almanac.",
+    "funFactJa": "殴る怪物ではなく時刻表。暦を書け。",
+    "searchQuery": "金神 方違え 陰陽道",
+    "creativeHooks": [
+      "A maps app with a curse layer.",
+      "The moving company checks the almanac first."
+    ],
+    "sources": [
+      "Onmyodo directional lore"
+    ]
   }
 ]

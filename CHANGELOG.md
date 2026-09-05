@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.10.0
+
+- Catalog grew to 227 index rows and 227 bilingual cards.
+- New names include 夜雀, 火前坊, 隠れ里, 乙姫, 鳳凰, 天逆毎, 鬼童丸, 金神, 毛倡妓, 五徳猫, 塵塚怪王.
+
 ## 0.9.0
 
 - Encyclopedia and index are both 207. Every roster row now has a bilingual card.
