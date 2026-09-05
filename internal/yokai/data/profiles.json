@@ -7407,5 +7407,665 @@
     "sources": [
       "Onmyodo directional lore"
     ]
+  },
+  {
+    "name": "Akadobo",
+    "nativeName": "垢田坊",
+    "region": "Kitchens and lamp oil",
+    "category": "屋敷",
+    "categoryEn": "Grime monk",
+    "summary": "A monk-shaped oil-and-grime licker, neighbour to akaname and abura-sumashi.",
+    "summaryJa": "灯油や垢をなめる坊主。垢嘗や油すましの近所。",
+    "legends": [
+      "The lamp is empty though filled at dusk",
+      "A bald shadow in the kitchen"
+    ],
+    "traits": [
+      "Monk shape",
+      "Licks oil",
+      "Night house"
+    ],
+    "motifs": [
+      "Akaname neighbour",
+      "Stolen light",
+      "Kitchen"
+    ],
+    "funFact": "Not a new species of kappa. It is unpaid filth with a tonsure.",
+    "funFactJa": "河童の新種ではない。剃髪した、未払いの汚れである。",
+    "searchQuery": "垢田坊 垢嘗 妖怪",
+    "creativeHooks": [
+      "A cleaning rota that eats the lamp.",
+      "The kitchen has a chaplain."
+    ],
+    "sources": [
+      "Oil-and-grime monk types"
+    ]
+  },
+  {
+    "name": "Tasaburo-tanuki",
+    "nativeName": "太三郎狸",
+    "region": "Sado",
+    "category": "狐狸",
+    "categoryEn": "Tasaburo of Sado",
+    "summary": "A great Sado tanuki named beside Danzaburo; island politics in fur.",
+    "summaryJa": "佐渡の大狸。団三郎と並ぶ島の名。",
+    "legends": [
+      "Two lords of one island argue in the grass",
+      "Mine lights that pick a side"
+    ],
+    "traits": [
+      "Island tanuki",
+      "Paired with Danzaburo",
+      "Sado"
+    ],
+    "motifs": [
+      "Tanuki polity",
+      "Gold island",
+      "Not a comic only"
+    ],
+    "funFact": "Write a cabinet, not a second mascot.",
+    "funFactJa": "マスコットの複製ではなく、内閣として書く。",
+    "searchQuery": "太三郎狸 団三郎 佐渡",
+    "creativeHooks": [
+      "A coalition government in a den.",
+      "The island has two mayors."
+    ],
+    "sources": [
+      "Sado tanuki lore"
+    ]
+  },
+  {
+    "name": "Yonaki-ishi",
+    "nativeName": "夜泣石",
+    "region": "Sayo no Nakayama",
+    "category": "死霊",
+    "categoryEn": "Night-crying stone",
+    "summary": "A stone that weeps at night, said to hold a murdered pregnant woman's grudge on the Tokaido.",
+    "summaryJa": "妊婦の怨みが宿り、夜に泣く石。東海道・佐夜の中山。",
+    "legends": [
+      "Travellers hear a child in the rock",
+      "A wet stone on a dry night"
+    ],
+    "traits": [
+      "Crying stone",
+      "Roadside",
+      "Maternal grudge"
+    ],
+    "motifs": [
+      "Tokaido",
+      "Unborn",
+      "Place as witness"
+    ],
+    "funFact": "The stone is the archive. Do not turn it into a bouncing boulder.",
+    "funFactJa": "石がアーカイブ。跳ねる岩にしない。",
+    "searchQuery": "夜泣石 佐夜の中山",
+    "creativeHooks": [
+      "A milestone that files a police report.",
+      "The road remembers a pregnancy."
+    ],
+    "sources": [
+      "Sayo no Nakayama kaidan"
+    ]
+  },
+  {
+    "name": "Sessho-seki",
+    "nativeName": "殺生石",
+    "region": "Nasu moor",
+    "category": "古典",
+    "categoryEn": "Killing stone",
+    "summary": "The poisonous remnant of Tamamo-no-Mae; animals that approach the stone die.",
+    "summaryJa": "玉藻前の毒が石になった。近づく生き物が死ぬ那須野の殺生石。",
+    "legends": [
+      "Birds fall near a barren patch",
+      "A priest's prayer cracks the stone in later tellings"
+    ],
+    "traits": [
+      "Poison stone",
+      "Fox remnant",
+      "Kills on approach"
+    ],
+    "motifs": [
+      "Tamamo-no-Mae",
+      "Nasu",
+      "Landscape as corpse"
+    ],
+    "funFact": "Keep the fox history. This is not a generic cursed rock DLC.",
+    "funFactJa": "狐の履歴を残す。汎用の呪われた岩DLCにしない。",
+    "searchQuery": "殺生石 玉藻前 那須",
+    "creativeHooks": [
+      "A no-go zone with a biography.",
+      "The fence is a sutra."
+    ],
+    "sources": [
+      "Nasu Sessho-seki / Tamamo cycle"
+    ]
+  },
+  {
+    "name": "Ushi-no-koku-mairi",
+    "nativeName": "丑の刻参り",
+    "region": "Shrine at the hour of the ox",
+    "category": "死霊",
+    "categoryEn": "Ox-hour curse",
+    "summary": "A cursing rite at the hour of the ox: nails, straw doll, shrine tree. The hour is the yokai.",
+    "summaryJa": "丑の刻に釘を打つ呪い。藁人形と時刻が本体。",
+    "legends": [
+      "A nail in the sacred tree at 2 a.m.",
+      "The curser wears a crown of candles in pictures"
+    ],
+    "traits": [
+      "Hour of the ox",
+      "Nails",
+      "Shrine inversion"
+    ],
+    "motifs": [
+      "Wara-ningyo neighbour",
+      "Ushimitsu-doki",
+      "Hate as timetable"
+    ],
+    "funFact": "Write procedure, not a boss fight. The monster is the appointment.",
+    "funFactJa": "ボス戦ではなく手順。怪物は予約時刻である。",
+    "searchQuery": "丑の刻参り 呪い",
+    "creativeHooks": [
+      "A calendar invite that is a curse.",
+      "The shrine after hours."
+    ],
+    "sources": [
+      "Ushi no koku mairi folklore"
+    ]
+  },
+  {
+    "name": "Wara-ningyo",
+    "nativeName": "藁人形",
+    "region": "Curse tools",
+    "category": "死霊",
+    "categoryEn": "Straw doll",
+    "summary": "A straw effigy as the body of a curse; each nail is a beat of the grudge.",
+    "summaryJa": "呪いの依り代。釘の数が怨みの拍子。",
+    "legends": [
+      "A doll in the closet wearing a neighbour's hair",
+      "Rain does not wash the nails out"
+    ],
+    "traits": [
+      "Straw body",
+      "Hair or nail of the target",
+      "Proxy"
+    ],
+    "motifs": [
+      "Ushi-no-koku-mairi",
+      "Folk magic",
+      "Stand-in person"
+    ],
+    "funFact": "The doll is a legal document the law does not recognise.",
+    "funFactJa": "人形は、法の認めない契約書である。",
+    "searchQuery": "藁人形 呪い 妖怪",
+    "creativeHooks": [
+      "A voodoo-adjacent filing cabinet.",
+      "The craft store is an accessory."
+    ],
+    "sources": [
+      "Japanese curse-doll lore"
+    ]
+  },
+  {
+    "name": "Kyuki",
+    "nativeName": "窮奇",
+    "region": "The four perils",
+    "category": "古典",
+    "categoryEn": "Qiongqi",
+    "summary": "A winged man-eating beast among the Four Perils, imported into Japanese bestiaries.",
+    "summaryJa": "人を食う翼ある獣。四凶の一つとして日本の図鑑にも載る。",
+    "legends": [
+      "It rewards the wicked and punishes the just in some tellings",
+      "A wind that has teeth"
+    ],
+    "traits": [
+      "Wings",
+      "Eats people",
+      "Inverted justice"
+    ],
+    "motifs": [
+      "Shikyo",
+      "Chinese import",
+      "Not a tengu"
+    ],
+    "funFact": "Keep the Four Perils as a set: this one is the perverse judge.",
+    "funFactJa": "四凶は組。これはひねくれた裁判官。",
+    "searchQuery": "窮奇 四凶 妖怪",
+    "creativeHooks": [
+      "A court that eats the plaintiff.",
+      "The wind is a verdict."
+    ],
+    "sources": [
+      "Four Perils / Japanese honzo lists"
+    ]
+  },
+  {
+    "name": "Totetsu",
+    "nativeName": "饕餮",
+    "region": "The four perils",
+    "category": "古典",
+    "categoryEn": "Taotie",
+    "summary": "A beast of appetite whose face also lives on bronzes; greed given a mouth.",
+    "summaryJa": "貪欲の獣。器の文様にもなり、食欲が形を持つ。",
+    "legends": [
+      "A banquet that does not end",
+      "A bronze taotie that seems to chew the room"
+    ],
+    "traits": [
+      "Gluttony",
+      "Face on vessels",
+      "Insatiable"
+    ],
+    "motifs": [
+      "Shikyo",
+      "Bronze pattern",
+      "Appetite"
+    ],
+    "funFact": "Useful when hunger should be cosmological, not comic.",
+    "funFactJa": "飢えをコメディではなく宇宙論にしたいときに使う。",
+    "searchQuery": "饕餮 四凶",
+    "creativeHooks": [
+      "A logo that eats the brand.",
+      "The buffet is a theology."
+    ],
+    "sources": [
+      "Four Perils and taotie motif"
+    ]
+  },
+  {
+    "name": "Konton",
+    "nativeName": "渾沌",
+    "region": "The four perils",
+    "category": "古典",
+    "categoryEn": "Hundun",
+    "summary": "Faceless Hundun of the Four Perils; undivided chaos that suffers when given holes for sense.",
+    "summaryJa": "顔のない渾沌。分けようとすると壊れる、四凶の無顔。",
+    "legends": [
+      "Friends drill eyes into a generous blob and it dies",
+      "A fog that refuses a name"
+    ],
+    "traits": [
+      "No face",
+      "Undivided",
+      "Killed by classification"
+    ],
+    "motifs": [
+      "Shikyo",
+      "Zhuàngzǐ overlay",
+      "Chaos"
+    ],
+    "funFact": "The tragedy is taxonomy. Do not give it a cute face.",
+    "funFactJa": "悲劇は分類。かわいい顔を付けない。",
+    "searchQuery": "渾沌 四凶",
+    "creativeHooks": [
+      "A dataset that dies when cleaned.",
+      "The unnamed folder is a god."
+    ],
+    "sources": [
+      "Four Perils / Hundun"
+    ]
+  },
+  {
+    "name": "Tokotsu",
+    "nativeName": "檮杌",
+    "region": "The four perils",
+    "category": "古典",
+    "categoryEn": "Taowu",
+    "summary": "A stubborn, violent beast of the Four Perils that will not take instruction.",
+    "summaryJa": "教えを受けつけない荒ぶる獣。四凶の頑固。",
+    "legends": [
+      "A lesson ends in wreckage",
+      "History books that refuse an editor"
+    ],
+    "traits": [
+      "Obstinate",
+      "Fierce",
+      "Unteachable"
+    ],
+    "motifs": [
+      "Shikyo",
+      "Chronicle as monster",
+      "Will"
+    ],
+    "funFact": "Sometimes identified with a reckless chronicler. The yokai is bad memory with claws.",
+    "funFactJa": "無謀な史官と重ねる話もある。爪のついた悪い記憶。",
+    "searchQuery": "檮杌 四凶",
+    "creativeHooks": [
+      "A wiki that bites editors.",
+      "The stubbornness is quadruped."
+    ],
+    "sources": [
+      "Four Perils / Taowu"
+    ]
+  },
+  {
+    "name": "Ryu",
+    "nativeName": "龍",
+    "region": "Clouds, rain, deep water",
+    "category": "古典",
+    "categoryEn": "Dragon",
+    "summary": "The rain-and-water dragon, above mizuchi in dignity; omen and engine of weather.",
+    "summaryJa": "雨と水の聖獣。蛟より位が高く、気象の機関でもある。",
+    "legends": [
+      "A cloud-ladder over a drought",
+      "A pond that is deeper than its banks"
+    ],
+    "traits": [
+      "Serpentine",
+      "Commands rain",
+      "Auspicious or terrible"
+    ],
+    "motifs": [
+      "Mizuchi neighbour",
+      "Ryujin neighbour",
+      "Chinese-Japanese dragon"
+    ],
+    "funFact": "Not a Western hoard-dragon. Write hydrology and rank.",
+    "funFactJa": "西洋の宝竜にしない。水文学と位階を書く。",
+    "searchQuery": "龍 竜 妖怪",
+    "creativeHooks": [
+      "A weather bureau with scales.",
+      "The reservoir is a shrine."
+    ],
+    "sources": [
+      "Dragon lore in Japan"
+    ]
+  },
+  {
+    "name": "Ryujin",
+    "nativeName": "竜神",
+    "region": "Sea and lake shrines",
+    "category": "海",
+    "categoryEn": "Dragon kami",
+    "summary": "Dragon as water kami, sometimes father of Otohime, receiver of tide jewels.",
+    "summaryJa": "水の神としての龍。乙姫の父、潮を呼ぶ玉の主として語られる。",
+    "legends": [
+      "A shrine that faces only the tide",
+      "Jewels that pull and push the sea"
+    ],
+    "traits": [
+      "Kami rank",
+      "Tide",
+      "Palace under water"
+    ],
+    "motifs": [
+      "Otohime",
+      "Ryugu",
+      "Ryu as person"
+    ],
+    "funFact": "Ryu is the species-image; Ryujin is the office.",
+    "funFactJa": "龍が種のイメージなら、竜神は役職。",
+    "searchQuery": "竜神 竜宮 乙姫",
+    "creativeHooks": [
+      "A harbour master with a current for a stamp.",
+      "The tide table is liturgy."
+    ],
+    "sources": [
+      "Ryujin / Ryugu cycle"
+    ]
+  },
+  {
+    "name": "Hyakki-yagyo",
+    "nativeName": "百鬼夜行",
+    "region": "Heian nights",
+    "category": "道中",
+    "categoryEn": "Night parade of one hundred demons",
+    "summary": "The night procession of yokai through the capital; yield or carry a charm.",
+    "summaryJa": "京を妖怪の行列が通る夜。道を譲るか、護符が要る。",
+    "legends": [
+      "A street empties before a sound of pots and feet",
+      "Looking out is forbidden"
+    ],
+    "traits": [
+      "Parade",
+      "Capital night",
+      "Many at once"
+    ],
+    "motifs": [
+      "Yagyo-san neighbour",
+      "Picture scrolls",
+      "Crowd as monster"
+    ],
+    "funFact": "This is logistics. The scare is traffic of the other world.",
+    "funFactJa": "これは物流。怖さは他界の交通である。",
+    "searchQuery": "百鬼夜行 夜行",
+    "creativeHooks": [
+      "A detour sign for the living.",
+      "The parade permit is a sutra."
+    ],
+    "sources": [
+      "Hyakki yagyo scrolls and Heian lore"
+    ]
+  },
+  {
+    "name": "Omagatoki",
+    "nativeName": "逢魔時",
+    "region": "Twilight",
+    "category": "道中",
+    "categoryEn": "Hour of meeting demons",
+    "summary": "Dusk as yokai: the seam of day and night when you are likely to meet them.",
+    "summaryJa": "昼と夜の境。魔に逢いやすい時刻そのものが怪異。",
+    "legends": [
+      "Faces are unreadable for a few minutes",
+      "Birds stop and something else starts"
+    ],
+    "traits": [
+      "Twilight",
+      "Threshold hour",
+      "No body required"
+    ],
+    "motifs": [
+      "Ushimitsu-doki neighbour",
+      "Travel",
+      "Time as place"
+    ],
+    "funFact": "Do not cast an actor. The clock is the encounter.",
+    "funFactJa": "役者を置かない。時計が遭遇である。",
+    "searchQuery": "逢魔時 黄昏 妖怪",
+    "creativeHooks": [
+      "A blue hour that files incident reports.",
+      "Sunset is a checkpoint."
+    ],
+    "sources": [
+      "Twilight folklore"
+    ]
+  },
+  {
+    "name": "Ushimitsu-doki",
+    "nativeName": "丑三つ時",
+    "region": "Deep night",
+    "category": "道中",
+    "categoryEn": "Hour of the ox",
+    "summary": "The deepest night watch, stage for curses and the ox-hour visit.",
+    "summaryJa": "最も魔が近づく刻。丑の刻参りの舞台。",
+    "legends": [
+      "Dogs do not bark, then bark at nothing",
+      "A shrine is busier than noon"
+    ],
+    "traits": [
+      "Late night",
+      "Ox hour",
+      "Peak of the other"
+    ],
+    "motifs": [
+      "Ushi-no-koku-mairi",
+      "Omagatoki",
+      "Timetable horror"
+    ],
+    "funFact": "Omagatoki is dusk; ushimitsu is the basement of the clock.",
+    "funFactJa": "逢魔時が黄昏なら、丑三つは時計の地下。",
+    "searchQuery": "丑三つ時 妖怪",
+    "creativeHooks": [
+      "A server maintenance window for ghosts.",
+      "2 a.m. has a name."
+    ],
+    "sources": [
+      "Hour-of-the-ox folklore"
+    ]
+  },
+  {
+    "name": "Hitobashira",
+    "nativeName": "人柱",
+    "region": "Bridges, castles, levees",
+    "category": "死霊",
+    "categoryEn": "Human pillar",
+    "summary": "A person buried to finish a work of civil engineering; the grudge stays in the structure.",
+    "summaryJa": "橋や城、堤のために人を埋める。怨みが構造に残る。",
+    "legends": [
+      "A bridge that stands only after a name is missing",
+      "Knocking from inside the pier"
+    ],
+    "traits": [
+      "Foundation sacrifice",
+      "Named victim",
+      "Public work"
+    ],
+    "motifs": [
+      "Architecture",
+      "State violence",
+      "Ghost in the girder"
+    ],
+    "funFact": "The yokai is infrastructure. Write the budget.",
+    "funFactJa": "妖怪はインフラ。予算を書け。",
+    "searchQuery": "人柱 妖怪 伝承",
+    "creativeHooks": [
+      "A ribbon-cutting that needs a grave.",
+      "The earthquake retrofit is a memorial."
+    ],
+    "sources": [
+      "Hitobashira foundation-sacrifice lore"
+    ]
+  },
+  {
+    "name": "Bake-icho",
+    "nativeName": "化け銀杏",
+    "region": "Old shrine ginkgo",
+    "category": "山系",
+    "categoryEn": "Yokai ginkgo",
+    "summary": "An aged ginkgo that breathes fire or takes human form, a tree-tsukumogami of temples.",
+    "summaryJa": "年経た銀杏が火を吹き、人に化ける。社寺の木の付喪神。",
+    "legends": [
+      "Gold leaves in the wrong season",
+      "A fire with no smoke from the trunk"
+    ],
+    "traits": [
+      "Old ginkgo",
+      "Fire",
+      "Shapeshift"
+    ],
+    "motifs": [
+      "Kodama neighbour",
+      "Temple tree",
+      "Longevity as threat"
+    ],
+    "funFact": "Kodama is the soul; bake-icho is the resume of a particular species.",
+    "funFactJa": "木霊が魂なら、化け銀杏は樹種の履歴書。",
+    "searchQuery": "化け銀杏 銀杏 妖怪",
+    "creativeHooks": [
+      "A heritage tree with a flamethrower.",
+      "Autumn is a warning."
+    ],
+    "sources": [
+      "Temple ginkgo yokai tales"
+    ]
+  },
+  {
+    "name": "Kimon",
+    "nativeName": "鬼門",
+    "region": "Northeast",
+    "category": "道中",
+    "categoryEn": "Demon gate",
+    "summary": "The northeast as the demons' door in house-geomancy; a direction that behaves like a yokai.",
+    "summaryJa": "鬼の出入りする北東。家相と旅行の禁忌で、方角が妖怪のように振る舞う。",
+    "legends": [
+      "A kitchen placed on the kimon sickens the house",
+      "Moving day waits for a better bearing"
+    ],
+    "traits": [
+      "Northeast",
+      "House plan",
+      "Taboo"
+    ],
+    "motifs": [
+      "Konjin neighbour",
+      "Onmyodo",
+      "Architecture"
+    ],
+    "funFact": "Same family as konjin: write the compass, not a mascot oni in the corner.",
+    "funFactJa": "金神と同じ家系。隅のマスコット鬼ではなく羅針盤を書く。",
+    "searchQuery": "鬼門 家相 陰陽道",
+    "creativeHooks": [
+      "An interior designer who is an exorcist.",
+      "The floor plan has a forbidden sector."
+    ],
+    "sources": [
+      "Kimon / onmyodo house lore"
+    ]
+  },
+  {
+    "name": "Zenki",
+    "nativeName": "前鬼",
+    "region": "Omine shugendo",
+    "category": "鬼",
+    "categoryEn": "Front oni",
+    "summary": "The red oni attendant who goes before En no Gyoja on the Omine peaks.",
+    "summaryJa": "役行者の先を行く赤鬼。大峰の随神。",
+    "legends": [
+      "A mountain path is cleared by something horned and loyal",
+      "The front of the pilgrimage is not human"
+    ],
+    "traits": [
+      "Red oni",
+      "Guide",
+      "Shugendo"
+    ],
+    "motifs": [
+      "Goki pair",
+      "En no Gyoja",
+      "Oni as staff"
+    ],
+    "funFact": "Always with Goki. Splitting them is splitting a gate.",
+    "funFactJa": "後鬼と組。ばらすのは門を半分にすること。",
+    "searchQuery": "前鬼 後鬼 役行者",
+    "creativeHooks": [
+      "A trail crew with horns.",
+      "The vanguard is theology."
+    ],
+    "sources": [
+      "Omine / En no Gyoja attendants"
+    ]
+  },
+  {
+    "name": "Goki",
+    "nativeName": "後鬼",
+    "region": "Omine shugendo",
+    "category": "鬼",
+    "categoryEn": "Rear oni",
+    "summary": "The blue oni attendant who guards the rear of En no Gyoja; pair of Zenki.",
+    "summaryJa": "役行者の後ろを守る青鬼。前鬼と対の随神。",
+    "legends": [
+      "Nothing approaches from behind on the peak",
+      "The rear of the line has a name"
+    ],
+    "traits": [
+      "Blue oni",
+      "Rear guard",
+      "Shugendo"
+    ],
+    "motifs": [
+      "Zenki pair",
+      "En no Gyoja",
+      "Oni as staff"
+    ],
+    "funFact": "Write the couple as logistics: front and back of a holy march.",
+    "funFactJa": "聖なる行進の前方と後方という物流として書く。",
+    "searchQuery": "後鬼 前鬼 役行者",
+    "creativeHooks": [
+      "A rearguard with a family register.",
+      "The pilgrimage has a closing door."
+    ],
+    "sources": [
+      "Omine / En no Gyoja attendants"
+    ]
   }
 ]

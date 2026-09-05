@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.11.0
+
+- Catalog grew to 247 index rows and 247 bilingual cards.
+- New names include 夜泣石, 殺生石, 丑の刻参り, 藁人形, 百鬼夜行, 逢魔時, 人柱, 龍, 竜神, 窮奇, 前鬼, 後鬼.
+
 ## 0.10.0
 
 - Catalog grew to 227 index rows and 227 bilingual cards.

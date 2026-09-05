@@ -3703,5 +3703,325 @@
     ],
     "tone": "solemn",
     "famousRank": 3
+  },
+  {
+    "name": "Akadobo",
+    "nativeName": "垢田坊",
+    "category": "屋敷",
+    "region": "台所・灯油",
+    "blurbJa": "灯油や垢をなめる坊主姿。垢嘗や油すましの近所の盗人。",
+    "tags": [
+      "屋敷",
+      "油",
+      "坊主",
+      "夜",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Tasaburo-tanuki",
+    "nativeName": "太三郎狸",
+    "category": "狐狸",
+    "region": "佐渡",
+    "blurbJa": "佐渡の化け狸。団三郎と並ぶ島の大狸。",
+    "tags": [
+      "狸",
+      "佐渡",
+      "変化",
+      "古典",
+      "義"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Yonaki-ishi",
+    "nativeName": "夜泣石",
+    "category": "死霊",
+    "region": "佐夜の中山",
+    "blurbJa": "妊婦の怨みが宿る石。夜に泣く東海道の怪。",
+    "tags": [
+      "石",
+      "怨霊",
+      "道中",
+      "怖い",
+      "古典"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Sessho-seki",
+    "nativeName": "殺生石",
+    "category": "古典",
+    "region": "那須野",
+    "blurbJa": "玉藻前の残骸が毒の石になった。近づく生き物が死ぬ。",
+    "tags": [
+      "石",
+      "狐",
+      "毒",
+      "古典",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Ushi-no-koku-mairi",
+    "nativeName": "丑の刻参り",
+    "category": "死霊",
+    "region": "神社の丑の刻",
+    "blurbJa": "丑の刻に釘を打つ呪い。藁人形と丑の刻が本体。",
+    "tags": [
+      "呪い",
+      "神社",
+      "夜",
+      "怖い",
+      "藁"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Wara-ningyo",
+    "nativeName": "藁人形",
+    "category": "死霊",
+    "region": "呪いの道具",
+    "blurbJa": "呪いの依り代。打たれた釘の数が怨みの拍子。",
+    "tags": [
+      "呪い",
+      "人形",
+      "怖い",
+      "夜",
+      "藁"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Kyuki",
+    "nativeName": "窮奇",
+    "category": "古典",
+    "region": "四凶",
+    "blurbJa": "人を食う翼ある獣。中国の四凶の一つとして日本の図鑑にも入る。",
+    "tags": [
+      "古典",
+      "獣",
+      "翼",
+      "怖い",
+      "四凶"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Totetsu",
+    "nativeName": "饕餮",
+    "category": "古典",
+    "region": "四凶",
+    "blurbJa": "貪欲の獣。器の文様にもなり、食欲そのものが形を持つ。",
+    "tags": [
+      "古典",
+      "貪欲",
+      "獣",
+      "怖い",
+      "四凶"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Konton",
+    "nativeName": "渾沌",
+    "category": "古典",
+    "region": "四凶",
+    "blurbJa": "顔のない渾沌。善悪を分けず、分けようとする者を困らせる。",
+    "tags": [
+      "古典",
+      "無顔",
+      "混沌",
+      "四凶",
+      "神秘"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Tokotsu",
+    "nativeName": "檮杌",
+    "category": "古典",
+    "region": "四凶",
+    "blurbJa": "頑固で荒ぶる獣。教えを受けつけない四凶の一つ。",
+    "tags": [
+      "古典",
+      "獣",
+      "頑固",
+      "四凶",
+      "怖い"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Ryu",
+    "nativeName": "龍",
+    "category": "古典",
+    "region": "雲雨・水域",
+    "blurbJa": "雨と水を司る聖獣。蛟や竜神の上位のイメージ。",
+    "tags": [
+      "龍",
+      "雨",
+      "古典",
+      "入門",
+      "水"
+    ],
+    "tone": "solemn",
+    "famousRank": 1
+  },
+  {
+    "name": "Ryujin",
+    "nativeName": "竜神",
+    "category": "海",
+    "region": "海・湖の社",
+    "blurbJa": "水の神としての龍。乙姫の父として語られることもある。",
+    "tags": [
+      "龍",
+      "海",
+      "神",
+      "古典",
+      "護り"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Hyakki-yagyo",
+    "nativeName": "百鬼夜行",
+    "category": "道中",
+    "region": "京の夜",
+    "blurbJa": "妖怪の夜行列。出会ったら道を譲るか、護符が要る。",
+    "tags": [
+      "夜道",
+      "行列",
+      "古典",
+      "入門",
+      "京"
+    ],
+    "tone": "mysterious",
+    "famousRank": 1
+  },
+  {
+    "name": "Omagatoki",
+    "nativeName": "逢魔時",
+    "category": "道中",
+    "region": "黄昏",
+    "blurbJa": "昼と夜の境。魔に逢いやすい時刻そのものが怪異。",
+    "tags": [
+      "黄昏",
+      "時刻",
+      "道中",
+      "入門",
+      "怖い"
+    ],
+    "tone": "mysterious",
+    "famousRank": 2
+  },
+  {
+    "name": "Ushimitsu-doki",
+    "nativeName": "丑三つ時",
+    "category": "道中",
+    "region": "深夜",
+    "blurbJa": "最も魔が近づく刻。丑の刻参りの舞台装置。",
+    "tags": [
+      "夜",
+      "時刻",
+      "怖い",
+      "古典",
+      "呪い"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Hitobashira",
+    "nativeName": "人柱",
+    "category": "死霊",
+    "region": "橋・城・堤",
+    "blurbJa": "土木の完成のために人を埋める。怨みが構造に残る。",
+    "tags": [
+      "呪い",
+      "橋",
+      "怖い",
+      "古典",
+      "死霊"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Bake-icho",
+    "nativeName": "化け銀杏",
+    "category": "山系",
+    "region": "老木・社",
+    "blurbJa": "年経た銀杏が火を吹き、または人に化ける。",
+    "tags": [
+      "木",
+      "火",
+      "古典",
+      "社",
+      "変化"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Kimon",
+    "nativeName": "鬼門",
+    "category": "道中",
+    "region": "北東",
+    "blurbJa": "鬼の出入りする方角。家相と旅行の禁忌。",
+    "tags": [
+      "方角",
+      "鬼",
+      "家",
+      "古典",
+      "祟り"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Zenki",
+    "nativeName": "前鬼",
+    "category": "鬼",
+    "region": "大峰・修験",
+    "blurbJa": "役行者の鬼の随神。前を行く赤鬼。",
+    "tags": [
+      "鬼",
+      "修験",
+      "山",
+      "護り",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Goki",
+    "nativeName": "後鬼",
+    "category": "鬼",
+    "region": "大峰・修験",
+    "blurbJa": "役行者の鬼の随神。後ろを守る青鬼。前鬼と対。",
+    "tags": [
+      "鬼",
+      "修験",
+      "山",
+      "護り",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
   }
 ]
