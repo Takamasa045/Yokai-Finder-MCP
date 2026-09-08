@@ -9387,5 +9387,665 @@
     "sources": [
       "Bamboo-spirit lore"
     ]
+  },
+  {
+    "name": "Watanabe-no-Tsuna",
+    "nativeName": "渡辺綱",
+    "region": "Rajo-mon and Ichijo Modoribashi",
+    "category": "鬼",
+    "categoryEn": "Watanabe no Tsuna",
+    "summary": "One of Yorimitsu's four kings; he cut off Ibaraki-doji's arm. A human name on the oni index.",
+    "summaryJa": "頼光四天王。茨木童子の腕を斬った武者。",
+    "legends": [
+      "An arm kept in a box that wants to go home",
+      "A gate that is a recruitment office for demons"
+    ],
+    "traits": [
+      "Swordsman",
+      "Ibaraki's arm",
+      "Capital gates"
+    ],
+    "motifs": [
+      "Ibaraki-doji",
+      "Yorimitsu",
+      "Heian warriors"
+    ],
+    "funFact": "The yokai is the payroll of the raid.",
+    "funFactJa": "妖怪は討伐の給与台帳。",
+    "searchQuery": "渡辺綱 茨木童子 一条戻橋",
+    "creativeHooks": [
+      "A trophy arm with HR issues.",
+      "The gate keeps a lost-and-found."
+    ],
+    "sources": [
+      "Tsuna / Ibaraki cycle"
+    ]
+  },
+  {
+    "name": "Yorimitsu",
+    "nativeName": "源頼光",
+    "region": "Oe-yama",
+    "category": "鬼",
+    "categoryEn": "Minamoto no Yorimitsu",
+    "summary": "The Minamoto commander who took Shuten-doji's head; management of the oni war.",
+    "summaryJa": "酒呑童子を討った源氏の将。鬼退治譚の指揮官。",
+    "legends": [
+      "Poisoned sake on a mountain that is a palace",
+      "A head that still bites the box"
+    ],
+    "traits": [
+      "Commander",
+      "Oe-yama raid",
+      "Four kings"
+    ],
+    "motifs": [
+      "Shuten-doji",
+      "Tsuna",
+      "Kidomaru"
+    ],
+    "funFact": "He is operations. The oni are the other company.",
+    "funFactJa": "彼は現場。鬼は相手会社。",
+    "searchQuery": "源頼光 酒呑童子 大江山",
+    "creativeHooks": [
+      "A merger by decapitation.",
+      "The org chart has a mountain."
+    ],
+    "sources": [
+      "Yorimitsu / Shuten-doji"
+    ]
+  },
+  {
+    "name": "Urashima-taro",
+    "nativeName": "浦島太郎",
+    "region": "Ryugu",
+    "category": "海",
+    "categoryEn": "Urashima Taro",
+    "summary": "The fisherman who saved a turtle and aged on opening the forbidden box.",
+    "summaryJa": "亀を助け竜宮へ行く漁夫。玉手箱で老いる。",
+    "legends": [
+      "Three years below that are centuries above",
+      "A box that is a clock"
+    ],
+    "traits": [
+      "Hospitality",
+      "Time gift",
+      "Sea palace"
+    ],
+    "motifs": [
+      "Otohime",
+      "Ryujin",
+      "Kakurezato at sea"
+    ],
+    "funFact": "Otohime is not the villain. The souvenir is.",
+    "funFactJa": "乙姫は悪役ではない。土産が悪役。",
+    "searchQuery": "浦島太郎 竜宮 乙姫",
+    "creativeHooks": [
+      "A resort whose checkout is gerontology.",
+      "The gift shop sells duration."
+    ],
+    "sources": [
+      "Urashima / Ryugu"
+    ]
+  },
+  {
+    "name": "Kaguya-hime",
+    "nativeName": "かぐや姫",
+    "region": "Bamboo and the moon",
+    "category": "古典",
+    "categoryEn": "Kaguya-hime",
+    "summary": "The princess born of bamboo who returns to the moon after impossible suitors.",
+    "summaryJa": "竹から生まれ月へ帰る姫。求婚難題と別れ。",
+    "legends": [
+      "Five impossible treasures",
+      "A robe of feathers that erases memory"
+    ],
+    "traits": [
+      "Moon",
+      "Bamboo birth",
+      "Refusal"
+    ],
+    "motifs": [
+      "Take-no-sei neighbour",
+      "Court",
+      "Departure"
+    ],
+    "funFact": "Keep the leaving. Do not make her a mascot who stays.",
+    "funFactJa": "去りを残す。居残るマスコットにしない。",
+    "searchQuery": "かぐや姫 竹取 月",
+    "creativeHooks": [
+      "A visa that expires at full moon.",
+      "The bamboo has a citizenship."
+    ],
+    "sources": [
+      "Taketori Monogatari"
+    ]
+  },
+  {
+    "name": "Momotaro",
+    "nativeName": "桃太郎",
+    "region": "Kibi and Onigashima",
+    "category": "鬼",
+    "categoryEn": "Momotaro",
+    "summary": "The peach-born child who raids Onigashima with dog, monkey, and pheasant.",
+    "summaryJa": "桃から生まれ鬼ヶ島へ征く童。犬猿雉を家来にする。",
+    "legends": [
+      "A peach on the river as a personnel file",
+      "Kibi dango as payroll"
+    ],
+    "traits": [
+      "Peach birth",
+      "Three retainers",
+      "Island raid"
+    ],
+    "motifs": [
+      "Oni",
+      "Folktale",
+      "Recruitment"
+    ],
+    "funFact": "The oni are a polity. The dango is the contract.",
+    "funFactJa": "鬼は政体。団子は契約。",
+    "searchQuery": "桃太郎 鬼ヶ島",
+    "creativeHooks": [
+      "A startup with three species.",
+      "The peach is a founding myth."
+    ],
+    "sources": [
+      "Momotaro folktale"
+    ]
+  },
+  {
+    "name": "Issun-boshi",
+    "nativeName": "一寸法師",
+    "region": "Capital and a needle sword",
+    "category": "古典",
+    "categoryEn": "Issun-boshi",
+    "summary": "The one-inch warrior who uses a needle as a sword and beats an oni for luck.",
+    "summaryJa": "一寸の武士。針を刀にし、鬼を打ち福を得る。",
+    "legends": [
+      "A bowl for a boat",
+      "A mallet that resizes the labour force"
+    ],
+    "traits": [
+      "Tiny",
+      "Needle",
+      "Oni and mallet"
+    ],
+    "motifs": [
+      "Scale",
+      "Capital",
+      "Luck"
+    ],
+    "funFact": "The joke is scale. Keep the HR of being small.",
+    "funFactJa": "冗談は尺度。小さいことの人事を残す。",
+    "searchQuery": "一寸法師 針",
+    "creativeHooks": [
+      "A contractor who fits in a pocket.",
+      "The needle is licensed."
+    ],
+    "sources": [
+      "Issun-boshi folktale"
+    ]
+  },
+  {
+    "name": "Tsuru-nyobo",
+    "nativeName": "鶴女房",
+    "region": "Snow-country repayment",
+    "category": "変化",
+    "categoryEn": "Crane wife",
+    "summary": "The rescued crane who becomes a wife; the loom must not be watched.",
+    "summaryJa": "助けた鶴が妻になる。機を見るなという禁忌。",
+    "legends": [
+      "Cloth woven from feathers",
+      "A look that ends the marriage"
+    ],
+    "traits": [
+      "Crane",
+      "Taboo of seeing",
+      "Repayment"
+    ],
+    "motifs": [
+      "On-gaeshi",
+      "Labour hidden",
+      "Snow"
+    ],
+    "funFact": "The monster is the audit of kindness.",
+    "funFactJa": "怪物は親切の監査。",
+    "searchQuery": "鶴女房 鶴の恩返し",
+    "creativeHooks": [
+      "A textile mill with a privacy policy.",
+      "The loom is a non-disclosure."
+    ],
+    "sources": [
+      "Crane-wife / on-gaeshi"
+    ]
+  },
+  {
+    "name": "Anchin",
+    "nativeName": "安珍",
+    "region": "Dojoji",
+    "category": "古典",
+    "categoryEn": "Anchin",
+    "summary": "The monk Kiyohime chased into a bell; the counterpart who burns inside the bronze.",
+    "summaryJa": "清姫に追われ鐘に隠れた僧。鐘の中で焼ける相手役。",
+    "legends": [
+      "A bell that is an oven",
+      "A vow broken on the road to Kumano"
+    ],
+    "traits": [
+      "Monk",
+      "Bell",
+      "Flight"
+    ],
+    "motifs": [
+      "Kiyohime",
+      "Dojoji",
+      "Desire"
+    ],
+    "funFact": "Do not exonerate him into a saint. He is the other half of the fire.",
+    "funFactJa": "聖人に免責しない。火の半分である。",
+    "searchQuery": "安珍 清姫 道成寺",
+    "creativeHooks": [
+      "A hotel bell that is a kiln.",
+      "The pilgrimage is a breach of contract."
+    ],
+    "sources": [
+      "Dojoji / Anchin and Kiyohime"
+    ]
+  },
+  {
+    "name": "Shikigami",
+    "nativeName": "式神",
+    "region": "Onmyodo practice",
+    "category": "憑きもの",
+    "categoryEn": "Shikigami",
+    "summary": "Spirits bound by onmyoji, often paper or child-shaped labour.",
+    "summaryJa": "陰陽師が使う式。紙や童子の形で使役される。",
+    "legends": [
+      "A paper doll that runs errands",
+      "A child who is a contract"
+    ],
+    "traits": [
+      "Bound spirit",
+      "Paper or child",
+      "Errand"
+    ],
+    "motifs": [
+      "Seimei",
+      "Onmyodo",
+      "Labour"
+    ],
+    "funFact": "Seimei is HR. Shikigami is the contractor.",
+    "funFactJa": "晴明が人事なら、式神は業務委託。",
+    "searchQuery": "式神 陰陽師",
+    "creativeHooks": [
+      "A gig worker made of paper.",
+      "The pentagram is a timesheet."
+    ],
+    "sources": [
+      "Shikigami / onmyodo"
+    ]
+  },
+  {
+    "name": "Hidesato",
+    "nativeName": "藤原秀郷",
+    "region": "Seta, Omi",
+    "category": "古典",
+    "categoryEn": "Fujiwara no Hidesato",
+    "summary": "Tawara Toda, the archer who shot the Seta centipede; the human name in omukade lore.",
+    "summaryJa": "俵藤太。瀬田の百足を射た武者。",
+    "legends": [
+      "A lake that asks for a mercenary",
+      "Rice bales as a thank-you that become a name"
+    ],
+    "traits": [
+      "Archer",
+      "Centipede",
+      "Lake"
+    ],
+    "motifs": [
+      "Omukade",
+      "Dragon of the lake",
+      "Omi"
+    ],
+    "funFact": "Omukade is the pest. Hidesato is pest control with a title.",
+    "funFactJa": "大百足が害虫なら、秀郷は肩書つきの害虫駆除。",
+    "searchQuery": "藤原秀郷 俵藤太 瀬田の百足",
+    "creativeHooks": [
+      "A pest-control contract with a dragon client.",
+      "The bale is a brand."
+    ],
+    "sources": [
+      "Hidesato / Seta mukade"
+    ]
+  },
+  {
+    "name": "Suzuka-gozen",
+    "nativeName": "鈴鹿御前",
+    "region": "Suzuka mountains",
+    "category": "山系",
+    "categoryEn": "Suzuka-gozen",
+    "summary": "A woman tengu of Suzuka, thief and lover, sometimes tied to Kintaro's cycle.",
+    "summaryJa": "鈴鹿の女天狗。盗賊であり愛であり、金時と結ばれる話もある。",
+    "legends": [
+      "A mountain that collects tolls in magic",
+      "A marriage that is also a raid"
+    ],
+    "traits": [
+      "Female tengu",
+      "Bandit",
+      "Suzuka"
+    ],
+    "motifs": [
+      "Tengu",
+      "Kintaro",
+      "Border mountain"
+    ],
+    "funFact": "Not a mascot wife. Keep the toll and the theft.",
+    "funFactJa": "マスコット妻にしない。関所と盗みを残す。",
+    "searchQuery": "鈴鹿御前 女天狗",
+    "creativeHooks": [
+      "A checkpoint with a romance plot.",
+      "The mountain takes a cut."
+    ],
+    "sources": [
+      "Suzuka-gozen lore"
+    ]
+  },
+  {
+    "name": "Jiraiya",
+    "nativeName": "児雷也",
+    "region": "Toad magic tales",
+    "category": "変化",
+    "categoryEn": "Jiraiya",
+    "summary": "The toad-magic ninja of later yomihon and kabuki, now a stock yokai-adjacent hero.",
+    "summaryJa": "蝦蟇の妖術を使う忍者譚の主人公。読本・歌舞伎で定着。",
+    "legends": [
+      "A toad the size of a hill",
+      "A rivalry written as species"
+    ],
+    "traits": [
+      "Toad art",
+      "Ninja romance",
+      "Print culture"
+    ],
+    "motifs": [
+      "Tsunade",
+      "Toad",
+      "Edo fiction"
+    ],
+    "funFact": "This is licensed fanfic that became folklore. Say so.",
+    "funFactJa": "版権つきの二次が伝承になった。そう書け。",
+    "searchQuery": "児雷也 自来也 蝦蟇",
+    "creativeHooks": [
+      "A franchise with warts.",
+      "The toad is the studio."
+    ],
+    "sources": [
+      "Jiraiya yomihon / kabuki"
+    ]
+  },
+  {
+    "name": "Tsunade",
+    "nativeName": "綱手",
+    "region": "Slug magic tales",
+    "category": "変化",
+    "categoryEn": "Tsunade",
+    "summary": "Jiraiya's counterpart; a woman adept of slug arts in the same print cycle.",
+    "summaryJa": "児雷也の相手方。蛞蝓の術を使う女の術者。",
+    "legends": [
+      "A slug that answers a toad",
+      "A triangle of toad, slug, and snake in later versions"
+    ],
+    "traits": [
+      "Slug art",
+      "Female adept",
+      "Pair"
+    ],
+    "motifs": [
+      "Jiraiya",
+      "Print cycle",
+      "Not only a name-borrow"
+    ],
+    "funFact": "Keep her as operator, not accessory.",
+    "funFactJa": "アクセサリーにせず、術者として残す。",
+    "searchQuery": "綱手 児雷也 蛞蝓",
+    "creativeHooks": [
+      "A rival studio with mucus.",
+      "The pairing is a tech stack."
+    ],
+    "sources": [
+      "Tsunade in Jiraiya cycle"
+    ]
+  },
+  {
+    "name": "Omononushi",
+    "nativeName": "大物主",
+    "region": "Miwa",
+    "category": "古典",
+    "categoryEn": "Omononushi",
+    "summary": "The Miwa kami who visits at night as a snake husband.",
+    "summaryJa": "三輪の神。夜だけ通う蛇神の婿入り。",
+    "legends": [
+      "A thread on a lover that leads to a shrine",
+      "A snake in the morning that was a man at night"
+    ],
+    "traits": [
+      "Night husband",
+      "Snake",
+      "Miwa"
+    ],
+    "motifs": [
+      "Shirohebi neighbour",
+      "Marriage",
+      "Yamato"
+    ],
+    "funFact": "The shrine is the in-law.",
+    "funFactJa": "社が姻族。",
+    "searchQuery": "大物主 三輪 蛇",
+    "creativeHooks": [
+      "A marriage that is a commute.",
+      "The thread is a GPS."
+    ],
+    "sources": [
+      "Miwa / Omononushi"
+    ]
+  },
+  {
+    "name": "Susanoo",
+    "nativeName": "素戔嗚",
+    "region": "Izumo and Takamagahara",
+    "category": "鬼",
+    "categoryEn": "Susanoo",
+    "summary": "The wild kami who slays Yamata-no-Orochi and is named as Amanozako's parent.",
+    "summaryJa": "荒ぶる神。八岐大蛇を斬り、天逆毎の親ともされる。",
+    "legends": [
+      "A sword from a tail",
+      "A weeping that is also a storm"
+    ],
+    "traits": [
+      "Storm",
+      "Orochi",
+      "Exile and return"
+    ],
+    "motifs": [
+      "Yamata-no-Orochi",
+      "Amanozako",
+      "Izumo"
+    ],
+    "funFact": "Not a generic oni skin. Keep the grief and the hydrology.",
+    "funFactJa": "汎用鬼スキンにしない。悲しみと治水を残す。",
+    "searchQuery": "素戔嗚 スサノオ 八岐大蛇",
+    "creativeHooks": [
+      "A public-works project with a sword.",
+      "The storm has a family court."
+    ],
+    "sources": [
+      "Susanoo / Izumo cycle"
+    ]
+  },
+  {
+    "name": "Izanami",
+    "nativeName": "伊邪那美",
+    "region": "Yomi",
+    "category": "死霊",
+    "categoryEn": "Izanami",
+    "summary": "The goddess of Yomi; seen when she must not be, she becomes the land of the dead.",
+    "summaryJa": "黄泉の女神。見てはならぬを見られ、死者の国の主になる。",
+    "legends": [
+      "A comb dropped in the dark",
+      "A chase that founds a boundary"
+    ],
+    "traits": [
+      "Yomi",
+      "Taboo of seeing",
+      "Rot and birth"
+    ],
+    "motifs": [
+      "Yomi",
+      "Kagutsuchi",
+      "Boundary"
+    ],
+    "funFact": "The yokai is the divorce of the world.",
+    "funFactJa": "妖怪は世界の離婚。",
+    "searchQuery": "伊邪那美 イザナミ 黄泉",
+    "creativeHooks": [
+      "A prenup with the underworld.",
+      "The looking is the breach."
+    ],
+    "sources": [
+      "Izanami / Yomi"
+    ]
+  },
+  {
+    "name": "Yomi",
+    "nativeName": "黄泉",
+    "region": "The land of the dead",
+    "category": "死霊",
+    "categoryEn": "Yomi",
+    "summary": "The country of the dead as yokai: a place beside omagatoki and hell.",
+    "summaryJa": "死者の国そのもの。逢魔時や地獄と並ぶ、場所が怪異。",
+    "legends": [
+      "Food that binds you to stay",
+      "A gate of stone that is policy"
+    ],
+    "traits": [
+      "Country",
+      "Food taboo",
+      "No return"
+    ],
+    "motifs": [
+      "Izanami",
+      "Jigoku neighbour",
+      "Place"
+    ],
+    "funFact": "Do not cast a mascot. The map is the monster.",
+    "funFactJa": "マスコットを置かない。地図が怪物。",
+    "searchQuery": "黄泉 黄泉の国",
+    "creativeHooks": [
+      "A visa that is a meal.",
+      "The border is a boulder."
+    ],
+    "sources": [
+      "Yomi as place-lore"
+    ]
+  },
+  {
+    "name": "Kagutsuchi",
+    "nativeName": "カグツチ",
+    "region": "The birth of fire",
+    "category": "気象",
+    "categoryEn": "Kagutsuchi",
+    "summary": "The fire kami whose birth burns Izanami; cut apart, he becomes mountain kami.",
+    "summaryJa": "火の神。生まれて母を焼き、父に斬られて山の神々になる。",
+    "legends": [
+      "A birth that is a wildfire",
+      "Pieces of a god that staff the hills"
+    ],
+    "traits": [
+      "Fire",
+      "Birth",
+      "Dismemberment into landscape"
+    ],
+    "motifs": [
+      "Izanami",
+      "Yama-no-kami",
+      "Fire"
+    ],
+    "funFact": "The org chart of mountains starts as a crime scene.",
+    "funFactJa": "山の組織図は、現場検証から始まる。",
+    "searchQuery": "カグツチ 火之迦具土",
+    "creativeHooks": [
+      "A maternity ward that is a forest fire.",
+      "The pieces are departments."
+    ],
+    "sources": [
+      "Kagutsuchi fire birth"
+    ]
+  },
+  {
+    "name": "Sarutahiko",
+    "nativeName": "猿田彦",
+    "region": "Crossroads of the descent",
+    "category": "道中",
+    "categoryEn": "Sarutahiko",
+    "summary": "The long-nosed guide of the heavenly grandchild; later overlaid on tengu faces.",
+    "summaryJa": "鼻高の道の神。天孫を案内し、後に天狗の顔と重ねられる。",
+    "legends": [
+      "A nose that is a lighthouse on the road",
+      "A marriage to Uzume that is also traffic control"
+    ],
+    "traits": [
+      "Guide",
+      "Long nose",
+      "Crossroads"
+    ],
+    "motifs": [
+      "Tengu overlay",
+      "Dosojin neighbour",
+      "Descent"
+    ],
+    "funFact": "Tengu borrowed the nose. Keep the job as guide.",
+    "funFactJa": "天狗が鼻を借りた。案内の職を残す。",
+    "searchQuery": "猿田彦 道祖神 天狗",
+    "creativeHooks": [
+      "A concierge with a nose for policy.",
+      "The intersection is a shrine."
+    ],
+    "sources": [
+      "Sarutahiko / guiding kami"
+    ]
+  },
+  {
+    "name": "Sukunabikona",
+    "nativeName": "少彦名",
+    "region": "Izumo and the sea",
+    "category": "古典",
+    "categoryEn": "Sukunabikona",
+    "summary": "The small kami who built the land with Okuninushi: medicine, sake, and hot springs.",
+    "summaryJa": "小さな神。大国主と国を作り、薬と酒と温泉の知恵。",
+    "legends": [
+      "A boat that is a pod",
+      "A partner who fits in a pocket and staffs a nation"
+    ],
+    "traits": [
+      "Tiny",
+      "Medicine",
+      "Co-founder"
+    ],
+    "motifs": [
+      "Issun-boshi neighbour in scale",
+      "Izumo",
+      "Care"
+    ],
+    "funFact": "Not a mascot gnome. He is public health with a small body.",
+    "funFactJa": "マスコットの小人にしない。小さい公衆衛生である。",
+    "searchQuery": "少彦名 スクナビコナ 大国主",
+    "creativeHooks": [
+      "A startup cofounder who is pocket-sized.",
+      "The onsen is a protocol."
+    ],
+    "sources": [
+      "Sukunabikona / Izumo"
+    ]
   }
 ]

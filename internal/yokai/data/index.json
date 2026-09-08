@@ -4663,5 +4663,325 @@
     ],
     "tone": "mysterious",
     "famousRank": 3
+  },
+  {
+    "name": "Watanabe-no-Tsuna",
+    "nativeName": "渡辺綱",
+    "category": "鬼",
+    "region": "羅城門・一条戻橋",
+    "blurbJa": "頼光四天王。茨木童子の腕を斬った武者で、図鑑では鬼側の人名。",
+    "tags": [
+      "鬼",
+      "戦い",
+      "京",
+      "古典",
+      "武"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Yorimitsu",
+    "nativeName": "源頼光",
+    "category": "鬼",
+    "region": "大江山",
+    "blurbJa": "酒呑童子を討った源氏の将。鬼退治譚の指揮官。",
+    "tags": [
+      "鬼",
+      "戦い",
+      "古典",
+      "京",
+      "将"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Urashima-taro",
+    "nativeName": "浦島太郎",
+    "category": "海",
+    "region": "竜宮",
+    "blurbJa": "亀を助け竜宮へ行く漁夫。玉手箱で老いる時間の話。",
+    "tags": [
+      "海",
+      "時間",
+      "入門",
+      "竜宮",
+      "古典"
+    ],
+    "tone": "tragic",
+    "famousRank": 1
+  },
+  {
+    "name": "Kaguya-hime",
+    "nativeName": "かぐや姫",
+    "category": "古典",
+    "region": "竹林・月",
+    "blurbJa": "竹から生まれ月へ帰る姫。求婚難題と別れの話。",
+    "tags": [
+      "月",
+      "竹",
+      "姫",
+      "入門",
+      "古典"
+    ],
+    "tone": "tragic",
+    "famousRank": 1
+  },
+  {
+    "name": "Momotaro",
+    "nativeName": "桃太郎",
+    "category": "鬼",
+    "region": "吉備・鬼ヶ島",
+    "blurbJa": "桃から生まれ鬼ヶ島へ征く童。犬猿雉を家来にする。",
+    "tags": [
+      "鬼",
+      "子ども",
+      "入門",
+      "戦い",
+      "古典"
+    ],
+    "tone": "playful",
+    "famousRank": 1
+  },
+  {
+    "name": "Issun-boshi",
+    "nativeName": "一寸法師",
+    "category": "古典",
+    "region": "都・針の刀",
+    "blurbJa": "一寸の武士。針を刀にし、鬼を打ち福を得る。",
+    "tags": [
+      "小さい",
+      "戦い",
+      "入門",
+      "古典",
+      "都"
+    ],
+    "tone": "playful",
+    "famousRank": 2
+  },
+  {
+    "name": "Tsuru-nyobo",
+    "nativeName": "鶴女房",
+    "category": "変化",
+    "region": "雪国の恩返し",
+    "blurbJa": "助けた鶴が妻になる。機を見るなという禁忌の話。",
+    "tags": [
+      "鶴",
+      "恩",
+      "恋",
+      "禁忌",
+      "古典"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Anchin",
+    "nativeName": "安珍",
+    "category": "古典",
+    "region": "道成寺",
+    "blurbJa": "清姫に追われ鐘に隠れた僧。鐘の中で焼ける相手役。",
+    "tags": [
+      "僧",
+      "恋",
+      "鐘",
+      "古典",
+      "紀州"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Shikigami",
+    "nativeName": "式神",
+    "category": "憑きもの",
+    "region": "陰陽道",
+    "blurbJa": "陰陽師が使う式。紙や童子の形で使役される霊。",
+    "tags": [
+      "陰陽",
+      "使役",
+      "紙",
+      "古典",
+      "京"
+    ],
+    "tone": "mysterious",
+    "famousRank": 2
+  },
+  {
+    "name": "Hidesato",
+    "nativeName": "藤原秀郷",
+    "category": "古典",
+    "region": "近江・瀬田",
+    "blurbJa": "俵藤太。瀬田の百足を射た武者で、大百足譚の人名。",
+    "tags": [
+      "戦い",
+      "百足",
+      "古典",
+      "近江",
+      "武"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Suzuka-gozen",
+    "nativeName": "鈴鹿御前",
+    "category": "山系",
+    "region": "鈴鹿山",
+    "blurbJa": "鈴鹿の女天狗。盗賊であり愛であり、坂田金時と結ばれる話もある。",
+    "tags": [
+      "天狗",
+      "女",
+      "山",
+      "戦い",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Jiraiya",
+    "nativeName": "児雷也",
+    "category": "変化",
+    "region": "蝦蟇の術",
+    "blurbJa": "蝦蟇の妖術を使う忍者譚の主人公。後世の読本・歌舞伎で定着。",
+    "tags": [
+      "蝦蟇",
+      "術",
+      "変化",
+      "入門",
+      "戦い"
+    ],
+    "tone": "playful",
+    "famousRank": 2
+  },
+  {
+    "name": "Tsunade",
+    "nativeName": "綱手",
+    "category": "変化",
+    "region": "蛞蝓の術",
+    "blurbJa": "児雷也の相手方。蛞蝓の術を使う女の術者。",
+    "tags": [
+      "術",
+      "女",
+      "変化",
+      "戦い",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Omononushi",
+    "nativeName": "大物主",
+    "category": "古典",
+    "region": "三輪山",
+    "blurbJa": "三輪の神。夜だけ通う蛇神の婿入り譚。",
+    "tags": [
+      "蛇",
+      "神",
+      "恋",
+      "古典",
+      "大和"
+    ],
+    "tone": "mysterious",
+    "famousRank": 2
+  },
+  {
+    "name": "Susanoo",
+    "nativeName": "素戔嗚",
+    "category": "鬼",
+    "region": "出雲・高天原",
+    "blurbJa": "荒ぶる神。八岐大蛇を斬り、天逆毎の親ともされる。",
+    "tags": [
+      "神",
+      "鬼",
+      "蛇",
+      "古典",
+      "入門"
+    ],
+    "tone": "solemn",
+    "famousRank": 1
+  },
+  {
+    "name": "Izanami",
+    "nativeName": "伊邪那美",
+    "category": "死霊",
+    "region": "黄泉",
+    "blurbJa": "黄泉の女神。見てはならぬを見られ、死者の国の主になる。",
+    "tags": [
+      "黄泉",
+      "女",
+      "禁忌",
+      "古典",
+      "死"
+    ],
+    "tone": "tragic",
+    "famousRank": 1
+  },
+  {
+    "name": "Yomi",
+    "nativeName": "黄泉",
+    "category": "死霊",
+    "region": "死者の国",
+    "blurbJa": "死者の国そのもの。逢魔時や地獄と並ぶ、場所が怪異。",
+    "tags": [
+      "死",
+      "国",
+      "古典",
+      "入門",
+      "禁忌"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Kagutsuchi",
+    "nativeName": "カグツチ",
+    "category": "気象",
+    "region": "火の誕生",
+    "blurbJa": "火の神。生まれて母を焼き、父に斬られて山の神々になる。",
+    "tags": [
+      "火",
+      "神",
+      "誕生",
+      "古典",
+      "山"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Sarutahiko",
+    "nativeName": "猿田彦",
+    "category": "道中",
+    "region": "道の衢",
+    "blurbJa": "鼻高の道の神。天孫を案内し、後に天狗の顔と重ねられる。",
+    "tags": [
+      "道中",
+      "案内",
+      "鼻",
+      "古典",
+      "護り"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Sukunabikona",
+    "nativeName": "少彦名",
+    "category": "古典",
+    "region": "出雲・海",
+    "blurbJa": "小さな神。大国主と国を作り、薬と酒と温泉の知恵。",
+    "tags": [
+      "小さい",
+      "薬",
+      "海",
+      "古典",
+      "知恵"
+    ],
+    "tone": "playful",
+    "famousRank": 2
   }
 ]

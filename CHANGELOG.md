@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.14.0
+
+- Catalog grew to 307 index rows and 307 bilingual cards.
+- New names include 桃太郎, かぐや姫, 浦島太郎, 鶴女房, 式神, 渡辺綱, 源頼光, 素戔嗚, 伊邪那美, 黄泉, 児雷也.
+
 ## 0.13.0
 
 - Catalog grew to 287 index rows and 287 bilingual cards.
