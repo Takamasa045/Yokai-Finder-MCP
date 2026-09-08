@@ -4343,5 +4343,325 @@
     ],
     "tone": "horror",
     "famousRank": 3
+  },
+  {
+    "name": "Kamikakushi",
+    "nativeName": "神隠し",
+    "category": "山系",
+    "region": "里と山の境",
+    "blurbJa": "人が理由なく消える。神や天狗の仕業とされる失踪そのもの。",
+    "tags": [
+      "山",
+      "失踪",
+      "怖い",
+      "入門",
+      "神"
+    ],
+    "tone": "mysterious",
+    "famousRank": 2
+  },
+  {
+    "name": "Tengu-kakushi",
+    "nativeName": "天狗隠し",
+    "category": "山系",
+    "region": "山・子供",
+    "blurbJa": "天狗にさらわれる神隠し。戻っても時がずれている。",
+    "tags": [
+      "天狗",
+      "失踪",
+      "子ども",
+      "山",
+      "時間"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Kitsune-tsuki",
+    "nativeName": "狐憑き",
+    "category": "憑きもの",
+    "region": "家・村",
+    "blurbJa": "狐が人に憑く。管狐やオサキの臨床側の名。",
+    "tags": [
+      "狐",
+      "憑きもの",
+      "怖い",
+      "村",
+      "病"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Okuri-okami",
+    "nativeName": "送り狼",
+    "category": "山系",
+    "region": "夜の山道",
+    "blurbJa": "後ろをつける狼。振り返らず送り届けば護り、足元を見ると襲う。",
+    "tags": [
+      "狼",
+      "夜道",
+      "護り",
+      "怖い",
+      "山"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Yama-inu",
+    "nativeName": "山犬",
+    "category": "山系",
+    "region": "山中",
+    "blurbJa": "山の犬。大口真神や送り狼と重なる、野の狼の呼び名。",
+    "tags": [
+      "狼",
+      "山",
+      "犬",
+      "怖い",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Hotei",
+    "nativeName": "布袋",
+    "category": "町",
+    "region": "七福神",
+    "blurbJa": "大きな袋の福神。笑いと余剰の顔で図鑑の端に座る。",
+    "tags": [
+      "福",
+      "袋",
+      "入門",
+      "町",
+      "笑"
+    ],
+    "tone": "gentle",
+    "famousRank": 2
+  },
+  {
+    "name": "Bishamonten",
+    "nativeName": "毘沙門天",
+    "category": "鬼",
+    "region": "戦・寺",
+    "blurbJa": "四天王の武神。鬼を従える顔が妖怪図鑑に混ざる。",
+    "tags": [
+      "戦い",
+      "護り",
+      "寺",
+      "古典",
+      "武"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Sakura-no-sei",
+    "nativeName": "桜の精",
+    "category": "山系",
+    "region": "桜の老木",
+    "blurbJa": "桜の精。花の盛りに人を惑わせ、散ると消える。",
+    "tags": [
+      "桜",
+      "花",
+      "恋",
+      "古典",
+      "木"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Renri-boku",
+    "nativeName": "連理木",
+    "category": "古典",
+    "region": "結び合う木",
+    "blurbJa": "枝が一つになる木。夫婦の契り、または成仏できない恋。",
+    "tags": [
+      "木",
+      "恋",
+      "古典",
+      "契り",
+      "墓"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Kintaro",
+    "nativeName": "金太郎",
+    "category": "山系",
+    "region": "足柄山",
+    "blurbJa": "山姥の子として語られる怪力の童。熊と遊び、後に源氏の家来になる。",
+    "tags": [
+      "子ども",
+      "山",
+      "力",
+      "入門",
+      "古典"
+    ],
+    "tone": "playful",
+    "famousRank": 2
+  },
+  {
+    "name": "En-no-gyoja",
+    "nativeName": "役行者",
+    "category": "山系",
+    "region": "大峰・葛城",
+    "blurbJa": "修験の開祖。前鬼後鬼を従える山の行者で、図鑑では妖怪側の人名。",
+    "tags": [
+      "修験",
+      "山",
+      "古典",
+      "護り",
+      "行"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Abe-no-Seimei",
+    "nativeName": "安倍晴明",
+    "category": "古典",
+    "region": "平安京",
+    "blurbJa": "陰陽師の象徴。式神を使う人名が、妖怪図鑑の索引に入る。",
+    "tags": [
+      "陰陽",
+      "式神",
+      "古典",
+      "京",
+      "入門"
+    ],
+    "tone": "mysterious",
+    "famousRank": 1
+  },
+  {
+    "name": "Taira-no-Masakado",
+    "nativeName": "平将門",
+    "category": "死霊",
+    "region": "関東",
+    "blurbJa": "将門の首と怨霊。神田の将門塚に今も恐れが残る。",
+    "tags": [
+      "怨霊",
+      "首",
+      "関東",
+      "怖い",
+      "古典"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Sutoku-tenno",
+    "nativeName": "崇徳天皇",
+    "category": "死霊",
+    "region": "讃岐・京",
+    "blurbJa": "配流の天皇が天狗となり、保元の怨みを空に書いた。",
+    "tags": [
+      "怨霊",
+      "天皇",
+      "天狗",
+      "古典",
+      "四国"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Sugawara-no-Michizane",
+    "nativeName": "菅原道真",
+    "category": "死霊",
+    "region": "太宰府・京",
+    "blurbJa": "左遷の学者が雷神になる。天神信仰の核にある怨霊。",
+    "tags": [
+      "怨霊",
+      "雷",
+      "学問",
+      "古典",
+      "入門"
+    ],
+    "tone": "solemn",
+    "famousRank": 1
+  },
+  {
+    "name": "Ono-no-Takamura",
+    "nativeName": "小野篁",
+    "category": "死霊",
+    "region": "京と冥途",
+    "blurbJa": "昼は官人、夜は冥官。地獄通勤の詩人。",
+    "tags": [
+      "地獄",
+      "古典",
+      "京",
+      "夜",
+      "詩"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Ume-no-sei",
+    "nativeName": "梅の精",
+    "category": "山系",
+    "region": "梅の木",
+    "blurbJa": "梅の精。道真の飛梅譚と重なり、香で人を呼ぶ。",
+    "tags": [
+      "梅",
+      "花",
+      "恋",
+      "古典",
+      "木"
+    ],
+    "tone": "gentle",
+    "famousRank": 3
+  },
+  {
+    "name": "Matsu-no-sei",
+    "nativeName": "松の精",
+    "category": "山系",
+    "region": "老松",
+    "blurbJa": "松の精。長寿の木が人に化け、あるいは祟る。",
+    "tags": [
+      "松",
+      "長寿",
+      "古典",
+      "木",
+      "護り"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Yanagi-no-sei",
+    "nativeName": "柳の精",
+    "category": "死霊",
+    "region": "川辺の柳",
+    "blurbJa": "柳の精。幽霊が枝に掛かる木。川と髪と夜。",
+    "tags": [
+      "柳",
+      "川",
+      "幽霊",
+      "怖い",
+      "女"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Take-no-sei",
+    "nativeName": "竹の精",
+    "category": "山系",
+    "region": "竹林",
+    "blurbJa": "竹の精。中に人がいる話と、切ると血が出る話。",
+    "tags": [
+      "竹",
+      "林",
+      "古典",
+      "切",
+      "神秘"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
   }
 ]

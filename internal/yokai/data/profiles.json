@@ -8727,5 +8727,665 @@
     "sources": [
       "Kuwanu-onna / hidden-eating tales"
     ]
+  },
+  {
+    "name": "Kamikakushi",
+    "nativeName": "神隠し",
+    "region": "Village edges and mountains",
+    "category": "山系",
+    "categoryEn": "Spirited away",
+    "summary": "People vanish without a crime scene; the disappearance is blamed on kami or tengu.",
+    "summaryJa": "人が理由なく消える。神や天狗の仕業とされる失踪そのもの。",
+    "legends": [
+      "A child is gone between the well and the gate",
+      "Clothes remain, the name does not"
+    ],
+    "traits": [
+      "Vanishing",
+      "No body",
+      "Boundary"
+    ],
+    "motifs": [
+      "Tengu-kakushi",
+      "Kakurezato",
+      "Mountain"
+    ],
+    "funFact": "The yokai is the missing-person report.",
+    "funFactJa": "妖怪は捜索願そのもの。",
+    "searchQuery": "神隠し 天狗隠し",
+    "creativeHooks": [
+      "A census with a hole.",
+      "The mountain files no receipt."
+    ],
+    "sources": [
+      "Kamikakushi folklore"
+    ]
+  },
+  {
+    "name": "Tengu-kakushi",
+    "nativeName": "天狗隠し",
+    "region": "Mountains and children",
+    "category": "山系",
+    "categoryEn": "Tengu abduction",
+    "summary": "Kamikakushi specified as tengu work; returnees are late by years.",
+    "summaryJa": "天狗にさらわれる神隠し。戻っても時がずれている。",
+    "legends": [
+      "A boy comes home speaking of a palace of cedar",
+      "The calendar skipped"
+    ],
+    "traits": [
+      "Abduction",
+      "Time slip",
+      "Tengu"
+    ],
+    "motifs": [
+      "Kamikakushi",
+      "Tengu ranks",
+      "Childhood"
+    ],
+    "funFact": "Kamikakushi is the category; tengu-kakushi is the named contractor.",
+    "funFactJa": "神隠しが分類なら、天狗隠しは指名の請負。",
+    "searchQuery": "天狗隠し 神隠し 天狗",
+    "creativeHooks": [
+      "A field trip with no permission slip.",
+      "The souvenir is lost years."
+    ],
+    "sources": [
+      "Tengu abduction tales"
+    ]
+  },
+  {
+    "name": "Kitsune-tsuki",
+    "nativeName": "狐憑き",
+    "region": "Households and villages",
+    "category": "憑きもの",
+    "categoryEn": "Fox possession",
+    "summary": "Fox possession: the clinical name beside kudagitsune and osaki.",
+    "summaryJa": "狐が人に憑く。管狐やオサキの臨床側の名。",
+    "legends": [
+      "A voice not the patient's",
+      "A family is shunned for being too lucky, then too ill"
+    ],
+    "traits": [
+      "Possession",
+      "Speech change",
+      "Social exile"
+    ],
+    "motifs": [
+      "Kudagitsune",
+      "Osaki",
+      "Izuna"
+    ],
+    "funFact": "Write neighbours and diagnosis, not only the fox.",
+    "funFactJa": "狐だけでなく、隣人と診断を書く。",
+    "searchQuery": "狐憑き 管狐 オサキ",
+    "creativeHooks": [
+      "A medical chart with ears.",
+      "The village is the clinic."
+    ],
+    "sources": [
+      "Kitsune-tsuki studies"
+    ]
+  },
+  {
+    "name": "Okuri-okami",
+    "nativeName": "送り狼",
+    "region": "Night mountain roads",
+    "category": "山系",
+    "categoryEn": "Sending wolf",
+    "summary": "A wolf that follows you home: do not look at its feet; a gift of thanks must be thrown behind.",
+    "summaryJa": "後ろをつける狼。足元を見ず、礼は後ろへ投げよ。",
+    "legends": [
+      "Footsteps match yours one-for-one",
+      "A straw sandal tossed back buys the last stretch"
+    ],
+    "traits": [
+      "Escort",
+      "Taboo of looking back",
+      "Gift to the rear"
+    ],
+    "motifs": [
+      "Okuri-inu neighbour",
+      "Yama-inu",
+      "Night road"
+    ],
+    "funFact": "Okuri-inu is the dog version. Same traffic rule, different taxidermy.",
+    "funFactJa": "送り犬が犬版。交通規則は同じ、剥製が違う。",
+    "searchQuery": "送り狼 送り犬",
+    "creativeHooks": [
+      "A rideshare that must not be rated until you are inside.",
+      "The escort is the threat."
+    ],
+    "sources": [
+      "Okuri-okami road lore"
+    ]
+  },
+  {
+    "name": "Yama-inu",
+    "nativeName": "山犬",
+    "region": "Mountain interiors",
+    "category": "山系",
+    "categoryEn": "Mountain dog",
+    "summary": "The mountain's dog or wolf; overlaps okuchi-no-makami and okuri-okami as a wild name.",
+    "summaryJa": "山の犬。大口真神や送り狼と重なる、野の狼の呼び名。",
+    "legends": [
+      "A pack that is not village dogs",
+      "Hunters leave a share on a stump"
+    ],
+    "traits": [
+      "Wolf-dog",
+      "Wild",
+      "Mountain"
+    ],
+    "motifs": [
+      "Okuchi-no-makami",
+      "Okuri-okami",
+      "Hunting"
+    ],
+    "funFact": "Makami is the kami; yama-inu is the field name.",
+    "funFactJa": "真神が神なら、山犬は現場の名。",
+    "searchQuery": "山犬 狼 大口真神",
+    "creativeHooks": [
+      "A trail camera that is theology.",
+      "The pack has no collar and a shrine."
+    ],
+    "sources": [
+      "Yama-inu mountain-wolf lore"
+    ]
+  },
+  {
+    "name": "Hotei",
+    "nativeName": "布袋",
+    "region": "Towns and temples",
+    "category": "町",
+    "categoryEn": "Hotei",
+    "summary": "The laughing sack of surplus among the Seven Lucky Gods, still indexed beside yokai.",
+    "summaryJa": "大きな袋の福神。笑いと余剰で図鑑の端に座る。",
+    "legends": [
+      "A belly that is a storehouse",
+      "Children pull the earlobes for luck"
+    ],
+    "traits": [
+      "Sack",
+      "Laugh",
+      "Surplus"
+    ],
+    "motifs": [
+      "Ebisu neighbour",
+      "Daikokuten",
+      "Seven Lucky Gods"
+    ],
+    "funFact": "Not to be exorcised. He is inventory that learned to walk.",
+    "funFactJa": "祓わない。歩ける在庫である。",
+    "searchQuery": "布袋 七福神",
+    "creativeHooks": [
+      "A warehouse with a smile.",
+      "The bag is fiscal policy."
+    ],
+    "sources": [
+      "Hotei popular worship"
+    ]
+  },
+  {
+    "name": "Bishamonten",
+    "nativeName": "毘沙門天",
+    "region": "Temples of war and protection",
+    "category": "鬼",
+    "categoryEn": "Bishamonten",
+    "summary": "The warrior of the Four Heavenly Kings; his demon-commanding face leaks into yokai lists.",
+    "summaryJa": "四天王の武神。鬼を従える顔が妖怪図鑑に混ざる。",
+    "legends": [
+      "Armour in a hall that is not a barracks",
+      "Oni as subordinates, not bosses"
+    ],
+    "traits": [
+      "Warrior kami",
+      "Commands demons",
+      "Temple"
+    ],
+    "motifs": [
+      "Shitenno",
+      "Oni as staff",
+      "Protection"
+    ],
+    "funFact": "The oni work for him. Do not invert the org chart.",
+    "funFactJa": "鬼は部下。組織図を逆にしない。",
+    "searchQuery": "毘沙門天 四天王",
+    "creativeHooks": [
+      "A security firm with a halo.",
+      "The demons are employees."
+    ],
+    "sources": [
+      "Bishamonten worship"
+    ]
+  },
+  {
+    "name": "Sakura-no-sei",
+    "nativeName": "桜の精",
+    "region": "Old cherry trees",
+    "category": "山系",
+    "categoryEn": "Cherry spirit",
+    "summary": "The spirit of cherry blossom; it beguiles at full bloom and vanishes with the petals.",
+    "summaryJa": "桜の精。盛りに人を惑わせ、散ると消える。",
+    "legends": [
+      "A beauty under a tree that has no village",
+      "The hangover is petals"
+    ],
+    "traits": [
+      "Bloom",
+      "Beguilement",
+      "Brief"
+    ],
+    "motifs": [
+      "Kodama neighbour",
+      "Ume-no-sei",
+      "Season"
+    ],
+    "funFact": "The tragedy is the calendar, not a curse.",
+    "funFactJa": "悲劇は呪いではなく暦。",
+    "searchQuery": "桜の精 花の精",
+    "creativeHooks": [
+      "A dating app that expires in a week.",
+      "Hanami is a contract."
+    ],
+    "sources": [
+      "Cherry-tree spirit tales"
+    ]
+  },
+  {
+    "name": "Renri-boku",
+    "nativeName": "連理木",
+    "region": "Joined trees",
+    "category": "古典",
+    "categoryEn": "Joined-branch tree",
+    "summary": "Trees whose branches grow as one: a marriage vow or a love that could not finish dying.",
+    "summaryJa": "枝が一つになる木。夫婦の契り、または成仏できない恋。",
+    "legends": [
+      "Two graves feed one canopy",
+      "A couple planted apart meet in the air"
+    ],
+    "traits": [
+      "Joined limbs",
+      "Vow",
+      "Grave"
+    ],
+    "motifs": [
+      "Love",
+      "Botany as contract",
+      "Afterlife"
+    ],
+    "funFact": "Write horticulture as family law.",
+    "funFactJa": "園芸を家族法として書く。",
+    "searchQuery": "連理木 連理",
+    "creativeHooks": [
+      "A marriage certificate that photosynthesizes.",
+      "The family tree is literal."
+    ],
+    "sources": [
+      "Renri joined-tree lore"
+    ]
+  },
+  {
+    "name": "Kintaro",
+    "nativeName": "金太郎",
+    "region": "Ashigara",
+    "category": "山系",
+    "categoryEn": "Kintaro",
+    "summary": "The strong child of the mountain, raised by yamauba, companion of bears, later a Minamoto retainer.",
+    "summaryJa": "山姥の子として語られる怪力の童。熊と遊び、後に源氏の家来になる。",
+    "legends": [
+      "A red bib in the forest",
+      "A sumo with animals that is also a recruitment"
+    ],
+    "traits": [
+      "Child strength",
+      "Yamauba household",
+      "Bear friends"
+    ],
+    "motifs": [
+      "Yamauba",
+      "Yorimitsu cycle",
+      "Coming of age"
+    ],
+    "funFact": "Keep the mountain family. He is not only a brand of sweets.",
+    "funFactJa": "山の家族を残す。菓子のブランドだけにしない。",
+    "searchQuery": "金太郎 山姥 足柄",
+    "creativeHooks": [
+      "A daycare that is a dojo.",
+      "The mascot has a personnel file."
+    ],
+    "sources": [
+      "Kintaro / Ashigara cycle"
+    ]
+  },
+  {
+    "name": "En-no-gyoja",
+    "nativeName": "役行者",
+    "region": "Omine and Katsuragi",
+    "category": "山系",
+    "categoryEn": "En no Gyoja",
+    "summary": "The founder of shugendo who commands Zenki and Goki; a human name on the yokai index.",
+    "summaryJa": "修験の開祖。前鬼後鬼を従える山の行者。",
+    "legends": [
+      "A mountain opens a path for a man with two oni",
+      "Exile that becomes a syllabus"
+    ],
+    "traits": [
+      "Ascetic",
+      "Commands oni pair",
+      "Founder"
+    ],
+    "motifs": [
+      "Zenki",
+      "Goki",
+      "Shugendo"
+    ],
+    "funFact": "He is management. The oni are operations.",
+    "funFactJa": "彼は経営。鬼は現場。",
+    "searchQuery": "役行者 前鬼 後鬼",
+    "creativeHooks": [
+      "A CEO with a mountain for an office.",
+      "The org chart has horns."
+    ],
+    "sources": [
+      "En no Gyoja / shugendo"
+    ]
+  },
+  {
+    "name": "Abe-no-Seimei",
+    "nativeName": "安倍晴明",
+    "region": "Heian capital",
+    "category": "古典",
+    "categoryEn": "Abe no Seimei",
+    "summary": "The emblematic onmyoji; his shikigami put a human name on the yokai roster.",
+    "summaryJa": "陰陽師の象徴。式神を使う人名が索引に入る。",
+    "legends": [
+      "Paper dolls that walk",
+      "A pentagram as a brand"
+    ],
+    "traits": [
+      "Onmyoji",
+      "Shikigami",
+      "Capital"
+    ],
+    "motifs": [
+      "Onmyodo",
+      "Konjin neighbour",
+      "Heian"
+    ],
+    "funFact": "The yokai are the staff. Seimei is HR with a pentagram.",
+    "funFactJa": "妖怪は職員。晴明は五芒星の人事。",
+    "searchQuery": "安倍晴明 陰陽師 式神",
+    "creativeHooks": [
+      "A consulting firm that binds spirits.",
+      "The pentagram is a retainer agreement."
+    ],
+    "sources": [
+      "Seimei / onmyodo popular lore"
+    ]
+  },
+  {
+    "name": "Taira-no-Masakado",
+    "nativeName": "平将門",
+    "region": "Kanto",
+    "category": "死霊",
+    "categoryEn": "Masakado",
+    "summary": "Masakado's severed head and onryo; the mound in Kanda is still treated carefully.",
+    "summaryJa": "将門の首と怨霊。神田の将門塚に恐れが残る。",
+    "legends": [
+      "A head that flew toward the east",
+      "Construction delayed by a mound"
+    ],
+    "traits": [
+      "Severed head",
+      "Rebel",
+      "Kanto shrine"
+    ],
+    "motifs": [
+      "Onryo",
+      "Politics",
+      "Urban taboo"
+    ],
+    "funFact": "The yokai is a planning permission.",
+    "funFactJa": "妖怪は建築確認である。",
+    "searchQuery": "平将門 将門塚",
+    "creativeHooks": [
+      "A zoning law with a grudge.",
+      "The head still commutes east."
+    ],
+    "sources": [
+      "Masakado onryo cycle"
+    ]
+  },
+  {
+    "name": "Sutoku-tenno",
+    "nativeName": "崇徳天皇",
+    "region": "Sanuki and the capital",
+    "category": "死霊",
+    "categoryEn": "Emperor Sutoku",
+    "summary": "The exiled emperor who became a tengu and wrote the Hogen grudge on the sky.",
+    "summaryJa": "配流の天皇が天狗となり、保元の怨みを空に書いた。",
+    "legends": [
+      "A cloister that is a curse factory",
+      "Lightning with a reign-name"
+    ],
+    "traits": [
+      "Exiled emperor",
+      "Tengu-onryo",
+      "Hogen"
+    ],
+    "motifs": [
+      "Tengu",
+      "Onryo",
+      "Shikoku"
+    ],
+    "funFact": "Not a generic ghost emperor. Keep the exile and the poetry.",
+    "funFactJa": "汎用の幽霊天皇にしない。配流と詩を残す。",
+    "searchQuery": "崇徳天皇 保元 天狗",
+    "creativeHooks": [
+      "A resignation letter that became weather.",
+      "The cloister is still in beta."
+    ],
+    "sources": [
+      "Sutoku / Hogen onryo"
+    ]
+  },
+  {
+    "name": "Sugawara-no-Michizane",
+    "nativeName": "菅原道真",
+    "region": "Dazaifu and the capital",
+    "category": "死霊",
+    "categoryEn": "Michizane / Tenjin",
+    "summary": "The demoted scholar who became a thunder kami; Tenjin faith sits on an onryo.",
+    "summaryJa": "左遷の学者が雷神になる。天神信仰の核にある怨霊。",
+    "legends": [
+      "The palace burns after an unjust posting",
+      "Plum trees fly to Kyushu in the legend"
+    ],
+    "traits": [
+      "Scholar",
+      "Thunder",
+      "Unjust exile"
+    ],
+    "motifs": [
+      "Narukami neighbour",
+      "Ume-no-sei",
+      "Onryo to kami"
+    ],
+    "funFact": "The curriculum is a lightning rod.",
+    "funFactJa": "カリキュラムが避雷針。",
+    "searchQuery": "菅原道真 天神 太宰府",
+    "creativeHooks": [
+      "A university founded by a storm.",
+      "The exam god used to be HR's victim."
+    ],
+    "sources": [
+      "Michizane / Tenjin"
+    ]
+  },
+  {
+    "name": "Ono-no-Takamura",
+    "nativeName": "小野篁",
+    "region": "Capital and the underworld",
+    "category": "死霊",
+    "categoryEn": "Ono no Takamura",
+    "summary": "Official by day, officer of hell by night; the commuting poet of the dead.",
+    "summaryJa": "昼は官人、夜は冥官。地獄通勤の詩人。",
+    "legends": [
+      "A well that is a station to the underworld",
+      "Verses signed in two worlds"
+    ],
+    "traits": [
+      "Double office",
+      "Hell commute",
+      "Poet"
+    ],
+    "motifs": [
+      "Jigoku",
+      "Heian",
+      "Night work"
+    ],
+    "funFact": "The yokai is the second job.",
+    "funFactJa": "妖怪は副業である。",
+    "searchQuery": "小野篁 冥官 地獄",
+    "creativeHooks": [
+      "A civil servant with a night shift in hell.",
+      "The well is a punch clock."
+    ],
+    "sources": [
+      "Takamura hell-commute lore"
+    ]
+  },
+  {
+    "name": "Ume-no-sei",
+    "nativeName": "梅の精",
+    "region": "Plum trees",
+    "category": "山系",
+    "categoryEn": "Plum spirit",
+    "summary": "The plum spirit, overlapping Michizane's flying-ume tale; it calls people by scent.",
+    "summaryJa": "梅の精。道真の飛梅と重なり、香で人を呼ぶ。",
+    "legends": [
+      "A fragrance that is a summons",
+      "A tree that moved jobs to Dazaifu"
+    ],
+    "traits": [
+      "Scent",
+      "Loyalty",
+      "Early bloom"
+    ],
+    "motifs": [
+      "Michizane",
+      "Sakura-no-sei",
+      "Tree"
+    ],
+    "funFact": "Cherry beguiles; plum reports for duty.",
+    "funFactJa": "桜が惑わすなら、梅は出勤する。",
+    "searchQuery": "梅の精 飛梅 道真",
+    "creativeHooks": [
+      "A transfer order that is a blossom.",
+      "HR smells like February."
+    ],
+    "sources": [
+      "Ume spirit / flying plum"
+    ]
+  },
+  {
+    "name": "Matsu-no-sei",
+    "nativeName": "松の精",
+    "region": "Old pines",
+    "category": "山系",
+    "categoryEn": "Pine spirit",
+    "summary": "The pine spirit of a long-lived tree that takes human form or curses a felling.",
+    "summaryJa": "松の精。長寿の木が人に化け、あるいは伐採を祟る。",
+    "legends": [
+      "A green old man under a coastal pine",
+      "A saw that will not finish the cut"
+    ],
+    "traits": [
+      "Longevity",
+      "Human form",
+      "Felling taboo"
+    ],
+    "motifs": [
+      "Kodama",
+      "Bake-icho",
+      "Coast"
+    ],
+    "funFact": "Kodama is the generic soul; matsu-no-sei is a particular resume.",
+    "funFactJa": "木霊が一般の魂なら、松の精は個別の履歴書。",
+    "searchQuery": "松の精 老松",
+    "creativeHooks": [
+      "A pension that photosynthesizes.",
+      "The wind in the needles is minutes."
+    ],
+    "sources": [
+      "Pine-spirit lore"
+    ]
+  },
+  {
+    "name": "Yanagi-no-sei",
+    "nativeName": "柳の精",
+    "region": "Riverside willows",
+    "category": "死霊",
+    "categoryEn": "Willow spirit",
+    "summary": "The willow spirit; ghosts hang in the branches. River, hair, and night.",
+    "summaryJa": "柳の精。幽霊が枝に掛かる木。川と髪と夜。",
+    "legends": [
+      "A woman under a willow who is the willow",
+      "Hair and branches swap jobs"
+    ],
+    "traits": [
+      "Willow",
+      "Ghost perch",
+      "Riverside"
+    ],
+    "motifs": [
+      "Yurei",
+      "Kawa-hime neighbour",
+      "Night"
+    ],
+    "funFact": "The set dressing is the monster.",
+    "funFactJa": "背景美術が怪物。",
+    "searchQuery": "柳の精 柳 幽霊",
+    "creativeHooks": [
+      "A riverbank that is a wig.",
+      "The ghost uses the tree as a coat rack."
+    ],
+    "sources": [
+      "Willow-ghost lore"
+    ]
+  },
+  {
+    "name": "Take-no-sei",
+    "nativeName": "竹の精",
+    "region": "Bamboo groves",
+    "category": "山系",
+    "categoryEn": "Bamboo spirit",
+    "summary": "The bamboo spirit: a person inside a stalk, or blood when you cut.",
+    "summaryJa": "竹の精。中に人がいる話と、切ると血が出る話。",
+    "legends": [
+      "A glow in one culm",
+      "A grove that bleeds when thinned"
+    ],
+    "traits": [
+      "Hollow stem",
+      "Hidden person",
+      "Cut taboo"
+    ],
+    "motifs": [
+      "Kaguya neighbour",
+      "Grove",
+      "Labour"
+    ],
+    "funFact": "Not Kaguya's whole tale. Keep the plant's terms of service.",
+    "funFactJa": "かぐや姫の全話にしない。植物の利用規約を残す。",
+    "searchQuery": "竹の精 竹林",
+    "creativeHooks": [
+      "A harvest with a pulse.",
+      "The grove has a privacy policy."
+    ],
+    "sources": [
+      "Bamboo-spirit lore"
+    ]
   }
 ]

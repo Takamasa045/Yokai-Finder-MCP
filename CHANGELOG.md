@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.13.0
+
+- Catalog grew to 287 index rows and 287 bilingual cards.
+- New names include 神隠し, 天狗隠し, 狐憑き, 送り狼, 安倍晴明, 平将門, 崇徳天皇, 菅原道真, 金太郎, 桜の精, 柳の精.
+
 ## 0.12.0
 
 - Catalog grew to 267 index rows and 267 bilingual cards.
