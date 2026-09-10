@@ -18,6 +18,7 @@ func TestPriorityRankThreeHaveProfiles(t *testing.T) {
 		"荒神", "田の神", "雨女", "雪ん子", "稲荷", "恵比寿",
 		"神隠し", "安倍晴明", "平将門", "菅原道真", "金太郎", "柳の精",
 		"桃太郎", "かぐや姫", "浦島太郎", "式神", "素戔嗚", "伊邪那美",
+		"天照", "大国主", "源義経", "閻魔", "花咲か爺",
 	} {
 		if _, ok := FindByName(name); !ok {
 			t.Errorf("expected profile for %s", name)

@@ -4983,5 +4983,1493 @@
     ],
     "tone": "playful",
     "famousRank": 2
+  },
+  {
+    "name": "Hanasaka-jiji",
+    "nativeName": "花咲か爺",
+    "category": "古典",
+    "region": "昔話",
+    "blurbJa": "灰で桜を咲かせる正直者の爺。",
+    "tags": [
+      "入門",
+      "犬",
+      "桜",
+      "古典",
+      "福"
+    ],
+    "tone": "gentle",
+    "famousRank": 1
+  },
+  {
+    "name": "Shitakiri-suzume",
+    "nativeName": "舌切り雀",
+    "category": "古典",
+    "region": "昔話",
+    "blurbJa": "舌を切られた雀が小さな箱で恩を返す。",
+    "tags": [
+      "雀",
+      "恩",
+      "禁忌",
+      "入門",
+      "古典"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Kobutori-jiji",
+    "nativeName": "瘤取り爺",
+    "category": "古典",
+    "region": "昔話",
+    "blurbJa": "鬼の宴で瘤を取られ、欲張った隣人が瘤を二つにする。",
+    "tags": [
+      "鬼",
+      "踊り",
+      "入門",
+      "古典",
+      "福"
+    ],
+    "tone": "comic",
+    "famousRank": 2
+  },
+  {
+    "name": "Kachikachi-yama",
+    "nativeName": "かちかち山",
+    "category": "狐狸",
+    "region": "昔話",
+    "blurbJa": "狸が婆を殺し、兎が火と泥で討つ。",
+    "tags": [
+      "狸",
+      "兎",
+      "復讐",
+      "火",
+      "古典"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Saru-kani",
+    "nativeName": "さるかに合戦",
+    "category": "古典",
+    "region": "昔話",
+    "blurbJa": "柿を奪った猿を、蟹の仲間が討つ。",
+    "tags": [
+      "蟹",
+      "猿",
+      "復讐",
+      "入門",
+      "古典"
+    ],
+    "tone": "comic",
+    "famousRank": 2
+  },
+  {
+    "name": "Warashibe-choja",
+    "nativeName": "わらしべ長者",
+    "category": "古典",
+    "region": "昔話",
+    "blurbJa": "藁しべから交換を重ねて長者になる。",
+    "tags": [
+      "藁",
+      "交換",
+      "福",
+      "入門",
+      "古典"
+    ],
+    "tone": "gentle",
+    "famousRank": 2
+  },
+  {
+    "name": "Hachikazuki",
+    "nativeName": "鉢かづき",
+    "category": "古典",
+    "region": "昔話",
+    "blurbJa": "鉢を被せられた姫が、正体を隠して仕える。",
+    "tags": [
+      "姫",
+      "禁忌",
+      "古典",
+      "鉢",
+      "恋"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Urikohime",
+    "nativeName": "瓜子姫",
+    "category": "古典",
+    "region": "昔話",
+    "blurbJa": "瓜から生まれた姫。鬼や天邪鬼に狙われる。",
+    "tags": [
+      "姫",
+      "瓜",
+      "鬼",
+      "入門",
+      "古典"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Hagoromo",
+    "nativeName": "羽衣",
+    "category": "古典",
+    "region": "三保・湖",
+    "blurbJa": "天女の羽衣を隠した漁夫。舞いと帰還の話。",
+    "tags": [
+      "天女",
+      "衣",
+      "入門",
+      "古典",
+      "湖"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Inaba-no-shirousagi",
+    "nativeName": "因幡の白兎",
+    "category": "古典",
+    "region": "因幡",
+    "blurbJa": "鰐に皮を剥がれ、大国主に救われる兎。",
+    "tags": [
+      "兎",
+      "海",
+      "恩",
+      "入門",
+      "古典"
+    ],
+    "tone": "gentle",
+    "famousRank": 2
+  },
+  {
+    "name": "Anju",
+    "nativeName": "安寿",
+    "category": "死霊",
+    "region": "山椒大夫の話",
+    "blurbJa": "人買いから逃げる姉。弟を逃がし、自らは井戸に入る。",
+    "tags": [
+      "姉",
+      "悲劇",
+      "古典",
+      "井戸",
+      "子"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Sansho-dayu",
+    "nativeName": "山椒大夫",
+    "category": "死霊",
+    "region": "丹後の人買い",
+    "blurbJa": "人買いの親方。安寿と厨子王の敵役。",
+    "tags": [
+      "人買い",
+      "古典",
+      "悲劇",
+      "丹後",
+      "主"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Ono-no-Komachi",
+    "nativeName": "小野小町",
+    "category": "死霊",
+    "region": "京の歌",
+    "blurbJa": "絶世の歌人。老いと髑髏の伝承が図鑑に残る。",
+    "tags": [
+      "歌",
+      "女",
+      "京",
+      "古典",
+      "老い"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Oguri-hangan",
+    "nativeName": "小栗判官",
+    "category": "死霊",
+    "region": "熊野の再生",
+    "blurbJa": "毒に倒れ熊野で蘇生する武者。車に乗った死者。",
+    "tags": [
+      "再生",
+      "熊野",
+      "車",
+      "古典",
+      "武"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Shizuka-gozen",
+    "nativeName": "静御前",
+    "category": "死霊",
+    "region": "吉野・鎌倉",
+    "blurbJa": "義経の白拍子。舞と子と、鎌倉の裁き。",
+    "tags": [
+      "舞",
+      "女",
+      "義経",
+      "古典",
+      "恋"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Tomoe-gozen",
+    "nativeName": "巴御前",
+    "category": "死霊",
+    "region": "木曾の戦い",
+    "blurbJa": "木曾義仲の女武者。首を取って去る話。",
+    "tags": [
+      "戦い",
+      "女",
+      "武",
+      "古典",
+      "木曾"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Antoku-tenno",
+    "nativeName": "安徳天皇",
+    "category": "海",
+    "region": "壇ノ浦",
+    "blurbJa": "幼帝。壇ノ浦で海に入り、平家の死を背負う。",
+    "tags": [
+      "平家",
+      "海",
+      "子ども",
+      "古典",
+      "死"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Taira-no-Tomomori",
+    "nativeName": "平知盛",
+    "category": "海",
+    "region": "壇ノ浦",
+    "blurbJa": "平家の将。錨を負って海に入り、後に幽霊となる。",
+    "tags": [
+      "平家",
+      "海",
+      "錨",
+      "怨霊",
+      "古典"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Sakanoue-no-Tamuramaro",
+    "nativeName": "坂上田村麻呂",
+    "category": "鬼",
+    "region": "陸奥の征夷",
+    "blurbJa": "征夷大将軍。鈴鹿や大嶽丸と組む鬼退治の人名。",
+    "tags": [
+      "鬼",
+      "戦い",
+      "東北",
+      "古典",
+      "将"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Otake-maru",
+    "nativeName": "大嶽丸",
+    "category": "鬼",
+    "region": "鈴鹿・大和",
+    "blurbJa": "田村が討つ大鬼。鈴鹿御前と対になる山の賊。",
+    "tags": [
+      "鬼",
+      "山",
+      "戦い",
+      "古典",
+      "賊"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Ashiya-Doman",
+    "nativeName": "蘆屋道満",
+    "category": "憑きもの",
+    "region": "陰陽のライバル",
+    "blurbJa": "晴明のライバル陰陽師。式の競べと呪いの人名。",
+    "tags": [
+      "陰陽",
+      "呪い",
+      "古典",
+      "ライバル",
+      "術"
+    ],
+    "tone": "mysterious",
+    "famousRank": 2
+  },
+  {
+    "name": "Kiichi-hogen",
+    "nativeName": "鬼一法眼",
+    "category": "古典",
+    "region": "京の兵法",
+    "blurbJa": "兵法の翁。義経に巻物を渡す話の師。",
+    "tags": [
+      "兵法",
+      "義経",
+      "古典",
+      "師",
+      "京"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Minamoto-no-Yoshiie",
+    "nativeName": "源義家",
+    "category": "死霊",
+    "region": "後三年の役",
+    "blurbJa": "八幡太郎。奥州の戦と、後に神に近い武の名。",
+    "tags": [
+      "戦い",
+      "東北",
+      "古典",
+      "八幡",
+      "将"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Minamoto-no-Tametomo",
+    "nativeName": "源為朝",
+    "category": "死霊",
+    "region": "伊豆・琉球譚",
+    "blurbJa": "強弓の源氏。流され、琉球始祖譚にも乗る。",
+    "tags": [
+      "弓",
+      "流罪",
+      "古典",
+      "海",
+      "武"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Urabe-no-Suetake",
+    "nativeName": "卜部季武",
+    "category": "鬼",
+    "region": "頼光四天王",
+    "blurbJa": "頼光四天王の一人。土蜘蛛譚の同行者。",
+    "tags": [
+      "鬼",
+      "戦い",
+      "古典",
+      "京",
+      "武"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Usui-no-Sadamitsu",
+    "nativeName": "碓井貞光",
+    "category": "鬼",
+    "region": "頼光四天王",
+    "blurbJa": "頼光四天王の一人。酒呑童子討伐の同行。",
+    "tags": [
+      "鬼",
+      "戦い",
+      "古典",
+      "京",
+      "武"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Fujiwara-no-Yasumasa",
+    "nativeName": "藤原保昌",
+    "category": "死霊",
+    "region": "京の盗賊譚",
+    "blurbJa": "笛の武者。盗賊を笛で従える話。",
+    "tags": [
+      "笛",
+      "盗賊",
+      "京",
+      "古典",
+      "武"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Yaoya-Oshichi",
+    "nativeName": "八百屋お七",
+    "category": "死霊",
+    "region": "江戸の火",
+    "blurbJa": "恋のために火を出した娘。火罪の都市伝説の祖に近い。",
+    "tags": [
+      "火",
+      "恋",
+      "江戸",
+      "女",
+      "悲劇"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Tokiwa-gozen",
+    "nativeName": "常盤御前",
+    "category": "死霊",
+    "region": "雪の母",
+    "blurbJa": "義経の母。雪中に子を連れて逃げる絵の人名。",
+    "tags": [
+      "母",
+      "雪",
+      "義経",
+      "古典",
+      "逃"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Kenreimon-in",
+    "nativeName": "建礼門院",
+    "category": "死霊",
+    "region": "平家の後",
+    "blurbJa": "安徳の母。海から引き上げられ、仏の側で語る。",
+    "tags": [
+      "平家",
+      "母",
+      "海",
+      "古典",
+      "仏"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Izanagi",
+    "nativeName": "伊邪那岐",
+    "category": "古典",
+    "region": "黄泉の境",
+    "blurbJa": "黄泉から逃げ、禊で神々を生む父神。",
+    "tags": [
+      "神",
+      "黄泉",
+      "禊",
+      "古典",
+      "入門"
+    ],
+    "tone": "solemn",
+    "famousRank": 1
+  },
+  {
+    "name": "Amaterasu",
+    "nativeName": "天照",
+    "category": "古典",
+    "region": "高天原",
+    "blurbJa": "日の女神。岩戸に隠れ世界が暗くなる。",
+    "tags": [
+      "太陽",
+      "神",
+      "岩戸",
+      "古典",
+      "入門"
+    ],
+    "tone": "solemn",
+    "famousRank": 1
+  },
+  {
+    "name": "Tsukuyomi",
+    "nativeName": "月読",
+    "category": "古典",
+    "region": "夜と月",
+    "blurbJa": "月の神。食事の神を斬り日月が分かれる。",
+    "tags": [
+      "月",
+      "夜",
+      "神",
+      "古典",
+      "食事"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Okuninushi",
+    "nativeName": "大国主",
+    "category": "古典",
+    "region": "出雲",
+    "blurbJa": "国造りの神。白兎を助け少彦名と組む。",
+    "tags": [
+      "神",
+      "出雲",
+      "兎",
+      "国",
+      "入門"
+    ],
+    "tone": "gentle",
+    "famousRank": 1
+  },
+  {
+    "name": "Konohanasakuya-hime",
+    "nativeName": "木花咲耶姫",
+    "category": "山系",
+    "region": "富士・花",
+    "blurbJa": "花の女神。火の中で産を証明する。",
+    "tags": [
+      "花",
+      "富士",
+      "火",
+      "神",
+      "古典"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Ame-no-Uzume",
+    "nativeName": "天宇受売",
+    "category": "古典",
+    "region": "岩戸の前",
+    "blurbJa": "岩戸の前で踊り、笑いで日を戻す。",
+    "tags": [
+      "踊り",
+      "笑い",
+      "神",
+      "古典",
+      "岩戸"
+    ],
+    "tone": "playful",
+    "famousRank": 2
+  },
+  {
+    "name": "Watatsumi",
+    "nativeName": "綿津見",
+    "category": "海",
+    "region": "海の宮",
+    "blurbJa": "海神。竜神の系譜で潮を司る。",
+    "tags": [
+      "海",
+      "神",
+      "潮",
+      "古典",
+      "護り"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Takemikazuchi",
+    "nativeName": "建御雷",
+    "category": "鬼",
+    "region": "鹿島・雷",
+    "blurbJa": "雷の武神。国譲りで力を示し鹿島に坐す。",
+    "tags": [
+      "雷",
+      "戦い",
+      "神",
+      "鹿島",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Kotoshironushi",
+    "nativeName": "事代主",
+    "category": "古典",
+    "region": "美保・言葉",
+    "blurbJa": "言葉の神。国譲りの返事を釣りで延ばす。",
+    "tags": [
+      "言葉",
+      "釣り",
+      "出雲",
+      "神",
+      "古典"
+    ],
+    "tone": "playful",
+    "famousRank": 3
+  },
+  {
+    "name": "Ame-no-Tajikarao",
+    "nativeName": "天手力男",
+    "category": "古典",
+    "region": "岩戸",
+    "blurbJa": "岩戸を開く力の神。",
+    "tags": [
+      "力",
+      "岩戸",
+      "神",
+      "古典",
+      "腕"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Oyamazumi",
+    "nativeName": "大山祇",
+    "category": "山系",
+    "region": "山の総本",
+    "blurbJa": "山の大神。花の姫の父ともされる。",
+    "tags": [
+      "山",
+      "神",
+      "護り",
+      "古典",
+      "父"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Ame-no-Minakanushi",
+    "nativeName": "天之御中主",
+    "category": "古典",
+    "region": "造化三神",
+    "blurbJa": "天地の初めに現れる中心の神。",
+    "tags": [
+      "神",
+      "始まり",
+      "古典",
+      "天",
+      "中心"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Takamimusubi",
+    "nativeName": "高皇産霊",
+    "category": "古典",
+    "region": "造化三神",
+    "blurbJa": "高天原の産霊の神。皇統の源の一つ。",
+    "tags": [
+      "神",
+      "産霊",
+      "古典",
+      "天",
+      "皇"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Kamimusubi",
+    "nativeName": "神産霊",
+    "category": "古典",
+    "region": "造化三神",
+    "blurbJa": "神を産む産霊。出雲系とも結びつく。",
+    "tags": [
+      "神",
+      "産霊",
+      "出雲",
+      "古典",
+      "産"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Kuninotokotachi",
+    "nativeName": "国常立",
+    "category": "古典",
+    "region": "国の初め",
+    "blurbJa": "国の常に立つ神。大地の始まり。",
+    "tags": [
+      "神",
+      "国",
+      "始まり",
+      "古典",
+      "地"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Toyokumono",
+    "nativeName": "豊雲野",
+    "category": "古典",
+    "region": "雲の野",
+    "blurbJa": "豊かな雲の野の神。造化の早い世代。",
+    "tags": [
+      "神",
+      "雲",
+      "古典",
+      "始まり",
+      "野"
+    ],
+    "tone": "gentle",
+    "famousRank": 4
+  },
+  {
+    "name": "Ninigi",
+    "nativeName": "瓊瓊杵",
+    "category": "古典",
+    "region": "天孫降臨",
+    "blurbJa": "天孫。葦原に降り、花の姫をめとる。",
+    "tags": [
+      "神",
+      "降臨",
+      "古典",
+      "皇",
+      "山"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Yamasachihiko",
+    "nativeName": "山幸彦",
+    "category": "海",
+    "region": "山と海の幸",
+    "blurbJa": "山の猟の弟。海幸の釣り針を失い竜宮へ行く。",
+    "tags": [
+      "山",
+      "海",
+      "古典",
+      "兄弟",
+      "針"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Umisachihiko",
+    "nativeName": "海幸彦",
+    "category": "海",
+    "region": "海の幸",
+    "blurbJa": "海の漁の兄。針を貸して弟を追い込む。",
+    "tags": [
+      "海",
+      "漁",
+      "古典",
+      "兄弟",
+      "針"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Toyotama-hime",
+    "nativeName": "豊玉姫",
+    "category": "海",
+    "region": "海神の娘",
+    "blurbJa": "海神の娘。産屋を見られ竜に戻る。",
+    "tags": [
+      "海",
+      "姫",
+      "禁忌",
+      "古典",
+      "産"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Tamayori-hime",
+    "nativeName": "玉依姫",
+    "category": "海",
+    "region": "海と皇統",
+    "blurbJa": "豊玉の妹。残された子を育て皇統につなぐ。",
+    "tags": [
+      "海",
+      "姫",
+      "子",
+      "古典",
+      "皇"
+    ],
+    "tone": "gentle",
+    "famousRank": 3
+  },
+  {
+    "name": "Yamato-takeru",
+    "nativeName": "日本武尊",
+    "category": "死霊",
+    "region": "東征の路",
+    "blurbJa": "東征の皇子。草薙と白鳥の死。",
+    "tags": [
+      "戦い",
+      "旅",
+      "古典",
+      "剣",
+      "死"
+    ],
+    "tone": "tragic",
+    "famousRank": 1
+  },
+  {
+    "name": "Ototachibana-hime",
+    "nativeName": "弟橘姫",
+    "category": "海",
+    "region": "走水",
+    "blurbJa": "日本武尊の妃。荒海に身を投げて路を開く。",
+    "tags": [
+      "海",
+      "妃",
+      "犠牲",
+      "古典",
+      "東"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Jingu-kogo",
+    "nativeName": "神功皇后",
+    "category": "古典",
+    "region": "筑紫と海",
+    "blurbJa": "仲哀の后。海を越える征の話の人名。",
+    "tags": [
+      "海",
+      "后",
+      "古典",
+      "筑紫",
+      "戦"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Sumiyoshi",
+    "nativeName": "住吉神",
+    "category": "海",
+    "region": "住吉・航海",
+    "blurbJa": "航海の神。海の路を守る三柱。",
+    "tags": [
+      "海",
+      "航海",
+      "神",
+      "古典",
+      "護り"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Ichikishima-hime",
+    "nativeName": "市杵島姫",
+    "category": "海",
+    "region": "宗像",
+    "blurbJa": "宗像の一柱。島と海の市の神で、弁財天とも重ねられる。",
+    "tags": [
+      "海",
+      "島",
+      "神",
+      "古典",
+      "女"
+    ],
+    "tone": "gentle",
+    "famousRank": 3
+  },
+  {
+    "name": "Seoritsuhime",
+    "nativeName": "瀬織津姫",
+    "category": "水系",
+    "region": "祓の川",
+    "blurbJa": "祓の川の女神。罪を海へ流す。",
+    "tags": [
+      "祓",
+      "川",
+      "神",
+      "古典",
+      "水"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Kikurihime",
+    "nativeName": "菊理媛",
+    "category": "山系",
+    "region": "白山・黄泉の境",
+    "blurbJa": "黄泉の境で仲裁する女神。白山の祭神とも。",
+    "tags": [
+      "仲裁",
+      "黄泉",
+      "山",
+      "神",
+      "古典"
+    ],
+    "tone": "gentle",
+    "famousRank": 3
+  },
+  {
+    "name": "Hiruko",
+    "nativeName": "蛭子",
+    "category": "海",
+    "region": "流された子",
+    "blurbJa": "葦の舟で流される子。後に恵比寿と重ねる話もあるが、図鑑では別項。",
+    "tags": [
+      "子",
+      "海",
+      "始まり",
+      "古典",
+      "流"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Fukurokuju",
+    "nativeName": "福禄寿",
+    "category": "古典",
+    "region": "七福の長頭",
+    "blurbJa": "七福の一。長い頭の寿の神。",
+    "tags": [
+      "福",
+      "寿",
+      "神",
+      "入門",
+      "頭"
+    ],
+    "tone": "gentle",
+    "famousRank": 3
+  },
+  {
+    "name": "Jurojin",
+    "nativeName": "寿老人",
+    "category": "古典",
+    "region": "七福の鹿",
+    "blurbJa": "七福の一。鹿を連れた老人の寿。",
+    "tags": [
+      "福",
+      "寿",
+      "鹿",
+      "神",
+      "入門"
+    ],
+    "tone": "gentle",
+    "famousRank": 3
+  },
+  {
+    "name": "Kichijoten",
+    "nativeName": "吉祥天",
+    "category": "古典",
+    "region": "福の女神",
+    "blurbJa": "福と美の天女。寺の図像から民の福へ降りる。",
+    "tags": [
+      "福",
+      "女",
+      "仏",
+      "古典",
+      "美"
+    ],
+    "tone": "gentle",
+    "famousRank": 3
+  },
+  {
+    "name": "Enma",
+    "nativeName": "閻魔",
+    "category": "死霊",
+    "region": "冥府",
+    "blurbJa": "冥府の王。死者の帳を見る。",
+    "tags": [
+      "冥府",
+      "裁き",
+      "死",
+      "入門",
+      "帳"
+    ],
+    "tone": "solemn",
+    "famousRank": 1
+  },
+  {
+    "name": "Datsueba",
+    "nativeName": "奪衣婆",
+    "category": "死霊",
+    "region": "三途の川",
+    "blurbJa": "三途で衣を剥ぐ婆。岸の手続き。",
+    "tags": [
+      "婆",
+      "川",
+      "死",
+      "衣",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Jizo",
+    "nativeName": "地蔵",
+    "category": "道中",
+    "region": "道端と子",
+    "blurbJa": "道と子どもの地蔵。賽の河原の味方。",
+    "tags": [
+      "子ども",
+      "道",
+      "仏",
+      "護り",
+      "入門"
+    ],
+    "tone": "gentle",
+    "famousRank": 1
+  },
+  {
+    "name": "Fudo-myoo",
+    "nativeName": "不動明王",
+    "category": "鬼",
+    "region": "火の不動",
+    "blurbJa": "火に坐す明王。鬼に近い顔で魔を縛る。",
+    "tags": [
+      "火",
+      "仏",
+      "護り",
+      "剣",
+      "入門"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Yatagarasu",
+    "nativeName": "八咫烏",
+    "category": "予言",
+    "region": "熊野の案内",
+    "blurbJa": "三本足の案内烏。神武を導く。",
+    "tags": [
+      "烏",
+      "案内",
+      "神",
+      "古典",
+      "熊野"
+    ],
+    "tone": "mysterious",
+    "famousRank": 2
+  },
+  {
+    "name": "Konpira",
+    "nativeName": "金毘羅",
+    "category": "海",
+    "region": "航海と讃岐",
+    "blurbJa": "航海と漁の金毘羅。山の上から船を見る。",
+    "tags": [
+      "海",
+      "船",
+      "神",
+      "讃岐",
+      "護り"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Koshin",
+    "nativeName": "庚申",
+    "category": "町",
+    "region": "六十日の夜",
+    "blurbJa": "庚申の夜に虫を見張る講。青面金剛の顔。",
+    "tags": [
+      "虫",
+      "夜",
+      "講",
+      "町",
+      "仏"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Hachiman",
+    "nativeName": "八幡",
+    "category": "古典",
+    "region": "宇佐・石清水",
+    "blurbJa": "武の八幡。弓と国家の護り。",
+    "tags": [
+      "武",
+      "神",
+      "弓",
+      "古典",
+      "護り"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Kumano",
+    "nativeName": "熊野権現",
+    "category": "山系",
+    "region": "熊野三山",
+    "blurbJa": "熊野三山の権現。死と再生の参詣路。",
+    "tags": [
+      "山",
+      "参詣",
+      "神",
+      "再生",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Kushinadahime",
+    "nativeName": "奇稲田姫",
+    "category": "古典",
+    "region": "出雲の娘",
+    "blurbJa": "八岐大蛇の贄になりかけ、素戔嗚に救われる姫。",
+    "tags": [
+      "姫",
+      "蛇",
+      "出雲",
+      "古典",
+      "稲"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Amenosagume",
+    "nativeName": "天探女",
+    "category": "予言",
+    "region": "高天原の口",
+    "blurbJa": "天の探女。言葉で国譲りを動かす。",
+    "tags": [
+      "言葉",
+      "神",
+      "古典",
+      "予言",
+      "天"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Shiotsuchi-no-oji",
+    "nativeName": "塩土老翁",
+    "category": "海",
+    "region": "潮の翁",
+    "blurbJa": "潮の翁。山幸を竜宮へ案内する。",
+    "tags": [
+      "潮",
+      "案内",
+      "海",
+      "古典",
+      "翁"
+    ],
+    "tone": "gentle",
+    "famousRank": 4
+  },
+  {
+    "name": "Yoshitsune",
+    "nativeName": "源義経",
+    "category": "死霊",
+    "region": "平泉",
+    "blurbJa": "逃げた源氏の将。死が怨霊・天狗譚になる。",
+    "tags": [
+      "戦い",
+      "怨霊",
+      "古典",
+      "武",
+      "奥州"
+    ],
+    "tone": "tragic",
+    "famousRank": 1
+  },
+  {
+    "name": "Benkei",
+    "nativeName": "武蔵坊弁慶",
+    "category": "死霊",
+    "region": "五条の橋",
+    "blurbJa": "義経の僧兵。死んでも橋の職を捨てない。",
+    "tags": [
+      "僧",
+      "戦い",
+      "橋",
+      "古典",
+      "忠"
+    ],
+    "tone": "solemn",
+    "famousRank": 1
+  },
+  {
+    "name": "Taira-no-Kiyomori",
+    "nativeName": "平清盛",
+    "category": "死霊",
+    "region": "熱病の平家",
+    "blurbJa": "平家の棟梁。熱に浮かされ髑髏の目競を見る。",
+    "tags": [
+      "平家",
+      "熱",
+      "怨霊",
+      "古典",
+      "海"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Yoritomo",
+    "nativeName": "源頼朝",
+    "category": "死霊",
+    "region": "鎌倉",
+    "blurbJa": "鎌倉殿。武家の始祖として図鑑の端に座る。",
+    "tags": [
+      "武家",
+      "鎌倉",
+      "古典",
+      "将",
+      "海"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Hojo-Tokimasa",
+    "nativeName": "北条時政",
+    "category": "死霊",
+    "region": "鎌倉",
+    "blurbJa": "北条の祖。政と怨みの人名。",
+    "tags": [
+      "鎌倉",
+      "政",
+      "古典",
+      "武家",
+      "怨"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Sanetomo",
+    "nativeName": "源実朝",
+    "category": "死霊",
+    "region": "鎌倉の鶴岡",
+    "blurbJa": "暗殺された将軍。歌と刃の死。",
+    "tags": [
+      "鎌倉",
+      "歌",
+      "死",
+      "古典",
+      "将"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Taira-no-Atsumori",
+    "nativeName": "平敦盛",
+    "category": "死霊",
+    "region": "一ノ谷",
+    "blurbJa": "笛の平家の若武者。熊谷に討たれ能に残る。",
+    "tags": [
+      "笛",
+      "平家",
+      "若",
+      "古典",
+      "能"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Tengu-tsubute",
+    "nativeName": "天狗礫",
+    "category": "山系",
+    "region": "山中の空",
+    "blurbJa": "天狗が投げる石。晴天に礫が降る。",
+    "tags": [
+      "天狗",
+      "石",
+      "山",
+      "怖い",
+      "空"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Tengu-daoshi",
+    "nativeName": "天狗倒し",
+    "category": "山系",
+    "region": "夜の山",
+    "blurbJa": "天狗が木を倒す音。朝には傷一つない。",
+    "tags": [
+      "天狗",
+      "木",
+      "音",
+      "山",
+      "夜"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Tengu-kaze",
+    "nativeName": "天狗風",
+    "category": "気象",
+    "region": "山の突風",
+    "blurbJa": "天狗が起こす突風。峠で人を飛ばす。",
+    "tags": [
+      "天狗",
+      "風",
+      "山",
+      "怖い",
+      "峠"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Kinoko",
+    "nativeName": "木の子",
+    "category": "山系",
+    "region": "山の童",
+    "blurbJa": "山の童。山童に近い、木の間の子ども。",
+    "tags": [
+      "子ども",
+      "山",
+      "木",
+      "古典",
+      "童"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Kakashi",
+    "nativeName": "案山子",
+    "category": "田畑",
+    "region": "田の番人",
+    "blurbJa": "田の番人。夜に歩き、鳥以上のものを嚇す。",
+    "tags": [
+      "田畑",
+      "鳥",
+      "夜",
+      "護り",
+      "農村"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Inadama",
+    "nativeName": "稲魂",
+    "category": "田畑",
+    "region": "稲の霊",
+    "blurbJa": "稲の魂。刈り入れを誤ると家が痩せる。",
+    "tags": [
+      "稲",
+      "田畑",
+      "魂",
+      "収穫",
+      "護り"
+    ],
+    "tone": "gentle",
+    "famousRank": 3
+  },
+  {
+    "name": "Nae-gami",
+    "nativeName": "苗神",
+    "category": "田畑",
+    "region": "苗代",
+    "blurbJa": "苗の神。田植えの手順を見張る。",
+    "tags": [
+      "苗",
+      "田畑",
+      "神",
+      "手順",
+      "農村"
+    ],
+    "tone": "gentle",
+    "famousRank": 4
+  },
+  {
+    "name": "Sakugami",
+    "nativeName": "作神",
+    "category": "田畑",
+    "region": "作の神",
+    "blurbJa": "作柄を見る神。田の神の隣の職。",
+    "tags": [
+      "作",
+      "田畑",
+      "神",
+      "収穫",
+      "農村"
+    ],
+    "tone": "gentle",
+    "famousRank": 4
+  },
+  {
+    "name": "Kaiko-gami",
+    "nativeName": "蚕神",
+    "category": "田畑",
+    "region": "養蚕",
+    "blurbJa": "蚕の神。桑と糸の家を見張る。",
+    "tags": [
+      "蚕",
+      "糸",
+      "田畑",
+      "神",
+      "家"
+    ],
+    "tone": "gentle",
+    "famousRank": 4
+  },
+  {
+    "name": "Uma-gami",
+    "nativeName": "馬神",
+    "category": "田畑",
+    "region": "厩",
+    "blurbJa": "馬の神。厩の災を引き受ける。",
+    "tags": [
+      "馬",
+      "田畑",
+      "神",
+      "厩",
+      "護り"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Tenka",
+    "nativeName": "天火",
+    "category": "霊火",
+    "region": "空から",
+    "blurbJa": "空から落ちる火。家を焼く前触れとも。",
+    "tags": [
+      "火",
+      "空",
+      "怖い",
+      "前兆",
+      "天狗"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Koemon-tanuki",
+    "nativeName": "小右衛門狸",
+    "category": "狐狸",
+    "region": "阿波",
+    "blurbJa": "阿波の化け狸。金長・六右衛門と並ぶ名。",
+    "tags": [
+      "狸",
+      "阿波",
+      "変化",
+      "戦い",
+      "義"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
   }
 ]

@@ -10047,5 +10047,3074 @@
     "sources": [
       "Sukunabikona / Izumo"
     ]
+  },
+  {
+    "name": "Hanasaka-jiji",
+    "nativeName": "花咲か爺",
+    "region": "Ash and cherry trees",
+    "category": "古典",
+    "categoryEn": "Flower-blooming old man",
+    "summary": "The honest old man whose ashes make cherry trees bloom after a dog's kindness.",
+    "summaryJa": "犬の恩で灰が桜を咲かせる正直な爺。",
+    "legends": [
+      "The neighbour uses the same ash and grows thorns.",
+      "The honest old man whose ashes make cherry trees bloom after a dog's kindness."
+    ],
+    "traits": [
+      "入門",
+      "犬",
+      "桜"
+    ],
+    "motifs": [
+      "古典",
+      "入門",
+      "index"
+    ],
+    "funFact": "The neighbour uses the same ash and grows thorns.",
+    "funFactJa": "意地悪な隣人も同じ灰を使い、棘になる。",
+    "searchQuery": "花咲か爺 はなさかじじい 伝承",
+    "creativeHooks": [
+      "Keep 花咲か爺 as a job, not a costume.",
+      "A scene built around Hanasaka-jiji."
+    ],
+    "sources": [
+      "花咲か爺 / Hanasaka-jiji"
+    ]
+  },
+  {
+    "name": "Shitakiri-suzume",
+    "nativeName": "舌切り雀",
+    "region": "Sparrow and boxes",
+    "category": "古典",
+    "categoryEn": "Cut-tongue sparrow",
+    "summary": "The sparrow whose tongue is cut, then repays the kind with a small box.",
+    "summaryJa": "舌を切られた雀が、欲張らない者に小さな箱を返す。",
+    "legends": [
+      "The large box is a trap labelled greed.",
+      "The sparrow whose tongue is cut, then repays the kind with a small box."
+    ],
+    "traits": [
+      "雀",
+      "恩",
+      "禁忌"
+    ],
+    "motifs": [
+      "古典",
+      "雀",
+      "index"
+    ],
+    "funFact": "The large box is a trap labelled greed.",
+    "funFactJa": "大きな箱は欲のラベル。",
+    "searchQuery": "舌切り雀 したきりすずめ 伝承",
+    "creativeHooks": [
+      "Keep 舌切り雀 as a job, not a costume.",
+      "A scene built around Shitakiri-suzume."
+    ],
+    "sources": [
+      "舌切り雀 / Shitakiri-suzume"
+    ]
+  },
+  {
+    "name": "Kobutori-jiji",
+    "nativeName": "瘤取り爺",
+    "region": "Demons at a dance",
+    "category": "古典",
+    "categoryEn": "Lump-taking old man",
+    "summary": "Demons remove a kind man's lump at a dance; greed earns a second lump.",
+    "summaryJa": "鬼の宴で瘤を取られ、欲張った隣人が瘤を二つにする。",
+    "legends": [
+      "Do not request the same surgery.",
+      "Demons remove a kind man's lump at a dance; greed earns a second lump."
+    ],
+    "traits": [
+      "鬼",
+      "踊り",
+      "入門"
+    ],
+    "motifs": [
+      "古典",
+      "鬼",
+      "index"
+    ],
+    "funFact": "Do not request the same surgery.",
+    "funFactJa": "同じ手術を頼むな。",
+    "searchQuery": "瘤取り爺 こぶとりじじい 伝承",
+    "creativeHooks": [
+      "Keep 瘤取り爺 as a job, not a costume.",
+      "A scene built around Kobutori-jiji."
+    ],
+    "sources": [
+      "瘤取り爺 / Kobutori-jiji"
+    ]
+  },
+  {
+    "name": "Kachikachi-yama",
+    "nativeName": "かちかち山",
+    "region": "Tanuki, hare, fire",
+    "category": "狐狸",
+    "categoryEn": "Kachi-kachi mountain",
+    "summary": "A tanuki kills a grandmother; a hare takes revenge with fire and mud.",
+    "summaryJa": "狸が婆を殺し、兎が火と泥で討つ。",
+    "legends": [
+      "The raft is the last joke.",
+      "A tanuki kills a grandmother; a hare takes revenge with fire and mud."
+    ],
+    "traits": [
+      "狸",
+      "兎",
+      "復讐"
+    ],
+    "motifs": [
+      "狐狸",
+      "狸",
+      "index"
+    ],
+    "funFact": "The raft is the last joke.",
+    "funFactJa": "泥舟が最後の冗談。",
+    "searchQuery": "かちかち山 かちかちやま 伝承",
+    "creativeHooks": [
+      "Keep かちかち山 as a job, not a costume.",
+      "A scene built around Kachikachi-yama."
+    ],
+    "sources": [
+      "かちかち山 / Kachikachi-yama"
+    ]
+  },
+  {
+    "name": "Saru-kani",
+    "nativeName": "さるかに合戦",
+    "region": "Crab's allies",
+    "category": "古典",
+    "categoryEn": "Monkey-crab battle",
+    "summary": "A monkey steals persimmons; a crab's household tools take revenge.",
+    "summaryJa": "柿を奪った猿を、蟹の仲間が討つ。",
+    "legends": [
+      "The mortar and bee are the army.",
+      "A monkey steals persimmons; a crab's household tools take revenge."
+    ],
+    "traits": [
+      "蟹",
+      "猿",
+      "復讐"
+    ],
+    "motifs": [
+      "古典",
+      "蟹",
+      "index"
+    ],
+    "funFact": "The mortar and bee are the army.",
+    "funFactJa": "臼と蜂が軍勢。",
+    "searchQuery": "さるかに合戦 さるかにがっせん 伝承",
+    "creativeHooks": [
+      "Keep さるかに合戦 as a job, not a costume.",
+      "A scene built around Saru-kani."
+    ],
+    "sources": [
+      "さるかに合戦 / Saru-kani"
+    ]
+  },
+  {
+    "name": "Warashibe-choja",
+    "nativeName": "わらしべ長者",
+    "region": "Straw to fortune",
+    "category": "古典",
+    "categoryEn": "Straw millionaire",
+    "summary": "A man trades a straw up a chain of luck until he is rich.",
+    "summaryJa": "藁しべから交換を重ねて長者になる。",
+    "legends": [
+      "The yokai is compound interest.",
+      "A man trades a straw up a chain of luck until he is rich."
+    ],
+    "traits": [
+      "藁",
+      "交換",
+      "福"
+    ],
+    "motifs": [
+      "古典",
+      "藁",
+      "index"
+    ],
+    "funFact": "The yokai is compound interest.",
+    "funFactJa": "妖怪は複利。",
+    "searchQuery": "わらしべ長者 わらしべちょうじゃ 伝承",
+    "creativeHooks": [
+      "Keep わらしべ長者 as a job, not a costume.",
+      "A scene built around Warashibe-choja."
+    ],
+    "sources": [
+      "わらしべ長者 / Warashibe-choja"
+    ]
+  },
+  {
+    "name": "Hachikazuki",
+    "nativeName": "鉢かづき",
+    "region": "Bowl on a daughter",
+    "category": "古典",
+    "categoryEn": "Bowl-wearer",
+    "summary": "A princess serving with a bowl locked over her face until the bowl breaks.",
+    "summaryJa": "鉢を被せられた姫が、正体を隠して仕える。",
+    "legends": [
+      "The helmet is a family curse.",
+      "A princess serving with a bowl locked over her face until the bowl breaks."
+    ],
+    "traits": [
+      "姫",
+      "禁忌",
+      "古典"
+    ],
+    "motifs": [
+      "古典",
+      "姫",
+      "index"
+    ],
+    "funFact": "The helmet is a family curse.",
+    "funFactJa": "鉢は家の呪い。",
+    "searchQuery": "鉢かづき はちかづき 伝承",
+    "creativeHooks": [
+      "Keep 鉢かづき as a job, not a costume.",
+      "A scene built around Hachikazuki."
+    ],
+    "sources": [
+      "鉢かづき / Hachikazuki"
+    ]
+  },
+  {
+    "name": "Urikohime",
+    "nativeName": "瓜子姫",
+    "region": "Melon child",
+    "category": "古典",
+    "categoryEn": "Melon princess",
+    "summary": "A girl born from a melon, hunted by oni or amanojaku in the house.",
+    "summaryJa": "瓜から生まれた姫。鬼や天邪鬼に狙われる。",
+    "legends": [
+      "Do not leave her alone with the door.",
+      "A girl born from a melon, hunted by oni or amanojaku in the house."
+    ],
+    "traits": [
+      "姫",
+      "瓜",
+      "鬼"
+    ],
+    "motifs": [
+      "古典",
+      "姫",
+      "index"
+    ],
+    "funFact": "Do not leave her alone with the door.",
+    "funFactJa": "戸の前に一人で置くな。",
+    "searchQuery": "瓜子姫 うりこひめ 伝承",
+    "creativeHooks": [
+      "Keep 瓜子姫 as a job, not a costume.",
+      "A scene built around Urikohime."
+    ],
+    "sources": [
+      "瓜子姫 / Urikohime"
+    ]
+  },
+  {
+    "name": "Hagoromo",
+    "nativeName": "羽衣",
+    "region": "Feather mantle",
+    "category": "古典",
+    "categoryEn": "Feather robe",
+    "summary": "A fisherman hides a celestial woman's robe; dance is the rent, return is the end.",
+    "summaryJa": "天女の羽衣を隠した漁夫。舞いと帰還の話。",
+    "legends": [
+      "The souvenir is a kidnapping.",
+      "A fisherman hides a celestial woman's robe; dance is the rent, return is the end."
+    ],
+    "traits": [
+      "天女",
+      "衣",
+      "入門"
+    ],
+    "motifs": [
+      "古典",
+      "天女",
+      "index"
+    ],
+    "funFact": "The souvenir is a kidnapping.",
+    "funFactJa": "土産は拉致。",
+    "searchQuery": "羽衣 はごろも 伝承",
+    "creativeHooks": [
+      "Keep 羽衣 as a job, not a costume.",
+      "A scene built around Hagoromo."
+    ],
+    "sources": [
+      "羽衣 / Hagoromo"
+    ]
+  },
+  {
+    "name": "Inaba-no-shirousagi",
+    "nativeName": "因幡の白兎",
+    "region": "White hare of Inaba",
+    "category": "古典",
+    "categoryEn": "White hare of Inaba",
+    "summary": "The hare flayed by wani and healed by Okuninushi.",
+    "summaryJa": "鰐に皮を剥がれ、大国主に救われる兎。",
+    "legends": [
+      "Medical advice is the myth.",
+      "The hare flayed by wani and healed by Okuninushi."
+    ],
+    "traits": [
+      "兎",
+      "海",
+      "恩"
+    ],
+    "motifs": [
+      "古典",
+      "兎",
+      "index"
+    ],
+    "funFact": "Medical advice is the myth.",
+    "funFactJa": "医療助言が神話。",
+    "searchQuery": "因幡の白兎 いなばのしろうさぎ 伝承",
+    "creativeHooks": [
+      "Keep 因幡の白兎 as a job, not a costume.",
+      "A scene built around Inaba-no-shirousagi."
+    ],
+    "sources": [
+      "因幡の白兎 / Inaba-no-shirousagi"
+    ]
+  },
+  {
+    "name": "Anju",
+    "nativeName": "安寿",
+    "region": "Anju of Sansho",
+    "category": "死霊",
+    "categoryEn": "Anju",
+    "summary": "The sister who frees her brother from slave-dealers and dies at a well.",
+    "summaryJa": "人買いから逃げる姉。弟を逃がし、井戸に入る。",
+    "legends": [
+      "The well keeps the name.",
+      "The sister who frees her brother from slave-dealers and dies at a well."
+    ],
+    "traits": [
+      "姉",
+      "悲劇",
+      "古典"
+    ],
+    "motifs": [
+      "死霊",
+      "姉",
+      "index"
+    ],
+    "funFact": "The well keeps the name.",
+    "funFactJa": "井戸が名を残す。",
+    "searchQuery": "安寿 あんじゅ 伝承",
+    "creativeHooks": [
+      "Keep 安寿 as a job, not a costume.",
+      "A scene built around Anju."
+    ],
+    "sources": [
+      "安寿 / Anju"
+    ]
+  },
+  {
+    "name": "Sansho-dayu",
+    "nativeName": "山椒大夫",
+    "region": "Sansho the bailiff",
+    "category": "死霊",
+    "categoryEn": "Sansho the bailiff",
+    "summary": "The slave-owning steward in the Anju cycle; cruelty with a job title.",
+    "summaryJa": "人買いの親方。安寿と厨子王の敵役。",
+    "legends": [
+      "HR for a plantation.",
+      "The slave-owning steward in the Anju cycle; cruelty with a job title."
+    ],
+    "traits": [
+      "人買い",
+      "古典",
+      "悲劇"
+    ],
+    "motifs": [
+      "死霊",
+      "人買い",
+      "index"
+    ],
+    "funFact": "HR for a plantation.",
+    "funFactJa": "荘園の人事。",
+    "searchQuery": "山椒大夫 さんしょうだゆう 伝承",
+    "creativeHooks": [
+      "Keep 山椒大夫 as a job, not a costume.",
+      "A scene built around Sansho-dayu."
+    ],
+    "sources": [
+      "山椒大夫 / Sansho-dayu"
+    ]
+  },
+  {
+    "name": "Ono-no-Komachi",
+    "nativeName": "小野小町",
+    "region": "Komachi",
+    "category": "死霊",
+    "categoryEn": "Ono no Komachi",
+    "summary": "The peerless poet whose old age and skull stories sit on the yokai shelf.",
+    "summaryJa": "絶世の歌人。老いと髑髏の伝承が図鑑に残る。",
+    "legends": [
+      "Beauty has a late form.",
+      "The peerless poet whose old age and skull stories sit on the yokai shelf."
+    ],
+    "traits": [
+      "歌",
+      "女",
+      "京"
+    ],
+    "motifs": [
+      "死霊",
+      "歌",
+      "index"
+    ],
+    "funFact": "Beauty has a late form.",
+    "funFactJa": "美貌には晩年がある。",
+    "searchQuery": "小野小町 おののこまち 伝承",
+    "creativeHooks": [
+      "Keep 小野小町 as a job, not a costume.",
+      "A scene built around Ono-no-Komachi."
+    ],
+    "sources": [
+      "小野小町 / Ono-no-Komachi"
+    ]
+  },
+  {
+    "name": "Oguri-hangan",
+    "nativeName": "小栗判官",
+    "region": "Oguri Hangan",
+    "category": "死霊",
+    "categoryEn": "Oguri Hangan",
+    "summary": "A warrior poisoned, then carted to Kumano and restored.",
+    "summaryJa": "毒に倒れ熊野で蘇生する武者。車に乗った死者。",
+    "legends": [
+      "The wheelchair is a pilgrimage.",
+      "A warrior poisoned, then carted to Kumano and restored."
+    ],
+    "traits": [
+      "再生",
+      "熊野",
+      "車"
+    ],
+    "motifs": [
+      "死霊",
+      "再生",
+      "index"
+    ],
+    "funFact": "The wheelchair is a pilgrimage.",
+    "funFactJa": "車は参詣。",
+    "searchQuery": "小栗判官 おぐりはんがん 伝承",
+    "creativeHooks": [
+      "Keep 小栗判官 as a job, not a costume.",
+      "A scene built around Oguri-hangan."
+    ],
+    "sources": [
+      "小栗判官 / Oguri-hangan"
+    ]
+  },
+  {
+    "name": "Shizuka-gozen",
+    "nativeName": "静御前",
+    "region": "Shizuka Gozen",
+    "category": "死霊",
+    "categoryEn": "Shizuka Gozen",
+    "summary": "Yoshitsune's shirabyoshi; dance, a child, and Kamakura's verdict.",
+    "summaryJa": "義経の白拍子。舞と子と、鎌倉の裁き。",
+    "legends": [
+      "The encore is a trial.",
+      "Yoshitsune's shirabyoshi; dance, a child, and Kamakura's verdict."
+    ],
+    "traits": [
+      "舞",
+      "女",
+      "義経"
+    ],
+    "motifs": [
+      "死霊",
+      "舞",
+      "index"
+    ],
+    "funFact": "The encore is a trial.",
+    "funFactJa": "アンコールが裁判。",
+    "searchQuery": "静御前 しずかごぜん 伝承",
+    "creativeHooks": [
+      "Keep 静御前 as a job, not a costume.",
+      "A scene built around Shizuka-gozen."
+    ],
+    "sources": [
+      "静御前 / Shizuka-gozen"
+    ]
+  },
+  {
+    "name": "Tomoe-gozen",
+    "nativeName": "巴御前",
+    "region": "Tomoe Gozen",
+    "category": "死霊",
+    "categoryEn": "Tomoe Gozen",
+    "summary": "Kiso Yoshinaka's woman warrior; she takes a head and leaves the field.",
+    "summaryJa": "木曾義仲の女武者。首を取って去る話。",
+    "legends": [
+      "The last employee to clock out.",
+      "Kiso Yoshinaka's woman warrior; she takes a head and leaves the field."
+    ],
+    "traits": [
+      "戦い",
+      "女",
+      "武"
+    ],
+    "motifs": [
+      "死霊",
+      "戦い",
+      "index"
+    ],
+    "funFact": "The last employee to clock out.",
+    "funFactJa": "最後に退勤する者。",
+    "searchQuery": "巴御前 ともえごぜん 伝承",
+    "creativeHooks": [
+      "Keep 巴御前 as a job, not a costume.",
+      "A scene built around Tomoe-gozen."
+    ],
+    "sources": [
+      "巴御前 / Tomoe-gozen"
+    ]
+  },
+  {
+    "name": "Antoku-tenno",
+    "nativeName": "安徳天皇",
+    "region": "Emperor Antoku",
+    "category": "海",
+    "categoryEn": "Emperor Antoku",
+    "summary": "The child emperor who enters the sea at Dan-no-ura with the Taira dead.",
+    "summaryJa": "幼帝。壇ノ浦で海に入り、平家の死を背負う。",
+    "legends": [
+      "A throne that is a drowning.",
+      "The child emperor who enters the sea at Dan-no-ura with the Taira dead."
+    ],
+    "traits": [
+      "平家",
+      "海",
+      "子ども"
+    ],
+    "motifs": [
+      "海",
+      "平家",
+      "index"
+    ],
+    "funFact": "A throne that is a drowning.",
+    "funFactJa": "玉座が溺水。",
+    "searchQuery": "安徳天皇 あんとくてんのう 伝承",
+    "creativeHooks": [
+      "Keep 安徳天皇 as a job, not a costume.",
+      "A scene built around Antoku-tenno."
+    ],
+    "sources": [
+      "安徳天皇 / Antoku-tenno"
+    ]
+  },
+  {
+    "name": "Taira-no-Tomomori",
+    "nativeName": "平知盛",
+    "region": "Taira no Tomomori",
+    "category": "海",
+    "categoryEn": "Taira no Tomomori",
+    "summary": "The Taira general who sinks with an anchor and returns as a ghost in noh.",
+    "summaryJa": "錨を負って海に入り、能の幽霊になる平家の将。",
+    "legends": [
+      "The costume is ballast.",
+      "The Taira general who sinks with an anchor and returns as a ghost in noh."
+    ],
+    "traits": [
+      "平家",
+      "海",
+      "錨"
+    ],
+    "motifs": [
+      "海",
+      "平家",
+      "index"
+    ],
+    "funFact": "The costume is ballast.",
+    "funFactJa": "衣装は圧艙。",
+    "searchQuery": "平知盛 たいらのとももり 伝承",
+    "creativeHooks": [
+      "Keep 平知盛 as a job, not a costume.",
+      "A scene built around Taira-no-Tomomori."
+    ],
+    "sources": [
+      "平知盛 / Taira-no-Tomomori"
+    ]
+  },
+  {
+    "name": "Sakanoue-no-Tamuramaro",
+    "nativeName": "坂上田村麻呂",
+    "region": "Tamuramaro",
+    "category": "鬼",
+    "categoryEn": "Sakanoue no Tamuramaro",
+    "summary": "The sei-i general whose name staffs Suzuka and Otake-maru raids.",
+    "summaryJa": "征夷大将軍。鈴鹿や大嶽丸と組む鬼退治の人名。",
+    "legends": [
+      "HR for the frontier.",
+      "The sei-i general whose name staffs Suzuka and Otake-maru raids."
+    ],
+    "traits": [
+      "鬼",
+      "戦い",
+      "東北"
+    ],
+    "motifs": [
+      "鬼",
+      "鬼",
+      "index"
+    ],
+    "funFact": "HR for the frontier.",
+    "funFactJa": "辺境の人事。",
+    "searchQuery": "坂上田村麻呂 さかのうえのたむらまろ 伝承",
+    "creativeHooks": [
+      "Keep 坂上田村麻呂 as a job, not a costume.",
+      "A scene built around Sakanoue-no-Tamuramaro."
+    ],
+    "sources": [
+      "坂上田村麻呂 / Sakanoue-no-Tamuramaro"
+    ]
+  },
+  {
+    "name": "Otake-maru",
+    "nativeName": "大嶽丸",
+    "region": "Otake-maru",
+    "category": "鬼",
+    "categoryEn": "Otake-maru",
+    "summary": "A great oni Tamuramaro fights; Suzuka's counterpart as mountain bandit-god.",
+    "summaryJa": "田村が討つ大鬼。鈴鹿御前と対になる山の賊。",
+    "legends": [
+      "The other company on the ridge.",
+      "A great oni Tamuramaro fights; Suzuka's counterpart as mountain bandit-god."
+    ],
+    "traits": [
+      "鬼",
+      "山",
+      "戦い"
+    ],
+    "motifs": [
+      "鬼",
+      "鬼",
+      "index"
+    ],
+    "funFact": "The other company on the ridge.",
+    "funFactJa": "尾根の相手会社。",
+    "searchQuery": "大嶽丸 おおたけまる 伝承",
+    "creativeHooks": [
+      "Keep 大嶽丸 as a job, not a costume.",
+      "A scene built around Otake-maru."
+    ],
+    "sources": [
+      "大嶽丸 / Otake-maru"
+    ]
+  },
+  {
+    "name": "Ashiya-Doman",
+    "nativeName": "蘆屋道満",
+    "region": "Ashiya Doman",
+    "category": "憑きもの",
+    "categoryEn": "Ashiya Doman",
+    "summary": "Seimei's rival onmyoji; contests of shikigami and curse.",
+    "summaryJa": "晴明のライバル陰陽師。式の競べと呪いの人名。",
+    "legends": [
+      "The other vendor in the capital.",
+      "Seimei's rival onmyoji; contests of shikigami and curse."
+    ],
+    "traits": [
+      "陰陽",
+      "呪い",
+      "古典"
+    ],
+    "motifs": [
+      "憑きもの",
+      "陰陽",
+      "index"
+    ],
+    "funFact": "The other vendor in the capital.",
+    "funFactJa": "都の別ベンダー。",
+    "searchQuery": "蘆屋道満 あしやどうまん 伝承",
+    "creativeHooks": [
+      "Keep 蘆屋道満 as a job, not a costume.",
+      "A scene built around Ashiya-Doman."
+    ],
+    "sources": [
+      "蘆屋道満 / Ashiya-Doman"
+    ]
+  },
+  {
+    "name": "Kiichi-hogen",
+    "nativeName": "鬼一法眼",
+    "region": "Kiichi Hogen",
+    "category": "古典",
+    "categoryEn": "Kiichi Hogen",
+    "summary": "The strategy master whose scroll reaches Yoshitsune.",
+    "summaryJa": "兵法の翁。義経に巻物を渡す話の師。",
+    "legends": [
+      "IP theft as coming-of-age.",
+      "The strategy master whose scroll reaches Yoshitsune."
+    ],
+    "traits": [
+      "兵法",
+      "義経",
+      "古典"
+    ],
+    "motifs": [
+      "古典",
+      "兵法",
+      "index"
+    ],
+    "funFact": "IP theft as coming-of-age.",
+    "funFactJa": "知財の盗みが成長譚。",
+    "searchQuery": "鬼一法眼 きいちほうげん 伝承",
+    "creativeHooks": [
+      "Keep 鬼一法眼 as a job, not a costume.",
+      "A scene built around Kiichi-hogen."
+    ],
+    "sources": [
+      "鬼一法眼 / Kiichi-hogen"
+    ]
+  },
+  {
+    "name": "Minamoto-no-Yoshiie",
+    "nativeName": "源義家",
+    "region": "Hachiman Taro Yoshiie",
+    "category": "死霊",
+    "categoryEn": "Minamoto no Yoshiie",
+    "summary": "Hachiman Taro; the Mutsu wars, later a martial name near a kami.",
+    "summaryJa": "八幡太郎。奥州の戦と、後に神に近い武の名。",
+    "legends": [
+      "A brand that is a shrine.",
+      "Hachiman Taro; the Mutsu wars, later a martial name near a kami."
+    ],
+    "traits": [
+      "戦い",
+      "東北",
+      "古典"
+    ],
+    "motifs": [
+      "死霊",
+      "戦い",
+      "index"
+    ],
+    "funFact": "A brand that is a shrine.",
+    "funFactJa": "ブランドが神社。",
+    "searchQuery": "源義家 みなもとのよしいえ 伝承",
+    "creativeHooks": [
+      "Keep 源義家 as a job, not a costume.",
+      "A scene built around Minamoto-no-Yoshiie."
+    ],
+    "sources": [
+      "源義家 / Minamoto-no-Yoshiie"
+    ]
+  },
+  {
+    "name": "Minamoto-no-Tametomo",
+    "nativeName": "源為朝",
+    "region": "Minamoto no Tametomo",
+    "category": "死霊",
+    "categoryEn": "Minamoto no Tametomo",
+    "summary": "The strong-bow Minamoto, exiled, later written into Ryukyu origin tales.",
+    "summaryJa": "強弓の源氏。流され、琉球始祖譚にも乗る。",
+    "legends": [
+      "Exile as franchise expansion.",
+      "The strong-bow Minamoto, exiled, later written into Ryukyu origin tales."
+    ],
+    "traits": [
+      "弓",
+      "流罪",
+      "古典"
+    ],
+    "motifs": [
+      "死霊",
+      "弓",
+      "index"
+    ],
+    "funFact": "Exile as franchise expansion.",
+    "funFactJa": "流罪がフランチャイズ。",
+    "searchQuery": "源為朝 みなもとのためとも 伝承",
+    "creativeHooks": [
+      "Keep 源為朝 as a job, not a costume.",
+      "A scene built around Minamoto-no-Tametomo."
+    ],
+    "sources": [
+      "源為朝 / Minamoto-no-Tametomo"
+    ]
+  },
+  {
+    "name": "Urabe-no-Suetake",
+    "nativeName": "卜部季武",
+    "region": "Urabe no Suetake",
+    "category": "鬼",
+    "categoryEn": "Urabe no Suetake",
+    "summary": "One of Yorimitsu's four kings; walks the Tsuchigumo raid.",
+    "summaryJa": "頼光四天王の一人。土蜘蛛譚の同行者。",
+    "legends": [
+      "A name on the raid roster.",
+      "One of Yorimitsu's four kings; walks the Tsuchigumo raid."
+    ],
+    "traits": [
+      "鬼",
+      "戦い",
+      "古典"
+    ],
+    "motifs": [
+      "鬼",
+      "鬼",
+      "index"
+    ],
+    "funFact": "A name on the raid roster.",
+    "funFactJa": "討伐名簿の人名。",
+    "searchQuery": "卜部季武 うらべのすえたけ 伝承",
+    "creativeHooks": [
+      "Keep 卜部季武 as a job, not a costume.",
+      "A scene built around Urabe-no-Suetake."
+    ],
+    "sources": [
+      "卜部季武 / Urabe-no-Suetake"
+    ]
+  },
+  {
+    "name": "Usui-no-Sadamitsu",
+    "nativeName": "碓井貞光",
+    "region": "Usui no Sadamitsu",
+    "category": "鬼",
+    "categoryEn": "Usui no Sadamitsu",
+    "summary": "One of Yorimitsu's four kings on the Shuten-doji raid.",
+    "summaryJa": "頼光四天王の一人。酒呑童子討伐の同行。",
+    "legends": [
+      "Operations staff, not the logo.",
+      "One of Yorimitsu's four kings on the Shuten-doji raid."
+    ],
+    "traits": [
+      "鬼",
+      "戦い",
+      "古典"
+    ],
+    "motifs": [
+      "鬼",
+      "鬼",
+      "index"
+    ],
+    "funFact": "Operations staff, not the logo.",
+    "funFactJa": "ロゴではなく現場。",
+    "searchQuery": "碓井貞光 うすいのさだみつ 伝承",
+    "creativeHooks": [
+      "Keep 碓井貞光 as a job, not a costume.",
+      "A scene built around Usui-no-Sadamitsu."
+    ],
+    "sources": [
+      "碓井貞光 / Usui-no-Sadamitsu"
+    ]
+  },
+  {
+    "name": "Fujiwara-no-Yasumasa",
+    "nativeName": "藤原保昌",
+    "region": "Fujiwara no Yasumasa",
+    "category": "死霊",
+    "categoryEn": "Fujiwara no Yasumasa",
+    "summary": "The flute-playing warrior who turns a bandit with a tune.",
+    "summaryJa": "笛の武者。盗賊を笛で従える話。",
+    "legends": [
+      "Security by concert.",
+      "The flute-playing warrior who turns a bandit with a tune."
+    ],
+    "traits": [
+      "笛",
+      "盗賊",
+      "京"
+    ],
+    "motifs": [
+      "死霊",
+      "笛",
+      "index"
+    ],
+    "funFact": "Security by concert.",
+    "funFactJa": "演奏が警備。",
+    "searchQuery": "藤原保昌 ふじわらのやすまさ 伝承",
+    "creativeHooks": [
+      "Keep 藤原保昌 as a job, not a costume.",
+      "A scene built around Fujiwara-no-Yasumasa."
+    ],
+    "sources": [
+      "藤原保昌 / Fujiwara-no-Yasumasa"
+    ]
+  },
+  {
+    "name": "Yaoya-Oshichi",
+    "nativeName": "八百屋お七",
+    "region": "Yaoya Oshichi",
+    "category": "死霊",
+    "categoryEn": "Yaoya Oshichi",
+    "summary": "The greengrocer's daughter who sets a fire for love; a city-legend ancestor of arson tales.",
+    "summaryJa": "恋のために火を出した娘。火罪の話の人名。",
+    "legends": [
+      "A dating strategy that burns the ward.",
+      "The greengrocer's daughter who sets a fire for love; a city-legend ancestor of arson tales."
+    ],
+    "traits": [
+      "火",
+      "恋",
+      "江戸"
+    ],
+    "motifs": [
+      "死霊",
+      "火",
+      "index"
+    ],
+    "funFact": "A dating strategy that burns the ward.",
+    "funFactJa": "デート戦略が町を焼く。",
+    "searchQuery": "八百屋お七 やおやおしち 伝承",
+    "creativeHooks": [
+      "Keep 八百屋お七 as a job, not a costume.",
+      "A scene built around Yaoya-Oshichi."
+    ],
+    "sources": [
+      "八百屋お七 / Yaoya-Oshichi"
+    ]
+  },
+  {
+    "name": "Tokiwa-gozen",
+    "nativeName": "常盤御前",
+    "region": "Tokiwa Gozen",
+    "category": "死霊",
+    "categoryEn": "Tokiwa Gozen",
+    "summary": "Yoshitsune's mother; the snow-flight with children that painters never drop.",
+    "summaryJa": "義経の母。雪中に子を連れて逃げる絵の人名。",
+    "legends": [
+      "A refugee as icon.",
+      "Yoshitsune's mother; the snow-flight with children that painters never drop."
+    ],
+    "traits": [
+      "母",
+      "雪",
+      "義経"
+    ],
+    "motifs": [
+      "死霊",
+      "母",
+      "index"
+    ],
+    "funFact": "A refugee as icon.",
+    "funFactJa": "避難がアイコン。",
+    "searchQuery": "常盤御前 ときわごぜん 伝承",
+    "creativeHooks": [
+      "Keep 常盤御前 as a job, not a costume.",
+      "A scene built around Tokiwa-gozen."
+    ],
+    "sources": [
+      "常盤御前 / Tokiwa-gozen"
+    ]
+  },
+  {
+    "name": "Kenreimon-in",
+    "nativeName": "建礼門院",
+    "region": "Kenreimon-in",
+    "category": "死霊",
+    "categoryEn": "Kenreimon-in",
+    "summary": "Antoku's mother, pulled from the sea to narrate the Taira end.",
+    "summaryJa": "安徳の母。海から引き上げられ、仏の側で語る。",
+    "legends": [
+      "The survivor is the archive.",
+      "Antoku's mother, pulled from the sea to narrate the Taira end."
+    ],
+    "traits": [
+      "平家",
+      "母",
+      "海"
+    ],
+    "motifs": [
+      "死霊",
+      "平家",
+      "index"
+    ],
+    "funFact": "The survivor is the archive.",
+    "funFactJa": "生存者が文書。",
+    "searchQuery": "建礼門院 けんれいもんいん 伝承",
+    "creativeHooks": [
+      "Keep 建礼門院 as a job, not a costume.",
+      "A scene built around Kenreimon-in."
+    ],
+    "sources": [
+      "建礼門院 / Kenreimon-in"
+    ]
+  },
+  {
+    "name": "Izanagi",
+    "nativeName": "伊邪那岐",
+    "region": "The Yomi border",
+    "category": "古典",
+    "categoryEn": "Izanagi",
+    "summary": "The father kami who flees Yomi and begets gods by purification.",
+    "summaryJa": "黄泉から逃げ、禊で神々を生む。",
+    "legends": [
+      "Divorce founds hygiene.",
+      "The father kami who flees Yomi and begets gods by purification."
+    ],
+    "traits": [
+      "神",
+      "黄泉",
+      "禊"
+    ],
+    "motifs": [
+      "古典",
+      "神",
+      "index"
+    ],
+    "funFact": "Divorce founds hygiene.",
+    "funFactJa": "離婚が衛生を創る。",
+    "searchQuery": "伊邪那岐 いざなぎ 伝承",
+    "creativeHooks": [
+      "Keep 伊邪那岐 as a job, not a costume.",
+      "A scene built around Izanagi."
+    ],
+    "sources": [
+      "伊邪那岐 / Izanagi"
+    ]
+  },
+  {
+    "name": "Amaterasu",
+    "nativeName": "天照",
+    "region": "The sun cave",
+    "category": "古典",
+    "categoryEn": "Amaterasu",
+    "summary": "The sun kami who hides in a cave and darkens the world.",
+    "summaryJa": "日の神。岩戸に隠れ、世界が闇になる。",
+    "legends": [
+      "A strike that is cosmology.",
+      "The sun kami who hides in a cave and darkens the world."
+    ],
+    "traits": [
+      "太陽",
+      "神",
+      "岩戸"
+    ],
+    "motifs": [
+      "古典",
+      "太陽",
+      "index"
+    ],
+    "funFact": "A strike that is cosmology.",
+    "funFactJa": "ストライキが宇宙論。",
+    "searchQuery": "天照 あまてらす 伝承",
+    "creativeHooks": [
+      "Keep 天照 as a job, not a costume.",
+      "A scene built around Amaterasu."
+    ],
+    "sources": [
+      "天照 / Amaterasu"
+    ]
+  },
+  {
+    "name": "Tsukuyomi",
+    "nativeName": "月読",
+    "region": "Moon kami",
+    "category": "古典",
+    "categoryEn": "Tsukuyomi",
+    "summary": "The moon kami who slays the food kami and splits day from night.",
+    "summaryJa": "月の神。食事の神を斬り、昼夜が分かれる。",
+    "legends": [
+      "Table manners as astronomy.",
+      "The moon kami who slays the food kami and splits day from night."
+    ],
+    "traits": [
+      "月",
+      "夜",
+      "神"
+    ],
+    "motifs": [
+      "古典",
+      "月",
+      "index"
+    ],
+    "funFact": "Table manners as astronomy.",
+    "funFactJa": "食卓作法が天文学。",
+    "searchQuery": "月読 つくよみ 伝承",
+    "creativeHooks": [
+      "Keep 月読 as a job, not a costume.",
+      "A scene built around Tsukuyomi."
+    ],
+    "sources": [
+      "月読 / Tsukuyomi"
+    ]
+  },
+  {
+    "name": "Okuninushi",
+    "nativeName": "大国主",
+    "region": "Izumo land-builder",
+    "category": "古典",
+    "categoryEn": "Okuninushi",
+    "summary": "The land-building kami of Izumo who aids the white hare.",
+    "summaryJa": "出雲の国造り。白兎を助け、少彦名と組む。",
+    "legends": [
+      "A startup with a hare as the pitch.",
+      "The land-building kami of Izumo who aids the white hare."
+    ],
+    "traits": [
+      "神",
+      "出雲",
+      "兎"
+    ],
+    "motifs": [
+      "古典",
+      "神",
+      "index"
+    ],
+    "funFact": "A startup with a hare as the pitch.",
+    "funFactJa": "兎がピッチ資料。",
+    "searchQuery": "大国主 おおくにぬし 伝承",
+    "creativeHooks": [
+      "Keep 大国主 as a job, not a costume.",
+      "A scene built around Okuninushi."
+    ],
+    "sources": [
+      "大国主 / Okuninushi"
+    ]
+  },
+  {
+    "name": "Konohanasakuya-hime",
+    "nativeName": "木花咲耶姫",
+    "region": "Blossom and fire-birth",
+    "category": "山系",
+    "categoryEn": "Konohanasakuya",
+    "summary": "The blossom kami who proves a birth in fire, linked to Fuji.",
+    "summaryJa": "花の神。一夜の産を火で証明し、富士と結びつく。",
+    "legends": [
+      "A maternity ward that is a volcano.",
+      "The blossom kami who proves a birth in fire, linked to Fuji."
+    ],
+    "traits": [
+      "花",
+      "富士",
+      "火"
+    ],
+    "motifs": [
+      "山系",
+      "花",
+      "index"
+    ],
+    "funFact": "A maternity ward that is a volcano.",
+    "funFactJa": "産院が火山。",
+    "searchQuery": "木花咲耶姫 このはなさくやひめ 伝承",
+    "creativeHooks": [
+      "Keep 木花咲耶姫 as a job, not a costume.",
+      "A scene built around Konohanasakuya-hime."
+    ],
+    "sources": [
+      "木花咲耶姫 / Konohanasakuya-hime"
+    ]
+  },
+  {
+    "name": "Ame-no-Uzume",
+    "nativeName": "天宇受売",
+    "region": "Dance at the cave",
+    "category": "古典",
+    "categoryEn": "Ame-no-Uzume",
+    "summary": "The dancing kami whose laugh draws Amaterasu from the cave.",
+    "summaryJa": "岩戸の前で踊り、笑いで日を戻す。",
+    "legends": [
+      "Comedy as infrastructure.",
+      "The dancing kami whose laugh draws Amaterasu from the cave."
+    ],
+    "traits": [
+      "踊り",
+      "笑い",
+      "神"
+    ],
+    "motifs": [
+      "古典",
+      "踊り",
+      "index"
+    ],
+    "funFact": "Comedy as infrastructure.",
+    "funFactJa": "喜劇がインフラ。",
+    "searchQuery": "天宇受売 あめのうずめ 伝承",
+    "creativeHooks": [
+      "Keep 天宇受売 as a job, not a costume.",
+      "A scene built around Ame-no-Uzume."
+    ],
+    "sources": [
+      "天宇受売 / Ame-no-Uzume"
+    ]
+  },
+  {
+    "name": "Watatsumi",
+    "nativeName": "綿津見",
+    "region": "Sea kami",
+    "category": "海",
+    "categoryEn": "Watatsumi",
+    "summary": "The sea kami in the dragon line, governing tides.",
+    "summaryJa": "海神。竜神の系譜で潮を司る。",
+    "legends": [
+      "Tide tables as theology.",
+      "The sea kami in the dragon line, governing tides."
+    ],
+    "traits": [
+      "海",
+      "神",
+      "潮"
+    ],
+    "motifs": [
+      "海",
+      "海",
+      "index"
+    ],
+    "funFact": "Tide tables as theology.",
+    "funFactJa": "潮汐表が神学。",
+    "searchQuery": "綿津見 わたつみ 伝承",
+    "creativeHooks": [
+      "Keep 綿津見 as a job, not a costume.",
+      "A scene built around Watatsumi."
+    ],
+    "sources": [
+      "綿津見 / Watatsumi"
+    ]
+  },
+  {
+    "name": "Takemikazuchi",
+    "nativeName": "建御雷",
+    "region": "Thunder warrior",
+    "category": "鬼",
+    "categoryEn": "Takemikazuchi",
+    "summary": "The thunder warrior kami of Kashima who forces the land-cession.",
+    "summaryJa": "雷の武神。国譲りの力、鹿島の祭神。",
+    "legends": [
+      "A merger by wrestling.",
+      "The thunder warrior kami of Kashima who forces the land-cession."
+    ],
+    "traits": [
+      "雷",
+      "戦い",
+      "神"
+    ],
+    "motifs": [
+      "鬼",
+      "雷",
+      "index"
+    ],
+    "funFact": "A merger by wrestling.",
+    "funFactJa": "相撲が合併。",
+    "searchQuery": "建御雷 たけみかづち 伝承",
+    "creativeHooks": [
+      "Keep 建御雷 as a job, not a costume.",
+      "A scene built around Takemikazuchi."
+    ],
+    "sources": [
+      "建御雷 / Takemikazuchi"
+    ]
+  },
+  {
+    "name": "Kotoshironushi",
+    "nativeName": "事代主",
+    "region": "Word kami",
+    "category": "古典",
+    "categoryEn": "Kotoshironushi",
+    "summary": "The word kami who goes fishing to delay answering the land-cession.",
+    "summaryJa": "言葉の神。国譲りの返事を釣りで延ばす。",
+    "legends": [
+      "Out of office as myth.",
+      "The word kami who goes fishing to delay answering the land-cession."
+    ],
+    "traits": [
+      "言葉",
+      "釣り",
+      "出雲"
+    ],
+    "motifs": [
+      "古典",
+      "言葉",
+      "index"
+    ],
+    "funFact": "Out of office as myth.",
+    "funFactJa": "不在通知が神話。",
+    "searchQuery": "事代主 ことしろぬし 伝承",
+    "creativeHooks": [
+      "Keep 事代主 as a job, not a costume.",
+      "A scene built around Kotoshironushi."
+    ],
+    "sources": [
+      "事代主 / Kotoshironushi"
+    ]
+  },
+  {
+    "name": "Ame-no-Tajikarao",
+    "nativeName": "天手力男",
+    "region": "Strength at the cave",
+    "category": "古典",
+    "categoryEn": "Ame-no-Tajikarao",
+    "summary": "The strength kami who pulls open the rock-cave of the sun.",
+    "summaryJa": "岩戸を開く力の神。",
+    "legends": [
+      "Facilities with a god's arm.",
+      "The strength kami who pulls open the rock-cave of the sun."
+    ],
+    "traits": [
+      "力",
+      "岩戸",
+      "神"
+    ],
+    "motifs": [
+      "古典",
+      "力",
+      "index"
+    ],
+    "funFact": "Facilities with a god's arm.",
+    "funFactJa": "設備が神の腕。",
+    "searchQuery": "天手力男 あめのたぢからお 伝承",
+    "creativeHooks": [
+      "Keep 天手力男 as a job, not a costume.",
+      "A scene built around Ame-no-Tajikarao."
+    ],
+    "sources": [
+      "天手力男 / Ame-no-Tajikarao"
+    ]
+  },
+  {
+    "name": "Oyamazumi",
+    "nativeName": "大山祇",
+    "region": "Great mountain kami",
+    "category": "山系",
+    "categoryEn": "Oyamazumi",
+    "summary": "The great mountain kami, parent of the blossom princess in some tellings.",
+    "summaryJa": "山の大神。木花咲耶姫の父とも。",
+    "legends": [
+      "Org chart of every ridge.",
+      "The great mountain kami, parent of the blossom princess in some tellings."
+    ],
+    "traits": [
+      "山",
+      "神",
+      "護り"
+    ],
+    "motifs": [
+      "山系",
+      "山",
+      "index"
+    ],
+    "funFact": "Org chart of every ridge.",
+    "funFactJa": "尾根の組織図。",
+    "searchQuery": "大山祇 おおやまづみ 伝承",
+    "creativeHooks": [
+      "Keep 大山祇 as a job, not a costume.",
+      "A scene built around Oyamazumi."
+    ],
+    "sources": [
+      "大山祇 / Oyamazumi"
+    ]
+  },
+  {
+    "name": "Ame-no-Minakanushi",
+    "nativeName": "天之御中主",
+    "region": "Center of heaven",
+    "category": "古典",
+    "categoryEn": "Ame-no-Minakanushi",
+    "summary": "The first kami at the center of heaven and earth.",
+    "summaryJa": "天地の初めに現れる中心の神。",
+    "legends": [
+      "A chairman with no minutes.",
+      "The first kami at the center of heaven and earth."
+    ],
+    "traits": [
+      "神",
+      "始まり",
+      "古典"
+    ],
+    "motifs": [
+      "古典",
+      "神",
+      "index"
+    ],
+    "funFact": "A chairman with no minutes.",
+    "funFactJa": "議事録のない議長。",
+    "searchQuery": "天之御中主 あめのみなかぬし 伝承",
+    "creativeHooks": [
+      "Keep 天之御中主 as a job, not a costume.",
+      "A scene built around Ame-no-Minakanushi."
+    ],
+    "sources": [
+      "天之御中主 / Ame-no-Minakanushi"
+    ]
+  },
+  {
+    "name": "Takamimusubi",
+    "nativeName": "高皇産霊",
+    "region": "High musubi",
+    "category": "古典",
+    "categoryEn": "Takamimusubi",
+    "summary": "A musubi kami of Takamagahara, one source of the imperial line.",
+    "summaryJa": "高天原の産霊の神。皇統の源の一つ。",
+    "legends": [
+      "HR for descent.",
+      "A musubi kami of Takamagahara, one source of the imperial line."
+    ],
+    "traits": [
+      "神",
+      "産霊",
+      "古典"
+    ],
+    "motifs": [
+      "古典",
+      "神",
+      "index"
+    ],
+    "funFact": "HR for descent.",
+    "funFactJa": "降臨の人事。",
+    "searchQuery": "高皇産霊 たかみむすび 伝承",
+    "creativeHooks": [
+      "Keep 高皇産霊 as a job, not a costume.",
+      "A scene built around Takamimusubi."
+    ],
+    "sources": [
+      "高皇産霊 / Takamimusubi"
+    ]
+  },
+  {
+    "name": "Kamimusubi",
+    "nativeName": "神産霊",
+    "region": "Kami musubi",
+    "category": "古典",
+    "categoryEn": "Kamimusubi",
+    "summary": "The musubi kami who begets gods, also tied to Izumo.",
+    "summaryJa": "神を産む産霊。出雲系とも結びつく。",
+    "legends": [
+      "A parent company in theogony.",
+      "The musubi kami who begets gods, also tied to Izumo."
+    ],
+    "traits": [
+      "神",
+      "産霊",
+      "出雲"
+    ],
+    "motifs": [
+      "古典",
+      "神",
+      "index"
+    ],
+    "funFact": "A parent company in theogony.",
+    "funFactJa": "神統の親会社。",
+    "searchQuery": "神産霊 かみむすび 伝承",
+    "creativeHooks": [
+      "Keep 神産霊 as a job, not a costume.",
+      "A scene built around Kamimusubi."
+    ],
+    "sources": [
+      "神産霊 / Kamimusubi"
+    ]
+  },
+  {
+    "name": "Kuninotokotachi",
+    "nativeName": "国常立",
+    "region": "Eternal land",
+    "category": "古典",
+    "categoryEn": "Kuninotokotachi",
+    "summary": "The kami who stands eternally as the land.",
+    "summaryJa": "国の常に立つ神。大地の始まり。",
+    "legends": [
+      "A standing desk for the planet.",
+      "The kami who stands eternally as the land."
+    ],
+    "traits": [
+      "神",
+      "国",
+      "始まり"
+    ],
+    "motifs": [
+      "古典",
+      "神",
+      "index"
+    ],
+    "funFact": "A standing desk for the planet.",
+    "funFactJa": "地球のスタンディングデスク。",
+    "searchQuery": "国常立 くにのとこたち 伝承",
+    "creativeHooks": [
+      "Keep 国常立 as a job, not a costume.",
+      "A scene built around Kuninotokotachi."
+    ],
+    "sources": [
+      "国常立 / Kuninotokotachi"
+    ]
+  },
+  {
+    "name": "Toyokumono",
+    "nativeName": "豊雲野",
+    "region": "Cloudy plains",
+    "category": "古典",
+    "categoryEn": "Toyokumono",
+    "summary": "The kami of abundant cloudy plains in early theogony.",
+    "summaryJa": "豊かな雲の野の神。造化の早い世代。",
+    "legends": [
+      "Weather as a founding board.",
+      "The kami of abundant cloudy plains in early theogony."
+    ],
+    "traits": [
+      "神",
+      "雲",
+      "古典"
+    ],
+    "motifs": [
+      "古典",
+      "神",
+      "index"
+    ],
+    "funFact": "Weather as a founding board.",
+    "funFactJa": "天候が創業ボード。",
+    "searchQuery": "豊雲野 とよくもの 伝承",
+    "creativeHooks": [
+      "Keep 豊雲野 as a job, not a costume.",
+      "A scene built around Toyokumono."
+    ],
+    "sources": [
+      "豊雲野 / Toyokumono"
+    ]
+  },
+  {
+    "name": "Ninigi",
+    "nativeName": "瓊瓊杵",
+    "region": "Heavenly grandchild",
+    "category": "古典",
+    "categoryEn": "Ninigi",
+    "summary": "The heavenly grandchild who descends and weds the blossom princess.",
+    "summaryJa": "天孫。葦原に降り、花の姫をめとる。",
+    "legends": [
+      "A landing that is a dynasty.",
+      "The heavenly grandchild who descends and weds the blossom princess."
+    ],
+    "traits": [
+      "神",
+      "降臨",
+      "古典"
+    ],
+    "motifs": [
+      "古典",
+      "神",
+      "index"
+    ],
+    "funFact": "A landing that is a dynasty.",
+    "funFactJa": "着陸が王朝。",
+    "searchQuery": "瓊瓊杵 ににぎ 伝承",
+    "creativeHooks": [
+      "Keep 瓊瓊杵 as a job, not a costume.",
+      "A scene built around Ninigi."
+    ],
+    "sources": [
+      "瓊瓊杵 / Ninigi"
+    ]
+  },
+  {
+    "name": "Yamasachihiko",
+    "nativeName": "山幸彦",
+    "region": "Luck of the mountains",
+    "category": "海",
+    "categoryEn": "Yamasachihiko",
+    "summary": "The mountain-luck brother who loses a fishhook and goes to the sea palace.",
+    "summaryJa": "山の猟の弟。海幸の釣り針を失い竜宮へ行く。",
+    "legends": [
+      "A lost hook is foreign policy.",
+      "The mountain-luck brother who loses a fishhook and goes to the sea palace."
+    ],
+    "traits": [
+      "山",
+      "海",
+      "古典"
+    ],
+    "motifs": [
+      "海",
+      "山",
+      "index"
+    ],
+    "funFact": "A lost hook is foreign policy.",
+    "funFactJa": "失くした針が外交。",
+    "searchQuery": "山幸彦 やまさちひこ 伝承",
+    "creativeHooks": [
+      "Keep 山幸彦 as a job, not a costume.",
+      "A scene built around Yamasachihiko."
+    ],
+    "sources": [
+      "山幸彦 / Yamasachihiko"
+    ]
+  },
+  {
+    "name": "Umisachihiko",
+    "nativeName": "海幸彦",
+    "region": "Luck of the sea",
+    "category": "海",
+    "categoryEn": "Umisachihiko",
+    "summary": "The sea-luck elder who lends a hook and hunts the younger brother.",
+    "summaryJa": "海の漁の兄。針を貸して弟を追い込む。",
+    "legends": [
+      "Equipment rental as feud.",
+      "The sea-luck elder who lends a hook and hunts the younger brother."
+    ],
+    "traits": [
+      "海",
+      "漁",
+      "古典"
+    ],
+    "motifs": [
+      "海",
+      "海",
+      "index"
+    ],
+    "funFact": "Equipment rental as feud.",
+    "funFactJa": "貸出が確執。",
+    "searchQuery": "海幸彦 うみさちひこ 伝承",
+    "creativeHooks": [
+      "Keep 海幸彦 as a job, not a costume.",
+      "A scene built around Umisachihiko."
+    ],
+    "sources": [
+      "海幸彦 / Umisachihiko"
+    ]
+  },
+  {
+    "name": "Toyotama-hime",
+    "nativeName": "豊玉姫",
+    "region": "Toyotama-hime",
+    "category": "海",
+    "categoryEn": "Toyotama-hime",
+    "summary": "Watatsumi's daughter; seen in childbirth she returns to dragon form.",
+    "summaryJa": "海神の娘。産屋を見られ竜に戻る。",
+    "legends": [
+      "The looking is the breach, again.",
+      "Watatsumi's daughter; seen in childbirth she returns to dragon form."
+    ],
+    "traits": [
+      "海",
+      "姫",
+      "禁忌"
+    ],
+    "motifs": [
+      "海",
+      "海",
+      "index"
+    ],
+    "funFact": "The looking is the breach, again.",
+    "funFactJa": "見るな、がまた破られる。",
+    "searchQuery": "豊玉姫 とよたまひめ 伝承",
+    "creativeHooks": [
+      "Keep 豊玉姫 as a job, not a costume.",
+      "A scene built around Toyotama-hime."
+    ],
+    "sources": [
+      "豊玉姫 / Toyotama-hime"
+    ]
+  },
+  {
+    "name": "Tamayori-hime",
+    "nativeName": "玉依姫",
+    "region": "Tamayori-hime",
+    "category": "海",
+    "categoryEn": "Tamayori-hime",
+    "summary": "Toyotama's sister who raises the left child into the imperial line.",
+    "summaryJa": "豊玉の妹。残された子を育て皇統につなぐ。",
+    "legends": [
+      "Babysitting as succession.",
+      "Toyotama's sister who raises the left child into the imperial line."
+    ],
+    "traits": [
+      "海",
+      "姫",
+      "子"
+    ],
+    "motifs": [
+      "海",
+      "海",
+      "index"
+    ],
+    "funFact": "Babysitting as succession.",
+    "funFactJa": "子守が継承。",
+    "searchQuery": "玉依姫 たまよりひめ 伝承",
+    "creativeHooks": [
+      "Keep 玉依姫 as a job, not a costume.",
+      "A scene built around Tamayori-hime."
+    ],
+    "sources": [
+      "玉依姫 / Tamayori-hime"
+    ]
+  },
+  {
+    "name": "Yamato-takeru",
+    "nativeName": "日本武尊",
+    "region": "Yamato Takeru",
+    "category": "死霊",
+    "categoryEn": "Yamato Takeru",
+    "summary": "The prince of the eastern campaign; Kusanagi and a death that becomes a swan.",
+    "summaryJa": "東征の皇子。草薙と白鳥の死。",
+    "legends": [
+      "A road trip that is a funeral.",
+      "The prince of the eastern campaign; Kusanagi and a death that becomes a swan."
+    ],
+    "traits": [
+      "戦い",
+      "旅",
+      "古典"
+    ],
+    "motifs": [
+      "死霊",
+      "戦い",
+      "index"
+    ],
+    "funFact": "A road trip that is a funeral.",
+    "funFactJa": "ロードトリップが葬儀。",
+    "searchQuery": "日本武尊 やまとたける 伝承",
+    "creativeHooks": [
+      "Keep 日本武尊 as a job, not a costume.",
+      "A scene built around Yamato-takeru."
+    ],
+    "sources": [
+      "日本武尊 / Yamato-takeru"
+    ]
+  },
+  {
+    "name": "Ototachibana-hime",
+    "nativeName": "弟橘姫",
+    "region": "Ototachibana",
+    "category": "海",
+    "categoryEn": "Ototachibana-hime",
+    "summary": "Yamato Takeru's consort who enters the rough sea to open the road.",
+    "summaryJa": "日本武尊の妃。荒海に身を投げて路を開く。",
+    "legends": [
+      "A toll paid in a person.",
+      "Yamato Takeru's consort who enters the rough sea to open the road."
+    ],
+    "traits": [
+      "海",
+      "妃",
+      "犠牲"
+    ],
+    "motifs": [
+      "海",
+      "海",
+      "index"
+    ],
+    "funFact": "A toll paid in a person.",
+    "funFactJa": "通行料が人。",
+    "searchQuery": "弟橘姫 おとたちばなひめ 伝承",
+    "creativeHooks": [
+      "Keep 弟橘姫 as a job, not a costume.",
+      "A scene built around Ototachibana-hime."
+    ],
+    "sources": [
+      "弟橘姫 / Ototachibana-hime"
+    ]
+  },
+  {
+    "name": "Jingu-kogo",
+    "nativeName": "神功皇后",
+    "region": "Empress Jingu",
+    "category": "古典",
+    "categoryEn": "Empress Jingu",
+    "summary": "Chuai's consort; the name on the crossing-the-sea campaign.",
+    "summaryJa": "仲哀の后。海を越える征の話の人名。",
+    "legends": [
+      "A pregnancy that is strategy.",
+      "Chuai's consort; the name on the crossing-the-sea campaign."
+    ],
+    "traits": [
+      "海",
+      "后",
+      "古典"
+    ],
+    "motifs": [
+      "古典",
+      "海",
+      "index"
+    ],
+    "funFact": "A pregnancy that is strategy.",
+    "funFactJa": "妊娠が戦略。",
+    "searchQuery": "神功皇后 じんぐうこうごう 伝承",
+    "creativeHooks": [
+      "Keep 神功皇后 as a job, not a costume.",
+      "A scene built around Jingu-kogo."
+    ],
+    "sources": [
+      "神功皇后 / Jingu-kogo"
+    ]
+  },
+  {
+    "name": "Sumiyoshi",
+    "nativeName": "住吉神",
+    "region": "Sumiyoshi kami",
+    "category": "海",
+    "categoryEn": "Sumiyoshi",
+    "summary": "The seafaring kami, often three, who keep the sea-roads.",
+    "summaryJa": "航海の神。海の路を守る三柱。",
+    "legends": [
+      "Coast guard as a shrine.",
+      "The seafaring kami, often three, who keep the sea-roads."
+    ],
+    "traits": [
+      "海",
+      "航海",
+      "神"
+    ],
+    "motifs": [
+      "海",
+      "海",
+      "index"
+    ],
+    "funFact": "Coast guard as a shrine.",
+    "funFactJa": "海上保安が神社。",
+    "searchQuery": "住吉神 すみよしのかみ 伝承",
+    "creativeHooks": [
+      "Keep 住吉神 as a job, not a costume.",
+      "A scene built around Sumiyoshi."
+    ],
+    "sources": [
+      "住吉神 / Sumiyoshi"
+    ]
+  },
+  {
+    "name": "Ichikishima-hime",
+    "nativeName": "市杵島姫",
+    "region": "Ichikishima-hime",
+    "category": "海",
+    "categoryEn": "Ichikishima-hime",
+    "summary": "One of the Munakata kami of islands and sea-markets, later overlaid on Benzaiten.",
+    "summaryJa": "宗像の一柱。島と海の市の神。弁財天とも重ねられる。",
+    "legends": [
+      "Keep both nameplates.",
+      "One of the Munakata kami of islands and sea-markets, later overlaid on Benzaiten."
+    ],
+    "traits": [
+      "海",
+      "島",
+      "神"
+    ],
+    "motifs": [
+      "海",
+      "海",
+      "index"
+    ],
+    "funFact": "Keep both nameplates.",
+    "funFactJa": "表札を二つ残す。",
+    "searchQuery": "市杵島姫 いちきしまひめ 伝承",
+    "creativeHooks": [
+      "Keep 市杵島姫 as a job, not a costume.",
+      "A scene built around Ichikishima-hime."
+    ],
+    "sources": [
+      "市杵島姫 / Ichikishima-hime"
+    ]
+  },
+  {
+    "name": "Seoritsuhime",
+    "nativeName": "瀬織津姫",
+    "region": "Seoritsu-hime",
+    "category": "水系",
+    "categoryEn": "Seoritsuhime",
+    "summary": "The river kami of purification who sends offences out to sea.",
+    "summaryJa": "祓の川の女神。罪を海へ流す。",
+    "legends": [
+      "Wastewater treatment as liturgy.",
+      "The river kami of purification who sends offences out to sea."
+    ],
+    "traits": [
+      "祓",
+      "川",
+      "神"
+    ],
+    "motifs": [
+      "水系",
+      "祓",
+      "index"
+    ],
+    "funFact": "Wastewater treatment as liturgy.",
+    "funFactJa": "下水処理が祭祀。",
+    "searchQuery": "瀬織津姫 せおりつひめ 伝承",
+    "creativeHooks": [
+      "Keep 瀬織津姫 as a job, not a costume.",
+      "A scene built around Seoritsuhime."
+    ],
+    "sources": [
+      "瀬織津姫 / Seoritsuhime"
+    ]
+  },
+  {
+    "name": "Kikurihime",
+    "nativeName": "菊理媛",
+    "region": "Kikurihime",
+    "category": "山系",
+    "categoryEn": "Kikurihime",
+    "summary": "The kami who mediates at the Yomi border; also a Hakusan presence.",
+    "summaryJa": "黄泉の境で仲裁する女神。白山の祭神とも。",
+    "legends": [
+      "HR between the living and the dead.",
+      "The kami who mediates at the Yomi border; also a Hakusan presence."
+    ],
+    "traits": [
+      "仲裁",
+      "黄泉",
+      "山"
+    ],
+    "motifs": [
+      "山系",
+      "仲裁",
+      "index"
+    ],
+    "funFact": "HR between the living and the dead.",
+    "funFactJa": "生者と死者の人事。",
+    "searchQuery": "菊理媛 きくりひめ 伝承",
+    "creativeHooks": [
+      "Keep 菊理媛 as a job, not a costume.",
+      "A scene built around Kikurihime."
+    ],
+    "sources": [
+      "菊理媛 / Kikurihime"
+    ]
+  },
+  {
+    "name": "Hiruko",
+    "nativeName": "蛭子",
+    "region": "Hiruko",
+    "category": "海",
+    "categoryEn": "Hiruko",
+    "summary": "The leech-child set adrift; later sometimes overlaid on Ebisu, kept separate here.",
+    "summaryJa": "葦の舟で流される子。恵比寿とは別項。",
+    "legends": [
+      "A failed birth that became a brand.",
+      "The leech-child set adrift; later sometimes overlaid on Ebisu, kept separate here."
+    ],
+    "traits": [
+      "子",
+      "海",
+      "始まり"
+    ],
+    "motifs": [
+      "海",
+      "子",
+      "index"
+    ],
+    "funFact": "A failed birth that became a brand.",
+    "funFactJa": "失敗した産がブランドになる。",
+    "searchQuery": "蛭子 ひるこ 伝承",
+    "creativeHooks": [
+      "Keep 蛭子 as a job, not a costume.",
+      "A scene built around Hiruko."
+    ],
+    "sources": [
+      "蛭子 / Hiruko"
+    ]
+  },
+  {
+    "name": "Fukurokuju",
+    "nativeName": "福禄寿",
+    "region": "Fukurokuju",
+    "category": "古典",
+    "categoryEn": "Fukurokuju",
+    "summary": "One of the seven lucks: the long-headed kami of longevity.",
+    "summaryJa": "七福の一。長い頭の寿の神。",
+    "legends": [
+      "A forehead that is a CV.",
+      "One of the seven lucks: the long-headed kami of longevity."
+    ],
+    "traits": [
+      "福",
+      "寿",
+      "神"
+    ],
+    "motifs": [
+      "古典",
+      "福",
+      "index"
+    ],
+    "funFact": "A forehead that is a CV.",
+    "funFactJa": "額が履歴書。",
+    "searchQuery": "福禄寿 ふくろくじゅ 伝承",
+    "creativeHooks": [
+      "Keep 福禄寿 as a job, not a costume.",
+      "A scene built around Fukurokuju."
+    ],
+    "sources": [
+      "福禄寿 / Fukurokuju"
+    ]
+  },
+  {
+    "name": "Jurojin",
+    "nativeName": "寿老人",
+    "region": "Jurojin",
+    "category": "古典",
+    "categoryEn": "Jurojin",
+    "summary": "One of the seven lucks: an old man of years with a deer.",
+    "summaryJa": "七福の一。鹿を連れた老人の寿。",
+    "legends": [
+      "A petting zoo for lifespan.",
+      "One of the seven lucks: an old man of years with a deer."
+    ],
+    "traits": [
+      "福",
+      "寿",
+      "鹿"
+    ],
+    "motifs": [
+      "古典",
+      "福",
+      "index"
+    ],
+    "funFact": "A petting zoo for lifespan.",
+    "funFactJa": "寿命のふれあい動物園。",
+    "searchQuery": "寿老人 じゅろうじん 伝承",
+    "creativeHooks": [
+      "Keep 寿老人 as a job, not a costume.",
+      "A scene built around Jurojin."
+    ],
+    "sources": [
+      "寿老人 / Jurojin"
+    ]
+  },
+  {
+    "name": "Kichijoten",
+    "nativeName": "吉祥天",
+    "region": "Kichijoten",
+    "category": "古典",
+    "categoryEn": "Kichijoten",
+    "summary": "The heavenly woman of fortune and beauty who steps from temple art into folk luck.",
+    "summaryJa": "福と美の天女。寺の図像から民の福へ。",
+    "legends": [
+      "A beauty standard that pays rent.",
+      "The heavenly woman of fortune and beauty who steps from temple art into folk luck."
+    ],
+    "traits": [
+      "福",
+      "女",
+      "仏"
+    ],
+    "motifs": [
+      "古典",
+      "福",
+      "index"
+    ],
+    "funFact": "A beauty standard that pays rent.",
+    "funFactJa": "美の基準が家賃を払う。",
+    "searchQuery": "吉祥天 きっしょうてん 伝承",
+    "creativeHooks": [
+      "Keep 吉祥天 as a job, not a costume.",
+      "A scene built around Kichijoten."
+    ],
+    "sources": [
+      "吉祥天 / Kichijoten"
+    ]
+  },
+  {
+    "name": "Enma",
+    "nativeName": "閻魔",
+    "region": "Enma",
+    "category": "死霊",
+    "categoryEn": "Enma",
+    "summary": "The king of the dead who reads the ledgers of the living.",
+    "summaryJa": "冥府の王。死者の帳を見る。",
+    "legends": [
+      "Audit as afterlife.",
+      "The king of the dead who reads the ledgers of the living."
+    ],
+    "traits": [
+      "冥府",
+      "裁き",
+      "死"
+    ],
+    "motifs": [
+      "死霊",
+      "冥府",
+      "index"
+    ],
+    "funFact": "Audit as afterlife.",
+    "funFactJa": "監査が来世。",
+    "searchQuery": "閻魔 えんま 伝承",
+    "creativeHooks": [
+      "Keep 閻魔 as a job, not a costume.",
+      "A scene built around Enma."
+    ],
+    "sources": [
+      "閻魔 / Enma"
+    ]
+  },
+  {
+    "name": "Datsueba",
+    "nativeName": "奪衣婆",
+    "region": "Datsueba",
+    "category": "死霊",
+    "categoryEn": "Datsueba",
+    "summary": "The hag who strips the dead at the Sanzu; riverside procedure.",
+    "summaryJa": "三途で衣を剥ぐ婆。岸の手続き。",
+    "legends": [
+      "Customs, but for corpses.",
+      "The hag who strips the dead at the Sanzu; riverside procedure."
+    ],
+    "traits": [
+      "婆",
+      "川",
+      "死"
+    ],
+    "motifs": [
+      "死霊",
+      "婆",
+      "index"
+    ],
+    "funFact": "Customs, but for corpses.",
+    "funFactJa": "税関だが死体用。",
+    "searchQuery": "奪衣婆 だつえば 伝承",
+    "creativeHooks": [
+      "Keep 奪衣婆 as a job, not a costume.",
+      "A scene built around Datsueba."
+    ],
+    "sources": [
+      "奪衣婆 / Datsueba"
+    ]
+  },
+  {
+    "name": "Jizo",
+    "nativeName": "地蔵",
+    "region": "Jizo",
+    "category": "道中",
+    "categoryEn": "Jizo",
+    "summary": "The roadside bodhisattva of children and travellers; ally at Sai-no-kawara.",
+    "summaryJa": "道と子どもの地蔵。賽の河原の味方。",
+    "legends": [
+      "A public servant in stone.",
+      "The roadside bodhisattva of children and travellers; ally at Sai-no-kawara."
+    ],
+    "traits": [
+      "子ども",
+      "道",
+      "仏"
+    ],
+    "motifs": [
+      "道中",
+      "子ども",
+      "index"
+    ],
+    "funFact": "A public servant in stone.",
+    "funFactJa": "石の公務員。",
+    "searchQuery": "地蔵 じぞう 伝承",
+    "creativeHooks": [
+      "Keep 地蔵 as a job, not a costume.",
+      "A scene built around Jizo."
+    ],
+    "sources": [
+      "地蔵 / Jizo"
+    ]
+  },
+  {
+    "name": "Fudo-myoo",
+    "nativeName": "不動明王",
+    "region": "Fudo Myoo",
+    "category": "鬼",
+    "categoryEn": "Fudo Myoo",
+    "summary": "The immovable wisdom king seated in fire; a demon's face used to bind demons.",
+    "summaryJa": "火に坐す明王。鬼に近い顔で魔を縛る。",
+    "legends": [
+      "Use the enemy's branding.",
+      "The immovable wisdom king seated in fire; a demon's face used to bind demons."
+    ],
+    "traits": [
+      "火",
+      "仏",
+      "護り"
+    ],
+    "motifs": [
+      "鬼",
+      "火",
+      "index"
+    ],
+    "funFact": "Use the enemy's branding.",
+    "funFactJa": "敵のブランドを使う。",
+    "searchQuery": "不動明王 ふどうみょうおう 伝承",
+    "creativeHooks": [
+      "Keep 不動明王 as a job, not a costume.",
+      "A scene built around Fudo-myoo."
+    ],
+    "sources": [
+      "不動明王 / Fudo-myoo"
+    ]
+  },
+  {
+    "name": "Yatagarasu",
+    "nativeName": "八咫烏",
+    "region": "Yatagarasu",
+    "category": "予言",
+    "categoryEn": "Yatagarasu",
+    "summary": "The three-legged guiding crow of Jimmu and Kumano.",
+    "summaryJa": "三本足の案内烏。神武を導く。",
+    "legends": [
+      "GPS with feathers.",
+      "The three-legged guiding crow of Jimmu and Kumano."
+    ],
+    "traits": [
+      "烏",
+      "案内",
+      "神"
+    ],
+    "motifs": [
+      "予言",
+      "烏",
+      "index"
+    ],
+    "funFact": "GPS with feathers.",
+    "funFactJa": "羽のGPS。",
+    "searchQuery": "八咫烏 やたがらす 伝承",
+    "creativeHooks": [
+      "Keep 八咫烏 as a job, not a costume.",
+      "A scene built around Yatagarasu."
+    ],
+    "sources": [
+      "八咫烏 / Yatagarasu"
+    ]
+  },
+  {
+    "name": "Konpira",
+    "nativeName": "金毘羅",
+    "region": "Konpira",
+    "category": "海",
+    "categoryEn": "Konpira",
+    "summary": "The seafarers' Konpira who watches ships from a mountain.",
+    "summaryJa": "航海と漁の金毘羅。山の上から船を見る。",
+    "legends": [
+      "A harbour master uphill.",
+      "The seafarers' Konpira who watches ships from a mountain."
+    ],
+    "traits": [
+      "海",
+      "船",
+      "神"
+    ],
+    "motifs": [
+      "海",
+      "海",
+      "index"
+    ],
+    "funFact": "A harbour master uphill.",
+    "funFactJa": "坂の上の港長。",
+    "searchQuery": "金毘羅 こんぴら 伝承",
+    "creativeHooks": [
+      "Keep 金毘羅 as a job, not a costume.",
+      "A scene built around Konpira."
+    ],
+    "sources": [
+      "金毘羅 / Konpira"
+    ]
+  },
+  {
+    "name": "Koshin",
+    "nativeName": "庚申",
+    "region": "Koshin",
+    "category": "町",
+    "categoryEn": "Koshin",
+    "summary": "The Koshin watch against the three worms; a blue-faced kongō on the street.",
+    "summaryJa": "庚申の夜に虫を見張る講。青面金剛の顔。",
+    "legends": [
+      "A neighbourhood watch for intestines.",
+      "The Koshin watch against the three worms; a blue-faced kongō on the street."
+    ],
+    "traits": [
+      "虫",
+      "夜",
+      "講"
+    ],
+    "motifs": [
+      "町",
+      "虫",
+      "index"
+    ],
+    "funFact": "A neighbourhood watch for intestines.",
+    "funFactJa": "腸の町内会。",
+    "searchQuery": "庚申 こうしん 伝承",
+    "creativeHooks": [
+      "Keep 庚申 as a job, not a costume.",
+      "A scene built around Koshin."
+    ],
+    "sources": [
+      "庚申 / Koshin"
+    ]
+  },
+  {
+    "name": "Hachiman",
+    "nativeName": "八幡",
+    "region": "Hachiman",
+    "category": "古典",
+    "categoryEn": "Hachiman",
+    "summary": "The martial kami of bows and the state's protection.",
+    "summaryJa": "武の八幡。弓と国家の護り。",
+    "legends": [
+      "A ministry with doves.",
+      "The martial kami of bows and the state's protection."
+    ],
+    "traits": [
+      "武",
+      "神",
+      "弓"
+    ],
+    "motifs": [
+      "古典",
+      "武",
+      "index"
+    ],
+    "funFact": "A ministry with doves.",
+    "funFactJa": "鳩の省庁。",
+    "searchQuery": "八幡 はちまん 伝承",
+    "creativeHooks": [
+      "Keep 八幡 as a job, not a costume.",
+      "A scene built around Hachiman."
+    ],
+    "sources": [
+      "八幡 / Hachiman"
+    ]
+  },
+  {
+    "name": "Kumano",
+    "nativeName": "熊野権現",
+    "region": "Kumano Gongen",
+    "category": "山系",
+    "categoryEn": "Kumano Gongen",
+    "summary": "The three Kumano gongen; a pilgrimage of death and return.",
+    "summaryJa": "熊野三山の権現。死と再生の参詣路。",
+    "legends": [
+      "A spa that is a funeral industry.",
+      "The three Kumano gongen; a pilgrimage of death and return."
+    ],
+    "traits": [
+      "山",
+      "参詣",
+      "神"
+    ],
+    "motifs": [
+      "山系",
+      "山",
+      "index"
+    ],
+    "funFact": "A spa that is a funeral industry.",
+    "funFactJa": "温泉が葬儀業。",
+    "searchQuery": "熊野権現 くまのごんげん 伝承",
+    "creativeHooks": [
+      "Keep 熊野権現 as a job, not a costume.",
+      "A scene built around Kumano."
+    ],
+    "sources": [
+      "熊野権現 / Kumano"
+    ]
+  },
+  {
+    "name": "Kushinadahime",
+    "nativeName": "奇稲田姫",
+    "region": "Kushinadahime",
+    "category": "古典",
+    "categoryEn": "Kushinadahime",
+    "summary": "The maiden nearly given to Yamata-no-Orochi and saved by Susanoo.",
+    "summaryJa": "八岐大蛇の贄になりかけ、素戔嗚に救われる姫。",
+    "legends": [
+      "A wedding that is an exorcism.",
+      "The maiden nearly given to Yamata-no-Orochi and saved by Susanoo."
+    ],
+    "traits": [
+      "姫",
+      "蛇",
+      "出雲"
+    ],
+    "motifs": [
+      "古典",
+      "姫",
+      "index"
+    ],
+    "funFact": "A wedding that is an exorcism.",
+    "funFactJa": "婚礼が祓。",
+    "searchQuery": "奇稲田姫 くしなだひめ 伝承",
+    "creativeHooks": [
+      "Keep 奇稲田姫 as a job, not a costume.",
+      "A scene built around Kushinadahime."
+    ],
+    "sources": [
+      "奇稲田姫 / Kushinadahime"
+    ]
+  },
+  {
+    "name": "Amenosagume",
+    "nativeName": "天探女",
+    "region": "Ame-no-sagume",
+    "category": "予言",
+    "categoryEn": "Ame no sagume",
+    "summary": "The heavenly searching woman whose speech moves the land-cession.",
+    "summaryJa": "天の探女。言葉で国譲りを動かす。",
+    "legends": [
+      "A leak that is policy.",
+      "The heavenly searching woman whose speech moves the land-cession."
+    ],
+    "traits": [
+      "言葉",
+      "神",
+      "古典"
+    ],
+    "motifs": [
+      "予言",
+      "言葉",
+      "index"
+    ],
+    "funFact": "A leak that is policy.",
+    "funFactJa": "漏洩が政策。",
+    "searchQuery": "天探女 あめのさぐめ 伝承",
+    "creativeHooks": [
+      "Keep 天探女 as a job, not a costume.",
+      "A scene built around Amenosagume."
+    ],
+    "sources": [
+      "天探女 / Amenosagume"
+    ]
+  },
+  {
+    "name": "Shiotsuchi-no-oji",
+    "nativeName": "塩土老翁",
+    "region": "Shiotsuchi no oji",
+    "category": "海",
+    "categoryEn": "Shiotsuchi-no-oji",
+    "summary": "The old man of tides who directs Yamasachihiko to the sea palace.",
+    "summaryJa": "潮の翁。山幸を竜宮へ案内する。",
+    "legends": [
+      "A concierge for lost hooks.",
+      "The old man of tides who directs Yamasachihiko to the sea palace."
+    ],
+    "traits": [
+      "潮",
+      "案内",
+      "海"
+    ],
+    "motifs": [
+      "海",
+      "潮",
+      "index"
+    ],
+    "funFact": "A concierge for lost hooks.",
+    "funFactJa": "失くした針の案内係。",
+    "searchQuery": "塩土老翁 しおつちのおじ 伝承",
+    "creativeHooks": [
+      "Keep 塩土老翁 as a job, not a costume.",
+      "A scene built around Shiotsuchi-no-oji."
+    ],
+    "sources": [
+      "塩土老翁 / Shiotsuchi-no-oji"
+    ]
+  },
+  {
+    "name": "Yoshitsune",
+    "nativeName": "源義経",
+    "region": "Yoshitsune",
+    "category": "死霊",
+    "categoryEn": "Minamoto no Yoshitsune",
+    "summary": "The fleeing general whose death in Hiraizumi became onryo and tengu tales.",
+    "summaryJa": "逃げた源氏の将。平泉の死が怨霊・天狗譚になる。",
+    "legends": [
+      "A brand so large it grew wings.",
+      "The fleeing general whose death in Hiraizumi became onryo and tengu tales."
+    ],
+    "traits": [
+      "戦い",
+      "怨霊",
+      "古典"
+    ],
+    "motifs": [
+      "死霊",
+      "戦い",
+      "index"
+    ],
+    "funFact": "A brand so large it grew wings.",
+    "funFactJa": "ブランドが翼を生やす。",
+    "searchQuery": "源義経 みなもとのよしつね 伝承",
+    "creativeHooks": [
+      "Keep 源義経 as a job, not a costume.",
+      "A scene built around Yoshitsune."
+    ],
+    "sources": [
+      "源義経 / Yoshitsune"
+    ]
+  },
+  {
+    "name": "Benkei",
+    "nativeName": "武蔵坊弁慶",
+    "region": "Benkei",
+    "category": "死霊",
+    "categoryEn": "Musashibo Benkei",
+    "summary": "Yoshitsune's warrior-monk; even death keeps the post at the bridge.",
+    "summaryJa": "義経の僧兵。死んでも橋の職を捨てない。",
+    "legends": [
+      "Standing death as a job description.",
+      "Yoshitsune's warrior-monk; even death keeps the post at the bridge."
+    ],
+    "traits": [
+      "僧",
+      "戦い",
+      "橋"
+    ],
+    "motifs": [
+      "死霊",
+      "僧",
+      "index"
+    ],
+    "funFact": "Standing death as a job description.",
+    "funFactJa": "立ち死が職務記述。",
+    "searchQuery": "武蔵坊弁慶 むさしぼうべんけい 伝承",
+    "creativeHooks": [
+      "Keep 武蔵坊弁慶 as a job, not a costume.",
+      "A scene built around Benkei."
+    ],
+    "sources": [
+      "武蔵坊弁慶 / Benkei"
+    ]
+  },
+  {
+    "name": "Taira-no-Kiyomori",
+    "nativeName": "平清盛",
+    "region": "Taira no Kiyomori",
+    "category": "死霊",
+    "categoryEn": "Taira no Kiyomori",
+    "summary": "The Taira patriarch who in fever sees a contest of skulls.",
+    "summaryJa": "平家の棟梁。熱に浮かされ髑髏の目競を見る。",
+    "legends": [
+      "Fever as cinema.",
+      "The Taira patriarch who in fever sees a contest of skulls."
+    ],
+    "traits": [
+      "平家",
+      "熱",
+      "怨霊"
+    ],
+    "motifs": [
+      "死霊",
+      "平家",
+      "index"
+    ],
+    "funFact": "Fever as cinema.",
+    "funFactJa": "熱が上映。",
+    "searchQuery": "平清盛 たいらのきよもり 伝承",
+    "creativeHooks": [
+      "Keep 平清盛 as a job, not a costume.",
+      "A scene built around Taira-no-Kiyomori."
+    ],
+    "sources": [
+      "平清盛 / Taira-no-Kiyomori"
+    ]
+  },
+  {
+    "name": "Yoritomo",
+    "nativeName": "源頼朝",
+    "region": "Yoritomo",
+    "category": "死霊",
+    "categoryEn": "Minamoto no Yoritomo",
+    "summary": "The Kamakura lord; an ancestral name at the edge of the yokai index.",
+    "summaryJa": "鎌倉殿。武家の始祖として図鑑の端に座る。",
+    "legends": [
+      "Founder as haunting.",
+      "The Kamakura lord; an ancestral name at the edge of the yokai index."
+    ],
+    "traits": [
+      "武家",
+      "鎌倉",
+      "古典"
+    ],
+    "motifs": [
+      "死霊",
+      "武家",
+      "index"
+    ],
+    "funFact": "Founder as haunting.",
+    "funFactJa": "創業者が憑依。",
+    "searchQuery": "源頼朝 みなもとのよりとも 伝承",
+    "creativeHooks": [
+      "Keep 源頼朝 as a job, not a costume.",
+      "A scene built around Yoritomo."
+    ],
+    "sources": [
+      "源頼朝 / Yoritomo"
+    ]
+  },
+  {
+    "name": "Hojo-Tokimasa",
+    "nativeName": "北条時政",
+    "region": "Hojo Tokimasa",
+    "category": "死霊",
+    "categoryEn": "Hojo Tokimasa",
+    "summary": "The Hojo founder; politics as a name on the roster.",
+    "summaryJa": "北条の祖。政と怨みの人名。",
+    "legends": [
+      "A family firm with ghosts.",
+      "The Hojo founder; politics as a name on the roster."
+    ],
+    "traits": [
+      "鎌倉",
+      "政",
+      "古典"
+    ],
+    "motifs": [
+      "死霊",
+      "鎌倉",
+      "index"
+    ],
+    "funFact": "A family firm with ghosts.",
+    "funFactJa": "幽霊つき同族企業。",
+    "searchQuery": "北条時政 ほうじょうときまさ 伝承",
+    "creativeHooks": [
+      "Keep 北条時政 as a job, not a costume.",
+      "A scene built around Hojo-Tokimasa."
+    ],
+    "sources": [
+      "北条時政 / Hojo-Tokimasa"
+    ]
+  },
+  {
+    "name": "Sanetomo",
+    "nativeName": "源実朝",
+    "region": "Sanetomo",
+    "category": "死霊",
+    "categoryEn": "Minamoto no Sanetomo",
+    "summary": "The assassinated shogun of poems and blades.",
+    "summaryJa": "暗殺された将軍。歌と刃の死。",
+    "legends": [
+      "A reading that is a stabbing.",
+      "The assassinated shogun of poems and blades."
+    ],
+    "traits": [
+      "鎌倉",
+      "歌",
+      "死"
+    ],
+    "motifs": [
+      "死霊",
+      "鎌倉",
+      "index"
+    ],
+    "funFact": "A reading that is a stabbing.",
+    "funFactJa": "歌会が刺殺。",
+    "searchQuery": "源実朝 みなもとのさねとも 伝承",
+    "creativeHooks": [
+      "Keep 源実朝 as a job, not a costume.",
+      "A scene built around Sanetomo."
+    ],
+    "sources": [
+      "源実朝 / Sanetomo"
+    ]
+  },
+  {
+    "name": "Taira-no-Atsumori",
+    "nativeName": "平敦盛",
+    "region": "Taira no Atsumori",
+    "category": "死霊",
+    "categoryEn": "Taira no Atsumori",
+    "summary": "The young Taira flautist killed at Ichi-no-tani and kept in noh.",
+    "summaryJa": "笛の平家の若武者。熊谷に討たれ能に残る。",
+    "legends": [
+      "A flute case that is a grave.",
+      "The young Taira flautist killed at Ichi-no-tani and kept in noh."
+    ],
+    "traits": [
+      "笛",
+      "平家",
+      "若"
+    ],
+    "motifs": [
+      "死霊",
+      "笛",
+      "index"
+    ],
+    "funFact": "A flute case that is a grave.",
+    "funFactJa": "笛の箱が墓。",
+    "searchQuery": "平敦盛 たいらのあつもり 伝承",
+    "creativeHooks": [
+      "Keep 平敦盛 as a job, not a costume.",
+      "A scene built around Taira-no-Atsumori."
+    ],
+    "sources": [
+      "平敦盛 / Taira-no-Atsumori"
+    ]
+  },
+  {
+    "name": "Tengu-tsubute",
+    "nativeName": "天狗礫",
+    "region": "Tengu hail",
+    "category": "山系",
+    "categoryEn": "Tengu hail",
+    "summary": "Stones thrown by tengu; gravel falls from a clear sky.",
+    "summaryJa": "天狗が投げる石。晴天に礫が降る。",
+    "legends": [
+      "Weather that is a throwing arm.",
+      "Stones thrown by tengu; gravel falls from a clear sky."
+    ],
+    "traits": [
+      "天狗",
+      "石",
+      "山"
+    ],
+    "motifs": [
+      "山系",
+      "天狗",
+      "index"
+    ],
+    "funFact": "Weather that is a throwing arm.",
+    "funFactJa": "天候が投擲。",
+    "searchQuery": "天狗礫 てんぐつぶて 伝承",
+    "creativeHooks": [
+      "Keep 天狗礫 as a job, not a costume.",
+      "A scene built around Tengu-tsubute."
+    ],
+    "sources": [
+      "天狗礫 / Tengu-tsubute"
+    ]
+  },
+  {
+    "name": "Tengu-daoshi",
+    "nativeName": "天狗倒し",
+    "region": "Tengu felling",
+    "category": "山系",
+    "categoryEn": "Tengu felling",
+    "summary": "The sound of tengu felling trees; dawn shows no wound.",
+    "summaryJa": "天狗が木を倒す音。朝には傷がない。",
+    "legends": [
+      "A logging company with no invoices.",
+      "The sound of tengu felling trees; dawn shows no wound."
+    ],
+    "traits": [
+      "天狗",
+      "木",
+      "音"
+    ],
+    "motifs": [
+      "山系",
+      "天狗",
+      "index"
+    ],
+    "funFact": "A logging company with no invoices.",
+    "funFactJa": "請求書のない伐採。",
+    "searchQuery": "天狗倒し てんぐだおし 伝承",
+    "creativeHooks": [
+      "Keep 天狗倒し as a job, not a costume.",
+      "A scene built around Tengu-daoshi."
+    ],
+    "sources": [
+      "天狗倒し / Tengu-daoshi"
+    ]
+  },
+  {
+    "name": "Tengu-kaze",
+    "nativeName": "天狗風",
+    "region": "Tengu wind",
+    "category": "気象",
+    "categoryEn": "Tengu wind",
+    "summary": "A sudden gust raised by tengu that can throw travellers.",
+    "summaryJa": "天狗が起こす突風。峠で人を飛ばす。",
+    "legends": [
+      "Health and safety for ridges.",
+      "A sudden gust raised by tengu that can throw travellers."
+    ],
+    "traits": [
+      "天狗",
+      "風",
+      "山"
+    ],
+    "motifs": [
+      "気象",
+      "天狗",
+      "index"
+    ],
+    "funFact": "Health and safety for ridges.",
+    "funFactJa": "尾根の労働安全。",
+    "searchQuery": "天狗風 てんぐかぜ 伝承",
+    "creativeHooks": [
+      "Keep 天狗風 as a job, not a costume.",
+      "A scene built around Tengu-kaze."
+    ],
+    "sources": [
+      "天狗風 / Tengu-kaze"
+    ]
+  },
+  {
+    "name": "Kinoko",
+    "nativeName": "木の子",
+    "region": "Tree child",
+    "category": "山系",
+    "categoryEn": "Tree child",
+    "summary": "A mountain child among the trees, kin to yamawaro.",
+    "summaryJa": "山の童。山童に近い、木の間の子ども。",
+    "legends": [
+      "Do not confuse with mushrooms only.",
+      "A mountain child among the trees, kin to yamawaro."
+    ],
+    "traits": [
+      "子ども",
+      "山",
+      "木"
+    ],
+    "motifs": [
+      "山系",
+      "子ども",
+      "index"
+    ],
+    "funFact": "Do not confuse with mushrooms only.",
+    "funFactJa": "キノコだけにしない。",
+    "searchQuery": "木の子 きのこ 伝承",
+    "creativeHooks": [
+      "Keep 木の子 as a job, not a costume.",
+      "A scene built around Kinoko."
+    ],
+    "sources": [
+      "木の子 / Kinoko"
+    ]
+  },
+  {
+    "name": "Kakashi",
+    "nativeName": "案山子",
+    "region": "Scarecrow",
+    "category": "田畑",
+    "categoryEn": "Scarecrow",
+    "summary": "A field guardian that walks at night and scares more than birds.",
+    "summaryJa": "田の番人。夜に歩き、鳥以上を嚇す。",
+    "legends": [
+      "A temp who never clocks out.",
+      "A field guardian that walks at night and scares more than birds."
+    ],
+    "traits": [
+      "田畑",
+      "鳥",
+      "夜"
+    ],
+    "motifs": [
+      "田畑",
+      "田畑",
+      "index"
+    ],
+    "funFact": "A temp who never clocks out.",
+    "funFactJa": "退勤しない臨時。",
+    "searchQuery": "案山子 かかし 伝承",
+    "creativeHooks": [
+      "Keep 案山子 as a job, not a costume.",
+      "A scene built around Kakashi."
+    ],
+    "sources": [
+      "案山子 / Kakashi"
+    ]
+  },
+  {
+    "name": "Inadama",
+    "nativeName": "稲魂",
+    "region": "Rice soul",
+    "category": "田畑",
+    "categoryEn": "Rice soul",
+    "summary": "The soul of the rice; a sloppy harvest thins the house.",
+    "summaryJa": "稲の魂。刈り入れを誤ると家が痩せる。",
+    "legends": [
+      "Calories with a ghost.",
+      "The soul of the rice; a sloppy harvest thins the house."
+    ],
+    "traits": [
+      "稲",
+      "田畑",
+      "魂"
+    ],
+    "motifs": [
+      "田畑",
+      "稲",
+      "index"
+    ],
+    "funFact": "Calories with a ghost.",
+    "funFactJa": "カロリーに霊がいる。",
+    "searchQuery": "稲魂 いなだま 伝承",
+    "creativeHooks": [
+      "Keep 稲魂 as a job, not a costume.",
+      "A scene built around Inadama."
+    ],
+    "sources": [
+      "稲魂 / Inadama"
+    ]
+  },
+  {
+    "name": "Nae-gami",
+    "nativeName": "苗神",
+    "region": "Seedling kami",
+    "category": "田畑",
+    "categoryEn": "Seedling kami",
+    "summary": "The kami of seedlings who audits the planting.",
+    "summaryJa": "苗の神。田植えの手順を見張る。",
+    "legends": [
+      "QA for a paddy.",
+      "The kami of seedlings who audits the planting."
+    ],
+    "traits": [
+      "苗",
+      "田畑",
+      "神"
+    ],
+    "motifs": [
+      "田畑",
+      "苗",
+      "index"
+    ],
+    "funFact": "QA for a paddy.",
+    "funFactJa": "田の品質保証。",
+    "searchQuery": "苗神 なえがみ 伝承",
+    "creativeHooks": [
+      "Keep 苗神 as a job, not a costume.",
+      "A scene built around Nae-gami."
+    ],
+    "sources": [
+      "苗神 / Nae-gami"
+    ]
+  },
+  {
+    "name": "Sakugami",
+    "nativeName": "作神",
+    "region": "Crop kami",
+    "category": "田畑",
+    "categoryEn": "Crop kami",
+    "summary": "The kami of the year's crop, neighbour to Ta-no-kami.",
+    "summaryJa": "作柄を見る神。田の神の隣の職。",
+    "legends": [
+      "A KPI shrine.",
+      "The kami of the year's crop, neighbour to Ta-no-kami."
+    ],
+    "traits": [
+      "作",
+      "田畑",
+      "神"
+    ],
+    "motifs": [
+      "田畑",
+      "作",
+      "index"
+    ],
+    "funFact": "A KPI shrine.",
+    "funFactJa": "KPIの社。",
+    "searchQuery": "作神 さくがみ 伝承",
+    "creativeHooks": [
+      "Keep 作神 as a job, not a costume.",
+      "A scene built around Sakugami."
+    ],
+    "sources": [
+      "作神 / Sakugami"
+    ]
+  },
+  {
+    "name": "Kaiko-gami",
+    "nativeName": "蚕神",
+    "region": "Silkworm kami",
+    "category": "田畑",
+    "categoryEn": "Silkworm kami",
+    "summary": "The kami of silkworms who audits mulberry houses.",
+    "summaryJa": "蚕の神。桑と糸の家を見張る。",
+    "legends": [
+      "Textile as liturgy.",
+      "The kami of silkworms who audits mulberry houses."
+    ],
+    "traits": [
+      "蚕",
+      "糸",
+      "田畑"
+    ],
+    "motifs": [
+      "田畑",
+      "蚕",
+      "index"
+    ],
+    "funFact": "Textile as liturgy.",
+    "funFactJa": "繊維が祭祀。",
+    "searchQuery": "蚕神 かいこがみ 伝承",
+    "creativeHooks": [
+      "Keep 蚕神 as a job, not a costume.",
+      "A scene built around Kaiko-gami."
+    ],
+    "sources": [
+      "蚕神 / Kaiko-gami"
+    ]
+  },
+  {
+    "name": "Uma-gami",
+    "nativeName": "馬神",
+    "region": "Horse kami",
+    "category": "田畑",
+    "categoryEn": "Horse kami",
+    "summary": "The kami of horses who takes on stable disasters.",
+    "summaryJa": "馬の神。厩の災を引き受ける。",
+    "legends": [
+      "Insurance with a mane.",
+      "The kami of horses who takes on stable disasters."
+    ],
+    "traits": [
+      "馬",
+      "田畑",
+      "神"
+    ],
+    "motifs": [
+      "田畑",
+      "馬",
+      "index"
+    ],
+    "funFact": "Insurance with a mane.",
+    "funFactJa": "たてがみの保険。",
+    "searchQuery": "馬神 うまがみ 伝承",
+    "creativeHooks": [
+      "Keep 馬神 as a job, not a costume.",
+      "A scene built around Uma-gami."
+    ],
+    "sources": [
+      "馬神 / Uma-gami"
+    ]
+  },
+  {
+    "name": "Tenka",
+    "nativeName": "天火",
+    "region": "Heaven fire",
+    "category": "霊火",
+    "categoryEn": "Heaven fire",
+    "summary": "Fire that falls from the sky; omen of a house-burn or a tengu lamp.",
+    "summaryJa": "空から落ちる火。火事の前触れ、または天狗の灯り。",
+    "legends": [
+      "A meteor with intent.",
+      "Fire that falls from the sky; omen of a house-burn or a tengu lamp."
+    ],
+    "traits": [
+      "火",
+      "空",
+      "怖い"
+    ],
+    "motifs": [
+      "霊火",
+      "火",
+      "index"
+    ],
+    "funFact": "A meteor with intent.",
+    "funFactJa": "意図のある流星。",
+    "searchQuery": "天火 てんか 伝承",
+    "creativeHooks": [
+      "Keep 天火 as a job, not a costume.",
+      "A scene built around Tenka."
+    ],
+    "sources": [
+      "天火 / Tenka"
+    ]
+  },
+  {
+    "name": "Koemon-tanuki",
+    "nativeName": "小右衛門狸",
+    "region": "Koemon tanuki",
+    "category": "狐狸",
+    "categoryEn": "Koemon tanuki",
+    "summary": "An Awa tanuki named in the same vendetta line as Kincho and Rokuemon.",
+    "summaryJa": "阿波の化け狸。金長・六右衛門と並ぶ名。",
+    "legends": [
+      "A third name on the war memorial.",
+      "An Awa tanuki named in the same vendetta line as Kincho and Rokuemon."
+    ],
+    "traits": [
+      "狸",
+      "阿波",
+      "変化"
+    ],
+    "motifs": [
+      "狐狸",
+      "狸",
+      "index"
+    ],
+    "funFact": "A third name on the war memorial.",
+    "funFactJa": "戦碑の三件目。",
+    "searchQuery": "小右衛門狸 こえもんたぬき 伝承",
+    "creativeHooks": [
+      "Keep 小右衛門狸 as a job, not a costume.",
+      "A scene built around Koemon-tanuki."
+    ],
+    "sources": [
+      "小右衛門狸 / Koemon-tanuki"
+    ]
   }
 ]

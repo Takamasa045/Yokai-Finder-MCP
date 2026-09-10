@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.15.0
+
+- Catalog filled to the advertised list cap: 400 index rows and 400 bilingual cards.
+- New names include 天照, 伊邪那岐, 大国主, 源義経, 武蔵坊弁慶, 閻魔, 地蔵, 花咲か爺, 舌切り雀, 日本武尊, 八咫烏.
+
 ## 0.14.0
 
 - Catalog grew to 307 index rows and 307 bilingual cards.
