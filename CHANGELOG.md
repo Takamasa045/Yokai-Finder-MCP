@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.17.0
+
+- Catalog scope is yokai again: kami, hunters, and folktale heroes were dropped (伊邪那岐, 天照, 源義経, 桃太郎, 安倍晴明, and 123 others).
+- Roster is 348 index rows and 348 bilingual cards. Onryo kept as spirits (菅原道真, 平将門, 崇徳天皇). Shapeshifters such as 鶴女房 and 清姫 stay.
+
 ## 0.16.0
 
 - Catalog grew to 476 index rows and 476 bilingual cards. `list_yokai` default and max limit raised from 400 to 600.
