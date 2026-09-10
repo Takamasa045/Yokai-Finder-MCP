@@ -19,6 +19,7 @@ func TestPriorityRankThreeHaveProfiles(t *testing.T) {
 		"神隠し", "安倍晴明", "平将門", "菅原道真", "金太郎", "柳の精",
 		"桃太郎", "かぐや姫", "浦島太郎", "式神", "素戔嗚", "伊邪那美",
 		"天照", "大国主", "源義経", "閻魔", "花咲か爺",
+		"ツチノコ", "すねこすり", "キジムナー", "こっくりさん", "さざえ鬼",
 	} {
 		if _, ok := FindByName(name); !ok {
 			t.Errorf("expected profile for %s", name)
@@ -85,6 +86,32 @@ func TestProfilesHaveJapaneseLore(t *testing.T) {
 		}
 		if strings.TrimSpace(p.FunFactJA) == "" {
 			t.Errorf("%s is missing FunFactJA", p.Name)
+		}
+	}
+}
+
+func TestProfilesHaveMinimumThickness(t *testing.T) {
+	for _, p := range Profiles() {
+		label := p.NativeName
+		if len(p.Legends) < 3 {
+			t.Errorf("%s legends %d want >= 3", label, len(p.Legends))
+		}
+		if len(p.Traits) < 4 {
+			t.Errorf("%s traits %d want >= 4", label, len(p.Traits))
+		}
+		if len(p.Motifs) < 4 {
+			t.Errorf("%s motifs %d want >= 4", label, len(p.Motifs))
+		}
+		if len(p.CreativeHooks) < 3 {
+			t.Errorf("%s creativeHooks %d want >= 3", label, len(p.CreativeHooks))
+		}
+		if len(p.Sources) == 0 {
+			t.Errorf("%s missing sources", label)
+		}
+		for _, m := range p.Motifs {
+			if m == "index" {
+				t.Errorf("%s still has filler motif %q", label, m)
+			}
 		}
 	}
 }

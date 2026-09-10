@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.16.0
+
+- Catalog grew to 476 index rows and 476 bilingual cards. `list_yokai` default and max limit raised from 400 to 600.
+- Cards now carry at least 3 legends, 4 traits, 4 motifs, 3 creative hooks, and a source line.
+- New names include ツチノコ, すねこすり, キジムナー, ひだる神, さざえ鬼, こっくりさん, シーサー, 狛犬, おしら様, うわばみ.
+
 ## 0.15.0
 
 - Catalog filled to the advertised list cap: 400 index rows and 400 bilingual cards.

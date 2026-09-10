@@ -15,7 +15,7 @@ import (
 	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 )
 
-const maxRosterLimit = 400
+const maxRosterLimit = 600
 
 // Handler coordinates Yokai search requests against the NDL API with caching.
 type Handler struct {
