@@ -92,6 +92,30 @@ func TestProfilesHaveJapaneseLore(t *testing.T) {
 	}
 }
 
+func TestFamousRankOneHasJapaneseLegends(t *testing.T) {
+	for _, e := range Index() {
+		if e.FamousRank != 1 {
+			continue
+		}
+		p, ok := FindByName(e.NativeName)
+		if !ok {
+			t.Errorf("%s missing profile", e.NativeName)
+			continue
+		}
+		if len(p.LegendsJA) < 3 {
+			t.Errorf("%s rank-1 legendsJa %d want >= 3", e.NativeName, len(p.LegendsJA))
+		}
+		if len([]rune(strings.TrimSpace(p.SummaryJA))) < 40 {
+			t.Errorf("%s rank-1 summaryJa too short (%d runes)", e.NativeName, len([]rune(p.SummaryJA)))
+		}
+		for _, line := range p.LegendsJA {
+			if hit := CatalogArtifact(line); hit != "" {
+				t.Errorf("%s legendsJa residue %q in %q", e.NativeName, hit, line)
+			}
+		}
+	}
+}
+
 func TestProfilesHaveMinimumThickness(t *testing.T) {
 	for _, p := range Profiles() {
 		label := p.NativeName

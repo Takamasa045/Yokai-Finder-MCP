@@ -71,7 +71,7 @@ func FilterIndexOpts(f IndexFilter) []IndexEntry {
 		if !categoryMatches(entry.Category, f.Category) {
 			continue
 		}
-		if !regionMatches(entry.Region, f.Region) {
+		if !entry.MatchesRegion(f.Region) {
 			continue
 		}
 		if term != "" && !indexMatchesTerm(entry, term) {
@@ -255,6 +255,14 @@ func indexMatchesTerm(entry IndexEntry, term string) bool {
 			return true
 		}
 	}
+	facets := RegionFacetsFor(entry)
+	for _, pool := range [][]string{facets.Prefectures, facets.Areas, facets.Habitats} {
+		for _, value := range pool {
+			if strings.Contains(strings.ToLower(value), term) || strings.Contains(NormalizeQuery(value), NormalizeQuery(term)) {
+				return true
+			}
+		}
+	}
 	return false
 }
 
@@ -400,6 +408,13 @@ func entryMatchPool(entry IndexEntry) string {
 	for _, tag := range entry.Tags {
 		b.WriteByte(' ')
 		b.WriteString(strings.ToLower(tag))
+	}
+	facets := RegionFacetsFor(entry)
+	for _, pool := range [][]string{facets.Prefectures, facets.Areas, facets.Habitats} {
+		for _, value := range pool {
+			b.WriteByte(' ')
+			b.WriteString(strings.ToLower(value))
+		}
 	}
 	return b.String()
 }

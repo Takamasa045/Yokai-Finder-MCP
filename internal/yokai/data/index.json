@@ -207,7 +207,7 @@
     "name": "Kamaitachi",
     "nativeName": "鎌鼬",
     "category": "気象",
-    "region": "信州など",
+    "region": "空・天候",
     "blurbJa": "つむじ風に乗り、見えぬ鎌で人を斬る鼬の妖怪。",
     "tags": [
       "風",
@@ -462,7 +462,7 @@
     "name": "Nurarihyon",
     "nativeName": "ぬらりひょん",
     "category": "異形",
-    "region": "瀬戸内など",
+    "region": "古典",
     "blurbJa": "いつの間にか上がり込む妖怪の総大将とも称される。",
     "tags": [
       "総大将",
@@ -615,7 +615,7 @@
     "name": "Tsuchigumo",
     "nativeName": "土蜘蛛",
     "category": "古典",
-    "region": "大和・古典",
+    "region": "古典",
     "blurbJa": "古くから朝廷に逆らった者や異形の蜘蛛の名。",
     "tags": [
       "蜘蛛",
@@ -666,7 +666,7 @@
     "name": "Satori",
     "nativeName": "覚",
     "category": "山系",
-    "region": "飛騨・甲斐など",
+    "region": "山中",
     "blurbJa": "人の心を読み上げる山の妖怪。考えを読まれると怖い。",
     "tags": [
       "山",
@@ -700,7 +700,7 @@
     "name": "Mokumokuren",
     "nativeName": "目目連",
     "category": "屋敷",
-    "region": "廃屋の障子",
+    "region": "家屋",
     "blurbJa": "破れた障子に無数の目が浮かぶ怪異。",
     "tags": [
       "家",
@@ -717,7 +717,7 @@
     "name": "Aoandon",
     "nativeName": "青行燈",
     "category": "古典",
-    "region": "百物語の席",
+    "region": "古典",
     "blurbJa": "百物語の最後に現れるという青い炎の女の妖怪。",
     "tags": [
       "古典",
@@ -734,7 +734,7 @@
     "name": "Tamamo-no-Mae",
     "nativeName": "玉藻前",
     "category": "狐狸",
-    "region": "宮中・那須",
+    "region": "里・社",
     "blurbJa": "美人に化けた白面金毛九尾の狐。殺生石の伝説へ続く。",
     "tags": [
       "狐",
@@ -768,7 +768,7 @@
     "name": "Hashihime",
     "nativeName": "橋姫",
     "category": "古典",
-    "region": "宇治など",
+    "region": "古典",
     "blurbJa": "橋にまつわる女の霊・神。嫉妬や呪いの物語で知られる。",
     "tags": [
       "橋",
@@ -901,7 +901,7 @@
     "name": "Onyudo",
     "nativeName": "大入道",
     "category": "異形",
-    "region": "各地",
+    "region": "古典",
     "blurbJa": "異常に大きな僧形の妖怪。地方ごとに姿が異なる。",
     "tags": [
       "入道",
@@ -1045,7 +1045,7 @@
     "name": "Tsurube-bi",
     "nativeName": "つるべ火",
     "category": "霊火",
-    "region": "木の上など",
+    "region": "夜空",
     "blurbJa": "釣瓶のような火が木々の間を行き来する怪火。",
     "tags": [
       "火",
@@ -1078,7 +1078,7 @@
     "name": "Kasha",
     "nativeName": "火車",
     "category": "死霊",
-    "region": "葬列・墓地",
+    "region": "墓・家",
     "blurbJa": "死体を奪う炎の車または猫のような妖怪。",
     "tags": [
       "死霊",
@@ -1143,7 +1143,7 @@
     "name": "Keukegen",
     "nativeName": "毛羽毛現",
     "category": "屋敷",
-    "region": "湿った家",
+    "region": "家屋",
     "blurbJa": "病や汚れから生じる、毛だらけの正体不明の妖怪。",
     "tags": [
       "家",
@@ -1175,7 +1175,7 @@
     "name": "Aosaginohi",
     "nativeName": "青鷺火",
     "category": "霊火",
-    "region": "水辺",
+    "region": "夜空",
     "blurbJa": "青鷺が放つ怪しい青い火、またはその姿の怪異。",
     "tags": [
       "火",
@@ -1239,7 +1239,7 @@
     "name": "Hakuzosu",
     "nativeName": "白蔵主",
     "category": "狐狸",
-    "region": "和泉など",
+    "region": "里・社",
     "blurbJa": "僧に化けた狐。勧進帳や狂言でも知られる。",
     "tags": [
       "狐",
@@ -1271,7 +1271,7 @@
     "name": "Tenko",
     "nativeName": "天狐",
     "category": "狐狸",
-    "region": "古典",
+    "region": "里・社",
     "blurbJa": "千年を経て天に通じる最高位の狐とされる。",
     "tags": [
       "狐",
@@ -1385,7 +1385,7 @@
     "name": "Kage-onna",
     "nativeName": "影女",
     "category": "屋敷",
-    "region": "障子・窓",
+    "region": "家屋",
     "blurbJa": "障子に女の影だけが映るが、中には誰もいない。",
     "tags": [
       "家",
@@ -1401,7 +1401,7 @@
     "name": "Sakabashira",
     "nativeName": "逆柱",
     "category": "屋敷",
-    "region": "建築",
+    "region": "家屋",
     "blurbJa": "上下逆に組まれた柱がもたらす家の怪異。",
     "tags": [
       "家",
@@ -1433,7 +1433,7 @@
     "name": "Azuki-hakari",
     "nativeName": "小豆はかり",
     "category": "屋敷",
-    "region": "天井裏",
+    "region": "家屋",
     "blurbJa": "天井裏で小豆を量るような音がする怪異。",
     "tags": [
       "家",
@@ -1449,7 +1449,7 @@
     "name": "Gaki",
     "nativeName": "餓鬼",
     "category": "死霊",
-    "region": "仏教説話",
+    "region": "墓・家",
     "blurbJa": "飢えに苦しむ亡者。仏教の六道の存在が民間に定着。",
     "tags": [
       "死霊",
@@ -1498,7 +1498,7 @@
     "name": "Waira",
     "nativeName": "わいら",
     "category": "異形",
-    "region": "百鬼夜行絵巻",
+    "region": "古典",
     "blurbJa": "大きな爪を持つ獣型。正体は絵巻でも謎が多い。",
     "tags": [
       "異形",
@@ -1515,7 +1515,7 @@
     "name": "Enraenra",
     "nativeName": "煙羅煙羅",
     "category": "気象",
-    "region": "煙・空",
+    "region": "空・天候",
     "blurbJa": "煙の中に人の形が浮かぶ妖怪。",
     "tags": [
       "煙",
@@ -1531,7 +1531,7 @@
     "name": "Hitotsume-ren",
     "nativeName": "一目連",
     "category": "気象",
-    "region": "伊勢など",
+    "region": "空・天候",
     "blurbJa": "高空を飛ぶ一つ目の火の玉・気象の怪異。",
     "tags": [
       "一つ目",
@@ -1580,7 +1580,7 @@
     "name": "Hoko",
     "nativeName": "彭侯",
     "category": "山系",
-    "region": "古木",
+    "region": "山中",
     "blurbJa": "千年の木に宿る犬のような精。中国由来の木の精。",
     "tags": [
       "木",
@@ -1613,7 +1613,7 @@
     "name": "Hanako-san",
     "nativeName": "トイレの花子さん",
     "category": "現代伝承",
-    "region": "学校",
+    "region": "都市",
     "blurbJa": "学校のトイレに棲む少女の霊という学校奇譚。",
     "tags": [
       "現代",
@@ -1630,7 +1630,7 @@
     "name": "Jinmenken",
     "nativeName": "人面犬",
     "category": "現代伝承",
-    "region": "都市部",
+    "region": "都市",
     "blurbJa": "人の顔をした犬。夜の道路に現れる都市伝説。",
     "tags": [
       "現代",
@@ -1646,7 +1646,7 @@
     "name": "Kappa-no-kawataro",
     "nativeName": "川太郎",
     "category": "水系",
-    "region": "西日本など",
+    "region": "川・沼",
     "blurbJa": "河童の別名・地方名。川童とも書く。",
     "tags": [
       "水",
@@ -1662,7 +1662,7 @@
     "name": "Seto-taisho",
     "nativeName": "瀬戸大将",
     "category": "付喪神",
-    "region": "厨房",
+    "region": "家の道具",
     "blurbJa": "割れた食器が集まって武者姿になった付喪神。",
     "tags": [
       "付喪神",
@@ -1678,7 +1678,7 @@
     "name": "Boroboroton",
     "nativeName": "ぼろぼろとん",
     "category": "付喪神",
-    "region": "寝室",
+    "region": "家の道具",
     "blurbJa": "古びた布団が人に巻きつき襲う付喪神。",
     "tags": [
       "付喪神",
@@ -1742,7 +1742,7 @@
     "name": "Uwan",
     "nativeName": "うわん",
     "category": "屋敷",
-    "region": "廃屋",
+    "region": "家屋",
     "blurbJa": "空き家で突然「うわん！」と大声を上げる妖怪。",
     "tags": [
       "家",
@@ -1758,7 +1758,7 @@
     "name": "Nuribotoke",
     "nativeName": "塗仏",
     "category": "屋敷",
-    "region": "仏間",
+    "region": "家屋",
     "blurbJa": "漆黒の仏像が目や腹を開けて現れる不気味な付喪神。",
     "tags": [
       "家",
@@ -1806,7 +1806,7 @@
     "name": "Mezu",
     "nativeName": "馬頭",
     "category": "死霊",
-    "region": "冥界説話",
+    "region": "墓・家",
     "blurbJa": "地獄の獄卒。牛頭と対になり亡者を責める。",
     "tags": [
       "地獄",
@@ -1822,7 +1822,7 @@
     "name": "Gozu",
     "nativeName": "牛頭",
     "category": "死霊",
-    "region": "冥界説話",
+    "region": "墓・家",
     "blurbJa": "馬頭と対の地獄の獄卒。鬼の顔に牛の頭。",
     "tags": [
       "地獄",
@@ -1838,7 +1838,7 @@
     "name": "Yamata-no-Orochi",
     "nativeName": "八岐大蛇",
     "category": "古典",
-    "region": "出雲神話",
+    "region": "古典",
     "blurbJa": "スサノオに討たれた八つの頭を持つ大蛇。",
     "tags": [
       "古典",
@@ -1887,7 +1887,7 @@
     "name": "Nuppeppo",
     "nativeName": "ぬっぺふほふ",
     "category": "異形",
-    "region": "古典絵巻",
+    "region": "古典",
     "blurbJa": "肉塊のような不定形の妖怪。臭気を放つとも。",
     "tags": [
       "異形",
@@ -2017,7 +2017,7 @@
     "name": "Okiku",
     "nativeName": "お菊",
     "category": "死霊",
-    "region": "播州など",
+    "region": "墓・家",
     "blurbJa": "皿屋敷伝説の女中の霊。皿を数えて泣く。",
     "tags": [
       "死霊",
@@ -2051,7 +2051,7 @@
     "name": "Kudan",
     "nativeName": "件",
     "category": "予言",
-    "region": "西日本など",
+    "region": "海辺",
     "blurbJa": "人面牛身で予言を残して死ぬ瑞祥・妖怪。",
     "tags": [
       "予言",
@@ -2099,7 +2099,7 @@
     "name": "Umizatō",
     "nativeName": "海座頭",
     "category": "海",
-    "region": "西日本",
+    "region": "海",
     "blurbJa": "琵琶を持つ座頭姿で海に現れる妖怪。",
     "tags": [
       "海",
@@ -2115,7 +2115,7 @@
     "name": "Akashita",
     "nativeName": "赤舌",
     "category": "異形",
-    "region": "雲・百鬼絵巻",
+    "region": "古典",
     "blurbJa": "黒雲から赤い舌を垂らす妖怪。",
     "tags": [
       "舌",
@@ -2131,7 +2131,7 @@
     "name": "Narikama",
     "nativeName": "鳴釜",
     "category": "付喪神",
-    "region": "古典",
+    "region": "家の道具",
     "blurbJa": "古いけが鳴って人を驚かす付喪神。",
     "tags": [
       "付喪神",
@@ -2147,7 +2147,7 @@
     "name": "Biwa-bokuboku",
     "nativeName": "琵琶牧々",
     "category": "付喪神",
-    "region": "古典",
+    "region": "家の道具",
     "blurbJa": "古い琵琶が僧形になって歩き出す。",
     "tags": [
       "付喪神",
@@ -2163,7 +2163,7 @@
     "name": "Koto-furunushi",
     "nativeName": "琴古主",
     "category": "付喪神",
-    "region": "古典",
+    "region": "家の道具",
     "blurbJa": "古琴が化けた老人姿の付喪神。",
     "tags": [
       "付喪神",
@@ -2179,7 +2179,7 @@
     "name": "Andon-obake",
     "nativeName": "行灯お化け",
     "category": "付喪神",
-    "region": "家屋",
+    "region": "家の道具",
     "blurbJa": "古びた行灯が怪異を起こす灯火の付喪神。",
     "tags": [
       "付喪神",
@@ -2195,7 +2195,7 @@
     "name": "Katawaguruma",
     "nativeName": "片輪車",
     "category": "道中",
-    "region": "京など",
+    "region": "街道",
     "blurbJa": "片輪の車に女が乗って走る恐怖の怪異。",
     "tags": [
       "車",
@@ -2211,7 +2211,7 @@
     "name": "Hone-onna",
     "nativeName": "骨女",
     "category": "死霊",
-    "region": "古典",
+    "region": "墓・家",
     "blurbJa": "美しい女に化け、骨の正体を現す。",
     "tags": [
       "死霊",
@@ -2389,7 +2389,7 @@
     "name": "Kuzunoha",
     "nativeName": "葛の葉",
     "category": "狐狸",
-    "region": "和泉など",
+    "region": "里・社",
     "blurbJa": "人の子を生んだ白狐。安倍晴明伝説と結びつく。",
     "tags": [
       "狐",
@@ -2423,7 +2423,7 @@
     "name": "Mekurabe",
     "nativeName": "目競",
     "category": "死霊",
-    "region": "平家物語周辺",
+    "region": "墓・家",
     "blurbJa": "髑髏が集まって競い合うような怪異。",
     "tags": [
       "髑髏",
@@ -2472,7 +2472,7 @@
     "name": "Yasha",
     "nativeName": "夜叉",
     "category": "鬼",
-    "region": "仏教説話",
+    "region": "山里",
     "blurbJa": "仏教の鬼神。護法とも暴悪ともなる。",
     "tags": [
       "鬼",
@@ -2488,7 +2488,7 @@
     "name": "Rasetsu",
     "nativeName": "羅刹",
     "category": "鬼",
-    "region": "仏教説話",
+    "region": "山里",
     "blurbJa": "人を害する鬼神。夜叉と並んで語られる。",
     "tags": [
       "鬼",
@@ -2520,7 +2520,7 @@
     "name": "Gataro",
     "nativeName": "ガタロ",
     "category": "水系",
-    "region": "北陸など",
+    "region": "川・沼",
     "blurbJa": "河童の地方名のひとつ。",
     "tags": [
       "水",
@@ -2552,7 +2552,7 @@
     "name": "Hasshaku-sama",
     "nativeName": "八尺様",
     "category": "現代伝承",
-    "region": "都市伝説",
+    "region": "都市",
     "blurbJa": "八尺の高さの白い女。声で呼ぶ都市伝説。",
     "tags": [
       "現代",
@@ -2569,7 +2569,7 @@
     "name": "Kunekune",
     "nativeName": "くねくね",
     "category": "現代伝承",
-    "region": "田畑・都市伝説",
+    "region": "都市",
     "blurbJa": "田の向こうでくねくね動く白い人影。",
     "tags": [
       "現代",
@@ -2585,7 +2585,7 @@
     "name": "Shinigami",
     "nativeName": "死神",
     "category": "現代伝承",
-    "region": "近代以降",
+    "region": "都市",
     "blurbJa": "死を運ぶ存在。民間俗信と創作が混交。",
     "tags": [
       "現代",
@@ -2618,7 +2618,7 @@
     "name": "Kasane",
     "nativeName": "累",
     "category": "死霊",
-    "region": "下総など",
+    "region": "墓・家",
     "blurbJa": "累世の因縁を背負う女の怨霊譚。",
     "tags": [
       "死霊",
@@ -2635,7 +2635,7 @@
     "name": "Bunbuku-chagama",
     "nativeName": "分福茶釜",
     "category": "狐狸",
-    "region": "栃木など",
+    "region": "里・社",
     "blurbJa": "茶釜に化けた狸の名高い御伽話。",
     "tags": [
       "狸",
@@ -2669,7 +2669,7 @@
     "name": "Tenome",
     "nativeName": "手の目",
     "category": "異形",
-    "region": "百鬼夜行絵巻",
+    "region": "古典",
     "blurbJa": "手のひらに目がある盲目の老人。掌で周囲を探るように歩く。",
     "tags": [
       "異形",
@@ -2700,7 +2700,7 @@
     "name": "Tenjo-sagari",
     "nativeName": "天井下",
     "category": "屋敷",
-    "region": "古民家・廃屋",
+    "region": "家屋",
     "blurbJa": "天井から長い舌や顔を下げ、寝ている者を舐める・驚かす。",
     "tags": [
       "屋敷",
@@ -2716,7 +2716,7 @@
     "name": "Kanedama",
     "nativeName": "金霊",
     "category": "町",
-    "region": "商家・蔵",
+    "region": "町",
     "blurbJa": "金運を運ぶ光の玉。蔵を飛び、拾えば富、逃がせば落ちぶれる。",
     "tags": [
       "町",
@@ -2732,7 +2732,7 @@
     "name": "Aka-manto",
     "nativeName": "赤いマント",
     "category": "現代伝承",
-    "region": "学校のトイレ",
+    "region": "都市",
     "blurbJa": "個室から赤いマントか青いマントかを問う都市伝説。",
     "tags": [
       "現代",
@@ -2764,7 +2764,7 @@
     "name": "Kashima-san",
     "nativeName": "カシマさん",
     "category": "現代伝承",
-    "region": "学校・鏡",
+    "region": "都市",
     "blurbJa": "名前を問われ、知っていると答えると後を追ってくる都市伝説。",
     "tags": [
       "現代",
@@ -2780,7 +2780,7 @@
     "name": "Kisaragi Station",
     "nativeName": "きさらぎ駅",
     "category": "現代伝承",
-    "region": "ネット都市伝説",
+    "region": "都市",
     "blurbJa": "2月の夜、存在しない駅に降りてしまうインターネットの怪異。",
     "tags": [
       "現代",
@@ -2796,7 +2796,7 @@
     "name": "Jinmensou",
     "nativeName": "人面瘡",
     "category": "現代伝承",
-    "region": "病・民間療法譚",
+    "region": "都市",
     "blurbJa": "腫れ物に人の顔が浮かび、食べ物をねだる病の怪異。",
     "tags": [
       "現代",
@@ -2892,7 +2892,7 @@
     "name": "Shokera",
     "nativeName": "しょうけら",
     "category": "屋敷",
-    "region": "屋根・覗き",
+    "region": "家屋",
     "blurbJa": "屋根から家の中を覗き、隠した悪事を見とがめる妖怪。",
     "tags": [
       "屋敷",
@@ -2972,7 +2972,7 @@
     "name": "Izuna",
     "nativeName": "飯綱",
     "category": "憑きもの",
-    "region": "信州・修験",
+    "region": "家筋",
     "blurbJa": "管狐に近い使役狐。飯綱権現の法と結びつく。",
     "tags": [
       "狐",
@@ -2988,7 +2988,7 @@
     "name": "Yaobikuni",
     "nativeName": "八百比丘尼",
     "category": "海",
-    "region": "若狭・越前",
+    "region": "海",
     "blurbJa": "人魚の肉を食べ八百歳まで生きた尼。不老の代償を語る。",
     "tags": [
       "人魚",
@@ -3020,7 +3020,7 @@
     "name": "Shibaemon-tanuki",
     "nativeName": "芝右衛門狸",
     "category": "狐狸",
-    "region": "淡路",
+    "region": "里・社",
     "blurbJa": "淡路の大狸。芝居見物に化けていき、最後は正体を見破られる。",
     "tags": [
       "狸",
@@ -3036,7 +3036,7 @@
     "name": "Hienma",
     "nativeName": "飛縁魔",
     "category": "死霊",
-    "region": "色恋の災い",
+    "region": "墓・家",
     "blurbJa": "男に取りついて色欲を煽り、身を滅ぼす女の魔。",
     "tags": [
       "女",
@@ -3052,7 +3052,7 @@
     "name": "Himamushi-nyudo",
     "nativeName": "火間虫入道",
     "category": "屋敷",
-    "region": "台所・灯火",
+    "region": "家屋",
     "blurbJa": "灯の油を舐める細長い入道。夜の台所に出る。",
     "tags": [
       "屋敷",
@@ -3084,7 +3084,7 @@
     "name": "Yagyo-san",
     "nativeName": "夜行さん",
     "category": "道中",
-    "region": "夜の往来",
+    "region": "街道",
     "blurbJa": "夜に行列する神や妖怪の通行。出会うと道を譲れと言われる。",
     "tags": [
       "夜道",
@@ -3116,7 +3116,7 @@
     "name": "Yonaki-baba",
     "nativeName": "夜泣き婆",
     "category": "屋敷",
-    "region": "産室・夜",
+    "region": "家屋",
     "blurbJa": "夜に乳飲み子のように泣く婆。産女や子泣き爺と隣り合う。",
     "tags": [
       "屋敷",
@@ -3196,7 +3196,7 @@
     "name": "Danzaburo-tanuki",
     "nativeName": "団三郎狸",
     "category": "狐狸",
-    "region": "佐渡",
+    "region": "里・社",
     "blurbJa": "佐渡の化け狸の棟梁。金掘りと島の政治に絡む大狸。",
     "tags": [
       "狸",
@@ -3212,7 +3212,7 @@
     "name": "Kincho-tanuki",
     "nativeName": "金長狸",
     "category": "狐狸",
-    "region": "阿波",
+    "region": "里・社",
     "blurbJa": "阿波の金長狸。仇討ち譚で知られる義侠の化け狸。",
     "tags": [
       "狸",
@@ -3292,7 +3292,7 @@
     "name": "Adachigahara",
     "nativeName": "安達ヶ原",
     "category": "鬼",
-    "region": "陸奥・安達ヶ原",
+    "region": "山里",
     "blurbJa": "安達ヶ原の鬼婆の地。旅人を宿し、人を食う黒塚の話。",
     "tags": [
       "鬼",
@@ -3324,7 +3324,7 @@
     "name": "Jinmengyo",
     "nativeName": "人面魚",
     "category": "現代伝承",
-    "region": "池・都市伝説",
+    "region": "都市",
     "blurbJa": "人の顔をした魚。見るな、放せ、という近代の池の噂。",
     "tags": [
       "現代",
@@ -3340,7 +3340,7 @@
     "name": "Aonyobo",
     "nativeName": "青女房",
     "category": "屋敷",
-    "region": "廃れた奥・中世",
+    "region": "家屋",
     "blurbJa": "古い奥に残る青白い女房。時が止まった侍女の怪異。",
     "tags": [
       "屋敷",
@@ -3356,7 +3356,7 @@
     "name": "Menreiki",
     "nativeName": "面霊気",
     "category": "付喪神",
-    "region": "能面・仮面",
+    "region": "家の道具",
     "blurbJa": "能面や仮面に憑く霊気。面が役者を選ぶ。",
     "tags": [
       "面",
@@ -3372,7 +3372,7 @@
     "name": "Hikeshi-baba",
     "nativeName": "火消婆",
     "category": "屋敷",
-    "region": "灯火・夜",
+    "region": "家屋",
     "blurbJa": "人の灯を消してまわる婆。夜道の火を憎む。",
     "tags": [
       "屋敷",
@@ -3420,7 +3420,7 @@
     "name": "Narike",
     "nativeName": "鳴家",
     "category": "屋敷",
-    "region": "空き家",
+    "region": "家屋",
     "blurbJa": "誰もいない家が夜に鳴る。柱や戸が自分で咳をする。",
     "tags": [
       "屋敷",
@@ -3436,7 +3436,7 @@
     "name": "Mokugyo-daruma",
     "nativeName": "木魚達磨",
     "category": "付喪神",
-    "region": "仏具",
+    "region": "家の道具",
     "blurbJa": "打たれなくなった木魚が達磨の体を得て歩く。",
     "tags": [
       "仏具",
@@ -3484,7 +3484,7 @@
     "name": "Tsujigami",
     "nativeName": "辻神",
     "category": "道中",
-    "region": "辻・四つ角",
+    "region": "街道",
     "blurbJa": "辻にいる神でも妖怪でもある者。出会う時刻を誤ると憑く。",
     "tags": [
       "道中",
@@ -3500,7 +3500,7 @@
     "name": "Gotoku-neko",
     "nativeName": "五徳猫",
     "category": "変化",
-    "region": "炉辺",
+    "region": "里",
     "blurbJa": "頭に五徳を乗せた猫の変化。炉の火と猫又の間にいる。",
     "tags": [
       "猫",
@@ -3516,7 +3516,7 @@
     "name": "Chinzuka-kaio",
     "nativeName": "塵塚怪王",
     "category": "付喪神",
-    "region": "ゴミ塚",
+    "region": "家の道具",
     "blurbJa": "捨てられた道具の王。塵の山から付喪神を統べる。",
     "tags": [
       "付喪神",
@@ -3564,7 +3564,7 @@
     "name": "Soso-bi",
     "nativeName": "叢原火",
     "category": "霊火",
-    "region": "原・湿地",
+    "region": "夜空",
     "blurbJa": "草叢をはう火。狐火や鬼火と区別される土地の火。",
     "tags": [
       "火",
@@ -3580,7 +3580,7 @@
     "name": "Ho-o",
     "nativeName": "鳳凰",
     "category": "古典",
-    "region": "瑞兆",
+    "region": "古典",
     "blurbJa": "聖なる鳥。麒麟と対になる瑞獣で、治世のしるし。",
     "tags": [
       "鳥",
@@ -3596,7 +3596,7 @@
     "name": "Amanozako",
     "nativeName": "天逆毎",
     "category": "鬼",
-    "region": "神話の辺縁",
+    "region": "山里",
     "blurbJa": "スサノオの怒りから生まれたという荒ぶる女神・鬼女。",
     "tags": [
       "鬼",
@@ -3644,7 +3644,7 @@
     "name": "Nyunai-suzume",
     "nativeName": "入内雀",
     "category": "屋敷",
-    "region": "宮中・御所",
+    "region": "家屋",
     "blurbJa": "御所に入り込む雀の精。秘事を見て鳴く。",
     "tags": [
       "鳥",
@@ -3660,7 +3660,7 @@
     "name": "Azuki-baba",
     "nativeName": "小豆婆",
     "category": "屋敷",
-    "region": "夜の家",
+    "region": "家屋",
     "blurbJa": "小豆を洗う音の主を婆とする土地の話。小豆洗いの家側。",
     "tags": [
       "屋敷",
@@ -3676,7 +3676,7 @@
     "name": "Konjin",
     "nativeName": "金神",
     "category": "道中",
-    "region": "方違え",
+    "region": "街道",
     "blurbJa": "金気の荒ぶる神。方角を誤ると崇る。陰陽道の旅行禁忌。",
     "tags": [
       "方角",
@@ -3692,7 +3692,7 @@
     "name": "Akadobo",
     "nativeName": "垢田坊",
     "category": "屋敷",
-    "region": "台所・灯油",
+    "region": "家屋",
     "blurbJa": "灯油や垢をなめる坊主姿。垢嘗や油すましの近所の盗人。",
     "tags": [
       "屋敷",
@@ -3708,7 +3708,7 @@
     "name": "Tasaburo-tanuki",
     "nativeName": "太三郎狸",
     "category": "狐狸",
-    "region": "佐渡",
+    "region": "里・社",
     "blurbJa": "佐渡の化け狸。団三郎と並ぶ島の大狸。",
     "tags": [
       "狸",
@@ -3788,7 +3788,7 @@
     "name": "Kyuki",
     "nativeName": "窮奇",
     "category": "古典",
-    "region": "四凶",
+    "region": "古典",
     "blurbJa": "人を食う翼ある獣。中国の四凶の一つとして日本の図鑑にも入る。",
     "tags": [
       "古典",
@@ -3804,7 +3804,7 @@
     "name": "Totetsu",
     "nativeName": "饕餮",
     "category": "古典",
-    "region": "四凶",
+    "region": "古典",
     "blurbJa": "貪欲の獣。器の文様にもなり、食欲そのものが形を持つ。",
     "tags": [
       "古典",
@@ -3820,7 +3820,7 @@
     "name": "Konton",
     "nativeName": "渾沌",
     "category": "古典",
-    "region": "四凶",
+    "region": "古典",
     "blurbJa": "顔のない渾沌。善悪を分けず、分けようとする者を困らせる。",
     "tags": [
       "古典",
@@ -3836,7 +3836,7 @@
     "name": "Tokotsu",
     "nativeName": "檮杌",
     "category": "古典",
-    "region": "四凶",
+    "region": "古典",
     "blurbJa": "頑固で荒ぶる獣。教えを受けつけない四凶の一つ。",
     "tags": [
       "古典",
@@ -3852,7 +3852,7 @@
     "name": "Ryu",
     "nativeName": "龍",
     "category": "古典",
-    "region": "雲雨・水域",
+    "region": "古典",
     "blurbJa": "雨と水を司る聖獣。蛟や竜神の上位のイメージ。",
     "tags": [
       "龍",
@@ -3884,7 +3884,7 @@
     "name": "Hyakki-yagyo",
     "nativeName": "百鬼夜行",
     "category": "道中",
-    "region": "京の夜",
+    "region": "街道",
     "blurbJa": "妖怪の夜行列。出会ったら道を譲るか、護符が要る。",
     "tags": [
       "夜道",
@@ -3900,7 +3900,7 @@
     "name": "Omagatoki",
     "nativeName": "逢魔時",
     "category": "道中",
-    "region": "黄昏",
+    "region": "街道",
     "blurbJa": "昼と夜の境。魔に逢いやすい時刻そのものが怪異。",
     "tags": [
       "黄昏",
@@ -3916,7 +3916,7 @@
     "name": "Ushimitsu-doki",
     "nativeName": "丑三つ時",
     "category": "道中",
-    "region": "深夜",
+    "region": "街道",
     "blurbJa": "最も魔が近づく刻。丑の刻参りの舞台装置。",
     "tags": [
       "夜",
@@ -3964,7 +3964,7 @@
     "name": "Kimon",
     "nativeName": "鬼門",
     "category": "道中",
-    "region": "北東",
+    "region": "街道",
     "blurbJa": "鬼の出入りする方角。家相と旅行の禁忌。",
     "tags": [
       "方角",
@@ -3980,7 +3980,7 @@
     "name": "Zenki",
     "nativeName": "前鬼",
     "category": "鬼",
-    "region": "大峰・修験",
+    "region": "山里",
     "blurbJa": "役行者の鬼の随神。前を行く赤鬼。",
     "tags": [
       "鬼",
@@ -3996,7 +3996,7 @@
     "name": "Goki",
     "nativeName": "後鬼",
     "category": "鬼",
-    "region": "大峰・修験",
+    "region": "山里",
     "blurbJa": "役行者の鬼の随神。後ろを守る青鬼。前鬼と対。",
     "tags": [
       "鬼",
@@ -4012,7 +4012,7 @@
     "name": "Amaonna",
     "nativeName": "雨女",
     "category": "気象",
-    "region": "長雨",
+    "region": "空・天候",
     "blurbJa": "雨を連れて歩く女。婚礼に呼ばれると空が泣く、とも。",
     "tags": [
       "雨",
@@ -4028,7 +4028,7 @@
     "name": "Hiderime",
     "nativeName": "日照り女",
     "category": "気象",
-    "region": "旱魃",
+    "region": "空・天候",
     "blurbJa": "日照りを呼ぶ女。雨女と対になる旱の人格。",
     "tags": [
       "旱",
@@ -4060,7 +4060,7 @@
     "name": "Yuki-baba",
     "nativeName": "雪婆",
     "category": "気象",
-    "region": "吹雪",
+    "region": "空・天候",
     "blurbJa": "雪女の老いた顔。吹雪そのものが婆になる。",
     "tags": [
       "雪",
@@ -4076,7 +4076,7 @@
     "name": "Rokuemon-tanuki",
     "nativeName": "六右衛門狸",
     "category": "狐狸",
-    "region": "阿波",
+    "region": "里・社",
     "blurbJa": "阿波の化け狸。金長譚の相手方として語られる大狸。",
     "tags": [
       "狸",
@@ -4108,7 +4108,7 @@
     "name": "Narukami",
     "nativeName": "鳴神",
     "category": "気象",
-    "region": "雷鳴",
+    "region": "空・天候",
     "blurbJa": "雷そのものの人格。鳴る神、怒る空。",
     "tags": [
       "雷",
@@ -4156,7 +4156,7 @@
     "name": "Kuwanu-onna",
     "nativeName": "食わず女",
     "category": "変化",
-    "region": "食事の禁忌",
+    "region": "里",
     "blurbJa": "食事を見せない女。二口女譚の手前で、隠す口の話。",
     "tags": [
       "女",
@@ -4252,7 +4252,7 @@
     "name": "Sakura-no-sei",
     "nativeName": "桜の精",
     "category": "山系",
-    "region": "桜の老木",
+    "region": "山中",
     "blurbJa": "桜の精。花の盛りに人を惑わせ、散ると消える。",
     "tags": [
       "桜",
@@ -4268,7 +4268,7 @@
     "name": "Renri-boku",
     "nativeName": "連理木",
     "category": "古典",
-    "region": "結び合う木",
+    "region": "古典",
     "blurbJa": "枝が一つになる木。夫婦の契り、または成仏できない恋。",
     "tags": [
       "木",
@@ -4300,7 +4300,7 @@
     "name": "Sutoku-tenno",
     "nativeName": "崇徳天皇",
     "category": "死霊",
-    "region": "讃岐・京",
+    "region": "墓・家",
     "blurbJa": "配流の天皇が天狗となり、保元の怨みを空に書いた。",
     "tags": [
       "怨霊",
@@ -4316,7 +4316,7 @@
     "name": "Sugawara-no-Michizane",
     "nativeName": "菅原道真",
     "category": "死霊",
-    "region": "太宰府・京",
+    "region": "墓・家",
     "blurbJa": "左遷の学者が雷神になる。天神信仰の核にある怨霊。",
     "tags": [
       "怨霊",
@@ -4332,7 +4332,7 @@
     "name": "Ume-no-sei",
     "nativeName": "梅の精",
     "category": "山系",
-    "region": "梅の木",
+    "region": "山中",
     "blurbJa": "梅の精。道真の飛梅譚と重なり、香で人を呼ぶ。",
     "tags": [
       "梅",
@@ -4348,7 +4348,7 @@
     "name": "Matsu-no-sei",
     "nativeName": "松の精",
     "category": "山系",
-    "region": "老松",
+    "region": "山中",
     "blurbJa": "松の精。長寿の木が人に化け、あるいは祟る。",
     "tags": [
       "松",
@@ -4380,7 +4380,7 @@
     "name": "Take-no-sei",
     "nativeName": "竹の精",
     "category": "山系",
-    "region": "竹林",
+    "region": "山中",
     "blurbJa": "竹の精。中に人がいる話と、切ると血が出る話。",
     "tags": [
       "竹",
@@ -4444,7 +4444,7 @@
     "name": "Otake-maru",
     "nativeName": "大嶽丸",
     "category": "鬼",
-    "region": "鈴鹿・大和",
+    "region": "山里",
     "blurbJa": "田村が討つ大鬼。鈴鹿御前と対になる山の賊。",
     "tags": [
       "鬼",
@@ -4540,7 +4540,7 @@
     "name": "Kakashi",
     "nativeName": "案山子",
     "category": "田畑",
-    "region": "田の番人",
+    "region": "田畑",
     "blurbJa": "田の番人。夜に歩き、鳥以上のものを嚇す。",
     "tags": [
       "田畑",
@@ -4556,7 +4556,7 @@
     "name": "Tenka",
     "nativeName": "天火",
     "category": "霊火",
-    "region": "空から",
+    "region": "夜空",
     "blurbJa": "空から落ちる火。家を焼く前触れとも。",
     "tags": [
       "火",
@@ -4572,7 +4572,7 @@
     "name": "Koemon-tanuki",
     "nativeName": "小右衛門狸",
     "category": "狐狸",
-    "region": "阿波",
+    "region": "里・社",
     "blurbJa": "阿波の化け狸。金長・六右衛門と並ぶ名。",
     "tags": [
       "狸",
@@ -4588,7 +4588,7 @@
     "name": "Sune-kosuri",
     "nativeName": "すねこすり",
     "category": "道中",
-    "region": "夜の脛",
+    "region": "街道",
     "blurbJa": "夜道で人の脛に擦り寄る小さな獣。",
     "tags": [
       "獣",
@@ -4605,7 +4605,7 @@
     "nativeName": "ツチノコ",
     "category": "変化",
     "region": "本州の山野",
-    "blurbJa": "太い短胴の蛇めいた未知の獣。目撃譚が図鑑に残る。",
+    "blurbJa": "ツチノコ。蛇、目撃、山にまつわる変化の伝承。",
     "tags": [
       "蛇",
       "目撃",
@@ -4620,7 +4620,7 @@
     "name": "Takaonna",
     "nativeName": "高女",
     "category": "屋敷",
-    "region": "二階の窓",
+    "region": "家屋",
     "blurbJa": "伸びて二階を覗く女。",
     "tags": [
       "女",
@@ -4636,7 +4636,7 @@
     "name": "Kerakera-onna",
     "nativeName": "けらけら女",
     "category": "町",
-    "region": "高い笑い声",
+    "region": "町",
     "blurbJa": "高い所でけらけら笑う女。",
     "tags": [
       "女",
@@ -4652,7 +4652,7 @@
     "name": "Nobusuma",
     "nativeName": "野衾",
     "category": "変化",
-    "region": "夜の屋根",
+    "region": "里",
     "blurbJa": "飛ぶムササビめいた怪。火を吸い顔を覆う。",
     "tags": [
       "飛ぶ",
@@ -4716,7 +4716,7 @@
     "name": "Neko-musume",
     "nativeName": "猫娘",
     "category": "変化",
-    "region": "見世物と巷説",
+    "region": "里",
     "blurbJa": "猫の特徴を持つ娘。見世物と伝承の境に立つ。",
     "tags": [
       "猫",
@@ -4732,7 +4732,7 @@
     "name": "Jinmenju",
     "nativeName": "人面樹",
     "category": "異形",
-    "region": "笑う果実の木",
+    "region": "古典",
     "blurbJa": "人の顔の実が笑う木。笑うと落ちる。",
     "tags": [
       "木",
@@ -4796,7 +4796,7 @@
     "name": "Hari-joro",
     "nativeName": "針女郎",
     "category": "付喪神",
-    "region": "針の女",
+    "region": "家の道具",
     "blurbJa": "針の付喪神。女郎の姿で刺す。",
     "tags": [
       "針",
@@ -4812,7 +4812,7 @@
     "name": "Kokkuri-san",
     "nativeName": "こっくりさん",
     "category": "現代伝承",
-    "region": "机の三人",
+    "region": "都市",
     "blurbJa": "三人で狐を呼ぶ机の遊び。現代の口寄せ。",
     "tags": [
       "狐",
@@ -4828,7 +4828,7 @@
     "name": "Akaoni",
     "nativeName": "赤鬼",
     "category": "鬼",
-    "region": "節分の赤",
+    "region": "山里",
     "blurbJa": "赤い鬼。節分の定番で、酒呑の配下にも見える。",
     "tags": [
       "鬼",
@@ -4844,7 +4844,7 @@
     "name": "Ao-oni",
     "nativeName": "青鬼",
     "category": "鬼",
-    "region": "節分の青",
+    "region": "山里",
     "blurbJa": "青い鬼。赤鬼と対で門に立つ。",
     "tags": [
       "鬼",
@@ -4876,7 +4876,7 @@
     "name": "Mamedanuki",
     "nativeName": "豆狸",
     "category": "狐狸",
-    "region": "小さな狸",
+    "region": "里・社",
     "blurbJa": "小さな化け狸。大狸の下働き。",
     "tags": [
       "狸",
@@ -4892,7 +4892,7 @@
     "name": "Noteppo",
     "nativeName": "野鉄砲",
     "category": "変化",
-    "region": "夜の飛び獣",
+    "region": "里",
     "blurbJa": "火を吐く飛ぶ獣。野衾の隣の名。",
     "tags": [
       "飛ぶ",
@@ -4908,7 +4908,7 @@
     "name": "Kagami-obake",
     "nativeName": "化け鏡",
     "category": "付喪神",
-    "region": "古い鏡",
+    "region": "家の道具",
     "blurbJa": "歳を経た鏡の付喪神。顔を返す。",
     "tags": [
       "鏡",
@@ -4924,7 +4924,7 @@
     "name": "Tanuki-tsuki",
     "nativeName": "狸憑き",
     "category": "憑きもの",
-    "region": "人の腹",
+    "region": "家筋",
     "blurbJa": "狸が人に憑く。狐憑きの隣の診断。",
     "tags": [
       "狸",
@@ -4940,7 +4940,7 @@
     "name": "Oni-tsuki",
     "nativeName": "鬼憑き",
     "category": "憑きもの",
-    "region": "荒ぶる人",
+    "region": "家筋",
     "blurbJa": "鬼が人に憑く。力と怒りの診断。",
     "tags": [
       "鬼",
@@ -4956,7 +4956,7 @@
     "name": "Gakko-no-nanafushigi",
     "nativeName": "学校の七不思議",
     "category": "現代伝承",
-    "region": "放課後の校舎",
+    "region": "都市",
     "blurbJa": "階段の段数、音楽室のピアノ。学校そのものの怪。",
     "tags": [
       "学校",
@@ -4972,7 +4972,7 @@
     "name": "Yogen-no-tori",
     "nativeName": "ヨゲンノトリ",
     "category": "予言",
-    "region": "ネットの鳥",
+    "region": "海辺",
     "blurbJa": "災害を告げるネットの鳥。件の現代形。",
     "tags": [
       "鳥",
@@ -5004,7 +5004,7 @@
     "name": "Janjan-bi",
     "nativeName": "じゃんじゃん火",
     "category": "霊火",
-    "region": "土佐の火",
+    "region": "夜空",
     "blurbJa": "ふたつの火がぶつかってじゃんじゃん鳴る。土佐の霊火。",
     "tags": [
       "火",
@@ -5020,7 +5020,7 @@
     "name": "Sazae-oni",
     "nativeName": "さざえ鬼",
     "category": "海",
-    "region": "磯の宿",
+    "region": "海",
     "blurbJa": "宿の女に化け、後でさざえの鬼に戻る。磯の怖い話。",
     "tags": [
       "海",
@@ -5036,7 +5036,7 @@
     "name": "Gangi-kozo",
     "nativeName": "がんぎ小僧",
     "category": "水系",
-    "region": "河岸の階段",
+    "region": "川・沼",
     "blurbJa": "河岸の雁木にいる河童の仲間。魚を食い、人を誘う。",
     "tags": [
       "水",
@@ -5069,7 +5069,7 @@
     "nativeName": "イッシー",
     "category": "水系",
     "region": "池田湖",
-    "blurbJa": "池田湖の巨大な未知の水の獣。目撃が図鑑に残る。",
+    "blurbJa": "イッシー。湖、目撃、九州にまつわる水系の伝承。",
     "tags": [
       "湖",
       "目撃",
@@ -5116,7 +5116,7 @@
     "name": "Tatami-tataki",
     "nativeName": "畳たたき",
     "category": "屋敷",
-    "region": "夜の畳",
+    "region": "家屋",
     "blurbJa": "夜に畳を叩く音。主のいない手入れ。",
     "tags": [
       "畳",
@@ -5132,7 +5132,7 @@
     "name": "Takenoko-bozu",
     "nativeName": "竹の子坊主",
     "category": "山系",
-    "region": "竹藪の童",
+    "region": "山中",
     "blurbJa": "竹藪の小僧。筍の形で夜に立つ。",
     "tags": [
       "竹",
@@ -5148,7 +5148,7 @@
     "name": "Umi-nyobo",
     "nativeName": "海女房",
     "category": "海",
-    "region": "漁師の妻",
+    "region": "海",
     "blurbJa": "海から来て漁師の妻になる女。禁忌を破ると海へ戻る。",
     "tags": [
       "海",
@@ -5164,7 +5164,7 @@
     "name": "Bake-kani",
     "nativeName": "化け蟹",
     "category": "海",
-    "region": "磯の甲",
+    "region": "海",
     "blurbJa": "人の顔や怨みを甲に載せた蟹。磯の変化。",
     "tags": [
       "蟹",
@@ -5180,7 +5180,7 @@
     "name": "Bake-hamaguri",
     "nativeName": "化け蛤",
     "category": "海",
-    "region": "干潟の貝",
+    "region": "海",
     "blurbJa": "蛤の変化。美女や楼閣を貝から出す話。",
     "tags": [
       "貝",
@@ -5196,7 +5196,7 @@
     "name": "Ozato",
     "nativeName": "大座頭",
     "category": "死霊",
-    "region": "雨夜の三味",
+    "region": "墓・家",
     "blurbJa": "巨大な座頭。雨夜に三味線で道を塞ぐ。",
     "tags": [
       "座頭",
@@ -5212,7 +5212,7 @@
     "name": "Kurabokko",
     "nativeName": "蔵ぼっこ",
     "category": "屋敷",
-    "region": "蔵の童",
+    "region": "家屋",
     "blurbJa": "蔵に棲む童。座敷童子の蔵側。",
     "tags": [
       "蔵",
@@ -5228,7 +5228,7 @@
     "name": "Misaki",
     "nativeName": "御先",
     "category": "道中",
-    "region": "先に立つ霊",
+    "region": "街道",
     "blurbJa": "先に立つ霊。犬や火のしるしで道を示す。",
     "tags": [
       "先",
@@ -5244,7 +5244,7 @@
     "name": "Geta-obake",
     "nativeName": "化け下駄",
     "category": "付喪神",
-    "region": "夜の足音",
+    "region": "家の道具",
     "blurbJa": "下駄の付喪神。主のいない足音。",
     "tags": [
       "下駄",
@@ -5260,7 +5260,7 @@
     "name": "Hoki-obake",
     "nativeName": "化け箒",
     "category": "付喪神",
-    "region": "掃除の夜",
+    "region": "家の道具",
     "blurbJa": "箒の付喪神。掃く仕事を一人で続ける。",
     "tags": [
       "箒",
@@ -5292,7 +5292,7 @@
     "name": "Byobu-obake",
     "nativeName": "化け屏風",
     "category": "付喪神",
-    "region": "部屋の折",
+    "region": "家の道具",
     "blurbJa": "屏風の付喪神。折れた絵が夜に立つ。",
     "tags": [
       "屏風",
@@ -5308,7 +5308,7 @@
     "name": "Obi-obake",
     "nativeName": "化け帯",
     "category": "付喪神",
-    "region": "締めの布",
+    "region": "家の道具",
     "blurbJa": "帯の付喪神。人を締めて離さない。",
     "tags": [
       "帯",
@@ -5324,7 +5324,7 @@
     "name": "Akai-kami-aoi-kami",
     "nativeName": "赤い紙青い紙",
     "category": "現代伝承",
-    "region": "夜のドア",
+    "region": "都市",
     "blurbJa": "夜のドアで赤い紙か青い紙かを問う幽霊。",
     "tags": [
       "紙",
@@ -5356,7 +5356,7 @@
     "name": "Sakasa-jizo",
     "nativeName": "さかさ地蔵",
     "category": "現代伝承",
-    "region": "境内の石",
+    "region": "都市",
     "blurbJa": "逆さにされた地蔵。直すと災が移る話。",
     "tags": [
       "地蔵",
@@ -5388,7 +5388,7 @@
     "name": "Ninomiya-kinjiro",
     "nativeName": "二宮金次郎",
     "category": "現代伝承",
-    "region": "学校の像",
+    "region": "都市",
     "blurbJa": "薪を背負う像が夜に動く学校の話。",
     "tags": [
       "像",
@@ -5420,7 +5420,7 @@
     "name": "Ike-no-nushi",
     "nativeName": "池の主",
     "category": "水系",
-    "region": "古い池",
+    "region": "川・沼",
     "blurbJa": "池に棲む主。蛇や鯉の老いた霊。",
     "tags": [
       "池",
@@ -5436,7 +5436,7 @@
     "name": "Gokusotsu",
     "nativeName": "獄卒",
     "category": "鬼",
-    "region": "地獄の職員",
+    "region": "山里",
     "blurbJa": "地獄の職員。牛頭馬頭の同僚。",
     "tags": [
       "地獄",
@@ -5468,7 +5468,7 @@
     "name": "Samebito",
     "nativeName": "鮫人",
     "category": "海",
-    "region": "竜宮の鮫",
+    "region": "海",
     "blurbJa": "鮫の人。涙が宝になる異郷の客人。",
     "tags": [
       "鮫",
@@ -5548,7 +5548,7 @@
     "name": "Rinrin-bi",
     "nativeName": "りんりん火",
     "category": "霊火",
-    "region": "鈴の火",
+    "region": "夜空",
     "blurbJa": "鈴のように鳴る霊火。音で先に来る。",
     "tags": [
       "火",
@@ -5564,7 +5564,7 @@
     "name": "Kounairi",
     "nativeName": "古内裏",
     "category": "屋敷",
-    "region": "廃れた内裏",
+    "region": "家屋",
     "blurbJa": "廃れた内裏に残る気配。時が止まった宮中。",
     "tags": [
       "屋敷",
@@ -5580,7 +5580,7 @@
     "name": "Umi-gozen",
     "nativeName": "海御前",
     "category": "海",
-    "region": "沖の女君",
+    "region": "海",
     "blurbJa": "沖に坐す女の主。沼御前の海側。",
     "tags": [
       "海",
@@ -5596,7 +5596,7 @@
     "name": "Kitsune-sage",
     "nativeName": "狐下げ",
     "category": "憑きもの",
-    "region": "憑きを落とす",
+    "region": "家筋",
     "blurbJa": "狐憑きを落とす儀。憑けば、下げねばならない。",
     "tags": [
       "狐",
@@ -5612,7 +5612,7 @@
     "name": "Bake-daruma",
     "nativeName": "化け達磨",
     "category": "付喪神",
-    "region": "古い達磨",
+    "region": "家の道具",
     "blurbJa": "古い達磨の付喪神。片目のまま歩く。",
     "tags": [
       "達磨",
@@ -5628,7 +5628,7 @@
     "name": "Hebi-onna",
     "nativeName": "蛇女",
     "category": "変化",
-    "region": "蛇の女",
+    "region": "里",
     "blurbJa": "蛇が女に化け、あるいは女が蛇になる。清姫の隣の職。",
     "tags": [
       "蛇",
@@ -5660,7 +5660,7 @@
     "name": "Kosode-no-te",
     "nativeName": "小袖の手",
     "category": "付喪神",
-    "region": "夜の小袖",
+    "region": "家の道具",
     "blurbJa": "小袖から手が伸びる付喪神。石燕の絵で知られる。",
     "tags": [
       "衣",
@@ -5676,7 +5676,7 @@
     "name": "Bake-nagamochi",
     "nativeName": "化け長持",
     "category": "付喪神",
-    "region": "夜の蔵",
+    "region": "家の道具",
     "blurbJa": "長持の付喪神。夜に歩き、人を中へ入れる話もある。",
     "tags": [
       "長持",
@@ -5692,7 +5692,7 @@
     "name": "Bake-hishaku",
     "nativeName": "化け柄杓",
     "category": "付喪神",
-    "region": "水の柄杓",
+    "region": "家の道具",
     "blurbJa": "柄杓の付喪神。船幽霊が求める底無しの隣の道具。",
     "tags": [
       "柄杓",
@@ -5708,7 +5708,7 @@
     "name": "Bake-usu",
     "nativeName": "化け臼",
     "category": "付喪神",
-    "region": "夜の臼",
+    "region": "家の道具",
     "blurbJa": "臼の付喪神。主のいない夜に碾く。",
     "tags": [
       "臼",
@@ -5740,7 +5740,7 @@
     "name": "Bake-kurage",
     "nativeName": "化けくらげ",
     "category": "海",
-    "region": "沖の傘",
+    "region": "海",
     "blurbJa": "くらげの変化。傘が顔になり、沖で人を惑わす。",
     "tags": [
       "くらげ",
@@ -5756,7 +5756,7 @@
     "name": "Bake-tako",
     "nativeName": "化け蛸",
     "category": "海",
-    "region": "磯の足",
+    "region": "海",
     "blurbJa": "巨大な化け蛸。入道の顔で舟を引く話もある。",
     "tags": [
       "蛸",
@@ -5772,7 +5772,7 @@
     "name": "Yashima-no-kamuro",
     "nativeName": "屋島の禿",
     "category": "狐狸",
-    "region": "阿波の狸合戦",
+    "region": "里・社",
     "blurbJa": "阿波狸合戦の屋島の禿。金長らの相手方の大狸。",
     "tags": [
       "狸",
@@ -5788,7 +5788,7 @@
     "name": "Mononoke",
     "nativeName": "物の怪",
     "category": "古典",
-    "region": "病のけ",
+    "region": "古典",
     "blurbJa": "病や祟りを起こす気。幽霊より広く、平安の『け』の総称。",
     "tags": [
       "憑き",
@@ -5804,7 +5804,7 @@
     "name": "Shirachigo",
     "nativeName": "白児",
     "category": "屋敷",
-    "region": "白い童",
+    "region": "家屋",
     "blurbJa": "白い児の霊。石燕の図に残る、小さな死の童。",
     "tags": [
       "子ども",
@@ -5820,8 +5820,8 @@
     "name": "Umihime",
     "nativeName": "海姫",
     "category": "海",
-    "region": "沖の姫の怪",
-    "blurbJa": "沖に現れる姫の怪。竜宮の乙姫とは別項。",
+    "region": "海",
+    "blurbJa": "海姫。海、姫、女にまつわる海の伝承。",
     "tags": [
       "海",
       "姫",
@@ -5836,7 +5836,7 @@
     "name": "Shiofuki",
     "nativeName": "潮吹き",
     "category": "海",
-    "region": "潮を吹く怪",
+    "region": "海",
     "blurbJa": "潮を吹く海の怪。舟に塩水をかけて沈める。",
     "tags": [
       "海",
@@ -5852,7 +5852,7 @@
     "name": "Bake-kakejiku",
     "nativeName": "化け掛け軸",
     "category": "付喪神",
-    "region": "床の間",
+    "region": "家の道具",
     "blurbJa": "掛け軸の付喪神。絵の人物が床の間を出る。",
     "tags": [
       "掛け軸",
@@ -5868,7 +5868,7 @@
     "name": "Bake-soroban",
     "nativeName": "化け算盤",
     "category": "付喪神",
-    "region": "夜の勘定",
+    "region": "家の道具",
     "blurbJa": "算盤の付喪神。誰もいない帳場で玉が弾ける。",
     "tags": [
       "算盤",
@@ -5884,7 +5884,7 @@
     "name": "Bake-kasa",
     "nativeName": "化け笠",
     "category": "付喪神",
-    "region": "旅の笠",
+    "region": "家の道具",
     "blurbJa": "笠の付喪神。唐傘お化けとは別の、旅笠の怪。",
     "tags": [
       "笠",
@@ -5900,7 +5900,7 @@
     "name": "Bake-kine",
     "nativeName": "化け杵",
     "category": "付喪神",
-    "region": "夜の杵",
+    "region": "家の道具",
     "blurbJa": "杵の付喪神。臼の隣で、主のいない夜に搗く。",
     "tags": [
       "杵",
@@ -5916,7 +5916,7 @@
     "name": "Bake-tansu",
     "nativeName": "化け箪笥",
     "category": "付喪神",
-    "region": "夜の箪笥",
+    "region": "家の道具",
     "blurbJa": "箪笥の付喪神。引き出しが口になり、衣を出し入れする。",
     "tags": [
       "箪笥",
@@ -5932,7 +5932,7 @@
     "name": "Hyakume",
     "nativeName": "百目",
     "category": "異形",
-    "region": "目だらけの体",
+    "region": "古典",
     "blurbJa": "体が目だらけの怪。百々目鬼（女の腕の目）とは別の石燕図。",
     "tags": [
       "目",
@@ -5964,7 +5964,7 @@
     "name": "Bake-jizo",
     "nativeName": "化け地蔵",
     "category": "道中",
-    "region": "夜の石",
+    "region": "街道",
     "blurbJa": "夜に動く地蔵。泣いたり、道を塞いだりする石の怪。",
     "tags": [
       "地蔵",
@@ -5980,7 +5980,7 @@
     "name": "Bake-gaeru",
     "nativeName": "化け蛙",
     "category": "変化",
-    "region": "井戸と雨",
+    "region": "里",
     "blurbJa": "巨大な化け蛙。井戸や雨の夜に人の家へ来る。",
     "tags": [
       "蛙",
@@ -6012,7 +6012,7 @@
     "name": "Kitsune-no-mado",
     "nativeName": "狐の窓",
     "category": "狐狸",
-    "region": "指の円",
+    "region": "里・社",
     "blurbJa": "指で輪を作り、隠れたものが見えるという狐の術。",
     "tags": [
       "狐",
@@ -6028,7 +6028,7 @@
     "name": "Shiro-uneri",
     "nativeName": "白うねり",
     "category": "付喪神",
-    "region": "白い布の渦",
+    "region": "家の道具",
     "blurbJa": "白い布が渦になって襲う。石燕の図で知られる付喪神。",
     "tags": [
       "布",
@@ -6044,7 +6044,7 @@
     "name": "Kago-tsurube",
     "nativeName": "籠釣瓶",
     "category": "付喪神",
-    "region": "井戸の籠",
+    "region": "家の道具",
     "blurbJa": "井戸の籠釣瓶が人を引き込む。石燕の付喪神。",
     "tags": [
       "井戸",
@@ -6060,7 +6060,7 @@
     "name": "Furu-kago-bi",
     "nativeName": "古籠火",
     "category": "霊火",
-    "region": "古い籠の火",
+    "region": "夜空",
     "blurbJa": "古い籠に宿る火。捨てられた編み目が燃える。",
     "tags": [
       "火",
@@ -6092,7 +6092,7 @@
     "name": "Hikeshi-tsubo",
     "nativeName": "火消壺",
     "category": "付喪神",
-    "region": "火を呑む壺",
+    "region": "家の道具",
     "blurbJa": "火を消す壺の付喪神。炎を中へ入れる。",
     "tags": [
       "壺",
@@ -6124,7 +6124,7 @@
     "name": "Mukae-chochin",
     "nativeName": "迎え提灯",
     "category": "霊火",
-    "region": "迎えの灯",
+    "region": "夜空",
     "blurbJa": "先から来る提灯。送り提灯の反対で、迎えに来る灯。",
     "tags": [
       "提灯",
@@ -6140,7 +6140,7 @@
     "name": "Akatori-baba",
     "nativeName": "垢とり婆",
     "category": "屋敷",
-    "region": "夜の肌",
+    "region": "家屋",
     "blurbJa": "寝ている人の垢を剥ぐ婆。垢嘗（舐める）とは別の職。",
     "tags": [
       "婆",
@@ -6156,7 +6156,7 @@
     "name": "Chitori-danuki",
     "nativeName": "血取り狸",
     "category": "狐狸",
-    "region": "血を取る狸",
+    "region": "里・社",
     "blurbJa": "人の血を取る狸。化け狸の、医療の悪い側。",
     "tags": [
       "狸",
@@ -6172,7 +6172,7 @@
     "name": "Hitori-ma",
     "nativeName": "火取魔",
     "category": "霊火",
-    "region": "灯を盗む",
+    "region": "夜空",
     "blurbJa": "家の火や灯油を盗む魔。油すまし・油赤子の隣職。",
     "tags": [
       "火",
@@ -6188,8 +6188,8 @@
     "name": "Kani-bozu",
     "nativeName": "蟹坊主",
     "category": "海",
-    "region": "磯の坊主",
-    "blurbJa": "坊主の頭を持つ蟹。化け蟹（甲の顔）とは別項。",
+    "region": "海",
+    "blurbJa": "蟹坊主。蟹、僧、海にまつわる海の伝承。",
     "tags": [
       "蟹",
       "僧",
@@ -6204,7 +6204,7 @@
     "name": "Hamaguri-nyobo",
     "nativeName": "蛤女房",
     "category": "変化",
-    "region": "干潟の妻",
+    "region": "里",
     "blurbJa": "蛤が妻になる。化け蛤（貝の楼閣）とは別の、嫁入り譚。",
     "tags": [
       "蛤",
@@ -6220,7 +6220,7 @@
     "name": "Okiku-mushi",
     "nativeName": "お菊虫",
     "category": "変化",
-    "region": "皿と虫",
+    "region": "里",
     "blurbJa": "お菊の霊が虫になる。皿屋敷の幽霊とは別の、虫の項。",
     "tags": [
       "虫",
@@ -6252,7 +6252,7 @@
     "name": "Kubikire-uma",
     "nativeName": "首切れ馬",
     "category": "死霊",
-    "region": "夜の馬",
+    "region": "墓・家",
     "blurbJa": "首のない馬が夜道を走る。乗るな、という話。",
     "tags": [
       "馬",
@@ -6284,7 +6284,7 @@
     "name": "Okuri-yurei",
     "nativeName": "送り幽霊",
     "category": "死霊",
-    "region": "送りの霊",
+    "region": "墓・家",
     "blurbJa": "後ろから送ってくる幽霊。送り犬の、人の側。",
     "tags": [
       "幽霊",
@@ -6300,7 +6300,7 @@
     "name": "Neko-guruma",
     "nativeName": "猫車",
     "category": "変化",
-    "region": "夜の猫の車",
+    "region": "里",
     "blurbJa": "猫が車を引く。宝または火を積んで夜を行く。",
     "tags": [
       "猫",
@@ -6316,7 +6316,7 @@
     "name": "Hone-guruma",
     "nativeName": "骨車",
     "category": "死霊",
-    "region": "骨の車",
+    "region": "墓・家",
     "blurbJa": "骨でできた車。輪入道（火の輪）とは別の、骸の荷車。",
     "tags": [
       "骨",
@@ -6332,7 +6332,7 @@
     "name": "Hannya",
     "nativeName": "般若",
     "category": "鬼",
-    "region": "能の面",
+    "region": "山里",
     "blurbJa": "能の怨霊の面が、そのまま怪異になる。",
     "tags": [
       "面",
@@ -6349,7 +6349,7 @@
     "nativeName": "山精",
     "category": "山系",
     "region": "山の精",
-    "blurbJa": "山の精。山童の漢語めいた名で、石燕が別項にした。",
+    "blurbJa": "山精。山、精、古典にまつわる山系の伝承。",
     "tags": [
       "山",
       "精",
@@ -6363,7 +6363,7 @@
     "name": "Batsu",
     "nativeName": "魃",
     "category": "気象",
-    "region": "日照りの神怪",
+    "region": "空・天候",
     "blurbJa": "日照りを起こす旱魃の怪。日照り女の漢語側。",
     "tags": [
       "日照り",
@@ -6378,7 +6378,7 @@
     "name": "Kosenjo-hi",
     "nativeName": "古戦場火",
     "category": "霊火",
-    "region": "古戦場",
+    "region": "夜空",
     "blurbJa": "古戦場に残る火。死者の灯が野に残る。",
     "tags": [
       "火",
@@ -6394,7 +6394,7 @@
     "name": "Chochin-no-hi",
     "nativeName": "提灯火",
     "category": "霊火",
-    "region": "提灯の火",
+    "region": "夜空",
     "blurbJa": "提灯から離れた火。提灯お化けとは別の、火の項。",
     "tags": [
       "火",
@@ -6409,7 +6409,7 @@
     "name": "Haka-no-hi",
     "nativeName": "墓の火",
     "category": "霊火",
-    "region": "墓",
+    "region": "夜空",
     "blurbJa": "墓に灯る火。人魂の、墓地側。",
     "tags": [
       "火",
@@ -6425,7 +6425,7 @@
     "name": "Furu-tsubaki-no-rei",
     "nativeName": "古山茶の霊",
     "category": "山系",
-    "region": "古い椿",
+    "region": "山中",
     "blurbJa": "古い椿の霊。花の精の、歳を経た側。",
     "tags": [
       "椿",
@@ -6441,7 +6441,7 @@
     "name": "Fuguruma-yohi",
     "nativeName": "文車妖妃",
     "category": "付喪神",
-    "region": "文の車",
+    "region": "家の道具",
     "blurbJa": "文車の付喪神。書物を積んだ車が女になる。",
     "tags": [
       "文",
@@ -6457,7 +6457,7 @@
     "name": "Osakoburi",
     "nativeName": "長冠",
     "category": "付喪神",
-    "region": "古い冠",
+    "region": "家の道具",
     "blurbJa": "古い冠の付喪神。頭の礼装が歩く。",
     "tags": [
       "冠",
@@ -6473,7 +6473,7 @@
     "name": "Kutsutsura",
     "nativeName": "沓頬",
     "category": "付喪神",
-    "region": "古い沓",
+    "region": "家の道具",
     "blurbJa": "沓の付喪神。履物が頬のようになる。",
     "tags": [
       "沓",
@@ -6489,7 +6489,7 @@
     "name": "Bake-no-kawagoromo",
     "nativeName": "ばけの皮衣",
     "category": "付喪神",
-    "region": "皮衣",
+    "region": "家の道具",
     "blurbJa": "皮衣の付喪神。脱いだ皮が夜に戻る。",
     "tags": [
       "皮",
@@ -6505,7 +6505,7 @@
     "name": "Kinu-tanuki",
     "nativeName": "絹狸",
     "category": "付喪神",
-    "region": "絹の狸",
+    "region": "家の道具",
     "blurbJa": "絹の付喪神が狸の形をとる。布と狸の境。",
     "tags": [
       "絹",
@@ -6521,7 +6521,7 @@
     "name": "Hone-karakasa",
     "nativeName": "骨傘",
     "category": "付喪神",
-    "region": "骨の傘",
+    "region": "家の道具",
     "blurbJa": "骨だけ残った傘の付喪神。唐傘お化けの骨格。",
     "tags": [
       "傘",
@@ -6537,7 +6537,7 @@
     "name": "Shogoro",
     "nativeName": "鉦五郎",
     "category": "付喪神",
-    "region": "鉦",
+    "region": "家の道具",
     "blurbJa": "鉦の付喪神。叩かれなくなっても音を出す。",
     "tags": [
       "鉦",
@@ -6553,7 +6553,7 @@
     "name": "Hossumori",
     "nativeName": "払子守",
     "category": "付喪神",
-    "region": "払子",
+    "region": "家の道具",
     "blurbJa": "払子の付喪神。塵を払う道具が夜に歩く。",
     "tags": [
       "払子",
@@ -6569,7 +6569,7 @@
     "name": "Yarikecho",
     "nativeName": "槍毛長",
     "category": "付喪神",
-    "region": "槍",
+    "region": "家の道具",
     "blurbJa": "槍の付喪神。穂先が毛のように長い。",
     "tags": [
       "槍",
@@ -6585,7 +6585,7 @@
     "name": "Koinryo",
     "nativeName": "虎隠良",
     "category": "付喪神",
-    "region": "虎の皮",
+    "region": "家の道具",
     "blurbJa": "虎の皮の付喪神。隠れた武具が獣になる。",
     "tags": [
       "虎",
@@ -6601,7 +6601,7 @@
     "name": "Zenfusho",
     "nativeName": "禅釜尚",
     "category": "付喪神",
-    "region": "禅の釜",
+    "region": "家の道具",
     "blurbJa": "禅寺の釜の付喪神。茶と修行の道具が座る。",
     "tags": [
       "釜",
@@ -6617,7 +6617,7 @@
     "name": "Kurayaro",
     "nativeName": "鞍野郎",
     "category": "付喪神",
-    "region": "鞍",
+    "region": "家の道具",
     "blurbJa": "鞍の付喪神。馬のいない夜に乗る。",
     "tags": [
       "鞍",
@@ -6633,7 +6633,7 @@
     "name": "Abumi-guchi",
     "nativeName": "鐙口",
     "category": "付喪神",
-    "region": "鐙",
+    "region": "家の道具",
     "blurbJa": "鐙の付喪神。輪が口になって噛む。",
     "tags": [
       "鐙",
@@ -6649,7 +6649,7 @@
     "name": "Taimatsu-maru",
     "nativeName": "松明丸",
     "category": "付喪神",
-    "region": "松明",
+    "region": "家の道具",
     "blurbJa": "松明の付喪神。消えたあとも火を持つ。",
     "tags": [
       "松明",
@@ -6665,7 +6665,7 @@
     "name": "Burabura",
     "nativeName": "不々落々",
     "category": "付喪神",
-    "region": "提灯のぶら",
+    "region": "家の道具",
     "blurbJa": "ぶらぶら揺れる提灯の付喪神。石燕の名。",
     "tags": [
       "提灯",
@@ -6681,7 +6681,7 @@
     "name": "Kaichigo",
     "nativeName": "貝児",
     "category": "付喪神",
-    "region": "貝合わせ",
+    "region": "家の道具",
     "blurbJa": "貝合わせの付喪神。貝が児の形をとる。",
     "tags": [
       "貝",
@@ -6697,7 +6697,7 @@
     "name": "Kami-oni",
     "nativeName": "髪鬼",
     "category": "付喪神",
-    "region": "髪",
+    "region": "家の道具",
     "blurbJa": "髪の付喪神。梳かれて捨てられた髪が鬼になる。",
     "tags": [
       "髪",
@@ -6713,7 +6713,7 @@
     "name": "Tsuno-hanzo",
     "nativeName": "角盥漱",
     "category": "付喪神",
-    "region": "盥",
+    "region": "家の道具",
     "blurbJa": "角のある盥の付喪神。顔を洗う器が歩く。",
     "tags": [
       "盥",
@@ -6729,7 +6729,7 @@
     "name": "Fukuro-mujina",
     "nativeName": "袋狢",
     "category": "付喪神",
-    "region": "袋",
+    "region": "家の道具",
     "blurbJa": "袋の付喪神が貉の形をとる。",
     "tags": [
       "袋",
@@ -6745,7 +6745,7 @@
     "name": "Shamichoro",
     "nativeName": "三味長老",
     "category": "付喪神",
-    "region": "三味線",
+    "region": "家の道具",
     "blurbJa": "三味線の付喪神。琴古主・琵琶牧々の隣職。",
     "tags": [
       "三味線",
@@ -6761,7 +6761,7 @@
     "name": "Eritate-goromo",
     "nativeName": "襟立衣",
     "category": "付喪神",
-    "region": "僧衣",
+    "region": "家の道具",
     "blurbJa": "襟の立った僧衣の付喪神。空の法衣が歩く。",
     "tags": [
       "衣",
@@ -6777,7 +6777,7 @@
     "name": "Kyorinrin",
     "nativeName": "経凛々",
     "category": "付喪神",
-    "region": "経巻",
+    "region": "家の道具",
     "blurbJa": "経巻の付喪神。読まれなくなった経が立つ。",
     "tags": [
       "経",
@@ -6793,7 +6793,7 @@
     "name": "Nyubachibo",
     "nativeName": "乳鉢坊",
     "category": "付喪神",
-    "region": "乳鉢",
+    "region": "家の道具",
     "blurbJa": "仏具の乳鉢の付喪神。薬を摺る器が坊主になる。",
     "tags": [
       "鉢",
@@ -6809,7 +6809,7 @@
     "name": "Hyotan-kozo",
     "nativeName": "瓢箪小僧",
     "category": "付喪神",
-    "region": "瓢箪",
+    "region": "家の道具",
     "blurbJa": "瓢箪の付喪神。酒の器が小僧になる。",
     "tags": [
       "瓢箪",
@@ -6825,7 +6825,7 @@
     "name": "Nyoijizai",
     "nativeName": "如意自在",
     "category": "付喪神",
-    "region": "如意",
+    "region": "家の道具",
     "blurbJa": "如意の付喪神。届く杖が夜に届きすぎる。",
     "tags": [
       "如意",
@@ -6841,7 +6841,7 @@
     "name": "Minowaraji",
     "nativeName": "蓑草鞋",
     "category": "付喪神",
-    "region": "蓑と草鞋",
+    "region": "家の道具",
     "blurbJa": "蓑と草鞋の付喪神。旅装が人を待つ。",
     "tags": [
       "蓑",
@@ -6857,7 +6857,7 @@
     "name": "Heiroku",
     "nativeName": "幣六",
     "category": "付喪神",
-    "region": "御幣",
+    "region": "家の道具",
     "blurbJa": "御幣の付喪神。祓いの紙が六の名で歩く。",
     "tags": [
       "幣",
@@ -6873,7 +6873,7 @@
     "name": "Ungaikyo",
     "nativeName": "雲外鏡",
     "category": "付喪神",
-    "region": "鏡",
+    "region": "家の道具",
     "blurbJa": "雲の外を映す鏡の付喪神。化け鏡の、雲側。",
     "tags": [
       "鏡",
@@ -6889,7 +6889,7 @@
     "name": "Suzuhiko-hime",
     "nativeName": "鈴彦姫",
     "category": "付喪神",
-    "region": "鈴",
+    "region": "家の道具",
     "blurbJa": "鈴の付喪神の姫。音が残って歩く。",
     "tags": [
       "鈴",
@@ -6905,7 +6905,7 @@
     "name": "Furu-utsubo",
     "nativeName": "古空穂",
     "category": "付喪神",
-    "region": "矢筒",
+    "region": "家の道具",
     "blurbJa": "古い空穂の付喪神。矢の入らない筒が歩く。",
     "tags": [
       "矢",
@@ -6921,7 +6921,7 @@
     "name": "Muku-mukabaki",
     "nativeName": "無垢行騰",
     "category": "付喪神",
-    "region": "行騰",
+    "region": "家の道具",
     "blurbJa": "行騰の付喪神。騎馬の脚絆が歩く。",
     "tags": [
       "脚絆",
@@ -6937,7 +6937,7 @@
     "name": "Chokuboron",
     "nativeName": "猪口暮露",
     "category": "付喪神",
-    "region": "猪口",
+    "region": "家の道具",
     "blurbJa": "酒の猪口の付喪神。小さな盃が夜に寄る。",
     "tags": [
       "盃",
@@ -6953,7 +6953,7 @@
     "name": "Yama-oroshi",
     "nativeName": "山颪",
     "category": "付喪神",
-    "region": "大根卸し",
+    "region": "家の道具",
     "blurbJa": "大根卸しの付喪神。山から吹く風の名を借りた器。",
     "tags": [
       "卸し",
@@ -6969,7 +6969,7 @@
     "name": "Kameosa",
     "nativeName": "瓶長",
     "category": "付喪神",
-    "region": "酒の瓶",
+    "region": "家の道具",
     "blurbJa": "酒瓶の付喪神。瓶の長として夜を統べる。",
     "tags": [
       "瓶",
@@ -7001,7 +7001,7 @@
     "name": "Furaribi",
     "nativeName": "ふらり火",
     "category": "霊火",
-    "region": "ふらりと来る火",
+    "region": "夜空",
     "blurbJa": "ふらりと現れる火。叢原火の隣の名。",
     "tags": [
       "火",
@@ -7049,7 +7049,7 @@
     "name": "Ao-bozu",
     "nativeName": "青坊主",
     "category": "異形",
-    "region": "青い坊主",
+    "region": "古典",
     "blurbJa": "青い坊主。麦畑などに立つ、石燕の怪。",
     "tags": [
       "青",
@@ -7065,7 +7065,7 @@
     "name": "Shiryo",
     "nativeName": "死霊",
     "category": "死霊",
-    "region": "死者の霊",
+    "region": "墓・家",
     "blurbJa": "死んだ人の霊。生霊・幽霊と並べた石燕の三分。",
     "tags": [
       "死",
@@ -7097,7 +7097,7 @@
     "name": "Amefuri-kozo",
     "nativeName": "雨降小僧",
     "category": "気象",
-    "region": "雨の童",
+    "region": "空・天候",
     "blurbJa": "雨を降らす小僧。雨女の、子どもの側。",
     "tags": [
       "雨",
@@ -7113,7 +7113,7 @@
     "name": "Itsumade",
     "nativeName": "以津真天",
     "category": "異形",
-    "region": "いつまでの鳥",
+    "region": "古典",
     "blurbJa": "「いつまで」と鳴く怪鳥。石燕が名を当てた。",
     "tags": [
       "鳥",
@@ -7145,7 +7145,7 @@
     "name": "Shokuin",
     "nativeName": "燭陰",
     "category": "古典",
-    "region": "燭の陰",
+    "region": "古典",
     "blurbJa": "山海経の燭陰。火を含む龍人の怪として図鑑に入る。",
     "tags": [
       "龍",
@@ -7161,7 +7161,7 @@
     "name": "Hangonko",
     "nativeName": "返魂香",
     "category": "死霊",
-    "region": "死者を呼ぶ香",
+    "region": "墓・家",
     "blurbJa": "死者の姿を返す香。香そのものが怪異。",
     "tags": [
       "香",
@@ -7177,7 +7177,7 @@
     "name": "Todaiki",
     "nativeName": "燈台鬼",
     "category": "異形",
-    "region": "人燈台",
+    "region": "古典",
     "blurbJa": "人の体が燈台になった鬼。石燕の図。",
     "tags": [
       "灯",
@@ -7193,7 +7193,7 @@
     "name": "Kokuri-baba",
     "nativeName": "古庫裏婆",
     "category": "屋敷",
-    "region": "古い庫裏",
+    "region": "家屋",
     "blurbJa": "廃れた庫裏の婆。寺の台所に残る。",
     "tags": [
       "婆",
@@ -7209,7 +7209,7 @@
     "name": "Jakotsu-baba",
     "nativeName": "蛇骨婆",
     "category": "死霊",
-    "region": "蛇の骨の婆",
+    "region": "墓・家",
     "blurbJa": "蛇の骨を持つ婆。呪術の側の老女。",
     "tags": [
       "婆",
@@ -7225,7 +7225,7 @@
     "name": "Minobi",
     "nativeName": "蓑火",
     "category": "霊火",
-    "region": "蓑の火",
+    "region": "夜空",
     "blurbJa": "蓑に灯る火。雨具が燃えるように見える。",
     "tags": [
       "火",
@@ -7241,7 +7241,7 @@
     "name": "Kosame-bo",
     "nativeName": "小雨坊",
     "category": "気象",
-    "region": "小雨の坊",
+    "region": "空・天候",
     "blurbJa": "小雨を連れて歩く坊。雨降小僧の隣。",
     "tags": [
       "雨",
@@ -7257,7 +7257,7 @@
     "name": "Oni-hitokuchi",
     "nativeName": "鬼一口",
     "category": "鬼",
-    "region": "一口の鬼",
+    "region": "山里",
     "blurbJa": "人を一口で呑む鬼。和歌の句が図鑑の項になる。",
     "tags": [
       "鬼",
@@ -7273,7 +7273,7 @@
     "name": "Jatai",
     "nativeName": "蛇帯",
     "category": "付喪神",
-    "region": "帯の蛇",
+    "region": "家の道具",
     "blurbJa": "帯が蛇になる。化け帯の、蛇側。",
     "tags": [
       "帯",
@@ -7289,7 +7289,7 @@
     "name": "Hatahiro",
     "nativeName": "機尋",
     "category": "付喪神",
-    "region": "機織り",
+    "region": "家の道具",
     "blurbJa": "機の付喪神。織りかけの布が人を尋る。",
     "tags": [
       "機",
@@ -7305,7 +7305,7 @@
     "name": "Basho-no-sei",
     "nativeName": "芭蕉精",
     "category": "山系",
-    "region": "芭蕉の精",
+    "region": "山中",
     "blurbJa": "芭蕉の精。中国由来の、葉の女。",
     "tags": [
       "芭蕉",
@@ -7321,7 +7321,7 @@
     "name": "Suzuri-no-tamashi",
     "nativeName": "硯の魂",
     "category": "付喪神",
-    "region": "硯",
+    "region": "家の道具",
     "blurbJa": "硯の魂。墨を磨る石が夜に歩く。",
     "tags": [
       "硯",
@@ -7337,7 +7337,7 @@
     "name": "Byobu-nozoki",
     "nativeName": "屏風闚",
     "category": "屋敷",
-    "region": "屏風の隙",
+    "region": "家屋",
     "blurbJa": "屏風の隙から覗く怪。化け屏風（屏風自体）とは別職。",
     "tags": [
       "覗き",
@@ -7353,7 +7353,7 @@
     "name": "Kyokotsu",
     "nativeName": "狂骨",
     "category": "死霊",
-    "region": "井戸の骨",
+    "region": "墓・家",
     "blurbJa": "井戸に棄てられた骨が狂う。石燕の図。",
     "tags": [
       "骨",
@@ -7369,7 +7369,7 @@
     "name": "Iyaya",
     "nativeName": "否哉",
     "category": "異形",
-    "region": "いややの顔",
+    "region": "古典",
     "blurbJa": "「いやや」と顔を背ける怪。石燕の拒絶の貌。",
     "tags": [
       "顔",
@@ -7385,7 +7385,7 @@
     "name": "Takirei-o",
     "nativeName": "瀧霊王",
     "category": "水系",
-    "region": "滝の王",
+    "region": "川・沼",
     "blurbJa": "滝に坐す霊王。水の落差が王になる。",
     "tags": [
       "滝",
@@ -7401,7 +7401,7 @@
     "name": "Jami",
     "nativeName": "邪魅",
     "category": "憑きもの",
-    "region": "病の魅",
+    "region": "家筋",
     "blurbJa": "病を起こす邪な魅。物の怪の、病側。",
     "tags": [
       "病",
@@ -7417,7 +7417,7 @@
     "name": "Hiyori-bo",
     "nativeName": "日和坊",
     "category": "気象",
-    "region": "天気の坊",
+    "region": "空・天候",
     "blurbJa": "天気を見る坊。晴れと雨の間を歩く。",
     "tags": [
       "天気",
@@ -7433,7 +7433,7 @@
     "name": "O-kamuro",
     "nativeName": "大禿",
     "category": "死霊",
-    "region": "大きな禿",
+    "region": "墓・家",
     "blurbJa": "大きな禿の怪。遊女の禿が巨大化する。",
     "tags": [
       "禿",
@@ -7449,7 +7449,7 @@
     "name": "Gaikotsu",
     "nativeName": "骸骨",
     "category": "死霊",
-    "region": "歩く骨",
+    "region": "墓・家",
     "blurbJa": "歩く骸骨。餓者髑髏（巨大）とは別の、人サイズの骨。",
     "tags": [
       "骨",
@@ -7465,7 +7465,7 @@
     "name": "Nurunuru-bozu",
     "nativeName": "ぬるぬる坊主",
     "category": "道中",
-    "region": "ぬるぬる",
+    "region": "街道",
     "blurbJa": "ぬるぬるした坊主。夜道に張りつく。",
     "tags": [
       "坊主",
@@ -7481,7 +7481,7 @@
     "name": "Kotori-bozu",
     "nativeName": "子取り坊主",
     "category": "死霊",
-    "region": "子を取る坊主",
+    "region": "墓・家",
     "blurbJa": "子どもを取る坊主。夜のさらい。",
     "tags": [
       "子ども",
@@ -7497,7 +7497,7 @@
     "name": "Iwana-bozu",
     "nativeName": "岩魚坊主",
     "category": "水系",
-    "region": "岩魚の坊主",
+    "region": "川・沼",
     "blurbJa": "岩魚が坊主になる。谷川の魚の怪。",
     "tags": [
       "魚",
@@ -7545,7 +7545,7 @@
     "name": "Ippon-ashi",
     "nativeName": "一本足",
     "category": "異形",
-    "region": "一本の足",
+    "region": "古典",
     "blurbJa": "一本足の怪。一本だたらの、総称側。",
     "tags": [
       "足",
@@ -7561,7 +7561,7 @@
     "name": "Ashimagari",
     "nativeName": "足まがり",
     "category": "道中",
-    "region": "足を曲げる",
+    "region": "街道",
     "blurbJa": "足を曲げて転ばせる怪。夜道の罠。",
     "tags": [
       "足",
@@ -7577,7 +7577,7 @@
     "name": "Isogashi",
     "nativeName": "いそがし",
     "category": "道中",
-    "region": "忙しい怪",
+    "region": "街道",
     "blurbJa": "急がせる声の怪。足まがりの隣職。",
     "tags": [
       "急",
@@ -7593,7 +7593,7 @@
     "name": "Inenbi",
     "nativeName": "遺念火",
     "category": "霊火",
-    "region": "遺した念の火",
+    "region": "夜空",
     "blurbJa": "遺した念が火になる。人魂の、執念側。",
     "tags": [
       "火",
@@ -7609,7 +7609,7 @@
     "name": "Imori",
     "nativeName": "井守",
     "category": "水系",
-    "region": "井戸の守",
+    "region": "川・沼",
     "blurbJa": "井戸を守る井守。守宮の名の怪。",
     "tags": [
       "井戸",
@@ -7625,7 +7625,7 @@
     "name": "Iyami",
     "nativeName": "いやみ",
     "category": "異形",
-    "region": "いやみの貌",
+    "region": "古典",
     "blurbJa": "いやみの貌の怪。否哉の口語側。",
     "tags": [
       "顔",
@@ -7640,7 +7640,7 @@
     "name": "Ushiuchi-bo",
     "nativeName": "牛打ち坊",
     "category": "鬼",
-    "region": "牛を打つ坊",
+    "region": "山里",
     "blurbJa": "牛を打つ坊主の怪。牛鬼の隣の職。",
     "tags": [
       "牛",
@@ -7656,7 +7656,7 @@
     "name": "Uma-no-ashi",
     "nativeName": "馬の足",
     "category": "変化",
-    "region": "馬の足だけ",
+    "region": "里",
     "blurbJa": "馬の足だけが見える怪。本所七不思議にも近い。",
     "tags": [
       "馬",
@@ -7672,7 +7672,7 @@
     "name": "Oigakari",
     "nativeName": "おいがかり",
     "category": "道中",
-    "region": "追い掛ける怪",
+    "region": "街道",
     "blurbJa": "後ろから追い掛かる怪。送りの人側。",
     "tags": [
       "追",
@@ -7687,7 +7687,7 @@
     "name": "Akarinashi-soba",
     "nativeName": "燈無蕎麦",
     "category": "現代伝承",
-    "region": "本所",
+    "region": "都市",
     "blurbJa": "本所七不思議の燈無蕎麦。灯のない蕎麦屋。",
     "tags": [
       "蕎麦",
@@ -7703,7 +7703,7 @@
     "name": "Akagashira",
     "nativeName": "赤頭",
     "category": "鬼",
-    "region": "赤い頭",
+    "region": "山里",
     "blurbJa": "赤い頭の怪。地方の赤入道に近い。",
     "tags": [
       "赤",
@@ -7719,7 +7719,7 @@
     "name": "Abura-gaeshi",
     "nativeName": "油返し",
     "category": "霊火",
-    "region": "油を返す",
+    "region": "夜空",
     "blurbJa": "盗んだ油を返せと出る火。油坊の類話。",
     "tags": [
       "油",
@@ -7735,7 +7735,7 @@
     "name": "Iju",
     "nativeName": "異獣",
     "category": "異形",
-    "region": "名のない獣",
+    "region": "古典",
     "blurbJa": "名のない異獣。図鑑が種を与えず項だけ置く。",
     "tags": [
       "獣",
@@ -7751,7 +7751,7 @@
     "name": "Itaoni",
     "nativeName": "板鬼",
     "category": "付喪神",
-    "region": "板の鬼",
+    "region": "家の道具",
     "blurbJa": "板の鬼。建材が鬼になる。",
     "tags": [
       "板",
@@ -7767,7 +7767,7 @@
     "name": "Ashiarai-yashiki",
     "nativeName": "足洗邸",
     "category": "屋敷",
-    "region": "本所",
+    "region": "家屋",
     "blurbJa": "本所七不思議の足洗邸。足を洗えと屋敷が言う。",
     "tags": [
       "足",
@@ -7783,7 +7783,7 @@
     "name": "Akurojin-no-hi",
     "nativeName": "悪路神の火",
     "category": "霊火",
-    "region": "悪路の火",
+    "region": "夜空",
     "blurbJa": "悪路に出る神の火。道の禍の灯。",
     "tags": [
       "火",
@@ -7799,7 +7799,7 @@
     "name": "Ishinagenjo",
     "nativeName": "石投げんじょ",
     "category": "山系",
-    "region": "石を投げる女",
+    "region": "山中",
     "blurbJa": "石を投げる女の怪。峠の投擲。",
     "tags": [
       "石",
@@ -7815,7 +7815,7 @@
     "name": "Ijaro-korogashi",
     "nativeName": "イジャロコロガシ",
     "category": "道中",
-    "region": "転がす怪",
+    "region": "街道",
     "blurbJa": "人を転がす東北の怪。坂の悪戯。",
     "tags": [
       "転",
@@ -7831,7 +7831,7 @@
     "name": "Korpokkur",
     "nativeName": "コロポックル",
     "category": "山系",
-    "region": "蕗の下",
+    "region": "山中",
     "blurbJa": "蕗の下の小人。アイヌの小人が図鑑の項になる。",
     "tags": [
       "小人",
@@ -7847,7 +7847,7 @@
     "name": "Amamehagi",
     "nativeName": "あまめはぎ",
     "category": "鬼",
-    "region": "能登の来訪",
+    "region": "山里",
     "blurbJa": "能登の来訪鬼。なまはげの隣の職。",
     "tags": [
       "鬼",
@@ -7863,7 +7863,7 @@
     "name": "Taniguku",
     "nativeName": "たにぐく",
     "category": "変化",
-    "region": "谷の蛙",
+    "region": "里",
     "blurbJa": "谷の大蛙。化け蛙の、谷側。",
     "tags": [
       "蛙",
@@ -7879,7 +7879,7 @@
     "name": "Doyo-bozu",
     "nativeName": "土用坊主",
     "category": "気象",
-    "region": "土用",
+    "region": "空・天候",
     "blurbJa": "土用に出る坊主。季節の暦が怪になる。",
     "tags": [
       "土用",
@@ -7895,7 +7895,7 @@
     "name": "Shojo",
     "nativeName": "猩猩",
     "category": "海",
-    "region": "酒の猩猩",
+    "region": "海",
     "blurbJa": "酒を好む赤い海の精。能と図鑑の境。",
     "tags": [
       "酒",
@@ -7911,7 +7911,7 @@
     "name": "Kutabe",
     "nativeName": "クタベ",
     "category": "予言",
-    "region": "越中の獣",
+    "region": "海辺",
     "blurbJa": "越中に現れて予言する獣。件の隣職。",
     "tags": [
       "獣",
@@ -7927,7 +7927,7 @@
     "name": "Kashabo",
     "nativeName": "カシャボ",
     "category": "死霊",
-    "region": "火車の地方名",
+    "region": "墓・家",
     "blurbJa": "火車の地方名が、図鑑では項を持つこともある。",
     "tags": [
       "火",
@@ -7943,7 +7943,7 @@
     "name": "Shu-no-bon",
     "nativeName": "朱の盆",
     "category": "異形",
-    "region": "赤い盆",
+    "region": "古典",
     "blurbJa": "赤い盆のような顔の怪。水木ロードの名。",
     "tags": [
       "赤",
@@ -7991,7 +7991,7 @@
     "name": "Takekiri-tanuki",
     "nativeName": "竹切狸",
     "category": "狐狸",
-    "region": "竹を切る狸",
+    "region": "里・社",
     "blurbJa": "竹を切る狸。阿波の隣の、竹藪の狸。",
     "tags": [
       "狸",
@@ -8007,8 +8007,8 @@
     "name": "Kirin-jishi",
     "nativeName": "麒麟獅子",
     "category": "古典",
-    "region": "麒麟と獅子",
-    "blurbJa": "麒麟獅子。祭りの形が図鑑に残る。",
+    "region": "古典",
+    "blurbJa": "麒麟獅子。麒麟、獅子、祭にまつわる古典の伝承。",
     "tags": [
       "麒麟",
       "獅子",
@@ -8023,7 +8023,7 @@
     "name": "Tomokazuki",
     "nativeName": "共潜",
     "category": "海",
-    "region": "一緒に潜る",
+    "region": "海",
     "blurbJa": "海女と一緒に潜る怪。共に息を取る。",
     "tags": [
       "海",
@@ -8055,7 +8055,7 @@
     "name": "Akateko",
     "nativeName": "赤手児",
     "category": "屋敷",
-    "region": "赤い手",
+    "region": "家屋",
     "blurbJa": "窓から赤い子どもの手が出る。",
     "tags": [
       "赤",
@@ -8071,7 +8071,7 @@
     "name": "Aka-bozu",
     "nativeName": "赤坊主",
     "category": "鬼",
-    "region": "赤い坊主",
+    "region": "山里",
     "blurbJa": "赤い坊主。赤入道の、職名違い。",
     "tags": [
       "赤",
@@ -8086,7 +8086,7 @@
     "name": "Akashaguma",
     "nativeName": "赤シャグマ",
     "category": "鬼",
-    "region": "赤い髪",
+    "region": "山里",
     "blurbJa": "赤い長い髪の怪。東北の赤。",
     "tags": [
       "赤",
@@ -8102,7 +8102,7 @@
     "name": "Akaei",
     "nativeName": "赤えい",
     "category": "海",
-    "region": "赤いエイ",
+    "region": "海",
     "blurbJa": "赤いエイの怪。海の平たい禍。",
     "tags": [
       "エイ",
@@ -8118,7 +8118,7 @@
     "name": "Akaashi",
     "nativeName": "赤足",
     "category": "道中",
-    "region": "赤い足",
+    "region": "街道",
     "blurbJa": "赤い足だけが見える怪。馬の足の、人側。",
     "tags": [
       "赤",
@@ -8134,7 +8134,7 @@
     "name": "Akago",
     "nativeName": "赤子",
     "category": "死霊",
-    "region": "夜の赤子",
+    "region": "墓・家",
     "blurbJa": "夜に泣く正体不明の赤子の怪。川赤子の、陸上側。",
     "tags": [
       "子ども",
@@ -8150,7 +8150,7 @@
     "name": "Akashi-sama",
     "nativeName": "明石様",
     "category": "屋敷",
-    "region": "横浜の明石",
+    "region": "家屋",
     "blurbJa": "横浜に伝わる明石様。家の怪異の人名。",
     "tags": [
       "家",
@@ -8182,7 +8182,7 @@
     "name": "Akana",
     "nativeName": "アカナー",
     "category": "山系",
-    "region": "月のキジムナー",
+    "region": "山中",
     "blurbJa": "キジムナーの兄弟で月に住むという。",
     "tags": [
       "沖縄",
@@ -8198,7 +8198,7 @@
     "name": "Akanbe",
     "nativeName": "あかんべい",
     "category": "町",
-    "region": "あかんべえ",
+    "region": "町",
     "blurbJa": "あかんべえをする小僧の怪。べか太郎の類。",
     "tags": [
       "子ども",
@@ -8214,7 +8214,7 @@
     "name": "Akudo-pokkari",
     "nativeName": "アクドポッカリ",
     "category": "道中",
-    "region": "踵",
+    "region": "街道",
     "blurbJa": "岩手で踵に纏わる怪。アグトネブリの隣。",
     "tags": [
       "踵",
@@ -8230,7 +8230,7 @@
     "name": "Aguto-neburi",
     "nativeName": "アグトネブリ",
     "category": "道中",
-    "region": "踵を嘗める",
+    "region": "街道",
     "blurbJa": "闇夜に踵を嘗める岩手の怪。",
     "tags": [
       "踵",
@@ -8246,7 +8246,7 @@
     "name": "Akubaba",
     "nativeName": "悪婆",
     "category": "死霊",
-    "region": "産子を食う婆",
+    "region": "墓・家",
     "blurbJa": "往来にいて見えない、産子を食う婆。",
     "tags": [
       "婆",
@@ -8262,7 +8262,7 @@
     "name": "Aku-bozu",
     "nativeName": "灰坊主",
     "category": "屋敷",
-    "region": "灰の坊主",
+    "region": "家屋",
     "blurbJa": "灰の中の坊主。炉の残りが歩く。",
     "tags": [
       "灰",
@@ -8278,7 +8278,7 @@
     "name": "Akuma-gakaze",
     "nativeName": "悪魔ヶ風",
     "category": "気象",
-    "region": "当たると病む風",
+    "region": "空・天候",
     "blurbJa": "当たると病む風。志摩の怪異。",
     "tags": [
       "風",
@@ -8294,7 +8294,7 @@
     "name": "Asaoke-no-ke",
     "nativeName": "麻桶の毛",
     "category": "付喪神",
-    "region": "麻桶",
+    "region": "家の道具",
     "blurbJa": "麻桶に残る毛の怪。繊維の残り。",
     "tags": [
       "毛",
@@ -8310,7 +8310,7 @@
     "name": "Asajigahara-no-onibaba",
     "nativeName": "浅茅ヶ原の鬼婆",
     "category": "鬼",
-    "region": "浅茅ヶ原",
+    "region": "山里",
     "blurbJa": "浅茅ヶ原の鬼婆。安達ヶ原の隣の黒塚。",
     "tags": [
       "鬼",
@@ -8326,7 +8326,7 @@
     "name": "Asokokoko",
     "nativeName": "あすこここ",
     "category": "道中",
-    "region": "あすこここの声",
+    "region": "街道",
     "blurbJa": "場所をずらす声の怪。",
     "tags": [
       "声",
@@ -8342,7 +8342,7 @@
     "name": "Aso-bi",
     "nativeName": "遊火",
     "category": "霊火",
-    "region": "遊ぶ火",
+    "region": "夜空",
     "blurbJa": "遊んで見える火。狐火の、遊び側。",
     "tags": [
       "火",
@@ -8358,7 +8358,7 @@
     "name": "Atozumi-kozo",
     "nativeName": "後追い小僧",
     "category": "道中",
-    "region": "後を追う小僧",
+    "region": "街道",
     "blurbJa": "後ろを追う小僧。おいがかりの、子ども側。",
     "tags": [
       "子ども",
@@ -8374,7 +8374,7 @@
     "name": "Abura-tokkuri",
     "nativeName": "油徳利",
     "category": "付喪神",
-    "region": "油の徳利",
+    "region": "家の道具",
     "blurbJa": "油徳利の付喪神。灯油の器が歩く。",
     "tags": [
       "油",
@@ -8390,7 +8390,7 @@
     "name": "Amazake-baba",
     "nativeName": "甘酒婆",
     "category": "屋敷",
-    "region": "甘酒を売る婆",
+    "region": "家屋",
     "blurbJa": "夜に甘酒を売る婆。飲ませると禍。",
     "tags": [
       "婆",
@@ -8406,7 +8406,7 @@
     "name": "Amaburakosagi",
     "nativeName": "あまぶらこさぎ",
     "category": "気象",
-    "region": "雨の鷺",
+    "region": "空・天候",
     "blurbJa": "雨の鷺の怪。青鷺火の、雨側。",
     "tags": [
       "雨",
@@ -8422,7 +8422,7 @@
     "name": "Amoro-unagu",
     "nativeName": "天降女子",
     "category": "死霊",
-    "region": "天から降る女",
+    "region": "墓・家",
     "blurbJa": "天から降る女。沖縄の、降る霊。",
     "tags": [
       "女",
@@ -8438,7 +8438,7 @@
     "name": "Arie",
     "nativeName": "アリエ",
     "category": "予言",
-    "region": "アリエの予言",
+    "region": "海辺",
     "blurbJa": "アマビエに似た予言の海の怪。",
     "tags": [
       "海",
@@ -8454,7 +8454,7 @@
     "name": "Awa-tsuki-oto",
     "nativeName": "粟搗き音",
     "category": "屋敷",
-    "region": "粟を搗く音",
+    "region": "家屋",
     "blurbJa": "粟を搗く音だけの怪。主のいない精米。",
     "tags": [
       "音",
@@ -8470,7 +8470,7 @@
     "name": "Igabo",
     "nativeName": "いが坊",
     "category": "山系",
-    "region": "いがの坊",
+    "region": "山中",
     "blurbJa": "いがの坊主。山の小さな坊。",
     "tags": [
       "坊主",
@@ -8501,7 +8501,7 @@
     "name": "Ikebukuro-no-onna",
     "nativeName": "池袋の女",
     "category": "死霊",
-    "region": "池袋",
+    "region": "墓・家",
     "blurbJa": "池袋に伝わる女の怪。地名が項になる。",
     "tags": [
       "女",
@@ -8517,7 +8517,7 @@
     "name": "Igo-no-sei",
     "nativeName": "囲碁の精",
     "category": "付喪神",
-    "region": "碁石",
+    "region": "家の道具",
     "blurbJa": "囲碁の精。盤と石が夜に打つ。",
     "tags": [
       "碁",
@@ -8533,7 +8533,7 @@
     "name": "Izasa-o",
     "nativeName": "猪笹王",
     "category": "変化",
-    "region": "猪の王",
+    "region": "里",
     "blurbJa": "笹原の猪の王。山の獣の頭。",
     "tags": [
       "猪",
@@ -8549,7 +8549,7 @@
     "name": "Ishikawa-akushiro",
     "nativeName": "石川悪四郎",
     "category": "死霊",
-    "region": "悪四郎",
+    "region": "墓・家",
     "blurbJa": "石川悪四郎。山本五郎左衛門の類話の人名が怪になる。",
     "tags": [
       "人名",
@@ -8565,7 +8565,7 @@
     "name": "Ijiko",
     "nativeName": "イジコ",
     "category": "屋敷",
-    "region": "イジコ",
+    "region": "家屋",
     "blurbJa": "イジコと呼ばれる家の小怪。",
     "tags": [
       "家",
@@ -8581,7 +8581,7 @@
     "name": "Iso-gaki",
     "nativeName": "磯餓鬼",
     "category": "海",
-    "region": "磯の餓鬼",
+    "region": "海",
     "blurbJa": "磯に出る餓鬼。海の飢え。",
     "tags": [
       "餓鬼",
@@ -8597,7 +8597,7 @@
     "name": "Iso-tengu",
     "nativeName": "磯天狗",
     "category": "海",
-    "region": "磯の天狗",
+    "region": "海",
     "blurbJa": "磯の天狗。山の天狗の、海岸支店。",
     "tags": [
       "天狗",
@@ -8613,7 +8613,7 @@
     "name": "Isohime",
     "nativeName": "磯姫",
     "category": "海",
-    "region": "磯の姫",
+    "region": "海",
     "blurbJa": "磯の姫。川姫・海姫の、岩場側。",
     "tags": [
       "姫",
@@ -8629,7 +8629,7 @@
     "name": "Ichijama",
     "nativeName": "生邪魔",
     "category": "憑きもの",
-    "region": "生の邪魔",
+    "region": "家筋",
     "blurbJa": "生邪魔。生きた障り。",
     "tags": [
       "障り",
@@ -8645,7 +8645,7 @@
     "name": "Itsuki",
     "nativeName": "縊鬼",
     "category": "死霊",
-    "region": "縊れる鬼",
+    "region": "墓・家",
     "blurbJa": "縊れて死んだ者が鬼になる。",
     "tags": [
       "縊",
@@ -8661,7 +8661,7 @@
     "name": "Issha",
     "nativeName": "イッシャ",
     "category": "変化",
-    "region": "イッシャ",
+    "region": "里",
     "blurbJa": "イッシャと呼ばれる獣の怪。",
     "tags": [
       "獣",
@@ -8677,7 +8677,7 @@
     "name": "Idemochi",
     "nativeName": "イデモチ",
     "category": "屋敷",
-    "region": "イデモチ",
+    "region": "家屋",
     "blurbJa": "出て持ち出す家の怪。",
     "tags": [
       "家",
@@ -8693,7 +8693,7 @@
     "name": "Ito-tori-mujina",
     "nativeName": "糸取り狢",
     "category": "狐狸",
-    "region": "糸を取る貉",
+    "region": "里・社",
     "blurbJa": "糸を取る貉。機の隣の獣。",
     "tags": [
       "貉",
@@ -8709,7 +8709,7 @@
     "name": "Itohiki-musume",
     "nativeName": "糸引き娘",
     "category": "変化",
-    "region": "糸を引く娘",
+    "region": "里",
     "blurbJa": "糸を引く娘。機尋の、人側。",
     "tags": [
       "糸",
@@ -8725,7 +8725,7 @@
     "name": "Inada-kase",
     "nativeName": "いなだ貸せ",
     "category": "道中",
-    "region": "いなだ貸せの声",
+    "region": "街道",
     "blurbJa": "「いなだ貸せ」と貸すことを求める声。",
     "tags": [
       "声",
@@ -8741,7 +8741,7 @@
     "name": "Inen",
     "nativeName": "インネン",
     "category": "死霊",
-    "region": "因縁",
+    "region": "墓・家",
     "blurbJa": "因縁そのものが怪として歩ける。",
     "tags": [
       "因縁",
@@ -8757,7 +8757,7 @@
     "name": "Ukumono",
     "nativeName": "浮き物",
     "category": "海",
-    "region": "浮かぶもの",
+    "region": "海",
     "blurbJa": "海に浮かぶ名のないもの。あやかしの総称側。",
     "tags": [
       "海",
@@ -8773,7 +8773,7 @@
     "name": "Ugume",
     "nativeName": "ウグメ",
     "category": "死霊",
-    "region": "産のウグメ",
+    "region": "墓・家",
     "blurbJa": "産女の地方名が項を持つ。",
     "tags": [
       "産",
@@ -8789,7 +8789,7 @@
     "name": "Usagi-tanuki",
     "nativeName": "兎狸",
     "category": "狐狸",
-    "region": "兎に化ける狸",
+    "region": "里・社",
     "blurbJa": "兎に化ける狸。葉の隣の耳。",
     "tags": [
       "狸",
@@ -8805,7 +8805,7 @@
     "name": "Ushigozen",
     "nativeName": "牛御前",
     "category": "鬼",
-    "region": "牛の御前",
+    "region": "山里",
     "blurbJa": "牛鬼の、御前の名。",
     "tags": [
       "牛",
@@ -8821,7 +8821,7 @@
     "name": "Ushiromel",
     "nativeName": "後眼",
     "category": "異形",
-    "region": "後ろの目",
+    "region": "古典",
     "blurbJa": "後ろに目がある怪。後神の、視覚側。",
     "tags": [
       "目",
@@ -8837,7 +8837,7 @@
     "name": "Usuoi-baba",
     "nativeName": "臼負い婆",
     "category": "死霊",
-    "region": "臼を負う婆",
+    "region": "墓・家",
     "blurbJa": "臼を負って歩く婆。夜の重荷。",
     "tags": [
       "婆",
@@ -8853,7 +8853,7 @@
     "name": "Unagi-otoko",
     "nativeName": "鰻男",
     "category": "変化",
-    "region": "鰻の男",
+    "region": "里",
     "blurbJa": "鰻が男になる。川の細長い変化。",
     "tags": [
       "鰻",
@@ -8869,7 +8869,7 @@
     "name": "Ubato-i",
     "nativeName": "ウバトウイ",
     "category": "死霊",
-    "region": "ウバトウイ",
+    "region": "墓・家",
     "blurbJa": "ウバトウイと呼ばれる老女の怪。",
     "tags": [
       "婆",
@@ -8885,7 +8885,7 @@
     "name": "Ubame-tori",
     "nativeName": "うばめ取り",
     "category": "死霊",
-    "region": "姥を取る",
+    "region": "墓・家",
     "blurbJa": "姥を取る怪。夜のさらいの、老女側。",
     "tags": [
       "婆",
@@ -8901,7 +8901,7 @@
     "name": "Umashika",
     "nativeName": "馬鹿",
     "category": "変化",
-    "region": "馬と鹿",
+    "region": "里",
     "blurbJa": "馬と鹿の間の愚かな獣の怪。名が普通名詞と重なる。",
     "tags": [
       "馬",
@@ -8917,7 +8917,7 @@
     "name": "Uma-tsuki",
     "nativeName": "馬憑き",
     "category": "憑きもの",
-    "region": "馬が憑く",
+    "region": "家筋",
     "blurbJa": "馬が人に憑く。狐憑きの、蹄側。",
     "tags": [
       "馬",
@@ -9012,7 +9012,7 @@
     "name": "Uya-uyashi",
     "nativeName": "有夜宇屋志",
     "category": "異形",
-    "region": "絵巻の怪",
+    "region": "古典",
     "blurbJa": "化物尽くし絵巻の有夜宇屋志。名だけ残る。",
     "tags": [
       "絵巻",
@@ -9028,7 +9028,7 @@
     "name": "Ura",
     "nativeName": "温羅",
     "category": "鬼",
-    "region": "吉備の鬼",
+    "region": "山里",
     "blurbJa": "吉備の鬼・温羅。百足譚の相手方。",
     "tags": [
       "鬼",
@@ -9044,7 +9044,7 @@
     "name": "Ema-no-sei",
     "nativeName": "絵馬の精",
     "category": "付喪神",
-    "region": "絵馬",
+    "region": "家の道具",
     "blurbJa": "絵馬の精。願の板が夜に宴をする。",
     "tags": [
       "絵馬",
@@ -9060,7 +9060,7 @@
     "name": "Okuri-suzume",
     "nativeName": "送り雀",
     "category": "変化",
-    "region": "送りの雀",
+    "region": "里",
     "blurbJa": "人を送る雀。夜道の鳥の送り。",
     "tags": [
       "雀",
@@ -9076,7 +9076,7 @@
     "name": "Domentsu",
     "nativeName": "胴面",
     "category": "異形",
-    "region": "胴の面",
+    "region": "古典",
     "blurbJa": "胴に面がある怪。あかはだかの項。",
     "tags": [
       "面",
@@ -9092,7 +9092,7 @@
     "name": "Beka-taro",
     "nativeName": "べか太郎",
     "category": "町",
-    "region": "べかの太郎",
+    "region": "町",
     "blurbJa": "舌を出す小僧。あかんべいの隣。",
     "tags": [
       "子ども",
@@ -9108,7 +9108,7 @@
     "name": "Atkor-kamuy",
     "nativeName": "アッコロカムイ",
     "category": "海",
-    "region": "アイヌの大章魚",
+    "region": "海",
     "blurbJa": "アイヌの巨大な蛸のカムイ。図鑑では海の怪として載る。",
     "tags": [
       "蛸",
@@ -9140,7 +9140,7 @@
     "name": "Igusa-no-kesabo",
     "nativeName": "伊草の袈裟坊",
     "category": "死霊",
-    "region": "伊草の坊",
+    "region": "墓・家",
     "blurbJa": "伊草に出る袈裟の坊主。寺の地方怪。",
     "tags": [
       "坊主",
@@ -9156,7 +9156,7 @@
     "name": "Ikkan-kozo",
     "nativeName": "一貫小僧",
     "category": "町",
-    "region": "銭の小僧",
+    "region": "町",
     "blurbJa": "銭一貫の小僧。蒜山などの地方怪。",
     "tags": [
       "銭",
@@ -9172,7 +9172,7 @@
     "name": "Inka",
     "nativeName": "陰火",
     "category": "霊火",
-    "region": "陰の火",
+    "region": "夜空",
     "blurbJa": "陰火。鬼火の漢語側。",
     "tags": [
       "火",
@@ -9188,7 +9188,7 @@
     "name": "Inu-no-borei",
     "nativeName": "犬の亡霊",
     "category": "死霊",
-    "region": "犬の霊",
+    "region": "墓・家",
     "blurbJa": "犬の亡霊。下甑島などの伝承。",
     "tags": [
       "犬",
@@ -9204,7 +9204,7 @@
     "name": "Uchiwata-tanuki",
     "nativeName": "打綿狸",
     "category": "狐狸",
-    "region": "綿を打つ狸",
+    "region": "里・社",
     "blurbJa": "綿を打つ狸。仕事する化け狸。",
     "tags": [
       "狸",
@@ -9221,7 +9221,7 @@
     "nativeName": "海女",
     "category": "海",
     "region": "海の女の怪",
-    "blurbJa": "海の女の怪。生身の海女とは別項。",
+    "blurbJa": "海女。女、海、怖いにまつわる海の伝承。",
     "tags": [
       "女",
       "海",
@@ -9236,7 +9236,7 @@
     "name": "Akadenchu",
     "nativeName": "赤殿中",
     "category": "狐狸",
-    "region": "赤い殿中",
+    "region": "里・社",
     "blurbJa": "赤い殿中に化ける狸。",
     "tags": [
       "狸",
@@ -9252,7 +9252,7 @@
     "name": "Itachi-no-kai",
     "nativeName": "鼬の怪",
     "category": "変化",
-    "region": "イタチの怪",
+    "region": "里",
     "blurbJa": "イタチの怪。鎌鼬・テンの、普通の鼬側。",
     "tags": [
       "鼬",
@@ -9268,7 +9268,7 @@
     "name": "Atake-maru",
     "nativeName": "安宅丸",
     "category": "海",
-    "region": "安宅丸の怪",
+    "region": "海",
     "blurbJa": "安宅丸にまつわる船の怪。巨船が怪異になる。",
     "tags": [
       "船",
@@ -9284,7 +9284,7 @@
     "name": "Akki",
     "nativeName": "悪鬼",
     "category": "鬼",
-    "region": "悪鬼",
+    "region": "山里",
     "blurbJa": "悪鬼。鬼の、漢語の荒い側。",
     "tags": [
       "鬼",
@@ -9300,7 +9300,7 @@
     "name": "Koshipu",
     "nativeName": "コシンプ",
     "category": "異形",
-    "region": "アイヌの怪",
+    "region": "古典",
     "blurbJa": "アイヌのコシンプ。姿を変える禍の精。",
     "tags": [
       "アイヌ",
@@ -9332,7 +9332,7 @@
     "name": "Ammo",
     "nativeName": "アンモ",
     "category": "異形",
-    "region": "アンモ",
+    "region": "古典",
     "blurbJa": "アンモと呼ばれる怪。図鑑の地方名。",
     "tags": [
       "地方",
@@ -9347,7 +9347,7 @@
     "name": "Koshinpu2",
     "nativeName": "イワコシンプ",
     "category": "山系",
-    "region": "岩のコシンプ",
+    "region": "山中",
     "blurbJa": "岩のコシンプ。コシンプの山側。",
     "tags": [
       "岩",
@@ -9363,7 +9363,7 @@
     "name": "Iwasaraus",
     "nativeName": "イワサラウス",
     "category": "山系",
-    "region": "岩のサラウス",
+    "region": "山中",
     "blurbJa": "岩のサラウス。アラサラウスの岩側。",
     "tags": [
       "岩",
@@ -9379,7 +9379,7 @@
     "name": "Keshana",
     "nativeName": "ケナシコルウナルペ",
     "category": "死霊",
-    "region": "アイヌの女怪",
+    "region": "墓・家",
     "blurbJa": "アイヌの女の禍の精。図鑑に載る。",
     "tags": [
       "女",
@@ -9395,7 +9395,7 @@
     "name": "Ipetam",
     "nativeName": "イペタム",
     "category": "異形",
-    "region": "人食い刀",
+    "region": "古典",
     "blurbJa": "血に飢えた妖刀。一度抜くと収まらない。",
     "tags": [
       "刀",
@@ -9411,7 +9411,7 @@
     "name": "Iwaetunnai",
     "nativeName": "イワエトゥンナイ",
     "category": "山系",
-    "region": "岩の穴の怪",
+    "region": "山中",
     "blurbJa": "岩の隙間のアイヌの怪。",
     "tags": [
       "岩",
@@ -9427,7 +9427,7 @@
     "name": "Iwaho-inu",
     "nativeName": "イワホイヌ",
     "category": "変化",
-    "region": "岩の鼬",
+    "region": "里",
     "blurbJa": "大きな角と歯の山イタチの怪。",
     "tags": [
       "鼬",
@@ -9443,7 +9443,7 @@
     "name": "Iwaposinkara",
     "nativeName": "イワポソインカラ",
     "category": "山系",
-    "region": "岩を見る怪",
+    "region": "山中",
     "blurbJa": "岩を見るアイヌの怪。",
     "tags": [
       "岩",
@@ -9475,7 +9475,7 @@
     "name": "Ainu-sokki",
     "nativeName": "アイヌソッキ",
     "category": "海",
-    "region": "アイヌの人魚",
+    "region": "海",
     "blurbJa": "アイヌソッキ。人魚の、北の名。",
     "tags": [
       "人魚",
@@ -9507,7 +9507,7 @@
     "nativeName": "アツゥイコロエカシ",
     "category": "海",
     "region": "海の老カムイ",
-    "blurbJa": "海の老いたカムイ名が図鑑に残る。",
+    "blurbJa": "アツゥイコロエカシ。海、老、アイヌにまつわる海の伝承。",
     "tags": [
       "海",
       "老",
@@ -9522,7 +9522,7 @@
     "name": "Oitekebori",
     "nativeName": "置行堀",
     "category": "屋敷",
-    "region": "本所の堀",
+    "region": "家屋",
     "blurbJa": "本所七不思議の置行堀。魚を堀に戻せという声。",
     "tags": [
       "堀",
@@ -9538,7 +9538,7 @@
     "name": "Osei-mushi",
     "nativeName": "応声虫",
     "category": "変化",
-    "region": "応える虫",
+    "region": "里",
     "blurbJa": "人の言葉に応じて鳴く虫。腹の中の怪異。",
     "tags": [
       "虫",
@@ -9554,7 +9554,7 @@
     "name": "Oatama-kozo",
     "nativeName": "大頭小僧",
     "category": "異形",
-    "region": "大きな頭",
+    "region": "古典",
     "blurbJa": "頭の大きい小僧。夜の童。",
     "tags": [
       "頭",
@@ -9570,8 +9570,8 @@
     "name": "Okani",
     "nativeName": "大蟹",
     "category": "海",
-    "region": "巨大な蟹",
-    "blurbJa": "巨大な蟹の怪。化け蟹の、巨大側。",
+    "region": "海",
+    "blurbJa": "大蟹。蟹、巨大、海にまつわる海の伝承。",
     "tags": [
       "蟹",
       "巨大",
@@ -9586,8 +9586,8 @@
     "name": "Ohikigaeru",
     "nativeName": "大蟇",
     "category": "変化",
-    "region": "巨大な蟇",
-    "blurbJa": "巨大な蟇。化け蛙の、巨大側。",
+    "region": "里",
+    "blurbJa": "大蟇。蟇、巨大、変化にまつわる変化の伝承。",
     "tags": [
       "蟇",
       "巨大",
@@ -9602,7 +9602,7 @@
     "name": "Okiseru",
     "nativeName": "大煙管",
     "category": "付喪神",
-    "region": "巨大な煙管",
+    "region": "家の道具",
     "blurbJa": "巨大な煙管の付喪神。",
     "tags": [
       "煙管",
@@ -9618,7 +9618,7 @@
     "name": "Onamazu",
     "nativeName": "大鯰",
     "category": "水系",
-    "region": "大地の鯰",
+    "region": "川・沼",
     "blurbJa": "大地を揺らす大鯰。地震の魚。",
     "tags": [
       "鯰",
@@ -9634,7 +9634,7 @@
     "name": "Okuri-itachi",
     "nativeName": "送り鼬",
     "category": "道中",
-    "region": "送りの鼬",
+    "region": "街道",
     "blurbJa": "人を送る鼬。送り犬の、鼬側。",
     "tags": [
       "鼬",
@@ -9650,7 +9650,7 @@
     "name": "Okuri-hyoshigi",
     "nativeName": "送り拍子木",
     "category": "現代伝承",
-    "region": "本所",
+    "region": "都市",
     "blurbJa": "本所七不思議の送り拍子木。誰もいない拍子木。",
     "tags": [
       "拍子木",

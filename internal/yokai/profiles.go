@@ -8,21 +8,25 @@ import (
 // Profile represents a curated yokai entry with lore and creative hooks.
 // The curated entries themselves live in data/profiles.json.
 type Profile struct {
-	Name          string   `json:"name"`
-	NativeName    string   `json:"nativeName"`
-	Region        string   `json:"region"`
-	Category      string   `json:"category"`
-	CategoryEN    string   `json:"categoryEn,omitempty"`
-	Summary       string   `json:"summary"`
-	SummaryJA     string   `json:"summaryJa"`
-	Legends       []string `json:"legends,omitempty"`
-	Traits        []string `json:"traits,omitempty"`
-	Motifs        []string `json:"motifs,omitempty"`
-	FunFact       string   `json:"funFact,omitempty"`
-	FunFactJA     string   `json:"funFactJa,omitempty"`
-	SearchQuery   string   `json:"searchQuery,omitempty"`
-	CreativeHooks []string `json:"creativeHooks,omitempty"`
-	Sources       []string `json:"sources,omitempty"`
+	Name            string   `json:"name"`
+	NativeName      string   `json:"nativeName"`
+	Region          string   `json:"region"`
+	Category        string   `json:"category"`
+	CategoryEN      string   `json:"categoryEn,omitempty"`
+	Summary         string   `json:"summary"`
+	SummaryJA       string   `json:"summaryJa"`
+	Legends         []string `json:"legends,omitempty"`
+	LegendsJA       []string `json:"legendsJa,omitempty"`
+	Traits          []string `json:"traits,omitempty"`
+	TraitsJA        []string `json:"traitsJa,omitempty"`
+	Motifs          []string `json:"motifs,omitempty"`
+	MotifsJA        []string `json:"motifsJa,omitempty"`
+	FunFact         string   `json:"funFact,omitempty"`
+	FunFactJA       string   `json:"funFactJa,omitempty"`
+	SearchQuery     string   `json:"searchQuery,omitempty"`
+	CreativeHooks   []string `json:"creativeHooks,omitempty"`
+	CreativeHooksJA []string `json:"creativeHooksJa,omitempty"`
+	Sources         []string `json:"sources,omitempty"`
 }
 
 // curatedProfiles is populated from the embedded catalog at init.
@@ -48,7 +52,7 @@ func Filter(category, region string) []Profile {
 		regOK := regionMatches(profile.Region, region)
 		if entry, ok := LookupIndex(profile.Name); ok {
 			catHit = catHit || categoryMatches(entry.Category, category)
-			regOK = regOK || regionMatches(entry.Region, region)
+			regOK = regOK || entry.MatchesRegion(region)
 		}
 		if !catHit || !regOK {
 			continue

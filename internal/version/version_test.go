@@ -1,6 +1,7 @@
 package version
 
 import (
+	"encoding/json"
 	"os"
 	"path/filepath"
 	"strings"
@@ -25,6 +26,12 @@ func TestPublishedFilesPinTheSameVersion(t *testing.T) {
 		}
 		if !strings.Contains(string(body), Version) {
 			t.Errorf("%s should mention version %s", name, Version)
+		}
+		if strings.HasSuffix(name, ".json") {
+			var payload map[string]any
+			if err := json.Unmarshal(body, &payload); err != nil {
+				t.Errorf("%s is not valid JSON: %v", name, err)
+			}
 		}
 	}
 }

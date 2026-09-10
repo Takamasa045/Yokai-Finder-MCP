@@ -29,20 +29,24 @@ type YokaiSearchResult struct {
 
 // YokaiProfile captures curated lore for a yokai entry.
 type YokaiProfile struct {
-	Name          string   `json:"name"`
-	NativeName    string   `json:"nativeName,omitempty"`
-	Region        string   `json:"region,omitempty"`
-	Category      string   `json:"category,omitempty"`
-	CategoryEN    string   `json:"categoryEn,omitempty"`
-	Summary       string   `json:"summary"`
-	SummaryJA     string   `json:"summaryJa,omitempty"`
-	Legends       []string `json:"legends,omitempty"`
-	Traits        []string `json:"traits,omitempty"`
-	Motifs        []string `json:"motifs,omitempty"`
-	FunFact       string   `json:"funFact,omitempty"`
-	FunFactJA     string   `json:"funFactJa,omitempty"`
-	CreativeHooks []string `json:"creativeHooks,omitempty"`
-	Sources       []string `json:"sources,omitempty"`
+	Name            string   `json:"name"`
+	NativeName      string   `json:"nativeName,omitempty"`
+	Region          string   `json:"region,omitempty"`
+	Category        string   `json:"category,omitempty"`
+	CategoryEN      string   `json:"categoryEn,omitempty"`
+	Summary         string   `json:"summary"`
+	SummaryJA       string   `json:"summaryJa,omitempty"`
+	Legends         []string `json:"legends,omitempty"`
+	LegendsJA       []string `json:"legendsJa,omitempty"`
+	Traits          []string `json:"traits,omitempty"`
+	TraitsJA        []string `json:"traitsJa,omitempty"`
+	Motifs          []string `json:"motifs,omitempty"`
+	MotifsJA        []string `json:"motifsJa,omitempty"`
+	FunFact         string   `json:"funFact,omitempty"`
+	FunFactJA       string   `json:"funFactJa,omitempty"`
+	CreativeHooks   []string `json:"creativeHooks,omitempty"`
+	CreativeHooksJA []string `json:"creativeHooksJa,omitempty"`
+	Sources         []string `json:"sources,omitempty"`
 }
 
 // YokaiOfTheDayParams controls how the highlight tool selects a yokai.
@@ -112,19 +116,23 @@ type YokaiIndexParams struct {
 	FamousRankMax int    `json:"famousRankMax,omitempty"`
 	HasProfile    *bool  `json:"hasProfile,omitempty"`
 	Limit         int    `json:"limit,omitempty"`
+	Offset        int    `json:"offset,omitempty"`
 }
 
 // YokaiIndexItem is a compact roster row for discovering yokai names.
 type YokaiIndexItem struct {
-	Name       string   `json:"name"`
-	NativeName string   `json:"nativeName,omitempty"`
-	Category   string   `json:"category,omitempty"`
-	Region     string   `json:"region,omitempty"`
-	BlurbJA    string   `json:"blurbJa,omitempty"`
-	Tags       []string `json:"tags,omitempty"`
-	Tone       string   `json:"tone,omitempty"`
-	FamousRank int      `json:"famousRank,omitempty"`
-	HasProfile bool     `json:"hasProfile"`
+	Name        string   `json:"name"`
+	NativeName  string   `json:"nativeName,omitempty"`
+	Category    string   `json:"category,omitempty"`
+	Region      string   `json:"region,omitempty"`
+	BlurbJA     string   `json:"blurbJa,omitempty"`
+	Tags        []string `json:"tags,omitempty"`
+	Tone        string   `json:"tone,omitempty"`
+	FamousRank  int      `json:"famousRank,omitempty"`
+	HasProfile  bool     `json:"hasProfile"`
+	Prefectures []string `json:"prefectures,omitempty"`
+	Areas       []string `json:"areas,omitempty"`
+	Habitats    []string `json:"habitats,omitempty"`
 }
 
 // YokaiIndexResult returns the filtered yokai roster.
@@ -132,6 +140,9 @@ type YokaiIndexResult struct {
 	Query    string           `json:"query,omitempty"`
 	Total    int              `json:"total"`
 	Returned int              `json:"returned"`
+	Offset   int              `json:"offset"`
+	Limit    int              `json:"limit"`
+	HasMore  bool             `json:"hasMore"`
 	Items    []YokaiIndexItem `json:"items"`
 	Notes    []string         `json:"notes,omitempty"`
 }

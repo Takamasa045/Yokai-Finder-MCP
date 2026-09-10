@@ -86,6 +86,77 @@ func TestFilterIndexTohokuIncludesNamahage(t *testing.T) {
 	}
 }
 
+func TestFilterIndexOkinawaAndRiverHabitat(t *testing.T) {
+	okinawa := FilterIndex("", "", "沖縄")
+	foundKiji := false
+	foundAkamata := false
+	for _, e := range okinawa {
+		if e.NativeName == "キジムナー" {
+			foundKiji = true
+		}
+		if e.NativeName == "アカマタ" {
+			foundAkamata = true
+		}
+	}
+	if !foundKiji {
+		t.Fatalf("沖縄 should include キジムナー, got %d hits", len(okinawa))
+	}
+	if !foundAkamata {
+		t.Fatalf("沖縄 should include アカマタ, got %d hits", len(okinawa))
+	}
+	for _, e := range FilterIndex("", "", "九州") {
+		if e.NativeName == "キジムナー" || e.NativeName == "アカマタ" {
+			t.Fatalf("九州 should not include %s", e.NativeName)
+		}
+	}
+
+	river := FilterIndex("", "", "川")
+	foundKappa := false
+	for _, e := range river {
+		if e.NativeName == "河童" {
+			foundKappa = true
+		}
+		if e.NativeName == "隠神刑部" {
+			t.Fatalf("region=川 should not include 隠神刑部 via 香川")
+		}
+	}
+	if !foundKappa {
+		t.Fatalf("region=川 should include 河童 via habitats, got %d hits", len(river))
+	}
+}
+
+func TestFilterIndexRegionDoesNotOverMatch(t *testing.T) {
+	mustNot := func(region, name string) {
+		t.Helper()
+		for _, e := range FilterIndex("", "", region) {
+			if e.NativeName == name {
+				t.Fatalf("region=%s should not include %s", region, name)
+			}
+		}
+	}
+	must := func(region, name string) {
+		t.Helper()
+		for _, e := range FilterIndex("", "", region) {
+			if e.NativeName == name {
+				return
+			}
+		}
+		t.Fatalf("region=%s should include %s", region, name)
+	}
+
+	mustNot("山形", "天狗")
+	mustNot("香川", "河童")
+	mustNot("北海道", "海坊主")
+	mustNot("京", "置行堀")
+	mustNot("東京", "鵺")
+	mustNot("京都", "置行堀")
+
+	must("江戸", "置行堀")
+	must("東京", "置行堀")
+	must("tokyo", "置行堀")
+	must("京都", "鵺")
+}
+
 func TestFilterIndexEnglishCategory(t *testing.T) {
 	ja := FilterIndex("", "水系", "")
 	en := FilterIndex("", "water", "")

@@ -18,7 +18,9 @@ go build -o yokai-finder-mcp ./cmd/server
 
 Canonical categories are Japanese keys such as `水系`, `付喪神`, `現代伝承`. English hints (`water`, `tsukumogami`) are mapped in code.
 
-`list_yokai` default and max limit is 600. Raise `maxRosterLimit` in `internal/handler/handler.go` if the roster grows past that.
+`list_yokai` defaults to 20 and caps at 600 (`offset` pages through the rest). Raise `maxRosterLimit` in `internal/handler/handler.go` if the roster grows past that.
+
+Do not add encyclopedia text that looks like generation residue (`Do not merge`, `Keep X as`, `encyclopedia plate`). Rank-1 cards need `legendsJa` (3+) and a `summaryJa` of at least 40 Japanese characters. `python3 scripts/scrub-catalog.py` is a one-shot cleaner plus rank-1 Japanese overlay; after that, `go test ./internal/yokai` should stay green.
 
 ## HTTP
 

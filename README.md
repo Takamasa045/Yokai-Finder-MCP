@@ -8,14 +8,14 @@
 - **詳細図鑑 600体** … 日英バイリンガルの伝承・創作フック（出典付きの増補分あり）
 - **国立国会図書館（NDL）** … 蔵書のリアルタイム検索と書影URL候補
 
-現在のバージョン: **v0.20.0**
+現在のバージョン: **v0.21.0**
 
 ## 特徴
 
 | レイヤー | 内容 |
 |----------|------|
 | 提案 (`suggest_yokai`) | 雰囲気・題材・場所・用途から候補＋短い推薦理由 |
-| 索引 (`list_yokai`) | 600体の名簿（カテゴリ・タグ・トーン・一言紹介） |
+| 索引 (`list_yokai`) | 600体の名簿（カテゴリ・タグ・トーン・地域ファセット。既定20件） |
 | 1体取得 (`get_yokai`) | 日英名で1件。図鑑ありなら詳細、なければ索引カード |
 | 図鑑 (`list_yokai` + `hasProfile` / `yokai_of_the_day`) | 600体の詳細プロフィール。`list_curated_yokai` は非推奨 |
 | 近傍 (`related_yokai`) | タグ・カテゴリ・トーンが近い妖怪 |
@@ -35,12 +35,12 @@ get_yokai           → 1体の説明（source=profile なら詳しい伝承）
     ↓ さらに
 search_yokai_books  → NDL で本
 yokai_of_the_day    → 図鑑枠なら日替わり/名前指定＋おすすめ本も可
-list_yokai          → カテゴリやタグで網羅一覧したいとき
+list_yokai          → カテゴリやタグで一覧したいとき（既定20件。続きは offset）
 ```
 
 NDL の蔵書はローカルにコピーしていません。書籍ツールは都度 API を叩きます。索引・図鑑はリポジトリ内の手書きデータ（索引には Tags / Tone / FamousRank 付き）です。
 
-**コンテキストについて:** 提案はデフォルト6件・最大20件、`get_yokai` は常に1体、`list_curated_yokai` はデフォルト10件・詳細フィールドは opt-in、という設計で会話文脈の圧迫を抑えています。
+**コンテキストについて:** 提案はデフォルト6件・最大20件、`get_yokai` は常に1体、`list_yokai` はデフォルト20件（`offset` で続き、最大600件）、`list_curated_yokai` はデフォルト10件・詳細フィールドは opt-in、という設計で会話文脈の圧迫を抑えています。
 
 ## インストール
 
@@ -154,7 +154,7 @@ codex mcp add yokai-finder -- /absolute/path/to/yokai-finder-mcp
 
 | 変数 | 説明 |
 |------|------|
-| `YOKAI_FINDER_VERSION` | サーバーが報告するバージョン文字列（未設定時はビルド時の `0.20.0`） |
+| `YOKAI_FINDER_VERSION` | サーバーが報告するバージョン文字列（未設定時はビルド時の `0.21.0`） |
 | `YOKAI_FINDER_TOKEN` | `-http` でループバック以外に bind するときの Bearer トークン |
 
 stdio のほか、Streamable HTTP でも起動できます。既定ではループバックのみ、トークンなしで許可します。
@@ -201,7 +201,7 @@ stdio のほか、Streamable HTTP でも起動できます。既定ではルー�
 
 | `source` | 意味 |
 |----------|------|
-| `profile` | 図鑑。伝承・豆知識に加え、同じ応答の `index` にタグ・トーン・famousRank が付く |
+| `profile` | 図鑑。伝承・豆知識（有名どころは `legendsJa` 付き）に加え、同じ応答の `index` にタグ・トーン・famousRank が付く |
 | `index` | 索引カードのみ。一言紹介＋タグ。本は `search_yokai_books` へ |
 | （`found: false`） | 未収録。`suggest_yokai` / `list_yokai` / NDL 検索を案内 |
 
@@ -215,7 +215,7 @@ stdio のほか、Streamable HTTP でも起動できます。既定ではルー�
 
 ### 3. `list_yokai` — 妖怪索引（600体）
 
-網羅一覧・カテゴリ閲覧用の軽量索引です。名前・カテゴリ・地域・一言紹介（`blurbJa`）・`tags` / `tone` / `famousRank`・`hasProfile` を返します。  
+網羅一覧・カテゴリ閲覧用の軽量索引です。名前・カテゴリ・地域・一言紹介（`blurbJa`）・`tags` / `tone` / `famousRank`・`hasProfile` に加え、推定した `prefectures` / `areas` / `habitats` を返します。既定は20件です。  
 **雰囲気だけの質問には `suggest_yokai` を優先**してください。
 
 **パラメータ**
@@ -229,10 +229,15 @@ stdio のほか、Streamable HTTP でも起動できます。既定ではルー�
 | `tone` | 任意 | `gentle` / `comic` / `horror` / `solemn` / `tragic` / `mysterious` / `playful` |
 | `famousRankMin` / `famousRankMax` | 任意 | 有名度 1（有名）〜5（マイナー） |
 | `hasProfile` | 任意 | `true` なら図鑑カードがあるものだけ |
-| `limit` | 任意 | 最大件数（デフォルト・最大とも **600**。全600体を一度に返せる） |
+| `limit` | 任意 | 最大件数（デフォルト **20**、最大 **600**。全件が必要なときだけ 600） |
+| `offset` | 任意 | 先頭から何件飛ばすか（続きを取るときに `limit` と組み合わせる） |
 
 ```json
-{ "name": "list_yokai", "arguments": {} }
+{ "name": "list_yokai", "arguments": { "limit": 20 } }
+```
+
+```json
+{ "name": "list_yokai", "arguments": { "offset": 20, "limit": 20 } }
 ```
 
 ```json

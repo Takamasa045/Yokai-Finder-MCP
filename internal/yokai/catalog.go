@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"strings"
+	"unicode/utf8"
 )
 
 //go:embed data/index.json data/profiles.json data/aliases.json
@@ -82,6 +83,9 @@ func validateLoadedCatalog(index []IndexEntry, profiles []Profile, aliases map[s
 		if e.FamousRank < 1 || e.FamousRank > 5 {
 			note("%s famousRank %d want 1–5", label, e.FamousRank)
 		}
+		if hit := indexArtifact(e); hit != "" {
+			note("%s index field looks like generation residue (%q)", label, hit)
+		}
 		if prev, ok := seenName[e.Name]; ok {
 			note("duplicate name %q (also %s)", e.Name, prev)
 		}
@@ -126,6 +130,9 @@ func validateLoadedCatalog(index []IndexEntry, profiles []Profile, aliases map[s
 		if len(p.Legends) == 0 {
 			note("%s missing legends", label)
 		}
+		if hit := profileArtifact(p); hit != "" {
+			note("%s profile field looks like generation residue (%q)", label, hit)
+		}
 		if p.Category != "" {
 			if _, ok := knownCats[p.Category]; !ok {
 				note("%s unknown profile category %q", label, p.Category)
@@ -148,6 +155,20 @@ func validateLoadedCatalog(index []IndexEntry, profiles []Profile, aliases map[s
 		} else if en.NativeName != ja.NativeName || en.Name != ja.Name {
 			note("profile %s (%s) maps to different index rows", p.Name, p.NativeName)
 		}
+		rank := 0
+		if byEn {
+			rank = en.FamousRank
+		} else if byJa {
+			rank = ja.FamousRank
+		}
+		if rank == 1 {
+			if utf8.RuneCountInString(strings.TrimSpace(p.SummaryJA)) < 40 {
+				note("%s rank-1 summaryJa too short", label)
+			}
+			if len(p.LegendsJA) < 3 {
+				note("%s rank-1 missing legendsJa", label)
+			}
+		}
 	}
 
 	for alias, target := range aliases {
@@ -161,7 +182,12 @@ func validateLoadedCatalog(index []IndexEntry, profiles []Profile, aliases map[s
 	}
 
 	if len(errs) > 0 {
-		return fmt.Errorf("catalog: %s", strings.Join(errs, "; "))
+		shown := errs
+		if len(shown) > 25 {
+			shown = append([]string{}, errs[:25]...)
+			shown = append(shown, fmt.Sprintf("... and %d more", len(errs)-25))
+		}
+		return fmt.Errorf("catalog: %s", strings.Join(shown, "; "))
 	}
 	return nil
 }

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.21.0
+
+- `list_yokai` now returns 20 entries by default (max still 600) and accepts `offset` for paging. Responses include `hasMore`, `offset`, and `limit`.
+- Index rows expose derived `prefectures`, `areas`, and `habitats`, so `region` filters such as 東北 / 沖縄 / 川 hit more than free-text labels.
+- Catalog validation rejects generation residue (`Do not merge`, `encyclopedia plate`, and similar). Rank-1 cards now include `legendsJa`.
+- `狐` / `きつね` resolve to 九尾の狐.
+
 ## 0.20.0
 
 - Catalog filled to the list cap: 600 encyclopedia yokai, each with a bilingual card (legends, traits, motifs, hooks, source).

@@ -28,7 +28,7 @@ const (
 Tool choice:
 - Vague mood/theme ("scary", "water-y", "for kids") → suggest_yokai
 - A specific name (河童, Kappa, カッパ) → get_yokai
-- Browse/filter the roster → list_yokai (category 水系/water, tag, tone, famousRank all work)
+- Browse/filter the roster → list_yokai (default 20; pass offset or raise limit up to 600. category 水系/water, tag, tone, famousRank all work)
 - Featured daily pick → yokai_of_the_day
 - Books from the National Diet Library → search_yokai_books
 - Related or side-by-side entries → related_yokai / compare_yokai
@@ -79,7 +79,8 @@ type listYokaiArgs struct {
 	FamousRankMin int    `json:"famousRankMin,omitempty" jsonschema:"Minimum famousRank (1=iconic, 5=obscure)"`
 	FamousRankMax int    `json:"famousRankMax,omitempty" jsonschema:"Maximum famousRank"`
 	HasProfile    *bool  `json:"hasProfile,omitempty" jsonschema:"If true, only yokai with full encyclopedia cards"`
-	Limit         int    `json:"limit,omitempty" jsonschema:"Maximum entries to return (default 600, max 600)"`
+	Limit         int    `json:"limit,omitempty" jsonschema:"Maximum entries to return (default 20, max 600)"`
+	Offset        int    `json:"offset,omitempty" jsonschema:"Number of matching entries to skip (for paging)"`
 }
 
 type relatedYokaiArgs struct {
@@ -186,7 +187,7 @@ func newServer(h *handler.Handler) *mcp.Server {
 
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "list_yokai",
-		Description: fmt.Sprintf("妖怪索引（%d体）を一覧・検索する。category は 水系 でも water でも可。tag / tone / famousRank / hasProfile で絞り込み。雰囲気だけの質問は suggest_yokai。Browse the yokai roster; Japanese and English category hints both work.", catalog.IndexCount),
+		Description: fmt.Sprintf("妖怪索引（%d体）を一覧・検索する。既定は20件。続きは offset、全件は limit=600。category は 水系 でも water でも可。tag / tone / famousRank / hasProfile で絞り込み。雰囲気だけの質問は suggest_yokai。Browse the yokai roster (default 20); Japanese and English category hints both work.", catalog.IndexCount),
 		Annotations: localTool(),
 	}, func(ctx context.Context, _ *mcp.CallToolRequest, args listYokaiArgs) (*mcp.CallToolResult, *types.YokaiIndexResult, error) {
 		params := types.YokaiIndexParams{
@@ -199,6 +200,7 @@ func newServer(h *handler.Handler) *mcp.Server {
 			FamousRankMax: args.FamousRankMax,
 			HasProfile:    args.HasProfile,
 			Limit:         args.Limit,
+			Offset:        args.Offset,
 		}
 
 		result, err := h.ListYokai(ctx, params)

@@ -263,8 +263,17 @@ func TestListYokaiIndex(t *testing.T) {
 	if all.Total < 160 {
 		t.Fatalf("expected at least 160 indexed yokai, got total=%d", all.Total)
 	}
-	if all.Returned != all.Total || len(all.Items) != all.Total {
-		t.Fatalf("expected full roster returned by default, got returned=%d items=%d total=%d", all.Returned, len(all.Items), all.Total)
+	if all.Limit != 20 {
+		t.Fatalf("expected default limit 20, got %d", all.Limit)
+	}
+	if all.Returned != 20 || len(all.Items) != 20 {
+		t.Fatalf("expected 20 items by default, got returned=%d items=%d total=%d", all.Returned, len(all.Items), all.Total)
+	}
+	if !all.HasMore {
+		t.Fatal("expected hasMore when default page is smaller than the roster")
+	}
+	if len(all.Notes) == 0 {
+		t.Fatal("expected a paging note")
 	}
 
 	var sawCurated bool
@@ -276,11 +285,22 @@ func TestListYokaiIndex(t *testing.T) {
 			if item.BlurbJA == "" {
 				t.Fatalf("expected blurbJa for 河童")
 			}
+			if len(item.Habitats) == 0 {
+				t.Fatalf("expected habitats on 河童")
+			}
 			sawCurated = true
 		}
 	}
 	if !sawCurated {
-		t.Fatalf("expected 河童 in index")
+		t.Fatalf("expected 河童 in first page of index")
+	}
+
+	full, err := h.ListYokai(context.Background(), types.YokaiIndexParams{Limit: 600})
+	if err != nil {
+		t.Fatalf("ListYokai(limit=600) error: %v", err)
+	}
+	if full.Returned != full.Total || full.HasMore {
+		t.Fatalf("limit 600 should return the full roster, got returned=%d total=%d hasMore=%v", full.Returned, full.Total, full.HasMore)
 	}
 
 	filtered, err := h.ListYokai(context.Background(), types.YokaiIndexParams{
@@ -311,6 +331,53 @@ func TestListYokaiIndex(t *testing.T) {
 	}
 	if len(none.Notes) == 0 {
 		t.Fatalf("expected a note when nothing matches")
+	}
+}
+
+func TestListYokaiOffsetPage(t *testing.T) {
+	h := New(nil, nil)
+	first, err := h.ListYokai(context.Background(), types.YokaiIndexParams{Limit: 10})
+	if err != nil {
+		t.Fatalf("first page: %v", err)
+	}
+	second, err := h.ListYokai(context.Background(), types.YokaiIndexParams{Limit: 10, Offset: 10})
+	if err != nil {
+		t.Fatalf("second page: %v", err)
+	}
+	if first.Total != second.Total {
+		t.Fatalf("total changed between pages: %d vs %d", first.Total, second.Total)
+	}
+	if second.Offset != 10 || second.Returned != 10 {
+		t.Fatalf("unexpected second page: %+v", second)
+	}
+	if first.Items[0].NativeName == second.Items[0].NativeName {
+		t.Fatalf("pages should not overlap, both started with %s", first.Items[0].NativeName)
+	}
+	last, err := h.ListYokai(context.Background(), types.YokaiIndexParams{
+		Limit:  10,
+		Offset: first.Total - 3,
+	})
+	if err != nil {
+		t.Fatalf("last page: %v", err)
+	}
+	if last.HasMore {
+		t.Fatal("last page should not have more")
+	}
+	if last.Returned != 3 {
+		t.Fatalf("expected 3 trailing items, got %d", last.Returned)
+	}
+	for _, note := range last.Notes {
+		if strings.Contains(note, "to continue") {
+			t.Fatalf("last page should not ask to continue: %s", note)
+		}
+	}
+
+	past, err := h.ListYokai(context.Background(), types.YokaiIndexParams{Offset: first.Total + 5})
+	if err != nil {
+		t.Fatalf("past-end page: %v", err)
+	}
+	if past.Returned != 0 || past.HasMore || len(past.Items) != 0 {
+		t.Fatalf("expected empty page past the end, got %+v", past)
 	}
 }
 
@@ -351,6 +418,14 @@ func TestSuggestYokaiWaterOrDefault(t *testing.T) {
 	if defaults.Returned > 6 {
 		t.Fatalf("expected default limit 6, got returned=%d", defaults.Returned)
 	}
+
+	names := map[string]bool{}
+	for _, item := range water.Items {
+		names[item.NativeName] = true
+	}
+	if !names["河童"] && !names["海坊主"] {
+		t.Fatalf("vibe 水 should surface 河童 or 海坊主, got %v", names)
+	}
 }
 
 func TestGetYokaiProfileSource(t *testing.T) {
@@ -382,6 +457,9 @@ func TestGetYokaiProfileSource(t *testing.T) {
 	}
 	if len(result.Index.Tags) == 0 {
 		t.Fatalf("expected tags on index card")
+	}
+	if len(result.Profile.LegendsJA) < 3 {
+		t.Fatalf("expected Japanese legends on 河童, got %d", len(result.Profile.LegendsJA))
 	}
 }
 
@@ -440,6 +518,14 @@ func TestGetYokaiAliasAndSuggestions(t *testing.T) {
 	}
 	if !kappa.Found || kappa.Source != "profile" || kappa.Profile == nil || kappa.Profile.NativeName != "河童" {
 		t.Fatalf("expected 河童 profile via カッパ, got %+v", kappa)
+	}
+
+	fox, err := h.GetYokai(context.Background(), types.GetYokaiParams{Name: "狐"})
+	if err != nil {
+		t.Fatalf("GetYokai(狐) error: %v", err)
+	}
+	if !fox.Found || fox.Profile == nil || fox.Profile.NativeName != "九尾の狐" {
+		t.Fatalf("expected 九尾の狐 via 狐, got %+v", fox)
 	}
 
 	unknown, err := h.GetYokai(context.Background(), types.GetYokaiParams{Name: "Kapa"})

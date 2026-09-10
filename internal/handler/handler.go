@@ -15,7 +15,10 @@ import (
 	"github.com/Takamasa045/Yokai-Finder-MCP/pkg/types"
 )
 
-const maxRosterLimit = 600
+const (
+	maxRosterLimit     = 600
+	defaultRosterLimit = 20
+)
 
 // Handler coordinates Yokai search requests against the NDL API with caching.
 type Handler struct {
@@ -138,16 +141,40 @@ func (h *Handler) ListYokai(_ context.Context, params types.YokaiIndexParams) (*
 			Query:    cleaned.Term,
 			Total:    0,
 			Returned: 0,
+			Offset:   cleaned.Offset,
+			Limit:    cleaned.Limit,
 			Items:    nil,
 			Notes:    []string{"No yokai in the index matched the provided filters."},
 		}, nil
 	}
 
-	limited := matches
 	notes := []string{}
-	if cleaned.Limit > 0 && len(matches) > cleaned.Limit {
-		limited = matches[:cleaned.Limit]
-		notes = append(notes, fmt.Sprintf("Showing first %d of %d indexed yokai.", cleaned.Limit, len(matches)))
+	if cleaned.Offset >= len(matches) {
+		return &types.YokaiIndexResult{
+			Query:    cleaned.Term,
+			Total:    len(matches),
+			Returned: 0,
+			Offset:   cleaned.Offset,
+			Limit:    cleaned.Limit,
+			HasMore:  false,
+			Items:    nil,
+			Notes:    []string{fmt.Sprintf("offset %d is past the %d matching yokai. Pass a smaller offset.", cleaned.Offset, len(matches))},
+		}, nil
+	}
+
+	end := cleaned.Offset + cleaned.Limit
+	if end > len(matches) {
+		end = len(matches)
+	}
+	limited := matches[cleaned.Offset:end]
+	hasMore := end < len(matches)
+	if hasMore || cleaned.Offset > 0 || len(matches) > cleaned.Limit {
+		from := cleaned.Offset + 1
+		note := fmt.Sprintf("Showing %d–%d of %d indexed yokai.", from, end, len(matches))
+		if hasMore {
+			note += fmt.Sprintf(" Pass offset=%d to continue, or raise limit (max %d).", end, maxRosterLimit)
+		}
+		notes = append(notes, note)
 	}
 
 	items := make([]types.YokaiIndexItem, 0, len(limited))
@@ -159,6 +186,9 @@ func (h *Handler) ListYokai(_ context.Context, params types.YokaiIndexParams) (*
 		Query:    cleaned.Term,
 		Total:    len(matches),
 		Returned: len(items),
+		Offset:   cleaned.Offset,
+		Limit:    cleaned.Limit,
+		HasMore:  hasMore,
 		Items:    items,
 		Notes:    notes,
 	}, nil
@@ -364,10 +394,13 @@ func normaliseIndexParams(p types.YokaiIndexParams) types.YokaiIndexParams {
 	p.Tone = strings.TrimSpace(p.Tone)
 
 	if p.Limit <= 0 {
-		p.Limit = maxRosterLimit
+		p.Limit = defaultRosterLimit
 	}
 	if p.Limit > maxRosterLimit {
 		p.Limit = maxRosterLimit
+	}
+	if p.Offset < 0 {
+		p.Offset = 0
 	}
 	return p
 }
@@ -389,16 +422,20 @@ func normaliseSuggestParams(p types.SuggestYokaiParams) types.SuggestYokaiParams
 }
 
 func convertIndexEntry(entry yokai.IndexEntry) types.YokaiIndexItem {
+	facets := yokai.RegionFacetsFor(entry)
 	return types.YokaiIndexItem{
-		Name:       entry.Name,
-		NativeName: entry.NativeName,
-		Category:   entry.Category,
-		Region:     entry.Region,
-		BlurbJA:    entry.BlurbJA,
-		Tags:       cloneStrings(entry.Tags),
-		Tone:       entry.Tone,
-		FamousRank: entry.FamousRank,
-		HasProfile: entry.HasCuratedProfile(),
+		Name:        entry.Name,
+		NativeName:  entry.NativeName,
+		Category:    entry.Category,
+		Region:      entry.Region,
+		BlurbJA:     entry.BlurbJA,
+		Tags:        cloneStrings(entry.Tags),
+		Tone:        entry.Tone,
+		FamousRank:  entry.FamousRank,
+		HasProfile:  entry.HasCuratedProfile(),
+		Prefectures: cloneStrings(facets.Prefectures),
+		Areas:       cloneStrings(facets.Areas),
+		Habitats:    cloneStrings(facets.Habitats),
 	}
 }
 
@@ -462,6 +499,7 @@ func fieldMentions(entry yokai.IndexEntry, needle string) bool {
 	if needle == "" {
 		return false
 	}
+	facets := yokai.RegionFacetsFor(entry)
 	fields := []string{
 		entry.Name,
 		entry.NativeName,
@@ -470,6 +508,9 @@ func fieldMentions(entry yokai.IndexEntry, needle string) bool {
 		entry.BlurbJA,
 		entry.Tone,
 		strings.Join(entry.Tags, " "),
+		strings.Join(facets.Prefectures, " "),
+		strings.Join(facets.Areas, " "),
+		strings.Join(facets.Habitats, " "),
 	}
 	for _, field := range fields {
 		if strings.Contains(strings.ToLower(field), needle) {
@@ -511,20 +552,24 @@ func selectCuratedProfile(params types.YokaiOfTheDayParams) (yokai.Profile, []st
 
 func convertProfile(profile yokai.Profile) types.YokaiProfile {
 	return types.YokaiProfile{
-		Name:          profile.Name,
-		NativeName:    profile.NativeName,
-		Region:        profile.Region,
-		Category:      profile.Category,
-		CategoryEN:    profile.CategoryEN,
-		Summary:       profile.Summary,
-		SummaryJA:     profile.SummaryJA,
-		Legends:       cloneStrings(profile.Legends),
-		Traits:        cloneStrings(profile.Traits),
-		Motifs:        cloneStrings(profile.Motifs),
-		FunFact:       profile.FunFact,
-		FunFactJA:     profile.FunFactJA,
-		CreativeHooks: cloneStrings(profile.CreativeHooks),
-		Sources:       cloneStrings(profile.Sources),
+		Name:            profile.Name,
+		NativeName:      profile.NativeName,
+		Region:          profile.Region,
+		Category:        profile.Category,
+		CategoryEN:      profile.CategoryEN,
+		Summary:         profile.Summary,
+		SummaryJA:       profile.SummaryJA,
+		Legends:         cloneStrings(profile.Legends),
+		LegendsJA:       cloneStrings(profile.LegendsJA),
+		Traits:          cloneStrings(profile.Traits),
+		TraitsJA:        cloneStrings(profile.TraitsJA),
+		Motifs:          cloneStrings(profile.Motifs),
+		MotifsJA:        cloneStrings(profile.MotifsJA),
+		FunFact:         profile.FunFact,
+		FunFactJA:       profile.FunFactJA,
+		CreativeHooks:   cloneStrings(profile.CreativeHooks),
+		CreativeHooksJA: cloneStrings(profile.CreativeHooksJA),
+		Sources:         cloneStrings(profile.Sources),
 	}
 }
 
@@ -641,9 +686,11 @@ func profileMatchesTerm(profile yokai.Profile, term string) bool {
 		profile.SummaryJA,
 		profile.FunFactJA,
 		strings.Join(profile.Legends, " "),
+		strings.Join(profile.LegendsJA, " "),
 		strings.Join(profile.Traits, " "),
 		strings.Join(profile.Motifs, " "),
 		strings.Join(profile.CreativeHooks, " "),
+		strings.Join(profile.CreativeHooksJA, " "),
 	}
 
 	for _, field := range fields {

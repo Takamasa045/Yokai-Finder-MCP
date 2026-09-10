@@ -63,6 +63,64 @@ func TestValidateLoadedCatalogRejectsBadData(t *testing.T) {
 	}
 }
 
+func TestCatalogArtifactDetectsResidue(t *testing.T) {
+	cases := map[string]bool{
+		"Do not merge 大蟇 into a neighbour card.":  true,
+		"Keep 化け蟹 as the faced shell.":            true,
+		"Encyclopedia body":                       true,
+		"folk plate":                              true,
+		"The workplace is 巨大な蟇.":                  true,
+		"井戸は別項。":                                  true,
+		"化け蟹の、巨大側。":                               true,
+		"Challenges travellers to sumo bouts":     false,
+		"A municipal treaty written in cucumbers": false,
+	}
+	for text, want := range cases {
+		got := CatalogArtifact(text) != ""
+		if got != want {
+			t.Errorf("%q artifact=%v want %v (hit %q)", text, got, want, CatalogArtifact(text))
+		}
+	}
+}
+
+func TestValidateLoadedCatalogRejectsArtifacts(t *testing.T) {
+	good := Index()[0]
+	good.Tags = []string{"a", "b", "c"}
+	good.FamousRank = 3
+	good.Name = "Okiseru"
+	good.NativeName = "大煙管"
+	err := validateLoadedCatalog(
+		[]IndexEntry{good},
+		[]Profile{{
+			Name: "Okiseru", NativeName: "大煙管", Category: good.Category,
+			Summary: "s", SummaryJA: "巨大な煙管の付喪神。", FunFact: "f", FunFactJA: "豆知識",
+			SearchQuery: "大煙管",
+			Legends:     []string{"Do not merge 大煙管 into a neighbour card."},
+			Sources:     []string{"大煙管 / encyclopedia plate"},
+		}},
+		map[string]string{},
+	)
+	if err == nil {
+		t.Fatal("expected residue to fail validation")
+	}
+	if !strings.Contains(err.Error(), "generation residue") {
+		t.Fatalf("expected residue error, got %v", err)
+	}
+}
+
+func TestLiveCatalogHasNoGenerationResidue(t *testing.T) {
+	for _, e := range Index() {
+		if hit := indexArtifact(e); hit != "" {
+			t.Errorf("%s index residue %q", e.NativeName, hit)
+		}
+	}
+	for _, p := range Profiles() {
+		if hit := profileArtifact(p); hit != "" {
+			t.Errorf("%s profile residue %q", p.NativeName, hit)
+		}
+	}
+}
+
 func TestDocsMentionLiveCatalogCounts(t *testing.T) {
 	root := filepath.Join("..", "..")
 	info := CatalogOverview()
