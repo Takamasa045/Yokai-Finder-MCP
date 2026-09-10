@@ -14761,5 +14761,7738 @@
     "sources": [
       "Hone-guruma bone-cart lore"
     ]
+  },
+  {
+    "name": "Hannya",
+    "nativeName": "般若",
+    "region": "能の面",
+    "category": "鬼",
+    "categoryEn": "Noh mask",
+    "summary": "The noh mask of jealous rage as a yokai in its own right.",
+    "summaryJa": "能の怨霊の面が、そのまま怪異になる。",
+    "legends": [
+      "The noh mask of jealous rage as a yokai in its own right.",
+      "A face that is a job description.",
+      "Do not merge 般若 into a neighbour card."
+    ],
+    "traits": [
+      "Noh mask",
+      "面",
+      "怨霊",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "鬼",
+      "面",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A face that is a job description.",
+    "funFactJa": "面が職務記述。",
+    "searchQuery": "般若 はんにゃ 妖怪",
+    "creativeHooks": [
+      "A face that is a job description.",
+      "Keep 般若 as its own plate.",
+      "The workplace is 能の面."
+    ],
+    "sources": [
+      "般若 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Sansei",
+    "nativeName": "山精",
+    "region": "山の精",
+    "category": "山系",
+    "categoryEn": "Mountain wight",
+    "summary": "A mountain essence Sekien listed beside yamawaro.",
+    "summaryJa": "山の精。山童の漢語めいた名で、石燕が別項にした。",
+    "legends": [
+      "A mountain essence Sekien listed beside yamawaro.",
+      "Do not paste over 山童.",
+      "Do not merge 山精 into a neighbour card."
+    ],
+    "traits": [
+      "Mountain wight",
+      "Mountain",
+      "精",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "山系",
+      "山",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "Do not paste over 山童.",
+    "funFactJa": "山童に上書きしない。",
+    "searchQuery": "山精 さんせい 妖怪",
+    "creativeHooks": [
+      "Do not paste over 山童.",
+      "Keep 山精 as its own plate.",
+      "The workplace is 山の精."
+    ],
+    "sources": [
+      "山精 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Batsu",
+    "nativeName": "魃",
+    "region": "日照りの神怪",
+    "category": "気象",
+    "categoryEn": "Drought demon",
+    "summary": "A drought-bringing yokai; neighbour to Hiderime, not the same card.",
+    "summaryJa": "日照りを起こす旱魃の怪。日照り女の漢語側。",
+    "legends": [
+      "A drought-bringing yokai; neighbour to Hiderime, not the same card.",
+      "A forecast of no rain.",
+      "Do not merge 魃 into a neighbour card."
+    ],
+    "traits": [
+      "Drought demon",
+      "日照り",
+      "旱",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "気象",
+      "日照り",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A forecast of no rain.",
+    "funFactJa": "雨の無い予報。",
+    "searchQuery": "魃 ひでりがみ 妖怪",
+    "creativeHooks": [
+      "A forecast of no rain.",
+      "Keep 魃 as its own plate.",
+      "The workplace is 日照りの神怪."
+    ],
+    "sources": [
+      "魃 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kosenjo-hi",
+    "nativeName": "古戦場火",
+    "region": "古戦場",
+    "category": "霊火",
+    "categoryEn": "Old-battlefield fire",
+    "summary": "Fire left on an old battlefield; the dead keep a wick in the grass.",
+    "summaryJa": "古戦場に残る火。死者の灯が野に残る。",
+    "legends": [
+      "Fire left on an old battlefield; the dead keep a wick in the grass.",
+      "A night shift on a grave of grass.",
+      "Do not merge 古戦場火 into a neighbour card."
+    ],
+    "traits": [
+      "Old-battlefield fire",
+      "Fire",
+      "戦場",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "霊火",
+      "火",
+      "picture-scroll",
+      "tragic"
+    ],
+    "funFact": "A night shift on a grave of grass.",
+    "funFactJa": "草の墓の夜勤。",
+    "searchQuery": "古戦場火 こせんじょうび 妖怪",
+    "creativeHooks": [
+      "A night shift on a grave of grass.",
+      "Keep 古戦場火 as its own plate.",
+      "The workplace is 古戦場."
+    ],
+    "sources": [
+      "古戦場火 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Chochin-no-hi",
+    "nativeName": "提灯火",
+    "region": "提灯の火",
+    "category": "霊火",
+    "categoryEn": "Lantern flame",
+    "summary": "A flame that leaves its lantern; neighbour to chochin-obake, not the paper body.",
+    "summaryJa": "提灯から離れた火。提灯お化けとは別の、火の項。",
+    "legends": [
+      "A flame that leaves its lantern; neighbour to chochin-obake, not the paper body.",
+      "Keep the paper monster on the other card.",
+      "Do not merge 提灯火 into a neighbour card."
+    ],
+    "traits": [
+      "Lantern flame",
+      "Fire",
+      "提灯",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "霊火",
+      "火",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "Keep the paper monster on the other card.",
+    "funFactJa": "紙の怪は別項。",
+    "searchQuery": "提灯火 ちょうちんのひ 妖怪",
+    "creativeHooks": [
+      "Keep the paper monster on the other card.",
+      "Keep 提灯火 as its own plate.",
+      "The workplace is 提灯の火."
+    ],
+    "sources": [
+      "提灯火 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Haka-no-hi",
+    "nativeName": "墓の火",
+    "region": "墓",
+    "category": "霊火",
+    "categoryEn": "Grave fire",
+    "summary": "Fire over graves; the cemetery side of hitodama.",
+    "summaryJa": "墓に灯る火。人魂の、墓地側。",
+    "legends": [
+      "Fire over graves; the cemetery side of hitodama.",
+      "A memorial that ignites.",
+      "Do not merge 墓の火 into a neighbour card."
+    ],
+    "traits": [
+      "Grave fire",
+      "Fire",
+      "墓",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "霊火",
+      "火",
+      "picture-scroll",
+      "tragic"
+    ],
+    "funFact": "A memorial that ignites.",
+    "funFactJa": "点灯する供養。",
+    "searchQuery": "墓の火 はかのひ 妖怪",
+    "creativeHooks": [
+      "A memorial that ignites.",
+      "Keep 墓の火 as its own plate.",
+      "The workplace is 墓."
+    ],
+    "sources": [
+      "墓の火 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Furu-tsubaki-no-rei",
+    "nativeName": "古山茶の霊",
+    "region": "古い椿",
+    "category": "山系",
+    "categoryEn": "Old camellia spirit",
+    "summary": "The spirit of an aged camellia; neighbour to tree-sei cards, with extra years.",
+    "summaryJa": "古い椿の霊。花の精の、歳を経た側。",
+    "legends": [
+      "The spirit of an aged camellia; neighbour to tree-sei cards, with extra years.",
+      "A bloom that remembers.",
+      "Do not merge 古山茶の霊 into a neighbour card."
+    ],
+    "traits": [
+      "Old camellia spirit",
+      "椿",
+      "木",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "山系",
+      "椿",
+      "picture-scroll",
+      "tragic"
+    ],
+    "funFact": "A bloom that remembers.",
+    "funFactJa": "覚えている花。",
+    "searchQuery": "古山茶の霊 ふるつばきのれい 妖怪",
+    "creativeHooks": [
+      "A bloom that remembers.",
+      "Keep 古山茶の霊 as its own plate.",
+      "The workplace is 古い椿."
+    ],
+    "sources": [
+      "古山茶の霊 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Fuguruma-yohi",
+    "nativeName": "文車妖妃",
+    "region": "文の車",
+    "category": "付喪神",
+    "categoryEn": "Book-cart lady",
+    "summary": "A tsukumogami of a book-cart that walks as a woman.",
+    "summaryJa": "文車の付喪神。書物を積んだ車が女になる。",
+    "legends": [
+      "A tsukumogami of a book-cart that walks as a woman.",
+      "A library that clocks out of the wheels.",
+      "Do not merge 文車妖妃 into a neighbour card."
+    ],
+    "traits": [
+      "Book-cart lady",
+      "文",
+      "車",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "文",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A library that clocks out of the wheels.",
+    "funFactJa": "車輪から退勤する文庫。",
+    "searchQuery": "文車妖妃 ふぐるまようひ 妖怪",
+    "creativeHooks": [
+      "A library that clocks out of the wheels.",
+      "Keep 文車妖妃 as its own plate.",
+      "The workplace is 文の車."
+    ],
+    "sources": [
+      "文車妖妃 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Osakoburi",
+    "nativeName": "長冠",
+    "region": "古い冠",
+    "category": "付喪神",
+    "categoryEn": "Tall court-cap",
+    "summary": "A tsukumogami of an old court cap that still wants a head.",
+    "summaryJa": "古い冠の付喪神。頭の礼装が歩く。",
+    "legends": [
+      "A tsukumogami of an old court cap that still wants a head.",
+      "Dress code with no official.",
+      "Do not merge 長冠 into a neighbour card."
+    ],
+    "traits": [
+      "Tall court-cap",
+      "冠",
+      "Worn tool",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "冠",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "Dress code with no official.",
+    "funFactJa": "役のない服装規定。",
+    "searchQuery": "長冠 おさこうぶり 妖怪",
+    "creativeHooks": [
+      "Dress code with no official.",
+      "Keep 長冠 as its own plate.",
+      "The workplace is 古い冠."
+    ],
+    "sources": [
+      "長冠 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kutsutsura",
+    "nativeName": "沓頬",
+    "region": "古い沓",
+    "category": "付喪神",
+    "categoryEn": "Shoe-cheek",
+    "summary": "A tsukumogami of old kutsu whose toe becomes a cheek.",
+    "summaryJa": "沓の付喪神。履物が頬のようになる。",
+    "legends": [
+      "A tsukumogami of old kutsu whose toe becomes a cheek.",
+      "Footwear with a face.",
+      "Do not merge 沓頬 into a neighbour card."
+    ],
+    "traits": [
+      "Shoe-cheek",
+      "沓",
+      "Worn tool",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "沓",
+      "picture-scroll",
+      "comic"
+    ],
+    "funFact": "Footwear with a face.",
+    "funFactJa": "顔のある履物。",
+    "searchQuery": "沓頬 くつつら 妖怪",
+    "creativeHooks": [
+      "Footwear with a face.",
+      "Keep 沓頬 as its own plate.",
+      "The workplace is 古い沓."
+    ],
+    "sources": [
+      "沓頬 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Bake-no-kawagoromo",
+    "nativeName": "ばけの皮衣",
+    "region": "皮衣",
+    "category": "付喪神",
+    "categoryEn": "Pelt-robe",
+    "summary": "A tsukumogami of a leather robe; the shed skin comes back.",
+    "summaryJa": "皮衣の付喪神。脱いだ皮が夜に戻る。",
+    "legends": [
+      "A tsukumogami of a leather robe; the shed skin comes back.",
+      "A coat that hunts the wearer.",
+      "Do not merge ばけの皮衣 into a neighbour card."
+    ],
+    "traits": [
+      "Pelt-robe",
+      "皮",
+      "衣",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "皮",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A coat that hunts the wearer.",
+    "funFactJa": "着た人を狩るコート。",
+    "searchQuery": "ばけの皮衣 ばけのかわごろも 妖怪",
+    "creativeHooks": [
+      "A coat that hunts the wearer.",
+      "Keep ばけの皮衣 as its own plate.",
+      "The workplace is 皮衣."
+    ],
+    "sources": [
+      "ばけの皮衣 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kinu-tanuki",
+    "nativeName": "絹狸",
+    "region": "絹の狸",
+    "category": "付喪神",
+    "categoryEn": "Silk tanuki",
+    "summary": "Silk that takes tanuki shape; cloth and beast share a body.",
+    "summaryJa": "絹の付喪神が狸の形をとる。布と狸の境。",
+    "legends": [
+      "Silk that takes tanuki shape; cloth and beast share a body.",
+      "A leaf hat made of thread.",
+      "Do not merge 絹狸 into a neighbour card."
+    ],
+    "traits": [
+      "Silk tanuki",
+      "絹",
+      "狸",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "絹",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "A leaf hat made of thread.",
+    "funFactJa": "糸の葉の帽子。",
+    "searchQuery": "絹狸 きぬたぬき 妖怪",
+    "creativeHooks": [
+      "A leaf hat made of thread.",
+      "Keep 絹狸 as its own plate.",
+      "The workplace is 絹の狸."
+    ],
+    "sources": [
+      "絹狸 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Hone-karakasa",
+    "nativeName": "骨傘",
+    "region": "骨の傘",
+    "category": "付喪神",
+    "categoryEn": "Bone umbrella",
+    "summary": "A tsukumogami of an umbrella reduced to ribs; the skeleton of karakasa-obake.",
+    "summaryJa": "骨だけ残った傘の付喪神。唐傘お化けの骨格。",
+    "legends": [
+      "A tsukumogami of an umbrella reduced to ribs; the skeleton of karakasa-obake.",
+      "Keep the paper cousin on the other card.",
+      "Do not merge 骨傘 into a neighbour card."
+    ],
+    "traits": [
+      "Bone umbrella",
+      "傘",
+      "Bone",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "傘",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Keep the paper cousin on the other card.",
+    "funFactJa": "紙の従兄は別項。",
+    "searchQuery": "骨傘 ほねからかさ 妖怪",
+    "creativeHooks": [
+      "Keep the paper cousin on the other card.",
+      "Keep 骨傘 as its own plate.",
+      "The workplace is 骨の傘."
+    ],
+    "sources": [
+      "骨傘 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Shogoro",
+    "nativeName": "鉦五郎",
+    "region": "鉦",
+    "category": "付喪神",
+    "categoryEn": "Gong Goro",
+    "summary": "A tsukumogami of a sho gong that sounds with no striker.",
+    "summaryJa": "鉦の付喪神。叩かれなくなっても音を出す。",
+    "legends": [
+      "A tsukumogami of a sho gong that sounds with no striker.",
+      "A temple with no sexton.",
+      "Do not merge 鉦五郎 into a neighbour card."
+    ],
+    "traits": [
+      "Gong Goro",
+      "鉦",
+      "Sound",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "鉦",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A temple with no sexton.",
+    "funFactJa": "寺男のいない寺。",
+    "searchQuery": "鉦五郎 しょうごろう 妖怪",
+    "creativeHooks": [
+      "A temple with no sexton.",
+      "Keep 鉦五郎 as its own plate.",
+      "The workplace is 鉦."
+    ],
+    "sources": [
+      "鉦五郎 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Hossumori",
+    "nativeName": "払子守",
+    "region": "払子",
+    "category": "付喪神",
+    "categoryEn": "Whisk-guard",
+    "summary": "A tsukumogami of a priest's hossu whisk that still dusts the dark.",
+    "summaryJa": "払子の付喪神。塵を払う道具が夜に歩く。",
+    "legends": [
+      "A tsukumogami of a priest's hossu whisk that still dusts the dark.",
+      "Janitorial liturgy.",
+      "Do not merge 払子守 into a neighbour card."
+    ],
+    "traits": [
+      "Whisk-guard",
+      "払子",
+      "僧",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "払子",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "Janitorial liturgy.",
+    "funFactJa": "掃除の法要。",
+    "searchQuery": "払子守 ほっすもり 妖怪",
+    "creativeHooks": [
+      "Janitorial liturgy.",
+      "Keep 払子守 as its own plate.",
+      "The workplace is 払子."
+    ],
+    "sources": [
+      "払子守 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Yarikecho",
+    "nativeName": "槍毛長",
+    "region": "槍",
+    "category": "付喪神",
+    "categoryEn": "Spear-hair",
+    "summary": "A tsukumogami of a spear whose point grows like hair.",
+    "summaryJa": "槍の付喪神。穂先が毛のように長い。",
+    "legends": [
+      "A tsukumogami of a spear whose point grows like hair.",
+      "An armoury that needs a barber.",
+      "Do not merge 槍毛長 into a neighbour card."
+    ],
+    "traits": [
+      "Spear-hair",
+      "槍",
+      "武具",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "槍",
+      "picture-scroll",
+      "solemn"
+    ],
+    "funFact": "An armoury that needs a barber.",
+    "funFactJa": "武器庫が散髪を要する。",
+    "searchQuery": "槍毛長 やりけちょう 妖怪",
+    "creativeHooks": [
+      "An armoury that needs a barber.",
+      "Keep 槍毛長 as its own plate.",
+      "The workplace is 槍."
+    ],
+    "sources": [
+      "槍毛長 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Koinryo",
+    "nativeName": "虎隠良",
+    "region": "虎の皮",
+    "category": "付喪神",
+    "categoryEn": "Tiger-hide",
+    "summary": "A tsukumogami of tiger-hide armour that walks as a beast.",
+    "summaryJa": "虎の皮の付喪神。隠れた武具が獣になる。",
+    "legends": [
+      "A tsukumogami of tiger-hide armour that walks as a beast.",
+      "A trophy that clocks in.",
+      "Do not merge 虎隠良 into a neighbour card."
+    ],
+    "traits": [
+      "Tiger-hide",
+      "虎",
+      "皮",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "虎",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A trophy that clocks in.",
+    "funFactJa": "出勤する戦利品。",
+    "searchQuery": "虎隠良 こいんりょう 妖怪",
+    "creativeHooks": [
+      "A trophy that clocks in.",
+      "Keep 虎隠良 as its own plate.",
+      "The workplace is 虎の皮."
+    ],
+    "sources": [
+      "虎隠良 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Zenfusho",
+    "nativeName": "禅釜尚",
+    "region": "禅の釜",
+    "category": "付喪神",
+    "categoryEn": "Zen kettle",
+    "summary": "A tsukumogami of a zen-temple kettle that still sits zazen.",
+    "summaryJa": "禅寺の釜の付喪神。茶と修行の道具が座る。",
+    "legends": [
+      "A tsukumogami of a zen-temple kettle that still sits zazen.",
+      "A boil that meditates.",
+      "Do not merge 禅釜尚 into a neighbour card."
+    ],
+    "traits": [
+      "Zen kettle",
+      "釜",
+      "禅",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "釜",
+      "picture-scroll",
+      "solemn"
+    ],
+    "funFact": "A boil that meditates.",
+    "funFactJa": "瞑想する沸騰。",
+    "searchQuery": "禅釜尚 ぜんふしょう 妖怪",
+    "creativeHooks": [
+      "A boil that meditates.",
+      "Keep 禅釜尚 as its own plate.",
+      "The workplace is 禅の釜."
+    ],
+    "sources": [
+      "禅釜尚 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kurayaro",
+    "nativeName": "鞍野郎",
+    "region": "鞍",
+    "category": "付喪神",
+    "categoryEn": "Saddle rascal",
+    "summary": "A tsukumogami of a saddle that rides with no horse.",
+    "summaryJa": "鞍の付喪神。馬のいない夜に乗る。",
+    "legends": [
+      "A tsukumogami of a saddle that rides with no horse.",
+      "A commute with no animal.",
+      "Do not merge 鞍野郎 into a neighbour card."
+    ],
+    "traits": [
+      "Saddle rascal",
+      "鞍",
+      "馬",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "鞍",
+      "picture-scroll",
+      "comic"
+    ],
+    "funFact": "A commute with no animal.",
+    "funFactJa": "動物のいない通勤。",
+    "searchQuery": "鞍野郎 くらやろう 妖怪",
+    "creativeHooks": [
+      "A commute with no animal.",
+      "Keep 鞍野郎 as its own plate.",
+      "The workplace is 鞍."
+    ],
+    "sources": [
+      "鞍野郎 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Abumi-guchi",
+    "nativeName": "鐙口",
+    "region": "鐙",
+    "category": "付喪神",
+    "categoryEn": "Stirrup-mouth",
+    "summary": "A tsukumogami of a stirrup whose ring is a biting mouth.",
+    "summaryJa": "鐙の付喪神。輪が口になって噛む。",
+    "legends": [
+      "A tsukumogami of a stirrup whose ring is a biting mouth.",
+      "A foothold that eats.",
+      "Do not merge 鐙口 into a neighbour card."
+    ],
+    "traits": [
+      "Stirrup-mouth",
+      "鐙",
+      "口",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "鐙",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A foothold that eats.",
+    "funFactJa": "喰う足がかり。",
+    "searchQuery": "鐙口 あぶみくち 妖怪",
+    "creativeHooks": [
+      "A foothold that eats.",
+      "Keep 鐙口 as its own plate.",
+      "The workplace is 鐙."
+    ],
+    "sources": [
+      "鐙口 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Taimatsu-maru",
+    "nativeName": "松明丸",
+    "region": "松明",
+    "category": "付喪神",
+    "categoryEn": "Torch-maru",
+    "summary": "A tsukumogami of a torch that keeps fire after the parade.",
+    "summaryJa": "松明の付喪神。消えたあとも火を持つ。",
+    "legends": [
+      "A tsukumogami of a torch that keeps fire after the parade.",
+      "A procession of one wick.",
+      "Do not merge 松明丸 into a neighbour card."
+    ],
+    "traits": [
+      "Torch-maru",
+      "松明",
+      "Fire",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "松明",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A procession of one wick.",
+    "funFactJa": "芯一つの行列。",
+    "searchQuery": "松明丸 たいまつまる 妖怪",
+    "creativeHooks": [
+      "A procession of one wick.",
+      "Keep 松明丸 as its own plate.",
+      "The workplace is 松明."
+    ],
+    "sources": [
+      "松明丸 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Burabura",
+    "nativeName": "不々落々",
+    "region": "提灯のぶら",
+    "category": "付喪神",
+    "categoryEn": "Dangling lantern",
+    "summary": "Sekien's dangling-lantern tsukumogami named for the sway.",
+    "summaryJa": "ぶらぶら揺れる提灯の付喪神。石燕の名。",
+    "legends": [
+      "Sekien's dangling-lantern tsukumogami named for the sway.",
+      "Onomatopoeia with a wick.",
+      "Do not merge 不々落々 into a neighbour card."
+    ],
+    "traits": [
+      "Dangling lantern",
+      "提灯",
+      "揺",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "提灯",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "Onomatopoeia with a wick.",
+    "funFactJa": "芯のある擬音。",
+    "searchQuery": "不々落々 ぶらぶら 妖怪",
+    "creativeHooks": [
+      "Onomatopoeia with a wick.",
+      "Keep 不々落々 as its own plate.",
+      "The workplace is 提灯のぶら."
+    ],
+    "sources": [
+      "不々落々 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kaichigo",
+    "nativeName": "貝児",
+    "region": "貝合わせ",
+    "category": "付喪神",
+    "categoryEn": "Shell child",
+    "summary": "A tsukumogami of shell-matching pieces that take a child's shape.",
+    "summaryJa": "貝合わせの付喪神。貝が児の形をとる。",
+    "legends": [
+      "A tsukumogami of shell-matching pieces that take a child's shape.",
+      "A game that grew a pulse.",
+      "Do not merge 貝児 into a neighbour card."
+    ],
+    "traits": [
+      "Shell child",
+      "貝",
+      "Child",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "貝",
+      "picture-scroll",
+      "gentle"
+    ],
+    "funFact": "A game that grew a pulse.",
+    "funFactJa": "脈の出た遊具。",
+    "searchQuery": "貝児 かいちご 妖怪",
+    "creativeHooks": [
+      "A game that grew a pulse.",
+      "Keep 貝児 as its own plate.",
+      "The workplace is 貝合わせ."
+    ],
+    "sources": [
+      "貝児 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kami-oni",
+    "nativeName": "髪鬼",
+    "region": "髪",
+    "category": "付喪神",
+    "categoryEn": "Hair oni",
+    "summary": "Discarded hair that becomes an oni; a tsukumogami of the combings.",
+    "summaryJa": "髪の付喪神。梳かれて捨てられた髪が鬼になる。",
+    "legends": [
+      "Discarded hair that becomes an oni; a tsukumogami of the combings.",
+      "A salon leftover with horns.",
+      "Do not merge 髪鬼 into a neighbour card."
+    ],
+    "traits": [
+      "Hair oni",
+      "髪",
+      "Oni",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "髪",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A salon leftover with horns.",
+    "funFactJa": "角のある髪くず。",
+    "searchQuery": "髪鬼 かみおに 妖怪",
+    "creativeHooks": [
+      "A salon leftover with horns.",
+      "Keep 髪鬼 as its own plate.",
+      "The workplace is 髪."
+    ],
+    "sources": [
+      "髪鬼 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Tsuno-hanzo",
+    "nativeName": "角盥漱",
+    "region": "盥",
+    "category": "付喪神",
+    "categoryEn": "Horned basin",
+    "summary": "A tsukumogami of a washing basin grown horns.",
+    "summaryJa": "角のある盥の付喪神。顔を洗う器が歩く。",
+    "legends": [
+      "A tsukumogami of a washing basin grown horns.",
+      "Hygiene with a temper.",
+      "Do not merge 角盥漱 into a neighbour card."
+    ],
+    "traits": [
+      "Horned basin",
+      "盥",
+      "Water",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "盥",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "Hygiene with a temper.",
+    "funFactJa": "気性のある洗面。",
+    "searchQuery": "角盥漱 つのはんぞう 妖怪",
+    "creativeHooks": [
+      "Hygiene with a temper.",
+      "Keep 角盥漱 as its own plate.",
+      "The workplace is 盥."
+    ],
+    "sources": [
+      "角盥漱 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Fukuro-mujina",
+    "nativeName": "袋狢",
+    "region": "袋",
+    "category": "付喪神",
+    "categoryEn": "Bag mujina",
+    "summary": "A bag tsukumogami in mujina shape; cloth and beast again.",
+    "summaryJa": "袋の付喪神が貉の形をとる。",
+    "legends": [
+      "A bag tsukumogami in mujina shape; cloth and beast again.",
+      "Inventory that disguises.",
+      "Do not merge 袋狢 into a neighbour card."
+    ],
+    "traits": [
+      "Bag mujina",
+      "袋",
+      "貉",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "袋",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "Inventory that disguises.",
+    "funFactJa": "変装する在庫。",
+    "searchQuery": "袋狢 ふくろむじな 妖怪",
+    "creativeHooks": [
+      "Inventory that disguises.",
+      "Keep 袋狢 as its own plate.",
+      "The workplace is 袋."
+    ],
+    "sources": [
+      "袋狢 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Shamichoro",
+    "nativeName": "三味長老",
+    "region": "三味線",
+    "category": "付喪神",
+    "categoryEn": "Shamisen elder",
+    "summary": "A tsukumogami of a shamisen; neighbour office to koto and biwa.",
+    "summaryJa": "三味線の付喪神。琴古主・琵琶牧々の隣職。",
+    "legends": [
+      "A tsukumogami of a shamisen; neighbour office to koto and biwa.",
+      "A trio with a missing player until now.",
+      "Do not merge 三味長老 into a neighbour card."
+    ],
+    "traits": [
+      "Shamisen elder",
+      "三味線",
+      "Sound",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "三味線",
+      "picture-scroll",
+      "solemn"
+    ],
+    "funFact": "A trio with a missing player until now.",
+    "funFactJa": "欠員の出ていた三重奏。",
+    "searchQuery": "三味長老 しゃみちょうろう 妖怪",
+    "creativeHooks": [
+      "A trio with a missing player until now.",
+      "Keep 三味長老 as its own plate.",
+      "The workplace is 三味線."
+    ],
+    "sources": [
+      "三味長老 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Eritate-goromo",
+    "nativeName": "襟立衣",
+    "region": "僧衣",
+    "category": "付喪神",
+    "categoryEn": "Standing-collar robe",
+    "summary": "A tsukumogami of a priest's high-collared robe walking empty.",
+    "summaryJa": "襟の立った僧衣の付喪神。空の法衣が歩く。",
+    "legends": [
+      "A tsukumogami of a priest's high-collared robe walking empty.",
+      "Vestments with no monk.",
+      "Do not merge 襟立衣 into a neighbour card."
+    ],
+    "traits": [
+      "Standing-collar robe",
+      "衣",
+      "僧",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "衣",
+      "picture-scroll",
+      "solemn"
+    ],
+    "funFact": "Vestments with no monk.",
+    "funFactJa": "僧のいない法衣。",
+    "searchQuery": "襟立衣 えりたてごろも 妖怪",
+    "creativeHooks": [
+      "Vestments with no monk.",
+      "Keep 襟立衣 as its own plate.",
+      "The workplace is 僧衣."
+    ],
+    "sources": [
+      "襟立衣 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kyorinrin",
+    "nativeName": "経凛々",
+    "region": "経巻",
+    "category": "付喪神",
+    "categoryEn": "Sutra-scroll",
+    "summary": "A tsukumogami of unread sutra scrolls that stand and rustle.",
+    "summaryJa": "経巻の付喪神。読まれなくなった経が立つ。",
+    "legends": [
+      "A tsukumogami of unread sutra scrolls that stand and rustle.",
+      "A library of unused liturgy.",
+      "Do not merge 経凛々 into a neighbour card."
+    ],
+    "traits": [
+      "Sutra-scroll",
+      "経",
+      "巻",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "経",
+      "picture-scroll",
+      "solemn"
+    ],
+    "funFact": "A library of unused liturgy.",
+    "funFactJa": "使われない法要の書庫。",
+    "searchQuery": "経凛々 きょうりんりん 妖怪",
+    "creativeHooks": [
+      "A library of unused liturgy.",
+      "Keep 経凛々 as its own plate.",
+      "The workplace is 経巻."
+    ],
+    "sources": [
+      "経凛々 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Nyubachibo",
+    "nativeName": "乳鉢坊",
+    "region": "乳鉢",
+    "category": "付喪神",
+    "categoryEn": "Mortar monk",
+    "summary": "A tsukumogami of a nyubachi medicine-mortar in monk form.",
+    "summaryJa": "仏具の乳鉢の付喪神。薬を摺る器が坊主になる。",
+    "legends": [
+      "A tsukumogami of a nyubachi medicine-mortar in monk form.",
+      "Pharmacy with a tonsure.",
+      "Do not merge 乳鉢坊 into a neighbour card."
+    ],
+    "traits": [
+      "Mortar monk",
+      "鉢",
+      "仏具",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "鉢",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "Pharmacy with a tonsure.",
+    "funFactJa": "剃髪の薬局。",
+    "searchQuery": "乳鉢坊 にゅうばちぼう 妖怪",
+    "creativeHooks": [
+      "Pharmacy with a tonsure.",
+      "Keep 乳鉢坊 as its own plate.",
+      "The workplace is 乳鉢."
+    ],
+    "sources": [
+      "乳鉢坊 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Hyotan-kozo",
+    "nativeName": "瓢箪小僧",
+    "region": "瓢箪",
+    "category": "付喪神",
+    "categoryEn": "Gourd boy",
+    "summary": "A tsukumogami of a hyotan gourd that walks as a boy.",
+    "summaryJa": "瓢箪の付喪神。酒の器が小僧になる。",
+    "legends": [
+      "A tsukumogami of a hyotan gourd that walks as a boy.",
+      "A flask with legs.",
+      "Do not merge 瓢箪小僧 into a neighbour card."
+    ],
+    "traits": [
+      "Gourd boy",
+      "瓢箪",
+      "酒",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "瓢箪",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "A flask with legs.",
+    "funFactJa": "脚のある徳利。",
+    "searchQuery": "瓢箪小僧 ひょうたんこぞう 妖怪",
+    "creativeHooks": [
+      "A flask with legs.",
+      "Keep 瓢箪小僧 as its own plate.",
+      "The workplace is 瓢箪."
+    ],
+    "sources": [
+      "瓢箪小僧 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Nyoijizai",
+    "nativeName": "如意自在",
+    "region": "如意",
+    "category": "付喪神",
+    "categoryEn": "Wish-staff",
+    "summary": "A tsukumogami of a nyoi staff that reaches farther at night.",
+    "summaryJa": "如意の付喪神。届く杖が夜に届きすぎる。",
+    "legends": [
+      "A tsukumogami of a nyoi staff that reaches farther at night.",
+      "A back-scratcher of the dharma.",
+      "Do not merge 如意自在 into a neighbour card."
+    ],
+    "traits": [
+      "Wish-staff",
+      "如意",
+      "杖",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "如意",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A back-scratcher of the dharma.",
+    "funFactJa": "法の孫の手。",
+    "searchQuery": "如意自在 にょいじざい 妖怪",
+    "creativeHooks": [
+      "A back-scratcher of the dharma.",
+      "Keep 如意自在 as its own plate.",
+      "The workplace is 如意."
+    ],
+    "sources": [
+      "如意自在 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Minowaraji",
+    "nativeName": "蓑草鞋",
+    "region": "蓑と草鞋",
+    "category": "付喪神",
+    "categoryEn": "Straw raincoat and sandals",
+    "summary": "A tsukumogami of mino and waraji that wait for a traveller.",
+    "summaryJa": "蓑と草鞋の付喪神。旅装が人を待つ。",
+    "legends": [
+      "A tsukumogami of mino and waraji that wait for a traveller.",
+      "A packing list that walks first.",
+      "Do not merge 蓑草鞋 into a neighbour card."
+    ],
+    "traits": [
+      "Straw raincoat and sandals",
+      "蓑",
+      "草鞋",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "蓑",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "A packing list that walks first.",
+    "funFactJa": "先に歩く持ち物リスト。",
+    "searchQuery": "蓑草鞋 みのわらじ 妖怪",
+    "creativeHooks": [
+      "A packing list that walks first.",
+      "Keep 蓑草鞋 as its own plate.",
+      "The workplace is 蓑と草鞋."
+    ],
+    "sources": [
+      "蓑草鞋 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Heiroku",
+    "nativeName": "幣六",
+    "region": "御幣",
+    "category": "付喪神",
+    "categoryEn": "Gohei Roku",
+    "summary": "A tsukumogami of a gohei wand named Heiroku.",
+    "summaryJa": "御幣の付喪神。祓いの紙が六の名で歩く。",
+    "legends": [
+      "A tsukumogami of a gohei wand named Heiroku.",
+      "Purification that clocks in.",
+      "Do not merge 幣六 into a neighbour card."
+    ],
+    "traits": [
+      "Gohei Roku",
+      "幣",
+      "紙",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "幣",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "Purification that clocks in.",
+    "funFactJa": "出勤する祓。",
+    "searchQuery": "幣六 へいろく 妖怪",
+    "creativeHooks": [
+      "Purification that clocks in.",
+      "Keep 幣六 as its own plate.",
+      "The workplace is 御幣."
+    ],
+    "sources": [
+      "幣六 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ungaikyo",
+    "nativeName": "雲外鏡",
+    "region": "鏡",
+    "category": "付喪神",
+    "categoryEn": "Cloud-mirror",
+    "summary": "A tsukumogami of a mirror that shows beyond the clouds; neighbour to bake-kagami.",
+    "summaryJa": "雲の外を映す鏡の付喪神。化け鏡の、雲側。",
+    "legends": [
+      "A tsukumogami of a mirror that shows beyond the clouds; neighbour to bake-kagami.",
+      "A looking-glass with weather.",
+      "Do not merge 雲外鏡 into a neighbour card."
+    ],
+    "traits": [
+      "Cloud-mirror",
+      "鏡",
+      "雲",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "鏡",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A looking-glass with weather.",
+    "funFactJa": "天候のある鏡。",
+    "searchQuery": "雲外鏡 うんがいきょう 妖怪",
+    "creativeHooks": [
+      "A looking-glass with weather.",
+      "Keep 雲外鏡 as its own plate.",
+      "The workplace is 鏡."
+    ],
+    "sources": [
+      "雲外鏡 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Suzuhiko-hime",
+    "nativeName": "鈴彦姫",
+    "region": "鈴",
+    "category": "付喪神",
+    "categoryEn": "Bell princess",
+    "summary": "A tsukumogami of a suzu bell that walks as a princess of sound.",
+    "summaryJa": "鈴の付喪神の姫。音が残って歩く。",
+    "legends": [
+      "A tsukumogami of a suzu bell that walks as a princess of sound.",
+      "A ringtone with a court rank.",
+      "Do not merge 鈴彦姫 into a neighbour card."
+    ],
+    "traits": [
+      "Bell princess",
+      "鈴",
+      "姫",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "鈴",
+      "picture-scroll",
+      "gentle"
+    ],
+    "funFact": "A ringtone with a court rank.",
+    "funFactJa": "位階のある着信音。",
+    "searchQuery": "鈴彦姫 すずひこひめ 妖怪",
+    "creativeHooks": [
+      "A ringtone with a court rank.",
+      "Keep 鈴彦姫 as its own plate.",
+      "The workplace is 鈴."
+    ],
+    "sources": [
+      "鈴彦姫 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Furu-utsubo",
+    "nativeName": "古空穂",
+    "region": "矢筒",
+    "category": "付喪神",
+    "categoryEn": "Old quiver",
+    "summary": "A tsukumogami of an empty quiver that still wants arrows.",
+    "summaryJa": "古い空穂の付喪神。矢の入らない筒が歩く。",
+    "legends": [
+      "A tsukumogami of an empty quiver that still wants arrows.",
+      "A job opening in the armoury.",
+      "Do not merge 古空穂 into a neighbour card."
+    ],
+    "traits": [
+      "Old quiver",
+      "矢",
+      "筒",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "矢",
+      "picture-scroll",
+      "solemn"
+    ],
+    "funFact": "A job opening in the armoury.",
+    "funFactJa": "武器庫の欠員。",
+    "searchQuery": "古空穂 ふるうつぼ 妖怪",
+    "creativeHooks": [
+      "A job opening in the armoury.",
+      "Keep 古空穂 as its own plate.",
+      "The workplace is 矢筒."
+    ],
+    "sources": [
+      "古空穂 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Muku-mukabaki",
+    "nativeName": "無垢行騰",
+    "region": "行騰",
+    "category": "付喪神",
+    "categoryEn": "Riding chaps",
+    "summary": "A tsukumogami of mukabaki riding chaps walking without a horse.",
+    "summaryJa": "行騰の付喪神。騎馬の脚絆が歩く。",
+    "legends": [
+      "A tsukumogami of mukabaki riding chaps walking without a horse.",
+      "Trousers that commute.",
+      "Do not merge 無垢行騰 into a neighbour card."
+    ],
+    "traits": [
+      "Riding chaps",
+      "脚絆",
+      "馬",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "脚絆",
+      "picture-scroll",
+      "solemn"
+    ],
+    "funFact": "Trousers that commute.",
+    "funFactJa": "通勤する脚絆。",
+    "searchQuery": "無垢行騰 むくむかばき 妖怪",
+    "creativeHooks": [
+      "Trousers that commute.",
+      "Keep 無垢行騰 as its own plate.",
+      "The workplace is 行騰."
+    ],
+    "sources": [
+      "無垢行騰 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Chokuboron",
+    "nativeName": "猪口暮露",
+    "region": "猪口",
+    "category": "付喪神",
+    "categoryEn": "Sake-cup wanderer",
+    "summary": "A tsukumogami of a tiny choko cup that gathers at night.",
+    "summaryJa": "酒の猪口の付喪神。小さな盃が夜に寄る。",
+    "legends": [
+      "A tsukumogami of a tiny choko cup that gathers at night.",
+      "A pub crawl of tableware.",
+      "Do not merge 猪口暮露 into a neighbour card."
+    ],
+    "traits": [
+      "Sake-cup wanderer",
+      "盃",
+      "酒",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "盃",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "A pub crawl of tableware.",
+    "funFactJa": "食器のはしご酒。",
+    "searchQuery": "猪口暮露 ちょくぼろん 妖怪",
+    "creativeHooks": [
+      "A pub crawl of tableware.",
+      "Keep 猪口暮露 as its own plate.",
+      "The workplace is 猪口."
+    ],
+    "sources": [
+      "猪口暮露 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Yama-oroshi",
+    "nativeName": "山颪",
+    "region": "大根卸し",
+    "category": "付喪神",
+    "categoryEn": "Grater wind",
+    "summary": "A tsukumogami of a daikon grater named like a mountain wind.",
+    "summaryJa": "大根卸しの付喪神。山から吹く風の名を借りた器。",
+    "legends": [
+      "A tsukumogami of a daikon grater named like a mountain wind.",
+      "A kitchen gust.",
+      "Do not merge 山颪 into a neighbour card."
+    ],
+    "traits": [
+      "Grater wind",
+      "卸し",
+      "大根",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "卸し",
+      "picture-scroll",
+      "comic"
+    ],
+    "funFact": "A kitchen gust.",
+    "funFactJa": "台所の突風。",
+    "searchQuery": "山颪 やまおろし 妖怪",
+    "creativeHooks": [
+      "A kitchen gust.",
+      "Keep 山颪 as its own plate.",
+      "The workplace is 大根卸し."
+    ],
+    "sources": [
+      "山颪 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kameosa",
+    "nativeName": "瓶長",
+    "region": "酒の瓶",
+    "category": "付喪神",
+    "categoryEn": "Jar elder",
+    "summary": "A tsukumogami of a sake jar that acts as night captain of the cellar.",
+    "summaryJa": "酒瓶の付喪神。瓶の長として夜を統べる。",
+    "legends": [
+      "A tsukumogami of a sake jar that acts as night captain of the cellar.",
+      "Management in glaze.",
+      "Do not merge 瓶長 into a neighbour card."
+    ],
+    "traits": [
+      "Jar elder",
+      "瓶",
+      "酒",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "瓶",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "Management in glaze.",
+    "funFactJa": "釉薬の管理職。",
+    "searchQuery": "瓶長 かめおさ 妖怪",
+    "creativeHooks": [
+      "Management in glaze.",
+      "Keep 瓶長 as its own plate.",
+      "The workplace is 酒の瓶."
+    ],
+    "sources": [
+      "瓶長 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ten",
+    "nativeName": "鼬",
+    "region": "山のテン",
+    "category": "変化",
+    "categoryEn": "Marten yokai",
+    "summary": "A marten yokai; neighbour to kamaitachi, which is wind-blades not the animal.",
+    "summaryJa": "テンの怪。鎌鼬（風の刃）とは別の、獣そのもの。",
+    "legends": [
+      "A marten yokai; neighbour to kamaitachi, which is wind-blades not the animal.",
+      "Keep the weasel-wind on the other card.",
+      "Do not merge 鼬 into a neighbour card."
+    ],
+    "traits": [
+      "Marten yokai",
+      "獣",
+      "Mountain",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "変化",
+      "獣",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "Keep the weasel-wind on the other card.",
+    "funFactJa": "風の刃は別項。",
+    "searchQuery": "鼬 てん 妖怪",
+    "creativeHooks": [
+      "Keep the weasel-wind on the other card.",
+      "Keep 鼬 as its own plate.",
+      "The workplace is 山のテン."
+    ],
+    "sources": [
+      "鼬 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Furaribi",
+    "nativeName": "ふらり火",
+    "region": "ふらりと来る火",
+    "category": "霊火",
+    "categoryEn": "Aimless fire",
+    "summary": "A fire that appears as if dropping in; neighbour name to sogen-bi.",
+    "summaryJa": "ふらりと現れる火。叢原火の隣の名。",
+    "legends": [
+      "A fire that appears as if dropping in; neighbour name to sogen-bi.",
+      "A guest wick.",
+      "Do not merge ふらり火 into a neighbour card."
+    ],
+    "traits": [
+      "Aimless fire",
+      "Fire",
+      "Night",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "霊火",
+      "火",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A guest wick.",
+    "funFactJa": "客の芯。",
+    "searchQuery": "ふらり火 ふらりび 妖怪",
+    "creativeHooks": [
+      "A guest wick.",
+      "Keep ふらり火 as its own plate.",
+      "The workplace is ふらりと来る火."
+    ],
+    "sources": [
+      "ふらり火 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Noderabo",
+    "nativeName": "野寺坊",
+    "region": "野の廃寺",
+    "category": "死霊",
+    "categoryEn": "Field-temple monk",
+    "summary": "A monk-shape at a ruined field temple; a Sekien staple.",
+    "summaryJa": "野の廃寺に立つ坊主の怪。石燕の定番。",
+    "legends": [
+      "A monk-shape at a ruined field temple; a Sekien staple.",
+      "A parish with no village.",
+      "Do not merge 野寺坊 into a neighbour card."
+    ],
+    "traits": [
+      "Field-temple monk",
+      "Temple",
+      "廃",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "寺",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A parish with no village.",
+    "funFactJa": "村のない檀家。",
+    "searchQuery": "野寺坊 のでらぼう 妖怪",
+    "creativeHooks": [
+      "A parish with no village.",
+      "Keep 野寺坊 as its own plate.",
+      "The workplace is 野の廃寺."
+    ],
+    "sources": [
+      "野寺坊 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Gagoze",
+    "nativeName": "元興寺",
+    "region": "奈良の鬼",
+    "category": "死霊",
+    "categoryEn": "Gango-ji oni",
+    "summary": "The oni of Gango-ji that takes children; an old Nara temple yokai.",
+    "summaryJa": "元興寺に出た鬼。小児を取る古寺の怪。",
+    "legends": [
+      "The oni of Gango-ji that takes children; an old Nara temple yokai.",
+      "A kidnapping in a temple name.",
+      "Do not merge 元興寺 into a neighbour card."
+    ],
+    "traits": [
+      "Gango-ji oni",
+      "Temple",
+      "Oni",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "寺",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A kidnapping in a temple name.",
+    "funFactJa": "寺の名の拉致。",
+    "searchQuery": "元興寺 がごぜ 妖怪",
+    "creativeHooks": [
+      "A kidnapping in a temple name.",
+      "Keep 元興寺 as its own plate.",
+      "The workplace is 奈良の鬼."
+    ],
+    "sources": [
+      "元興寺 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ao-bozu",
+    "nativeName": "青坊主",
+    "region": "青い坊主",
+    "category": "異形",
+    "categoryEn": "Blue monk",
+    "summary": "A blue-headed monk who stands in wheat fields in Sekien's plate.",
+    "summaryJa": "青い坊主。麦畑などに立つ、石燕の怪。",
+    "legends": [
+      "A blue-headed monk who stands in wheat fields in Sekien's plate.",
+      "Agriculture with a tonsure.",
+      "Do not merge 青坊主 into a neighbour card."
+    ],
+    "traits": [
+      "Blue monk",
+      "青",
+      "坊主",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "青",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Agriculture with a tonsure.",
+    "funFactJa": "剃髪の農業。",
+    "searchQuery": "青坊主 あおぼうず 妖怪",
+    "creativeHooks": [
+      "Agriculture with a tonsure.",
+      "Keep 青坊主 as its own plate.",
+      "The workplace is 青い坊主."
+    ],
+    "sources": [
+      "青坊主 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Shiryo",
+    "nativeName": "死霊",
+    "region": "死者の霊",
+    "category": "死霊",
+    "categoryEn": "Dead spirit",
+    "summary": "The spirit of the already-dead; Sekien's third beside ikiryo and yurei.",
+    "summaryJa": "死んだ人の霊。生霊・幽霊と並べた石燕の三分。",
+    "legends": [
+      "The spirit of the already-dead; Sekien's third beside ikiryo and yurei.",
+      "Keep 幽霊 and 生霊 as neighbour cards.",
+      "Do not merge 死霊 into a neighbour card."
+    ],
+    "traits": [
+      "Dead spirit",
+      "死",
+      "霊",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "死",
+      "picture-scroll",
+      "tragic"
+    ],
+    "funFact": "Keep 幽霊 and 生霊 as neighbour cards.",
+    "funFactJa": "幽霊と生霊は別項。",
+    "searchQuery": "死霊 しりょう 妖怪",
+    "creativeHooks": [
+      "Keep 幽霊 and 生霊 as neighbour cards.",
+      "Keep 死霊 as its own plate.",
+      "The workplace is 死者の霊."
+    ],
+    "sources": [
+      "死霊 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ganbari-nyudo",
+    "nativeName": "加牟波理入道",
+    "region": "厠の入道",
+    "category": "屋敷",
+    "categoryEn": "Privy nyudo",
+    "summary": "A nyudo of the latrine; named on New Year's Eve so he will not come.",
+    "summaryJa": "厠の入道。大晦日に唱えると来ないという。",
+    "legends": [
+      "A nyudo of the latrine; named on New Year's Eve so he will not come.",
+      "A bathroom password.",
+      "Do not merge 加牟波理入道 into a neighbour card."
+    ],
+    "traits": [
+      "Privy nyudo",
+      "厠",
+      "入道",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "屋敷",
+      "厠",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A bathroom password.",
+    "funFactJa": "便所の合言葉。",
+    "searchQuery": "加牟波理入道 がんばりにゅうどう 妖怪",
+    "creativeHooks": [
+      "A bathroom password.",
+      "Keep 加牟波理入道 as its own plate.",
+      "The workplace is 厠の入道."
+    ],
+    "sources": [
+      "加牟波理入道 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Amefuri-kozo",
+    "nativeName": "雨降小僧",
+    "region": "雨の童",
+    "category": "気象",
+    "categoryEn": "Rain-child",
+    "summary": "A boy who brings rain; the child-side neighbour to ame-onna.",
+    "summaryJa": "雨を降らす小僧。雨女の、子どもの側。",
+    "legends": [
+      "A boy who brings rain; the child-side neighbour to ame-onna.",
+      "A forecast in a small robe.",
+      "Do not merge 雨降小僧 into a neighbour card."
+    ],
+    "traits": [
+      "Rain-child",
+      "雨",
+      "Child",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "気象",
+      "雨",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "A forecast in a small robe.",
+    "funFactJa": "小さい雨具の予報。",
+    "searchQuery": "雨降小僧 あめふりこぞう 妖怪",
+    "creativeHooks": [
+      "A forecast in a small robe.",
+      "Keep 雨降小僧 as its own plate.",
+      "The workplace is 雨の童."
+    ],
+    "sources": [
+      "雨降小僧 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Itsumade",
+    "nativeName": "以津真天",
+    "region": "いつまでの鳥",
+    "category": "異形",
+    "categoryEn": "Itsumade bird",
+    "summary": "A monster-bird that cries itsumade; Sekien gave the nameless omen a name.",
+    "summaryJa": "「いつまで」と鳴く怪鳥。石燕が名を当てた。",
+    "legends": [
+      "A monster-bird that cries itsumade; Sekien gave the nameless omen a name.",
+      "A question that is a species.",
+      "Do not merge 以津真天 into a neighbour card."
+    ],
+    "traits": [
+      "Itsumade bird",
+      "鳥",
+      "鳴",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "鳥",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A question that is a species.",
+    "funFactJa": "種が疑問文。",
+    "searchQuery": "以津真天 いつまで 妖怪",
+    "creativeHooks": [
+      "A question that is a species.",
+      "Keep 以津真天 as its own plate.",
+      "The workplace is いつまでの鳥."
+    ],
+    "sources": [
+      "以津真天 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Shinkiro",
+    "nativeName": "蜃気楼",
+    "region": "海上の楼",
+    "category": "海",
+    "categoryEn": "Mirage palace",
+    "summary": "The mirage-palace breathed by a shen clam; illusion as yokai.",
+    "summaryJa": "蜃が吐く楼閣。海の幻が妖怪になる。",
+    "legends": [
+      "The mirage-palace breathed by a shen clam; illusion as yokai.",
+      "Real estate that expires at noon.",
+      "Do not merge 蜃気楼 into a neighbour card."
+    ],
+    "traits": [
+      "Mirage palace",
+      "Sea",
+      "幻",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "picture-scroll",
+      "mysterious",
+      "index-lore"
+    ],
+    "funFact": "Real estate that expires at noon.",
+    "funFactJa": "正午に切れる物件。",
+    "searchQuery": "蜃気楼 しんきろう 妖怪",
+    "creativeHooks": [
+      "Real estate that expires at noon.",
+      "Keep 蜃気楼 as its own plate.",
+      "The workplace is 海上の楼."
+    ],
+    "sources": [
+      "蜃気楼 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Shokuin",
+    "nativeName": "燭陰",
+    "region": "燭の陰",
+    "category": "古典",
+    "categoryEn": "Torch-dark",
+    "summary": "The Shanhaijing torch-dragon listed in Japanese yokai indexes.",
+    "summaryJa": "山海経の燭陰。火を含む龍人の怪として図鑑に入る。",
+    "legends": [
+      "The Shanhaijing torch-dragon listed in Japanese yokai indexes.",
+      "A wick the size of a climate.",
+      "Do not merge 燭陰 into a neighbour card."
+    ],
+    "traits": [
+      "Torch-dark",
+      "龍",
+      "Fire",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "古典",
+      "龍",
+      "picture-scroll",
+      "solemn"
+    ],
+    "funFact": "A wick the size of a climate.",
+    "funFactJa": "気候サイズの芯。",
+    "searchQuery": "燭陰 しょくいん 妖怪",
+    "creativeHooks": [
+      "A wick the size of a climate.",
+      "Keep 燭陰 as its own plate.",
+      "The workplace is 燭の陰."
+    ],
+    "sources": [
+      "燭陰 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Hangonko",
+    "nativeName": "返魂香",
+    "region": "死者を呼ぶ香",
+    "category": "死霊",
+    "categoryEn": "Returning-soul incense",
+    "summary": "Incense that returns a dead face; the smoke is the yokai.",
+    "summaryJa": "死者の姿を返す香。香そのものが怪異。",
+    "legends": [
+      "Incense that returns a dead face; the smoke is the yokai.",
+      "A reunion with a burn time.",
+      "Do not merge 返魂香 into a neighbour card."
+    ],
+    "traits": [
+      "Returning-soul incense",
+      "香",
+      "死",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "香",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A reunion with a burn time.",
+    "funFactJa": "燃焼時間のある再会。",
+    "searchQuery": "返魂香 はんごんこう 妖怪",
+    "creativeHooks": [
+      "A reunion with a burn time.",
+      "Keep 返魂香 as its own plate.",
+      "The workplace is 死者を呼ぶ香."
+    ],
+    "sources": [
+      "返魂香 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Todaiki",
+    "nativeName": "燈台鬼",
+    "region": "人燈台",
+    "category": "異形",
+    "categoryEn": "Lighthouse oni",
+    "summary": "A person whose body has become a lighthouse; a Sekien plate.",
+    "summaryJa": "人の体が燈台になった鬼。石燕の図。",
+    "legends": [
+      "A person whose body has become a lighthouse; a Sekien plate.",
+      "HR as a navigational aid.",
+      "Do not merge 燈台鬼 into a neighbour card."
+    ],
+    "traits": [
+      "Lighthouse oni",
+      "灯",
+      "Oni",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "灯",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "HR as a navigational aid.",
+    "funFactJa": "航路標識の人事。",
+    "searchQuery": "燈台鬼 とうだいき 妖怪",
+    "creativeHooks": [
+      "HR as a navigational aid.",
+      "Keep 燈台鬼 as its own plate.",
+      "The workplace is 人燈台."
+    ],
+    "sources": [
+      "燈台鬼 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kokuri-baba",
+    "nativeName": "古庫裏婆",
+    "region": "古い庫裏",
+    "category": "屋敷",
+    "categoryEn": "Old-kuri hag",
+    "summary": "A hag in a ruined temple kitchen.",
+    "summaryJa": "廃れた庫裏の婆。寺の台所に残る。",
+    "legends": [
+      "A hag in a ruined temple kitchen.",
+      "A refectory with no monks.",
+      "Do not merge 古庫裏婆 into a neighbour card."
+    ],
+    "traits": [
+      "Old-kuri hag",
+      "婆",
+      "Temple",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "屋敷",
+      "婆",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A refectory with no monks.",
+    "funFactJa": "僧のいない庫裏。",
+    "searchQuery": "古庫裏婆 こくりばば 妖怪",
+    "creativeHooks": [
+      "A refectory with no monks.",
+      "Keep 古庫裏婆 as its own plate.",
+      "The workplace is 古い庫裏."
+    ],
+    "sources": [
+      "古庫裏婆 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Jakotsu-baba",
+    "nativeName": "蛇骨婆",
+    "region": "蛇の骨の婆",
+    "category": "死霊",
+    "categoryEn": "Snake-bone hag",
+    "summary": "An old woman with snake bones used as curse-tools.",
+    "summaryJa": "蛇の骨を持つ婆。呪術の側の老女。",
+    "legends": [
+      "An old woman with snake bones used as curse-tools.",
+      "A clinic of vertebrae.",
+      "Do not merge 蛇骨婆 into a neighbour card."
+    ],
+    "traits": [
+      "Snake-bone hag",
+      "婆",
+      "蛇",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "婆",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A clinic of vertebrae.",
+    "funFactJa": "脊椎の診療所。",
+    "searchQuery": "蛇骨婆 じゃこつばば 妖怪",
+    "creativeHooks": [
+      "A clinic of vertebrae.",
+      "Keep 蛇骨婆 as its own plate.",
+      "The workplace is 蛇の骨の婆."
+    ],
+    "sources": [
+      "蛇骨婆 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Minobi",
+    "nativeName": "蓑火",
+    "region": "蓑の火",
+    "category": "霊火",
+    "categoryEn": "Raincoat fire",
+    "summary": "Fire that appears on a mino raincoat in the wet dark.",
+    "summaryJa": "蓑に灯る火。雨具が燃えるように見える。",
+    "legends": [
+      "Fire that appears on a mino raincoat in the wet dark.",
+      "Waterproof and alight.",
+      "Do not merge 蓑火 into a neighbour card."
+    ],
+    "traits": [
+      "Raincoat fire",
+      "Fire",
+      "蓑",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "霊火",
+      "火",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "Waterproof and alight.",
+    "funFactJa": "防水なのに灯る。",
+    "searchQuery": "蓑火 みのび 妖怪",
+    "creativeHooks": [
+      "Waterproof and alight.",
+      "Keep 蓑火 as its own plate.",
+      "The workplace is 蓑の火."
+    ],
+    "sources": [
+      "蓑火 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kosame-bo",
+    "nativeName": "小雨坊",
+    "region": "小雨の坊",
+    "category": "気象",
+    "categoryEn": "Drizzle monk",
+    "summary": "A monk who walks with drizzle; neighbour to amefuri-kozo.",
+    "summaryJa": "小雨を連れて歩く坊。雨降小僧の隣。",
+    "legends": [
+      "A monk who walks with drizzle; neighbour to amefuri-kozo.",
+      "A light-rain commute.",
+      "Do not merge 小雨坊 into a neighbour card."
+    ],
+    "traits": [
+      "Drizzle monk",
+      "雨",
+      "坊主",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "気象",
+      "雨",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A light-rain commute.",
+    "funFactJa": "小雨の通勤。",
+    "searchQuery": "小雨坊 こさめぼう 妖怪",
+    "creativeHooks": [
+      "A light-rain commute.",
+      "Keep 小雨坊 as its own plate.",
+      "The workplace is 小雨の坊."
+    ],
+    "sources": [
+      "小雨坊 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Oni-hitokuchi",
+    "nativeName": "鬼一口",
+    "region": "一口の鬼",
+    "category": "鬼",
+    "categoryEn": "One-bite oni",
+    "summary": "An oni that swallows a person in one bite; a waka image as a roster row.",
+    "summaryJa": "人を一口で呑む鬼。和歌の句が図鑑の項になる。",
+    "legends": [
+      "An oni that swallows a person in one bite; a waka image as a roster row.",
+      "Do not recast the poem as a mascot.",
+      "Do not merge 鬼一口 into a neighbour card."
+    ],
+    "traits": [
+      "One-bite oni",
+      "Oni",
+      "呑",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "鬼",
+      "picture-scroll",
+      "horror",
+      "index-lore"
+    ],
+    "funFact": "Do not recast the poem as a mascot.",
+    "funFactJa": "歌をマスコットにしない。",
+    "searchQuery": "鬼一口 おにひとくち 妖怪",
+    "creativeHooks": [
+      "Do not recast the poem as a mascot.",
+      "Keep 鬼一口 as its own plate.",
+      "The workplace is 一口の鬼."
+    ],
+    "sources": [
+      "鬼一口 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Jatai",
+    "nativeName": "蛇帯",
+    "region": "帯の蛇",
+    "category": "付喪神",
+    "categoryEn": "Snake sash",
+    "summary": "An obi that becomes a snake; neighbour to obi-obake.",
+    "summaryJa": "帯が蛇になる。化け帯の、蛇側。",
+    "legends": [
+      "An obi that becomes a snake; neighbour to obi-obake.",
+      "Fashion with scales.",
+      "Do not merge 蛇帯 into a neighbour card."
+    ],
+    "traits": [
+      "Snake sash",
+      "帯",
+      "蛇",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "帯",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Fashion with scales.",
+    "funFactJa": "鱗のある装い。",
+    "searchQuery": "蛇帯 じゃたい 妖怪",
+    "creativeHooks": [
+      "Fashion with scales.",
+      "Keep 蛇帯 as its own plate.",
+      "The workplace is 帯の蛇."
+    ],
+    "sources": [
+      "蛇帯 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Hatahiro",
+    "nativeName": "機尋",
+    "region": "機織り",
+    "category": "付喪神",
+    "categoryEn": "Loom-seeker",
+    "summary": "A tsukumogami of a loom that seeks the weaver at night.",
+    "summaryJa": "機の付喪神。織りかけの布が人を尋る。",
+    "legends": [
+      "A tsukumogami of a loom that seeks the weaver at night.",
+      "Overtime in thread.",
+      "Do not merge 機尋 into a neighbour card."
+    ],
+    "traits": [
+      "Loom-seeker",
+      "機",
+      "布",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "機",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "Overtime in thread.",
+    "funFactJa": "糸の残業。",
+    "searchQuery": "機尋 はたひろ 妖怪",
+    "creativeHooks": [
+      "Overtime in thread.",
+      "Keep 機尋 as its own plate.",
+      "The workplace is 機織り."
+    ],
+    "sources": [
+      "機尋 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Basho-no-sei",
+    "nativeName": "芭蕉精",
+    "region": "芭蕉の精",
+    "category": "山系",
+    "categoryEn": "Banana-plant spirit",
+    "summary": "A basho-plant spirit, a leafy woman from continental lore listed in Japan.",
+    "summaryJa": "芭蕉の精。中国由来の、葉の女。",
+    "legends": [
+      "A basho-plant spirit, a leafy woman from continental lore listed in Japan.",
+      "A greenhouse with a pulse.",
+      "Do not merge 芭蕉精 into a neighbour card."
+    ],
+    "traits": [
+      "Banana-plant spirit",
+      "芭蕉",
+      "葉",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "山系",
+      "芭蕉",
+      "picture-scroll",
+      "gentle"
+    ],
+    "funFact": "A greenhouse with a pulse.",
+    "funFactJa": "脈のある温室。",
+    "searchQuery": "芭蕉精 ばしょうのせい 妖怪",
+    "creativeHooks": [
+      "A greenhouse with a pulse.",
+      "Keep 芭蕉精 as its own plate.",
+      "The workplace is 芭蕉の精."
+    ],
+    "sources": [
+      "芭蕉精 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Suzuri-no-tamashi",
+    "nativeName": "硯の魂",
+    "region": "硯",
+    "category": "付喪神",
+    "categoryEn": "Inkstone soul",
+    "summary": "The soul of a suzuri inkstone that walks after the desk is dark.",
+    "summaryJa": "硯の魂。墨を磨る石が夜に歩く。",
+    "legends": [
+      "The soul of a suzuri inkstone that walks after the desk is dark.",
+      "A stationery union.",
+      "Do not merge 硯の魂 into a neighbour card."
+    ],
+    "traits": [
+      "Inkstone soul",
+      "硯",
+      "墨",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "硯",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A stationery union.",
+    "funFactJa": "文具の組合。",
+    "searchQuery": "硯の魂 すずりのたましい 妖怪",
+    "creativeHooks": [
+      "A stationery union.",
+      "Keep 硯の魂 as its own plate.",
+      "The workplace is 硯."
+    ],
+    "sources": [
+      "硯の魂 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Byobu-nozoki",
+    "nativeName": "屏風闚",
+    "region": "屏風の隙",
+    "category": "屋敷",
+    "categoryEn": "Screen peeper",
+    "summary": "A peeper through the fold of a byobu; neighbour to bake-byobu, which is the screen itself.",
+    "summaryJa": "屏風の隙から覗く怪。化け屏風（屏風自体）とは別職。",
+    "legends": [
+      "A peeper through the fold of a byobu; neighbour to bake-byobu, which is the screen itself.",
+      "Keep the furniture on the other card.",
+      "Do not merge 屏風闚 into a neighbour card."
+    ],
+    "traits": [
+      "Screen peeper",
+      "覗き",
+      "屏風",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "屋敷",
+      "覗き",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Keep the furniture on the other card.",
+    "funFactJa": "家具は別項。",
+    "searchQuery": "屏風闚 びょうぶのぞき 妖怪",
+    "creativeHooks": [
+      "Keep the furniture on the other card.",
+      "Keep 屏風闚 as its own plate.",
+      "The workplace is 屏風の隙."
+    ],
+    "sources": [
+      "屏風闚 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kyokotsu",
+    "nativeName": "狂骨",
+    "region": "井戸の骨",
+    "category": "死霊",
+    "categoryEn": "Mad bones",
+    "summary": "Bones thrown in a well that go mad; a Sekien plate.",
+    "summaryJa": "井戸に棄てられた骨が狂う。石燕の図。",
+    "legends": [
+      "Bones thrown in a well that go mad; a Sekien plate.",
+      "A well that is a psyche.",
+      "Do not merge 狂骨 into a neighbour card."
+    ],
+    "traits": [
+      "Mad bones",
+      "Bone",
+      "井戸",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "骨",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A well that is a psyche.",
+    "funFactJa": "井戸が精神。",
+    "searchQuery": "狂骨 きょうこつ 妖怪",
+    "creativeHooks": [
+      "A well that is a psyche.",
+      "Keep 狂骨 as its own plate.",
+      "The workplace is 井戸の骨."
+    ],
+    "sources": [
+      "狂骨 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Iyaya",
+    "nativeName": "否哉",
+    "region": "いややの顔",
+    "category": "異形",
+    "categoryEn": "Iyaya face",
+    "summary": "A yokai that turns a refusing face and says iyaya.",
+    "summaryJa": "「いやや」と顔を背ける怪。石燕の拒絶の貌。",
+    "legends": [
+      "A yokai that turns a refusing face and says iyaya.",
+      "A login that only declines.",
+      "Do not merge 否哉 into a neighbour card."
+    ],
+    "traits": [
+      "Iyaya face",
+      "顔",
+      "拒絶",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "顔",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A login that only declines.",
+    "funFactJa": "拒否だけのログイン。",
+    "searchQuery": "否哉 いやや 妖怪",
+    "creativeHooks": [
+      "A login that only declines.",
+      "Keep 否哉 as its own plate.",
+      "The workplace is いややの顔."
+    ],
+    "sources": [
+      "否哉 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Takirei-o",
+    "nativeName": "瀧霊王",
+    "region": "滝の王",
+    "category": "水系",
+    "categoryEn": "Waterfall king",
+    "summary": "A spirit-king seated in a waterfall.",
+    "summaryJa": "滝に坐す霊王。水の落差が王になる。",
+    "legends": [
+      "A spirit-king seated in a waterfall.",
+      "A throne of falling water.",
+      "Do not merge 瀧霊王 into a neighbour card."
+    ],
+    "traits": [
+      "Waterfall king",
+      "滝",
+      "王",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "水系",
+      "滝",
+      "picture-scroll",
+      "solemn"
+    ],
+    "funFact": "A throne of falling water.",
+    "funFactJa": "落ちる水の玉座。",
+    "searchQuery": "瀧霊王 たきれいおう 妖怪",
+    "creativeHooks": [
+      "A throne of falling water.",
+      "Keep 瀧霊王 as its own plate.",
+      "The workplace is 滝の王."
+    ],
+    "sources": [
+      "瀧霊王 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Jami",
+    "nativeName": "邪魅",
+    "region": "病の魅",
+    "category": "憑きもの",
+    "categoryEn": "Jami illness-spirit",
+    "summary": "A malignant charm that causes illness; the disease side of mononoke.",
+    "summaryJa": "病を起こす邪な魅。物の怪の、病側。",
+    "legends": [
+      "A malignant charm that causes illness; the disease side of mononoke.",
+      "A diagnosis with no germ.",
+      "Do not merge 邪魅 into a neighbour card."
+    ],
+    "traits": [
+      "Jami illness-spirit",
+      "病",
+      "魅",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "憑きもの",
+      "病",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A diagnosis with no germ.",
+    "funFactJa": "菌の無い診断。",
+    "searchQuery": "邪魅 じゃみ 妖怪",
+    "creativeHooks": [
+      "A diagnosis with no germ.",
+      "Keep 邪魅 as its own plate.",
+      "The workplace is 病の魅."
+    ],
+    "sources": [
+      "邪魅 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Hiyori-bo",
+    "nativeName": "日和坊",
+    "region": "天気の坊",
+    "category": "気象",
+    "categoryEn": "Weather monk",
+    "summary": "A monk who reads fair weather; walking the line of sun and rain.",
+    "summaryJa": "天気を見る坊。晴れと雨の間を歩く。",
+    "legends": [
+      "A monk who reads fair weather; walking the line of sun and rain.",
+      "A forecast with a tonsure.",
+      "Do not merge 日和坊 into a neighbour card."
+    ],
+    "traits": [
+      "Weather monk",
+      "天気",
+      "坊主",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "気象",
+      "天気",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "A forecast with a tonsure.",
+    "funFactJa": "剃髪の予報。",
+    "searchQuery": "日和坊 ひよりぼう 妖怪",
+    "creativeHooks": [
+      "A forecast with a tonsure.",
+      "Keep 日和坊 as its own plate.",
+      "The workplace is 天気の坊."
+    ],
+    "sources": [
+      "日和坊 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "O-kamuro",
+    "nativeName": "大禿",
+    "region": "大きな禿",
+    "category": "死霊",
+    "categoryEn": "Giant kamuro",
+    "summary": "A kamuro attendant swollen to giant size.",
+    "summaryJa": "大きな禿の怪。遊女の禿が巨大化する。",
+    "legends": [
+      "A kamuro attendant swollen to giant size.",
+      "HR at the wrong scale.",
+      "Do not merge 大禿 into a neighbour card."
+    ],
+    "traits": [
+      "Giant kamuro",
+      "禿",
+      "Woman",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "禿",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "HR at the wrong scale.",
+    "funFactJa": "尺度の違う人事。",
+    "searchQuery": "大禿 おおかむろ 妖怪",
+    "creativeHooks": [
+      "HR at the wrong scale.",
+      "Keep 大禿 as its own plate.",
+      "The workplace is 大きな禿."
+    ],
+    "sources": [
+      "大禿 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Gaikotsu",
+    "nativeName": "骸骨",
+    "region": "歩く骨",
+    "category": "死霊",
+    "categoryEn": "Walking skeleton",
+    "summary": "A human-scale walking skeleton; neighbour to gashadokuro, which is colossal.",
+    "summaryJa": "歩く骸骨。餓者髑髏（巨大）とは別の、人サイズの骨。",
+    "legends": [
+      "A human-scale walking skeleton; neighbour to gashadokuro, which is colossal.",
+      "Keep the giant on the other card.",
+      "Do not merge 骸骨 into a neighbour card."
+    ],
+    "traits": [
+      "Walking skeleton",
+      "Bone",
+      "死",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "骨",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Keep the giant on the other card.",
+    "funFactJa": "巨人は別項。",
+    "searchQuery": "骸骨 がいこつ 妖怪",
+    "creativeHooks": [
+      "Keep the giant on the other card.",
+      "Keep 骸骨 as its own plate.",
+      "The workplace is 歩く骨."
+    ],
+    "sources": [
+      "骸骨 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Nurunuru-bozu",
+    "nativeName": "ぬるぬる坊主",
+    "region": "ぬるぬる",
+    "category": "道中",
+    "categoryEn": "Slimy monk",
+    "summary": "A slippery monk who clings on night roads.",
+    "summaryJa": "ぬるぬるした坊主。夜道に張りつく。",
+    "legends": [
+      "A slippery monk who clings on night roads.",
+      "A commute that is mucus.",
+      "Do not merge ぬるぬる坊主 into a neighbour card."
+    ],
+    "traits": [
+      "Slimy monk",
+      "坊主",
+      "ぬめり",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "道中",
+      "坊主",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A commute that is mucus.",
+    "funFactJa": "粘液の通勤。",
+    "searchQuery": "ぬるぬる坊主 ぬるぬるぼうず 妖怪",
+    "creativeHooks": [
+      "A commute that is mucus.",
+      "Keep ぬるぬる坊主 as its own plate.",
+      "The workplace is ぬるぬる."
+    ],
+    "sources": [
+      "ぬるぬる坊主 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kotori-bozu",
+    "nativeName": "子取り坊主",
+    "region": "子を取る坊主",
+    "category": "死霊",
+    "categoryEn": "Child-taking monk",
+    "summary": "A monk-shape that snatches children at night.",
+    "summaryJa": "子どもを取る坊主。夜のさらい。",
+    "legends": [
+      "A monk-shape that snatches children at night.",
+      "A census that subtracts.",
+      "Do not merge 子取り坊主 into a neighbour card."
+    ],
+    "traits": [
+      "Child-taking monk",
+      "Child",
+      "坊主",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "子ども",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A census that subtracts.",
+    "funFactJa": "引き算の国勢調査。",
+    "searchQuery": "子取り坊主 ことりぼうず 妖怪",
+    "creativeHooks": [
+      "A census that subtracts.",
+      "Keep 子取り坊主 as its own plate.",
+      "The workplace is 子を取る坊主."
+    ],
+    "sources": [
+      "子取り坊主 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Iwana-bozu",
+    "nativeName": "岩魚坊主",
+    "region": "岩魚の坊主",
+    "category": "水系",
+    "categoryEn": "Char monk",
+    "summary": "A char that takes monk form in mountain streams.",
+    "summaryJa": "岩魚が坊主になる。谷川の魚の怪。",
+    "legends": [
+      "A char that takes monk form in mountain streams.",
+      "A fishery with a tonsure.",
+      "Do not merge 岩魚坊主 into a neighbour card."
+    ],
+    "traits": [
+      "Char monk",
+      "魚",
+      "坊主",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "水系",
+      "魚",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A fishery with a tonsure.",
+    "funFactJa": "剃髪の漁。",
+    "searchQuery": "岩魚坊主 いわなぼうず 妖怪",
+    "creativeHooks": [
+      "A fishery with a tonsure.",
+      "Keep 岩魚坊主 as its own plate.",
+      "The workplace is 岩魚の坊主."
+    ],
+    "sources": [
+      "岩魚坊主 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Umi-osho",
+    "nativeName": "海和尚",
+    "region": "海の和尚",
+    "category": "海",
+    "categoryEn": "Sea abbot",
+    "summary": "A sea abbot; neighbour office to umibozu under another job title.",
+    "summaryJa": "海の和尚。海坊主の、職名の違う隣。",
+    "legends": [
+      "A sea abbot; neighbour office to umibozu under another job title.",
+      "Keep 海坊主 as the bald swell.",
+      "Do not merge 海和尚 into a neighbour card."
+    ],
+    "traits": [
+      "Sea abbot",
+      "Sea",
+      "僧",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "picture-scroll",
+      "horror",
+      "index-lore"
+    ],
+    "funFact": "Keep 海坊主 as the bald swell.",
+    "funFactJa": "禿げたうねりは別項。",
+    "searchQuery": "海和尚 うみおしょう 妖怪",
+    "creativeHooks": [
+      "Keep 海坊主 as the bald swell.",
+      "Keep 海和尚 as its own plate.",
+      "The workplace is 海の和尚."
+    ],
+    "sources": [
+      "海和尚 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Umi-kozo",
+    "nativeName": "海小僧",
+    "region": "海の小僧",
+    "category": "海",
+    "categoryEn": "Sea acolyte",
+    "summary": "A small sea acolyte; junior staff to umibozu.",
+    "summaryJa": "海の小僧。小さい海坊主。",
+    "legends": [
+      "A small sea acolyte; junior staff to umibozu.",
+      "An intern of the swell.",
+      "Do not merge 海小僧 into a neighbour card."
+    ],
+    "traits": [
+      "Sea acolyte",
+      "Sea",
+      "Child",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "picture-scroll",
+      "playful",
+      "index-lore"
+    ],
+    "funFact": "An intern of the swell.",
+    "funFactJa": "うねりのインターン。",
+    "searchQuery": "海小僧 うみこぞう 妖怪",
+    "creativeHooks": [
+      "An intern of the swell.",
+      "Keep 海小僧 as its own plate.",
+      "The workplace is 海の小僧."
+    ],
+    "sources": [
+      "海小僧 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ippon-ashi",
+    "nativeName": "一本足",
+    "region": "一本の足",
+    "category": "異形",
+    "categoryEn": "One-leg",
+    "summary": "A one-legged yokai; the generic neighbour to ippon-datara.",
+    "summaryJa": "一本足の怪。一本だたらの、総称側。",
+    "legends": [
+      "A one-legged yokai; the generic neighbour to ippon-datara.",
+      "Keep the named mountain on the other card.",
+      "Do not merge 一本足 into a neighbour card."
+    ],
+    "traits": [
+      "One-leg",
+      "足",
+      "一本",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "足",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Keep the named mountain on the other card.",
+    "funFactJa": "名のある山は別項。",
+    "searchQuery": "一本足 いっぽんあし 妖怪",
+    "creativeHooks": [
+      "Keep the named mountain on the other card.",
+      "Keep 一本足 as its own plate.",
+      "The workplace is 一本の足."
+    ],
+    "sources": [
+      "一本足 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ashimagari",
+    "nativeName": "足まがり",
+    "region": "足を曲げる",
+    "category": "道中",
+    "categoryEn": "Leg-bender",
+    "summary": "A yokai that bends the walker's legs on the night road.",
+    "summaryJa": "足を曲げて転ばせる怪。夜道の罠。",
+    "legends": [
+      "A yokai that bends the walker's legs on the night road.",
+      "A pothole with intent.",
+      "Do not merge 足まがり into a neighbour card."
+    ],
+    "traits": [
+      "Leg-bender",
+      "足",
+      "転",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "道中",
+      "足",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A pothole with intent.",
+    "funFactJa": "意図のある凹み。",
+    "searchQuery": "足まがり あしまがり 妖怪",
+    "creativeHooks": [
+      "A pothole with intent.",
+      "Keep 足まがり as its own plate.",
+      "The workplace is 足を曲げる."
+    ],
+    "sources": [
+      "足まがり / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Isogashi",
+    "nativeName": "いそがし",
+    "region": "忙しい怪",
+    "category": "道中",
+    "categoryEn": "Isogashi hurrier",
+    "summary": "A yokai that hurries travellers with the word isogashi.",
+    "summaryJa": "急がせる声の怪。足まがりの隣職。",
+    "legends": [
+      "A yokai that hurries travellers with the word isogashi.",
+      "A commute that yells.",
+      "Do not merge いそがし into a neighbour card."
+    ],
+    "traits": [
+      "Isogashi hurrier",
+      "急",
+      "Road",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "道中",
+      "急",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "A commute that yells.",
+    "funFactJa": "怒鳴る通勤。",
+    "searchQuery": "いそがし いそがし 妖怪",
+    "creativeHooks": [
+      "A commute that yells.",
+      "Keep いそがし as its own plate.",
+      "The workplace is 忙しい怪."
+    ],
+    "sources": [
+      "いそがし / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Inenbi",
+    "nativeName": "遺念火",
+    "region": "遺した念の火",
+    "category": "霊火",
+    "categoryEn": "Leftover-will fire",
+    "summary": "A fire of leftover will; the obsession side of hitodama.",
+    "summaryJa": "遺した念が火になる。人魂の、執念側。",
+    "legends": [
+      "A fire of leftover will; the obsession side of hitodama.",
+      "A wick that is a grudge.",
+      "Do not merge 遺念火 into a neighbour card."
+    ],
+    "traits": [
+      "Leftover-will fire",
+      "Fire",
+      "念",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "霊火",
+      "火",
+      "picture-scroll",
+      "tragic"
+    ],
+    "funFact": "A wick that is a grudge.",
+    "funFactJa": "恨みの芯。",
+    "searchQuery": "遺念火 いねんび 妖怪",
+    "creativeHooks": [
+      "A wick that is a grudge.",
+      "Keep 遺念火 as its own plate.",
+      "The workplace is 遺した念の火."
+    ],
+    "sources": [
+      "遺念火 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Imori",
+    "nativeName": "井守",
+    "region": "井戸の守",
+    "category": "水系",
+    "categoryEn": "Well-ward",
+    "summary": "A well-warden yokai sharing a name with the gecko.",
+    "summaryJa": "井戸を守る井守。守宮の名の怪。",
+    "legends": [
+      "A well-warden yokai sharing a name with the gecko.",
+      "Facilities in a well.",
+      "Do not merge 井守 into a neighbour card."
+    ],
+    "traits": [
+      "Well-ward",
+      "井戸",
+      "守",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "水系",
+      "井戸",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "Facilities in a well.",
+    "funFactJa": "井戸の設備課。",
+    "searchQuery": "井守 いもり 妖怪",
+    "creativeHooks": [
+      "Facilities in a well.",
+      "Keep 井守 as its own plate.",
+      "The workplace is 井戸の守."
+    ],
+    "sources": [
+      "井守 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Iyami",
+    "nativeName": "いやみ",
+    "region": "いやみの貌",
+    "category": "異形",
+    "categoryEn": "Iyami face",
+    "summary": "A face of distaste; the colloquial neighbour to iyaya.",
+    "summaryJa": "いやみの貌の怪。否哉の口語側。",
+    "legends": [
+      "A face of distaste; the colloquial neighbour to iyaya.",
+      "A grimace as a species.",
+      "Do not merge いやみ into a neighbour card."
+    ],
+    "traits": [
+      "Iyami face",
+      "顔",
+      "嫌悪",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "顔",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A grimace as a species.",
+    "funFactJa": "種がしかめ面。",
+    "searchQuery": "いやみ いやみ 妖怪",
+    "creativeHooks": [
+      "A grimace as a species.",
+      "Keep いやみ as its own plate.",
+      "The workplace is いやみの貌."
+    ],
+    "sources": [
+      "いやみ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ushiuchi-bo",
+    "nativeName": "牛打ち坊",
+    "region": "牛を打つ坊",
+    "category": "鬼",
+    "categoryEn": "Ox-striking monk",
+    "summary": "A monk-yokai who strikes oxen; neighbour office to ushi-oni.",
+    "summaryJa": "牛を打つ坊主の怪。牛鬼の隣の職。",
+    "legends": [
+      "A monk-yokai who strikes oxen; neighbour office to ushi-oni.",
+      "Livestock HR.",
+      "Do not merge 牛打ち坊 into a neighbour card."
+    ],
+    "traits": [
+      "Ox-striking monk",
+      "牛",
+      "坊主",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "鬼",
+      "牛",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Livestock HR.",
+    "funFactJa": "家畜の人事。",
+    "searchQuery": "牛打ち坊 うしうちぼう 妖怪",
+    "creativeHooks": [
+      "Livestock HR.",
+      "Keep 牛打ち坊 as its own plate.",
+      "The workplace is 牛を打つ坊."
+    ],
+    "sources": [
+      "牛打ち坊 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Uma-no-ashi",
+    "nativeName": "馬の足",
+    "region": "馬の足だけ",
+    "category": "変化",
+    "categoryEn": "Horse legs",
+    "summary": "Only the legs of a horse appearing; an Edo roadside oddity.",
+    "summaryJa": "馬の足だけが見える怪。本所七不思議にも近い。",
+    "legends": [
+      "Only the legs of a horse appearing; an Edo roadside oddity.",
+      "A commute missing the rest of the animal.",
+      "Do not merge 馬の足 into a neighbour card."
+    ],
+    "traits": [
+      "Horse legs",
+      "馬",
+      "足",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "変化",
+      "馬",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A commute missing the rest of the animal.",
+    "funFactJa": "動物の残りがない通勤。",
+    "searchQuery": "馬の足 うまのあし 妖怪",
+    "creativeHooks": [
+      "A commute missing the rest of the animal.",
+      "Keep 馬の足 as its own plate.",
+      "The workplace is 馬の足だけ."
+    ],
+    "sources": [
+      "馬の足 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Oigakari",
+    "nativeName": "おいがかり",
+    "region": "追い掛ける怪",
+    "category": "道中",
+    "categoryEn": "Oigakari chaser",
+    "summary": "A yokai that chases from behind; human-side neighbour to okuri-inu.",
+    "summaryJa": "後ろから追い掛かる怪。送りの人側。",
+    "legends": [
+      "A yokai that chases from behind; human-side neighbour to okuri-inu.",
+      "A follow request with teeth.",
+      "Do not merge おいがかり into a neighbour card."
+    ],
+    "traits": [
+      "Oigakari chaser",
+      "追",
+      "Road",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "道中",
+      "追",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A follow request with teeth.",
+    "funFactJa": "歯のあるフォロー。",
+    "searchQuery": "おいがかり おいがかり 妖怪",
+    "creativeHooks": [
+      "A follow request with teeth.",
+      "Keep おいがかり as its own plate.",
+      "The workplace is 追い掛ける怪."
+    ],
+    "sources": [
+      "おいがかり / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akarinashi-soba",
+    "nativeName": "燈無蕎麦",
+    "region": "本所",
+    "category": "現代伝承",
+    "categoryEn": "Unlit soba",
+    "summary": "The Honjo seven-wonder of a soba stall with no light.",
+    "summaryJa": "本所七不思議の燈無蕎麦。灯のない蕎麦屋。",
+    "legends": [
+      "The Honjo seven-wonder of a soba stall with no light.",
+      "A restaurant with a blackout policy.",
+      "Do not merge 燈無蕎麦 into a neighbour card."
+    ],
+    "traits": [
+      "Unlit soba",
+      "蕎麦",
+      "灯",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "現代伝承",
+      "蕎麦",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A restaurant with a blackout policy.",
+    "funFactJa": "停電規定の店。",
+    "searchQuery": "燈無蕎麦 あかりなしそば 妖怪",
+    "creativeHooks": [
+      "A restaurant with a blackout policy.",
+      "Keep 燈無蕎麦 as its own plate.",
+      "The workplace is 本所."
+    ],
+    "sources": [
+      "燈無蕎麦 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akagashira",
+    "nativeName": "赤頭",
+    "region": "赤い頭",
+    "category": "鬼",
+    "categoryEn": "Red head",
+    "summary": "A red-headed yokai of local night roads.",
+    "summaryJa": "赤い頭の怪。地方の赤入道に近い。",
+    "legends": [
+      "A red-headed yokai of local night roads.",
+      "A brand colour for the skull.",
+      "Do not merge 赤頭 into a neighbour card."
+    ],
+    "traits": [
+      "Red head",
+      "赤",
+      "頭",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "鬼",
+      "赤",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A brand colour for the skull.",
+    "funFactJa": "頭蓋のブランドカラー。",
+    "searchQuery": "赤頭 あかがしら 妖怪",
+    "creativeHooks": [
+      "A brand colour for the skull.",
+      "Keep 赤頭 as its own plate.",
+      "The workplace is 赤い頭."
+    ],
+    "sources": [
+      "赤頭 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Abura-gaeshi",
+    "nativeName": "油返し",
+    "region": "油を返す",
+    "category": "霊火",
+    "categoryEn": "Oil-return",
+    "summary": "A fire that demands stolen lamp-oil back; kin to abura-bo.",
+    "summaryJa": "盗んだ油を返せと出る火。油坊の類話。",
+    "legends": [
+      "A fire that demands stolen lamp-oil back; kin to abura-bo.",
+      "A refund in flame.",
+      "Do not merge 油返し into a neighbour card."
+    ],
+    "traits": [
+      "Oil-return",
+      "油",
+      "Fire",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "霊火",
+      "油",
+      "picture-scroll",
+      "tragic"
+    ],
+    "funFact": "A refund in flame.",
+    "funFactJa": "炎の返金。",
+    "searchQuery": "油返し あぶらがえし 妖怪",
+    "creativeHooks": [
+      "A refund in flame.",
+      "Keep 油返し as its own plate.",
+      "The workplace is 油を返す."
+    ],
+    "sources": [
+      "油返し / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Iju",
+    "nativeName": "異獣",
+    "region": "名のない獣",
+    "category": "異形",
+    "categoryEn": "Strange beast",
+    "summary": "An unnamed strange beast the index still files.",
+    "summaryJa": "名のない異獣。図鑑が種を与えず項だけ置く。",
+    "legends": [
+      "An unnamed strange beast the index still files.",
+      "A species that is a shrug.",
+      "Do not merge 異獣 into a neighbour card."
+    ],
+    "traits": [
+      "Strange beast",
+      "獣",
+      "異形",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "獣",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A species that is a shrug.",
+    "funFactJa": "種が肩をすくめる。",
+    "searchQuery": "異獣 いじゅう 妖怪",
+    "creativeHooks": [
+      "A species that is a shrug.",
+      "Keep 異獣 as its own plate.",
+      "The workplace is 名のない獣."
+    ],
+    "sources": [
+      "異獣 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Itaoni",
+    "nativeName": "板鬼",
+    "region": "板の鬼",
+    "category": "付喪神",
+    "categoryEn": "Plank oni",
+    "summary": "A plank that becomes an oni; lumber with a temper.",
+    "summaryJa": "板の鬼。建材が鬼になる。",
+    "legends": [
+      "A plank that becomes an oni; lumber with a temper.",
+      "A construction site that bites.",
+      "Do not merge 板鬼 into a neighbour card."
+    ],
+    "traits": [
+      "Plank oni",
+      "板",
+      "Oni",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "板",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A construction site that bites.",
+    "funFactJa": "噛む現場。",
+    "searchQuery": "板鬼 いたおに 妖怪",
+    "creativeHooks": [
+      "A construction site that bites.",
+      "Keep 板鬼 as its own plate.",
+      "The workplace is 板の鬼."
+    ],
+    "sources": [
+      "板鬼 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ashiarai-yashiki",
+    "nativeName": "足洗邸",
+    "region": "本所",
+    "category": "屋敷",
+    "categoryEn": "Foot-washing house",
+    "summary": "The Honjo seven-wonder house that demands its feet be washed.",
+    "summaryJa": "本所七不思議の足洗邸。足を洗えと屋敷が言う。",
+    "legends": [
+      "The Honjo seven-wonder house that demands its feet be washed.",
+      "A lease with a bath clause.",
+      "Do not merge 足洗邸 into a neighbour card."
+    ],
+    "traits": [
+      "Foot-washing house",
+      "足",
+      "House",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "屋敷",
+      "足",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A lease with a bath clause.",
+    "funFactJa": "風呂条項のある契約。",
+    "searchQuery": "足洗邸 あしあらいやしき 妖怪",
+    "creativeHooks": [
+      "A lease with a bath clause.",
+      "Keep 足洗邸 as its own plate.",
+      "The workplace is 本所."
+    ],
+    "sources": [
+      "足洗邸 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akurojin-no-hi",
+    "nativeName": "悪路神の火",
+    "region": "悪路の火",
+    "category": "霊火",
+    "categoryEn": "Bad-road fire",
+    "summary": "Fire of a bad-road spirit lighting a cursed path.",
+    "summaryJa": "悪路に出る神の火。道の禍の灯。",
+    "legends": [
+      "Fire of a bad-road spirit lighting a cursed path.",
+      "A detour in flame.",
+      "Do not merge 悪路神の火 into a neighbour card."
+    ],
+    "traits": [
+      "Bad-road fire",
+      "Fire",
+      "道",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "霊火",
+      "火",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A detour in flame.",
+    "funFactJa": "炎の迂回路。",
+    "searchQuery": "悪路神の火 あくろじんのひ 妖怪",
+    "creativeHooks": [
+      "A detour in flame.",
+      "Keep 悪路神の火 as its own plate.",
+      "The workplace is 悪路の火."
+    ],
+    "sources": [
+      "悪路神の火 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ishinagenjo",
+    "nativeName": "石投げんじょ",
+    "region": "石を投げる女",
+    "category": "山系",
+    "categoryEn": "Stone-throwing woman",
+    "summary": "A woman yokai who throws stones at a pass.",
+    "summaryJa": "石を投げる女の怪。峠の投擲。",
+    "legends": [
+      "A woman yokai who throws stones at a pass.",
+      "Tengu-tsubute with a gender.",
+      "Do not merge 石投げんじょ into a neighbour card."
+    ],
+    "traits": [
+      "Stone-throwing woman",
+      "石",
+      "Woman",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "山系",
+      "石",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Tengu-tsubute with a gender.",
+    "funFactJa": "性別のある礫。",
+    "searchQuery": "石投げんじょ いしなげんじょ 妖怪",
+    "creativeHooks": [
+      "Tengu-tsubute with a gender.",
+      "Keep 石投げんじょ as its own plate.",
+      "The workplace is 石を投げる女."
+    ],
+    "sources": [
+      "石投げんじょ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ijaro-korogashi",
+    "nativeName": "イジャロコロガシ",
+    "region": "転がす怪",
+    "category": "道中",
+    "categoryEn": "Ijaro roller",
+    "summary": "A Tohoku yokai that rolls people down slopes.",
+    "summaryJa": "人を転がす東北の怪。坂の悪戯。",
+    "legends": [
+      "A Tohoku yokai that rolls people down slopes.",
+      "A commute that is a tumble.",
+      "Do not merge イジャロコロガシ into a neighbour card."
+    ],
+    "traits": [
+      "Ijaro roller",
+      "転",
+      "坂",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "道中",
+      "転",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A commute that is a tumble.",
+    "funFactJa": "転落の通勤。",
+    "searchQuery": "イジャロコロガシ いじゃろころがし 妖怪",
+    "creativeHooks": [
+      "A commute that is a tumble.",
+      "Keep イジャロコロガシ as its own plate.",
+      "The workplace is 転がす怪."
+    ],
+    "sources": [
+      "イジャロコロガシ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Korpokkur",
+    "nativeName": "コロポックル",
+    "region": "蕗の下",
+    "category": "山系",
+    "categoryEn": "Korpokkur",
+    "summary": "Ainu little people under butterbur leaves, filed in yokai encyclopedias.",
+    "summaryJa": "蕗の下の小人。アイヌの小人が図鑑の項になる。",
+    "legends": [
+      "Ainu little people under butterbur leaves, filed in yokai encyclopedias.",
+      "Do not recast as garden gnomes.",
+      "Do not merge コロポックル into a neighbour card."
+    ],
+    "traits": [
+      "Korpokkur",
+      "小人",
+      "アイヌ",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "山系",
+      "小人",
+      "picture-scroll",
+      "gentle"
+    ],
+    "funFact": "Do not recast as garden gnomes.",
+    "funFactJa": "庭のノームにしない。",
+    "searchQuery": "コロポックル ころぽっくる 妖怪",
+    "creativeHooks": [
+      "Do not recast as garden gnomes.",
+      "Keep コロポックル as its own plate.",
+      "The workplace is 蕗の下."
+    ],
+    "sources": [
+      "コロポックル / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Amamehagi",
+    "nativeName": "あまめはぎ",
+    "region": "能登の来訪",
+    "category": "鬼",
+    "categoryEn": "Amamehagi",
+    "summary": "Noto visiting oni; neighbour office to namahage.",
+    "summaryJa": "能登の来訪鬼。なまはげの隣の職。",
+    "legends": [
+      "Noto visiting oni; neighbour office to namahage.",
+      "Keep なまはげ as the Oga card.",
+      "Do not merge あまめはぎ into a neighbour card."
+    ],
+    "traits": [
+      "Amamehagi",
+      "Oni",
+      "能登",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "鬼",
+      "picture-scroll",
+      "solemn",
+      "index-lore"
+    ],
+    "funFact": "Keep なまはげ as the Oga card.",
+    "funFactJa": "男鹿は別項。",
+    "searchQuery": "あまめはぎ あまめはぎ 妖怪",
+    "creativeHooks": [
+      "Keep なまはげ as the Oga card.",
+      "Keep あまめはぎ as its own plate.",
+      "The workplace is 能登の来訪."
+    ],
+    "sources": [
+      "あまめはぎ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Taniguku",
+    "nativeName": "たにぐく",
+    "region": "谷の蛙",
+    "category": "変化",
+    "categoryEn": "Valley toad",
+    "summary": "A great toad of the valley; neighbour to bake-gaeru.",
+    "summaryJa": "谷の大蛙。化け蛙の、谷側。",
+    "legends": [
+      "A great toad of the valley; neighbour to bake-gaeru.",
+      "A croak with topography.",
+      "Do not merge たにぐく into a neighbour card."
+    ],
+    "traits": [
+      "Valley toad",
+      "蛙",
+      "谷",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "変化",
+      "蛙",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A croak with topography.",
+    "funFactJa": "地形のある鳴き声。",
+    "searchQuery": "たにぐく たにぐく 妖怪",
+    "creativeHooks": [
+      "A croak with topography.",
+      "Keep たにぐく as its own plate.",
+      "The workplace is 谷の蛙."
+    ],
+    "sources": [
+      "たにぐく / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Doyo-bozu",
+    "nativeName": "土用坊主",
+    "region": "土用",
+    "category": "気象",
+    "categoryEn": "Doyo monk",
+    "summary": "A monk who appears in the doyo days of high summer.",
+    "summaryJa": "土用に出る坊主。季節の暦が怪になる。",
+    "legends": [
+      "A monk who appears in the doyo days of high summer.",
+      "A calendar with a tonsure.",
+      "Do not merge 土用坊主 into a neighbour card."
+    ],
+    "traits": [
+      "Doyo monk",
+      "土用",
+      "坊主",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "気象",
+      "土用",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A calendar with a tonsure.",
+    "funFactJa": "剃髪の暦。",
+    "searchQuery": "土用坊主 どようぼうず 妖怪",
+    "creativeHooks": [
+      "A calendar with a tonsure.",
+      "Keep 土用坊主 as its own plate.",
+      "The workplace is 土用."
+    ],
+    "sources": [
+      "土用坊主 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Shojo",
+    "nativeName": "猩猩",
+    "region": "酒の猩猩",
+    "category": "海",
+    "categoryEn": "Shojo",
+    "summary": "A red sea-spirit that loves sake; on the border of noh and the yokai index.",
+    "summaryJa": "酒を好む赤い海の精。能と図鑑の境。",
+    "legends": [
+      "A red sea-spirit that loves sake; on the border of noh and the yokai index.",
+      "A tasting with fur.",
+      "Do not merge 猩猩 into a neighbour card."
+    ],
+    "traits": [
+      "Shojo",
+      "酒",
+      "赤",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "酒",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "A tasting with fur.",
+    "funFactJa": "毛のある試飲。",
+    "searchQuery": "猩猩 しょうじょう 妖怪",
+    "creativeHooks": [
+      "A tasting with fur.",
+      "Keep 猩猩 as its own plate.",
+      "The workplace is 酒の猩猩."
+    ],
+    "sources": [
+      "猩猩 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kutabe",
+    "nativeName": "クタベ",
+    "region": "越中の獣",
+    "category": "予言",
+    "categoryEn": "Kutabe",
+    "summary": "An Etchu prophetic beast; neighbour office to kudan.",
+    "summaryJa": "越中に現れて予言する獣。件の隣職。",
+    "legends": [
+      "An Etchu prophetic beast; neighbour office to kudan.",
+      "A press conference with hooves.",
+      "Do not merge クタベ into a neighbour card."
+    ],
+    "traits": [
+      "Kutabe",
+      "獣",
+      "予言",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "予言",
+      "獣",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A press conference with hooves.",
+    "funFactJa": "蹄のある会見。",
+    "searchQuery": "クタベ くたべ 妖怪",
+    "creativeHooks": [
+      "A press conference with hooves.",
+      "Keep クタベ as its own plate.",
+      "The workplace is 越中の獣."
+    ],
+    "sources": [
+      "クタベ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kashabo",
+    "nativeName": "カシャボ",
+    "region": "火車の地方名",
+    "category": "死霊",
+    "categoryEn": "Kashabo",
+    "summary": "A regional name of kasha sometimes filed as its own row.",
+    "summaryJa": "火車の地方名が、図鑑では項を持つこともある。",
+    "legends": [
+      "A regional name of kasha sometimes filed as its own row.",
+      "Keep 火車 as the branded card.",
+      "Do not merge カシャボ into a neighbour card."
+    ],
+    "traits": [
+      "Kashabo",
+      "Fire",
+      "死",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "火",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Keep 火車 as the branded card.",
+    "funFactJa": "火車はブランド項。",
+    "searchQuery": "カシャボ かしゃぼ 妖怪",
+    "creativeHooks": [
+      "Keep 火車 as the branded card.",
+      "Keep カシャボ as its own plate.",
+      "The workplace is 火車の地方名."
+    ],
+    "sources": [
+      "カシャボ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Shu-no-bon",
+    "nativeName": "朱の盆",
+    "region": "赤い盆",
+    "category": "異形",
+    "categoryEn": "Vermilion tray",
+    "summary": "A yokai whose face is a vermilion tray; a Mizuki-road name.",
+    "summaryJa": "赤い盆のような顔の怪。水木ロードの名。",
+    "legends": [
+      "A yokai whose face is a vermilion tray; a Mizuki-road name.",
+      "A serving dish that looks back.",
+      "Do not merge 朱の盆 into a neighbour card."
+    ],
+    "traits": [
+      "Vermilion tray",
+      "赤",
+      "盆",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "赤",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A serving dish that looks back.",
+    "funFactJa": "見返す食器。",
+    "searchQuery": "朱の盆 しゅのぼん 妖怪",
+    "creativeHooks": [
+      "A serving dish that looks back.",
+      "Keep 朱の盆 as its own plate.",
+      "The workplace is 赤い盆."
+    ],
+    "sources": [
+      "朱の盆 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kawaero",
+    "nativeName": "カワエロ",
+    "region": "川のエロ",
+    "category": "水系",
+    "categoryEn": "Kawaero",
+    "summary": "A slimy river small-fry; the mucus side of kappa.",
+    "summaryJa": "川の小怪。河童の、ぬめりの側。",
+    "legends": [
+      "A slimy river small-fry; the mucus side of kappa.",
+      "Keep 河童 as the dish-head.",
+      "Do not merge カワエロ into a neighbour card."
+    ],
+    "traits": [
+      "Kawaero",
+      "川",
+      "ぬめり",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "水系",
+      "川",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "Keep 河童 as the dish-head.",
+    "funFactJa": "皿頭は別項。",
+    "searchQuery": "カワエロ かわえろ 妖怪",
+    "creativeHooks": [
+      "Keep 河童 as the dish-head.",
+      "Keep カワエロ as its own plate.",
+      "The workplace is 川のエロ."
+    ],
+    "sources": [
+      "カワエロ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kawazaru",
+    "nativeName": "川猿",
+    "region": "川の猿",
+    "category": "水系",
+    "categoryEn": "River monkey",
+    "summary": "A river-monkey; Japanese-name neighbour to enko.",
+    "summaryJa": "川の猿。えんこうの、和名側。",
+    "legends": [
+      "A river-monkey; Japanese-name neighbour to enko.",
+      "Keep えんこう as the Shikoku card.",
+      "Do not merge 川猿 into a neighbour card."
+    ],
+    "traits": [
+      "River monkey",
+      "川",
+      "猿",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "水系",
+      "川",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "Keep えんこう as the Shikoku card.",
+    "funFactJa": "四国は別項。",
+    "searchQuery": "川猿 かわざる 妖怪",
+    "creativeHooks": [
+      "Keep えんこう as the Shikoku card.",
+      "Keep 川猿 as its own plate.",
+      "The workplace is 川の猿."
+    ],
+    "sources": [
+      "川猿 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Takekiri-tanuki",
+    "nativeName": "竹切狸",
+    "region": "竹を切る狸",
+    "category": "狐狸",
+    "categoryEn": "Bamboo-cutter tanuki",
+    "summary": "A tanuki that fells bamboo; a grove neighbour to the Awa war.",
+    "summaryJa": "竹を切る狸。阿波の隣の、竹藪の狸。",
+    "legends": [
+      "A tanuki that fells bamboo; a grove neighbour to the Awa war.",
+      "A logging firm with a leaf.",
+      "Do not merge 竹切狸 into a neighbour card."
+    ],
+    "traits": [
+      "Bamboo-cutter tanuki",
+      "狸",
+      "竹",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "狐狸",
+      "狸",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "A logging firm with a leaf.",
+    "funFactJa": "葉のある伐採。",
+    "searchQuery": "竹切狸 たけきりたぬき 妖怪",
+    "creativeHooks": [
+      "A logging firm with a leaf.",
+      "Keep 竹切狸 as its own plate.",
+      "The workplace is 竹を切る狸."
+    ],
+    "sources": [
+      "竹切狸 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Kirin-jishi",
+    "nativeName": "麒麟獅子",
+    "region": "麒麟と獅子",
+    "category": "古典",
+    "categoryEn": "Kirin-lion",
+    "summary": "A kirin-lion festival form filed in the yokai index.",
+    "summaryJa": "麒麟獅子。祭りの形が図鑑に残る。",
+    "legends": [
+      "A kirin-lion festival form filed in the yokai index.",
+      "A parade that is a species.",
+      "Do not merge 麒麟獅子 into a neighbour card."
+    ],
+    "traits": [
+      "Kirin-lion",
+      "麒麟",
+      "獅子",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "古典",
+      "麒麟",
+      "picture-scroll",
+      "solemn"
+    ],
+    "funFact": "A parade that is a species.",
+    "funFactJa": "種が行列。",
+    "searchQuery": "麒麟獅子 きりんじし 妖怪",
+    "creativeHooks": [
+      "A parade that is a species.",
+      "Keep 麒麟獅子 as its own plate.",
+      "The workplace is 麒麟と獅子."
+    ],
+    "sources": [
+      "麒麟獅子 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Tomokazuki",
+    "nativeName": "共潜",
+    "region": "一緒に潜る",
+    "category": "海",
+    "categoryEn": "Co-diver",
+    "summary": "A yokai that dives with ama divers and shares the breath.",
+    "summaryJa": "海女と一緒に潜る怪。共に息を取る。",
+    "legends": [
+      "A yokai that dives with ama divers and shares the breath.",
+      "A buddy system with teeth.",
+      "Do not merge 共潜 into a neighbour card."
+    ],
+    "traits": [
+      "Co-diver",
+      "Sea",
+      "潜",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "picture-scroll",
+      "horror",
+      "index-lore"
+    ],
+    "funFact": "A buddy system with teeth.",
+    "funFactJa": "歯のあるバディ。",
+    "searchQuery": "共潜 ともかずき 妖怪",
+    "creativeHooks": [
+      "A buddy system with teeth.",
+      "Keep 共潜 as its own plate.",
+      "The workplace is 一緒に潜る."
+    ],
+    "sources": [
+      "共潜 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Aka-nyudo",
+    "nativeName": "赤入道",
+    "region": "炬燵の入道",
+    "category": "屋敷",
+    "categoryEn": "Red nyudo",
+    "summary": "A red nyudo who emerges from the kotatsu in winter houses.",
+    "summaryJa": "炬燵から出る赤い入道。冬の家の怪。",
+    "legends": [
+      "A red nyudo who emerges from the kotatsu in winter houses.",
+      "HVAC with a face.",
+      "Do not merge 赤入道 into a neighbour card."
+    ],
+    "traits": [
+      "Red nyudo",
+      "赤",
+      "入道",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "屋敷",
+      "赤",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "HVAC with a face.",
+    "funFactJa": "顔のある暖房。",
+    "searchQuery": "赤入道 あかにゅうどう 妖怪",
+    "creativeHooks": [
+      "HVAC with a face.",
+      "Keep 赤入道 as its own plate.",
+      "The workplace is 炬燵の入道."
+    ],
+    "sources": [
+      "赤入道 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akateko",
+    "nativeName": "赤手児",
+    "region": "赤い手",
+    "category": "屋敷",
+    "categoryEn": "Red child's hand",
+    "summary": "A red child's hand reaching from a window.",
+    "summaryJa": "窓から赤い子どもの手が出る。",
+    "legends": [
+      "A red child's hand reaching from a window.",
+      "A sash that is an arm.",
+      "Do not merge 赤手児 into a neighbour card."
+    ],
+    "traits": [
+      "Red child's hand",
+      "赤",
+      "手",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "屋敷",
+      "赤",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A sash that is an arm.",
+    "funFactJa": "腕である窓。",
+    "searchQuery": "赤手児 あかてこ 妖怪",
+    "creativeHooks": [
+      "A sash that is an arm.",
+      "Keep 赤手児 as its own plate.",
+      "The workplace is 赤い手."
+    ],
+    "sources": [
+      "赤手児 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Aka-bozu",
+    "nativeName": "赤坊主",
+    "region": "赤い坊主",
+    "category": "鬼",
+    "categoryEn": "Red monk",
+    "summary": "A red monk; neighbour title to aka-nyudo.",
+    "summaryJa": "赤い坊主。赤入道の、職名違い。",
+    "legends": [
+      "A red monk; neighbour title to aka-nyudo.",
+      "A tonsure in brand-red.",
+      "Do not merge 赤坊主 into a neighbour card."
+    ],
+    "traits": [
+      "Red monk",
+      "赤",
+      "坊主",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "鬼",
+      "赤",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A tonsure in brand-red.",
+    "funFactJa": "ブランド赤の剃髪。",
+    "searchQuery": "赤坊主 あかぼうず 妖怪",
+    "creativeHooks": [
+      "A tonsure in brand-red.",
+      "Keep 赤坊主 as its own plate.",
+      "The workplace is 赤い坊主."
+    ],
+    "sources": [
+      "赤坊主 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akashaguma",
+    "nativeName": "赤シャグマ",
+    "region": "赤い髪",
+    "category": "鬼",
+    "categoryEn": "Red shaguma",
+    "summary": "A red long-haired yokai of the north.",
+    "summaryJa": "赤い長い髪の怪。東北の赤。",
+    "legends": [
+      "A red long-haired yokai of the north.",
+      "A wig with a hunt.",
+      "Do not merge 赤シャグマ into a neighbour card."
+    ],
+    "traits": [
+      "Red shaguma",
+      "赤",
+      "髪",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "鬼",
+      "赤",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A wig with a hunt.",
+    "funFactJa": "狩のあるかつら。",
+    "searchQuery": "赤シャグマ あかしゃぐま 妖怪",
+    "creativeHooks": [
+      "A wig with a hunt.",
+      "Keep 赤シャグマ as its own plate.",
+      "The workplace is 赤い髪."
+    ],
+    "sources": [
+      "赤シャグマ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akaei",
+    "nativeName": "赤えい",
+    "region": "赤いエイ",
+    "category": "海",
+    "categoryEn": "Red ray",
+    "summary": "A red stingray yokai of the open water.",
+    "summaryJa": "赤いエイの怪。海の平たい禍。",
+    "legends": [
+      "A red stingray yokai of the open water.",
+      "A seafloor with a temper.",
+      "Do not merge 赤えい into a neighbour card."
+    ],
+    "traits": [
+      "Red ray",
+      "エイ",
+      "Sea",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "エイ",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A seafloor with a temper.",
+    "funFactJa": "気性のある海底。",
+    "searchQuery": "赤えい あかえい 妖怪",
+    "creativeHooks": [
+      "A seafloor with a temper.",
+      "Keep 赤えい as its own plate.",
+      "The workplace is 赤いエイ."
+    ],
+    "sources": [
+      "赤えい / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akaashi",
+    "nativeName": "赤足",
+    "region": "赤い足",
+    "category": "道中",
+    "categoryEn": "Red feet",
+    "summary": "Only red feet appearing on the road.",
+    "summaryJa": "赤い足だけが見える怪。馬の足の、人側。",
+    "legends": [
+      "Only red feet appearing on the road.",
+      "A commute of extremities.",
+      "Do not merge 赤足 into a neighbour card."
+    ],
+    "traits": [
+      "Red feet",
+      "赤",
+      "足",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "道中",
+      "赤",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A commute of extremities.",
+    "funFactJa": "末端だけの通勤。",
+    "searchQuery": "赤足 あかあし 妖怪",
+    "creativeHooks": [
+      "A commute of extremities.",
+      "Keep 赤足 as its own plate.",
+      "The workplace is 赤い足."
+    ],
+    "sources": [
+      "赤足 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akago",
+    "nativeName": "赤子",
+    "region": "夜の赤子",
+    "category": "死霊",
+    "categoryEn": "Night infant",
+    "summary": "An unidentified crying infant at night; land neighbour to kawa-akago.",
+    "summaryJa": "夜に泣く正体不明の赤子の怪。川赤子の、陸上側。",
+    "legends": [
+      "An unidentified crying infant at night; land neighbour to kawa-akago.",
+      "Keep the river baby on the other card.",
+      "Do not merge 赤子 into a neighbour card."
+    ],
+    "traits": [
+      "Night infant",
+      "Child",
+      "Night",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "子ども",
+      "picture-scroll",
+      "tragic"
+    ],
+    "funFact": "Keep the river baby on the other card.",
+    "funFactJa": "川の子は別項。",
+    "searchQuery": "赤子 あかご 妖怪",
+    "creativeHooks": [
+      "Keep the river baby on the other card.",
+      "Keep 赤子 as its own plate.",
+      "The workplace is 夜の赤子."
+    ],
+    "sources": [
+      "赤子 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akashi-sama",
+    "nativeName": "明石様",
+    "region": "横浜の明石",
+    "category": "屋敷",
+    "categoryEn": "Akashi-sama",
+    "summary": "A named house-yokai of Yokohama.",
+    "summaryJa": "横浜に伝わる明石様。家の怪異の人名。",
+    "legends": [
+      "A named house-yokai of Yokohama.",
+      "A lease with a local proper name.",
+      "Do not merge 明石様 into a neighbour card."
+    ],
+    "traits": [
+      "Akashi-sama",
+      "家",
+      "横浜",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "屋敷",
+      "家",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A lease with a local proper name.",
+    "funFactJa": "地元固有名詞の契約。",
+    "searchQuery": "明石様 あかしさま 妖怪",
+    "creativeHooks": [
+      "A lease with a local proper name.",
+      "Keep 明石様 as its own plate.",
+      "The workplace is 横浜の明石."
+    ],
+    "sources": [
+      "明石様 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akaganta",
+    "nativeName": "アカガンター",
+    "region": "沖縄の赤",
+    "category": "異形",
+    "categoryEn": "Akaganta",
+    "summary": "A red Okinawan apparition; the red side of majimun.",
+    "summaryJa": "沖縄の赤い怪。マジムンの赤側。",
+    "legends": [
+      "A red Okinawan apparition; the red side of majimun.",
+      "Keep マジムン as the cover name.",
+      "Do not merge アカガンター into a neighbour card."
+    ],
+    "traits": [
+      "Akaganta",
+      "沖縄",
+      "赤",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "沖縄",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Keep マジムン as the cover name.",
+    "funFactJa": "総称は別項。",
+    "searchQuery": "アカガンター あかがんたー 妖怪",
+    "creativeHooks": [
+      "Keep マジムン as the cover name.",
+      "Keep アカガンター as its own plate.",
+      "The workplace is 沖縄の赤."
+    ],
+    "sources": [
+      "アカガンター / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akana",
+    "nativeName": "アカナー",
+    "region": "月のキジムナー",
+    "category": "山系",
+    "categoryEn": "Akana",
+    "summary": "A sibling of kijimuna said to live on the moon.",
+    "summaryJa": "キジムナーの兄弟で月に住むという。",
+    "legends": [
+      "A sibling of kijimuna said to live on the moon.",
+      "A fishery with a lunar commute.",
+      "Do not merge アカナー into a neighbour card."
+    ],
+    "traits": [
+      "Akana",
+      "沖縄",
+      "月",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "山系",
+      "沖縄",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "A fishery with a lunar commute.",
+    "funFactJa": "月通勤の漁。",
+    "searchQuery": "アカナー あかなー 妖怪",
+    "creativeHooks": [
+      "A fishery with a lunar commute.",
+      "Keep アカナー as its own plate.",
+      "The workplace is 月のキジムナー."
+    ],
+    "sources": [
+      "アカナー / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akanbe",
+    "nativeName": "あかんべい",
+    "region": "あかんべえ",
+    "category": "町",
+    "categoryEn": "Akanbe child",
+    "summary": "A child yokai that pulls an akanbe face.",
+    "summaryJa": "あかんべえをする小僧の怪。べか太郎の類。",
+    "legends": [
+      "A child yokai that pulls an akanbe face.",
+      "A grimace as a job.",
+      "Do not merge あかんべい into a neighbour card."
+    ],
+    "traits": [
+      "Akanbe child",
+      "Child",
+      "顔",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "町",
+      "子ども",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "A grimace as a job.",
+    "funFactJa": "職がしかめ。",
+    "searchQuery": "あかんべい あかんべい 妖怪",
+    "creativeHooks": [
+      "A grimace as a job.",
+      "Keep あかんべい as its own plate.",
+      "The workplace is あかんべえ."
+    ],
+    "sources": [
+      "あかんべい / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akudo-pokkari",
+    "nativeName": "アクドポッカリ",
+    "region": "踵",
+    "category": "道中",
+    "categoryEn": "Akudo-pokkari",
+    "summary": "An Iwate yokai that clings to the heel.",
+    "summaryJa": "岩手で踵に纏わる怪。アグトネブリの隣。",
+    "legends": [
+      "An Iwate yokai that clings to the heel.",
+      "A sock with a parasite.",
+      "Do not merge アクドポッカリ into a neighbour card."
+    ],
+    "traits": [
+      "Akudo-pokkari",
+      "踵",
+      "東北",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "道中",
+      "踵",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A sock with a parasite.",
+    "funFactJa": "寄生する靴下。",
+    "searchQuery": "アクドポッカリ あくどぽっかり 妖怪",
+    "creativeHooks": [
+      "A sock with a parasite.",
+      "Keep アクドポッカリ as its own plate.",
+      "The workplace is 踵."
+    ],
+    "sources": [
+      "アクドポッカリ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Aguto-neburi",
+    "nativeName": "アグトネブリ",
+    "region": "踵を嘗める",
+    "category": "道中",
+    "categoryEn": "Heel-licker",
+    "summary": "An Iwate yokai that licks heels in the dark.",
+    "summaryJa": "闇夜に踵を嘗める岩手の怪。",
+    "legends": [
+      "An Iwate yokai that licks heels in the dark.",
+      "A commute tasted from behind.",
+      "Do not merge アグトネブリ into a neighbour card."
+    ],
+    "traits": [
+      "Heel-licker",
+      "踵",
+      "嘗",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "道中",
+      "踵",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A commute tasted from behind.",
+    "funFactJa": "後ろから味見される通勤。",
+    "searchQuery": "アグトネブリ あぐとねぶり 妖怪",
+    "creativeHooks": [
+      "A commute tasted from behind.",
+      "Keep アグトネブリ as its own plate.",
+      "The workplace is 踵を嘗める."
+    ],
+    "sources": [
+      "アグトネブリ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akubaba",
+    "nativeName": "悪婆",
+    "region": "産子を食う婆",
+    "category": "死霊",
+    "categoryEn": "Evil hag",
+    "summary": "An invisible street hag who eats newborns.",
+    "summaryJa": "往来にいて見えない、産子を食う婆。",
+    "legends": [
+      "An invisible street hag who eats newborns.",
+      "A census that eats.",
+      "Do not merge 悪婆 into a neighbour card."
+    ],
+    "traits": [
+      "Evil hag",
+      "婆",
+      "Child",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "婆",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A census that eats.",
+    "funFactJa": "喰う国勢調査。",
+    "searchQuery": "悪婆 あくばば 妖怪",
+    "creativeHooks": [
+      "A census that eats.",
+      "Keep 悪婆 as its own plate.",
+      "The workplace is 産子を食う婆."
+    ],
+    "sources": [
+      "悪婆 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Aku-bozu",
+    "nativeName": "灰坊主",
+    "region": "灰の坊主",
+    "category": "屋敷",
+    "categoryEn": "Ash monk",
+    "summary": "A monk of the hearth-ash.",
+    "summaryJa": "灰の中の坊主。炉の残りが歩く。",
+    "legends": [
+      "A monk of the hearth-ash.",
+      "Janitorial leftovers with a face.",
+      "Do not merge 灰坊主 into a neighbour card."
+    ],
+    "traits": [
+      "Ash monk",
+      "灰",
+      "坊主",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "屋敷",
+      "灰",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "Janitorial leftovers with a face.",
+    "funFactJa": "顔のある残り灰。",
+    "searchQuery": "灰坊主 あくぼうず 妖怪",
+    "creativeHooks": [
+      "Janitorial leftovers with a face.",
+      "Keep 灰坊主 as its own plate.",
+      "The workplace is 灰の坊主."
+    ],
+    "sources": [
+      "灰坊主 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akuma-gakaze",
+    "nativeName": "悪魔ヶ風",
+    "region": "当たると病む風",
+    "category": "気象",
+    "categoryEn": "Demon-wind",
+    "summary": "A Shima wind that makes people ill if it strikes them.",
+    "summaryJa": "当たると病む風。志摩の怪異。",
+    "legends": [
+      "A Shima wind that makes people ill if it strikes them.",
+      "A forecast that infects.",
+      "Do not merge 悪魔ヶ風 into a neighbour card."
+    ],
+    "traits": [
+      "Demon-wind",
+      "風",
+      "病",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "気象",
+      "風",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A forecast that infects.",
+    "funFactJa": "感染する予報。",
+    "searchQuery": "悪魔ヶ風 あくまがかぜ 妖怪",
+    "creativeHooks": [
+      "A forecast that infects.",
+      "Keep 悪魔ヶ風 as its own plate.",
+      "The workplace is 当たると病む風."
+    ],
+    "sources": [
+      "悪魔ヶ風 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Asaoke-no-ke",
+    "nativeName": "麻桶の毛",
+    "region": "麻桶",
+    "category": "付喪神",
+    "categoryEn": "Hemp-tub hair",
+    "summary": "Hair-like yokai left in a hemp tub.",
+    "summaryJa": "麻桶に残る毛の怪。繊維の残り。",
+    "legends": [
+      "Hair-like yokai left in a hemp tub.",
+      "Textile waste with a pulse.",
+      "Do not merge 麻桶の毛 into a neighbour card."
+    ],
+    "traits": [
+      "Hemp-tub hair",
+      "毛",
+      "桶",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "毛",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Textile waste with a pulse.",
+    "funFactJa": "脈のある繊維くず。",
+    "searchQuery": "麻桶の毛 あさおけのけ 妖怪",
+    "creativeHooks": [
+      "Textile waste with a pulse.",
+      "Keep 麻桶の毛 as its own plate.",
+      "The workplace is 麻桶."
+    ],
+    "sources": [
+      "麻桶の毛 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Asajigahara-no-onibaba",
+    "nativeName": "浅茅ヶ原の鬼婆",
+    "region": "浅茅ヶ原",
+    "category": "鬼",
+    "categoryEn": "Asajigahara hag",
+    "summary": "The hag of Asajigahara; neighbour black-mound to Adachigahara.",
+    "summaryJa": "浅茅ヶ原の鬼婆。安達ヶ原の隣の黒塚。",
+    "legends": [
+      "The hag of Asajigahara; neighbour black-mound to Adachigahara.",
+      "Keep 安達ヶ原 as the branded mound.",
+      "Do not merge 浅茅ヶ原の鬼婆 into a neighbour card."
+    ],
+    "traits": [
+      "Asajigahara hag",
+      "Oni",
+      "婆",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "鬼",
+      "picture-scroll",
+      "horror",
+      "index-lore"
+    ],
+    "funFact": "Keep 安達ヶ原 as the branded mound.",
+    "funFactJa": "黒塚のブランドは別項。",
+    "searchQuery": "浅茅ヶ原の鬼婆 あさじがはらのおにばば 妖怪",
+    "creativeHooks": [
+      "Keep 安達ヶ原 as the branded mound.",
+      "Keep 浅茅ヶ原の鬼婆 as its own plate.",
+      "The workplace is 浅茅ヶ原."
+    ],
+    "sources": [
+      "浅茅ヶ原の鬼婆 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Asokokoko",
+    "nativeName": "あすこここ",
+    "region": "あすこここの声",
+    "category": "道中",
+    "categoryEn": "Asokokoko voice",
+    "summary": "A voice that displaces here and there on the road.",
+    "summaryJa": "場所をずらす声の怪。",
+    "legends": [
+      "A voice that displaces here and there on the road.",
+      "GPS that lies.",
+      "Do not merge あすこここ into a neighbour card."
+    ],
+    "traits": [
+      "Asokokoko voice",
+      "声",
+      "迷",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "道中",
+      "声",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "GPS that lies.",
+    "funFactJa": "嘘のGPS。",
+    "searchQuery": "あすこここ あすこここ 妖怪",
+    "creativeHooks": [
+      "GPS that lies.",
+      "Keep あすこここ as its own plate.",
+      "The workplace is あすこここの声."
+    ],
+    "sources": [
+      "あすこここ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Aso-bi",
+    "nativeName": "遊火",
+    "region": "遊ぶ火",
+    "category": "霊火",
+    "categoryEn": "Play-fire",
+    "summary": "A fire that looks as if it is playing; the play side of kitsunebi.",
+    "summaryJa": "遊んで見える火。狐火の、遊び側。",
+    "legends": [
+      "A fire that looks as if it is playing; the play side of kitsunebi.",
+      "A game of sparks.",
+      "Do not merge 遊火 into a neighbour card."
+    ],
+    "traits": [
+      "Play-fire",
+      "Fire",
+      "遊",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "霊火",
+      "火",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "A game of sparks.",
+    "funFactJa": "火花の遊び。",
+    "searchQuery": "遊火 あそびび 妖怪",
+    "creativeHooks": [
+      "A game of sparks.",
+      "Keep 遊火 as its own plate.",
+      "The workplace is 遊ぶ火."
+    ],
+    "sources": [
+      "遊火 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Atozumi-kozo",
+    "nativeName": "後追い小僧",
+    "region": "後を追う小僧",
+    "category": "道中",
+    "categoryEn": "Following boy",
+    "summary": "A boy who follows from behind; child-side neighbour to oigakari.",
+    "summaryJa": "後ろを追う小僧。おいがかりの、子ども側。",
+    "legends": [
+      "A boy who follows from behind; child-side neighbour to oigakari.",
+      "A field trip with no teacher.",
+      "Do not merge 後追い小僧 into a neighbour card."
+    ],
+    "traits": [
+      "Following boy",
+      "Child",
+      "追",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "道中",
+      "子ども",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A field trip with no teacher.",
+    "funFactJa": "教師のいない遠足。",
+    "searchQuery": "後追い小僧 あとおいこぞう 妖怪",
+    "creativeHooks": [
+      "A field trip with no teacher.",
+      "Keep 後追い小僧 as its own plate.",
+      "The workplace is 後を追う小僧."
+    ],
+    "sources": [
+      "後追い小僧 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Abura-tokkuri",
+    "nativeName": "油徳利",
+    "region": "油の徳利",
+    "category": "付喪神",
+    "categoryEn": "Oil flask",
+    "summary": "A tsukumogami of an oil tokkuri.",
+    "summaryJa": "油徳利の付喪神。灯油の器が歩く。",
+    "legends": [
+      "A tsukumogami of an oil tokkuri.",
+      "A fuel tank with legs.",
+      "Do not merge 油徳利 into a neighbour card."
+    ],
+    "traits": [
+      "Oil flask",
+      "油",
+      "徳利",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "油",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A fuel tank with legs.",
+    "funFactJa": "脚のある燃料。",
+    "searchQuery": "油徳利 あぶらとっくり 妖怪",
+    "creativeHooks": [
+      "A fuel tank with legs.",
+      "Keep 油徳利 as its own plate.",
+      "The workplace is 油の徳利."
+    ],
+    "sources": [
+      "油徳利 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Amazake-baba",
+    "nativeName": "甘酒婆",
+    "region": "甘酒を売る婆",
+    "category": "屋敷",
+    "categoryEn": "Amazake hag",
+    "summary": "A hag who sells amazake at night; drinking it brings harm.",
+    "summaryJa": "夜に甘酒を売る婆。飲ませると禍。",
+    "legends": [
+      "A hag who sells amazake at night; drinking it brings harm.",
+      "A food truck with a curse.",
+      "Do not merge 甘酒婆 into a neighbour card."
+    ],
+    "traits": [
+      "Amazake hag",
+      "婆",
+      "甘酒",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "屋敷",
+      "婆",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A food truck with a curse.",
+    "funFactJa": "呪いの屋台。",
+    "searchQuery": "甘酒婆 あまざけばば 妖怪",
+    "creativeHooks": [
+      "A food truck with a curse.",
+      "Keep 甘酒婆 as its own plate.",
+      "The workplace is 甘酒を売る婆."
+    ],
+    "sources": [
+      "甘酒婆 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Amaburakosagi",
+    "nativeName": "あまぶらこさぎ",
+    "region": "雨の鷺",
+    "category": "気象",
+    "categoryEn": "Rain heron",
+    "summary": "A rain-heron yokai; wet neighbour to aosaginohi.",
+    "summaryJa": "雨の鷺の怪。青鷺火の、雨側。",
+    "legends": [
+      "A rain-heron yokai; wet neighbour to aosaginohi.",
+      "Keep the fire-heron on the other card.",
+      "Do not merge あまぶらこさぎ into a neighbour card."
+    ],
+    "traits": [
+      "Rain heron",
+      "雨",
+      "鷺",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "気象",
+      "雨",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "Keep the fire-heron on the other card.",
+    "funFactJa": "火の鷺は別項。",
+    "searchQuery": "あまぶらこさぎ あまぶらこさぎ 妖怪",
+    "creativeHooks": [
+      "Keep the fire-heron on the other card.",
+      "Keep あまぶらこさぎ as its own plate.",
+      "The workplace is 雨の鷺."
+    ],
+    "sources": [
+      "あまぶらこさぎ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Amoro-unagu",
+    "nativeName": "天降女子",
+    "region": "天から降る女",
+    "category": "死霊",
+    "categoryEn": "Sky-fallen woman",
+    "summary": "An Okinawan woman-spirit said to fall from the sky.",
+    "summaryJa": "天から降る女。沖縄の、降る霊。",
+    "legends": [
+      "An Okinawan woman-spirit said to fall from the sky.",
+      "Immigration from above.",
+      "Do not merge 天降女子 into a neighbour card."
+    ],
+    "traits": [
+      "Sky-fallen woman",
+      "Woman",
+      "天",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "女",
+      "picture-scroll",
+      "tragic"
+    ],
+    "funFact": "Immigration from above.",
+    "funFactJa": "上からの入国。",
+    "searchQuery": "天降女子 あもうなぐ 妖怪",
+    "creativeHooks": [
+      "Immigration from above.",
+      "Keep 天降女子 as its own plate.",
+      "The workplace is 天から降る女."
+    ],
+    "sources": [
+      "天降女子 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Arie",
+    "nativeName": "アリエ",
+    "region": "アリエの予言",
+    "category": "予言",
+    "categoryEn": "Arie",
+    "summary": "A prophetic sea-being kin to amabie.",
+    "summaryJa": "アマビエに似た予言の海の怪。",
+    "legends": [
+      "A prophetic sea-being kin to amabie.",
+      "Keep アマビエ as the branded beak.",
+      "Do not merge アリエ into a neighbour card."
+    ],
+    "traits": [
+      "Arie",
+      "Sea",
+      "予言",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "予言",
+      "海",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "Keep アマビエ as the branded beak.",
+    "funFactJa": "くちばしのブランドは別項。",
+    "searchQuery": "アリエ ありえ 妖怪",
+    "creativeHooks": [
+      "Keep アマビエ as the branded beak.",
+      "Keep アリエ as its own plate.",
+      "The workplace is アリエの予言."
+    ],
+    "sources": [
+      "アリエ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Awa-tsuki-oto",
+    "nativeName": "粟搗き音",
+    "region": "粟を搗く音",
+    "category": "屋敷",
+    "categoryEn": "Millet-pounding sound",
+    "summary": "The sound of pounding millet with no pounder.",
+    "summaryJa": "粟を搗く音だけの怪。主のいない精米。",
+    "legends": [
+      "The sound of pounding millet with no pounder.",
+      "A mill with no miller.",
+      "Do not merge 粟搗き音 into a neighbour card."
+    ],
+    "traits": [
+      "Millet-pounding sound",
+      "Sound",
+      "粟",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "屋敷",
+      "音",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A mill with no miller.",
+    "funFactJa": "粉屋のいない製粉。",
+    "searchQuery": "粟搗き音 あわつきおと 妖怪",
+    "creativeHooks": [
+      "A mill with no miller.",
+      "Keep 粟搗き音 as its own plate.",
+      "The workplace is 粟を搗く音."
+    ],
+    "sources": [
+      "粟搗き音 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Igabo",
+    "nativeName": "いが坊",
+    "region": "いがの坊",
+    "category": "山系",
+    "categoryEn": "Iga boy",
+    "summary": "A small mountain monk of Iga lore.",
+    "summaryJa": "いがの坊主。山の小さな坊。",
+    "legends": [
+      "A small mountain monk of Iga lore.",
+      "A tonsure in the hills.",
+      "Do not merge いが坊 into a neighbour card."
+    ],
+    "traits": [
+      "Iga boy",
+      "坊主",
+      "Mountain",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "山系",
+      "坊主",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "A tonsure in the hills.",
+    "funFactJa": "丘の剃髪。",
+    "searchQuery": "いが坊 いがぼう 妖怪",
+    "creativeHooks": [
+      "A tonsure in the hills.",
+      "Keep いが坊 as its own plate.",
+      "The workplace is いがの坊."
+    ],
+    "sources": [
+      "いが坊 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ikuchi",
+    "nativeName": "イクチ",
+    "region": "細長い海の怪",
+    "category": "海",
+    "categoryEn": "Ikuchi",
+    "summary": "A long sea-serpent that crosses ships and asks for oil.",
+    "summaryJa": "細長く船を越える海の怪。油を塗れという。",
+    "legends": [
+      "A long sea-serpent that crosses ships and asks for oil.",
+      "A hull with a toll in oil.",
+      "Do not merge イクチ into a neighbour card."
+    ],
+    "traits": [
+      "Ikuchi",
+      "Sea",
+      "長い",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "picture-scroll",
+      "horror",
+      "index-lore"
+    ],
+    "funFact": "A hull with a toll in oil.",
+    "funFactJa": "油の通行料。",
+    "searchQuery": "イクチ いくち 妖怪",
+    "creativeHooks": [
+      "A hull with a toll in oil.",
+      "Keep イクチ as its own plate.",
+      "The workplace is 細長い海の怪."
+    ],
+    "sources": [
+      "イクチ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ikebukuro-no-onna",
+    "nativeName": "池袋の女",
+    "region": "池袋",
+    "category": "死霊",
+    "categoryEn": "Ikebukuro woman",
+    "summary": "A woman-yokai tied to the place-name Ikebukuro.",
+    "summaryJa": "池袋に伝わる女の怪。地名が項になる。",
+    "legends": [
+      "A woman-yokai tied to the place-name Ikebukuro.",
+      "A station with a ghost clause.",
+      "Do not merge 池袋の女 into a neighbour card."
+    ],
+    "traits": [
+      "Ikebukuro woman",
+      "Woman",
+      "東京",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "女",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A station with a ghost clause.",
+    "funFactJa": "幽霊条項のある駅。",
+    "searchQuery": "池袋の女 いけぶくろのおんな 妖怪",
+    "creativeHooks": [
+      "A station with a ghost clause.",
+      "Keep 池袋の女 as its own plate.",
+      "The workplace is 池袋."
+    ],
+    "sources": [
+      "池袋の女 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Igo-no-sei",
+    "nativeName": "囲碁の精",
+    "region": "碁石",
+    "category": "付喪神",
+    "categoryEn": "Go spirit",
+    "summary": "The spirit of a go set that plays after the house sleeps.",
+    "summaryJa": "囲碁の精。盤と石が夜に打つ。",
+    "legends": [
+      "The spirit of a go set that plays after the house sleeps.",
+      "A ranking match with no players.",
+      "Do not merge 囲碁の精 into a neighbour card."
+    ],
+    "traits": [
+      "Go spirit",
+      "碁",
+      "盤",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "碁",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A ranking match with no players.",
+    "funFactJa": "対局者のいない対局。",
+    "searchQuery": "囲碁の精 いごのせい 妖怪",
+    "creativeHooks": [
+      "A ranking match with no players.",
+      "Keep 囲碁の精 as its own plate.",
+      "The workplace is 碁石."
+    ],
+    "sources": [
+      "囲碁の精 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Izasa-o",
+    "nativeName": "猪笹王",
+    "region": "猪の王",
+    "category": "変化",
+    "categoryEn": "Boar-bamboo king",
+    "summary": "A king of boars in the bamboo grass.",
+    "summaryJa": "笹原の猪の王。山の獣の頭。",
+    "legends": [
+      "A king of boars in the bamboo grass.",
+      "A ministry of tusks.",
+      "Do not merge 猪笹王 into a neighbour card."
+    ],
+    "traits": [
+      "Boar-bamboo king",
+      "猪",
+      "笹",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "変化",
+      "猪",
+      "picture-scroll",
+      "solemn"
+    ],
+    "funFact": "A ministry of tusks.",
+    "funFactJa": "牙の省庁。",
+    "searchQuery": "猪笹王 いざさおう 妖怪",
+    "creativeHooks": [
+      "A ministry of tusks.",
+      "Keep 猪笹王 as its own plate.",
+      "The workplace is 猪の王."
+    ],
+    "sources": [
+      "猪笹王 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ishikawa-akushiro",
+    "nativeName": "石川悪四郎",
+    "region": "悪四郎",
+    "category": "死霊",
+    "categoryEn": "Ishikawa Akushiro",
+    "summary": "A named night-overlord in the nurarihyon cycle of tales.",
+    "summaryJa": "石川悪四郎。山本五郎左衛門の類話の人名が怪になる。",
+    "legends": [
+      "A named night-overlord in the nurarihyon cycle of tales.",
+      "Keep ぬらりひょん as the branded gourd.",
+      "Do not merge 石川悪四郎 into a neighbour card."
+    ],
+    "traits": [
+      "Ishikawa Akushiro",
+      "人名",
+      "Night",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "人名",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Keep ぬらりひょん as the branded gourd.",
+    "funFactJa": "ひょうたんのブランドは別項。",
+    "searchQuery": "石川悪四郎 いしかわあくしろう 妖怪",
+    "creativeHooks": [
+      "Keep ぬらりひょん as the branded gourd.",
+      "Keep 石川悪四郎 as its own plate.",
+      "The workplace is 悪四郎."
+    ],
+    "sources": [
+      "石川悪四郎 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ijiko",
+    "nativeName": "イジコ",
+    "region": "イジコ",
+    "category": "屋敷",
+    "categoryEn": "Ijiko",
+    "summary": "A small house-yokai called ijiko.",
+    "summaryJa": "イジコと呼ばれる家の小怪。",
+    "legends": [
+      "A small house-yokai called ijiko.",
+      "A roommate with no lease.",
+      "Do not merge イジコ into a neighbour card."
+    ],
+    "traits": [
+      "Ijiko",
+      "家",
+      "小",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "屋敷",
+      "家",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "A roommate with no lease.",
+    "funFactJa": "契約のない同居人。",
+    "searchQuery": "イジコ いじこ 妖怪",
+    "creativeHooks": [
+      "A roommate with no lease.",
+      "Keep イジコ as its own plate.",
+      "The workplace is イジコ."
+    ],
+    "sources": [
+      "イジコ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Iso-gaki",
+    "nativeName": "磯餓鬼",
+    "region": "磯の餓鬼",
+    "category": "海",
+    "categoryEn": "Shore hungry-ghost",
+    "summary": "A gaki of the rocky shore; hunger at the tide-line.",
+    "summaryJa": "磯に出る餓鬼。海の飢え。",
+    "legends": [
+      "A gaki of the rocky shore; hunger at the tide-line.",
+      "Keep 餓鬼 as the generic card.",
+      "Do not merge 磯餓鬼 into a neighbour card."
+    ],
+    "traits": [
+      "Shore hungry-ghost",
+      "餓鬼",
+      "磯",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "餓鬼",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Keep 餓鬼 as the generic card.",
+    "funFactJa": "総称は別項。",
+    "searchQuery": "磯餓鬼 いそがき 妖怪",
+    "creativeHooks": [
+      "Keep 餓鬼 as the generic card.",
+      "Keep 磯餓鬼 as its own plate.",
+      "The workplace is 磯の餓鬼."
+    ],
+    "sources": [
+      "磯餓鬼 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Iso-tengu",
+    "nativeName": "磯天狗",
+    "region": "磯の天狗",
+    "category": "海",
+    "categoryEn": "Shore tengu",
+    "summary": "A tengu of the rocks; the coastal branch of the mountain office.",
+    "summaryJa": "磯の天狗。山の天狗の、海岸支店。",
+    "legends": [
+      "A tengu of the rocks; the coastal branch of the mountain office.",
+      "Keep 天狗 as the mountain brand.",
+      "Do not merge 磯天狗 into a neighbour card."
+    ],
+    "traits": [
+      "Shore tengu",
+      "天狗",
+      "磯",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "天狗",
+      "picture-scroll",
+      "solemn"
+    ],
+    "funFact": "Keep 天狗 as the mountain brand.",
+    "funFactJa": "山のブランドは別項。",
+    "searchQuery": "磯天狗 いそてんぐ 妖怪",
+    "creativeHooks": [
+      "Keep 天狗 as the mountain brand.",
+      "Keep 磯天狗 as its own plate.",
+      "The workplace is 磯の天狗."
+    ],
+    "sources": [
+      "磯天狗 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Isohime",
+    "nativeName": "磯姫",
+    "region": "磯の姫",
+    "category": "海",
+    "categoryEn": "Rock princess",
+    "summary": "A princess of the rocks; the reef side of umihime.",
+    "summaryJa": "磯の姫。川姫・海姫の、岩場側。",
+    "legends": [
+      "A princess of the rocks; the reef side of umihime.",
+      "A title on barnacles.",
+      "Do not merge 磯姫 into a neighbour card."
+    ],
+    "traits": [
+      "Rock princess",
+      "姫",
+      "磯",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "姫",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A title on barnacles.",
+    "funFactJa": "フジツボの称号。",
+    "searchQuery": "磯姫 いそひめ 妖怪",
+    "creativeHooks": [
+      "A title on barnacles.",
+      "Keep 磯姫 as its own plate.",
+      "The workplace is 磯の姫."
+    ],
+    "sources": [
+      "磯姫 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ichijama",
+    "nativeName": "生邪魔",
+    "region": "生の邪魔",
+    "category": "憑きもの",
+    "categoryEn": "Living obstruction",
+    "summary": "A living obstruction-spirit; a local name of hindrance.",
+    "summaryJa": "生邪魔。生きた障り。",
+    "legends": [
+      "A living obstruction-spirit; a local name of hindrance.",
+      "HR for a jinx.",
+      "Do not merge 生邪魔 into a neighbour card."
+    ],
+    "traits": [
+      "Living obstruction",
+      "障り",
+      "生",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "憑きもの",
+      "障り",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "HR for a jinx.",
+    "funFactJa": "ジンクスの人事。",
+    "searchQuery": "生邪魔 いちじゃま 妖怪",
+    "creativeHooks": [
+      "HR for a jinx.",
+      "Keep 生邪魔 as its own plate.",
+      "The workplace is 生の邪魔."
+    ],
+    "sources": [
+      "生邪魔 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Itsuki",
+    "nativeName": "縊鬼",
+    "region": "縊れる鬼",
+    "category": "死霊",
+    "categoryEn": "Hanging oni",
+    "summary": "One who died by hanging and became an oni.",
+    "summaryJa": "縊れて死んだ者が鬼になる。",
+    "legends": [
+      "One who died by hanging and became an oni.",
+      "A noose with a promotion.",
+      "Do not merge 縊鬼 into a neighbour card."
+    ],
+    "traits": [
+      "Hanging oni",
+      "縊",
+      "Oni",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "縊",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A noose with a promotion.",
+    "funFactJa": "昇進のある縄。",
+    "searchQuery": "縊鬼 いつき 妖怪",
+    "creativeHooks": [
+      "A noose with a promotion.",
+      "Keep 縊鬼 as its own plate.",
+      "The workplace is 縊れる鬼."
+    ],
+    "sources": [
+      "縊鬼 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Issha",
+    "nativeName": "イッシャ",
+    "region": "イッシャ",
+    "category": "変化",
+    "categoryEn": "Issha",
+    "summary": "A beast-yokai called issha in local indexes.",
+    "summaryJa": "イッシャと呼ばれる獣の怪。",
+    "legends": [
+      "A beast-yokai called issha in local indexes.",
+      "A species that is a nickname.",
+      "Do not merge イッシャ into a neighbour card."
+    ],
+    "traits": [
+      "Issha",
+      "獣",
+      "地方",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "変化",
+      "獣",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A species that is a nickname.",
+    "funFactJa": "種があだ名。",
+    "searchQuery": "イッシャ いっしゃ 妖怪",
+    "creativeHooks": [
+      "A species that is a nickname.",
+      "Keep イッシャ as its own plate.",
+      "The workplace is イッシャ."
+    ],
+    "sources": [
+      "イッシャ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Idemochi",
+    "nativeName": "イデモチ",
+    "region": "イデモチ",
+    "category": "屋敷",
+    "categoryEn": "Idemochi",
+    "summary": "A house-yokai that carries things out.",
+    "summaryJa": "出て持ち出す家の怪。",
+    "legends": [
+      "A house-yokai that carries things out.",
+      "Inventory that emigrates.",
+      "Do not merge イデモチ into a neighbour card."
+    ],
+    "traits": [
+      "Idemochi",
+      "家",
+      "持ち出し",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "屋敷",
+      "家",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Inventory that emigrates.",
+    "funFactJa": "移住する在庫。",
+    "searchQuery": "イデモチ いでもち 妖怪",
+    "creativeHooks": [
+      "Inventory that emigrates.",
+      "Keep イデモチ as its own plate.",
+      "The workplace is イデモチ."
+    ],
+    "sources": [
+      "イデモチ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ito-tori-mujina",
+    "nativeName": "糸取り狢",
+    "region": "糸を取る貉",
+    "category": "狐狸",
+    "categoryEn": "Thread-taking mujina",
+    "summary": "A mujina that takes thread from the loom.",
+    "summaryJa": "糸を取る貉。機の隣の獣。",
+    "legends": [
+      "A mujina that takes thread from the loom.",
+      "Textile theft with a pelt.",
+      "Do not merge 糸取り狢 into a neighbour card."
+    ],
+    "traits": [
+      "Thread-taking mujina",
+      "貉",
+      "糸",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "狐狸",
+      "貉",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "Textile theft with a pelt.",
+    "funFactJa": "毛皮の繊維泥棒。",
+    "searchQuery": "糸取り狢 いととりむじな 妖怪",
+    "creativeHooks": [
+      "Textile theft with a pelt.",
+      "Keep 糸取り狢 as its own plate.",
+      "The workplace is 糸を取る貉."
+    ],
+    "sources": [
+      "糸取り狢 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Itohiki-musume",
+    "nativeName": "糸引き娘",
+    "region": "糸を引く娘",
+    "category": "変化",
+    "categoryEn": "Thread-drawing girl",
+    "summary": "A girl who draws thread; human-side neighbour to hatahiro.",
+    "summaryJa": "糸を引く娘。機尋の、人側。",
+    "legends": [
+      "A girl who draws thread; human-side neighbour to hatahiro.",
+      "A mill with a pulse.",
+      "Do not merge 糸引き娘 into a neighbour card."
+    ],
+    "traits": [
+      "Thread-drawing girl",
+      "糸",
+      "娘",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "変化",
+      "糸",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A mill with a pulse.",
+    "funFactJa": "脈のある機屋。",
+    "searchQuery": "糸引き娘 いとひきむすめ 妖怪",
+    "creativeHooks": [
+      "A mill with a pulse.",
+      "Keep 糸引き娘 as its own plate.",
+      "The workplace is 糸を引く娘."
+    ],
+    "sources": [
+      "糸引き娘 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Inada-kase",
+    "nativeName": "いなだ貸せ",
+    "region": "いなだ貸せの声",
+    "category": "道中",
+    "categoryEn": "Inada-kase voice",
+    "summary": "A night voice that demands inada be lent.",
+    "summaryJa": "「いなだ貸せ」と貸すことを求める声。",
+    "legends": [
+      "A night voice that demands inada be lent.",
+      "A loan shark that is a sound.",
+      "Do not merge いなだ貸せ into a neighbour card."
+    ],
+    "traits": [
+      "Inada-kase voice",
+      "声",
+      "貸し",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "道中",
+      "声",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A loan shark that is a sound.",
+    "funFactJa": "音の高利貸し。",
+    "searchQuery": "いなだ貸せ いなだかせ 妖怪",
+    "creativeHooks": [
+      "A loan shark that is a sound.",
+      "Keep いなだ貸せ as its own plate.",
+      "The workplace is いなだ貸せの声."
+    ],
+    "sources": [
+      "いなだ貸せ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Inen",
+    "nativeName": "インネン",
+    "region": "因縁",
+    "category": "死霊",
+    "categoryEn": "Innen",
+    "summary": "A walking karmic tie filed as yokai.",
+    "summaryJa": "因縁そのものが怪として歩ける。",
+    "legends": [
+      "A walking karmic tie filed as yokai.",
+      "A contract from a previous life.",
+      "Do not merge インネン into a neighbour card."
+    ],
+    "traits": [
+      "Innen",
+      "因縁",
+      "死",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "因縁",
+      "picture-scroll",
+      "tragic"
+    ],
+    "funFact": "A contract from a previous life.",
+    "funFactJa": "前世の契約。",
+    "searchQuery": "インネン いんねん 妖怪",
+    "creativeHooks": [
+      "A contract from a previous life.",
+      "Keep インネン as its own plate.",
+      "The workplace is 因縁."
+    ],
+    "sources": [
+      "インネン / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ukumono",
+    "nativeName": "浮き物",
+    "region": "浮かぶもの",
+    "category": "海",
+    "categoryEn": "Floating thing",
+    "summary": "An unnamed floating sea-thing; generic neighbour to ayakashi.",
+    "summaryJa": "海に浮かぶ名のないもの。あやかしの総称側。",
+    "legends": [
+      "An unnamed floating sea-thing; generic neighbour to ayakashi.",
+      "Keep あやかし as the branded swell.",
+      "Do not merge 浮き物 into a neighbour card."
+    ],
+    "traits": [
+      "Floating thing",
+      "Sea",
+      "浮",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "picture-scroll",
+      "mysterious",
+      "index-lore"
+    ],
+    "funFact": "Keep あやかし as the branded swell.",
+    "funFactJa": "うねりのブランドは別項。",
+    "searchQuery": "浮き物 うきもの 妖怪",
+    "creativeHooks": [
+      "Keep あやかし as the branded swell.",
+      "Keep 浮き物 as its own plate.",
+      "The workplace is 浮かぶもの."
+    ],
+    "sources": [
+      "浮き物 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ugume",
+    "nativeName": "ウグメ",
+    "region": "産のウグメ",
+    "category": "死霊",
+    "categoryEn": "Ugume",
+    "summary": "A regional name of ubume sometimes given its own row.",
+    "summaryJa": "産女の地方名が項を持つ。",
+    "legends": [
+      "A regional name of ubume sometimes given its own row.",
+      "Keep 産女 as the branded mother.",
+      "Do not merge ウグメ into a neighbour card."
+    ],
+    "traits": [
+      "Ugume",
+      "産",
+      "Woman",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "産",
+      "picture-scroll",
+      "tragic"
+    ],
+    "funFact": "Keep 産女 as the branded mother.",
+    "funFactJa": "産のブランドは別項。",
+    "searchQuery": "ウグメ うぐめ 妖怪",
+    "creativeHooks": [
+      "Keep 産女 as the branded mother.",
+      "Keep ウグメ as its own plate.",
+      "The workplace is 産のウグメ."
+    ],
+    "sources": [
+      "ウグメ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Usagi-tanuki",
+    "nativeName": "兎狸",
+    "region": "兎に化ける狸",
+    "category": "狐狸",
+    "categoryEn": "Hare-tanuki",
+    "summary": "A tanuki that takes hare shape.",
+    "summaryJa": "兎に化ける狸。葉の隣の耳。",
+    "legends": [
+      "A tanuki that takes hare shape.",
+      "A leaf hat with long ears.",
+      "Do not merge 兎狸 into a neighbour card."
+    ],
+    "traits": [
+      "Hare-tanuki",
+      "狸",
+      "兎",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "狐狸",
+      "狸",
+      "picture-scroll",
+      "playful"
+    ],
+    "funFact": "A leaf hat with long ears.",
+    "funFactJa": "耳の長い葉。",
+    "searchQuery": "兎狸 うさぎたぬき 妖怪",
+    "creativeHooks": [
+      "A leaf hat with long ears.",
+      "Keep 兎狸 as its own plate.",
+      "The workplace is 兎に化ける狸."
+    ],
+    "sources": [
+      "兎狸 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ushigozen",
+    "nativeName": "牛御前",
+    "region": "牛の御前",
+    "category": "鬼",
+    "categoryEn": "Ox lady",
+    "summary": "A titled form of ushi-oni.",
+    "summaryJa": "牛鬼の、御前の名。",
+    "legends": [
+      "A titled form of ushi-oni.",
+      "Keep 牛鬼 as the branded horn.",
+      "Do not merge 牛御前 into a neighbour card."
+    ],
+    "traits": [
+      "Ox lady",
+      "牛",
+      "Oni",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "鬼",
+      "牛",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Keep 牛鬼 as the branded horn.",
+    "funFactJa": "角のブランドは別項。",
+    "searchQuery": "牛御前 うしごぜん 妖怪",
+    "creativeHooks": [
+      "Keep 牛鬼 as the branded horn.",
+      "Keep 牛御前 as its own plate.",
+      "The workplace is 牛の御前."
+    ],
+    "sources": [
+      "牛御前 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ushiromel",
+    "nativeName": "後眼",
+    "region": "後ろの目",
+    "category": "異形",
+    "categoryEn": "Back-eye",
+    "summary": "A yokai with eyes on the back; the seeing side of ushirogami.",
+    "summaryJa": "後ろに目がある怪。後神の、視覚側。",
+    "legends": [
+      "A yokai with eyes on the back; the seeing side of ushirogami.",
+      "A rear-view that is anatomy.",
+      "Do not merge 後眼 into a neighbour card."
+    ],
+    "traits": [
+      "Back-eye",
+      "目",
+      "後ろ",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "目",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A rear-view that is anatomy.",
+    "funFactJa": "解剖学のバックミラー。",
+    "searchQuery": "後眼 うしろめ 妖怪",
+    "creativeHooks": [
+      "A rear-view that is anatomy.",
+      "Keep 後眼 as its own plate.",
+      "The workplace is 後ろの目."
+    ],
+    "sources": [
+      "後眼 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Usuoi-baba",
+    "nativeName": "臼負い婆",
+    "region": "臼を負う婆",
+    "category": "死霊",
+    "categoryEn": "Mortar-bearing hag",
+    "summary": "An old woman who walks bearing a mortar.",
+    "summaryJa": "臼を負って歩く婆。夜の重荷。",
+    "legends": [
+      "An old woman who walks bearing a mortar.",
+      "Logistics of stone.",
+      "Do not merge 臼負い婆 into a neighbour card."
+    ],
+    "traits": [
+      "Mortar-bearing hag",
+      "婆",
+      "臼",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "婆",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "Logistics of stone.",
+    "funFactJa": "石の物流。",
+    "searchQuery": "臼負い婆 うすおいばば 妖怪",
+    "creativeHooks": [
+      "Logistics of stone.",
+      "Keep 臼負い婆 as its own plate.",
+      "The workplace is 臼を負う婆."
+    ],
+    "sources": [
+      "臼負い婆 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Unagi-otoko",
+    "nativeName": "鰻男",
+    "region": "鰻の男",
+    "category": "変化",
+    "categoryEn": "Eel man",
+    "summary": "An eel that takes a man's shape.",
+    "summaryJa": "鰻が男になる。川の細長い変化。",
+    "legends": [
+      "An eel that takes a man's shape.",
+      "A commute that is slippery.",
+      "Do not merge 鰻男 into a neighbour card."
+    ],
+    "traits": [
+      "Eel man",
+      "鰻",
+      "男",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "変化",
+      "鰻",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A commute that is slippery.",
+    "funFactJa": "滑る通勤。",
+    "searchQuery": "鰻男 うなぎおとこ 妖怪",
+    "creativeHooks": [
+      "A commute that is slippery.",
+      "Keep 鰻男 as its own plate.",
+      "The workplace is 鰻の男."
+    ],
+    "sources": [
+      "鰻男 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ubato-i",
+    "nativeName": "ウバトウイ",
+    "region": "ウバトウイ",
+    "category": "死霊",
+    "categoryEn": "Ubatoi",
+    "summary": "A local hag-name filed in encyclopedias.",
+    "summaryJa": "ウバトウイと呼ばれる老女の怪。",
+    "legends": [
+      "A local hag-name filed in encyclopedias.",
+      "A proper noun of old women.",
+      "Do not merge ウバトウイ into a neighbour card."
+    ],
+    "traits": [
+      "Ubatoi",
+      "婆",
+      "地方",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "婆",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A proper noun of old women.",
+    "funFactJa": "老女の固有名詞。",
+    "searchQuery": "ウバトウイ うばとうい 妖怪",
+    "creativeHooks": [
+      "A proper noun of old women.",
+      "Keep ウバトウイ as its own plate.",
+      "The workplace is ウバトウイ."
+    ],
+    "sources": [
+      "ウバトウイ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ubame-tori",
+    "nativeName": "うばめ取り",
+    "region": "姥を取る",
+    "category": "死霊",
+    "categoryEn": "Hag-taker",
+    "summary": "A yokai that snatches old women at night.",
+    "summaryJa": "姥を取る怪。夜のさらいの、老女側。",
+    "legends": [
+      "A yokai that snatches old women at night.",
+      "A census of grandmothers.",
+      "Do not merge うばめ取り into a neighbour card."
+    ],
+    "traits": [
+      "Hag-taker",
+      "婆",
+      "さらい",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "婆",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A census of grandmothers.",
+    "funFactJa": "祖母の国勢調査。",
+    "searchQuery": "うばめ取り うばめとり 妖怪",
+    "creativeHooks": [
+      "A census of grandmothers.",
+      "Keep うばめ取り as its own plate.",
+      "The workplace is 姥を取る."
+    ],
+    "sources": [
+      "うばめ取り / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Umashika",
+    "nativeName": "馬鹿",
+    "region": "馬と鹿",
+    "category": "変化",
+    "categoryEn": "Uma-shika",
+    "summary": "A foolish horse-deer beast whose name collides with a common insult.",
+    "summaryJa": "馬と鹿の間の愚かな獣の怪。名が普通名詞と重なる。",
+    "legends": [
+      "A foolish horse-deer beast whose name collides with a common insult.",
+      "Do not recast as a punchline only.",
+      "Do not merge 馬鹿 into a neighbour card."
+    ],
+    "traits": [
+      "Uma-shika",
+      "馬",
+      "鹿",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "変化",
+      "馬",
+      "picture-scroll",
+      "comic"
+    ],
+    "funFact": "Do not recast as a punchline only.",
+    "funFactJa": "洒落だけにしない。",
+    "searchQuery": "馬鹿 うましか 妖怪",
+    "creativeHooks": [
+      "Do not recast as a punchline only.",
+      "Keep 馬鹿 as its own plate.",
+      "The workplace is 馬と鹿."
+    ],
+    "sources": [
+      "馬鹿 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Uma-tsuki",
+    "nativeName": "馬憑き",
+    "region": "馬が憑く",
+    "category": "憑きもの",
+    "categoryEn": "Horse possession",
+    "summary": "A horse possessing a person; the hoof side of kitsune-tsuki.",
+    "summaryJa": "馬が人に憑く。狐憑きの、蹄側。",
+    "legends": [
+      "A horse possessing a person; the hoof side of kitsune-tsuki.",
+      "A diagnosis with a saddle.",
+      "Do not merge 馬憑き into a neighbour card."
+    ],
+    "traits": [
+      "Horse possession",
+      "馬",
+      "憑き",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "憑きもの",
+      "馬",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A diagnosis with a saddle.",
+    "funFactJa": "鞍のある診断。",
+    "searchQuery": "馬憑き うまとすき 妖怪",
+    "creativeHooks": [
+      "A diagnosis with a saddle.",
+      "Keep 馬憑き as its own plate.",
+      "The workplace is 馬が憑く."
+    ],
+    "sources": [
+      "馬憑き / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Umi-ama",
+    "nativeName": "海海女",
+    "region": "海の海女",
+    "category": "海",
+    "categoryEn": "Sea ama",
+    "summary": "A yokai in ama-diver shape; not the living diver.",
+    "summaryJa": "海の海女の怪。生身の海女とは別。",
+    "legends": [
+      "A yokai in ama-diver shape; not the living diver.",
+      "A shift that is a haunting.",
+      "Do not merge 海海女 into a neighbour card."
+    ],
+    "traits": [
+      "Sea ama",
+      "海女",
+      "Sea",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "海女",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A shift that is a haunting.",
+    "funFactJa": "呪いの当番。",
+    "searchQuery": "海海女 うみあま 妖怪",
+    "creativeHooks": [
+      "A shift that is a haunting.",
+      "Keep 海海女 as its own plate.",
+      "The workplace is 海の海女."
+    ],
+    "sources": [
+      "海海女 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Umi-kaburo",
+    "nativeName": "海禿",
+    "region": "海の禿",
+    "category": "海",
+    "categoryEn": "Sea kamuro",
+    "summary": "A kamuro of the sea; salt neighbour to Yashima-no-kamuro.",
+    "summaryJa": "海の禿。屋島の禿の、海側。",
+    "legends": [
+      "A kamuro of the sea; salt neighbour to Yashima-no-kamuro.",
+      "A haircut on the tide.",
+      "Do not merge 海禿 into a neighbour card."
+    ],
+    "traits": [
+      "Sea kamuro",
+      "禿",
+      "Sea",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "禿",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A haircut on the tide.",
+    "funFactJa": "潮の散髪。",
+    "searchQuery": "海禿 うみかぶろ 妖怪",
+    "creativeHooks": [
+      "A haircut on the tide.",
+      "Keep 海禿 as its own plate.",
+      "The workplace is 海の禿."
+    ],
+    "sources": [
+      "海禿 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Umi-gumo",
+    "nativeName": "海蜘蛛",
+    "region": "海の蜘蛛",
+    "category": "海",
+    "categoryEn": "Sea spider",
+    "summary": "A sea-spider that threads ships in Tsukushi.",
+    "summaryJa": "船に糸を吐く海蜘蛛。筑紫の怪。",
+    "legends": [
+      "A sea-spider that threads ships in Tsukushi.",
+      "A web with a hull.",
+      "Do not merge 海蜘蛛 into a neighbour card."
+    ],
+    "traits": [
+      "Sea spider",
+      "蜘蛛",
+      "Sea",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "蜘蛛",
+      "picture-scroll",
+      "horror"
+    ],
+    "funFact": "A web with a hull.",
+    "funFactJa": "船体のある網。",
+    "searchQuery": "海蜘蛛 うみぐも 妖怪",
+    "creativeHooks": [
+      "A web with a hull.",
+      "Keep 海蜘蛛 as its own plate.",
+      "The workplace is 海の蜘蛛."
+    ],
+    "sources": [
+      "海蜘蛛 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Umi-jijii",
+    "nativeName": "海爺",
+    "region": "海の爺",
+    "category": "海",
+    "categoryEn": "Sea grandfather",
+    "summary": "An unseen old man of the sea who steals the catch.",
+    "summaryJa": "姿の見えない海の爺。獲物を横取りする。",
+    "legends": [
+      "An unseen old man of the sea who steals the catch.",
+      "A poacher with no body.",
+      "Do not merge 海爺 into a neighbour card."
+    ],
+    "traits": [
+      "Sea grandfather",
+      "爺",
+      "Sea",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "爺",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A poacher with no body.",
+    "funFactJa": "体の無い密漁。",
+    "searchQuery": "海爺 うみじじい 妖怪",
+    "creativeHooks": [
+      "A poacher with no body.",
+      "Keep 海爺 as its own plate.",
+      "The workplace is 海の爺."
+    ],
+    "sources": [
+      "海爺 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Uminari-kobozu",
+    "nativeName": "海鳴り小坊主",
+    "region": "海鳴りの坊主",
+    "category": "海",
+    "categoryEn": "Sea-rumble acolyte",
+    "summary": "A small monk who appears with the rumble of the sea.",
+    "summaryJa": "海鳴りとともに出る小坊主。",
+    "legends": [
+      "A small monk who appears with the rumble of the sea.",
+      "A soundtrack with a tonsure.",
+      "Do not merge 海鳴り小坊主 into a neighbour card."
+    ],
+    "traits": [
+      "Sea-rumble acolyte",
+      "坊主",
+      "海鳴り",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "坊主",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A soundtrack with a tonsure.",
+    "funFactJa": "剃髪のサウンドトラック。",
+    "searchQuery": "海鳴り小坊主 うみなりこぼうず 妖怪",
+    "creativeHooks": [
+      "A soundtrack with a tonsure.",
+      "Keep 海鳴り小坊主 as its own plate.",
+      "The workplace is 海鳴りの坊主."
+    ],
+    "sources": [
+      "海鳴り小坊主 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Uya-uyashi",
+    "nativeName": "有夜宇屋志",
+    "region": "絵巻の怪",
+    "category": "異形",
+    "categoryEn": "Uya-uyashi",
+    "summary": "A named plate from a bakemono-zukushi scroll with little else.",
+    "summaryJa": "化物尽くし絵巻の有夜宇屋志。名だけ残る。",
+    "legends": [
+      "A named plate from a bakemono-zukushi scroll with little else.",
+      "A caption that is the monster.",
+      "Do not merge 有夜宇屋志 into a neighbour card."
+    ],
+    "traits": [
+      "Uya-uyashi",
+      "絵巻",
+      "名",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "絵巻",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A caption that is the monster.",
+    "funFactJa": "キャプションが怪物。",
+    "searchQuery": "有夜宇屋志 うやうやし 妖怪",
+    "creativeHooks": [
+      "A caption that is the monster.",
+      "Keep 有夜宇屋志 as its own plate.",
+      "The workplace is 絵巻の怪."
+    ],
+    "sources": [
+      "有夜宇屋志 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ura",
+    "nativeName": "温羅",
+    "region": "吉備の鬼",
+    "category": "鬼",
+    "categoryEn": "Ura",
+    "summary": "The oni Ura of Kibi; the other company in the centipede war.",
+    "summaryJa": "吉備の鬼・温羅。百足譚の相手方。",
+    "legends": [
+      "The oni Ura of Kibi; the other company in the centipede war.",
+      "Keep 大百足 as the branded bug.",
+      "Do not merge 温羅 into a neighbour card."
+    ],
+    "traits": [
+      "Ura",
+      "Oni",
+      "吉備",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "鬼",
+      "picture-scroll",
+      "horror",
+      "index-lore"
+    ],
+    "funFact": "Keep 大百足 as the branded bug.",
+    "funFactJa": "百足のブランドは別項。",
+    "searchQuery": "温羅 うら 妖怪",
+    "creativeHooks": [
+      "Keep 大百足 as the branded bug.",
+      "Keep 温羅 as its own plate.",
+      "The workplace is 吉備の鬼."
+    ],
+    "sources": [
+      "温羅 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ema-no-sei",
+    "nativeName": "絵馬の精",
+    "region": "絵馬",
+    "category": "付喪神",
+    "categoryEn": "Ema spirit",
+    "summary": "The spirit of votive ema plaques that feast at night.",
+    "summaryJa": "絵馬の精。願の板が夜に宴をする。",
+    "legends": [
+      "The spirit of votive ema plaques that feast at night.",
+      "A suggestion box with a pulse.",
+      "Do not merge 絵馬の精 into a neighbour card."
+    ],
+    "traits": [
+      "Ema spirit",
+      "絵馬",
+      "願",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "絵馬",
+      "picture-scroll",
+      "mysterious"
+    ],
+    "funFact": "A suggestion box with a pulse.",
+    "funFactJa": "脈のある目安箱。",
+    "searchQuery": "絵馬の精 えまのせい 妖怪",
+    "creativeHooks": [
+      "A suggestion box with a pulse.",
+      "Keep 絵馬の精 as its own plate.",
+      "The workplace is 絵馬."
+    ],
+    "sources": [
+      "絵馬の精 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Okuri-suzume",
+    "nativeName": "送り雀",
+    "region": "送りの雀",
+    "category": "変化",
+    "categoryEn": "Sending sparrow",
+    "summary": "Sparrows that escort a walker at night; the bird-side of okuri-inu.",
+    "summaryJa": "人を送る雀。夜道の鳥の送り。",
+    "legends": [
+      "Sparrows that escort a walker at night; the bird-side of okuri-inu.",
+      "A commute with feathers.",
+      "Do not merge 送り雀 into a neighbour card."
+    ],
+    "traits": [
+      "Sending sparrow",
+      "雀",
+      "送り",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "変化",
+      "雀",
+      "folk plate",
+      "mysterious"
+    ],
+    "funFact": "A commute with feathers.",
+    "funFactJa": "羽の送迎。",
+    "searchQuery": "送り雀 おくりすずめ 妖怪",
+    "creativeHooks": [
+      "A commute with feathers.",
+      "Keep 送り雀 as its own plate.",
+      "The workplace is 送りの雀."
+    ],
+    "sources": [
+      "送り雀 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Domentsu",
+    "nativeName": "胴面",
+    "region": "胴の面",
+    "category": "異形",
+    "categoryEn": "Torso-face",
+    "summary": "A yokai with a face on the torso.",
+    "summaryJa": "胴に面がある怪。あかはだかの項。",
+    "legends": [
+      "A yokai with a face on the torso.",
+      "Anatomy that relocated.",
+      "Do not merge 胴面 into a neighbour card."
+    ],
+    "traits": [
+      "Torso-face",
+      "面",
+      "胴",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "面",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "Anatomy that relocated.",
+    "funFactJa": "引っ越した顔。",
+    "searchQuery": "胴面 どうめん 妖怪",
+    "creativeHooks": [
+      "Anatomy that relocated.",
+      "Keep 胴面 as its own plate.",
+      "The workplace is 胴の面."
+    ],
+    "sources": [
+      "胴面 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Beka-taro",
+    "nativeName": "べか太郎",
+    "region": "べかの太郎",
+    "category": "町",
+    "categoryEn": "Beka Taro",
+    "summary": "A boy yokai who sticks out his tongue; neighbour to akanbe.",
+    "summaryJa": "舌を出す小僧。あかんべいの隣。",
+    "legends": [
+      "A boy yokai who sticks out his tongue; neighbour to akanbe.",
+      "A grimace with a name.",
+      "Do not merge べか太郎 into a neighbour card."
+    ],
+    "traits": [
+      "Beka Taro",
+      "子ども",
+      "舌",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "町",
+      "子ども",
+      "folk plate",
+      "playful"
+    ],
+    "funFact": "A grimace with a name.",
+    "funFactJa": "名のあるしかめ。",
+    "searchQuery": "べか太郎 べかたろう 妖怪",
+    "creativeHooks": [
+      "A grimace with a name.",
+      "Keep べか太郎 as its own plate.",
+      "The workplace is べかの太郎."
+    ],
+    "sources": [
+      "べか太郎 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Atkor-kamuy",
+    "nativeName": "アッコロカムイ",
+    "region": "アイヌの大章魚",
+    "category": "海",
+    "categoryEn": "Atkor kamuy",
+    "summary": "Ainu giant octopus kamuy filed in yokai encyclopedias as a sea monster.",
+    "summaryJa": "アイヌの巨大な蛸のカムイ。図鑑では海の怪として載る。",
+    "legends": [
+      "Ainu giant octopus kamuy filed in yokai encyclopedias as a sea monster.",
+      "Do not recast as a cute kraken.",
+      "Do not merge アッコロカムイ into a neighbour card."
+    ],
+    "traits": [
+      "Atkor kamuy",
+      "蛸",
+      "アイヌ",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "蛸",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "Do not recast as a cute kraken.",
+    "funFactJa": "可愛いクラーケンにしない。",
+    "searchQuery": "アッコロカムイ あっころかむい 妖怪",
+    "creativeHooks": [
+      "Do not recast as a cute kraken.",
+      "Keep アッコロカムイ as its own plate.",
+      "The workplace is アイヌの大章魚."
+    ],
+    "sources": [
+      "アッコロカムイ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Amemasu",
+    "nativeName": "あめます",
+    "region": "湖の魚",
+    "category": "水系",
+    "categoryEn": "Amemasu",
+    "summary": "A giant lake char that swallows people.",
+    "summaryJa": "湖の大魚の怪。人を呑むアメマス。",
+    "legends": [
+      "A giant lake char that swallows people.",
+      "A fishery with a gulp.",
+      "Do not merge あめます into a neighbour card."
+    ],
+    "traits": [
+      "Amemasu",
+      "魚",
+      "湖",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "水系",
+      "魚",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "A fishery with a gulp.",
+    "funFactJa": "一口の漁。",
+    "searchQuery": "あめます あめます 妖怪",
+    "creativeHooks": [
+      "A fishery with a gulp.",
+      "Keep あめます as its own plate.",
+      "The workplace is 湖の魚."
+    ],
+    "sources": [
+      "あめます / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Igusa-no-kesabo",
+    "nativeName": "伊草の袈裟坊",
+    "region": "伊草の坊",
+    "category": "死霊",
+    "categoryEn": "Kesabo of Igusa",
+    "summary": "A kesa-wearing monk yokai of Igusa.",
+    "summaryJa": "伊草に出る袈裟の坊主。寺の地方怪。",
+    "legends": [
+      "A kesa-wearing monk yokai of Igusa.",
+      "A parish with a place-name.",
+      "Do not merge 伊草の袈裟坊 into a neighbour card."
+    ],
+    "traits": [
+      "Kesabo of Igusa",
+      "坊主",
+      "袈裟",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "坊主",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "A parish with a place-name.",
+    "funFactJa": "地名のある檀家。",
+    "searchQuery": "伊草の袈裟坊 いぐさのけさぼう 妖怪",
+    "creativeHooks": [
+      "A parish with a place-name.",
+      "Keep 伊草の袈裟坊 as its own plate.",
+      "The workplace is 伊草の坊."
+    ],
+    "sources": [
+      "伊草の袈裟坊 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ikkan-kozo",
+    "nativeName": "一貫小僧",
+    "region": "銭の小僧",
+    "category": "町",
+    "categoryEn": "Ikkan boy",
+    "summary": "A boy yokai associated with a kan of coin.",
+    "summaryJa": "銭一貫の小僧。蒜山などの地方怪。",
+    "legends": [
+      "A boy yokai associated with a kan of coin.",
+      "A wallet that walks.",
+      "Do not merge 一貫小僧 into a neighbour card."
+    ],
+    "traits": [
+      "Ikkan boy",
+      "銭",
+      "子ども",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "町",
+      "銭",
+      "folk plate",
+      "playful"
+    ],
+    "funFact": "A wallet that walks.",
+    "funFactJa": "歩く財布。",
+    "searchQuery": "一貫小僧 いっかんこぞう 妖怪",
+    "creativeHooks": [
+      "A wallet that walks.",
+      "Keep 一貫小僧 as its own plate.",
+      "The workplace is 銭の小僧."
+    ],
+    "sources": [
+      "一貫小僧 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Inka",
+    "nativeName": "陰火",
+    "region": "陰の火",
+    "category": "霊火",
+    "categoryEn": "Yin fire",
+    "summary": "Yin fire; the book-name neighbour to onibi.",
+    "summaryJa": "陰火。鬼火の漢語側。",
+    "legends": [
+      "Yin fire; the book-name neighbour to onibi.",
+      "Keep 鬼火 as the branded wick.",
+      "Do not merge 陰火 into a neighbour card."
+    ],
+    "traits": [
+      "Yin fire",
+      "火",
+      "陰",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "霊火",
+      "火",
+      "folk plate",
+      "mysterious"
+    ],
+    "funFact": "Keep 鬼火 as the branded wick.",
+    "funFactJa": "鬼火はブランド。",
+    "searchQuery": "陰火 いんか 妖怪",
+    "creativeHooks": [
+      "Keep 鬼火 as the branded wick.",
+      "Keep 陰火 as its own plate.",
+      "The workplace is 陰の火."
+    ],
+    "sources": [
+      "陰火 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Inu-no-borei",
+    "nativeName": "犬の亡霊",
+    "region": "犬の霊",
+    "category": "死霊",
+    "categoryEn": "Dog ghost",
+    "summary": "The ghost of a dog in island lore.",
+    "summaryJa": "犬の亡霊。下甑島などの伝承。",
+    "legends": [
+      "The ghost of a dog in island lore.",
+      "A leash from the other side.",
+      "Do not merge 犬の亡霊 into a neighbour card."
+    ],
+    "traits": [
+      "Dog ghost",
+      "犬",
+      "霊",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "犬",
+      "folk plate",
+      "tragic"
+    ],
+    "funFact": "A leash from the other side.",
+    "funFactJa": "あちら側の綱。",
+    "searchQuery": "犬の亡霊 いぬのぼうれい 妖怪",
+    "creativeHooks": [
+      "A leash from the other side.",
+      "Keep 犬の亡霊 as its own plate.",
+      "The workplace is 犬の霊."
+    ],
+    "sources": [
+      "犬の亡霊 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Uchiwata-tanuki",
+    "nativeName": "打綿狸",
+    "region": "綿を打つ狸",
+    "category": "狐狸",
+    "categoryEn": "Cotton-beating tanuki",
+    "summary": "A tanuki that beats cotton as its night job.",
+    "summaryJa": "綿を打つ狸。仕事する化け狸。",
+    "legends": [
+      "A tanuki that beats cotton as its night job.",
+      "Textile overtime with a leaf.",
+      "Do not merge 打綿狸 into a neighbour card."
+    ],
+    "traits": [
+      "Cotton-beating tanuki",
+      "狸",
+      "綿",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "狐狸",
+      "狸",
+      "folk plate",
+      "playful"
+    ],
+    "funFact": "Textile overtime with a leaf.",
+    "funFactJa": "葉のある繊維残業。",
+    "searchQuery": "打綿狸 うちわたたぬき 妖怪",
+    "creativeHooks": [
+      "Textile overtime with a leaf.",
+      "Keep 打綿狸 as its own plate.",
+      "The workplace is 綿を打つ狸."
+    ],
+    "sources": [
+      "打綿狸 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Umi-onna",
+    "nativeName": "海女",
+    "region": "海の女の怪",
+    "category": "海",
+    "categoryEn": "Sea woman",
+    "summary": "A woman-shaped sea yokai; not the living ama diver.",
+    "summaryJa": "海の女の怪。生身の海女とは別項。",
+    "legends": [
+      "A woman-shaped sea yokai; not the living ama diver.",
+      "A shift that is salt.",
+      "Do not merge 海女 into a neighbour card."
+    ],
+    "traits": [
+      "Sea woman",
+      "女",
+      "海",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "女",
+      "folk plate",
+      "mysterious"
+    ],
+    "funFact": "A shift that is salt.",
+    "funFactJa": "塩の当番。",
+    "searchQuery": "海女 うみおんな 妖怪",
+    "creativeHooks": [
+      "A shift that is salt.",
+      "Keep 海女 as its own plate.",
+      "The workplace is 海の女の怪."
+    ],
+    "sources": [
+      "海女 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akadenchu",
+    "nativeName": "赤殿中",
+    "region": "赤い殿中",
+    "category": "狐狸",
+    "categoryEn": "Red denchu tanuki",
+    "summary": "A tanuki that takes the shape of a red denchu lantern-hat.",
+    "summaryJa": "赤い殿中に化ける狸。",
+    "legends": [
+      "A tanuki that takes the shape of a red denchu lantern-hat.",
+      "Fashion with a tail.",
+      "Do not merge 赤殿中 into a neighbour card."
+    ],
+    "traits": [
+      "Red denchu tanuki",
+      "狸",
+      "赤",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "狐狸",
+      "狸",
+      "folk plate",
+      "playful"
+    ],
+    "funFact": "Fashion with a tail.",
+    "funFactJa": "しっぽのある装い。",
+    "searchQuery": "赤殿中 あかでんちゅう 妖怪",
+    "creativeHooks": [
+      "Fashion with a tail.",
+      "Keep 赤殿中 as its own plate.",
+      "The workplace is 赤い殿中."
+    ],
+    "sources": [
+      "赤殿中 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Itachi-no-kai",
+    "nativeName": "鼬の怪",
+    "region": "イタチの怪",
+    "category": "変化",
+    "categoryEn": "Weasel oddity",
+    "summary": "A weasel yokai; neighbour to kamaitachi and ten.",
+    "summaryJa": "イタチの怪。鎌鼬・テンの、普通の鼬側。",
+    "legends": [
+      "A weasel yokai; neighbour to kamaitachi and ten.",
+      "Keep the wind-blades on the other card.",
+      "Do not merge 鼬の怪 into a neighbour card."
+    ],
+    "traits": [
+      "Weasel oddity",
+      "鼬",
+      "獣",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "変化",
+      "鼬",
+      "folk plate",
+      "mysterious"
+    ],
+    "funFact": "Keep the wind-blades on the other card.",
+    "funFactJa": "風の刃は別項。",
+    "searchQuery": "鼬の怪 いたちのかい 妖怪",
+    "creativeHooks": [
+      "Keep the wind-blades on the other card.",
+      "Keep 鼬の怪 as its own plate.",
+      "The workplace is イタチの怪."
+    ],
+    "sources": [
+      "鼬の怪 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Atake-maru",
+    "nativeName": "安宅丸",
+    "region": "安宅丸の怪",
+    "category": "海",
+    "categoryEn": "Atake-maru",
+    "summary": "The spectral side of the great Atake-maru warship.",
+    "summaryJa": "安宅丸にまつわる船の怪。巨船が怪異になる。",
+    "legends": [
+      "The spectral side of the great Atake-maru warship.",
+      "A navy that is a haunting.",
+      "Do not merge 安宅丸 into a neighbour card."
+    ],
+    "traits": [
+      "Atake-maru",
+      "船",
+      "海",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "船",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "A navy that is a haunting.",
+    "funFactJa": "呪いの艦隊。",
+    "searchQuery": "安宅丸 あたけまる 妖怪",
+    "creativeHooks": [
+      "A navy that is a haunting.",
+      "Keep 安宅丸 as its own plate.",
+      "The workplace is 安宅丸の怪."
+    ],
+    "sources": [
+      "安宅丸 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Akki",
+    "nativeName": "悪鬼",
+    "region": "悪鬼",
+    "category": "鬼",
+    "categoryEn": "Akki",
+    "summary": "A fierce oni under the Sino-Japanese name akki.",
+    "summaryJa": "悪鬼。鬼の、漢語の荒い側。",
+    "legends": [
+      "A fierce oni under the Sino-Japanese name akki.",
+      "Keep 鬼 as the branded horn.",
+      "Do not merge 悪鬼 into a neighbour card."
+    ],
+    "traits": [
+      "Akki",
+      "鬼",
+      "悪",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "鬼",
+      "folk plate",
+      "horror",
+      "scroll name"
+    ],
+    "funFact": "Keep 鬼 as the branded horn.",
+    "funFactJa": "角のブランドは別項。",
+    "searchQuery": "悪鬼 あっき 妖怪",
+    "creativeHooks": [
+      "Keep 鬼 as the branded horn.",
+      "Keep 悪鬼 as its own plate.",
+      "The workplace is 悪鬼."
+    ],
+    "sources": [
+      "悪鬼 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Koshipu",
+    "nativeName": "コシンプ",
+    "region": "アイヌの怪",
+    "category": "異形",
+    "categoryEn": "Koshipu",
+    "summary": "An Ainu harmful spirit that changes shape, filed in yokai indexes.",
+    "summaryJa": "アイヌのコシンプ。姿を変える禍の精。",
+    "legends": [
+      "An Ainu harmful spirit that changes shape, filed in yokai indexes.",
+      "Do not cute-wash it.",
+      "Do not merge コシンプ into a neighbour card."
+    ],
+    "traits": [
+      "Koshipu",
+      "アイヌ",
+      "変化",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "アイヌ",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "Do not cute-wash it.",
+    "funFactJa": "可愛くしない。",
+    "searchQuery": "コシンプ こしんぷ 妖怪",
+    "creativeHooks": [
+      "Do not cute-wash it.",
+      "Keep コシンプ as its own plate.",
+      "The workplace is アイヌの怪."
+    ],
+    "sources": [
+      "コシンプ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Arasaraus",
+    "nativeName": "アラサラウス",
+    "region": "アイヌの山怪",
+    "category": "山系",
+    "categoryEn": "Arasaraus",
+    "summary": "An Ainu mountain harm-spirit listed in encyclopedias.",
+    "summaryJa": "アイヌのアラサラウス。山の禍。",
+    "legends": [
+      "An Ainu mountain harm-spirit listed in encyclopedias.",
+      "A ridge with a proper name.",
+      "Do not merge アラサラウス into a neighbour card."
+    ],
+    "traits": [
+      "Arasaraus",
+      "アイヌ",
+      "山",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "山系",
+      "アイヌ",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "A ridge with a proper name.",
+    "funFactJa": "固有名詞の尾根。",
+    "searchQuery": "アラサラウス あらさらうす 妖怪",
+    "creativeHooks": [
+      "A ridge with a proper name.",
+      "Keep アラサラウス as its own plate.",
+      "The workplace is アイヌの山怪."
+    ],
+    "sources": [
+      "アラサラウス / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ammo",
+    "nativeName": "アンモ",
+    "region": "アンモ",
+    "category": "異形",
+    "categoryEn": "Ammo",
+    "summary": "A locally named yokai filed as ammo.",
+    "summaryJa": "アンモと呼ばれる怪。図鑑の地方名。",
+    "legends": [
+      "A locally named yokai filed as ammo.",
+      "A caption that is the body.",
+      "Do not merge アンモ into a neighbour card."
+    ],
+    "traits": [
+      "Ammo",
+      "地方",
+      "異形",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "地方",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "A caption that is the body.",
+    "funFactJa": "キャプションが体。",
+    "searchQuery": "アンモ あんも 妖怪",
+    "creativeHooks": [
+      "A caption that is the body.",
+      "Keep アンモ as its own plate.",
+      "The workplace is アンモ."
+    ],
+    "sources": [
+      "アンモ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Koshinpu2",
+    "nativeName": "イワコシンプ",
+    "region": "岩のコシンプ",
+    "category": "山系",
+    "categoryEn": "Iwa-koshipu",
+    "summary": "A rock-dwelling koshipu; mountain neighbour to koshipu.",
+    "summaryJa": "岩のコシンプ。コシンプの山側。",
+    "legends": [
+      "A rock-dwelling koshipu; mountain neighbour to koshipu.",
+      "Keep コシンプ as the cover name.",
+      "Do not merge イワコシンプ into a neighbour card."
+    ],
+    "traits": [
+      "Iwa-koshipu",
+      "岩",
+      "アイヌ",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "山系",
+      "岩",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "Keep コシンプ as the cover name.",
+    "funFactJa": "総称は別項。",
+    "searchQuery": "イワコシンプ いわこしんぷ 妖怪",
+    "creativeHooks": [
+      "Keep コシンプ as the cover name.",
+      "Keep イワコシンプ as its own plate.",
+      "The workplace is 岩のコシンプ."
+    ],
+    "sources": [
+      "イワコシンプ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Iwasaraus",
+    "nativeName": "イワサラウス",
+    "region": "岩のサラウス",
+    "category": "山系",
+    "categoryEn": "Iwa-saraus",
+    "summary": "A rock harm-spirit kin to arasaraus.",
+    "summaryJa": "岩のサラウス。アラサラウスの岩側。",
+    "legends": [
+      "A rock harm-spirit kin to arasaraus.",
+      "A ridge of stone names.",
+      "Do not merge イワサラウス into a neighbour card."
+    ],
+    "traits": [
+      "Iwa-saraus",
+      "岩",
+      "アイヌ",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "山系",
+      "岩",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "A ridge of stone names.",
+    "funFactJa": "石の名の尾根。",
+    "searchQuery": "イワサラウス いわさらうす 妖怪",
+    "creativeHooks": [
+      "A ridge of stone names.",
+      "Keep イワサラウス as its own plate.",
+      "The workplace is 岩のサラウス."
+    ],
+    "sources": [
+      "イワサラウス / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Keshana",
+    "nativeName": "ケナシコルウナルペ",
+    "region": "アイヌの女怪",
+    "category": "死霊",
+    "categoryEn": "Kenash-kor-unarpe",
+    "summary": "An Ainu female harm-spirit listed in yokai encyclopedias.",
+    "summaryJa": "アイヌの女の禍の精。図鑑に載る。",
+    "legends": [
+      "An Ainu female harm-spirit listed in yokai encyclopedias.",
+      "Do not recast as a cute witch.",
+      "Do not merge ケナシコルウナルペ into a neighbour card."
+    ],
+    "traits": [
+      "Kenash-kor-unarpe",
+      "女",
+      "アイヌ",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "死霊",
+      "女",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "Do not recast as a cute witch.",
+    "funFactJa": "魔女萌えにしない。",
+    "searchQuery": "ケナシコルウナルペ けなしこるうなるぺ 妖怪",
+    "creativeHooks": [
+      "Do not recast as a cute witch.",
+      "Keep ケナシコルウナルペ as its own plate.",
+      "The workplace is アイヌの女怪."
+    ],
+    "sources": [
+      "ケナシコルウナルペ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ipetam",
+    "nativeName": "イペタム",
+    "region": "人食い刀",
+    "category": "異形",
+    "categoryEn": "Ipetam",
+    "summary": "A blood-hungry cursed blade that will not sheath until it sees blood.",
+    "summaryJa": "血に飢えた妖刀。一度抜くと収まらない。",
+    "legends": [
+      "A blood-hungry cursed blade that will not sheath until it sees blood.",
+      "A sword with a diet.",
+      "Do not merge イペタム into a neighbour card."
+    ],
+    "traits": [
+      "Ipetam",
+      "刀",
+      "血",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "刀",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "A sword with a diet.",
+    "funFactJa": "食事のある刀。",
+    "searchQuery": "イペタム いぺたむ 妖怪",
+    "creativeHooks": [
+      "A sword with a diet.",
+      "Keep イペタム as its own plate.",
+      "The workplace is 人食い刀."
+    ],
+    "sources": [
+      "イペタム / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Iwaetunnai",
+    "nativeName": "イワエトゥンナイ",
+    "region": "岩の穴の怪",
+    "category": "山系",
+    "categoryEn": "Iwa-etunnai",
+    "summary": "An Ainu spirit of rock crevices.",
+    "summaryJa": "岩の隙間のアイヌの怪。",
+    "legends": [
+      "An Ainu spirit of rock crevices.",
+      "A crack that hunts.",
+      "Do not merge イワエトゥンナイ into a neighbour card."
+    ],
+    "traits": [
+      "Iwa-etunnai",
+      "岩",
+      "隙間",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "山系",
+      "岩",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "A crack that hunts.",
+    "funFactJa": "狩る裂け目。",
+    "searchQuery": "イワエトゥンナイ いわえとぅんない 妖怪",
+    "creativeHooks": [
+      "A crack that hunts.",
+      "Keep イワエトゥンナイ as its own plate.",
+      "The workplace is 岩の穴の怪."
+    ],
+    "sources": [
+      "イワエトゥンナイ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Iwaho-inu",
+    "nativeName": "イワホイヌ",
+    "region": "岩の鼬",
+    "category": "変化",
+    "categoryEn": "Iwaho-inu",
+    "summary": "A mountain weasel with great horns and teeth in Ainu lore.",
+    "summaryJa": "大きな角と歯の山イタチの怪。",
+    "legends": [
+      "A mountain weasel with great horns and teeth in Ainu lore.",
+      "A ridge mustelid.",
+      "Do not merge イワホイヌ into a neighbour card."
+    ],
+    "traits": [
+      "Iwaho-inu",
+      "鼬",
+      "角",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "変化",
+      "鼬",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "A ridge mustelid.",
+    "funFactJa": "尾根のイタチ。",
+    "searchQuery": "イワホイヌ いわほいぬ 妖怪",
+    "creativeHooks": [
+      "A ridge mustelid.",
+      "Keep イワホイヌ as its own plate.",
+      "The workplace is 岩の鼬."
+    ],
+    "sources": [
+      "イワホイヌ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Iwaposinkara",
+    "nativeName": "イワポソインカラ",
+    "region": "岩を見る怪",
+    "category": "山系",
+    "categoryEn": "Iwa-pos-inkara",
+    "summary": "An Ainu watching-from-rock spirit.",
+    "summaryJa": "岩を見るアイヌの怪。",
+    "legends": [
+      "An Ainu watching-from-rock spirit.",
+      "Surveillance in stone.",
+      "Do not merge イワポソインカラ into a neighbour card."
+    ],
+    "traits": [
+      "Iwa-pos-inkara",
+      "岩",
+      "見る",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "山系",
+      "岩",
+      "folk plate",
+      "mysterious"
+    ],
+    "funFact": "Surveillance in stone.",
+    "funFactJa": "石の監視。",
+    "searchQuery": "イワポソインカラ いわぽそいんから 妖怪",
+    "creativeHooks": [
+      "Surveillance in stone.",
+      "Keep イワポソインカラ as its own plate.",
+      "The workplace is 岩を見る怪."
+    ],
+    "sources": [
+      "イワポソインカラ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ainu-kaisei",
+    "nativeName": "アイヌカイセイ",
+    "region": "アイヌの海怪",
+    "category": "海",
+    "categoryEn": "Ainu-kaisei",
+    "summary": "A sea harm-spirit of Ainu lore filed as yokai.",
+    "summaryJa": "アイヌカイセイ。海の禍。",
+    "legends": [
+      "A sea harm-spirit of Ainu lore filed as yokai.",
+      "A tide with a proper name.",
+      "Do not merge アイヌカイセイ into a neighbour card."
+    ],
+    "traits": [
+      "Ainu-kaisei",
+      "海",
+      "アイヌ",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "folk plate",
+      "horror",
+      "scroll name"
+    ],
+    "funFact": "A tide with a proper name.",
+    "funFactJa": "固有名詞の潮。",
+    "searchQuery": "アイヌカイセイ あいぬかいせい 妖怪",
+    "creativeHooks": [
+      "A tide with a proper name.",
+      "Keep アイヌカイセイ as its own plate.",
+      "The workplace is アイヌの海怪."
+    ],
+    "sources": [
+      "アイヌカイセイ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ainu-sokki",
+    "nativeName": "アイヌソッキ",
+    "region": "アイヌの人魚",
+    "category": "海",
+    "categoryEn": "Ainu-sokki",
+    "summary": "An Ainu mermaid-name neighbour to ningyo.",
+    "summaryJa": "アイヌソッキ。人魚の、北の名。",
+    "legends": [
+      "An Ainu mermaid-name neighbour to ningyo.",
+      "Keep 人魚 as the branded fish.",
+      "Do not merge アイヌソッキ into a neighbour card."
+    ],
+    "traits": [
+      "Ainu-sokki",
+      "人魚",
+      "アイヌ",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "人魚",
+      "folk plate",
+      "mysterious"
+    ],
+    "funFact": "Keep 人魚 as the branded fish.",
+    "funFactJa": "魚のブランドは別項。",
+    "searchQuery": "アイヌソッキ あいぬそっき 妖怪",
+    "creativeHooks": [
+      "Keep 人魚 as the branded fish.",
+      "Keep アイヌソッキ as its own plate.",
+      "The workplace is アイヌの人魚."
+    ],
+    "sources": [
+      "アイヌソッキ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Atui-kakura",
+    "nativeName": "アツゥイカクラ",
+    "region": "海のカムイ",
+    "category": "海",
+    "categoryEn": "Atui-kakura",
+    "summary": "A sea-name kin to atkor kamuy.",
+    "summaryJa": "アッコロカムイの類名。海の大怪。",
+    "legends": [
+      "A sea-name kin to atkor kamuy.",
+      "Keep アッコロカムイ as the branded octopus.",
+      "Do not merge アツゥイカクラ into a neighbour card."
+    ],
+    "traits": [
+      "Atui-kakura",
+      "海",
+      "アイヌ",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "folk plate",
+      "horror",
+      "scroll name"
+    ],
+    "funFact": "Keep アッコロカムイ as the branded octopus.",
+    "funFactJa": "蛸のブランドは別項。",
+    "searchQuery": "アツゥイカクラ あつぅいかくら 妖怪",
+    "creativeHooks": [
+      "Keep アッコロカムイ as the branded octopus.",
+      "Keep アツゥイカクラ as its own plate.",
+      "The workplace is 海のカムイ."
+    ],
+    "sources": [
+      "アツゥイカクラ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Atsui-koro-ekashi",
+    "nativeName": "アツゥイコロエカシ",
+    "region": "海の老カムイ",
+    "category": "海",
+    "categoryEn": "Atui-koro-ekashi",
+    "summary": "An elder sea-name in the atkor kamuy cluster.",
+    "summaryJa": "海の老いたカムイ名が図鑑に残る。",
+    "legends": [
+      "An elder sea-name in the atkor kamuy cluster.",
+      "A grandfather of the tide.",
+      "Do not merge アツゥイコロエカシ into a neighbour card."
+    ],
+    "traits": [
+      "Atui-koro-ekashi",
+      "海",
+      "老",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "folk plate",
+      "solemn",
+      "scroll name"
+    ],
+    "funFact": "A grandfather of the tide.",
+    "funFactJa": "潮の祖父。",
+    "searchQuery": "アツゥイコロエカシ あつぅいころえかし 妖怪",
+    "creativeHooks": [
+      "A grandfather of the tide.",
+      "Keep アツゥイコロエカシ as its own plate.",
+      "The workplace is 海の老カムイ."
+    ],
+    "sources": [
+      "アツゥイコロエカシ / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Oitekebori",
+    "nativeName": "置行堀",
+    "region": "本所の堀",
+    "category": "屋敷",
+    "categoryEn": "Leave-it canal",
+    "summary": "The Honjo seven-wonder of a voice that says leave the fish.",
+    "summaryJa": "本所七不思議の置行堀。魚を堀に戻せという声。",
+    "legends": [
+      "The Honjo seven-wonder of a voice that says leave the fish.",
+      "A catch that must be returned.",
+      "Do not merge 置行堀 into a neighbour card."
+    ],
+    "traits": [
+      "Leave-it canal",
+      "堀",
+      "声",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "屋敷",
+      "堀",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "A catch that must be returned.",
+    "funFactJa": "返さねばならない漁。",
+    "searchQuery": "置行堀 おいてけぼり 妖怪",
+    "creativeHooks": [
+      "A catch that must be returned.",
+      "Keep 置行堀 as its own plate.",
+      "The workplace is 本所の堀."
+    ],
+    "sources": [
+      "置行堀 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Osei-mushi",
+    "nativeName": "応声虫",
+    "region": "応える虫",
+    "category": "変化",
+    "categoryEn": "Echo insect",
+    "summary": "An insect that answers human speech from inside the body.",
+    "summaryJa": "人の言葉に応じて鳴く虫。腹の中の怪異。",
+    "legends": [
+      "An insect that answers human speech from inside the body.",
+      "A parasite that is a chorus.",
+      "Do not merge 応声虫 into a neighbour card."
+    ],
+    "traits": [
+      "Echo insect",
+      "虫",
+      "声",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "変化",
+      "虫",
+      "folk plate",
+      "mysterious"
+    ],
+    "funFact": "A parasite that is a chorus.",
+    "funFactJa": "合唱する寄生。",
+    "searchQuery": "応声虫 おうせいむし 妖怪",
+    "creativeHooks": [
+      "A parasite that is a chorus.",
+      "Keep 応声虫 as its own plate.",
+      "The workplace is 応える虫."
+    ],
+    "sources": [
+      "応声虫 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Oatama-kozo",
+    "nativeName": "大頭小僧",
+    "region": "大きな頭",
+    "category": "異形",
+    "categoryEn": "Big-head boy",
+    "summary": "A boy yokai with an oversized head.",
+    "summaryJa": "頭の大きい小僧。夜の童。",
+    "legends": [
+      "A boy yokai with an oversized head.",
+      "HR at the wrong scale.",
+      "Do not merge 大頭小僧 into a neighbour card."
+    ],
+    "traits": [
+      "Big-head boy",
+      "頭",
+      "子ども",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "異形",
+      "頭",
+      "folk plate",
+      "playful"
+    ],
+    "funFact": "HR at the wrong scale.",
+    "funFactJa": "尺度の違う人事。",
+    "searchQuery": "大頭小僧 おおあたまこぞう 妖怪",
+    "creativeHooks": [
+      "HR at the wrong scale.",
+      "Keep 大頭小僧 as its own plate.",
+      "The workplace is 大きな頭."
+    ],
+    "sources": [
+      "大頭小僧 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Okani",
+    "nativeName": "大蟹",
+    "region": "巨大な蟹",
+    "category": "海",
+    "categoryEn": "Giant crab",
+    "summary": "A giant crab yokai; the colossal neighbour to bake-kani.",
+    "summaryJa": "巨大な蟹の怪。化け蟹の、巨大側。",
+    "legends": [
+      "A giant crab yokai; the colossal neighbour to bake-kani.",
+      "Keep 化け蟹 as the faced shell.",
+      "Do not merge 大蟹 into a neighbour card."
+    ],
+    "traits": [
+      "Giant crab",
+      "蟹",
+      "巨大",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "海",
+      "蟹",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "Keep 化け蟹 as the faced shell.",
+    "funFactJa": "顔のある甲は別項。",
+    "searchQuery": "大蟹 おおかに 妖怪",
+    "creativeHooks": [
+      "Keep 化け蟹 as the faced shell.",
+      "Keep 大蟹 as its own plate.",
+      "The workplace is 巨大な蟹."
+    ],
+    "sources": [
+      "大蟹 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Ohikigaeru",
+    "nativeName": "大蟇",
+    "region": "巨大な蟇",
+    "category": "変化",
+    "categoryEn": "Giant toad",
+    "summary": "A giant toad; colossal neighbour to bake-gaeru.",
+    "summaryJa": "巨大な蟇。化け蛙の、巨大側。",
+    "legends": [
+      "A giant toad; colossal neighbour to bake-gaeru.",
+      "Keep 化け蛙 as the well card.",
+      "Do not merge 大蟇 into a neighbour card."
+    ],
+    "traits": [
+      "Giant toad",
+      "蟇",
+      "巨大",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "変化",
+      "蟇",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "Keep 化け蛙 as the well card.",
+    "funFactJa": "井戸は別項。",
+    "searchQuery": "大蟇 おおひきがえる 妖怪",
+    "creativeHooks": [
+      "Keep 化け蛙 as the well card.",
+      "Keep 大蟇 as its own plate.",
+      "The workplace is 巨大な蟇."
+    ],
+    "sources": [
+      "大蟇 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Okiseru",
+    "nativeName": "大煙管",
+    "region": "巨大な煙管",
+    "category": "付喪神",
+    "categoryEn": "Giant pipe",
+    "summary": "A giant kiseru pipe tsukumogami.",
+    "summaryJa": "巨大な煙管の付喪神。",
+    "legends": [
+      "A giant kiseru pipe tsukumogami.",
+      "A smoke break the size of a room.",
+      "Do not merge 大煙管 into a neighbour card."
+    ],
+    "traits": [
+      "Giant pipe",
+      "煙管",
+      "巨大",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "付喪神",
+      "煙管",
+      "folk plate",
+      "comic"
+    ],
+    "funFact": "A smoke break the size of a room.",
+    "funFactJa": "部屋サイズの一服。",
+    "searchQuery": "大煙管 おおぎせる 妖怪",
+    "creativeHooks": [
+      "A smoke break the size of a room.",
+      "Keep 大煙管 as its own plate.",
+      "The workplace is 巨大な煙管."
+    ],
+    "sources": [
+      "大煙管 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Onamazu",
+    "nativeName": "大鯰",
+    "region": "大地の鯰",
+    "category": "水系",
+    "categoryEn": "Giant catfish",
+    "summary": "The giant catfish that shakes the land.",
+    "summaryJa": "大地を揺らす大鯰。地震の魚。",
+    "legends": [
+      "The giant catfish that shakes the land.",
+      "A seismograph with whiskers.",
+      "Do not merge 大鯰 into a neighbour card."
+    ],
+    "traits": [
+      "Giant catfish",
+      "鯰",
+      "地震",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "水系",
+      "鯰",
+      "folk plate",
+      "horror"
+    ],
+    "funFact": "A seismograph with whiskers.",
+    "funFactJa": "ひげの地震計。",
+    "searchQuery": "大鯰 おおなまず 妖怪",
+    "creativeHooks": [
+      "A seismograph with whiskers.",
+      "Keep 大鯰 as its own plate.",
+      "The workplace is 大地の鯰."
+    ],
+    "sources": [
+      "大鯰 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Okuri-itachi",
+    "nativeName": "送り鼬",
+    "region": "送りの鼬",
+    "category": "道中",
+    "categoryEn": "Sending weasel",
+    "summary": "A weasel that escorts travellers; weasel-side of okuri-inu.",
+    "summaryJa": "人を送る鼬。送り犬の、鼬側。",
+    "legends": [
+      "A weasel that escorts travellers; weasel-side of okuri-inu.",
+      "Keep 送り犬 as the branded escort.",
+      "Do not merge 送り鼬 into a neighbour card."
+    ],
+    "traits": [
+      "Sending weasel",
+      "鼬",
+      "送り",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "道中",
+      "鼬",
+      "folk plate",
+      "mysterious"
+    ],
+    "funFact": "Keep 送り犬 as the branded escort.",
+    "funFactJa": "犬のブランドは別項。",
+    "searchQuery": "送り鼬 おくりいたち 妖怪",
+    "creativeHooks": [
+      "Keep 送り犬 as the branded escort.",
+      "Keep 送り鼬 as its own plate.",
+      "The workplace is 送りの鼬."
+    ],
+    "sources": [
+      "送り鼬 / encyclopedia plate"
+    ]
+  },
+  {
+    "name": "Okuri-hyoshigi",
+    "nativeName": "送り拍子木",
+    "region": "本所",
+    "category": "現代伝承",
+    "categoryEn": "Sending clappers",
+    "summary": "The Honjo seven-wonder of wooden clappers with no player.",
+    "summaryJa": "本所七不思議の送り拍子木。誰もいない拍子木。",
+    "legends": [
+      "The Honjo seven-wonder of wooden clappers with no player.",
+      "A night watch with no watchman.",
+      "Do not merge 送り拍子木 into a neighbour card."
+    ],
+    "traits": [
+      "Sending clappers",
+      "拍子木",
+      "音",
+      "Encyclopedia body"
+    ],
+    "motifs": [
+      "現代伝承",
+      "拍子木",
+      "folk plate",
+      "mysterious"
+    ],
+    "funFact": "A night watch with no watchman.",
+    "funFactJa": "番人のいない夜回り。",
+    "searchQuery": "送り拍子木 おくりひょうしぎ 妖怪",
+    "creativeHooks": [
+      "A night watch with no watchman.",
+      "Keep 送り拍子木 as its own plate.",
+      "The workplace is 本所."
+    ],
+    "sources": [
+      "送り拍子木 / encyclopedia plate"
+    ]
   }
 ]

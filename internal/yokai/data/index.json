@@ -6327,5 +6327,3339 @@
     ],
     "tone": "horror",
     "famousRank": 4
+  },
+  {
+    "name": "Hannya",
+    "nativeName": "般若",
+    "category": "鬼",
+    "region": "能の面",
+    "blurbJa": "能の怨霊の面が、そのまま怪異になる。",
+    "tags": [
+      "面",
+      "怨霊",
+      "能",
+      "怖い",
+      "女"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Sansei",
+    "nativeName": "山精",
+    "category": "山系",
+    "region": "山の精",
+    "blurbJa": "山の精。山童の漢語めいた名で、石燕が別項にした。",
+    "tags": [
+      "山",
+      "精",
+      "古典",
+      "怖い"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Batsu",
+    "nativeName": "魃",
+    "category": "気象",
+    "region": "日照りの神怪",
+    "blurbJa": "日照りを起こす旱魃の怪。日照り女の漢語側。",
+    "tags": [
+      "日照り",
+      "旱",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Kosenjo-hi",
+    "nativeName": "古戦場火",
+    "category": "霊火",
+    "region": "古戦場",
+    "blurbJa": "古戦場に残る火。死者の灯が野に残る。",
+    "tags": [
+      "火",
+      "戦場",
+      "死",
+      "夜",
+      "霊火"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Chochin-no-hi",
+    "nativeName": "提灯火",
+    "category": "霊火",
+    "region": "提灯の火",
+    "blurbJa": "提灯から離れた火。提灯お化けとは別の、火の項。",
+    "tags": [
+      "火",
+      "提灯",
+      "夜",
+      "霊火"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Haka-no-hi",
+    "nativeName": "墓の火",
+    "category": "霊火",
+    "region": "墓",
+    "blurbJa": "墓に灯る火。人魂の、墓地側。",
+    "tags": [
+      "火",
+      "墓",
+      "死",
+      "夜",
+      "霊火"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Furu-tsubaki-no-rei",
+    "nativeName": "古山茶の霊",
+    "category": "山系",
+    "region": "古い椿",
+    "blurbJa": "古い椿の霊。花の精の、歳を経た側。",
+    "tags": [
+      "椿",
+      "木",
+      "霊",
+      "古典",
+      "花"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Fuguruma-yohi",
+    "nativeName": "文車妖妃",
+    "category": "付喪神",
+    "region": "文の車",
+    "blurbJa": "文車の付喪神。書物を積んだ車が女になる。",
+    "tags": [
+      "文",
+      "車",
+      "女",
+      "付喪神",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Osakoburi",
+    "nativeName": "長冠",
+    "category": "付喪神",
+    "region": "古い冠",
+    "blurbJa": "古い冠の付喪神。頭の礼装が歩く。",
+    "tags": [
+      "冠",
+      "付喪神",
+      "頭",
+      "古典",
+      "夜"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Kutsutsura",
+    "nativeName": "沓頬",
+    "category": "付喪神",
+    "region": "古い沓",
+    "blurbJa": "沓の付喪神。履物が頬のようになる。",
+    "tags": [
+      "沓",
+      "付喪神",
+      "足",
+      "古典",
+      "夜"
+    ],
+    "tone": "comic",
+    "famousRank": 4
+  },
+  {
+    "name": "Bake-no-kawagoromo",
+    "nativeName": "ばけの皮衣",
+    "category": "付喪神",
+    "region": "皮衣",
+    "blurbJa": "皮衣の付喪神。脱いだ皮が夜に戻る。",
+    "tags": [
+      "皮",
+      "衣",
+      "付喪神",
+      "夜",
+      "変化"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Kinu-tanuki",
+    "nativeName": "絹狸",
+    "category": "付喪神",
+    "region": "絹の狸",
+    "blurbJa": "絹の付喪神が狸の形をとる。布と狸の境。",
+    "tags": [
+      "絹",
+      "狸",
+      "付喪神",
+      "変化",
+      "古典"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Hone-karakasa",
+    "nativeName": "骨傘",
+    "category": "付喪神",
+    "region": "骨の傘",
+    "blurbJa": "骨だけ残った傘の付喪神。唐傘お化けの骨格。",
+    "tags": [
+      "傘",
+      "骨",
+      "付喪神",
+      "雨",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Shogoro",
+    "nativeName": "鉦五郎",
+    "category": "付喪神",
+    "region": "鉦",
+    "blurbJa": "鉦の付喪神。叩かれなくなっても音を出す。",
+    "tags": [
+      "鉦",
+      "音",
+      "付喪神",
+      "寺",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Hossumori",
+    "nativeName": "払子守",
+    "category": "付喪神",
+    "region": "払子",
+    "blurbJa": "払子の付喪神。塵を払う道具が夜に歩く。",
+    "tags": [
+      "払子",
+      "僧",
+      "付喪神",
+      "夜",
+      "古典"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Yarikecho",
+    "nativeName": "槍毛長",
+    "category": "付喪神",
+    "region": "槍",
+    "blurbJa": "槍の付喪神。穂先が毛のように長い。",
+    "tags": [
+      "槍",
+      "武具",
+      "付喪神",
+      "戦い",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Koinryo",
+    "nativeName": "虎隠良",
+    "category": "付喪神",
+    "region": "虎の皮",
+    "blurbJa": "虎の皮の付喪神。隠れた武具が獣になる。",
+    "tags": [
+      "虎",
+      "皮",
+      "付喪神",
+      "武具",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Zenfusho",
+    "nativeName": "禅釜尚",
+    "category": "付喪神",
+    "region": "禅の釜",
+    "blurbJa": "禅寺の釜の付喪神。茶と修行の道具が座る。",
+    "tags": [
+      "釜",
+      "禅",
+      "付喪神",
+      "寺",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Kurayaro",
+    "nativeName": "鞍野郎",
+    "category": "付喪神",
+    "region": "鞍",
+    "blurbJa": "鞍の付喪神。馬のいない夜に乗る。",
+    "tags": [
+      "鞍",
+      "馬",
+      "付喪神",
+      "夜",
+      "古典"
+    ],
+    "tone": "comic",
+    "famousRank": 4
+  },
+  {
+    "name": "Abumi-guchi",
+    "nativeName": "鐙口",
+    "category": "付喪神",
+    "region": "鐙",
+    "blurbJa": "鐙の付喪神。輪が口になって噛む。",
+    "tags": [
+      "鐙",
+      "口",
+      "付喪神",
+      "馬",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Taimatsu-maru",
+    "nativeName": "松明丸",
+    "category": "付喪神",
+    "region": "松明",
+    "blurbJa": "松明の付喪神。消えたあとも火を持つ。",
+    "tags": [
+      "松明",
+      "火",
+      "付喪神",
+      "夜",
+      "霊火"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Burabura",
+    "nativeName": "不々落々",
+    "category": "付喪神",
+    "region": "提灯のぶら",
+    "blurbJa": "ぶらぶら揺れる提灯の付喪神。石燕の名。",
+    "tags": [
+      "提灯",
+      "揺",
+      "付喪神",
+      "夜",
+      "音"
+    ],
+    "tone": "playful",
+    "famousRank": 3
+  },
+  {
+    "name": "Kaichigo",
+    "nativeName": "貝児",
+    "category": "付喪神",
+    "region": "貝合わせ",
+    "blurbJa": "貝合わせの付喪神。貝が児の形をとる。",
+    "tags": [
+      "貝",
+      "子ども",
+      "付喪神",
+      "遊び",
+      "古典"
+    ],
+    "tone": "gentle",
+    "famousRank": 4
+  },
+  {
+    "name": "Kami-oni",
+    "nativeName": "髪鬼",
+    "category": "付喪神",
+    "region": "髪",
+    "blurbJa": "髪の付喪神。梳かれて捨てられた髪が鬼になる。",
+    "tags": [
+      "髪",
+      "鬼",
+      "付喪神",
+      "怖い",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Tsuno-hanzo",
+    "nativeName": "角盥漱",
+    "category": "付喪神",
+    "region": "盥",
+    "blurbJa": "角のある盥の付喪神。顔を洗う器が歩く。",
+    "tags": [
+      "盥",
+      "水",
+      "付喪神",
+      "夜",
+      "屋敷"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Fukuro-mujina",
+    "nativeName": "袋狢",
+    "category": "付喪神",
+    "region": "袋",
+    "blurbJa": "袋の付喪神が貉の形をとる。",
+    "tags": [
+      "袋",
+      "貉",
+      "付喪神",
+      "変化",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Shamichoro",
+    "nativeName": "三味長老",
+    "category": "付喪神",
+    "region": "三味線",
+    "blurbJa": "三味線の付喪神。琴古主・琵琶牧々の隣職。",
+    "tags": [
+      "三味線",
+      "音",
+      "付喪神",
+      "夜",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Eritate-goromo",
+    "nativeName": "襟立衣",
+    "category": "付喪神",
+    "region": "僧衣",
+    "blurbJa": "襟の立った僧衣の付喪神。空の法衣が歩く。",
+    "tags": [
+      "衣",
+      "僧",
+      "付喪神",
+      "夜",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Kyorinrin",
+    "nativeName": "経凛々",
+    "category": "付喪神",
+    "region": "経巻",
+    "blurbJa": "経巻の付喪神。読まれなくなった経が立つ。",
+    "tags": [
+      "経",
+      "巻",
+      "付喪神",
+      "寺",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Nyubachibo",
+    "nativeName": "乳鉢坊",
+    "category": "付喪神",
+    "region": "乳鉢",
+    "blurbJa": "仏具の乳鉢の付喪神。薬を摺る器が坊主になる。",
+    "tags": [
+      "鉢",
+      "仏具",
+      "付喪神",
+      "寺",
+      "薬"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Hyotan-kozo",
+    "nativeName": "瓢箪小僧",
+    "category": "付喪神",
+    "region": "瓢箪",
+    "blurbJa": "瓢箪の付喪神。酒の器が小僧になる。",
+    "tags": [
+      "瓢箪",
+      "酒",
+      "付喪神",
+      "子ども",
+      "古典"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Nyoijizai",
+    "nativeName": "如意自在",
+    "category": "付喪神",
+    "region": "如意",
+    "blurbJa": "如意の付喪神。届く杖が夜に届きすぎる。",
+    "tags": [
+      "如意",
+      "杖",
+      "付喪神",
+      "僧",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Minowaraji",
+    "nativeName": "蓑草鞋",
+    "category": "付喪神",
+    "region": "蓑と草鞋",
+    "blurbJa": "蓑と草鞋の付喪神。旅装が人を待つ。",
+    "tags": [
+      "蓑",
+      "草鞋",
+      "付喪神",
+      "旅",
+      "道中"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Heiroku",
+    "nativeName": "幣六",
+    "category": "付喪神",
+    "region": "御幣",
+    "blurbJa": "御幣の付喪神。祓いの紙が六の名で歩く。",
+    "tags": [
+      "幣",
+      "紙",
+      "付喪神",
+      "祓",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Ungaikyo",
+    "nativeName": "雲外鏡",
+    "category": "付喪神",
+    "region": "鏡",
+    "blurbJa": "雲の外を映す鏡の付喪神。化け鏡の、雲側。",
+    "tags": [
+      "鏡",
+      "雲",
+      "付喪神",
+      "顔",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Suzuhiko-hime",
+    "nativeName": "鈴彦姫",
+    "category": "付喪神",
+    "region": "鈴",
+    "blurbJa": "鈴の付喪神の姫。音が残って歩く。",
+    "tags": [
+      "鈴",
+      "姫",
+      "付喪神",
+      "音",
+      "古典"
+    ],
+    "tone": "gentle",
+    "famousRank": 4
+  },
+  {
+    "name": "Furu-utsubo",
+    "nativeName": "古空穂",
+    "category": "付喪神",
+    "region": "矢筒",
+    "blurbJa": "古い空穂の付喪神。矢の入らない筒が歩く。",
+    "tags": [
+      "矢",
+      "筒",
+      "付喪神",
+      "武具",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Muku-mukabaki",
+    "nativeName": "無垢行騰",
+    "category": "付喪神",
+    "region": "行騰",
+    "blurbJa": "行騰の付喪神。騎馬の脚絆が歩く。",
+    "tags": [
+      "脚絆",
+      "馬",
+      "付喪神",
+      "武具",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Chokuboron",
+    "nativeName": "猪口暮露",
+    "category": "付喪神",
+    "region": "猪口",
+    "blurbJa": "酒の猪口の付喪神。小さな盃が夜に寄る。",
+    "tags": [
+      "盃",
+      "酒",
+      "付喪神",
+      "夜",
+      "古典"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Yama-oroshi",
+    "nativeName": "山颪",
+    "category": "付喪神",
+    "region": "大根卸し",
+    "blurbJa": "大根卸しの付喪神。山から吹く風の名を借りた器。",
+    "tags": [
+      "卸し",
+      "大根",
+      "付喪神",
+      "台所",
+      "古典"
+    ],
+    "tone": "comic",
+    "famousRank": 4
+  },
+  {
+    "name": "Kameosa",
+    "nativeName": "瓶長",
+    "category": "付喪神",
+    "region": "酒の瓶",
+    "blurbJa": "酒瓶の付喪神。瓶の長として夜を統べる。",
+    "tags": [
+      "瓶",
+      "酒",
+      "付喪神",
+      "夜",
+      "古典"
+    ],
+    "tone": "playful",
+    "famousRank": 3
+  },
+  {
+    "name": "Ten",
+    "nativeName": "鼬",
+    "category": "変化",
+    "region": "山のテン",
+    "blurbJa": "テンの怪。鎌鼬（風の刃）とは別の、獣そのもの。",
+    "tags": [
+      "獣",
+      "山",
+      "変化",
+      "夜",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Furaribi",
+    "nativeName": "ふらり火",
+    "category": "霊火",
+    "region": "ふらりと来る火",
+    "blurbJa": "ふらりと現れる火。叢原火の隣の名。",
+    "tags": [
+      "火",
+      "夜",
+      "霊火",
+      "漂",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Noderabo",
+    "nativeName": "野寺坊",
+    "category": "死霊",
+    "region": "野の廃寺",
+    "blurbJa": "野の廃寺に立つ坊主の怪。石燕の定番。",
+    "tags": [
+      "寺",
+      "廃",
+      "坊主",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Gagoze",
+    "nativeName": "元興寺",
+    "category": "死霊",
+    "region": "奈良の鬼",
+    "blurbJa": "元興寺に出た鬼。小児を取る古寺の怪。",
+    "tags": [
+      "寺",
+      "鬼",
+      "子ども",
+      "奈良",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Ao-bozu",
+    "nativeName": "青坊主",
+    "category": "異形",
+    "region": "青い坊主",
+    "blurbJa": "青い坊主。麦畑などに立つ、石燕の怪。",
+    "tags": [
+      "青",
+      "坊主",
+      "畑",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Shiryo",
+    "nativeName": "死霊",
+    "category": "死霊",
+    "region": "死者の霊",
+    "blurbJa": "死んだ人の霊。生霊・幽霊と並べた石燕の三分。",
+    "tags": [
+      "死",
+      "霊",
+      "古典",
+      "怖い",
+      "入門"
+    ],
+    "tone": "tragic",
+    "famousRank": 2
+  },
+  {
+    "name": "Ganbari-nyudo",
+    "nativeName": "加牟波理入道",
+    "category": "屋敷",
+    "region": "厠の入道",
+    "blurbJa": "厠の入道。大晦日に唱えると来ないという。",
+    "tags": [
+      "厠",
+      "入道",
+      "年越",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Amefuri-kozo",
+    "nativeName": "雨降小僧",
+    "category": "気象",
+    "region": "雨の童",
+    "blurbJa": "雨を降らす小僧。雨女の、子どもの側。",
+    "tags": [
+      "雨",
+      "子ども",
+      "気象",
+      "古典",
+      "童"
+    ],
+    "tone": "playful",
+    "famousRank": 3
+  },
+  {
+    "name": "Itsumade",
+    "nativeName": "以津真天",
+    "category": "異形",
+    "region": "いつまでの鳥",
+    "blurbJa": "「いつまで」と鳴く怪鳥。石燕が名を当てた。",
+    "tags": [
+      "鳥",
+      "鳴",
+      "怖い",
+      "古典",
+      "空"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Shinkiro",
+    "nativeName": "蜃気楼",
+    "category": "海",
+    "region": "海上の楼",
+    "blurbJa": "蜃が吐く楼閣。海の幻が妖怪になる。",
+    "tags": [
+      "海",
+      "幻",
+      "楼",
+      "古典",
+      "蜃"
+    ],
+    "tone": "mysterious",
+    "famousRank": 2
+  },
+  {
+    "name": "Shokuin",
+    "nativeName": "燭陰",
+    "category": "古典",
+    "region": "燭の陰",
+    "blurbJa": "山海経の燭陰。火を含む龍人の怪として図鑑に入る。",
+    "tags": [
+      "龍",
+      "火",
+      "古典",
+      "中国",
+      "夜"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Hangonko",
+    "nativeName": "返魂香",
+    "category": "死霊",
+    "region": "死者を呼ぶ香",
+    "blurbJa": "死者の姿を返す香。香そのものが怪異。",
+    "tags": [
+      "香",
+      "死",
+      "呼び戻し",
+      "古典",
+      "怖い"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Todaiki",
+    "nativeName": "燈台鬼",
+    "category": "異形",
+    "region": "人燈台",
+    "blurbJa": "人の体が燈台になった鬼。石燕の図。",
+    "tags": [
+      "灯",
+      "鬼",
+      "人",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Kokuri-baba",
+    "nativeName": "古庫裏婆",
+    "category": "屋敷",
+    "region": "古い庫裏",
+    "blurbJa": "廃れた庫裏の婆。寺の台所に残る。",
+    "tags": [
+      "婆",
+      "寺",
+      "台所",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Jakotsu-baba",
+    "nativeName": "蛇骨婆",
+    "category": "死霊",
+    "region": "蛇の骨の婆",
+    "blurbJa": "蛇の骨を持つ婆。呪術の側の老女。",
+    "tags": [
+      "婆",
+      "蛇",
+      "骨",
+      "呪い",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Minobi",
+    "nativeName": "蓑火",
+    "category": "霊火",
+    "region": "蓑の火",
+    "blurbJa": "蓑に灯る火。雨具が燃えるように見える。",
+    "tags": [
+      "火",
+      "蓑",
+      "雨",
+      "夜",
+      "霊火"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Kosame-bo",
+    "nativeName": "小雨坊",
+    "category": "気象",
+    "region": "小雨の坊",
+    "blurbJa": "小雨を連れて歩く坊。雨降小僧の隣。",
+    "tags": [
+      "雨",
+      "坊主",
+      "気象",
+      "夜",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Oni-hitokuchi",
+    "nativeName": "鬼一口",
+    "category": "鬼",
+    "region": "一口の鬼",
+    "blurbJa": "人を一口で呑む鬼。和歌の句が図鑑の項になる。",
+    "tags": [
+      "鬼",
+      "呑",
+      "怖い",
+      "古典",
+      "歌"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Jatai",
+    "nativeName": "蛇帯",
+    "category": "付喪神",
+    "region": "帯の蛇",
+    "blurbJa": "帯が蛇になる。化け帯の、蛇側。",
+    "tags": [
+      "帯",
+      "蛇",
+      "付喪神",
+      "女",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Hatahiro",
+    "nativeName": "機尋",
+    "category": "付喪神",
+    "region": "機織り",
+    "blurbJa": "機の付喪神。織りかけの布が人を尋る。",
+    "tags": [
+      "機",
+      "布",
+      "付喪神",
+      "女",
+      "夜"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Basho-no-sei",
+    "nativeName": "芭蕉精",
+    "category": "山系",
+    "region": "芭蕉の精",
+    "blurbJa": "芭蕉の精。中国由来の、葉の女。",
+    "tags": [
+      "芭蕉",
+      "葉",
+      "女",
+      "精",
+      "古典"
+    ],
+    "tone": "gentle",
+    "famousRank": 3
+  },
+  {
+    "name": "Suzuri-no-tamashi",
+    "nativeName": "硯の魂",
+    "category": "付喪神",
+    "region": "硯",
+    "blurbJa": "硯の魂。墨を磨る石が夜に歩く。",
+    "tags": [
+      "硯",
+      "墨",
+      "付喪神",
+      "文",
+      "夜"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Byobu-nozoki",
+    "nativeName": "屏風闚",
+    "category": "屋敷",
+    "region": "屏風の隙",
+    "blurbJa": "屏風の隙から覗く怪。化け屏風（屏風自体）とは別職。",
+    "tags": [
+      "覗き",
+      "屏風",
+      "屋敷",
+      "夜",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Kyokotsu",
+    "nativeName": "狂骨",
+    "category": "死霊",
+    "region": "井戸の骨",
+    "blurbJa": "井戸に棄てられた骨が狂う。石燕の図。",
+    "tags": [
+      "骨",
+      "井戸",
+      "狂",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Iyaya",
+    "nativeName": "否哉",
+    "category": "異形",
+    "region": "いややの顔",
+    "blurbJa": "「いやや」と顔を背ける怪。石燕の拒絶の貌。",
+    "tags": [
+      "顔",
+      "拒絶",
+      "異形",
+      "古典",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Takirei-o",
+    "nativeName": "瀧霊王",
+    "category": "水系",
+    "region": "滝の王",
+    "blurbJa": "滝に坐す霊王。水の落差が王になる。",
+    "tags": [
+      "滝",
+      "王",
+      "水",
+      "古典",
+      "霊"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Jami",
+    "nativeName": "邪魅",
+    "category": "憑きもの",
+    "region": "病の魅",
+    "blurbJa": "病を起こす邪な魅。物の怪の、病側。",
+    "tags": [
+      "病",
+      "魅",
+      "憑き",
+      "古典",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Hiyori-bo",
+    "nativeName": "日和坊",
+    "category": "気象",
+    "region": "天気の坊",
+    "blurbJa": "天気を見る坊。晴れと雨の間を歩く。",
+    "tags": [
+      "天気",
+      "坊主",
+      "気象",
+      "古典",
+      "空"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "O-kamuro",
+    "nativeName": "大禿",
+    "category": "死霊",
+    "region": "大きな禿",
+    "blurbJa": "大きな禿の怪。遊女の禿が巨大化する。",
+    "tags": [
+      "禿",
+      "女",
+      "巨大",
+      "怖い",
+      "江戸"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Gaikotsu",
+    "nativeName": "骸骨",
+    "category": "死霊",
+    "region": "歩く骨",
+    "blurbJa": "歩く骸骨。餓者髑髏（巨大）とは別の、人サイズの骨。",
+    "tags": [
+      "骨",
+      "死",
+      "夜",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Nurunuru-bozu",
+    "nativeName": "ぬるぬる坊主",
+    "category": "道中",
+    "region": "ぬるぬる",
+    "blurbJa": "ぬるぬるした坊主。夜道に張りつく。",
+    "tags": [
+      "坊主",
+      "ぬめり",
+      "道中",
+      "夜",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Kotori-bozu",
+    "nativeName": "子取り坊主",
+    "category": "死霊",
+    "region": "子を取る坊主",
+    "blurbJa": "子どもを取る坊主。夜のさらい。",
+    "tags": [
+      "子ども",
+      "坊主",
+      "さらい",
+      "怖い",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Iwana-bozu",
+    "nativeName": "岩魚坊主",
+    "category": "水系",
+    "region": "岩魚の坊主",
+    "blurbJa": "岩魚が坊主になる。谷川の魚の怪。",
+    "tags": [
+      "魚",
+      "坊主",
+      "川",
+      "山",
+      "変化"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Umi-osho",
+    "nativeName": "海和尚",
+    "category": "海",
+    "region": "海の和尚",
+    "blurbJa": "海の和尚。海坊主の、職名の違う隣。",
+    "tags": [
+      "海",
+      "僧",
+      "和尚",
+      "怖い",
+      "沖"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Umi-kozo",
+    "nativeName": "海小僧",
+    "category": "海",
+    "region": "海の小僧",
+    "blurbJa": "海の小僧。小さい海坊主。",
+    "tags": [
+      "海",
+      "子ども",
+      "小僧",
+      "沖",
+      "怖い"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Ippon-ashi",
+    "nativeName": "一本足",
+    "category": "異形",
+    "region": "一本の足",
+    "blurbJa": "一本足の怪。一本だたらの、総称側。",
+    "tags": [
+      "足",
+      "一本",
+      "山",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Ashimagari",
+    "nativeName": "足まがり",
+    "category": "道中",
+    "region": "足を曲げる",
+    "blurbJa": "足を曲げて転ばせる怪。夜道の罠。",
+    "tags": [
+      "足",
+      "転",
+      "道中",
+      "夜",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Isogashi",
+    "nativeName": "いそがし",
+    "category": "道中",
+    "region": "忙しい怪",
+    "blurbJa": "急がせる声の怪。足まがりの隣職。",
+    "tags": [
+      "急",
+      "道中",
+      "夜",
+      "音",
+      "怖い"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Inenbi",
+    "nativeName": "遺念火",
+    "category": "霊火",
+    "region": "遺した念の火",
+    "blurbJa": "遺した念が火になる。人魂の、執念側。",
+    "tags": [
+      "火",
+      "念",
+      "死",
+      "夜",
+      "霊火"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Imori",
+    "nativeName": "井守",
+    "category": "水系",
+    "region": "井戸の守",
+    "blurbJa": "井戸を守る井守。守宮の名の怪。",
+    "tags": [
+      "井戸",
+      "守",
+      "水",
+      "屋敷",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Iyami",
+    "nativeName": "いやみ",
+    "category": "異形",
+    "region": "いやみの貌",
+    "blurbJa": "いやみの貌の怪。否哉の口語側。",
+    "tags": [
+      "顔",
+      "嫌悪",
+      "異形",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Ushiuchi-bo",
+    "nativeName": "牛打ち坊",
+    "category": "鬼",
+    "region": "牛を打つ坊",
+    "blurbJa": "牛を打つ坊主の怪。牛鬼の隣の職。",
+    "tags": [
+      "牛",
+      "坊主",
+      "打",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Uma-no-ashi",
+    "nativeName": "馬の足",
+    "category": "変化",
+    "region": "馬の足だけ",
+    "blurbJa": "馬の足だけが見える怪。本所七不思議にも近い。",
+    "tags": [
+      "馬",
+      "足",
+      "夜",
+      "怖い",
+      "江戸"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Oigakari",
+    "nativeName": "おいがかり",
+    "category": "道中",
+    "region": "追い掛ける怪",
+    "blurbJa": "後ろから追い掛かる怪。送りの人側。",
+    "tags": [
+      "追",
+      "道中",
+      "夜",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Akarinashi-soba",
+    "nativeName": "燈無蕎麦",
+    "category": "現代伝承",
+    "region": "本所",
+    "blurbJa": "本所七不思議の燈無蕎麦。灯のない蕎麦屋。",
+    "tags": [
+      "蕎麦",
+      "灯",
+      "江戸",
+      "不思議",
+      "夜"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Akagashira",
+    "nativeName": "赤頭",
+    "category": "鬼",
+    "region": "赤い頭",
+    "blurbJa": "赤い頭の怪。地方の赤入道に近い。",
+    "tags": [
+      "赤",
+      "頭",
+      "鬼",
+      "怖い",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Abura-gaeshi",
+    "nativeName": "油返し",
+    "category": "霊火",
+    "region": "油を返す",
+    "blurbJa": "盗んだ油を返せと出る火。油坊の類話。",
+    "tags": [
+      "油",
+      "火",
+      "返し",
+      "夜",
+      "霊火"
+    ],
+    "tone": "tragic",
+    "famousRank": 4
+  },
+  {
+    "name": "Iju",
+    "nativeName": "異獣",
+    "category": "異形",
+    "region": "名のない獣",
+    "blurbJa": "名のない異獣。図鑑が種を与えず項だけ置く。",
+    "tags": [
+      "獣",
+      "異形",
+      "不明",
+      "怖い",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Itaoni",
+    "nativeName": "板鬼",
+    "category": "付喪神",
+    "region": "板の鬼",
+    "blurbJa": "板の鬼。建材が鬼になる。",
+    "tags": [
+      "板",
+      "鬼",
+      "付喪神",
+      "家",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Ashiarai-yashiki",
+    "nativeName": "足洗邸",
+    "category": "屋敷",
+    "region": "本所",
+    "blurbJa": "本所七不思議の足洗邸。足を洗えと屋敷が言う。",
+    "tags": [
+      "足",
+      "屋敷",
+      "江戸",
+      "不思議",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Akurojin-no-hi",
+    "nativeName": "悪路神の火",
+    "category": "霊火",
+    "region": "悪路の火",
+    "blurbJa": "悪路に出る神の火。道の禍の灯。",
+    "tags": [
+      "火",
+      "道",
+      "禍",
+      "夜",
+      "霊火"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Ishinagenjo",
+    "nativeName": "石投げんじょ",
+    "category": "山系",
+    "region": "石を投げる女",
+    "blurbJa": "石を投げる女の怪。峠の投擲。",
+    "tags": [
+      "石",
+      "女",
+      "峠",
+      "怖い",
+      "山"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Ijaro-korogashi",
+    "nativeName": "イジャロコロガシ",
+    "category": "道中",
+    "region": "転がす怪",
+    "blurbJa": "人を転がす東北の怪。坂の悪戯。",
+    "tags": [
+      "転",
+      "坂",
+      "東北",
+      "夜",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Korpokkur",
+    "nativeName": "コロポックル",
+    "category": "山系",
+    "region": "蕗の下",
+    "blurbJa": "蕗の下の小人。アイヌの小人が図鑑の項になる。",
+    "tags": [
+      "小人",
+      "アイヌ",
+      "蕗",
+      "北",
+      "古典"
+    ],
+    "tone": "gentle",
+    "famousRank": 2
+  },
+  {
+    "name": "Amamehagi",
+    "nativeName": "あまめはぎ",
+    "category": "鬼",
+    "region": "能登の来訪",
+    "blurbJa": "能登の来訪鬼。なまはげの隣の職。",
+    "tags": [
+      "鬼",
+      "能登",
+      "来訪",
+      "子ども",
+      "年"
+    ],
+    "tone": "solemn",
+    "famousRank": 2
+  },
+  {
+    "name": "Taniguku",
+    "nativeName": "たにぐく",
+    "category": "変化",
+    "region": "谷の蛙",
+    "blurbJa": "谷の大蛙。化け蛙の、谷側。",
+    "tags": [
+      "蛙",
+      "谷",
+      "変化",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Doyo-bozu",
+    "nativeName": "土用坊主",
+    "category": "気象",
+    "region": "土用",
+    "blurbJa": "土用に出る坊主。季節の暦が怪になる。",
+    "tags": [
+      "土用",
+      "坊主",
+      "夏",
+      "暦",
+      "気象"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Shojo",
+    "nativeName": "猩猩",
+    "category": "海",
+    "region": "酒の猩猩",
+    "blurbJa": "酒を好む赤い海の精。能と図鑑の境。",
+    "tags": [
+      "酒",
+      "赤",
+      "海",
+      "能",
+      "精"
+    ],
+    "tone": "playful",
+    "famousRank": 2
+  },
+  {
+    "name": "Kutabe",
+    "nativeName": "クタベ",
+    "category": "予言",
+    "region": "越中の獣",
+    "blurbJa": "越中に現れて予言する獣。件の隣職。",
+    "tags": [
+      "獣",
+      "予言",
+      "越中",
+      "災",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Kashabo",
+    "nativeName": "カシャボ",
+    "category": "死霊",
+    "region": "火車の地方名",
+    "blurbJa": "火車の地方名が、図鑑では項を持つこともある。",
+    "tags": [
+      "火",
+      "死",
+      "地方",
+      "霊火",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Shu-no-bon",
+    "nativeName": "朱の盆",
+    "category": "異形",
+    "region": "赤い盆",
+    "blurbJa": "赤い盆のような顔の怪。水木ロードの名。",
+    "tags": [
+      "赤",
+      "盆",
+      "顔",
+      "怖い",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Kawaero",
+    "nativeName": "カワエロ",
+    "category": "水系",
+    "region": "川のエロ",
+    "blurbJa": "川の小怪。河童の、ぬめりの側。",
+    "tags": [
+      "川",
+      "ぬめり",
+      "子ども",
+      "水",
+      "地方"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Kawazaru",
+    "nativeName": "川猿",
+    "category": "水系",
+    "region": "川の猿",
+    "blurbJa": "川の猿。えんこうの、和名側。",
+    "tags": [
+      "川",
+      "猿",
+      "水",
+      "地方",
+      "変化"
+    ],
+    "tone": "playful",
+    "famousRank": 3
+  },
+  {
+    "name": "Takekiri-tanuki",
+    "nativeName": "竹切狸",
+    "category": "狐狸",
+    "region": "竹を切る狸",
+    "blurbJa": "竹を切る狸。阿波の隣の、竹藪の狸。",
+    "tags": [
+      "狸",
+      "竹",
+      "切り",
+      "変化",
+      "藪"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Kirin-jishi",
+    "nativeName": "麒麟獅子",
+    "category": "古典",
+    "region": "麒麟と獅子",
+    "blurbJa": "麒麟獅子。祭りの形が図鑑に残る。",
+    "tags": [
+      "麒麟",
+      "獅子",
+      "祭",
+      "護り",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Tomokazuki",
+    "nativeName": "共潜",
+    "category": "海",
+    "region": "一緒に潜る",
+    "blurbJa": "海女と一緒に潜る怪。共に息を取る。",
+    "tags": [
+      "海",
+      "潜",
+      "女",
+      "怖い",
+      "海女"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Aka-nyudo",
+    "nativeName": "赤入道",
+    "category": "屋敷",
+    "region": "炬燵の入道",
+    "blurbJa": "炬燵から出る赤い入道。冬の家の怪。",
+    "tags": [
+      "赤",
+      "入道",
+      "炬燵",
+      "冬",
+      "屋敷"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Akateko",
+    "nativeName": "赤手児",
+    "category": "屋敷",
+    "region": "赤い手",
+    "blurbJa": "窓から赤い子どもの手が出る。",
+    "tags": [
+      "赤",
+      "手",
+      "子ども",
+      "窓",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Aka-bozu",
+    "nativeName": "赤坊主",
+    "category": "鬼",
+    "region": "赤い坊主",
+    "blurbJa": "赤い坊主。赤入道の、職名違い。",
+    "tags": [
+      "赤",
+      "坊主",
+      "夜",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Akashaguma",
+    "nativeName": "赤シャグマ",
+    "category": "鬼",
+    "region": "赤い髪",
+    "blurbJa": "赤い長い髪の怪。東北の赤。",
+    "tags": [
+      "赤",
+      "髪",
+      "東北",
+      "怖い",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Akaei",
+    "nativeName": "赤えい",
+    "category": "海",
+    "region": "赤いエイ",
+    "blurbJa": "赤いエイの怪。海の平たい禍。",
+    "tags": [
+      "エイ",
+      "海",
+      "赤",
+      "怖い",
+      "沖"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Akaashi",
+    "nativeName": "赤足",
+    "category": "道中",
+    "region": "赤い足",
+    "blurbJa": "赤い足だけが見える怪。馬の足の、人側。",
+    "tags": [
+      "赤",
+      "足",
+      "夜",
+      "道中",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Akago",
+    "nativeName": "赤子",
+    "category": "死霊",
+    "region": "夜の赤子",
+    "blurbJa": "夜に泣く正体不明の赤子の怪。川赤子の、陸上側。",
+    "tags": [
+      "子ども",
+      "夜",
+      "泣",
+      "怖い",
+      "死"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Akashi-sama",
+    "nativeName": "明石様",
+    "category": "屋敷",
+    "region": "横浜の明石",
+    "blurbJa": "横浜に伝わる明石様。家の怪異の人名。",
+    "tags": [
+      "家",
+      "横浜",
+      "名",
+      "怖い",
+      "地方"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Akaganta",
+    "nativeName": "アカガンター",
+    "category": "異形",
+    "region": "沖縄の赤",
+    "blurbJa": "沖縄の赤い怪。マジムンの赤側。",
+    "tags": [
+      "沖縄",
+      "赤",
+      "夜",
+      "怖い",
+      "地方"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Akana",
+    "nativeName": "アカナー",
+    "category": "山系",
+    "region": "月のキジムナー",
+    "blurbJa": "キジムナーの兄弟で月に住むという。",
+    "tags": [
+      "沖縄",
+      "月",
+      "漁",
+      "子ども",
+      "兄弟"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Akanbe",
+    "nativeName": "あかんべい",
+    "category": "町",
+    "region": "あかんべえ",
+    "blurbJa": "あかんべえをする小僧の怪。べか太郎の類。",
+    "tags": [
+      "子ども",
+      "顔",
+      "町",
+      "悪戯",
+      "夜"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Akudo-pokkari",
+    "nativeName": "アクドポッカリ",
+    "category": "道中",
+    "region": "踵",
+    "blurbJa": "岩手で踵に纏わる怪。アグトネブリの隣。",
+    "tags": [
+      "踵",
+      "東北",
+      "夜",
+      "道中",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Aguto-neburi",
+    "nativeName": "アグトネブリ",
+    "category": "道中",
+    "region": "踵を嘗める",
+    "blurbJa": "闇夜に踵を嘗める岩手の怪。",
+    "tags": [
+      "踵",
+      "嘗",
+      "東北",
+      "夜",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Akubaba",
+    "nativeName": "悪婆",
+    "category": "死霊",
+    "region": "産子を食う婆",
+    "blurbJa": "往来にいて見えない、産子を食う婆。",
+    "tags": [
+      "婆",
+      "子ども",
+      "食",
+      "怖い",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Aku-bozu",
+    "nativeName": "灰坊主",
+    "category": "屋敷",
+    "region": "灰の坊主",
+    "blurbJa": "灰の中の坊主。炉の残りが歩く。",
+    "tags": [
+      "灰",
+      "坊主",
+      "炉",
+      "屋敷",
+      "夜"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Akuma-gakaze",
+    "nativeName": "悪魔ヶ風",
+    "category": "気象",
+    "region": "当たると病む風",
+    "blurbJa": "当たると病む風。志摩の怪異。",
+    "tags": [
+      "風",
+      "病",
+      "伊勢",
+      "気象",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Asaoke-no-ke",
+    "nativeName": "麻桶の毛",
+    "category": "付喪神",
+    "region": "麻桶",
+    "blurbJa": "麻桶に残る毛の怪。繊維の残り。",
+    "tags": [
+      "毛",
+      "桶",
+      "麻",
+      "付喪神",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Asajigahara-no-onibaba",
+    "nativeName": "浅茅ヶ原の鬼婆",
+    "category": "鬼",
+    "region": "浅茅ヶ原",
+    "blurbJa": "浅茅ヶ原の鬼婆。安達ヶ原の隣の黒塚。",
+    "tags": [
+      "鬼",
+      "婆",
+      "食",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Asokokoko",
+    "nativeName": "あすこここ",
+    "category": "道中",
+    "region": "あすこここの声",
+    "blurbJa": "場所をずらす声の怪。",
+    "tags": [
+      "声",
+      "迷",
+      "道中",
+      "夜",
+      "怖い"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Aso-bi",
+    "nativeName": "遊火",
+    "category": "霊火",
+    "region": "遊ぶ火",
+    "blurbJa": "遊んで見える火。狐火の、遊び側。",
+    "tags": [
+      "火",
+      "遊",
+      "夜",
+      "霊火",
+      "狐"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Atozumi-kozo",
+    "nativeName": "後追い小僧",
+    "category": "道中",
+    "region": "後を追う小僧",
+    "blurbJa": "後ろを追う小僧。おいがかりの、子ども側。",
+    "tags": [
+      "子ども",
+      "追",
+      "道中",
+      "夜",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Abura-tokkuri",
+    "nativeName": "油徳利",
+    "category": "付喪神",
+    "region": "油の徳利",
+    "blurbJa": "油徳利の付喪神。灯油の器が歩く。",
+    "tags": [
+      "油",
+      "徳利",
+      "付喪神",
+      "夜",
+      "火"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Amazake-baba",
+    "nativeName": "甘酒婆",
+    "category": "屋敷",
+    "region": "甘酒を売る婆",
+    "blurbJa": "夜に甘酒を売る婆。飲ませると禍。",
+    "tags": [
+      "婆",
+      "甘酒",
+      "夜",
+      "売り",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Amaburakosagi",
+    "nativeName": "あまぶらこさぎ",
+    "category": "気象",
+    "region": "雨の鷺",
+    "blurbJa": "雨の鷺の怪。青鷺火の、雨側。",
+    "tags": [
+      "雨",
+      "鷺",
+      "気象",
+      "夜",
+      "鳥"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Amoro-unagu",
+    "nativeName": "天降女子",
+    "category": "死霊",
+    "region": "天から降る女",
+    "blurbJa": "天から降る女。沖縄の、降る霊。",
+    "tags": [
+      "女",
+      "天",
+      "沖縄",
+      "死",
+      "夜"
+    ],
+    "tone": "tragic",
+    "famousRank": 4
+  },
+  {
+    "name": "Arie",
+    "nativeName": "アリエ",
+    "category": "予言",
+    "region": "アリエの予言",
+    "blurbJa": "アマビエに似た予言の海の怪。",
+    "tags": [
+      "海",
+      "予言",
+      "疫病",
+      "古典",
+      "魚"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Awa-tsuki-oto",
+    "nativeName": "粟搗き音",
+    "category": "屋敷",
+    "region": "粟を搗く音",
+    "blurbJa": "粟を搗く音だけの怪。主のいない精米。",
+    "tags": [
+      "音",
+      "粟",
+      "夜",
+      "屋敷",
+      "搗"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Igabo",
+    "nativeName": "いが坊",
+    "category": "山系",
+    "region": "いがの坊",
+    "blurbJa": "いがの坊主。山の小さな坊。",
+    "tags": [
+      "坊主",
+      "山",
+      "子ども",
+      "地方"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Ikuchi",
+    "nativeName": "イクチ",
+    "category": "海",
+    "region": "細長い海の怪",
+    "blurbJa": "細長く船を越える海の怪。油を塗れという。",
+    "tags": [
+      "海",
+      "長い",
+      "船",
+      "油",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Ikebukuro-no-onna",
+    "nativeName": "池袋の女",
+    "category": "死霊",
+    "region": "池袋",
+    "blurbJa": "池袋に伝わる女の怪。地名が項になる。",
+    "tags": [
+      "女",
+      "東京",
+      "地名",
+      "怖い",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Igo-no-sei",
+    "nativeName": "囲碁の精",
+    "category": "付喪神",
+    "region": "碁石",
+    "blurbJa": "囲碁の精。盤と石が夜に打つ。",
+    "tags": [
+      "碁",
+      "盤",
+      "付喪神",
+      "夜",
+      "遊び"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Izasa-o",
+    "nativeName": "猪笹王",
+    "category": "変化",
+    "region": "猪の王",
+    "blurbJa": "笹原の猪の王。山の獣の頭。",
+    "tags": [
+      "猪",
+      "笹",
+      "王",
+      "山",
+      "変化"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Ishikawa-akushiro",
+    "nativeName": "石川悪四郎",
+    "category": "死霊",
+    "region": "悪四郎",
+    "blurbJa": "石川悪四郎。山本五郎左衛門の類話の人名が怪になる。",
+    "tags": [
+      "人名",
+      "夜",
+      "支配",
+      "怖い",
+      "江戸"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Ijiko",
+    "nativeName": "イジコ",
+    "category": "屋敷",
+    "region": "イジコ",
+    "blurbJa": "イジコと呼ばれる家の小怪。",
+    "tags": [
+      "家",
+      "小",
+      "地方",
+      "夜",
+      "悪戯"
+    ],
+    "tone": "playful",
+    "famousRank": 5
+  },
+  {
+    "name": "Iso-gaki",
+    "nativeName": "磯餓鬼",
+    "category": "海",
+    "region": "磯の餓鬼",
+    "blurbJa": "磯に出る餓鬼。海の飢え。",
+    "tags": [
+      "餓鬼",
+      "磯",
+      "海",
+      "飢え",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Iso-tengu",
+    "nativeName": "磯天狗",
+    "category": "海",
+    "region": "磯の天狗",
+    "blurbJa": "磯の天狗。山の天狗の、海岸支店。",
+    "tags": [
+      "天狗",
+      "磯",
+      "海",
+      "山",
+      "怖い"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Isohime",
+    "nativeName": "磯姫",
+    "category": "海",
+    "region": "磯の姫",
+    "blurbJa": "磯の姫。川姫・海姫の、岩場側。",
+    "tags": [
+      "姫",
+      "磯",
+      "海",
+      "女",
+      "怖い"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Ichijama",
+    "nativeName": "生邪魔",
+    "category": "憑きもの",
+    "region": "生の邪魔",
+    "blurbJa": "生邪魔。生きた障り。",
+    "tags": [
+      "障り",
+      "生",
+      "憑き",
+      "地方",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Itsuki",
+    "nativeName": "縊鬼",
+    "category": "死霊",
+    "region": "縊れる鬼",
+    "blurbJa": "縊れて死んだ者が鬼になる。",
+    "tags": [
+      "縊",
+      "鬼",
+      "死",
+      "怖い",
+      "首"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Issha",
+    "nativeName": "イッシャ",
+    "category": "変化",
+    "region": "イッシャ",
+    "blurbJa": "イッシャと呼ばれる獣の怪。",
+    "tags": [
+      "獣",
+      "地方",
+      "変化",
+      "夜",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 5
+  },
+  {
+    "name": "Idemochi",
+    "nativeName": "イデモチ",
+    "category": "屋敷",
+    "region": "イデモチ",
+    "blurbJa": "出て持ち出す家の怪。",
+    "tags": [
+      "家",
+      "持ち出し",
+      "夜",
+      "地方",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 5
+  },
+  {
+    "name": "Ito-tori-mujina",
+    "nativeName": "糸取り狢",
+    "category": "狐狸",
+    "region": "糸を取る貉",
+    "blurbJa": "糸を取る貉。機の隣の獣。",
+    "tags": [
+      "貉",
+      "糸",
+      "機",
+      "変化",
+      "夜"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Itohiki-musume",
+    "nativeName": "糸引き娘",
+    "category": "変化",
+    "region": "糸を引く娘",
+    "blurbJa": "糸を引く娘。機尋の、人側。",
+    "tags": [
+      "糸",
+      "娘",
+      "機",
+      "変化",
+      "夜"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Inada-kase",
+    "nativeName": "いなだ貸せ",
+    "category": "道中",
+    "region": "いなだ貸せの声",
+    "blurbJa": "「いなだ貸せ」と貸すことを求める声。",
+    "tags": [
+      "声",
+      "貸し",
+      "夜",
+      "道中",
+      "怖い"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Inen",
+    "nativeName": "インネン",
+    "category": "死霊",
+    "region": "因縁",
+    "blurbJa": "因縁そのものが怪として歩ける。",
+    "tags": [
+      "因縁",
+      "死",
+      "憑き",
+      "怖い",
+      "夜"
+    ],
+    "tone": "tragic",
+    "famousRank": 4
+  },
+  {
+    "name": "Ukumono",
+    "nativeName": "浮き物",
+    "category": "海",
+    "region": "浮かぶもの",
+    "blurbJa": "海に浮かぶ名のないもの。あやかしの総称側。",
+    "tags": [
+      "海",
+      "浮",
+      "無名",
+      "怖い",
+      "沖"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Ugume",
+    "nativeName": "ウグメ",
+    "category": "死霊",
+    "region": "産のウグメ",
+    "blurbJa": "産女の地方名が項を持つ。",
+    "tags": [
+      "産",
+      "女",
+      "地方",
+      "死",
+      "怖い"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Usagi-tanuki",
+    "nativeName": "兎狸",
+    "category": "狐狸",
+    "region": "兎に化ける狸",
+    "blurbJa": "兎に化ける狸。葉の隣の耳。",
+    "tags": [
+      "狸",
+      "兎",
+      "変化",
+      "夜",
+      "耳"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Ushigozen",
+    "nativeName": "牛御前",
+    "category": "鬼",
+    "region": "牛の御前",
+    "blurbJa": "牛鬼の、御前の名。",
+    "tags": [
+      "牛",
+      "鬼",
+      "海",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Ushiromel",
+    "nativeName": "後眼",
+    "category": "異形",
+    "region": "後ろの目",
+    "blurbJa": "後ろに目がある怪。後神の、視覚側。",
+    "tags": [
+      "目",
+      "後ろ",
+      "異形",
+      "怖い",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Usuoi-baba",
+    "nativeName": "臼負い婆",
+    "category": "死霊",
+    "region": "臼を負う婆",
+    "blurbJa": "臼を負って歩く婆。夜の重荷。",
+    "tags": [
+      "婆",
+      "臼",
+      "荷",
+      "夜",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Unagi-otoko",
+    "nativeName": "鰻男",
+    "category": "変化",
+    "region": "鰻の男",
+    "blurbJa": "鰻が男になる。川の細長い変化。",
+    "tags": [
+      "鰻",
+      "男",
+      "川",
+      "変化",
+      "夜"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Ubato-i",
+    "nativeName": "ウバトウイ",
+    "category": "死霊",
+    "region": "ウバトウイ",
+    "blurbJa": "ウバトウイと呼ばれる老女の怪。",
+    "tags": [
+      "婆",
+      "地方",
+      "死",
+      "夜",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 5
+  },
+  {
+    "name": "Ubame-tori",
+    "nativeName": "うばめ取り",
+    "category": "死霊",
+    "region": "姥を取る",
+    "blurbJa": "姥を取る怪。夜のさらいの、老女側。",
+    "tags": [
+      "婆",
+      "さらい",
+      "夜",
+      "怖い",
+      "死"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Umashika",
+    "nativeName": "馬鹿",
+    "category": "変化",
+    "region": "馬と鹿",
+    "blurbJa": "馬と鹿の間の愚かな獣の怪。名が普通名詞と重なる。",
+    "tags": [
+      "馬",
+      "鹿",
+      "獣",
+      "変化",
+      "古典"
+    ],
+    "tone": "comic",
+    "famousRank": 4
+  },
+  {
+    "name": "Uma-tsuki",
+    "nativeName": "馬憑き",
+    "category": "憑きもの",
+    "region": "馬が憑く",
+    "blurbJa": "馬が人に憑く。狐憑きの、蹄側。",
+    "tags": [
+      "馬",
+      "憑き",
+      "地方",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Umi-ama",
+    "nativeName": "海海女",
+    "category": "海",
+    "region": "海の海女",
+    "blurbJa": "海の海女の怪。生身の海女とは別。",
+    "tags": [
+      "海女",
+      "海",
+      "女",
+      "怖い",
+      "沖"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Umi-kaburo",
+    "nativeName": "海禿",
+    "category": "海",
+    "region": "海の禿",
+    "blurbJa": "海の禿。屋島の禿の、海側。",
+    "tags": [
+      "禿",
+      "海",
+      "子ども",
+      "沖",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Umi-gumo",
+    "nativeName": "海蜘蛛",
+    "category": "海",
+    "region": "海の蜘蛛",
+    "blurbJa": "船に糸を吐く海蜘蛛。筑紫の怪。",
+    "tags": [
+      "蜘蛛",
+      "海",
+      "糸",
+      "船",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Umi-jijii",
+    "nativeName": "海爺",
+    "category": "海",
+    "region": "海の爺",
+    "blurbJa": "姿の見えない海の爺。獲物を横取りする。",
+    "tags": [
+      "爺",
+      "海",
+      "漁",
+      "見えず",
+      "怖い"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Uminari-kobozu",
+    "nativeName": "海鳴り小坊主",
+    "category": "海",
+    "region": "海鳴りの坊主",
+    "blurbJa": "海鳴りとともに出る小坊主。",
+    "tags": [
+      "坊主",
+      "海鳴り",
+      "海",
+      "子ども",
+      "夜"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Uya-uyashi",
+    "nativeName": "有夜宇屋志",
+    "category": "異形",
+    "region": "絵巻の怪",
+    "blurbJa": "化物尽くし絵巻の有夜宇屋志。名だけ残る。",
+    "tags": [
+      "絵巻",
+      "名",
+      "異形",
+      "古典",
+      "不明"
+    ],
+    "tone": "mysterious",
+    "famousRank": 5
+  },
+  {
+    "name": "Ura",
+    "nativeName": "温羅",
+    "category": "鬼",
+    "region": "吉備の鬼",
+    "blurbJa": "吉備の鬼・温羅。百足譚の相手方。",
+    "tags": [
+      "鬼",
+      "吉備",
+      "百足",
+      "戦い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Ema-no-sei",
+    "nativeName": "絵馬の精",
+    "category": "付喪神",
+    "region": "絵馬",
+    "blurbJa": "絵馬の精。願の板が夜に宴をする。",
+    "tags": [
+      "絵馬",
+      "願",
+      "寺",
+      "精",
+      "夜"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Okuri-suzume",
+    "nativeName": "送り雀",
+    "category": "変化",
+    "region": "送りの雀",
+    "blurbJa": "人を送る雀。夜道の鳥の送り。",
+    "tags": [
+      "雀",
+      "送り",
+      "夜",
+      "道中",
+      "鳥"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Domentsu",
+    "nativeName": "胴面",
+    "category": "異形",
+    "region": "胴の面",
+    "blurbJa": "胴に面がある怪。あかはだかの項。",
+    "tags": [
+      "面",
+      "胴",
+      "異形",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Beka-taro",
+    "nativeName": "べか太郎",
+    "category": "町",
+    "region": "べかの太郎",
+    "blurbJa": "舌を出す小僧。あかんべいの隣。",
+    "tags": [
+      "子ども",
+      "舌",
+      "町",
+      "悪戯",
+      "夜"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Atkor-kamuy",
+    "nativeName": "アッコロカムイ",
+    "category": "海",
+    "region": "アイヌの大章魚",
+    "blurbJa": "アイヌの巨大な蛸のカムイ。図鑑では海の怪として載る。",
+    "tags": [
+      "蛸",
+      "アイヌ",
+      "海",
+      "巨大",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Amemasu",
+    "nativeName": "あめます",
+    "category": "水系",
+    "region": "湖の魚",
+    "blurbJa": "湖の大魚の怪。人を呑むアメマス。",
+    "tags": [
+      "魚",
+      "湖",
+      "呑",
+      "北",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Igusa-no-kesabo",
+    "nativeName": "伊草の袈裟坊",
+    "category": "死霊",
+    "region": "伊草の坊",
+    "blurbJa": "伊草に出る袈裟の坊主。寺の地方怪。",
+    "tags": [
+      "坊主",
+      "袈裟",
+      "地方",
+      "寺",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Ikkan-kozo",
+    "nativeName": "一貫小僧",
+    "category": "町",
+    "region": "銭の小僧",
+    "blurbJa": "銭一貫の小僧。蒜山などの地方怪。",
+    "tags": [
+      "銭",
+      "子ども",
+      "町",
+      "悪戯",
+      "夜"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Inka",
+    "nativeName": "陰火",
+    "category": "霊火",
+    "region": "陰の火",
+    "blurbJa": "陰火。鬼火の漢語側。",
+    "tags": [
+      "火",
+      "陰",
+      "夜",
+      "霊火",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Inu-no-borei",
+    "nativeName": "犬の亡霊",
+    "category": "死霊",
+    "region": "犬の霊",
+    "blurbJa": "犬の亡霊。下甑島などの伝承。",
+    "tags": [
+      "犬",
+      "霊",
+      "死",
+      "夜",
+      "地方"
+    ],
+    "tone": "tragic",
+    "famousRank": 4
+  },
+  {
+    "name": "Uchiwata-tanuki",
+    "nativeName": "打綿狸",
+    "category": "狐狸",
+    "region": "綿を打つ狸",
+    "blurbJa": "綿を打つ狸。仕事する化け狸。",
+    "tags": [
+      "狸",
+      "綿",
+      "仕事",
+      "変化",
+      "夜"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Umi-onna",
+    "nativeName": "海女",
+    "category": "海",
+    "region": "海の女の怪",
+    "blurbJa": "海の女の怪。生身の海女とは別項。",
+    "tags": [
+      "女",
+      "海",
+      "怖い",
+      "沖",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Akadenchu",
+    "nativeName": "赤殿中",
+    "category": "狐狸",
+    "region": "赤い殿中",
+    "blurbJa": "赤い殿中に化ける狸。",
+    "tags": [
+      "狸",
+      "赤",
+      "殿中",
+      "変化",
+      "夜"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Itachi-no-kai",
+    "nativeName": "鼬の怪",
+    "category": "変化",
+    "region": "イタチの怪",
+    "blurbJa": "イタチの怪。鎌鼬・テンの、普通の鼬側。",
+    "tags": [
+      "鼬",
+      "獣",
+      "変化",
+      "夜",
+      "山"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Atake-maru",
+    "nativeName": "安宅丸",
+    "category": "海",
+    "region": "安宅丸の怪",
+    "blurbJa": "安宅丸にまつわる船の怪。巨船が怪異になる。",
+    "tags": [
+      "船",
+      "海",
+      "巨大",
+      "怖い",
+      "江戸"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Akki",
+    "nativeName": "悪鬼",
+    "category": "鬼",
+    "region": "悪鬼",
+    "blurbJa": "悪鬼。鬼の、漢語の荒い側。",
+    "tags": [
+      "鬼",
+      "悪",
+      "怖い",
+      "古典",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Koshipu",
+    "nativeName": "コシンプ",
+    "category": "異形",
+    "region": "アイヌの怪",
+    "blurbJa": "アイヌのコシンプ。姿を変える禍の精。",
+    "tags": [
+      "アイヌ",
+      "変化",
+      "禍",
+      "北",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Arasaraus",
+    "nativeName": "アラサラウス",
+    "category": "山系",
+    "region": "アイヌの山怪",
+    "blurbJa": "アイヌのアラサラウス。山の禍。",
+    "tags": [
+      "アイヌ",
+      "山",
+      "禍",
+      "北",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Ammo",
+    "nativeName": "アンモ",
+    "category": "異形",
+    "region": "アンモ",
+    "blurbJa": "アンモと呼ばれる怪。図鑑の地方名。",
+    "tags": [
+      "地方",
+      "異形",
+      "夜",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 5
+  },
+  {
+    "name": "Koshinpu2",
+    "nativeName": "イワコシンプ",
+    "category": "山系",
+    "region": "岩のコシンプ",
+    "blurbJa": "岩のコシンプ。コシンプの山側。",
+    "tags": [
+      "岩",
+      "アイヌ",
+      "山",
+      "禍",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Iwasaraus",
+    "nativeName": "イワサラウス",
+    "category": "山系",
+    "region": "岩のサラウス",
+    "blurbJa": "岩のサラウス。アラサラウスの岩側。",
+    "tags": [
+      "岩",
+      "アイヌ",
+      "山",
+      "禍",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Keshana",
+    "nativeName": "ケナシコルウナルペ",
+    "category": "死霊",
+    "region": "アイヌの女怪",
+    "blurbJa": "アイヌの女の禍の精。図鑑に載る。",
+    "tags": [
+      "女",
+      "アイヌ",
+      "禍",
+      "北",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Ipetam",
+    "nativeName": "イペタム",
+    "category": "異形",
+    "region": "人食い刀",
+    "blurbJa": "血に飢えた妖刀。一度抜くと収まらない。",
+    "tags": [
+      "刀",
+      "血",
+      "アイヌ",
+      "怖い",
+      "武具"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Iwaetunnai",
+    "nativeName": "イワエトゥンナイ",
+    "category": "山系",
+    "region": "岩の穴の怪",
+    "blurbJa": "岩の隙間のアイヌの怪。",
+    "tags": [
+      "岩",
+      "隙間",
+      "アイヌ",
+      "山",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Iwaho-inu",
+    "nativeName": "イワホイヌ",
+    "category": "変化",
+    "region": "岩の鼬",
+    "blurbJa": "大きな角と歯の山イタチの怪。",
+    "tags": [
+      "鼬",
+      "角",
+      "アイヌ",
+      "山",
+      "獣"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Iwaposinkara",
+    "nativeName": "イワポソインカラ",
+    "category": "山系",
+    "region": "岩を見る怪",
+    "blurbJa": "岩を見るアイヌの怪。",
+    "tags": [
+      "岩",
+      "見る",
+      "アイヌ",
+      "山",
+      "怖い"
+    ],
+    "tone": "mysterious",
+    "famousRank": 5
+  },
+  {
+    "name": "Ainu-kaisei",
+    "nativeName": "アイヌカイセイ",
+    "category": "海",
+    "region": "アイヌの海怪",
+    "blurbJa": "アイヌカイセイ。海の禍。",
+    "tags": [
+      "海",
+      "アイヌ",
+      "禍",
+      "北",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Ainu-sokki",
+    "nativeName": "アイヌソッキ",
+    "category": "海",
+    "region": "アイヌの人魚",
+    "blurbJa": "アイヌソッキ。人魚の、北の名。",
+    "tags": [
+      "人魚",
+      "アイヌ",
+      "海",
+      "北",
+      "女"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Atui-kakura",
+    "nativeName": "アツゥイカクラ",
+    "category": "海",
+    "region": "海のカムイ",
+    "blurbJa": "アッコロカムイの類名。海の大怪。",
+    "tags": [
+      "海",
+      "アイヌ",
+      "巨大",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Atsui-koro-ekashi",
+    "nativeName": "アツゥイコロエカシ",
+    "category": "海",
+    "region": "海の老カムイ",
+    "blurbJa": "海の老いたカムイ名が図鑑に残る。",
+    "tags": [
+      "海",
+      "老",
+      "アイヌ",
+      "巨大",
+      "怖い"
+    ],
+    "tone": "solemn",
+    "famousRank": 4
+  },
+  {
+    "name": "Oitekebori",
+    "nativeName": "置行堀",
+    "category": "屋敷",
+    "region": "本所の堀",
+    "blurbJa": "本所七不思議の置行堀。魚を堀に戻せという声。",
+    "tags": [
+      "堀",
+      "声",
+      "江戸",
+      "不思議",
+      "魚"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Osei-mushi",
+    "nativeName": "応声虫",
+    "category": "変化",
+    "region": "応える虫",
+    "blurbJa": "人の言葉に応じて鳴く虫。腹の中の怪異。",
+    "tags": [
+      "虫",
+      "声",
+      "腹",
+      "古典",
+      "怖い"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Oatama-kozo",
+    "nativeName": "大頭小僧",
+    "category": "異形",
+    "region": "大きな頭",
+    "blurbJa": "頭の大きい小僧。夜の童。",
+    "tags": [
+      "頭",
+      "子ども",
+      "夜",
+      "怖い",
+      "童"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Okani",
+    "nativeName": "大蟹",
+    "category": "海",
+    "region": "巨大な蟹",
+    "blurbJa": "巨大な蟹の怪。化け蟹の、巨大側。",
+    "tags": [
+      "蟹",
+      "巨大",
+      "海",
+      "怖い",
+      "沖"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Ohikigaeru",
+    "nativeName": "大蟇",
+    "category": "変化",
+    "region": "巨大な蟇",
+    "blurbJa": "巨大な蟇。化け蛙の、巨大側。",
+    "tags": [
+      "蟇",
+      "巨大",
+      "変化",
+      "怖い",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Okiseru",
+    "nativeName": "大煙管",
+    "category": "付喪神",
+    "region": "巨大な煙管",
+    "blurbJa": "巨大な煙管の付喪神。",
+    "tags": [
+      "煙管",
+      "巨大",
+      "付喪神",
+      "煙",
+      "夜"
+    ],
+    "tone": "comic",
+    "famousRank": 4
+  },
+  {
+    "name": "Onamazu",
+    "nativeName": "大鯰",
+    "category": "水系",
+    "region": "大地の鯰",
+    "blurbJa": "大地を揺らす大鯰。地震の魚。",
+    "tags": [
+      "鯰",
+      "地震",
+      "水",
+      "巨大",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Okuri-itachi",
+    "nativeName": "送り鼬",
+    "category": "道中",
+    "region": "送りの鼬",
+    "blurbJa": "人を送る鼬。送り犬の、鼬側。",
+    "tags": [
+      "鼬",
+      "送り",
+      "道中",
+      "夜",
+      "獣"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Okuri-hyoshigi",
+    "nativeName": "送り拍子木",
+    "category": "現代伝承",
+    "region": "本所",
+    "blurbJa": "本所七不思議の送り拍子木。誰もいない拍子木。",
+    "tags": [
+      "拍子木",
+      "音",
+      "江戸",
+      "不思議",
+      "夜"
+    ],
+    "tone": "mysterious",
+    "famousRank": 2
   }
 ]

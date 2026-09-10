@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.20.0
+
+- Catalog filled to the list cap: 600 encyclopedia yokai, each with a bilingual card (legends, traits, motifs, hooks, source).
+- New plates include Sekien tsukumogami (文車妖妃, 骨傘, 雲外鏡, 経凛々), 般若, 野寺坊, 元興寺, 以津真天, 狂骨, 大鯰, 置行堀, 送り拍子木. Kami and hunters stay out.
+
 ## 0.19.0
 
 - Catalog grew to 391 encyclopedia yokai. New names include 白うねり, 籠釣瓶, 首切れ馬, 蛤女房, お菊虫, 流れ灌頂, 迎え提灯, 吉田御殿.
