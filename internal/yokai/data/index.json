@@ -6023,5 +6023,309 @@
     ],
     "tone": "mysterious",
     "famousRank": 3
+  },
+  {
+    "name": "Shiro-uneri",
+    "nativeName": "白うねり",
+    "category": "付喪神",
+    "region": "白い布の渦",
+    "blurbJa": "白い布が渦になって襲う。石燕の図で知られる付喪神。",
+    "tags": [
+      "布",
+      "付喪神",
+      "古典",
+      "怖い",
+      "渦"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Kago-tsurube",
+    "nativeName": "籠釣瓶",
+    "category": "付喪神",
+    "region": "井戸の籠",
+    "blurbJa": "井戸の籠釣瓶が人を引き込む。石燕の付喪神。",
+    "tags": [
+      "井戸",
+      "籠",
+      "付喪神",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Furu-kago-bi",
+    "nativeName": "古籠火",
+    "category": "霊火",
+    "region": "古い籠の火",
+    "blurbJa": "古い籠に宿る火。捨てられた編み目が燃える。",
+    "tags": [
+      "火",
+      "籠",
+      "霊火",
+      "夜",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Tera-tsutsuki",
+    "nativeName": "寺つつき",
+    "category": "変化",
+    "region": "寺の壁",
+    "blurbJa": "寺の壁や仏を突く鳥の怪。堂が傷つく。",
+    "tags": [
+      "鳥",
+      "寺",
+      "変化",
+      "音",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Hikeshi-tsubo",
+    "nativeName": "火消壺",
+    "category": "付喪神",
+    "region": "火を呑む壺",
+    "blurbJa": "火を消す壺の付喪神。炎を中へ入れる。",
+    "tags": [
+      "壺",
+      "火",
+      "付喪神",
+      "夜",
+      "道具"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Furu-dera-bi",
+    "nativeName": "古寺火",
+    "category": "霊火",
+    "region": "廃寺の火",
+    "blurbJa": "廃れた寺に残る火。誰も祀らない灯。",
+    "tags": [
+      "火",
+      "寺",
+      "廃",
+      "霊火",
+      "夜"
+    ],
+    "tone": "tragic",
+    "famousRank": 4
+  },
+  {
+    "name": "Mukae-chochin",
+    "nativeName": "迎え提灯",
+    "category": "霊火",
+    "region": "迎えの灯",
+    "blurbJa": "先から来る提灯。送り提灯の反対で、迎えに来る灯。",
+    "tags": [
+      "提灯",
+      "夜",
+      "道中",
+      "火",
+      "迎え"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Akatori-baba",
+    "nativeName": "垢とり婆",
+    "category": "屋敷",
+    "region": "夜の肌",
+    "blurbJa": "寝ている人の垢を剥ぐ婆。垢嘗（舐める）とは別の職。",
+    "tags": [
+      "婆",
+      "垢",
+      "夜",
+      "屋敷",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Chitori-danuki",
+    "nativeName": "血取り狸",
+    "category": "狐狸",
+    "region": "血を取る狸",
+    "blurbJa": "人の血を取る狸。化け狸の、医療の悪い側。",
+    "tags": [
+      "狸",
+      "血",
+      "変化",
+      "怖い",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Hitori-ma",
+    "nativeName": "火取魔",
+    "category": "霊火",
+    "region": "灯を盗む",
+    "blurbJa": "家の火や灯油を盗む魔。油すまし・油赤子の隣職。",
+    "tags": [
+      "火",
+      "盗み",
+      "夜",
+      "霊火",
+      "家"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Kani-bozu",
+    "nativeName": "蟹坊主",
+    "category": "海",
+    "region": "磯の坊主",
+    "blurbJa": "坊主の頭を持つ蟹。化け蟹（甲の顔）とは別項。",
+    "tags": [
+      "蟹",
+      "僧",
+      "海",
+      "怖い",
+      "磯"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Hamaguri-nyobo",
+    "nativeName": "蛤女房",
+    "category": "変化",
+    "region": "干潟の妻",
+    "blurbJa": "蛤が妻になる。化け蛤（貝の楼閣）とは別の、嫁入り譚。",
+    "tags": [
+      "蛤",
+      "妻",
+      "変化",
+      "禁忌",
+      "海"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Okiku-mushi",
+    "nativeName": "お菊虫",
+    "category": "変化",
+    "region": "皿と虫",
+    "blurbJa": "お菊の霊が虫になる。皿屋敷の幽霊とは別の、虫の項。",
+    "tags": [
+      "虫",
+      "菊",
+      "皿",
+      "変化",
+      "古典"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Yoshida-goten",
+    "nativeName": "吉田御殿",
+    "category": "屋敷",
+    "region": "江戸の御殿",
+    "blurbJa": "江戸の吉田御殿。女の怨みが屋敷そのものになる。",
+    "tags": [
+      "屋敷",
+      "江戸",
+      "女",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Kubikire-uma",
+    "nativeName": "首切れ馬",
+    "category": "死霊",
+    "region": "夜の馬",
+    "blurbJa": "首のない馬が夜道を走る。乗るな、という話。",
+    "tags": [
+      "馬",
+      "首",
+      "夜",
+      "道中",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Nagare-kanjo",
+    "nativeName": "流れ灌頂",
+    "category": "死霊",
+    "region": "川の塔婆",
+    "blurbJa": "川を流れる塔婆や木。死の知らせ、または水の供養が怪になる。",
+    "tags": [
+      "川",
+      "供養",
+      "死",
+      "水",
+      "怖い"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Okuri-yurei",
+    "nativeName": "送り幽霊",
+    "category": "死霊",
+    "region": "送りの霊",
+    "blurbJa": "後ろから送ってくる幽霊。送り犬の、人の側。",
+    "tags": [
+      "幽霊",
+      "送り",
+      "夜",
+      "道中",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Neko-guruma",
+    "nativeName": "猫車",
+    "category": "変化",
+    "region": "夜の猫の車",
+    "blurbJa": "猫が車を引く。宝または火を積んで夜を行く。",
+    "tags": [
+      "猫",
+      "車",
+      "夜",
+      "変化",
+      "火"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Hone-guruma",
+    "nativeName": "骨車",
+    "category": "死霊",
+    "region": "骨の車",
+    "blurbJa": "骨でできた車。輪入道（火の輪）とは別の、骸の荷車。",
+    "tags": [
+      "骨",
+      "車",
+      "死",
+      "夜",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 4
   }
 ]

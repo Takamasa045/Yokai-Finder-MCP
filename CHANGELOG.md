@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.19.0
+
+- Catalog grew to 391 encyclopedia yokai. New names include 白うねり, 籠釣瓶, 首切れ馬, 蛤女房, お菊虫, 流れ灌頂, 迎え提灯, 吉田御殿.
+- Same-being aliases added (山本五郎左衛門 → ぬらりひょん, 座敷ぼっこ → 座敷童子, 牡丹灯籠 → お露). Still no kami or hunters.
+
 ## 0.18.0
 
 - Catalog grew to 372 encyclopedia yokai. New names include 長壁姫, 小袖の手, 物の怪, 屋島の禿, 百目, ナモミタクリ, 化け長持, かんけら火, 化けくらげ, 化け蛸.

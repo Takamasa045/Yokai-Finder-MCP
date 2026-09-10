@@ -14058,5 +14058,708 @@
     "sources": [
       "Kitsune-no-mado fox-lore"
     ]
+  },
+  {
+    "name": "Shiro-uneri",
+    "nativeName": "白うねり",
+    "region": "White cloth that coils",
+    "category": "付喪神",
+    "categoryEn": "White coil",
+    "summary": "A tsukumogami of white cloth that coils like a wave and wraps the living; a famous Sekien plate.",
+    "summaryJa": "白い布が波のように渦巻いて人を包む付喪神。鳥山石燕の図で知られる。",
+    "legends": [
+      "Laundry that becomes a current",
+      "A shroud with no funeral yet",
+      "The coil is the hunt"
+    ],
+    "traits": [
+      "White cloth vortex",
+      "Wrapping wave",
+      "Sekien plate",
+      "Tool spirit"
+    ],
+    "motifs": [
+      "Tsukumogami",
+      "Named coil",
+      "Fabric haunt",
+      "Picture-scroll"
+    ],
+    "funFact": "A tsunami in the linen cupboard.",
+    "funFactJa": "箪笥の津波。",
+    "searchQuery": "白うねり しろうねり 妖怪",
+    "creativeHooks": [
+      "A wardrobe that is weather.",
+      "Keep it cloth, not a dragon.",
+      "The fold is the plot."
+    ],
+    "sources": [
+      "Sekien Shiro-uneri"
+    ]
+  },
+  {
+    "name": "Kago-tsurube",
+    "nativeName": "籠釣瓶",
+    "region": "Well baskets that pull",
+    "category": "付喪神",
+    "categoryEn": "Basket well-bucket",
+    "summary": "A tsukumogami of a kago-tsurube well basket that pulls people down the shaft.",
+    "summaryJa": "井戸の籠釣瓶が付喪神になり、人を井戸へ引き込む。",
+    "legends": [
+      "A bucket that wants a passenger",
+      "The well invoices in bodies",
+      "Neighbour to tsurube-otoshi, but the tool is the mouth"
+    ],
+    "traits": [
+      "Well basket",
+      "Pulling shaft",
+      "Sekien plate",
+      "Tool spirit"
+    ],
+    "motifs": [
+      "Tsukumogami",
+      "Named well",
+      "Tsurube-otoshi neighbour",
+      "Drop"
+    ],
+    "funFact": "A rideshare into the dark.",
+    "funFactJa": "闇への送迎。",
+    "searchQuery": "籠釣瓶 かごつるべ 妖怪",
+    "creativeHooks": [
+      "Keep 釣瓶落とし as the falling head.",
+      "A well with HR.",
+      "The rope is the plot."
+    ],
+    "sources": [
+      "Sekien Kago-tsurube"
+    ]
+  },
+  {
+    "name": "Furu-kago-bi",
+    "nativeName": "古籠火",
+    "region": "Fire in an old basket",
+    "category": "霊火",
+    "categoryEn": "Old-basket fire",
+    "summary": "A fire that lives in an old wicker basket; discarded weave that still burns.",
+    "summaryJa": "古い籠に宿る霊火。捨てられた編み目が、夜に燃える。",
+    "legends": [
+      "Trash night with a wick",
+      "A basket that is a lantern without oil",
+      "Neighbour to other onibi with a container"
+    ],
+    "traits": [
+      "Wicker lamp",
+      "Discarded basket",
+      "Night fire",
+      "Container onibi"
+    ],
+    "motifs": [
+      "Named basket",
+      "Waste fire",
+      "Onibi family",
+      "Tool leftover"
+    ],
+    "funFact": "Recycling day that ignites.",
+    "funFactJa": "燃える資源ごみ。",
+    "searchQuery": "古籠火 ふるかごび 妖怪",
+    "creativeHooks": [
+      "A bin that is a lighthouse.",
+      "Keep the wicker.",
+      "The weave is the wick."
+    ],
+    "sources": [
+      "Korobi / old-basket fire lore"
+    ]
+  },
+  {
+    "name": "Tera-tsutsuki",
+    "nativeName": "寺つつき",
+    "region": "Temple-pecking birds",
+    "category": "変化",
+    "categoryEn": "Temple pecker",
+    "summary": "A bird yokai that pecks temple walls and Buddhas until the hall is wounded.",
+    "summaryJa": "寺の壁や仏像を突く鳥の妖怪。堂に穴が開く。",
+    "legends": [
+      "A woodpecker with a grudge against liturgy",
+      "Dawn holes in the plank",
+      "Offerings do not stop the beak"
+    ],
+    "traits": [
+      "Pecking bird",
+      "Temple wound",
+      "Dawn noise",
+      "Anti-hall"
+    ],
+    "motifs": [
+      "Named beak",
+      "Sacred damage",
+      "Bird yokai",
+      "Audio"
+    ],
+    "funFact": "A facilities ticket written by a bird.",
+    "funFactJa": "鳥が書く修繕票。",
+    "searchQuery": "寺つつき てらつつき 妖怪",
+    "creativeHooks": [
+      "A restoration budget that is a haunting.",
+      "Keep the peck.",
+      "The plank is the plot."
+    ],
+    "sources": [
+      "Tera-tsutsuki temple lore"
+    ]
+  },
+  {
+    "name": "Hikeshi-tsubo",
+    "nativeName": "火消壺",
+    "region": "Pots that swallow fire",
+    "category": "付喪神",
+    "categoryEn": "Fire-quenching pot",
+    "summary": "A tsukumogami of a fire-quenching pot that swallows flame into itself.",
+    "summaryJa": "火消壺の付喪神。炎を壺の中へ呑んで消す。",
+    "legends": [
+      "A firefighter with no crew",
+      "Hearths go out when the pot walks",
+      "Neighbour to hikeshi-baba, but the tool is the mouth"
+    ],
+    "traits": [
+      "Flame-eating jar",
+      "Night pot",
+      "Tool spirit",
+      "Hearth thief"
+    ],
+    "motifs": [
+      "Tsukumogami",
+      "Named quench",
+      "Fire family",
+      "Household"
+    ],
+    "funFact": "A fire extinguisher that clocks in.",
+    "funFactJa": "出勤する消火器。",
+    "searchQuery": "火消壺 ひけしつぼ 妖怪",
+    "creativeHooks": [
+      "Keep 火消婆 as the woman card.",
+      "A kitchen with a hungry jar.",
+      "The lid is the plot."
+    ],
+    "sources": [
+      "Hikeshi-tsubo tsukumogami lore"
+    ]
+  },
+  {
+    "name": "Furu-dera-bi",
+    "nativeName": "古寺火",
+    "region": "Fires of ruined temples",
+    "category": "霊火",
+    "categoryEn": "Old-temple fire",
+    "summary": "A leftover fire in a ruined temple; a lamp that no one tends.",
+    "summaryJa": "廃寺に残る霊火。祀る人がいなくなっても、灯だけが残る。",
+    "legends": [
+      "A liturgy of one wick",
+      "The hall is gone; the flame keeps office hours",
+      "Do not take it home"
+    ],
+    "traits": [
+      "Ruined-temple lamp",
+      "Untended wick",
+      "Night ruin",
+      "Leftover fire"
+    ],
+    "motifs": [
+      "Named ruin",
+      "Onibi family",
+      "Abandoned liturgy",
+      "Place fire"
+    ],
+    "funFact": "A night shift with no temple.",
+    "funFactJa": "寺のない夜勤。",
+    "searchQuery": "古寺火 ふるでらび 妖怪",
+    "creativeHooks": [
+      "A vacancy that still burns.",
+      "Keep it a fire, not a monk.",
+      "The wick is the staff."
+    ],
+    "sources": [
+      "Furudera-bi ruined-temple fire lore"
+    ]
+  },
+  {
+    "name": "Mukae-chochin",
+    "nativeName": "迎え提灯",
+    "region": "Lanterns that come to fetch you",
+    "category": "霊火",
+    "categoryEn": "Fetching lantern",
+    "summary": "A lantern that comes toward you to fetch you; the opposite job of okuri-chochin.",
+    "summaryJa": "向こうから迎えに来る提灯。送り提灯の反対の職。",
+    "legends": [
+      "A pickup, not a drop-off",
+      "Follow it and you miss the living road",
+      "Do not get in"
+    ],
+    "traits": [
+      "Oncoming lamp",
+      "Fetch job",
+      "Okuri-chochin opposite",
+      "Look-back cousin"
+    ],
+    "motifs": [
+      "Named escort",
+      "Fire on the road",
+      "Hospitality trap",
+      "Travel"
+    ],
+    "funFact": "A taxi that arrives before you call.",
+    "funFactJa": "呼ぶ前に来るタクシー。",
+    "searchQuery": "迎え提灯 むかえちょうちん 妖怪",
+    "creativeHooks": [
+      "Keep 送り提灯 as the following lamp.",
+      "A pickup with no driver.",
+      "The greeting is the plot."
+    ],
+    "sources": [
+      "Mukae-chochin road lore"
+    ]
+  },
+  {
+    "name": "Akatori-baba",
+    "nativeName": "垢とり婆",
+    "region": "Hags who peel filth",
+    "category": "屋敷",
+    "categoryEn": "Filth-peeling hag",
+    "summary": "A hag who peels aka (filth and marks) off sleepers; neighbour to akaname, who licks, not peels.",
+    "summaryJa": "寝ている人の垢を剥ぐ婆。舐める垢嘗とは職が違う。",
+    "legends": [
+      "A harvest of skin-dirt",
+      "Waking thinner in the wrong places",
+      "Neighbour to namomi-takuri in method"
+    ],
+    "traits": [
+      "Peeling hag",
+      "Night skin",
+      "Not a licker",
+      "House thief"
+    ],
+    "motifs": [
+      "Named aka",
+      "Akaname neighbour",
+      "Body folklore",
+      "Domestic"
+    ],
+    "funFact": "A spa treatment you did not book.",
+    "funFactJa": "予約していないエステ。",
+    "searchQuery": "垢とり婆 あかとりばばあ 妖怪",
+    "creativeHooks": [
+      "Keep 垢嘗 as the tongue card.",
+      "A harvest of dirt.",
+      "The peel is the plot."
+    ],
+    "sources": [
+      "Akatori-baba folk index"
+    ]
+  },
+  {
+    "name": "Chitori-danuki",
+    "nativeName": "血取り狸",
+    "region": "Tanuki that take blood",
+    "category": "狐狸",
+    "categoryEn": "Blood-taking tanuki",
+    "summary": "A tanuki that takes human blood; the medical malpractice side of bake-danuki.",
+    "summaryJa": "人の血を取る狸。化ける狸の、血の側。",
+    "legends": [
+      "A clinic in a leaf hat",
+      "Waking weak after a visit",
+      "Not a vampire import; keep the tanuki"
+    ],
+    "traits": [
+      "Blood harvest",
+      "Leaf-hat clinic",
+      "Night tanuki",
+      "Weak waking"
+    ],
+    "motifs": [
+      "Named blood",
+      "Tanuki family",
+      "Body folklore",
+      "Rural"
+    ],
+    "funFact": "A blood drive with a tail.",
+    "funFactJa": "しっぽのある献血。",
+    "searchQuery": "血取り狸 ちとりだぬき 妖怪",
+    "creativeHooks": [
+      "Keep bake-danuki as the prank card.",
+      "A clinic that is a den.",
+      "The sample is the plot."
+    ],
+    "sources": [
+      "Chitori-danuki regional lore"
+    ]
+  },
+  {
+    "name": "Hitori-ma",
+    "nativeName": "火取魔",
+    "region": "Thieves of hearth and lamp",
+    "category": "霊火",
+    "categoryEn": "Fire-thief",
+    "summary": "A spirit that steals hearth fire and lamp oil; neighbour office to abura-sumashi and abura-akago.",
+    "summaryJa": "炉の火や灯油を盗む魔。油すまし・油赤子の隣の職。",
+    "legends": [
+      "The hearth goes out with a thief, not a wind",
+      "Oil missing from the lamp",
+      "A blackout with footprints"
+    ],
+    "traits": [
+      "Fire thief",
+      "Oil missing",
+      "Night house",
+      "Lamp neighbour"
+    ],
+    "motifs": [
+      "Named theft",
+      "Abura family",
+      "Hearth",
+      "Onibi adjacent"
+    ],
+    "funFact": "A utility bill that is a haunting.",
+    "funFactJa": "呪いの電気代。",
+    "searchQuery": "火取魔 ひとりま 妖怪",
+    "creativeHooks": [
+      "Keep 油すまし as the oil-man card.",
+      "A blackout with intent.",
+      "The wick is the crime scene."
+    ],
+    "sources": [
+      "Hitori-ma fire-theft lore"
+    ]
+  },
+  {
+    "name": "Kani-bozu",
+    "nativeName": "蟹坊主",
+    "region": "Crab monks of the rocks",
+    "category": "海",
+    "categoryEn": "Crab monk",
+    "summary": "A crab with a monk's head; neighbour to bake-kani, which wears a face on the shell.",
+    "summaryJa": "坊主頭の蟹。甲に顔がある化け蟹とは別項。",
+    "legends": [
+      "A tonsure with claws",
+      "The tide brings a small priest",
+      "Offerings of shells do not buy a sermon"
+    ],
+    "traits": [
+      "Monk-headed crab",
+      "Rock den",
+      "Claw liturgy",
+      "Bake-kani neighbour"
+    ],
+    "motifs": [
+      "Named crustacean",
+      "Sea clergy",
+      "Shore",
+      "Shapeshift"
+    ],
+    "funFact": "A parish of one claw.",
+    "funFactJa": "鋏一つの檀家。",
+    "searchQuery": "蟹坊主 かにぼうず 妖怪",
+    "creativeHooks": [
+      "Keep 化け蟹 as the faced-shell card.",
+      "A sermon on the rocks.",
+      "The tonsure is the plot."
+    ],
+    "sources": [
+      "Kani-bozu sea-yokai lore"
+    ]
+  },
+  {
+    "name": "Hamaguri-nyobo",
+    "nativeName": "蛤女房",
+    "region": "Wives who were clams",
+    "category": "変化",
+    "categoryEn": "Clam wife",
+    "summary": "A clam that becomes a wife; neighbour to bake-hamaguri, which issues a palace from the shell.",
+    "summaryJa": "蛤が人の妻になる話。貝から楼閣を出す化け蛤とは別項。",
+    "legends": [
+      "A catch that does housework",
+      "Do not look when she returns to the shell",
+      "Children of sand and tide"
+    ],
+    "traits": [
+      "Clam wife",
+      "Taboo looking",
+      "Tide marriage",
+      "Palace neighbour"
+    ],
+    "motifs": [
+      "Animal wife",
+      "Named bivalve",
+      "Tsuru-nyobo neighbour",
+      "Sea"
+    ],
+    "funFact": "A visa that is a shell.",
+    "funFactJa": "貝がビザ。",
+    "searchQuery": "蛤女房 はまぐりにょうぼう 妖怪",
+    "creativeHooks": [
+      "Keep 化け蛤 as the palace card.",
+      "A marriage with a hinge.",
+      "The looking is the plot."
+    ],
+    "sources": [
+      "Hamaguri-nyobo transformation tales"
+    ]
+  },
+  {
+    "name": "Okiku-mushi",
+    "nativeName": "お菊虫",
+    "region": "Insects of Okiku",
+    "category": "変化",
+    "categoryEn": "Okiku insect",
+    "summary": "Okiku's spirit as an insect; neighbour to the Bancho dish-mansion ghost, not the same card.",
+    "summaryJa": "お菊の霊が虫になったもの。皿を数える幽霊とは別項。",
+    "legends": [
+      "A worm that still counts plates",
+      "The garden inherits the kaidan",
+      "Do not squash the census"
+    ],
+    "traits": [
+      "Counting insect",
+      "Dish-mansion leftover",
+      "Garden haunt",
+      "Okiku neighbour"
+    ],
+    "motifs": [
+      "Named insect",
+      "Rebirth",
+      "Kaidan afterlife",
+      "Household"
+    ],
+    "funFact": "A bug that does inventory.",
+    "funFactJa": "在庫する虫。",
+    "searchQuery": "お菊虫 おきくむし 妖怪",
+    "creativeHooks": [
+      "Keep お菊 as the ghost card.",
+      "A garden that counts to nine.",
+      "The shell is a dish."
+    ],
+    "sources": [
+      "Okiku-mushi / Bancho dish lore"
+    ]
+  },
+  {
+    "name": "Yoshida-goten",
+    "nativeName": "吉田御殿",
+    "region": "The Yoshida mansion",
+    "category": "屋敷",
+    "categoryEn": "Yoshida palace",
+    "summary": "The Yoshida mansion of Edo; a women's grudge that becomes the house itself.",
+    "summaryJa": "江戸の吉田御殿。女の怨みが、屋敷そのものになった怪。",
+    "legends": [
+      "A floor plan of jealousy",
+      "Rooms that keep the living in",
+      "Neighbour to other house-kaidan, with a palace name"
+    ],
+    "traits": [
+      "Named mansion",
+      "Women's grudge",
+      "Edo house",
+      "Place as yokai"
+    ],
+    "motifs": [
+      "House haunt",
+      "Kaidan locale",
+      "Enclosure",
+      "Courtly dread"
+    ],
+    "funFact": "A floor plan that hunts.",
+    "funFactJa": "間取りが狩る。",
+    "searchQuery": "吉田御殿 よしだごてん 妖怪",
+    "creativeHooks": [
+      "A lease with a palace name.",
+      "Keep it a house, not a princess.",
+      "The corridor is the plot."
+    ],
+    "sources": [
+      "Yoshida-goten Edo kaidan"
+    ]
+  },
+  {
+    "name": "Kubikire-uma",
+    "nativeName": "首切れ馬",
+    "region": "Headless horses on night roads",
+    "category": "死霊",
+    "categoryEn": "Headless horse",
+    "summary": "A horse with no head that runs the night road; the tale is: do not mount it.",
+    "summaryJa": "首のない馬が夜の道を走る。乗ってはならない。",
+    "legends": [
+      "A saddle that is a trap",
+      "Hoofbeats without a face",
+      "The rider arrives without a neck"
+    ],
+    "traits": [
+      "Headless mount",
+      "Night road",
+      "Do-not-ride",
+      "Hoof omen"
+    ],
+    "motifs": [
+      "Named horse",
+      "Travel dread",
+      "Body missing",
+      "Road"
+    ],
+    "funFact": "A rideshare with no head.",
+    "funFactJa": "頭のない送迎。",
+    "searchQuery": "首切れ馬 くびきれうま 妖怪",
+    "creativeHooks": [
+      "A taxi without a face.",
+      "Keep the missing head.",
+      "The saddle is the plot."
+    ],
+    "sources": [
+      "Kubikire-uma road lore"
+    ]
+  },
+  {
+    "name": "Nagare-kanjo",
+    "nativeName": "流れ灌頂",
+    "region": "Memorials on the current",
+    "category": "死霊",
+    "categoryEn": "Floating memorial",
+    "summary": "Stupas and memorial sticks floating downstream; a death-notice or a water offering that becomes yokai.",
+    "summaryJa": "川を流れる塔婆。死の知らせ、または水の供養そのものが怪異になる。",
+    "legends": [
+      "A census of the drowned",
+      "Do not pull the stick ashore without a rite",
+      "The current is a temple"
+    ],
+    "traits": [
+      "Floating stupa",
+      "Death notice",
+      "River memorial",
+      "Water offering"
+    ],
+    "motifs": [
+      "Named kanjo",
+      "Water death",
+      "Buddhist folk",
+      "Omen"
+    ],
+    "funFact": "Mail delivered by the river.",
+    "funFactJa": "川が郵便。",
+    "searchQuery": "流れ灌頂 ながれかんじょう 妖怪",
+    "creativeHooks": [
+      "A notice that is timber.",
+      "Keep it a memorial, not a toy boat.",
+      "The current is the plot."
+    ],
+    "sources": [
+      "Nagare-kanjo river memorial lore"
+    ]
+  },
+  {
+    "name": "Okuri-yurei",
+    "nativeName": "送り幽霊",
+    "region": "Ghosts that see you home",
+    "category": "死霊",
+    "categoryEn": "Sending ghost",
+    "summary": "A ghost that walks you home from behind; the human-shaped cousin of okuri-inu.",
+    "summaryJa": "後ろから家まで送ってくる幽霊。送り犬の、人の形の側。",
+    "legends": [
+      "Look back and the escort is a corpse",
+      "A courtesy past the last house",
+      "Do not thank it at the door"
+    ],
+    "traits": [
+      "Following dead",
+      "Night courtesy",
+      "Okuri-inu neighbour",
+      "Look-back taboo"
+    ],
+    "motifs": [
+      "Named escort",
+      "Yurei family",
+      "Travel",
+      "Hospitality trap"
+    ],
+    "funFact": "A concierge past closing time.",
+    "funFactJa": "閉店後の案内係。",
+    "searchQuery": "送り幽霊 おくりゆうれい 妖怪",
+    "creativeHooks": [
+      "Keep 送り犬 and 送り提灯 on their cards.",
+      "A walk home with no pulse.",
+      "The thank-you is the plot."
+    ],
+    "sources": [
+      "Okuri-yurei road lore"
+    ]
+  },
+  {
+    "name": "Neko-guruma",
+    "nativeName": "猫車",
+    "region": "Cats that pull carts",
+    "category": "変化",
+    "categoryEn": "Cat cart",
+    "summary": "Cats that pull a cart at night, stacked with treasure or fire.",
+    "summaryJa": "猫が車を引いて夜を行く。荷は宝か、火か。",
+    "legends": [
+      "A convoy of tails",
+      "Do not flag it down",
+      "Neighbour to nekomata, with logistics"
+    ],
+    "traits": [
+      "Cart-pulling cats",
+      "Night freight",
+      "Treasure or fire",
+      "Nekomata neighbour"
+    ],
+    "motifs": [
+      "Named cart",
+      "Cat family",
+      "Procession",
+      "Household leftover"
+    ],
+    "funFact": "A delivery app with whiskers.",
+    "funFactJa": "ひげの配達。",
+    "searchQuery": "猫車 ねこぐるま 妖怪",
+    "creativeHooks": [
+      "A logistics firm of cats.",
+      "Keep nekomata as the forked-tail card.",
+      "The cargo is the plot."
+    ],
+    "sources": [
+      "Neko-guruma yokai index"
+    ]
+  },
+  {
+    "name": "Hone-guruma",
+    "nativeName": "骨車",
+    "region": "Carts of bone",
+    "category": "死霊",
+    "categoryEn": "Bone cart",
+    "summary": "A cart made of bones; neighbour to wanyudo, which is a burning wheel with a face.",
+    "summaryJa": "骨でできた車。火の輪に顔がある輪入道とは別項。",
+    "legends": [
+      "Freight of an ossuary",
+      "Axles that were someone",
+      "Do not hitch a ride"
+    ],
+    "traits": [
+      "Bone wagon",
+      "Night freight",
+      "Wanyudo neighbour",
+      "Ossuary wheels"
+    ],
+    "motifs": [
+      "Named cart",
+      "Death logistics",
+      "Wheel family",
+      "Road"
+    ],
+    "funFact": "A moving company for graves.",
+    "funFactJa": "墓の引越し。",
+    "searchQuery": "骨車 ほねぐるま 妖怪",
+    "creativeHooks": [
+      "Keep 輪入道 as the burning face.",
+      "A hitch with no flesh.",
+      "The axle is the plot."
+    ],
+    "sources": [
+      "Hone-guruma bone-cart lore"
+    ]
   }
 ]
