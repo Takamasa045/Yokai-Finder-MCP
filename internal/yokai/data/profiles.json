@@ -13170,5 +13170,893 @@
     "sources": [
       "Hebi-onna snake-woman tales"
     ]
+  },
+  {
+    "name": "Osakabe-hime",
+    "nativeName": "長壁姫",
+    "region": "Himeji Castle",
+    "category": "屋敷",
+    "categoryEn": "Osakabe princess",
+    "summary": "The lady of Himeji Castle; she sits the keep's top floor and is more often heard than seen.",
+    "summaryJa": "姫路城の女主人。天守の最上階に坐し、姿より声や夢で知られる城の妖怪。",
+    "legends": [
+      "Samurai who climb the keep without leave go mad or die",
+      "She appears as an old woman, a princess, or only a voice",
+      "The castle's fortune is her household account"
+    ],
+    "traits": [
+      "Castle mistress",
+      "Unseen keep",
+      "Himeji",
+      "Voice before face"
+    ],
+    "motifs": [
+      "Castle yokai",
+      "Named lady",
+      "Forbidden floor",
+      "Domain spirit"
+    ],
+    "funFact": "A facilities manager with a tenshu.",
+    "funFactJa": "天守の設備課長。",
+    "searchQuery": "長壁姫 おさかべひめ 妖怪",
+    "creativeHooks": [
+      "A floor that is off the org chart.",
+      "Keep her a castle yokai, not a princess mascot.",
+      "The keep is the body."
+    ],
+    "sources": [
+      "Osakabe-hime / Himeji castle lore"
+    ]
+  },
+  {
+    "name": "Kosode-no-te",
+    "nativeName": "小袖の手",
+    "region": "Sleeves that reach",
+    "category": "付喪神",
+    "categoryEn": "Kosode hands",
+    "summary": "A tsukumogami of a kosode whose sleeves grow living hands; a famous Sekien plate.",
+    "summaryJa": "小袖の袖から手が伸びる付喪神。鳥山石燕の図で知られる。",
+    "legends": [
+      "A discarded kimono clocks in at night",
+      "The sleeve is an arm",
+      "Laundry that grabs the living"
+    ],
+    "traits": [
+      "Living sleeves",
+      "Reaching hands",
+      "Worn kosode",
+      "Sekien plate"
+    ],
+    "motifs": [
+      "Tsukumogami",
+      "Named garment",
+      "Women's wear",
+      "Grab"
+    ],
+    "funFact": "A wardrobe with a handshake.",
+    "funFactJa": "握手する箪笥。",
+    "searchQuery": "小袖の手 こそでのて 妖怪",
+    "creativeHooks": [
+      "A dressing room that holds you.",
+      "Keep the hands in the sleeve.",
+      "Lost clothing as staff."
+    ],
+    "sources": [
+      "Toriyama Sekien Kosode-no-te"
+    ]
+  },
+  {
+    "name": "Bake-nagamochi",
+    "nativeName": "化け長持",
+    "region": "Chests that walk",
+    "category": "付喪神",
+    "categoryEn": "Monster chest",
+    "summary": "A tsukumogami of a nagamochi chest that walks at night and may take a person inside.",
+    "summaryJa": "長持の付喪神。夜に歩き、人を中へ入れて運ぶ話もある。",
+    "legends": [
+      "A moving van with no horse",
+      "The lid is a mouth",
+      "Bridal chests that outlive the marriage"
+    ],
+    "traits": [
+      "Walking chest",
+      "Lid-mouth",
+      "Storehouse night",
+      "Tool spirit"
+    ],
+    "motifs": [
+      "Tsukumogami",
+      "Named furniture",
+      "Moving house",
+      "Containment"
+    ],
+    "funFact": "Logistics that swallows the cargo.",
+    "funFactJa": "荷を呑む物流。",
+    "searchQuery": "化け長持 ばけながもち 妖怪",
+    "creativeHooks": [
+      "A move-out that is a haunting.",
+      "Keep the lid.",
+      "The chest is the vehicle."
+    ],
+    "sources": [
+      "Nagamochi tsukumogami / yokai encyclopedias"
+    ]
+  },
+  {
+    "name": "Bake-hishaku",
+    "nativeName": "化け柄杓",
+    "region": "Ladles after hours",
+    "category": "付喪神",
+    "categoryEn": "Ladle spirit",
+    "summary": "A tsukumogami of a hishaku ladle; neighbour tool to the bottomless dipper of funa-yurei.",
+    "summaryJa": "柄杓の付喪神。船幽霊が求める底無し柄杓の、道具側の項。",
+    "legends": [
+      "Scoops more than water",
+      "A well with a staff of one ladle",
+      "Bottomless as a job description"
+    ],
+    "traits": [
+      "Night ladle",
+      "Water tool",
+      "Bottomless rumour",
+      "Tsukumogami"
+    ],
+    "motifs": [
+      "Named dipper",
+      "Funa-yurei neighbour",
+      "Well",
+      "Household"
+    ],
+    "funFact": "A measuring cup that refuses to measure.",
+    "funFactJa": "計らない計量カップ。",
+    "searchQuery": "化け柄杓 ばけひしゃく 妖怪",
+    "creativeHooks": [
+      "Keep funa-yurei on the other card.",
+      "A well that hires hardware.",
+      "The scoop is the plot."
+    ],
+    "sources": [
+      "Hishaku tsukumogami lore"
+    ]
+  },
+  {
+    "name": "Bake-usu",
+    "nativeName": "化け臼",
+    "region": "Mortars that grind alone",
+    "category": "付喪神",
+    "categoryEn": "Mortar spirit",
+    "summary": "A tsukumogami of a mortar that grinds at night with no hands on the pestle.",
+    "summaryJa": "臼の付喪神。人が寝たあと、杵なしでも碾く音がする。",
+    "legends": [
+      "Kitchen overtime in stone",
+      "The grain census continues after dark",
+      "A pestle may join as 化け杵"
+    ],
+    "traits": [
+      "Night grinding",
+      "Empty kitchen",
+      "Stone mouth",
+      "Tool spirit"
+    ],
+    "motifs": [
+      "Tsukumogami",
+      "Named mill",
+      "Audio haunt",
+      "Agrarian house"
+    ],
+    "funFact": "A mill with no miller.",
+    "funFactJa": "粉引きのいない製粉。",
+    "searchQuery": "化け臼 ばけうす 妖怪",
+    "creativeHooks": [
+      "A night shift in the dirt floor.",
+      "Keep the sound.",
+      "The mortar is staff."
+    ],
+    "sources": [
+      "Usu tsukumogami lore"
+    ]
+  },
+  {
+    "name": "Kankera-bi",
+    "nativeName": "かんけら火",
+    "region": "Kankera field-fires",
+    "category": "霊火",
+    "categoryEn": "Kankera fire",
+    "summary": "A regional onibi named for a kankera rattle or flicker over night fields.",
+    "summaryJa": "かんけらと鳴る、あるいは揺れる霊火。地方の鬼火の呼び名。",
+    "legends": [
+      "A percussion of sparks in the grass",
+      "Farmers name the sound before the shape",
+      "Neighbour to janjan-bi and rinrin-bi"
+    ],
+    "traits": [
+      "Rattle-fire",
+      "Field night",
+      "Onomatopoeic onibi",
+      "Regional name"
+    ],
+    "motifs": [
+      "Onibi family",
+      "Named noise",
+      "Rural fire",
+      "Index of flames"
+    ],
+    "funFact": "A spark with a nickname.",
+    "funFactJa": "あだ名のある火。",
+    "searchQuery": "かんけら火 かんけらび 妖怪",
+    "creativeHooks": [
+      "Keep the onomatopoeia.",
+      "A field with a soundtrack.",
+      "Do not merge it into generic onibi."
+    ],
+    "sources": [
+      "Kankera-bi regional fire lore"
+    ]
+  },
+  {
+    "name": "Bake-kurage",
+    "nativeName": "化けくらげ",
+    "region": "Jellyfish that walk the tide",
+    "category": "海",
+    "categoryEn": "Monster jellyfish",
+    "summary": "A jellyfish that takes a face or a walk; an umbrella of the tide that is not a karakasa.",
+    "summaryJa": "くらげの変化。傘が顔になり、沖で人を惑わす。唐傘お化けとは別項。",
+    "legends": [
+      "A float that looks back",
+      "Sting as a greeting",
+      "Fishers haul a person-shaped bell"
+    ],
+    "traits": [
+      "Faced bell",
+      "Tide umbrella",
+      "Sting",
+      "Sea shapeshift"
+    ],
+    "motifs": [
+      "Named cnidarian",
+      "Karakasa neighbour in shape only",
+      "Offshore",
+      "Catch"
+    ],
+    "funFact": "A lantern of the current.",
+    "funFactJa": "潮の提灯。",
+    "searchQuery": "化けくらげ ばけくらげ 妖怪",
+    "creativeHooks": [
+      "Keep the sting; it is not a paper umbrella.",
+      "A haul that looks at you.",
+      "The bell is the face."
+    ],
+    "sources": [
+      "Bake-kurage sea-yokai index"
+    ]
+  },
+  {
+    "name": "Bake-tako",
+    "nativeName": "化け蛸",
+    "region": "Octopi of the rocks",
+    "category": "海",
+    "categoryEn": "Monster octopus",
+    "summary": "A giant octopus yokai; sometimes a nyudo-face that pulls boats under the rocks.",
+    "summaryJa": "巨大な化け蛸。入道の顔をして舟を磯へ引く話もある。",
+    "legends": [
+      "Arms as a harbour",
+      "A monk's head on a tide of suckers",
+      "Kenmun and kijimuna hate the meat; this card is the meat"
+    ],
+    "traits": [
+      "Nyudo face",
+      "Boat-puller",
+      "Rock den",
+      "Many arms"
+    ],
+    "motifs": [
+      "Named cephalopod",
+      "Sea oni",
+      "Fisherman dread",
+      "Inland-sea tales"
+    ],
+    "funFact": "A pier that hugs back.",
+    "funFactJa": "抱き返す桟橋。",
+    "searchQuery": "化け蛸 ばけだこ 妖怪",
+    "creativeHooks": [
+      "A harbour with too many hands.",
+      "Keep the nyudo face.",
+      "The sucker is the plot."
+    ],
+    "sources": [
+      "Bake-tako / tako-nyudo sea lore"
+    ]
+  },
+  {
+    "name": "Yashima-no-kamuro",
+    "nativeName": "屋島の禿",
+    "region": "Awa tanuki war",
+    "category": "狐狸",
+    "categoryEn": "Yashima kamuro",
+    "summary": "The great tanuki of the Awa tanuki war called Yashima-no-kamuro; opposite Kincho's line.",
+    "summaryJa": "阿波狸合戦の屋島の禿。金長・六右衛門の相手方に名が残る大狸。",
+    "legends": [
+      "A bald-headed great bake-danuki",
+      "The war memorial has this name on the other plaque",
+      "Leaf hats as opposing regiments"
+    ],
+    "traits": [
+      "Awa war tanuki",
+      "Bald great",
+      "Kincho's opposite",
+      "Named campaign"
+    ],
+    "motifs": [
+      "Tanuki polity",
+      "Shikoku cycle",
+      "Named rival",
+      "Animal honour"
+    ],
+    "funFact": "The other letterhead in the leaf-hat war.",
+    "funFactJa": "葉の戦争の相手社名。",
+    "searchQuery": "屋島の禿 やしまのかむろ 妖怪",
+    "creativeHooks": [
+      "Keep Kincho on the other card.",
+      "A civil war with tails.",
+      "The baldness is the banner."
+    ],
+    "sources": [
+      "Awa tanuki war / Yashima-no-kamuro"
+    ]
+  },
+  {
+    "name": "Mononoke",
+    "nativeName": "物の怪",
+    "region": "Heian possessing things",
+    "category": "古典",
+    "categoryEn": "Mononoke",
+    "summary": "The Heian cover-name for a possessing 'ke' that causes illness and hauntings; wider than yurei.",
+    "summaryJa": "病や祟りを起こす『け』。幽霊・怨霊より広い、平安以来の総称が図鑑の1項になる。",
+    "legends": [
+      "A court illness with no named ghost yet",
+      "Exorcism as diagnosis",
+      "Later ages split it into yurei, onryo, and yokai"
+    ],
+    "traits": [
+      "Cover-name spirit",
+      "Illness-haunt",
+      "Heian ke",
+      "Broader than yurei"
+    ],
+    "motifs": [
+      "Named category",
+      "Possession",
+      "Court medicine",
+      "Taxonomy as yokai"
+    ],
+    "funFact": "A filing cabinet that causes fever.",
+    "funFactJa": "熱を出す書類棚。",
+    "searchQuery": "物の怪 もののけ 妖怪",
+    "creativeHooks": [
+      "Keep 幽霊 and 怨霊 as neighbour cards.",
+      "A diagnosis that is a spirit.",
+      "The word is older than the species list."
+    ],
+    "sources": [
+      "Mononoke in Heian records / yokai encyclopedias"
+    ]
+  },
+  {
+    "name": "Shirachigo",
+    "nativeName": "白児",
+    "region": "White-robed child spirits",
+    "category": "屋敷",
+    "categoryEn": "White child",
+    "summary": "A white-robed child spirit on Sekien's plates; a small dead child in the house.",
+    "summaryJa": "白い児の霊。鳥山石燕の図に残る、家の小さな死。",
+    "legends": [
+      "A child who is only the colour white",
+      "Not zashiki-warashi's luck; this one does not bring rice",
+      "A nursery with no pulse"
+    ],
+    "traits": [
+      "White robe child",
+      "House dead",
+      "Sekien plate",
+      "Unlucky infant"
+    ],
+    "motifs": [
+      "Named child",
+      "Not warashi",
+      "Domestic grief",
+      "Picture-scroll"
+    ],
+    "funFact": "Do not confuse with the lucky parlor child.",
+    "funFactJa": "福の座敷童子と混ぜない。",
+    "searchQuery": "白児 しらちご 妖怪",
+    "creativeHooks": [
+      "A nursery that is a memorial.",
+      "Keep zashiki-warashi on the other card.",
+      "The white is the plot."
+    ],
+    "sources": [
+      "Sekien Shirachigo"
+    ]
+  },
+  {
+    "name": "Umihime",
+    "nativeName": "海姫",
+    "region": "Princess-shaped sea apparitions",
+    "category": "海",
+    "categoryEn": "Sea princess yokai",
+    "summary": "A princess-shaped apparition offshore; not Otohime of Ryugu, who was dropped as a folktale heroine.",
+    "summaryJa": "沖に現れる姫の姿の怪。竜宮の乙姫（昔話の人名）とは別項。",
+    "legends": [
+      "A light that curtsies on the swell",
+      "Boats follow a princess and miss the reef",
+      "The title is bait"
+    ],
+    "traits": [
+      "Offshore princess-shape",
+      "Reef lure",
+      "Not Ryugu's heroine",
+      "Sea apparition"
+    ],
+    "motifs": [
+      "Named lure",
+      "Sea woman",
+      "False court",
+      "Fisherman"
+    ],
+    "funFact": "A title that is a sandbar.",
+    "funFactJa": "砂州が称号。",
+    "searchQuery": "海姫 うみひめ 妖怪",
+    "creativeHooks": [
+      "Do not recast Otohime.",
+      "A navigation hazard in formal dress.",
+      "The bow is the plot."
+    ],
+    "sources": [
+      "Umihime sea-apparition lore"
+    ]
+  },
+  {
+    "name": "Shiofuki",
+    "nativeName": "潮吹き",
+    "region": "Spouts on the water",
+    "category": "海",
+    "categoryEn": "Tide-spouter",
+    "summary": "A sea yokai that spouts brine onto boats until they founder.",
+    "summaryJa": "潮を吹く海の妖怪。舟に塩水をかけて沈める。",
+    "legends": [
+      "A whale-spout with intent",
+      "Decks go white with salt",
+      "Bailing is the wrong job"
+    ],
+    "traits": [
+      "Brine spout",
+      "Boat-sinker",
+      "Salt deck",
+      "Sea beast"
+    ],
+    "motifs": [
+      "Named spout",
+      "Shipwreck",
+      "Marine assault",
+      "Index of the tide"
+    ],
+    "funFact": "A firehose of the sea.",
+    "funFactJa": "海の放水。",
+    "searchQuery": "潮吹き しおふき 妖怪",
+    "creativeHooks": [
+      "A pump that is a monster.",
+      "Keep the salt.",
+      "The spout is the plot."
+    ],
+    "sources": [
+      "Shiofuki sea-yokai lore"
+    ]
+  },
+  {
+    "name": "Bake-kakejiku",
+    "nativeName": "化け掛け軸",
+    "region": "Hanging scrolls at night",
+    "category": "付喪神",
+    "categoryEn": "Scroll spirit",
+    "summary": "A tsukumogami of a kakejiku; the painted figure steps out of the alcove.",
+    "summaryJa": "掛け軸の付喪神。描かれた人物が、夜に床の間を出る。",
+    "legends": [
+      "The tokonoma has a night shift",
+      "Ink that clocks out of the silk",
+      "A guest who was a landscape"
+    ],
+    "traits": [
+      "Walking painting",
+      "Alcove haunt",
+      "Ink staff",
+      "Tool spirit"
+    ],
+    "motifs": [
+      "Tsukumogami",
+      "Named scroll",
+      "House art",
+      "Byobu neighbour"
+    ],
+    "funFact": "A guest list written in sumi.",
+    "funFactJa": "墨のゲストリスト。",
+    "searchQuery": "化け掛け軸 ばけかけじく 妖怪",
+    "creativeHooks": [
+      "An alcove that hires.",
+      "Keep the scroll; the figure is staff.",
+      "The mounting is a door."
+    ],
+    "sources": [
+      "Kakejiku tsukumogami lore"
+    ]
+  },
+  {
+    "name": "Bake-soroban",
+    "nativeName": "化け算盤",
+    "region": "Abacuses that keep books",
+    "category": "付喪神",
+    "categoryEn": "Abacus spirit",
+    "summary": "A tsukumogami of a soroban; beads click in an empty shop after closing.",
+    "summaryJa": "算盤の付喪神。閉店後の帳場で、玉だけが弾ける。",
+    "legends": [
+      "An audit with no clerk",
+      "The beads are a pulse",
+      "Debts that count themselves"
+    ],
+    "traits": [
+      "Night beads",
+      "Empty cho-ba",
+      "Clicking books",
+      "Tool spirit"
+    ],
+    "motifs": [
+      "Tsukumogami",
+      "Named account",
+      "Merchant house",
+      "Audio haunt"
+    ],
+    "funFact": "Bookkeeping that unionised.",
+    "funFactJa": "帳簿が組合を作った。",
+    "searchQuery": "化け算盤 ばけそろばん 妖怪",
+    "creativeHooks": [
+      "A closing time that still adds.",
+      "Keep the click.",
+      "The debt is the plot."
+    ],
+    "sources": [
+      "Soroban tsukumogami lore"
+    ]
+  },
+  {
+    "name": "Bake-kasa",
+    "nativeName": "化け笠",
+    "region": "Sedge hats on the road",
+    "category": "付喪神",
+    "categoryEn": "Hat spirit",
+    "summary": "A tsukumogami of a sedge traveller's hat; neighbour to karakasa, not the same umbrella.",
+    "summaryJa": "旅笠の付喪神。油紙の唐傘お化けとは別項。",
+    "legends": [
+      "A hat that walks ahead of the wearer",
+      "Rain without a head",
+      "Lost kasa clock in at the inn"
+    ],
+    "traits": [
+      "Walking sedge",
+      "Headless rain",
+      "Road tool",
+      "Karakasa neighbour"
+    ],
+    "motifs": [
+      "Tsukumogami",
+      "Named hat",
+      "Travel",
+      "Comic haunt"
+    ],
+    "funFact": "A dress code with no head.",
+    "funFactJa": "頭のない服装規定。",
+    "searchQuery": "化け笠 ばけがさ 妖怪",
+    "creativeHooks": [
+      "Keep karakasa on the other card.",
+      "A packing list that patrols.",
+      "The brim is the face."
+    ],
+    "sources": [
+      "Kasa tsukumogami lore"
+    ]
+  },
+  {
+    "name": "Bake-kine",
+    "nativeName": "化け杵",
+    "region": "Pestles that keep time",
+    "category": "付喪神",
+    "categoryEn": "Pestle spirit",
+    "summary": "A tsukumogami of a pestle; neighbour to the mortar, pounding with no hands.",
+    "summaryJa": "杵の付喪神。化け臼の隣で、人が寝ても搗く。",
+    "legends": [
+      "A drumstick of the dirt floor",
+      "Mochi overtime",
+      "The pair of mortar and pestle as a couple of tools"
+    ],
+    "traits": [
+      "Night pestle",
+      "Solo pounding",
+      "Kitchen staff",
+      "Usu neighbour"
+    ],
+    "motifs": [
+      "Tsukumogami",
+      "Named pound",
+      "Audio haunt",
+      "Agrarian house"
+    ],
+    "funFact": "A metronome of rice.",
+    "funFactJa": "米のメトロノーム。",
+    "searchQuery": "化け杵 ばけきね 妖怪",
+    "creativeHooks": [
+      "Keep bake-usu as the other half.",
+      "A kitchen duo with no cook.",
+      "The beat is the plot."
+    ],
+    "sources": [
+      "Kine tsukumogami lore"
+    ]
+  },
+  {
+    "name": "Bake-tansu",
+    "nativeName": "化け箪笥",
+    "region": "Chests of drawers at night",
+    "category": "付喪神",
+    "categoryEn": "Tansu spirit",
+    "summary": "A tsukumogami of a tansu; drawers open as mouths and sort the house's clothes.",
+    "summaryJa": "箪笥の付喪神。引き出しが口になり、夜に衣を出し入れする。",
+    "legends": [
+      "A wardrobe that files people",
+      "Drawers as a census",
+      "Kosode-no-te may clock in from inside"
+    ],
+    "traits": [
+      "Mouth-drawers",
+      "Night filing",
+      "House furniture",
+      "Tool spirit"
+    ],
+    "motifs": [
+      "Tsukumogami",
+      "Named chest",
+      "Domestic",
+      "Kosode neighbour"
+    ],
+    "funFact": "A filing cabinet of sleeves.",
+    "funFactJa": "袖のファイリング。",
+    "searchQuery": "化け箪笥 ばけたんす 妖怪",
+    "creativeHooks": [
+      "A bedroom with HR.",
+      "Keep kosode-no-te as the garment card.",
+      "The drawer is the plot."
+    ],
+    "sources": [
+      "Tansu tsukumogami lore"
+    ]
+  },
+  {
+    "name": "Hyakume",
+    "nativeName": "百目",
+    "region": "Bodies of eyes",
+    "category": "異形",
+    "categoryEn": "Hundred eyes",
+    "summary": "A Sekien creature whose body is eyes; neighbour to dodomeki, not the woman with eyes on her arms.",
+    "summaryJa": "体が目だらけの妖怪。腕に目がある百々目鬼とは別の、石燕の図。",
+    "legends": [
+      "Surveillance without a face",
+      "Blink as locomotion",
+      "Do not merge with dodomeki"
+    ],
+    "traits": [
+      "Eye-body",
+      "Sekien plate",
+      "No single face",
+      "Dodomeki neighbour"
+    ],
+    "motifs": [
+      "Named gaze",
+      "Uncanny anatomy",
+      "Picture-scroll",
+      "Watching"
+    ],
+    "funFact": "A CCTV that is a person.",
+    "funFactJa": "人が監視カメラ。",
+    "searchQuery": "百目 ひゃくめ 妖怪",
+    "creativeHooks": [
+      "Keep 百々目鬼 on the other card.",
+      "A look that is the whole body.",
+      "The blink is the walk."
+    ],
+    "sources": [
+      "Sekien Hyakume"
+    ]
+  },
+  {
+    "name": "Namomi-takuri",
+    "nativeName": "ナモミタクリ",
+    "region": "Tohoku birthmark-peelers",
+    "category": "死霊",
+    "categoryEn": "Birthmark peeler",
+    "summary": "A Tohoku yokai that peels namomi (birthmarks and scabs) off sleepers in the night.",
+    "summaryJa": "東北で、寝ている人のナモミ（あざ）を剥ぐ妖怪。",
+    "legends": [
+      "A thief of marks, not of gold",
+      "Waking with a raw place where the namomi was",
+      "Winter houses lock more than doors"
+    ],
+    "traits": [
+      "Mark-peeler",
+      "Night sleeper-thief",
+      "Tohoku",
+      "Skin harvest"
+    ],
+    "motifs": [
+      "Regional yokai",
+      "Named scab",
+      "Body folklore",
+      "North"
+    ],
+    "funFact": "A pickpocket of the skin.",
+    "funFactJa": "皮膚のスリ。",
+    "searchQuery": "ナモミタクリ なもみたくり 妖怪",
+    "creativeHooks": [
+      "A clinic that is a haunting.",
+      "Keep the regional word namomi.",
+      "The scab is the treasure."
+    ],
+    "sources": [
+      "Namomi-takuri Tohoku lore"
+    ]
+  },
+  {
+    "name": "Bake-jizo",
+    "nativeName": "化け地蔵",
+    "region": "Jizo that walk",
+    "category": "道中",
+    "categoryEn": "Monster Jizo",
+    "summary": "A Jizo statue that walks, weeps, or blocks the road at night; the stone is the yokai.",
+    "summaryJa": "夜に動く地蔵。泣いたり道を塞いだりする、石そのものの怪。",
+    "legends": [
+      "A bib that clocks in after dark",
+      "Weeping stone on the verge",
+      "Do not confuse with the living bodhisattva we dropped"
+    ],
+    "traits": [
+      "Walking stone",
+      "Night bib",
+      "Roadblock statue",
+      "Weeping variant"
+    ],
+    "motifs": [
+      "Named statue",
+      "Wayside haunt",
+      "Not the kami card",
+      "Stone"
+    ],
+    "funFact": "Unpaid facilities work, again.",
+    "funFactJa": "また無給の設備課。",
+    "searchQuery": "化け地蔵 ばけじぞう 妖怪",
+    "creativeHooks": [
+      "Keep 地蔵 the bodhisattva off the roster.",
+      "A milestone that hunts.",
+      "The bib is the uniform."
+    ],
+    "sources": [
+      "Bake-jizo / naki-jizo roadside lore"
+    ]
+  },
+  {
+    "name": "Bake-gaeru",
+    "nativeName": "化け蛙",
+    "region": "Toads that stand up",
+    "category": "変化",
+    "categoryEn": "Monster toad",
+    "summary": "A giant toad yokai of wells and rain-nights; not Jiraiya the ninja, who was dropped as a hero.",
+    "summaryJa": "巨大な化け蛙。井戸や雨の夜に来る。児雷也（人名）とは別項。",
+    "legends": [
+      "A well that croaks",
+      "Rain as a doorbell",
+      "Do not recast the toad-ninja cycle"
+    ],
+    "traits": [
+      "Giant toad",
+      "Well haunt",
+      "Rain night",
+      "Not Jiraiya"
+    ],
+    "motifs": [
+      "Named amphibian",
+      "Water house",
+      "Shapeshift",
+      "Folk"
+    ],
+    "funFact": "A doorbell in the well.",
+    "funFactJa": "井戸の呼び鈴。",
+    "searchQuery": "化け蛙 ばけがえる 妖怪",
+    "creativeHooks": [
+      "Keep Jiraiya off the roster.",
+      "A garden that swallows.",
+      "The croak is the plot."
+    ],
+    "sources": [
+      "Bake-gaeru toad-yokai lore"
+    ]
+  },
+  {
+    "name": "Okuri-chochin",
+    "nativeName": "送り提灯",
+    "region": "Lanterns that see you home",
+    "category": "霊火",
+    "categoryEn": "Sending lantern",
+    "summary": "A lantern that follows a night walker home; the lamp-side cousin of okuri-inu.",
+    "summaryJa": "夜道で後ろから着いてくる提灯。送り犬の、灯りの側。",
+    "legends": [
+      "Look back and the light goes out, or comes closer",
+      "A courtesy that is a hunt",
+      "Do not thank it too soon"
+    ],
+    "traits": [
+      "Following lamp",
+      "Night road",
+      "Okuri-inu neighbour",
+      "Look-back taboo"
+    ],
+    "motifs": [
+      "Named escort",
+      "Fire on the road",
+      "Hospitality trap",
+      "Travel"
+    ],
+    "funFact": "A rideshare with no driver.",
+    "funFactJa": "運転者のいない送迎。",
+    "searchQuery": "送り提灯 おくりちょうちん 妖怪",
+    "creativeHooks": [
+      "Keep 送り犬 on the other card.",
+      "A courtesy light with teeth.",
+      "The thank-you is the plot."
+    ],
+    "sources": [
+      "Okuri-chochin road lore"
+    ]
+  },
+  {
+    "name": "Kitsune-no-mado",
+    "nativeName": "狐の窓",
+    "region": "The fox window",
+    "category": "狐狸",
+    "categoryEn": "Fox window",
+    "summary": "A fox art of looking through a finger-circle to see what is hidden; a yokai technique as an entry.",
+    "summaryJa": "指で輪を作り、隠れたものが見える狐の術。現象が図鑑の1項になる。",
+    "legends": [
+      "A lens made of fingers",
+      "Hidden gold, hidden faces, hidden roads",
+      "Neighbour to kitsune-no-yomeiri as fox phenomenon"
+    ],
+    "traits": [
+      "Finger aperture",
+      "See the hidden",
+      "Fox technique",
+      "Named window"
+    ],
+    "motifs": [
+      "Fox arts",
+      "Named seeing",
+      "Yomeiri neighbour",
+      "Perception"
+    ],
+    "funFact": "A camera app from a fox.",
+    "funFactJa": "狐のカメラアプリ。",
+    "searchQuery": "狐の窓 きつねのまど 妖怪",
+    "creativeHooks": [
+      "Keep 狐の嫁入り as the wedding card.",
+      "A UI made of fingers.",
+      "The aperture is the plot."
+    ],
+    "sources": [
+      "Kitsune-no-mado fox-lore"
+    ]
   }
 ]

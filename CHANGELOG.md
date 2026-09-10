@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.18.0
+
+- Catalog grew to 372 encyclopedia yokai. New names include 長壁姫, 小袖の手, 物の怪, 屋島の禿, 百目, ナモミタクリ, 化け長持, かんけら火, 化けくらげ, 化け蛸.
+- Same-being aliases added (油坊 → 火前坊, 火の車 → 火車, ガワッパ → 河童). Still no kami or hunters.
+
 ## 0.17.0
 
 - Catalog scope is yokai again: kami, hunters, and folktale heroes were dropped (伊邪那岐, 天照, 源義経, 桃太郎, 安倍晴明, and 123 others).

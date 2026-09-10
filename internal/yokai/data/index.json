@@ -5639,5 +5639,389 @@
     ],
     "tone": "horror",
     "famousRank": 3
+  },
+  {
+    "name": "Osakabe-hime",
+    "nativeName": "長壁姫",
+    "category": "屋敷",
+    "region": "姫路城",
+    "blurbJa": "姫路城の女主人。城の最上階に坐し、姿を見せぬことが多い。",
+    "tags": [
+      "城",
+      "女",
+      "姫路",
+      "古典",
+      "怖い"
+    ],
+    "tone": "mysterious",
+    "famousRank": 2
+  },
+  {
+    "name": "Kosode-no-te",
+    "nativeName": "小袖の手",
+    "category": "付喪神",
+    "region": "夜の小袖",
+    "blurbJa": "小袖から手が伸びる付喪神。石燕の絵で知られる。",
+    "tags": [
+      "衣",
+      "手",
+      "付喪神",
+      "夜",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 2
+  },
+  {
+    "name": "Bake-nagamochi",
+    "nativeName": "化け長持",
+    "category": "付喪神",
+    "region": "夜の蔵",
+    "blurbJa": "長持の付喪神。夜に歩き、人を中へ入れる話もある。",
+    "tags": [
+      "長持",
+      "付喪神",
+      "夜",
+      "蔵",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Bake-hishaku",
+    "nativeName": "化け柄杓",
+    "category": "付喪神",
+    "region": "水の柄杓",
+    "blurbJa": "柄杓の付喪神。船幽霊が求める底無しの隣の道具。",
+    "tags": [
+      "柄杓",
+      "付喪神",
+      "水",
+      "夜",
+      "道具"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Bake-usu",
+    "nativeName": "化け臼",
+    "category": "付喪神",
+    "region": "夜の臼",
+    "blurbJa": "臼の付喪神。主のいない夜に碾く。",
+    "tags": [
+      "臼",
+      "付喪神",
+      "夜",
+      "音",
+      "道具"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Kankera-bi",
+    "nativeName": "かんけら火",
+    "category": "霊火",
+    "region": "夜の野の火",
+    "blurbJa": "かんけらと鳴る、または揺れる霊火。地方の鬼火の名。",
+    "tags": [
+      "火",
+      "夜",
+      "霊火",
+      "音",
+      "地方"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Bake-kurage",
+    "nativeName": "化けくらげ",
+    "category": "海",
+    "region": "沖の傘",
+    "blurbJa": "くらげの変化。傘が顔になり、沖で人を惑わす。",
+    "tags": [
+      "くらげ",
+      "海",
+      "変化",
+      "怖い",
+      "沖"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Bake-tako",
+    "nativeName": "化け蛸",
+    "category": "海",
+    "region": "磯の足",
+    "blurbJa": "巨大な化け蛸。入道の顔で舟を引く話もある。",
+    "tags": [
+      "蛸",
+      "海",
+      "変化",
+      "怖い",
+      "磯"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Yashima-no-kamuro",
+    "nativeName": "屋島の禿",
+    "category": "狐狸",
+    "region": "阿波の狸合戦",
+    "blurbJa": "阿波狸合戦の屋島の禿。金長らの相手方の大狸。",
+    "tags": [
+      "狸",
+      "阿波",
+      "戦い",
+      "変化",
+      "古典"
+    ],
+    "tone": "solemn",
+    "famousRank": 3
+  },
+  {
+    "name": "Mononoke",
+    "nativeName": "物の怪",
+    "category": "古典",
+    "region": "病のけ",
+    "blurbJa": "病や祟りを起こす気。幽霊より広く、平安の『け』の総称。",
+    "tags": [
+      "憑き",
+      "病",
+      "古典",
+      "総称",
+      "怖い"
+    ],
+    "tone": "mysterious",
+    "famousRank": 1
+  },
+  {
+    "name": "Shirachigo",
+    "nativeName": "白児",
+    "category": "屋敷",
+    "region": "白い童",
+    "blurbJa": "白い児の霊。石燕の図に残る、小さな死の童。",
+    "tags": [
+      "子ども",
+      "白",
+      "屋敷",
+      "古典",
+      "死"
+    ],
+    "tone": "tragic",
+    "famousRank": 3
+  },
+  {
+    "name": "Umihime",
+    "nativeName": "海姫",
+    "category": "海",
+    "region": "沖の姫の怪",
+    "blurbJa": "沖に現れる姫の怪。竜宮の乙姫とは別項。",
+    "tags": [
+      "海",
+      "姫",
+      "女",
+      "怖い",
+      "沖"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Shiofuki",
+    "nativeName": "潮吹き",
+    "category": "海",
+    "region": "潮を吹く怪",
+    "blurbJa": "潮を吹く海の怪。舟に塩水をかけて沈める。",
+    "tags": [
+      "海",
+      "潮",
+      "舟",
+      "怖い",
+      "古典"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Bake-kakejiku",
+    "nativeName": "化け掛け軸",
+    "category": "付喪神",
+    "region": "床の間",
+    "blurbJa": "掛け軸の付喪神。絵の人物が床の間を出る。",
+    "tags": [
+      "掛け軸",
+      "付喪神",
+      "絵",
+      "屋敷",
+      "夜"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Bake-soroban",
+    "nativeName": "化け算盤",
+    "category": "付喪神",
+    "region": "夜の勘定",
+    "blurbJa": "算盤の付喪神。誰もいない帳場で玉が弾ける。",
+    "tags": [
+      "算盤",
+      "付喪神",
+      "音",
+      "夜",
+      "町"
+    ],
+    "tone": "mysterious",
+    "famousRank": 4
+  },
+  {
+    "name": "Bake-kasa",
+    "nativeName": "化け笠",
+    "category": "付喪神",
+    "region": "旅の笠",
+    "blurbJa": "笠の付喪神。唐傘お化けとは別の、旅笠の怪。",
+    "tags": [
+      "笠",
+      "付喪神",
+      "旅",
+      "道中",
+      "夜"
+    ],
+    "tone": "playful",
+    "famousRank": 4
+  },
+  {
+    "name": "Bake-kine",
+    "nativeName": "化け杵",
+    "category": "付喪神",
+    "region": "夜の杵",
+    "blurbJa": "杵の付喪神。臼の隣で、主のいない夜に搗く。",
+    "tags": [
+      "杵",
+      "付喪神",
+      "夜",
+      "音",
+      "道具"
+    ],
+    "tone": "comic",
+    "famousRank": 4
+  },
+  {
+    "name": "Bake-tansu",
+    "nativeName": "化け箪笥",
+    "category": "付喪神",
+    "region": "夜の箪笥",
+    "blurbJa": "箪笥の付喪神。引き出しが口になり、衣を出し入れする。",
+    "tags": [
+      "箪笥",
+      "付喪神",
+      "屋敷",
+      "夜",
+      "衣"
+    ],
+    "tone": "horror",
+    "famousRank": 4
+  },
+  {
+    "name": "Hyakume",
+    "nativeName": "百目",
+    "category": "異形",
+    "region": "目だらけの体",
+    "blurbJa": "体が目だらけの怪。百々目鬼（女の腕の目）とは別の石燕図。",
+    "tags": [
+      "目",
+      "異形",
+      "古典",
+      "怖い",
+      "夜"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Namomi-takuri",
+    "nativeName": "ナモミタクリ",
+    "category": "死霊",
+    "region": "東北の夜",
+    "blurbJa": "寝ている人のナモミ（あざ）を剥ぐ東北の怪。",
+    "tags": [
+      "東北",
+      "あざ",
+      "夜",
+      "怖い",
+      "地方"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Bake-jizo",
+    "nativeName": "化け地蔵",
+    "category": "道中",
+    "region": "夜の石",
+    "blurbJa": "夜に動く地蔵。泣いたり、道を塞いだりする石の怪。",
+    "tags": [
+      "地蔵",
+      "石",
+      "夜",
+      "道",
+      "怖い"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Bake-gaeru",
+    "nativeName": "化け蛙",
+    "category": "変化",
+    "region": "井戸と雨",
+    "blurbJa": "巨大な化け蛙。井戸や雨の夜に人の家へ来る。",
+    "tags": [
+      "蛙",
+      "変化",
+      "井戸",
+      "雨",
+      "怖い"
+    ],
+    "tone": "horror",
+    "famousRank": 3
+  },
+  {
+    "name": "Okuri-chochin",
+    "nativeName": "送り提灯",
+    "category": "霊火",
+    "region": "夜道の灯",
+    "blurbJa": "後ろから着いてくる提灯。送り犬の、灯の側。",
+    "tags": [
+      "提灯",
+      "夜",
+      "道中",
+      "火",
+      "送り"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
+  },
+  {
+    "name": "Kitsune-no-mado",
+    "nativeName": "狐の窓",
+    "category": "狐狸",
+    "region": "指の円",
+    "blurbJa": "指で輪を作り、隠れたものが見えるという狐の術。",
+    "tags": [
+      "狐",
+      "術",
+      "目",
+      "変化",
+      "古典"
+    ],
+    "tone": "mysterious",
+    "famousRank": 3
   }
 ]
