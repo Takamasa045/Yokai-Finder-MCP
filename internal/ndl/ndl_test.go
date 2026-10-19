@@ -242,3 +242,15 @@ func TestParseSample(t *testing.T) {
 	book := result.Results[0]
 	t.Logf("sample book: %+v", book)
 }
+
+func TestParseRSSRejectsUnexpectedDocuments(t *testing.T) {
+	for _, body := range []string{"<html><body>Maintenance</body></html>", "<error>Service unavailable</error>", "<rss/>"} {
+		if _, err := parseRSS([]byte(body)); err == nil {
+			t.Errorf("expected an error for %q, not an empty search result", body)
+		}
+	}
+	result, err := parseRSS([]byte(`<rss><channel><totalResults xmlns="http://a9.com/-/spec/opensearchrss/1.0/">0</totalResults></channel></rss>`))
+	if err != nil || result.Total != 0 || result.Results == nil {
+		t.Fatalf("valid empty RSS should return an empty array: result=%+v err=%v", result, err)
+	}
+}

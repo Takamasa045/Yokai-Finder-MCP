@@ -8,7 +8,7 @@
 - **詳細図鑑 600体** … 日英バイリンガルの伝承・創作フック（出典付きの増補分あり）
 - **国立国会図書館（NDL）** … 蔵書のリアルタイム検索と書影URL候補
 
-現在のバージョン: **v0.21.0**
+現在のバージョン: **v0.21.1**
 
 ## 特徴
 
@@ -142,19 +142,31 @@ codex mcp add yokai-finder -- /absolute/path/to/yokai-finder-mcp
   "mcpServers": {
     "yokai-finder": {
       "command": "go",
-      "args": ["run", "./cmd/server"],
-      "cwd": "/path/to/yokai-finder-mcp",
+      "args": ["-C", "/absolute/path/to/Yokai-Finder-MCP", "run", "./cmd/server"],
       "env": {}
     }
   }
 }
 ```
 
+`go run` の例は Go の `-C` で作業ディレクトリを指定します。MCPクライアントの起動場所に依存せず、クライアント固有の `cwd` 設定も不要です。`command` の `go` が見つからない場合は、`go` 実行ファイルの絶対パスに置き換えてください。
+
+### 登録後の確認・困ったとき
+
+1. 新しいチャットで「妖怪ファインダーを使って河童を調べて」と依頼します。`get_yokai` はローカル図鑑だけを使うので、NDLの接続状態と切り離して動作確認できます。
+2. 一覧を試すなら「水系の妖怪を20体。続きも見たい」と依頼します。続きは同じ絞り込み条件のまま `offset` を増やします。`total` は条件に一致した全件数、`returned` は今回の件数、`hasMore` は続きの有無です。
+3. 本を調べる場合は「河童の関連書籍を探して」と依頼します。`search_yokai_books` の `results: []` は該当なし、ツールエラーはNDLとの通信・応答の問題です。`yokai_of_the_day` はNDLに問題があっても図鑑を返し、`notes` で説明します。
+
+- **起動しない／ツールが見えない**: 実行ファイルの絶対パスと実行権限を確認し、クライアントを再起動して新しいチャットを開いてください。ソース版はリポジトリを移動したら `-C` のパスも更新します。
+- **ターミナルで実行しても何も出ない**: 引数なしの起動はstdio通信の待受です。対話メニューは表示しません。MCPクライアントから呼び出してください。終了は Ctrl+C です。
+- **候補が希望と違う**: `suggest_yokai` の `notes` と `whySuggested` を確認してください。条件に一致する候補がない場合は有名な妖怪を代わりに返し、その旨を明記します。厳密に一覧を絞るなら `list_yokai` を使います。
+- **名前が見つからない**: `get_yokai` の `suggestions` を確認するか、`list_yokai` の `term` で部分検索します。`カッパ` / `かわっぱ` などの登録済み別名や、かな・英字の表記揺れでも検索できます。
+
 任意の環境変数:
 
 | 変数 | 説明 |
 |------|------|
-| `YOKAI_FINDER_VERSION` | サーバーが報告するバージョン文字列（未設定時はビルド時の `0.21.0`） |
+| `YOKAI_FINDER_VERSION` | サーバーが報告するバージョン文字列（未設定時はビルド時の `0.21.1`） |
 | `YOKAI_FINDER_TOKEN` | `-http` でループバック以外に bind するときの Bearer トークン |
 
 stdio のほか、Streamable HTTP でも起動できます。既定ではループバックのみ、トークンなしで許可します。
@@ -193,7 +205,7 @@ stdio のほか、Streamable HTTP でも起動できます。既定ではルー�
 { "name": "suggest_yokai", "arguments": { "theme": "水", "audience": "入門" } }
 ```
 
-返却の `hasProfile: true` は詳細図鑑あり。次は `get_yokai` がおすすめです。
+返却の `hasProfile: true` は詳細図鑑あり。次は `get_yokai` がおすすめです。条件に一致する候補がない場合は有名な妖怪を代わりに返し、`notes` と `whySuggested` にその理由を明記します。
 
 ### 2. `get_yokai` — 1体を名前で取得
 
@@ -248,7 +260,7 @@ stdio のほか、Streamable HTTP でも起動できます。既定ではルー�
 
 予言 / 付喪神 / 古典 / 変化 / 屋敷 / 山系 / 憑きもの / 死霊 / 気象 / 水系 / 海 / 狐狸 / 現代伝承 / 田畑 / 町 / 異形 / 道中 / 霊火 / 鬼
 
-`get_yokai` は別名（`カッパ` `かわっぱ` `Kappa`）でも解決します。見つからないときは `suggestions` に「もしかして」候補が付きます。
+`list_yokai` の `term` と `get_yokai` は別名（`カッパ` `かわっぱ` `Kappa`）でも解決します。`get_yokai` で見つからないときは `suggestions` に「もしかして」候補が付きます。
 
 ### 4. `list_curated_yokai` — 非推奨（互換用）
 
@@ -327,7 +339,7 @@ ISBN（10/13桁、ハイフン・スペース可）または全国書誌番号�
 | `isbn` | ※ | ISBN-10 または ISBN-13 |
 | `jpno` | ※ | 全国書誌番号 |
 
-※ `isbn` と `jpno` のどちらか一方は必須。
+※ `isbn` と `jpno` のどちらか一方は必須。`jpno` は8〜10桁の数字で指定します。有効な識別子がなければ入力エラーを返します。
 
 ```json
 { "name": "get_cover_thumbnail", "arguments": { "isbn": "4-04-883992-6" } }

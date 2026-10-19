@@ -620,3 +620,23 @@ func TestGetYokaiEmptyName(t *testing.T) {
 		t.Fatalf("expected error for empty name")
 	}
 }
+
+func TestSuggestYokaiExplainsFallback(t *testing.T) {
+	h := New(nil, nil)
+	result, err := h.SuggestYokai(context.Background(), types.SuggestYokaiParams{Term: "zzzz-no-such-theme"})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(result.Items) == 0 || len(result.Notes) == 0 {
+		t.Fatalf("fallback suggestions need a note explaining the unmatched query: %+v", result)
+	}
+	for _, item := range result.Items {
+		if !strings.Contains(item.WhySuggested, "条件に一致") {
+			t.Errorf("fallback reason must explain the mismatch, got %q", item.WhySuggested)
+		}
+	}
+	matched, err := h.SuggestYokai(context.Background(), types.SuggestYokaiParams{Theme: "水"})
+	if err != nil || len(matched.Items) == 0 || len(matched.Notes) != 0 {
+		t.Fatalf("matched query should not report a fallback: %+v, %v", matched, err)
+	}
+}

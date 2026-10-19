@@ -105,6 +105,13 @@ func FindIndexByName(name string) (IndexEntry, bool) {
 // Suggest ranks and returns index entries matching vibe/theme/setting/audience.
 // With no filters it returns a diverse well-known set (famous rank 1–2 first).
 func Suggest(query SuggestQuery) []IndexEntry {
+	entries, _ := SuggestWithFallback(query)
+	return entries
+}
+
+// SuggestWithFallback also reports whether no conditions matched and a
+// well-known starter set was returned instead. Callers should explain this.
+func SuggestWithFallback(query SuggestQuery) ([]IndexEntry, bool) {
 	limit := query.Limit
 	if limit <= 0 {
 		limit = 6
@@ -144,6 +151,7 @@ func Suggest(query SuggestQuery) []IndexEntry {
 	}
 
 	// Fallback: if filters yielded nothing, return well-known set
+	fallback := hasFilter && len(candidates) == 0
 	if len(candidates) == 0 {
 		for _, entry := range yokaiIndex {
 			if entry.FamousRank <= 2 {
@@ -171,7 +179,7 @@ func Suggest(query SuggestQuery) []IndexEntry {
 		poolSize = len(candidates)
 	}
 	if poolSize == 0 {
-		return nil
+		return nil, fallback
 	}
 	pool := candidates[:poolSize]
 
@@ -202,7 +210,7 @@ func Suggest(query SuggestQuery) []IndexEntry {
 	for i := 0; i < n; i++ {
 		out[i] = copyIndexEntry(pool[i].entry)
 	}
-	return out
+	return out, fallback
 }
 
 // HasCuratedProfile reports whether a full bilingual Profile exists for this entry.
@@ -237,6 +245,14 @@ func normalizeQuery(s string) string {
 }
 
 func indexMatchesTerm(entry IndexEntry, term string) bool {
+	normalized := NormalizeQuery(term)
+	// Separators alone must not become an empty substring matching all facets.
+	if normalized == "" {
+		return false
+	}
+	if resolved, ok := LookupIndex(term); ok && resolved.Name == entry.Name {
+		return true
+	}
 	fields := []string{
 		entry.Name,
 		entry.NativeName,
@@ -246,19 +262,21 @@ func indexMatchesTerm(entry IndexEntry, term string) bool {
 		entry.Tone,
 	}
 	for _, field := range fields {
-		if strings.Contains(strings.ToLower(field), term) {
+		if strings.Contains(strings.ToLower(field), term) || strings.Contains(NormalizeQuery(field), normalized) {
 			return true
 		}
 	}
-	for _, tag := range entry.Tags {
-		if strings.Contains(strings.ToLower(tag), term) {
-			return true
+	for _, pool := range [][]string{entry.Tags, entry.Aliases} {
+		for _, value := range pool {
+			if strings.Contains(strings.ToLower(value), term) || strings.Contains(NormalizeQuery(value), normalized) {
+				return true
+			}
 		}
 	}
 	facets := RegionFacetsFor(entry)
 	for _, pool := range [][]string{facets.Prefectures, facets.Areas, facets.Habitats} {
 		for _, value := range pool {
-			if strings.Contains(strings.ToLower(value), term) || strings.Contains(NormalizeQuery(value), NormalizeQuery(term)) {
+			if strings.Contains(strings.ToLower(value), term) || strings.Contains(NormalizeQuery(value), normalized) {
 				return true
 			}
 		}

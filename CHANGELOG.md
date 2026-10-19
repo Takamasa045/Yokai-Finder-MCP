@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.21.1
+
+- `list_yokai` now recognizes registered name aliases and kana/case/separator variants. Separator-only terms no longer match most of the roster.
+- `suggest_yokai` explains when it returns a famous starter set because the query had no matches; ranking and fallback candidates are preserved.
+- Empty roster/curated/related results serialize as arrays, and invalid standalone JP numbers return actionable tool errors.
+- Unexpected NDL XML/HTML and missing RSS channels are errors rather than successful zero-book searches. Daily lore remains available and errors stay out of the cache.
+- Added MCP client regression coverage for empty results, invalid input and recovery, NDL failures, and successful empty-result caching. Documented setup verification, pagination, and Go's `-C` option.
+
 ## 0.21.0
 
 - `list_yokai` now returns 20 entries by default (max still 600) and accepts `offset` for paging. Responses include `hasMore`, `offset`, and `limit`.

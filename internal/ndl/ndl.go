@@ -74,7 +74,8 @@ func (c *Client) WithBaseURL(baseURL string) *Client {
 }
 
 type rssFeed struct {
-	Channel rssChannel `xml:"channel"`
+	XMLName xml.Name    `xml:"rss"`
+	Channel *rssChannel `xml:"channel"`
 }
 
 type rssChannel struct {
@@ -252,6 +253,10 @@ func parseRSS(data []byte) (*types.YokaiSearchResult, error) {
 	var feed rssFeed
 	if err := xml.Unmarshal(data, &feed); err != nil {
 		return nil, fmt.Errorf("parse rss: %w", err)
+	}
+
+	if feed.Channel == nil {
+		return nil, errors.New("parse rss: missing channel in NDL response")
 	}
 
 	total := 0

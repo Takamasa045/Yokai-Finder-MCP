@@ -143,7 +143,7 @@ func (h *Handler) ListYokai(_ context.Context, params types.YokaiIndexParams) (*
 			Returned: 0,
 			Offset:   cleaned.Offset,
 			Limit:    cleaned.Limit,
-			Items:    nil,
+			Items:    []types.YokaiIndexItem{},
 			Notes:    []string{"No yokai in the index matched the provided filters."},
 		}, nil
 	}
@@ -157,7 +157,7 @@ func (h *Handler) ListYokai(_ context.Context, params types.YokaiIndexParams) (*
 			Offset:   cleaned.Offset,
 			Limit:    cleaned.Limit,
 			HasMore:  false,
-			Items:    nil,
+			Items:    []types.YokaiIndexItem{},
 			Notes:    []string{fmt.Sprintf("offset %d is past the %d matching yokai. Pass a smaller offset.", cleaned.Offset, len(matches))},
 		}, nil
 	}
@@ -198,7 +198,7 @@ func (h *Handler) ListYokai(_ context.Context, params types.YokaiIndexParams) (*
 func (h *Handler) SuggestYokai(_ context.Context, params types.SuggestYokaiParams) (*types.SuggestYokaiResult, error) {
 	cleaned := normaliseSuggestParams(params)
 
-	matches := yokai.Suggest(yokai.SuggestQuery{
+	matches, fallback := yokai.SuggestWithFallback(yokai.SuggestQuery{
 		Vibe:     cleaned.Vibe,
 		Theme:    cleaned.Theme,
 		Setting:  cleaned.Setting,
@@ -214,15 +214,23 @@ func (h *Handler) SuggestYokai(_ context.Context, params types.SuggestYokaiParam
 			Query:    query,
 			Total:    0,
 			Returned: 0,
-			Items:    nil,
+			Items:    []types.SuggestYokaiItem{},
 			Notes: []string{
 				"条件に合う妖怪が見つかりませんでした。vibe/theme/setting を緩めるか list_yokai・search_yokai_books をお試しください。",
 			},
 		}, nil
 	}
 
+	var notes []string
+	if fallback {
+		notes = []string{"条件に一致する妖怪が見つからなかったため、入門向けの有名な妖怪を代わりに紹介します。vibe/theme/setting/term を変えて再検索してください。"}
+	}
 	items := make([]types.SuggestYokaiItem, 0, len(matches))
 	for _, entry := range matches {
+		why := buildWhySuggested(entry, cleaned)
+		if fallback {
+			why = "条件に一致する候補がなかったため、有名な妖怪を代わりに紹介"
+		}
 		items = append(items, types.SuggestYokaiItem{
 			Name:         entry.Name,
 			NativeName:   entry.NativeName,
@@ -233,7 +241,7 @@ func (h *Handler) SuggestYokai(_ context.Context, params types.SuggestYokaiParam
 			Tone:         entry.Tone,
 			FamousRank:   entry.FamousRank,
 			HasProfile:   entry.HasCuratedProfile(),
-			WhySuggested: buildWhySuggested(entry, cleaned),
+			WhySuggested: why,
 		})
 	}
 
@@ -242,7 +250,7 @@ func (h *Handler) SuggestYokai(_ context.Context, params types.SuggestYokaiParam
 		Total:    len(items),
 		Returned: len(items),
 		Items:    items,
-		Notes:    nil,
+		Notes:    notes,
 	}, nil
 }
 
@@ -316,7 +324,7 @@ func (h *Handler) ListCuratedYokai(_ context.Context, params types.CuratedYokaiP
 			Query:    cleaned.Term,
 			Total:    0,
 			Returned: 0,
-			Profiles: nil,
+			Profiles: []types.CuratedYokaiProfile{},
 			Notes:    []string{"No curated yokai matched the provided filters."},
 		}, nil
 	}
@@ -760,6 +768,7 @@ func (h *Handler) RelatedYokai(_ context.Context, params types.RelatedYokaiParam
 	if origin.Name == "" {
 		return &types.RelatedYokaiResult{
 			Name:  name,
+			Items: []types.RelatedYokaiItem{},
 			Notes: []string{fmt.Sprintf("「%s」に一致する妖怪が見つかりませんでした。", name)},
 		}, nil
 	}

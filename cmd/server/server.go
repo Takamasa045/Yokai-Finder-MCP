@@ -309,6 +309,9 @@ func newServer(h *handler.Handler) *mcp.Server {
 			return nil, nil, errors.New("isbn could not be parsed: use ISBN-10 or ISBN-13, hyphens allowed")
 		}
 		covers := ndl.BuildCoverURLs(isbn, jpno)
+		if len(covers.Candidates) == 0 {
+			return nil, nil, errors.New("jpno could not be parsed: use 8 to 10 digits for 全国書誌番号")
+		}
 		return nil, &covers, nil
 	})
 

@@ -349,3 +349,28 @@ func tonesOf(entries []IndexEntry) []string {
 	}
 	return out
 }
+
+func TestFilterIndexNameVariants(t *testing.T) {
+	for _, term := range []string{"カッパ", "かわっぱ", "かっぱ", " KAPPA ", "K a p p a", "きじむなー"} {
+		t.Run(term, func(t *testing.T) {
+			want := "河童"
+			if term == "きじむなー" {
+				want = "キジムナー"
+			}
+			for _, entry := range FilterIndex(term, "", "") {
+				if entry.NativeName == want {
+					return
+				}
+			}
+			t.Fatalf("term %q should include %s", term, want)
+		})
+	}
+	for _, term := range []string{"---", "___", "zzzz-not-a-yokai"} {
+		if got := FilterIndex(term, "", ""); len(got) != 0 {
+			t.Errorf("term %q must not match all entries, got %d", term, len(got))
+		}
+	}
+	if got := FilterIndex("かわっぱ", "山系", ""); len(got) != 0 {
+		t.Fatal("alias must still respect category filters")
+	}
+}

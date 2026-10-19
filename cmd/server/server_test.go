@@ -2,10 +2,17 @@ package main
 
 import (
 	"context"
+	"encoding/json"
+	"io"
+	"net/http"
+	"reflect"
 	"strings"
 	"testing"
+	"time"
 
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/cache"
 	"github.com/Takamasa045/Yokai-Finder-MCP/internal/handler"
+	"github.com/Takamasa045/Yokai-Finder-MCP/internal/ndl"
 	"github.com/Takamasa045/Yokai-Finder-MCP/internal/yokai"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
@@ -179,5 +186,167 @@ func TestYokaiNameFromURI(t *testing.T) {
 	}
 	if _, err := yokaiNameFromURI("http://example/河童"); err == nil {
 		t.Fatal("expected error for non-yokai scheme")
+	}
+}
+
+func toolTestSession(t *testing.T, h *handler.Handler) (context.Context, *mcp.ClientSession) {
+	t.Helper()
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	t.Cleanup(cancel)
+	t1, t2 := mcp.NewInMemoryTransports()
+	serverSession, err := newServer(h).Connect(ctx, t1, nil)
+	if err != nil {
+		t.Fatal(err)
+	}
+	t.Cleanup(func() { _ = serverSession.Close() })
+	session, err := mcp.NewClient(&mcp.Implementation{Name: "test", Version: "0.0.0"}, nil).Connect(ctx, t2, nil)
+	if err != nil {
+		t.Fatal(err)
+	}
+	t.Cleanup(func() { _ = session.Close() })
+	return ctx, session
+}
+
+func toolPayload(t *testing.T, result *mcp.CallToolResult) map[string]any {
+	t.Helper()
+	if result.IsError {
+		t.Fatalf("unexpected tool error: %+v", result)
+	}
+	raw, err := json.Marshal(result.StructuredContent)
+	if err != nil {
+		t.Fatal(err)
+	}
+	var payload map[string]any
+	if err := json.Unmarshal(raw, &payload); err != nil {
+		t.Fatal(err)
+	}
+	// Older clients consume text content; it must carry the same JSON.
+	if len(result.Content) != 1 {
+		t.Fatalf("expected one JSON text block, got %+v", result.Content)
+	}
+	content, ok := result.Content[0].(*mcp.TextContent)
+	if !ok || !json.Valid([]byte(content.Text)) {
+		t.Fatalf("invalid JSON text content: %+v", result.Content)
+	}
+	var textPayload map[string]any
+	if err := json.Unmarshal([]byte(content.Text), &textPayload); err != nil || !reflect.DeepEqual(payload, textPayload) {
+		t.Fatalf("text and structured content differ: %v", err)
+	}
+	return payload
+}
+
+func TestToolEmptyResultsAreArrays(t *testing.T) {
+	ctx, session := toolTestSession(t, handler.New(nil, nil))
+	for _, tc := range []struct {
+		name string
+		args map[string]any
+		key  string
+	}{
+		{"list_yokai", map[string]any{"term": "zzzz-nope"}, "items"},
+		{"list_yokai", map[string]any{"term": "---"}, "items"},
+		{"list_yokai", map[string]any{"offset": 9999}, "items"},
+		{"list_curated_yokai", map[string]any{"term": "zzzz-nope"}, "profiles"},
+		{"related_yokai", map[string]any{"name": "zzzz-nope"}, "items"},
+	} {
+		t.Run(tc.name+"/"+tc.key+fmtArgs(tc.args), func(t *testing.T) {
+			result, err := session.CallTool(ctx, &mcp.CallToolParams{Name: tc.name, Arguments: tc.args})
+			if err != nil {
+				t.Fatal(err)
+			}
+			payload := toolPayload(t, result)
+			if items, ok := payload[tc.key].([]any); !ok || len(items) != 0 {
+				t.Fatalf("%s should be an empty array, got %T", tc.key, payload[tc.key])
+			}
+		})
+	}
+}
+
+func fmtArgs(args map[string]any) string {
+	raw, _ := json.Marshal(args)
+	return string(raw)
+}
+
+func TestToolInputErrorsAndRecovery(t *testing.T) {
+	ctx, session := toolTestSession(t, handler.New(nil, nil))
+	for _, tc := range []struct {
+		name string
+		args map[string]any
+	}{
+		{"get_yokai", map[string]any{}},
+		{"get_yokai", map[string]any{"name": 123}},
+		{"get_yokai", map[string]any{"name": "  "}},
+		{"compare_yokai", map[string]any{"left": "河童", "right": " "}},
+		{"get_cover_thumbnail", map[string]any{}},
+		{"get_cover_thumbnail", map[string]any{"isbn": "invalid"}},
+		{"get_cover_thumbnail", map[string]any{"jpno": "not-a-number"}},
+		{"get_cover_thumbnail", map[string]any{"jpno": "123"}},
+	} {
+		t.Run(tc.name+fmtArgs(tc.args), func(t *testing.T) {
+			result, err := session.CallTool(ctx, &mcp.CallToolParams{Name: tc.name, Arguments: tc.args})
+			if err == nil && !result.IsError {
+				t.Fatalf("invalid arguments must produce a protocol or tool error, got %+v", result)
+			}
+		})
+	}
+	result, err := session.CallTool(ctx, &mcp.CallToolParams{Name: "get_yokai", Arguments: map[string]any{"name": "カッパ"}})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got := toolPayload(t, result)["found"]; got != true {
+		t.Fatalf("session must remain usable after errors: %+v", result)
+	}
+	for _, args := range []map[string]any{{"jpno": "22222222"}, {"isbn": "4-04-883992-6"}} {
+		result, err := session.CallTool(ctx, &mcp.CallToolParams{Name: "get_cover_thumbnail", Arguments: args})
+		if err != nil {
+			t.Fatal(err)
+		}
+		if len(toolPayload(t, result)["candidates"].([]any)) == 0 {
+			t.Fatal("valid identifier must produce cover candidates")
+		}
+	}
+}
+
+type testRoundTripper func(*http.Request) (*http.Response, error)
+
+func (f testRoundTripper) RoundTrip(r *http.Request) (*http.Response, error) { return f(r) }
+
+func TestNDLUnexpectedResponseIsNotCachedAsNoBooks(t *testing.T) {
+	// A deterministic in-process transport: no sockets or external API calls.
+	body := "<html><body>Maintenance</body></html>"
+	calls := 0
+	client := ndl.NewClient().WithHTTPClient(&http.Client{Transport: testRoundTripper(func(*http.Request) (*http.Response, error) {
+		calls++
+		return &http.Response{StatusCode: http.StatusOK, Header: make(http.Header), Body: io.NopCloser(strings.NewReader(body))}, nil
+	})})
+	c := cache.NewCache(time.Minute, 4)
+	t.Cleanup(c.Stop)
+	ctx, session := toolTestSession(t, handler.New(client, c))
+	params := &mcp.CallToolParams{Name: "search_yokai_books", Arguments: map[string]any{"name": "河童"}}
+	result, err := session.CallTool(ctx, params)
+	if err != nil || !result.IsError {
+		t.Fatalf("malformed NDL response should be a tool error: %+v %v", result, err)
+	}
+	daily, err := session.CallTool(ctx, &mcp.CallToolParams{Name: "yokai_of_the_day", Arguments: map[string]any{"name": "河童"}})
+	if err != nil {
+		t.Fatal(err)
+	}
+	payload := toolPayload(t, daily)
+	if payload["profile"].(map[string]any)["nativeName"] != "河童" || len(payload["notes"].([]any)) == 0 {
+		t.Fatalf("daily pick should preserve lore and explain NDL failure: %+v", payload)
+	}
+	body = "<rss><channel/></rss>"
+	before := calls
+	for i := 0; i < 2; i++ {
+		result, err := session.CallTool(ctx, params)
+		if err != nil {
+			t.Fatal(err)
+		}
+		payload := toolPayload(t, result)
+		if payload["total"] != float64(0) || len(payload["results"].([]any)) != 0 {
+			t.Fatalf("valid zero-result RSS should succeed: %+v", payload)
+		}
+	}
+	if calls != before+1 {
+		t.Fatalf("error must not be cached; successful empty result should be cached, calls before=%d after=%d", before, calls)
 	}
 }
